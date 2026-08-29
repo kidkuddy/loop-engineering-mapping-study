@@ -9,3 +9,5 @@ paper/*.synctex.gz
 data/pdfs/
 __pycache__/
 *.pyc
+data/pdfs/
+data/text/

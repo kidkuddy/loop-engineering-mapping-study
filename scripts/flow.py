@@ -30,7 +30,8 @@ inc = one("""SELECT COUNT(*) FROM (
 excluded = screened - inc
 try:
     v = json.load(open(os.path.join(ROOT, "coding", "validation", "summary.json")))
-    vline = f"full-text validation sample: {v['assessed']} assessed,\n{v['excluded_at_full_text']} ineligible at full text"
+    vline = (f"full-text validation sample\n"
+             f"{v['assessed']} assessed, {v['excluded_at_full_text']} ineligible")
 except Exception:
     vline = "full-text validation sample"
 
@@ -39,29 +40,29 @@ vs = by_src.get("dblp-venue", 0)
 
 boxes = [
     (f"Records identified ($n={identified}$)\n"
-     f"database search {db}, manual venue search {vs}", "#e8eef7"),
-    (f"Removed by automated scope rule R1\n($n={removed}$)", "#f6ecec"),
+     f"database {db} $\\cdot$ venue search {vs}", "#e8eef7"),
+    (f"Removed by automated\nscope rule R1 ($n={removed}$)", "#f6ecec"),
     (f"Records screened on title and abstract\n($n={screened}$)", "#e8eef7"),
     (f"Excluded at screening ($n={excluded}$)", "#f6ecec"),
     (f"Included in the map ($n={inc}$)", "#e6f0e8"),
     (vline, "#f2f0e6"),
 ]
 fig, ax = plt.subplots(figsize=(3.4, 5.2))
-ax.set_xlim(0, 10); ax.set_ylim(0, 26); ax.axis("off")
+ax.set_xlim(-0.4, 10.6); ax.set_ylim(0, 26); ax.axis("off")
 ys = [23.0, 19.2, 15.6, 11.8, 8.2, 4.0]
 main = [0, 2, 4, 5]
 for i, ((txt, col), y) in enumerate(zip(boxes, ys)):
-    x, w = (0.3, 6.4) if i in main else (3.4, 6.3)
+    x, w = (0.0, 7.0) if i in main else (3.9, 6.5)
     h = 2.3 if "\n" in txt else 1.7
     ax.add_patch(FancyBboxPatch((x, y - h / 2), w, h, boxstyle="round,pad=0.12",
                                 fc=col, ec="#6b7a90", lw=.8))
-    ax.text(x + w / 2, y, txt, ha="center", va="center", fontsize=6.2)
+    ax.text(x + w / 2, y, txt, ha="center", va="center", fontsize=5.9)
 arrow = lambda a, b, **k: ax.add_patch(FancyArrowPatch(a, b, arrowstyle="-|>",
                                                        mutation_scale=8, lw=.8, color="#6b7a90", **k))
 for a, b in ((0, 2), (2, 4), (4, 5)):
-    arrow((3.5, ys[a] - 1.15), (3.5, ys[b] + 1.15))
+    arrow((3.5, ys[a] - 1.2), (3.5, ys[b] + 1.2))
 for a, b in ((0, 1), (2, 3)):
-    arrow((3.5, ys[a] - 1.6), (3.4, ys[b]))
+    arrow((3.5, ys[a] - 1.5), (3.4, ys[b]))
 fig.savefig(os.path.join(ROOT, "figures", "flow.pdf"), bbox_inches="tight")
 print(f"identified {identified} -> removed {removed} -> screened {screened} -> included {inc}")
 print(f"wrote {ROOT}/figures/flow.pdf")

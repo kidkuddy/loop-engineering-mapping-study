@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+10029,exclude,E2,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21,multi_agent_coordination,method,validation_research,controlled_experiment,fully_autonomous,journal,"p.9 Algorithm 1 is a single-pass 3-stage routing cascade that returns one label; control never re-enters. p.20 online feedback is future work. PDF fetched from the MDPI landing page."

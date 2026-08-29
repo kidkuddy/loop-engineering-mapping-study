@@ -75,7 +75,7 @@ SHORT = {
 mech = [m for m in ORDER["loop_mechanism"]]
 ylab = [SHORT.get(m, m) for m in mech]
 
-def bubble(ax_, tab, cols, title, invert):
+def bubble(ax_, tab, cols, title):
     xs, ys, ss, labels = [], [], [], []
     for j, c in enumerate(cols):
         for i, m in enumerate(mech):
@@ -89,7 +89,16 @@ def bubble(ax_, tab, cols, title, invert):
         ax_.text(x, y, str(n), ha="center", va="center", fontsize=6.4,
                  color="#10203d", zorder=4)
     ax_.set_xticks(range(len(cols)))
-    ax_.set_xticklabels([c.replace("_", "\n") for c in cols], fontsize=7, rotation=0)
+    xlabels = {
+        "validation_research": "valid.",
+        "evaluation_research": "eval.",
+        "solution_proposal": "solution\nproposal",
+        "philosophical_paper": "philos.\npaper",
+        "opinion_paper": "opinion",
+        "experience_paper": "experience",
+    }
+    ax_.set_xticklabels([xlabels.get(c, c.replace("_", "\n")) for c in cols],
+                        fontsize=6.5, rotation=0)
     ax_.set_yticks(range(len(mech)))
     ax_.set_xlim(-0.7, len(cols) - 0.3); ax_.set_ylim(-0.7, len(mech) - 0.3)
     ax_.grid(True, which="major", color="#dddddd", linewidth=.6, zorder=0)
@@ -97,23 +106,18 @@ def bubble(ax_, tab, cols, title, invert):
     ax_.set_title(title, fontsize=8.5, pad=6)
     for s in ax_.spines.values():
         s.set_color("#999999")
-    if invert:
-        ax_.invert_xaxis()
-        ax_.yaxis.tick_right()
     ax_.set_yticklabels([])
 
-fig, (l, r) = plt.subplots(1, 2, figsize=(7.1, 4.3), sharey=True,
-                           gridspec_kw={"wspace": .46})
-bubble(l, ct_contrib, ORDER["contribution_type"], "Contribution type", True)
-bubble(r, ct_res, ORDER["research_type"], "Research type", False)
-for i, t in enumerate(ylab):
-    fig.text(.5, 0, "", fontsize=1)
-    l.text(len(ORDER["contribution_type"]) - 0.5 + 0.15, i, t, ha="center", va="center",
-           fontsize=6.6, transform=l.transData)
+fig, (l, r) = plt.subplots(1, 2, figsize=(7.2, 4.5), sharey=True,
+                           gridspec_kw={"wspace": .12, "width_ratios": [5, 6]})
+bubble(l, ct_contrib, ORDER["contribution_type"], "Contribution type")
+bubble(r, ct_res, ORDER["research_type"], "Research type")
+l.set_yticklabels(ylab, fontsize=6.7)
+l.tick_params(axis="y", labelleft=True)
 fig.savefig(os.path.join(FIG, "bubble.pdf"), bbox_inches="tight")
 print(f"wrote {FIG}/bubble.pdf")
 
-fig2, ax2 = plt.subplots(figsize=(7.1, 3.1))
+fig2, ax2 = plt.subplots(figsize=(7.2, 3.35))
 ev = ORDER["evaluation_strategy"]
 bottom = [0] * len(mech)
 cmap = plt.get_cmap("Blues")
@@ -124,8 +128,12 @@ for k, e in enumerate(ev):
             edgecolor="white", linewidth=.5)
     bottom = [b + v for b, v in zip(bottom, vals)]
 ax2.set_xticks(range(len(mech)))
-ax2.set_xticklabels([m.replace("_and_", " &\n").replace("_", " ") for m in mech],
-                    fontsize=6.3)
+evidence_labels = [
+    "verify /\ngate", "critique /\nrevise", "loop\ndiagnosis",
+    "multi-\nagent", "plan /\ncontrol", "deliberative\nsearch",
+    "self-\nevolution", "memory /\ncontext", "budget /\nstop",
+]
+ax2.set_xticklabels(evidence_labels, fontsize=6.4)
 ax2.set_ylabel("papers", fontsize=8)
 ax2.legend(fontsize=6.2, ncol=4, frameon=False, loc="upper center",
            bbox_to_anchor=(.5, 1.22))
