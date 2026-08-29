@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 3780,
+  "title": "AgentTTS: Large Language Model Agent for Test-time Compute-optimal Scaling Strategy in Complex Tasks",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Test-time scaling (TTS) enhances the performance of large language models (LLMs) by allocating additional compute resources during inference. However, existing research primarily investigates TTS in single-stage tasks; while many real-world problems are multi-stage complex tasks, composed of a sequence of heterogeneous subtasks with each subtask requires LLM of specific capability. Therefore, we study a novel problem: the test-time compute-optimal scaling in multi-stage complex tasks, aiming to select suitable models and allocate budgets per subtask to maximize overall performance. TTS in multi-stage tasks introduces two fundamental challenges: (i) The combinatorial search space of model and budget allocations, combined with the high cost of inference, makes brute-force search impractical. (ii) The optimal model and budget allocations across subtasks are interdependent, increasing the complexity of the compute-optimal search. To address this gap, we conduct extensive pilot experiments on four tasks across six datasets, deriving three empirical insights characterizing the behavior of LLMs in multi-stage complex tasks. Informed by these insights, we propose AgentTTS, an LLM-agent-based framework that autonomously searches for compute-optimal allocations through iterative feedback-driven interactions with the execution environment. Experimental results demonstrate that AgentTTS significantly outperforms traditional and other LLM-based baselines in search efficiency, and shows improved robustness to varying training set sizes and enhanced interpretability."
+ },
+ {
+  "paper_id": 3783,
+  "title": "Latency and Token-Aware Test-Time Compute",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Inference-time scaling has emerged as a powerful way to improve large language model (LLM) performance by generating multiple candidate responses and selecting among them. However, existing work on dynamic allocation for test-time compute typically considers only parallel generation methods such as best-of-N, overlooking incremental decoding methods like beam search, and has largely ignored latency, focusing only on token usage. We formulate inference-time scaling as a problem of dynamic compute allocation and method selection, where the system must decide which strategy to apply and how much compute to allocate on a per-query basis. Our framework explicitly incorporates both token cost and wall-clock latency, the latter being critical for user experience and particularly for agentic workflows where models must issue multiple queries efficiently. Experiments on reasoning benchmarks show that our approach consistently outperforms static strategies, achieving favorable accuracy-cost trade-offs while remaining practical for deployment."
+ },
+ {
+  "paper_id": 3784,
+  "title": "FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Scaling test-time computation has been shown to significantly improve large language model (LLM) performance without additional training. However, extending these techniques to multi-agent systems remains challenging: existing approaches lack principled mechanisms for allocating compute to enable effective collaboration, scaling coordination itself, or optimizing compute usage under explicit budget constraints. To address this gap, we propose FutureWeaver, a framework for planning and optimizing test-time compute allocation in multi-agent systems under fixed budgets. It introduces collaboration modules, formalized as modular, callable functions that encapsulate reusable multi-agent workflows and are automatically induced via self-play reflection from recurring interaction patterns. Building on these modules, it employs \\emph{a dual-level planning architecture} that jointly performs short-horizon action selection and long-horizon abstract lookahead to optimize inference trajectories under budget constraints. Experiments on complex agent benchmarks demonstrate that FutureWeaver consistently outperforms baselines across diverse budget settings, validating its effectiveness for multi-agent collaboration in inference-time optimization."
+ },
+ {
+  "paper_id": 3790,
+  "title": "Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning",
+  "year": 2025,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Inference-time computation is a critical yet challenging paradigm for enhancing the reasoning performance of large language models (LLMs). While existing strategies improve reasoning stability and consistency, they suffer from notable limitations: self-correction often reinforces the model's initial biases, and Multi-Agent Collaboration (MAC) often fails due to the lack of efficient coordination mechanisms, leading to collective errors. Although high-performing verifiers can detect reasoning errors, making them reliable requires substantial training. To address these challenges, we introduce a novel inference-time framework, Adaptive Coopetition (AdCo), in which LLM agents utilize an adaptive, UCB-based \"coopetition\" mechanism. At each round, agents leverage coarse verifier signals to determine whether to collaborate or compete, and iteratively refine their reasoning based on peer feedback. Without relying on high-performance verifiers, our adaptive strategy achieves significant performance gains on mathematical reasoning benchmarks, yielding a 20% relative improvement over baselines on the more challenging dataset. Our approach remains robust and consistent in terms of accuracy under different sample sizes and configurations. This adaptive, signal-guided \"coopetition\" framework enhances reasoning robustness by leveraging both model knowledge diversity and reasoning trace measures, while also promoting uncertainty-driven exploration, especially when participants have comparable capabilities. From this perspective, our work offers a fresh lens on inference-time computation and paves the way for more resilient multi-agent LLM systems. Our code is available at: https://github.com/AdCo-Research/adaptive-coopetition."
+ },
+ {
+  "paper_id": 3794,
+  "title": "When and How Much to Imagine: Adaptive Test-Time Scaling with World Models for Visual Spatial Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Despite rapid progress in MLLMs, visual spatial reasoning remains unreliable when correct answers depend on how a scene would appear under unseen or alternative viewpoints. Recent work addresses this by augmenting reasoning with world models for visual imagination, but questions such as when imagination is actually necessary, how much of it is beneficial, and when it becomes harmful, remain poorly understood. In practice, indiscriminate imagination can increase computation and even degrade performance by introducing misleading evidence. In this work, we present an in-depth analysis of test-time visual imagination as a controllable resource for spatial reasoning. We first study when static visual evidence is sufficient, when imagination improves reasoning, and how excessive or unnecessary imagination affects accuracy and efficiency. To support this analysis, we then introduce AVIC, an adaptive test-time framework with world models that explicitly reasons about the sufficiency of current visual evidence before selectively invoking and scaling visual imagination. Finally, to further learn this gating and planning behavior without any annotation of when and how much to imagine, we introduce AVIC-R, which trains the policy via GRPO from QA-correctness rewards and penalties by imagination cost. Across spatial reasoning benchmarks (SAT, MMSI) and an embodied navigation benchmark (R2R), our results reveal clear scenarios where imagination is critical, marginal, or detrimental, and show that selective control can match or outperform fixed imagination strategies with substantially fewer world-model calls and language tokens. Our AVIC-R surpasses strong proprietary baselines including GPT-4o and GPT-4.1 while invoking the world model less often. Overall, our findings highlight the importance of analyzing and controlling test-time imagination for efficient and reliable spatial reasoning."
+ },
+ {
+  "paper_id": 3795,
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model."
+ },
+ {
+  "paper_id": 3796,
+  "title": "The Art of Scaling Test-Time Compute for Large Language Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Test-time scaling (TTS) -- the dynamic allocation of compute during inference -- is a promising direction for improving reasoning in large language models (LLMs). However, a systematic comparison of well-known TTS strategies under identical conditions is missing, and the influence of model type and problem difficulty on performance remains unclear. To address these gaps, we conduct the first large-scale study of TTS, spanning over thirty billion tokens generated using eight open-source LLMs (7B to 235B parameters), across four reasoning datasets. We observe three consistent trends: (1) no single TTS strategy universally dominates; (2) reasoning models exhibit distinct trace-quality patterns across problem difficulty and trace length, forming short-horizon and long-horizon categories; and (3) for a given model type, the optimal TTS performance scales monotonically with compute budget. Based on these insights, we provide a practical recipe for selecting the best TTS strategy, considering problem difficulty, model type, and compute budget, providing a practical guide to effective inference-time scaling."
+ },
+ {
+  "paper_id": 3799,
+  "title": "Budget-Aware Tool Use Enables Effective Agent Scaling",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Scaling test-time computation has been extended from language model reasoning to tool-augmented agents, where scaling involves not only thinking in tokens but also acting via tool calls that directly constrain environmental interaction. However, we found that simply increasing the tool-call budget fails to improve performance, as agents lack \"budget awareness\" and quickly hit a performance ceiling. We study how to scale such agents effectively under explicit tool-call budgets, focusing on web search agents. We first introduce the Budget Tracker, a lightweight plug-in that provides the agent with continuous budget awareness, enabling simple yet effective scaling. We further develop BATS (Budget-Aware Test-time Scaling), an advanced framework that leverages this awareness to dynamically adapt its planning and verification strategy. To analyze cost-performance scaling in a controlled manner, we formalize a unified cost metric that jointly accounts for token and tool consumption. We provide the first systematic study on budget-constrained agents, showing that budget-aware methods produce more favorable scaling curves and push the cost-performance Pareto frontier. Our work offers empirical insights toward a more transparent and principled understanding of scaling in tool-augmented agents. Our code is available at https://github.com/google-research/budget-aware-agent."
+ },
+ {
+  "paper_id": 3805,
+  "title": "Zero-Overhead Introspection for Adaptive Test-Time Compute",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models excel at reasoning but lack key aspects of introspection, including anticipating their own success and the computation required to achieve it. Humans use real-time introspection to decide how much effort to invest, when to make multiple attempts, when to stop, and when to signal success or failure. Without this, LLMs struggle to make intelligent meta-cognition decisions. Test-time scaling methods like Best-of-N drive up cost and latency by using a fixed budget of samples regardless of the marginal benefit of each one at any point in generation, and the absence of confidence signals can mislead people, prevent appropriate escalation to better tools, and undermine trustworthiness. Learned verifiers or reward models can provide confidence estimates, but do not enable adaptive inference and add substantial cost by requiring extra models or forward passes. We present ZIP-RC, which equips models with zero-overhead introspective predictions of reward and cost. At every token, ZIP-RC reuses reserved or unused logits in the same forward pass as next-token prediction to output a joint distribution over final reward and remaining length -- no extra models, architecture change, or inference overhead. This full joint distribution is used to compute a sampling utility which is the linear combination of the expected maximum reward, total compute, and latency of set of samples if generated to completion. During inference, we maximize this utility with meta-actions that determine which prefix of tokens to continue or initiate sampling from. On mixed-difficulty mathematical benchmarks, ZIP-RC improves accuracy by up to 12% over majority voting at equal or lower average cost, and traces smooth Pareto frontiers between quality, compute, and latency. By providing real-time reward-cost introspection, ZIP-RC enables adaptive, efficient reasoning."
+ },
+ {
+  "paper_id": 3812,
+  "title": "Inference Scaling for Long-Context Retrieval Augmented Generation",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The scaling of inference computation has unlocked the potential of long-context large language models (LLMs) across diverse settings. For knowledge-intensive tasks, the increased compute is often allocated to incorporate more external knowledge. However, without effectively utilizing such knowledge, solely expanding context does not always enhance performance. In this work, we investigate inference scaling for retrieval augmented generation (RAG), exploring the combination of multiple strategies beyond simply increasing the quantity of knowledge, including in-context learning and iterative prompting. These strategies provide additional flexibility to scale test-time computation (e.g., by increasing retrieved documents or generation steps), thereby enhancing LLMs' ability to effectively acquire and utilize contextual information. We address two key questions: (1) How does RAG performance benefit from the scaling of inference computation when optimally configured? (2) Can we predict the optimal test-time compute allocation for a given budget by modeling the relationship between RAG performance and inference parameters? Our observations reveal that increasing inference computation leads to nearly linear gains in RAG performance when optimally allocated, a relationship we describe as the inference scaling laws for RAG. Building on this, we further develop the computation allocation model to estimate RAG performance across different inference configurations. The model predicts optimal inference parameters under various computation constraints, which align closely with the experimental results. By applying these optimal configurations, we demonstrate that scaling inference compute on long-context LLMs achieves up to 58.9% gains on benchmark datasets compared to standard RAG."
+ },
+ {
+  "paper_id": 3815,
+  "title": "AgentPRM: Process Reward Models for LLM Agents via Step-Wise Promise and Progress",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Despite rapid development, large language models (LLMs) still encounter challenges in multi-turn decision-making tasks (i.e., agent tasks) like web shopping and browser navigation, which require making a sequence of intelligent decisions based on environmental feedback. Previous work for LLM agents typically relies on elaborate prompt engineering or fine-tuning with expert trajectories to improve performance. In this work, we take a different perspective: we explore constructing process reward models (PRMs) to evaluate each decision and guide the agent's decision-making process. Unlike LLM reasoning, where each step is scored based on correctness, actions in agent tasks do not have a clear-cut correctness. Instead, they should be evaluated based on their proximity to the goal and the progress they have made. Building on this insight, we propose a re-defined PRM for agent tasks, named AgentPRM, to capture both the interdependence between sequential decisions and their contribution to the final goal. This enables better progress tracking and exploration-exploitation balance. To scalably obtain labeled data for training AgentPRM, we employ a Temporal Difference-based (TD-based) estimation method combined with Generalized Advantage Estimation (GAE), which proves more sample-efficient than prior methods. Extensive experiments across different agentic tasks show that AgentPRM is over 8\u00d7 more compute-efficient than baselines, and it demonstrates robust improvement when scaling up test-time compute. Moreover, we perform detailed analyses to show how our method works and offer more insights, e.g., applying AgentPRM to the reinforcement learning of LLM agents."
+ },
+ {
+  "paper_id": 3817,
+  "title": "Self-Regulation and Requesting Interventions",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Human intelligence involves metacognitive abilities like self-regulation, recognizing limitations, and seeking assistance only when needed. While LLM Agents excel in many domains, they often lack this awareness. Overconfident agents risk catastrophic failures, while those that seek help excessively hinder efficiency. A key challenge is enabling agents with a limited intervention budget $C$ is to decide when to request assistance. In this paper, we propose an offline framework that trains a \"helper\" policy to request interventions, such as more powerful models or test-time compute, by combining LLM-based process reward models (PRMs) with tabular reinforcement learning. Using state transitions collected offline, we score optimal intervention timing with PRMs and train the helper model on these labeled trajectories. This offline approach significantly reduces costly intervention calls during training. Furthermore, the integration of PRMs with tabular RL enhances robustness to off-policy data while avoiding the inefficiencies of deep RL. We empirically find that our method delivers optimal helper behavior."
+ },
+ {
+  "paper_id": 3818,
+  "title": "Learning to Generate Unit Tests for Automated Debugging",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Unit tests (UTs) play an instrumental role in assessing code correctness as well as providing feedback to large language models (LLMs), motivating automated test generation. However, we uncover a trade-off between generating unit test inputs that reveal errors when given a faulty code and correctly predicting the unit test output without access to the gold solution. To address this trade-off, we propose UTGen, which teaches LLMs to generate unit test inputs that reveal errors along with their correct expected outputs based on task descriptions. Since model-generated tests can provide noisy signals (e.g., from incorrectly predicted outputs), we propose UTDebug that (i) scales UTGen via test-time compute to improve UT output prediction, and (ii) validates and backtracks edits based on multiple generated UTs to avoid overfitting, and helps LLMs debug effectively. We show that UTGen outperforms other LLM-based baselines by 7.59% based on a metric measuring the presence of both error-revealing UT inputs and correct UT outputs. When used with UTDebug, we find that feedback from UTGen's unit tests improves pass@1 accuracy of Qwen2.5 32B on HumanEvalFix and our own harder debugging split of MBPP+ by over 3.17% and 12.35% (respectively) over other LLM-based UT generation baselines. Moreover, we observe that feedback from Qwen2.5 32B-based UTGen model can enhance debugging with frontier LLMs like GPT-4o by 13.8%. Lastly, we demonstrate that UTGen is a better judge for code correctness, outperforming a state-of-the-art trained 8B reward model by 4.43% on HumanEval+ with best-of-10 sampling using Qwen2.5 7B."
+ },
+ {
+  "paper_id": 3825,
+  "title": "When to Revise: Cost-Aware Adaptive Routing for LLM Reasoning",
+  "year": 2026,
+  "venue": "SSRN Electronic Journal",
+  "source": "openalex",
+  "abstract": ""
+ },
+ {
+  "paper_id": 3830,
+  "title": "CoRefine: Confidence-Guided Self-Refinement for Adaptive Test-Time Compute",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consumes full-trace confidence to decide whether to halt, re-examine, or try a different approach, enabling targeted self-correction with an average of 2.7 refinement steps per problem and roughly 190-fold token reduction relative to 512-sample baselines. Across diverse reasoning benchmarks and three open-source models, the controller achieves 92.6 percent precision when it confidently halts, indicating that confidence dynamics reliably signal correctness without ground-truth verification. We extend this to CoRefine-Tree, a hybrid sequential-parallel variant that adaptively balances exploration and exploitation, with easy serving integration and verifier compatibility. By treating confidence as a control signal rather than a correctness guarantee, CoRefine provides a modular primitive for scalable reasoning and agentic settings with imperfect verifiers."
+ },
+ {
+  "paper_id": 3833,
+  "title": "On the Limits of Test-Time Compute: Sequential Reward Filtering for Better Inference",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Test-time compute (TTC) has become an increasingly prominent paradigm for enhancing large language models (LLMs). Despite the empirical success of methods such as best-of-$n$ (BoN) sampling and sequential revision, their fundamental limits remain unclear. We address this gap by analyzing a mixture-of-reference policy model and proving that standard BoN is inherently suboptimal. To move closer to the optimal frontier, we study reward-filtered sequential inference, a simple procedure that selectively incorporates only high-reward generations into the context. This mechanism concentrates computation on superior policy candidates and suppresses inferior ones. On the theoretical side, we show that reward-filtered sequential inference yields strictly stronger guarantees than standard TTC paradigms. On the empirical side, we evaluate such an inference strategy across diverse benchmarks and observe consistent improvements over widely used approaches, demonstrating the practical effectiveness of our framework."
+ },
+ {
+  "paper_id": 3836,
+  "title": "FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Scaling test-time computation has been shown to significantly improve large language model (LLM) performance without additional training. However, extending these techniques to multi-agent systems remains challenging: existing approaches lack principled mechanisms for allocating compute to enable effective collaboration, scaling coordination itself, or optimizing compute usage under explicit budget constraints. To address this gap, we propose FutureWeaver, a framework for planning and optimizing test-time compute allocation in multi-agent systems under fixed budgets. It introduces collaboration modules, formalized as modular, callable functions that encapsulate reusable multi-agent workflows and are automatically induced via self-play reflection from recurring interaction patterns. Building on these modules, it employs \\emph{a dual-level planning architecture} that jointly performs short-horizon action selection and long-horizon abstract lookahead to optimize inference trajectories under budget constraints. Experiments on complex agent benchmarks demonstrate that FutureWeaver consistently outperforms baselines across diverse budget settings, validating its effectiveness for multi-agent collaboration in inference-time optimization."
+ },
+ {
+  "paper_id": 3838,
+  "title": "Dynamic Closed-Loop Steering for Adaptive and Geometry-Preserving System-2 Reasoning",
+  "year": 2026,
+  "venue": "Applied Sciences",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are undergoing a paradigm shift from fast generation to deliberate System-2 reasoning, where scaling test-time compute is critical for unlocking complex reasoning capabilities. Yet, more computation does not guarantee better reasoning: under unconstrained test-time scaling, models frequently fall into \u201coverthinking\u201d traps, repeatedly elaborating on incorrect trajectories while wasting token budgets. We propose Dynamic Closed-Loop Steering, a training-free framework that treats reasoning as a monitored control process rather than a static decoding run. The framework follows a sense\u2013decide\u2013act design: lightweight latent signals sense trajectory divergence, a feedback regulator determines adaptive intervention timing and intensity, and a geometry-preserving actuation step redirects hidden states while maintaining their norm structure. This design emphasizes adaptive control and macro-level trajectory observability over static hidden-state addition. Across mathematical and reasoning benchmarks, Dynamic Closed-Loop Steering improves final-answer accuracy while curbing excess token consumption, yielding Pareto-favorable trade-offs across the large majority of evaluated configurations, with graceful degradation near the model\u2019s capability floor. Trajectory analysis confirms the method effectively suppresses repetitive self-justification and accelerates recovery from erroneous episodes. These results establish closed-loop, geometry-preserving intervention as a practical foundation for robust System-2 reasoning."
+ },
+ {
+  "paper_id": 3846,
+  "title": "T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent studies have demonstrated that test-time compute scaling effectively improves the performance of small language models (sLMs). However, prior research has mainly examined test-time compute scaling with an additional larger model as a verifier, leaving verification by sLMs underexplored. In this work, we investigate whether sLMs can reliably verify the output candidates under test-time scaling. We find that even with knowledge distillation from larger verifiers, sLMs struggle with verification tasks requiring memorization, such as numerical calculations and fact-checking. To address this limitation, we propose Tool-integrated verification (T1), a two-stage framework that first filters candidates with external tools and then uses an sLM for final verification, offloading memorization-heavy steps to tools such as a code interpreter. Within T1, we prove that offloading to external tools reduces the memorization burden on sLMs and improves test-time scaling performance. Experiments on the MATH benchmark demonstrate that, with T1, a Llama-3.2 1B model under test-time scaling outperforms the significantly larger Llama-3.1 8B model. Moreover, T1 improves the verification accuracy of both process reward models (PRMs) and critic models. Our findings highlight the potential of tool integration to substantially improve the verification abilities of sLMs."
+ },
+ {
+  "paper_id": 3847,
+  "title": "Parallel Environments for Agents",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models increasingly benefit from scaling test-time compute through parallel sampling and best-of-N decoding. However, these approaches treat reasoning as static text generation, overlooking that real-world agentic tasks require interaction with stateful environments. For example, software engineering agents must iteratively execute code, observe test results, and adapt within changing environments. We introduce ParallelEnv, a modular execution framework that enables agents to branch their execution across parallel, isolated environment instances. ParallelEnv represents execution as a state graph over immutable environment snapshots, supports pluggable environment backends (Docker containers, VMs), and provides configurable scheduling strategies (priority, beam, round-robin) for managing concurrent branches. On SWE-bench Pro, tree-forking with ParallelEnv achieves 48% resolve rate at $0.50 cost, a 15-point gain over single-path baselines at matched compute budget."
+ },
+ {
+  "paper_id": 3849,
+  "title": "Interpretable Adaptive Sampling for LLM Test-Time Scaling",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Test-time scaling improves LLM reasoning by generating and aggregating multiple candidate answers, yet many pipelines use fixed per-query budgets that spend the same compute on easy and difficult prompts. These fixed budgets are also difficult to inspect because they do not explain why a given prompt receives a particular number of samples. We propose adaptive} test-time scaling with a lightweight fuzzy controller that maps interpretable signals, including estimated prompt complexity and model confidence, to a per-query sampling budget. The controller assigns fewer samples to easier or more confident prompts and more samples to harder or less certain prompts, making inference-time compute inspectable rather than fixed or opaque. We evaluate under a fair-alignment protocol with matched decoding settings and controlled answer selection, and compare against best-of-$N$, compute-aware scaling, and self-certainty-based baselines on question-answering and mathematical reasoning tasks. Across models and datasets, adaptive fuzzy control improves over several standard baselines and remains close to a selector-matched full-budget control while reducing the average number of samples. These findings suggest that interpretable adaptive sampling is a practical direction for more efficient test-time reasoning in large language models."
+ },
+ {
+  "paper_id": 3855,
+  "title": "MUR: Momentum Uncertainty guided Reasoning for Large Language Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models have achieved impressive performance on reasoning-intensive tasks, yet optimizing their reasoning efficiency remains an open challenge. While Test-Time Scaling (TTS) improves reasoning quality, it often leads to overthinking, wasting tokens on redundant computations. This work investigates how to efficiently and adaptively guide current model' test-time scaling without additional training. Inspired by the concept of momentum in physics, we propose Momentum Uncertainty-guided Reasoning (MUR), which dynamically allocates thinking budgets to critical reasoning steps by tracking and aggregating stepwise uncertainty over time. To support flexible inference-time control, we introduce gamma-control, a simple mechanism that tunes the reasoning budget via a single hyperparameter. We provide in-depth theoretical proof to support the superiority of MUR in terms of stability and biases. MUR is comprehensively evaluated against various TTS methods across four challenging benchmarks (MATH-500, AIME24, AIME25, and GPQA-diamond) using different sizes of recent Qwen3 models (1.7B, 4B, and 8B). Results demonstrate that MUR reduces computation by by over 45% on average while improving accuracy from 0.33 to 3.46%."
+ },
+ {
+  "paper_id": 3856,
+  "title": "Test-Time Compute and Budget (\u201cReasoning Effort\u201d): An Underrecognized Methodologic Variable in Medical Large Language Model Research",
+  "year": 2026,
+  "venue": "Korean Journal of Radiology",
+  "source": "openalex",
+  "abstract": "THINK DEEPLY: WHAT IS TEST-TIME COMPUTE?Test-time compute (TTC) is the allocation of additional computation during inference to enable a large language model (LLM) to perform internal and deliberate reasoning to solve complex tasks (\"think deeply before answering\").Driven by this mechanism, current LLMs have shifted from immediate heuristic pattern completion to slower multistep reasoning.Nowadays, these new LLMs are often called \"reasoning models.\"Unlike traditional language models constrained to single-pass autoregressive next-token predictions based on statistical regularities, they can explore, evaluate, and refine candidate solution paths before answering [1].In the nascent stage, Snell et al. [2] demonstrated that TTC can outperform simply scaling training-time resources, such as model parameters, pretraining data, or total training Test-Time Compute and Budget (\"Reasoning Effort\"): An Underrecognized Methodologic Variable in Medical Large Language Model Research"
+ },
+ {
+  "paper_id": 3857,
+  "title": "Think Hard Only When Needed: A Hybrid Best-of-N and Beam Search for Efficient Test-Time Compute",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Test-time compute has emerged as a promising paradigm that enables small language models (SLMs) to achieve large language model (LLM)-level capabilities by allocating additional compute for explicit reasoning during inference.Two common approaches are beam search and Best-of-N sampling.Beam search improves reasoning quality by scoring and optimizing token sequences using Process Reward Models (PRMs), but can incur non-trivial computational overhead and latency.In contrast, Best-of-N executes all reasoning trajectories without PRM guidance, often wasting compute on low-quality trajectories that may have gone astray early in the generation process.To address both inefficiencies, we propose THROW (THink haRd Only When needed)-a hybrid inference pipeline that combines the diversity of Best-of-N with the reasoning trajectory optimization of beam search.THROW introduces a selective branch truncation and expansion mechanism: it generates shorter initial trajectories than Best-of-N and evaluates them using PRMs to classify each query as \"easy\" or \"hard\".Based on this classification, THROW applies branch truncation for easy queries, mimicking Best-of-N, and PRM-guided branch expansion for hard ones, similar to beam search.Evaluations on MATH500, AMC23, and AIME24 demonstrate that THROW achieves 1.54\u00d7 and 14.38\u00d7 latency speedups and 35.7% and 80.4% token reductions on average while preserving high reasoning accuracy compared to Best-of-N and Beam Search, respectively."
+ },
+ {
+  "paper_id": 3859,
+  "title": "Dynamic Closed-Loop Steering for Robust and Interpretable System-2 Reasoning in Large Language Models",
+  "year": 2026,
+  "venue": "Preprints.org",
+  "source": "openalex",
+  "abstract": "Large language models, or LLMs, are moving from fast token generation toward deliberate multi-step reasoning. Scaling test-time compute has become a key way to improve performance on complex tasks because it gives models more opportunity to develop intermediate reasoning before producing an answer. However, unconstrained compute scaling frequently leads to a practical failure mode known as \"overthinking.\" Internally, models become trapped in high-entropy local minima, causing them to repeatedly elaborate on incorrect logical trajectories. Although recent inference-time interventions and budget constraints have shown promise in regulating this extended reasoning, they face two critical challenges: (1) external budget forcing applies coarse token truncation that disrupts logical coherence, and (2) static internal interventions rely on linear hidden-state additions that distort the model's inherent activation norms. Such geometric distortion can cause orthogonal noise, semantic drift, and state shock. We therefore propose Dynamic Closed-Loop Steering, an activation-engineering framework that unifies manifold geometry and feedback control to regulate long-chain test-time reasoning without retraining. Its core principle is to monitor overthinking as latent trajectory divergence while preserving the LayerNorm-induced hyperspherical geometry needed for safe correction. Specifically, our framework utilizes a highly interpretable dual-sensor system\u2014combining EMA entropy for divergence tracking and a ThinkBrake logit margin for endogenous convergence detection\u2014to monitor reasoning states in real time. Driven by an Adaptive Non-linear PD Regulator, the system actively corrects deviations via a geometry-consistent actuation path. By performing PCA-based manifold projection and norm-preserving spherical steering, it redirects drifting hidden states back toward valid reasoning manifolds without destructive perturbations. Empirical evaluations on challenging benchmarks, including MATH500 and AIME, show that our framework delivers a strict Pareto improvement over raw compute scaling. Beyond overall accuracy gains, micro-level trajectory analysis reveals that our approach improves the model's self-correction stability during long-horizon reasoning. On AIME2024, it achieves a 10.47-fold hard-tier Transition Advantage Ratio improvement, a 10:1 rescue-to-break ratio with 51 res"
+ }
+]

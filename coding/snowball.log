@@ -1,0 +1,73 @@
+DOI-bearing included papers: 474
+start set (seed 20260829)   : 100
+  [1/100] refs=  0 cites=  0  Retrospex: Language Agent Meets Offline Reinforcemen
+  [2/100] refs=  0 cites=  0  Agent-SAMA: State-Aware Mobile Assistant
+  [3/100] refs= 87 cites=  1  From the logic of coordination to goal-directed reas
+  [4/100] refs=  0 cites=  0  GENIUS: an agentic AI framework for autonomous desig
+  [5/100] refs=  0 cites=  0  AGENTIC COLLAPSE: A Time-Delayed Cybernetic Framewor
+  [6/100] refs=  0 cites=  0  Ai In The Loop: The Autonomous Sunk-Cost Fallacy
+  [7/100] refs=  0 cites=  0  LongHorizon-Harness: Advancing Long-Horizon Agents f
+  [8/100] refs=  0 cites=  0  Escaping the Self-Confirmation Trap: An Execute-Dist
+  [9/100] refs=  0 cites=  0  Agentic Framework for Deep Learning workload migrati
+  [10/100] refs=  0 cites=  0  Adaptive Data Flywheel: Applying MAPE Control Loops 
+  [11/100] refs=  0 cites=  0  AICL: A Control-Loop Architecture for Stable Long-Ho
+  [12/100] refs=  0 cites=  0  State Machine Structured Agents for Physical Science
+  [13/100] refs=  0 cites=  0  Enactive Cognitive Architectures for LLMs: A Homeost
+  [14/100] refs=  0 cites=  0  Safe integration of Large Language Models into indus
+  [15/100] refs=  0 cites=  0  Evaluation-Driven Development and Operations of LLM 
+  [16/100] refs=  6 cites= 17  Understanding the Weakness of Large Language Model A
+  [17/100] refs=  0 cites=  0  Large Language Model Agent as a Mechanical Designer
+  [18/100] refs=  0 cites= 10  Auto-GPT for Online Decision Making: Benchmarks and 
+  [19/100] refs=  0 cites=216  Encouraging Divergent Thinking in Large Language Mod
+  [20/100] refs=  0 cites=  4  CRITIC: Large Language Models Can Self-Correct with 
+  [21/100] refs=  2 cites=  9  MAGIC: Generating Self-Correction Guideline for In-C
+  [22/100] refs=  0 cites=  0  LATTE: Improving Latex Recognition for Tables and Fo
+  [23/100] refs=  0 cites=  0  Is Self-Repair a Silver Bullet for Code Generation?
+  [24/100] refs=  0 cites=  3  LLM-ARC: Enhancing LLMs with an Automated Reasoning 
+  [25/100] refs=  0 cites=  0  Towards Reasoning in Large Language Models via Multi
+  [26/100] refs=  0 cites= 77  Tree of Thoughts: Deliberate Problem Solving with La
+  [27/100] refs=  0 cites=  0  AlphaVerus: Bootstrapping Formally Verified Code Gen
+  [28/100] refs=  0 cites=  0  Hierarchical Multi-agent Large Language Model Reason
+  [29/100] refs=  0 cites=  1  Generating Sequences by Learning to Self-Correct
+  [30/100] refs=  0 cites=  0  ReSearch: Learning to Reason with Search for LLMs vi
+  [31/100] refs=  2 cites= 49  LLMs cannot find reasoning errors, but can correct t
+  [32/100] refs=  0 cites=  2  Plan-on-Graph: Self-Correcting Adaptive Planning of 
+  [33/100] refs= 24 cites=  1  LLM Self-Correction with DeCRIM: Decompose, Critique
+  [34/100] refs=  0 cites=  2  Can Large Language Models Solve Robot Routing?
+  [35/100] refs=  2 cites=  1  Diversity of Thought Elicits Stronger Reasoning Capa
+  [36/100] refs=  4 cites=  0  AgentDiagnose: An Open Toolkit for Diagnosing LLM Ag
+  [37/100] refs=  0 cites=  0  Self-Verifying Reflection Helps Transformers with Co
+  [38/100] refs=  0 cites=  0  Verification-Aware Planning for Multi-Agent Systems
+  [39/100] refs=  0 cites= 31  Let’s Sample Step by Step: Adaptive-Consistency for 
+  [40/100] refs=  0 cites=  0  AgentTTS: Large Language Model Agent for Test-time C
+  [41/100] refs=  0 cites=  0  Budget-Aware Tool Use Enables Effective Agent Scalin
+  [42/100] refs=  0 cites=  0  Parallel Environments for Agents
+  [43/100] refs=  0 cites=  2  Mind the Gap: Examining the Self-Improvement Capabil
+  [44/100] refs=  0 cites=  0  Collaborative Beam Search: Enhancing LLM Reasoning v
+  [45/100] refs=  0 cites=  0  CascadeDebate: Multi-Agent Deliberation for Cost-Awa
+  [46/100] refs=  0 cites=  0  Test-time Prompt Intervention
+  [47/100] refs=  0 cites=  0  ReAcTree: Hierarchical LLM Agent Trees with Control 
+  [48/100] refs=  0 cites=  0  Video Language Planning
+  [49/100] refs=  0 cites=  0  Statler: State-Maintaining Language Models for Embod
+  [50/100] refs=  0 cites=  0  Scalable Multi-Robot Collaboration with Large Langua
+  [51/100] refs=  0 cites=  0  Accelerating scientific discovery with Co-Scientist
+  [52/100] refs=  0 cites=  9  Describe, Explain, Plan and Select: Interactive Plan
+  [53/100] refs=  0 cites=  0  Trust-Aware Runtime Verification for Autonomous LLM 
+  [54/100] refs=  0 cites=  0  SOP-Agent: Empower General Purpose AI Agent with Dom
+  [55/100] refs=  0 cites=  0  Eval-Driven Memory (EDM): A Persistence Governance L
+  [56/100] refs=  0 cites=  0  Practice Makes Unsafe: Skill Misevolution in Self-Im
+  [57/100] refs=  0 cites=  0  Towards Reversible Forgetting: Managing Obsolete Kno
+  [58/100] refs=  0 cites=  0  PACEvolve: Enabling Long-Horizon Progress-Aware Cons
+  [59/100] refs=  0 cites=  0  ReSum: Unlocking Long-Horizon Search Intelligence vi
+  [60/100] refs= 15 cites=  0  ORCH: many analyses, one merge—a deterministic multi
+  [61/100] refs=  0 cites=  0  Flow: Modularized Agentic Workflow Automation
+  [62/100] refs=  0 cites=  0  SwarmAgentic: Towards Fully Automated Agentic System
+  [63/100] refs=  0 cites=  0  Multi-Agent Design: Optimizing Agents with Better Pr
+  [64/100] refs=  0 cites=  0  ToolSmith: A Multi-Agent Framework for Enterprise To
+  [65/100] refs=  0 cites=  0  Advancing Agentic Systems: Dynamic Task Decompositio
+  [66/100] refs=  0 cites=  0  Metagent-P: A Neuro-Symbolic Planning Agent with Met
+  [67/100] refs=  0 cites=  0  Do Agents Need to Plan Step-by-Step? Rethinking Plan
+  [68/100] refs=  0 cites=  0  A Closed-Loop Modular Language Agent with Step Verif
+  [69/100] refs=  0 cites=  0  Logic-Based Verification of Task Allocation for LLM-
+  [70/100] refs=  0 cites=  0  REFLEX: Metacognitive Reasoning for Reflective Zero-
+  [71/100] refs=  0 cites=  0  RAMP: Risk-Aware Multi-Turn Planning for Jailbreak R

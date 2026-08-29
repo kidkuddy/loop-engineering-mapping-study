@@ -1,0 +1,7 @@
+paper_id,decision,criteria,reason
+10864,exclude,E2,"Abstract empty; title decision. Title names a training method (agent learning via step-level process refinement), not a runtime mechanism governing whether the loop proceeds."
+10873,exclude,E7,"Abstract empty; title decision. Title names a built agentic system (Athena) made safe by verbal contrastive learning; contribution is the system, not a studied loop mechanism."
+10878,exclude,E2,"Abstract empty; title decision. Title names training a critic model with multi-agent feedback; the contribution is a trained model, not runtime control over whether the loop goes again."
+10879,exclude,E2,"Abstract empty; title decision. Title names reward decomposition for aligning dialogue agents; alignment signal, no iterative control mechanism named as the contribution."
+10935,exclude,E4,"Abstract empty; title decision. Title names a benchmark (MobileSafetyBench) evaluating agent safety in mobile device control, not a loop property such as termination or retries."
+10941,exclude,E7,"Abstract empty; title decision. Title names a domain agent framework (AutoMV) for real-estate marketing video generation; contribution is the application system, not the loop."

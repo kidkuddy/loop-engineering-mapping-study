@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5198,exclude,E7,"Authors' own protocol plus hierarchical refinement, but the only claims are that it surpasses o1, AgentVerse, ReAct and voting across QA and ad-text tasks."
+5202,include,"I1,I2","Learned meta-policy over Persist/Refine/Concede decides whether collaboration continues, compared against six fixed collaboration protocols. Mechanism: iteration policy."
+5216,exclude,E7,"Infra-aware planner, router and scheduler, but reported claims are +7.6pp accuracy, 7x lower latency and 99.9% SLO compliance - serving outcomes, not loop claims."
+5228,exclude,E7,"FSM routing and quality gating built by the authors, but the reported claim is a 57.07% OSWorld success rate over existing methods."
+5239,exclude,E7,"Orchestration and scheduling system whose reported claim is 17.8-28.4% end-to-end latency reduction, a serving outcome rather than evidence about loop control."
+5243,include,"I1,I2","Scores orchestration plans in isolation on quality, makespan and token cost, finding parallelism gains decay as coordination fails. Mechanism: control topology."
+5266,exclude,E7,"MCTS orchestration with backtracking and dual memory, but claims are diagnostic accuracy and explainability over baselines - clinical task outcomes."
+5279,include,"I1,I2","Dynamic graph designer picks a per-input topology instead of fixed templates, concluding structural adaptability is required. Mechanism: control topology."
+5293,include,"I1,I2","Measures cascade amplification, topological sensitivity and consensus inertia over six frameworks' dependency graphs, then suppresses them. Mechanism: control topology."
+5304,include,"I1,I2","Reports that the iterative self-refinement loop's benefit is largest where the LLM has sparse prior exposure, versus a single-pass LLM. Mechanism: retry/repair."
+5307,include,"I1,I2","Metacognitive policy governs when agents continue autonomously and when they defer to a human, trained by dual-loop GRPO against autonomous MAS. Mechanism: iteration policy."
+5308,include,"I1,I2","GraphDesigner builds task-specific topologies routed by a shared workspace; compared with ReAct and ToT, gains held orthogonal to model reasoning. Mechanism: control topology."
+5309,exclude,E7,Claims are 97.2% and 94.7% mean pass@1 on VerilogEval and CVDP; the PPO orchestration policy is never evaluated as such.
+5315,exclude,E7,Supervisor orchestrates agents for network deployment; claims are topology and service configuration success rates and cost efficiency.
+5338,include,"I1,I2","Critic agent verifies at checkpoints alongside dynamic topology and error-driven evolution, with ablations validating each component. Mechanism: verification."
+5353,include,"I1,I2","Perspective arguing interaction regime, topology and self-correction norms - not model size - are the design variables for agent societies. Mechanism: control topology."
+5372,exclude,E3,Vision paper wiring LLM agents into MANO slice-lifecycle management; the loop is used off the shelf and never studied or evaluated.
+5376,exclude,E5,Review of LLMs and LLM-based autonomous agents in chemistry and adjacent sciences.
+5396,exclude,E5,"Survey of orchestration architectures, threat taxonomy and defence strategies for agentic MAS."
+5397,exclude,E5,"Holistic review unifying tool learning, model collaboration and agents under a Big Loop/Atomization framework."
+5398,exclude,E7,Materials-discovery pipeline; claims are candidate topological phases identified and benchmark performance of smaller models - domain outcomes.
+5423,exclude,E2,Assesses six LLMs on architectural knowledge and lists enhancement pathways; single-pass evaluation with no iterative control.
+5426,exclude,E5,Comprehensive review of generative AI in cybersecurity threat intelligence and operations.
+5455,exclude,E1,"Survey of edge machine learning; the orchestration is MLOps and infrastructure, not a language-model agent's control loop."
+5465,include,"I1,I2","Controlled 10-agent experiment shows plan topology/model/engine choice drives 153x cost and 25% quality variance, arguing for an optimization loop. Mechanism: control topology."
+5467,exclude,E7,"Latent memory framework judged by up to 19.36% task gain over vanilla settings and other memory architectures, not by what the loop does next."
+5475,include,"I1,I2",Reliability study measures validator fault detection overhead and localized repair's bounded edit radius against global recompute. Mechanism: retry/repair.
+5480,include,"I1,I2","Shows unbalanced critique cycles cause persistent reasoning oscillation and chordal topologies break deadlocks, validated on LLM ensembles. Mechanism: control topology."
+5487,include,"I1,I2",Communication hub dynamically selects sparse partners instead of a fixed topology; ablations confirm dynamic target selection is critical. Mechanism: control topology.
+5498,exclude,E2,Fine-tunes Llama on a workflow corpus to generate orchestration code; generation is one-shot and the agent has no runtime loop.
+5551,exclude,E7,"The reviewer repair loop is one of three contributions, but the reported claim is 88.2% and 62.5% FoamBench execution success for the CFD pipeline."
+5587,exclude,E5,Overview of agentic-workflow security risks and mitigations with a proposed firewall architecture; no loop mechanism is studied or evaluated.
+5610,include,"I1,I2","Orchestrator incrementally plans and adapts the workflow as Datalog rules with a verifiable trace, compared to standard agentic architectures on faithfulness. Mechanism: iteration policy."
+5651,exclude,E2,"Selects diverse low-uncertainty prior questions from an experience pool as demonstrations; example selection for single-pass answering, control never returns."
+5681,exclude,E7,Skill-orchestrated flood forecasting; claims are KGE gains and peak-flow and volume accuracy across 14 events - hydrological outcomes.
+5695,exclude,E3,LLM merely orchestrates an off-the-shelf surrogate and NSGA-II crash-design workflow; claims are 35 compliant designs and surrogate R2=0.87.
+5698,exclude,E5,"Review of agentic AI, RAG and uncertainty quantification for hallucination in radiology."
+5699,exclude,E7,"Four sequential agents with a Fixer for error recovery, but claims are modularity, readability and execution correctness on a refactoring dataset."
+5703,exclude,E7,"Platform description of multi-agent bioinformatics modes; claims concern capabilities and workflow validation, nothing about loop control."
+5709,exclude,E7,Planner/executor KG agent with self-learning; claims are that 7B backbones match strong baselines and that missing triples are found.
+5724,exclude,E7,"Supervisor-orchestrated shopping agents; claims are user engagement, discovery time and personalization versus traditional e-commerce workflows."
+5731,exclude,E7,"Abstract empty; the title names a domain agentic decision-support framework for nuclear engineering, not a loop mechanism as the contribution."
+5732,exclude,E5,Vision roadmap analysing existing LLM code-generation studies under a six-layer phase framework.
+5758,exclude,E7,"Iterative conflict-resolution feedback loop is present, but claims are 92% compilation, 81% test pass and 84% deployment success on CloudDevBench."
+5762,exclude,E7,Domain remote-sensing agent with task planning and tool orchestration; claims are over 95% planning accuracy and gains across 18 RS tasks.

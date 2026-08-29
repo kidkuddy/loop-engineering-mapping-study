@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 9076,
+  "title": "KnowPath: leveraging large language model prior reasoning paths for dynamic self-reflective reasoning via knowledge graph subgraph exploration",
+  "year": 2026,
+  "venue": "Expert Systems with Applications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9083,
+  "title": "ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning",
+  "year": 2024,
+  "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9089,
+  "title": "Iterative Semantic Refinement: A Vision Language Model-Driven Approach to Auto-Regressive Image Editing",
+  "year": 2025,
+  "venue": "2025 9th International Symposium on Innovative Approaches in Smart Technologies (ISAS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9093,
+  "title": "Self-Reflection in Large Language Model Agents: Effects on Problem-Solving Performance",
+  "year": 2024,
+  "venue": "2024 2nd International Conference on Foundation and Large Language Models (FLLM)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9096,
+  "title": "DyFIRER: A Dynamic Feedback Iterative Multi-Agent Framework for Open Relation Extraction Based on Large Language Models",
+  "year": 2026,
+  "venue": "Applied Sciences",
+  "source": "crossref",
+  "abstract": "With the rapid evolution of Large Language Models (LLMs) in natural language understanding and generation, Relation Extraction (RE) has achieved substantial milestones in low-resource and open-domain scenarios. However, prevailing LLM-based RE methodologies predominantly rely on one-shot prompting or static workflows, which lack autonomous evaluation and iterative optimization mechanisms. Consequently, these approaches are prone to issues such as missing relations, type confusion, and factual hallucinations when navigating complex relational contexts. To address these limitations, this paper proposes DyFIRER (Dynamic Feedback Iterative Relation Extraction Framework), a multi-agent framework characterized by dynamic feedback. By constructing three functionally complementary agents\u2014Extraction, Verification, and Optimization\u2014the framework models the RE task as a closed-loop iterative process consisting of \u201cextraction-verification-feedback-optimization,\u201d thereby enabling dynamic adjustment and continuous refinement of extraction strategies. Experimental results on the DuIE 2.0 open relation extraction extension subset demonstrate that DyFIRER achieves an F1-score of 80.5%, modestly but statistically significantly outperforms GPT-4 (p = 0.014), a result that holds on both the augmented and non-augmented test sets and mainstream static methods (yielding a 10.3% improvement over Qwen-7B). Ablation studies further substantiate the critical role of the dynamic feedback iterative mechanism and the strategy retrieval module in mitigating complex relation omissions and factual hallucinations. The framework requires no additional annotated data or fine-tuning, suggesting potential applicability to low-resource settings, though this was not directly evaluated in the current study."
+ },
+ {
+  "paper_id": 9117,
+  "title": "A closed-loop feedback framework based on large language models for iterative optimization in medical record generation",
+  "year": 2026,
+  "venue": "International Symposium on Robotics and Artificial Intelligence (ISRAI 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9131,
+  "title": "Iterative Self-Correction for Text-Driven Person Re-Identification with Large Vision-Language Models",
+  "year": 2026,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9170,
+  "title": "Multi-Criteria Evaluation of Hierarchical Reasoning, Self-Correction, and Factual Consistency in Large Language Models across Complex Language Tasks",
+  "year": 2026,
+  "venue": "Journal of Innovative Research and Technology",
+  "source": "crossref",
+  "abstract": "The rapid proliferation of large language models has necessitated the development of robust evaluation frameworks that extend beyond simple accuracy metrics. This paper introduces a comprehensive multi-criteria evaluation methodology designed to assess the capabilities of these advanced computational architectures in handling complex language tasks. Specifically, the study focuses on three foundational dimensions: hierarchical reasoning, self-correction mechanisms, and factual consistency. By systematically isolating these dimensions, the research provides a nuanced understanding of how models parse intricate problem structures, dynamically revise their internal states upon detecting errors, and maintain fidelity to established external knowledge bases. The proposed framework employs novel mathematical formulations to quantify these qualitative traits, enabling a rigorous, quantitative benchmarking process. Through extensive empirical analysis across diverse datasets, the findings reveal critical trade-offs between a model's ability to engage in deep hierarchical reasoning and its capacity to remain factually grounded. Furthermore, the evaluation of self-correction capabilities highlights persistent vulnerabilities in unsupervised revision protocols. This study contributes to the broader discourse on artificial intelligence reliability and safety by offering a structured approach to diagnosing model deficiencies, ultimately guiding the design of more resilient and dependable language processing systems"
+ },
+ {
+  "paper_id": 9175,
+  "title": "LLMSR@XLLM25: SWRV: Empowering Self-Verification of Small Language Models through Step-wise Reasoning and Verification",
+  "year": 2025,
+  "venue": "Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling (XLLM 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9184,
+  "title": "Not an Illusion but a Manifestation: Understanding Large Language Model Reasoning Limitations Through Dual-Process Theory",
+  "year": 2025,
+  "venue": "Applied Sciences",
+  "source": "crossref",
+  "abstract": "The characterization of Large Reasoning Models (LRMs) as exhibiting an \u201cillusion of thinking\u201d has recently emerged in the literature, sparking widespread public discourse. Some have suggested these manifestations represent bugs requiring fixes. I challenge this interpretation by reframing LRM behavior through dual-process theory from cognitive psychology. I draw on more than half a century of research on human cognitive effort and disengagement. The observed patterns include performance collapse at high complexity and counterintuitive reduction in reasoning effort. These appear to align with human cognitive phenomena, particularly System 2 engagement and disengagement under cognitive load. Rather than representing technical limitations, these behaviors likely manifest computational processes analogous to human cognitive constraints. In other words, they represent not a bug but a feature of bounded rational systems. I propose empirically testable hypotheses comparing LRM token patterns with human pupillometry data. I suggest that computational \u201crest\u201d periods may restore reasoning performance, paralleling human cognitive recovery mechanisms. This reframing indicates that LRM limitations may reflect bounded rationality rather than fundamental reasoning failures. Accordingly, this article is presented as a hypothesis paper: it collates six decades of cognitive effort research and invites the scientific community to subject the dual-process predictions to empirical tests through coordinated human\u2013AI experiments."
+ },
+ {
+  "paper_id": 9197,
+  "title": "Refining Reasoning Chains through Self Correcting Reinforcement Learning Architectures for Mitigating Logical Hallucinations in Large Language Models",
+  "year": 2026,
+  "venue": "International Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "The rapid proliferation of large language models (LLMs) across critical socio-technical infrastructures has necessitated a paradigm shift from mere generative fluency to rigorous logical reliability. Despite advancements in scale, LLMs remain susceptible to logical hallucinations\u2014instances where a model produces structurally coherent but substantively invalid reasoning chains. These failures present significant risks in domains such as legal adjudication, medical diagnostics, and engineering design, where the internal consistency of an argument is as vital as the final output. This paper proposes a systems-level architectural framework for refining reasoning chains through self-correcting reinforcement learning (RL). By integrating modular refiner policies with adaptive solver hierarchies, we transition the alignment burden from static fine-tuning to dynamic, inference-time optimization. We analyze the structural trade-offs between computational overhead and logical robustness, emphasizing the role of verifiable reward signals in stabilizing the iterative refinement process. Our discussion extends to the governance implications of deploying these architectures in public-facing systems, addressing the socio-technical challenges of transparency, fairness, and the prevention of reward hacking. Through a multi-dimensional analysis of infrastructure and policy, we argue that the future of resilient AI lies in the convergence of generative potential and autonomous corrective feedback loops, ensuring that reasoning remains grounded in verifiable logic rather than stochastic approximation."
+ },
+ {
+  "paper_id": 9214,
+  "title": "GraphReason: Enhancing Reasoning Capabilities of Large Language Models through A Graph-Based Verification Approach",
+  "year": 2024,
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9242,
+  "title": "A cost-effective approach for knowledge graph reasoning path retrieval and enhanced large language model reliability",
+  "year": 2026,
+  "venue": "PeerJ Computer Science",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) often face challenges in performing reliable multi-hop reasoning due to issues such as incomplete evidence chains and hallucinations. Incorporating knowledge graphs (KGs) can mitigate these problems, but existing approaches either suffer from suboptimal accuracy or are computationally expensive. To address these issues, we propose Reasoning Path Retrieval for RAG (RPR-RAG), a novel KG-based retrieval framework that incrementally builds a subgraph from the knowledge graph, extracts explicit reasoning paths, and provides them as structured external evidence to downstream LLMs. The experimental results on WebQuestionsSP (WebQSP) and Complex WebQuestions (CWQ) indicate that RPR-RAG achieves competitive Hit and F1 in multi-hop reasoning tasks, while maintaining runtime, LLM call frequency, and token usage at reasonable levels. Moreover, without additional task-specific training, RPR-RAG also shows strong zero-shot performance on MetaQA. RPR-RAG is built on a lightweight embedding model which can be trained and executed on a single consumer-grade GPU ( e.g ., RTX 3060, 6 GB). Ablation studies reveal that the path validity evaluation and stopping criterion play important roles in retrieval quality and efficiency. RPR-RAG is compatible with a range of backbone LLMs, from smaller 7B models to larger models such as GPT-5, providing a practical and interpretable framework for KG-grounded reasoning tasks. The source code is available at https://doi.org/10.5281/zenodo.19334059 ."
+ },
+ {
+  "paper_id": 9263,
+  "title": "A Closed-Loop Modular Language Agent with Step Verification and Local Correction for Multi-Step Task Solving",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Multi-step task solving with large language models in intelligent electronic systems and interactive environments requires stronger process control and execution reliability. To address local error accumulation during multi-step execution, this paper proposes a closed-loop modular language agent framework integrating task planning, action execution, step verification, local regeneration, and replanning. A process-supervision data construction method is further introduced, in which real execution steps are retained as valid samples and invalid samples are automatically synthesized through action substitution, input perturbation, observation replacement, and subgoal mismatch, providing step-level supervision for validity prediction. In the proposed framework, step verification functions as a process-level control signal that supports hierarchical recovery through local regeneration and replanning, rather than as a standalone filtering module. Experiments are conducted on mathematical reasoning and web interaction tasks. On mathematical reasoning tasks, the proposed framework achieves an accuracy of 0.650, compared with 0.317 for Integrated Training, 0.460 for CoT Training, 0.568 for ReFT, and 0.617 for Agent Lumos. On web interaction tasks, the proposed framework achieves a step success rate of 0.424, compared with 0.246 for Integrated Training and 0.310 for Agent Lumos. Among the cases where recovery is triggered, local regrounding succeeds in 85.7% of reground attempts, while replanning succeeds in 53.3% of replanning attempts. These results indicate that the proposed framework improves process stability and recovery capability in multi-step task solving."
+ },
+ {
+  "paper_id": 9269,
+  "title": "Knowledge-Augmented Language Model Verification",
+  "year": 2023,
+  "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9426,
+  "title": "Critic-CoT: Boosting the Reasoning Abilities of Large Language Model via Chain-of-Thought Critic",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9429,
+  "title": "CriticEval: Evaluating Large-scale Language Model as Critic",
+  "year": 2024,
+  "venue": "Advances in Neural Information Processing Systems 37",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9460,
+  "title": "Winning Isn't Reasoning",
+  "year": 2026,
+  "venue": "The International FLAIRS Conference Proceedings",
+  "source": "crossref",
+  "abstract": "Large language models (LLMs) are increasingly deployed in interactive systems such as recommendation, negotiation, and decision support, where agents engage in iterative reasoning by inferring latent preferences and adapting their behavior based on feedback over time. An interesting question is whether LLMs perform iterative reasoning as effectively as classical decision-theoretic strategies explicitly designed to reduce uncertainty or regret. We study this question in a controlled setting using Wordle as a diagnostic testbed. Wordle yields structured, deterministic feedback that progressively constrains the hypothesis space and allows for information acquisition through queries, closely mirroring core processes in preference elicitation and opponent modeling. Across 100 games per configuration (5,400+ total runs), we evaluate LLM-based agents and compare them to a Value of Information (VOI) policy, a minimax-regret policy (CSS), and 2 random baselines. Beyond win rate, we measure convergence efficiency, distance to solution, and sensitivity to feedback across rounds. Our results show that while LLMs can achieve competitive win rates, they are less reliable at systematic uncertainty reduction and typically converge more slowly than classical methods. These findings offer some clarity as to when decision-theoretic policies and when LLMs are best suited for iterative interaction, providing insights for the design of interactive AI systems."
+ },
+ {
+  "paper_id": 9484,
+  "title": "Search-on-Graph: Iterative Informed Navigation for Large Language Model Reasoning on Knowledge Graphs",
+  "year": 2026,
+  "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9515,
+  "title": "IVC-DB: Iterative verification correction method guided by dual-Backward mathematical reasoning in large language models",
+  "year": 2026,
+  "venue": "Knowledge-Based Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9531,
+  "title": "Adaptive Test-Time Reasoning with Uncertainty-Guided Verification: Enhancing Intrinsic Reasoning Capabilities of Large Language Models",
+  "year": 2026,
+  "venue": "2026 International Conference on Computer Intelligence and Software Engineering (CICSE)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9553,
+  "title": "Derailer-Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9614,
+  "title": "A Modular Multi-Agent Coordination Framework for Persistent Autonomous AI Assistants with Tool Orchestration and Long-Horizon Task Management",
+  "year": 2026,
+  "venue": "International Journal of Innovative Science and Research Technology",
+  "source": "crossref",
+  "abstract": "Autonomous AI assistants are evolving from reactive, single-session language models into persistent, toolintegrated systems that can execute long-horizon tasks. However, most existing assistant architectures rely on either monolithic control loops or loosely structured agent delegation patterns that lack formal coordination protocols, governance safeguards, and dependency-aware orchestration. This study presents a modular multi-agent coordination framework built on an extended OpenClaw autonomous agent substrate designed to support persistent tool-augmented AI assistants operating across heterogeneous workflows. The proposed framework introduces (1) a shared task-ledger coordination protocol, (2) a dependency-aware task graph model, (3) role-isolated specialist agents with synthesis control, and (4) governance layers that incorporate approval gating, prompt-injection defense, and security monitoring. To evaluate the framework, we designed a synthetic benchmark environment to model event-driven automation, parallel advisory councils, knowledge retrieval pipelines, and long-horizon scheduled workflows. Across controlled simulation trials, we analyzed the coordination overhead, task completion rates, conflict resolution latency, token consumption growth, and dependency-coupling sensitivity. The results indicate that structured multiagent coordination improves task throughput under medium coupling regimes while introducing measurable synchronization costs under high interdependency conditions. The findings contribute empirical clarity to the design of persistent AI assistant systems and establish a reproducible evaluation methodology for tool-augmented multiagent orchestration frameworks."
+ },
+ {
+  "paper_id": 9615,
+  "title": "Toward Scalable LLM-Based Multi-Agent Collaboration: A Dynamic Task Graph Approach with Asynchronous Parallel Execution",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Deploying Large Language Models (LLMs) in collaborative multi-agent settings represents a promising frontier for complex AI problem-solving, yet the field lacks systematic mechanisms to manage the inherent coordination overhead and resource contention that arise at scale. Existing LLM-based Multi-Agent System (MAS) frameworks predominantly adopt sequential or loosely coupled execution models, which fail to exploit the parallelism potential of modern computing environments and limit overall system throughput. To bridge this gap, this paper presents DynTaskMAS, a framework that redefines task orchestration in LLM-based MASs through a dynamic task graph abstraction. Rather than treating tasks as static pipelines, DynTaskMAS continuously models task interdependencies at runtime, enabling opportunistic parallel execution while preserving logical correctness. The architecture integrates four synergistic components: a runtime task decomposition module that captures evolving dependencies among subtasks; a scheduling engine that dispatches ready tasks to available agents without centralized bottlenecks; a context propagation layer that maintains shared semantic state across concurrently executing agents; and a self-tuning workflow controller that adapts execution priorities based on observed system load. Together, these components address a core tension in LLM-based MAS design, balancing agent autonomy with coordinated efficiency. Evaluations across tasks of varying complexity confirm that DynTaskMAS delivers substantial gains in execution efficiency (21.3\u201333.0% reduction), resource utilization (from 65% to 88%), and agent scalability (3.47\u00d7 throughput with 16 concurrent agents) compared to sequential baselines. This work offers a generalizable architectural blueprint for next-generation LLM-based Multi-Agent Systems operating under real-world dynamic and resource-constrained conditions."
+ },
+ {
+  "paper_id": 9616,
+  "title": "ReflectiChain: Mitigating Semantic-Execution Drift in Long-Horizon LLM Agents via Retrospective Reflection and Double-Loop Policy Adaptation",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Large Language Model (LLM) agents in long-horizon planning often exhibit Semantic-Execution Drift (SED), where executed actions progressively deviate from original language constraints. To formalize this phenomenon, we model SED as a stochastic drift process, expressed by the recurrence D(t+1) = alpha D(t) + epsilon(t) + beta P(t), and show that policies with an alpha below one induce semantic contraction. We propose ReflectiChain, a framework integrating Retrospective Reflection, a Latent World Model, and Double-Loop Policy Adaptation to preserve semantic consistency during long trajectories. To evaluate SED, we introduce Sema-Sim, a multi-agent supply chain benchmark containing 10 policy constraints, six adversarial perturbations, and 30-step planning horizons. We further propose the Semantic Fidelity Index (SFI) for measuring instruction adherence. Experiments on DeepSeek-V3.2 across seven reasoning strategies show that ReflectiChain achieves the highest SFI (88.7) and stable semantic contraction (alpha = 0.823, below one). The results are consistently validated on Qwen3.5-122B and Qwen2.5-72B. Ablation studies demonstrate that Retrospective Reflection contributes most to performance gains. Additional analyses on scalability, failure modes, and cost efficiency further verify the robustness and practicality of the proposed framework. All code and evaluation resources are publicly released."
+ }
+]

@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+138,exclude,E2,"Study of mode collapse in stories sampled from GPT-3 variants; one-shot generation quality, no agent and no iterative control."
+140,exclude,E2,"Large-scale evaluation of membership inference attacks on LLM pre-training data; no agent, no runtime loop."
+143,exclude,E1,"The loop is a mutual-learning training cycle between a language model and a graph structure learning model, not an LLM agent's control loop."
+144,exclude,E7,"Structured Agent Distillation compresses ReAct agents; claims are ALFWorld/HotPotQA/WebShop performance and compression, not about the loop."
+146,exclude,E7,"xLAM is a model family plus training pipeline for agent tasks; claims are Berkeley Function-Calling Leaderboard rankings, i.e. task outcomes."
+149,exclude,E7,DeepAnalyze-8B is an agentic data-science system; the reported claim is that it outperforms workflow-based agents on data tasks.
+152,exclude,E7,"Tree-of-agents structure is proposed, but the evidence is Minecraft building and resource-collection task success, not a comparison of topologies."
+153,exclude,E5,Overview summarising pretraining and fine-tuning data and available open-source datasets; secondary study.
+154,exclude,E1,"The iterative search is a bit-flip attack ranking weight parameters, not a language-model agent's control loop."
+156,include,I2,"Contributes to termination: IAL-Scan builds an agentic loop dependence graph and checks whether feedback paths reach costly ops unbounded; 68 confirmed loop failures, 91.9% precision."
+158,exclude,E2,Data subsampling for alignment fine-tuning; no agent and no iterative runtime control.
+160,exclude,E7,SCoRe is a distillation and short-horizon RL training pipeline; the claim is that a 7B student closes the agentic gap on 12 benchmarks.
+163,exclude,E7,Two-layer LLM planning agent for wargames; the claim is that it beats reinforcement-learning and rule AI in confrontation simulations.
+170,exclude,E2,Single-pass GPT-4o classification of personal data in dataset columns; no loop.
+179,exclude,E2,Activation sparsity for compressing LLMs on edge devices; no agent loop at all.
+183,exclude,E2,"One-shot LLM text transformations to remove sentiment, measured by classifier detectability; no iterative control."
+186,exclude,E7,"KG-Agent has a tool-selection iteration mechanism, but the reported claims are KGQA accuracy against state-of-the-art, not evidence about that mechanism."
+187,exclude,E2,"Prospect paper for recommendation on agent platforms; the only loop named is the user-recommender feedback loop, and no iterative control mechanism is offered."
+188,exclude,E1,"The loop is the data-reproduction and retraining cycle of model self-improvement, not an agent's runtime control loop."
+190,exclude,E4,"Benchmark for autonomous agent development; it measures artifact performance on held-out tests and reward hacking, not a loop property."
+194,exclude,E2,"Conceptual Shapley credit assignment and process rewards for post-training multi-agent systems; no runtime loop-control mechanism, empirical validation left to future work."
+195,exclude,E2,Danish language and culture competency benchmark for generative LLMs; no agent loop.
+201,exclude,E5,"Review synthesising more than 60 LLM agent systems across genomics, imaging and bioinformatics."
+202,exclude,E3,LITURAt wires an off-the-shelf plan-and-solve loop into scientific data analysis; claims are answer consistency rates and GPT-4-rated accuracy.
+203,exclude,E3,Drug-discovery agent uses a generic reasoning loop with domain tools; results are QED and Ghose-filter molecule counts.
+204,exclude,E5,PRISMA systematic survey and four-pillar taxonomy of 153 studies on agentic AI for IoT cybersecurity.
+205,exclude,E7,KwaiAgents is an information-seeking agent system with Meta-Agent Tuning; claims are benchmark and human-eval superiority over other autonomous agents.
+206,exclude,E7,HIMAL embeds human feedback in multi-agent LLM workflows for edge computing; claims are task-offloading and resource-allocation performance gains.
+208,exclude,E7,LUMEN is a multi-agent IoT observability system; the evidence is two industrial case studies of automated analysis workflows.
+210,exclude,E7,Closed-loop agentic controller for precision farming; the claimed results are water- and nutrient-use efficiency and crop yield.
+213,exclude,E7,"DSPy compiles and optimises LM pipelines; the reported claims are end-task gains over few-shot prompting and expert prompt chains, not loop control."
+214,exclude,E5,"Review of generative AI agent architectures, deployments, applications and challenges."
+215,include,I2,"Contributes verification: a multi-tier guard rejecting unsourced tool-call values, with layers disabled individually and compared to the unguarded system (81% of essential steps) at ~13x tokens."
+217,exclude,E7,"Hydrogen-Agent adds an autonomous knowledge loop, but the claims are HydroBench factual accuracy and end-to-end domain case studies."
+218,exclude,E3,MapBot wires an off-the-shelf LLM REPL loop to segmentation tools for geospatial analysis; no claim or evaluation of the loop.
+221,include,I2,"Contributes termination and iteration policy: runtime safeguards escalating high-impact actions to humans plus interruptibility over the plan-act-observe-reflect loop, argued as a design position."
+222,exclude,E5,Systematisation of agentic runtime supply-chain threats into a taxonomy of data and tool attacks; secondary study.
+223,exclude,E5,Taxonomy-driven survey of attack techniques and defence strategies for LLM-based agents.
+224,exclude,E5,Review and discussion of agentic AI frameworks for automotive software validation.
+225,include,I2,"Contributes loop state and retry/repair: an FSM of app execution drives execution verification and recovery, measured as recovery rate (71.9%, 66.7%) and +13.8% over prior methods."
+226,exclude,E5,"Perspective synthesising XR, HRI and cognitive AI work on foundation-model virtual robots; no loop mechanism."
+227,exclude,E7,"AI Gem is a layered tutoring agent architecture with a scenario walkthrough; claims concern tutoring design and governance, not loop control."
+229,exclude,E7,Agentic Lab is a multi-agent laboratory platform; the evidence is organoid differentiation protocols and phenotyping outcomes.
+231,exclude,E4,"Penetration-testing agent benchmark reporting success rates and milestones (21% vs 64%); measures task outcomes, not a loop property."
+232,exclude,E5,"Survey of safety, robustness, privacy and system security for agentic AI, with a metrics and benchmarks hub."

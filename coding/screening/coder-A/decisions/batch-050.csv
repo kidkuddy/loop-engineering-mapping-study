@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+6251,exclude,E7,"Closed-loop robot planner with feedback and memory; reported claims are task success rates and 6.6x compute reduction, not evidence about the loop itself."
+6252,include,I2,Verification gate decides which agentic proposals commit to mission state; structural ablations report invalid commitments and lock conflicts. Verification.
+6256,include,I2,Reflection with a Strategy Fitness Score decides when to revise the global plan vs refine locally; ablation confirms the dual-strategy loop. Iteration policy.
+6259,exclude,E7,"Multi-agent SUMO pipeline; role ablations report task success rates and parameter accuracy, i.e. system outcomes, not claims about the refinement loop."
+6260,exclude,E7,"Multi-agent embodied planning system; claims are execution latency, LLM calls, step counts and success rate on AI2-THOR, all task outcomes."
+6261,exclude,E5,"Conceptual review theorizing agentic SE workflows from 30 prior papers plus cited benchmark numbers; a secondary study, not a primary contribution."
+6262,exclude,E5,Taxonomy and architectural overview of 80+ deep search implementations with case studies; secondary study.
+6266,exclude,E4,"Cross-device agent benchmark, 6,140 tasks scored by rule-based outcome verifiers; stuck and early-termination behaviour only noted anecdotally, not measured."
+6267,exclude,E7,"Enterprise multi-agent deep research system with a reflection step; claims are benchmark wins on DeepResearch Bench and DeepConsult, i.e. task outcomes."
+6269,include,I2,"Every VLM action validated against an external world model; discrepancy analysis drives targeted recovery, recovery success measured under 5% to 95%. Retry/repair."
+6270,include,I2,Closed-loop Judge/Transitioner/Planner iteratively plans each jailbreak turn; ablations isolate multi-step planning and behaviour under turn budgets. Iteration policy.
+6271,exclude,E7,"Hierarchical multi-agent architecture for shipping reports; claims are report completeness, accuracy and research depth against single-agent RAG."
+6272,exclude,E5,"Review of LLM use in robotics, fault diagnosis, design and industrial knowledge workflows; secondary study."
+6273,exclude,E7,"VLM-guided task planning framework and crop-monitoring benchmark; claims are short/long-horizon success and completion rates, i.e. task outcomes."
+6292,include,I2,"Step-telemetry monitors plus deterministic verification detect mid-run failure, then rollback and re-run; detection AUROC and 45% vs 16% recovery measured. Verification/repair."
+6305,include,I2,"Local retry from the pivotal erroneous turn instead of a full retry, compared against full-retry methods with ~42% fewer interaction turns. Retry/repair."
+6321,include,I2,"Stepwise vs holistic self-evaluation of intermediate steps for failure detection, compared head to head with up to 15% AUC-ROC gain. Verification."
+6325,exclude,E7,"Hypothesis-verification pipeline for post-hoc failure attribution; claims are attribution accuracy on Aegis-Bench and Who&When, not about loop control."
+6328,exclude,E7,"Trained tracer for post-hoc failure attribution; claims are attribution accuracy on Who&When plus downstream task gains, not evidence about a loop mechanism."
+6331,include,I2,"Formal retry model under context contamination: closed-form success, optimal depth/budget split, clean-restart dominance, fitted to SWE-bench. Retry and termination."
+6333,exclude,E7,Dependency-guided search for post-hoc failure attribution over finished trajectories; claims are step-level attribution accuracy on Who&When.
+6349,include,I2,"Tool wrapper adds postcondition verification, verify-before-retry and idempotency keys; injected non-atomic faults, duplicate actions measured. Verification/retry."
+6350,exclude,E7,"Lightweight GNN classifier for post-hoc failure attribution; claims are attribution accuracy and inference cost, not loop control."
+6359,exclude,E7,Meta-agentic orchestration injecting context before the tool-use decision; reported claim is up to 27% end-task performance gain on conversational benchmarks.
+6360,include,I2,"Error taxonomy plus AgentDebug, whose corrective feedback lets the agent recover; recovery and iterative improvement measured at up to 26% over baseline. Retry/repair."
+6363,exclude,E7,"Post-hoc failure localization by judging and aggregating evaluators; claims are attribution accuracy for agent and step, plus token cost."
+6370,exclude,E7,"Human-aligned verifier framework for interpreting agent failures after execution; claims are interpretability and human effort, not loop control."
+6376,exclude,E2,"Citation failure in RAG responses: single-pass generation and attention/retrieval-based citation methods, no iterative control returning to the model."
+6382,exclude,E2,"Failure cases repaired offline by recommending scenarios for few-shot fine-tuning of driving models; no runtime loop, claims are driving benchmark metrics."
+6397,exclude,E7,Validation framework with 15 detectors applied to IBM CUGA; reported claims are AppWorld/WebArena benchmark accuracy after prompt and code refinement.
+6400,exclude,E7,"Empirical attribution of failures and cost regressions to loaded agent skills; claims are task failure counts and efficiency regressions, not a loop mechanism."
+6401,exclude,E3,Off-the-shelf LLM planning agent with tool use wired into a semiconductor failure-analysis workflow; evaluation reports operational effectiveness on FA tasks.
+6407,include,I2,Counterfactual intervention scores failure-inducing steps and generates minimal repairs; repair minimality and test-time recovery compared to heuristic refinement. Repair.
+6410,include,I2,"Argues compaction summaries carried between sessions record killed-process output as confirmed, corrupting later decisions; documented failure mode. Loop state."
+6426,exclude,E2,"Rejection-sampling fine-tuning that mines failed expert trajectories for training data; no runtime loop mechanism, claims are WebShop and SciWorld scores."
+6432,include,I2,"Measures false success, agents asserting completion against environment state, across 11k trajectories, and compares judges vs detectors by AUROC. Termination."
+6435,exclude,E7,"Replay-based refinement of post-hoc error attribution; reported claim is localization accuracy on four benchmarks, not what the loop does next."
+6445,include,I2,"Fault-injection workbench replays tool responses so a mitigation can be re-tested; retry mitigation measured, timeout failures 30% to 100%, stale data flat. Retry."
+6454,exclude,E7,"Multi-agent turbomachinery design system; claims are CFD agreement, R2 above 0.91 and efficiency/pressure-ratio gains, i.e. domain outcomes."
+6459,include,I2,Asks whether MAS repair is causal or just resampling; replay with intervention anchors measures reproduction 67.97% and repair 6.90% vs 20.15%. Retry/repair.
+6462,include,I2,"Runtime mutation of the multi-agent topology on a bottleneck index, gated by three invariants; four ablation conditions over 720 runs. Control topology."
+6468,include,I2,Synthesized code harness gates the agent's proposed actions against environment rules; illegal moves eliminated across 145 games is the measured claim. Verification.
+6471,exclude,E7,"Embodied fabric-sensor agent with implicit-feedback alignment; validation is cooperative task performance, not evidence about the loop mechanism."
+6477,exclude,E7,"Multi-agent spatial query pipeline with validation and error recovery; claims are spatial query accuracy across single-table, multi-table and 3D cases."
+6479,include,I2,"Protocol-level validation boundary rejects malformed tool actions; execution error rate 45.2% to 6.0% with ablations, cutting trial-and-error recovery loops. Verification."

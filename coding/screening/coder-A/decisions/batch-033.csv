@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+4246,exclude,E7,"Cooperative embodied TAMP system; abstract frames latency and redundant communication of the system, names no loop-control contribution or evidence about one."
+4247,exclude,E7,"CLAIRify uses iterative prompting plus program verification, but reported claims are executed chemistry plans (pouring, solubility, recrystallization), i.e. task outcomes."
+4248,include,I2,VADER's contribution is help-seeking error recovery (retry/repair); pilot and user study (N=19) compare it against a robot that does not ask for help.
+4249,include,I2,"Compares four multi-agent communication frameworks (centralized, decentralized, two hybrid) across tasks and agent counts; control topology is the studied variable."
+4251,include,I2,"AWM induces reusable workflows carried into later runs (loop state); measured offline vs online induction and reduction in steps taken, not only success rate."
+4253,exclude,E7,"Hierarchical supervisor/planner/executor/validator system benchmarked on Task Success Rate, Goal Completion, Execution Accuracy against other frameworks: claims about the system."
+4254,exclude,E7,"DatawiseAgent is an FST-based data-science agent framework; evidence is SOTA performance over AutoGen and TaskWeaver, i.e. end-task outcomes."
+4255,exclude,E5,"PRISMA-based survey of 90 studies on agentic AI architectures, applications and governance."
+4259,exclude,E2,Finetunes GPT-2 to decompose ALFRED tasks into subgoal specs for a planner; no runtime feedback loop is proposed or studied.
+4260,exclude,E7,Contribution is customizable ChatGPT prompt templates for robot task plans; reported claims are executability/correctness rates in domestic environments.
+4261,exclude,E7,DKPROMPT automates VLM prompting with PDDL knowledge; the only reported evidence is task completion rate versus classical and VLM baselines.
+4262,exclude,E5,"Survey of LLM/VLM-integrated reinforcement learning with a taxonomy of agent, planner and reward roles."
+4263,exclude,E7,VoxPoser composes 3D value maps for closed-loop trajectory synthesis; claims are about performing a variety of manipulation tasks in sim and on real robots.
+4265,exclude,E1,"Multi-robot behavior tree planning algorithm with soundness/completeness proofs; the loop is a BT control architecture, the LLM is an optional pre-planning plugin."
+4267,exclude,E4,"Benchmark of LLM agents on simulated company work tasks; measures autonomous task completion (30%), not any loop property."
+4273,exclude,E2,"Fine-tunes open-source LLMs on 6B tokens of workflow data for direct generation; ablations are over training recipe and context size, not a runtime loop."
+4274,exclude,E7,"Interactive planning framework with function-calling skill execution; evidence is robustness on a real milk-tea task and replanning demos, i.e. task outcomes."
+4278,exclude,E5,Survey and taxonomy of long-horizon agents organised around six perspectives.
+4279,exclude,E1,"Survey of optimization-based task and motion planning: logic-based planning and trajectory optimization, not a language-model agent's loop."
+4280,exclude,E1,"Hierarchical imitation learning with LLM-labelled sub-goals; the loop is HIL training with a learned low-level planner, not a language-model agent loop."
+4281,exclude,E7,"ReAcTree proposes a hierarchical agent tree, but the reported evidence is goal success rate on WAH-NL and ALFRED against ReAct baselines."
+4282,exclude,E7,SayNav grounds LLM planning on an incremental scene graph; claims are MultiON success rate beating an oracle baseline by 8%.
+4286,include,I2,Co-Scientist's contribution is a tournament-evolution refinement loop; automated evaluations measure hypothesis quality rising with test-time compute (iteration policy).
+4288,exclude,E7,LABOR orchestrates bimanual robots with an LLM; evidence is success rate over a baseline on NICOL simulation tasks plus failure-case commentary.
+4290,exclude,E7,"SheetAgent (Planner/Informer/Retriever) reports 20-40% pass-rate gains on spreadsheet benchmarks; claims are manipulation accuracy, not the reflection loop."
+4297,exclude,E7,"Hierarchical Cognitive Caching governs long-horizon context, but the only reported evidence is a 56.44% MLE-Bench medal rate."
+4299,include,I2,DEPS adds failure self-explanation and a trainable goal selector that ranks sub-goals (retry/repair plus iteration policy); ablation studies isolate each design.
+4300,exclude,E5,"Survey of LLM-based multi-agent systems, their profiling, communication and benchmarks."
+4301,exclude,E7,"Learns symbolic predicates from VLMs for search-based planning; claims are generalization to novel goals, objects and longer horizons, i.e. task outcomes."
+4304,exclude,E7,"SAFARI's diagnostic loop and short-term memory are evaluated only by fault-attribution accuracy on Who&When and TRAIL, its end task."
+4306,exclude,E4,"Benchmark of LLMs against real MCP servers; scores task success per domain and tool familiarity, not a loop property."
+4307,exclude,E2,Zero-shot retrieval and transfer of affordances for manipulation; no iterative control is proposed or studied.
+4308,include,I2,"TARV is a runtime verification middleware (verification); evidence is detection precision, false-positive rate, overhead and reduction in cascading failures."
+4311,include,I2,World-model-augmented agent simulates action outcomes to choose the next step (iteration policy); analyses confirm missing world models and compare against tree search.
+4313,exclude,E7,"Synapse's state abstraction, trajectory exemplars and exemplar memory are evaluated only by MiniWoB++ and Mind2Web success rates."
+4314,exclude,E7,ImagineNav turns navigation planning into best-view image selection; evidence is superiority on open-vocabulary object navigation benchmarks.
+4315,exclude,E2,Code as Policies generates robot policy code from a command in one pass; the feedback loops live in the generated code and are not studied.
+4318,include,I2,"Process-based evaluation of web-agent failures across planning, execution and replanning layers; compares PDDL vs NL plans and locates recovery/execution bottlenecks."
+4320,include,I2,Web-Shepherd is a step-level process reward model used as a verifier; WebRewardBench meta-evaluates the verifier itself against GPT-4o.
+4322,exclude,E7,"CoAct's global-local hierarchy is evidenced by superior WebArena performance over CoT/ReAct baselines; trajectory re-arrangement is noted, not measured."
+4324,include,I2,Formalises turn-wise context drift as KL divergence and tests reminder interventions on tau-Bench simulations: evidence about loop state carried across turns.
+4325,exclude,E7,"CA-VLN's dual-agent architecture is evidenced by SOTA navigation success on R2R, REVERIE and SOON, i.e. task outcomes."
+4326,exclude,E7,"SWE-TRACE spans SFT data curation, RL and test-time scaling; headline claims are SWE resolution rates plus token and latency cost."
+4327,include,I2,COME-robot's iterative closed-loop feedback and restoration mechanism (retry/repair) is examined by analyses of how the design enables failure recovery.
+4328,exclude,E4,Environment/benchmark for geospatial copilots scoring functional correctness on half a million multi-tool tasks; no loop property measured.

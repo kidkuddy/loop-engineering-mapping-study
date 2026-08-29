@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5767,exclude,E5,"Practitioner overview contrasting chatbots and AI agents in sales support: use-case selection and deployment considerations, no primary method or study."
+5768,exclude,E7,"LLM multi-agent framework for power-electronics controller design; the claim is an autonomous domain design process, with no evidence about the workflow itself."
+5782,exclude,E7,"Casidence agentic medical VLM; reported claims are retrieval fidelity, report quality and planning transparency over baselines, i.e. task outcomes."
+5790,exclude,E7,"MINDS multi-agent mining decision support; evidence is request-to-report orchestration, 10.69 s debate latency and an audit trail on the Marvin benchmark."
+5815,exclude,E7,"AeroAgent embodied LMM drone agent with ROSchain; claims are superior search-and-rescue performance against DRL agents, not about its control loop."
+5824,exclude,E7,"mAIstro master-plus-task-agent medical imaging pipeline; evaluation is whether tasks executed correctly on 16 datasets, a task outcome."
+5825,exclude,E7,"k-agents turns lab procedures into agent state machines, but the reported evidence is autonomous quantum-processor calibration at human level, a task outcome."
+5860,include,"I1,I2",Audio-Mind gates tool-based evidence acquisition on unresolved evidence gaps; matched-backbone comparison shows agentic decomposition as an orchestration bottleneck. Mechanism: iteration policy.
+5870,exclude,E7,"AgentSUMO adds an adaptive reasoning layer for SUMO scenario generation, but the reported gains are traffic-flow metrics and non-expert accessibility."
+5871,exclude,E7,"IoA platform adds dynamic teaming and conversation flow control, yet the evidence is beating baselines on assistant, embodied and RAG benchmarks."
+5872,exclude,E7,"MiroFlow agent framework with an agent graph and deep reasoning mode; claims are SOTA scores on GAIA, BrowseComp, HLE, xBench and FutureX."
+5875,exclude,E5,"Conceptual blueprint and reference architecture for agentic enterprise systems, synthesising quantitative evidence reported from existing deployments."
+5877,exclude,E7,"Paper Debugger multi-agent Overleaf extension; evidence is 34% less manual formatting time and a SUS of 78.4, i.e. task and usability outcomes."
+5909,include,"I1,I2","BayesBeliefAgent interrupts a running skill only when partner actions contradict the inferred skill, measuring replanning efficiency and belief-action gap. Mechanism: iteration policy."
+5957,exclude,E4,"FlowBench benchmarks workflow-knowledge formats for agent planning; it measures planning quality, not a loop property such as retries, stuck loops or termination."
+5959,exclude,E5,"Review of 126 papers on LLMs in automated planning and scheduling, categorising applications and gaps."
+5965,include,"I1,I2",RePLan uses VLM grounding to detect that a plan failed and replans online; tested on an eight-task RC benchmark against baselines that cannot adapt. Mechanism: retry/repair.
+6002,include,"I1,I2","Diagnoses step-wise greedy choice as the long-horizon failure mode; FLARE adds lookahead and limited commitment, evaluated on planning-level behaviour. Mechanism: iteration policy."
+6048,include,"I1,I2","ALAS isolates the validator from the planner and repairs locally; a reliability study measures fault detection overhead and edit radius versus global recompute. Mechanism: verification, retry/repair."
+6063,exclude,E7,TAIRA recommender multi-agent with thought-pattern distillation; claims are recommendation performance across datasets and harder user intents.
+6068,exclude,E7,"GoalAct adds continuously updated global planning and hierarchical execution but reports only LegalAgentBench success rate, +12.22%, a task outcome."
+6118,include,"I1,I2","LLMCompiler replaces ReAct's sequential reason-act cycle with a planner, task fetcher and parallel executor, measured as latency, cost and accuracy against ReAct. Mechanism: iteration policy."
+6135,exclude,E3,"Voice-to-action system wires an off-the-shelf LLM planner to a robot skill library; results are component-level seeking, navigation and manipulation performance."
+6177,exclude,E7,"Curriculum over a 64x64 agent grid with a Thompson sampling manager; claims are stability, oracle usage and reasoning on a Tower of Hanoi benchmark."
+6181,include,"I1,I2","Formalises a design space for human-LLM co-planning and benchmarks how LLMs revise plans under varying scope and revision strategy. Mechanism: iteration policy, plan revision."
+6182,exclude,E7,Hierarchical LTLf grounding with a receding-horizon replanning loop for multi-robot handover; claims are success rate and interaction fluency on robots.
+6185,exclude,E2,"OSDAG invokes the LLM once to emit a dependency DAG; the iterating component is a classical online scheduler over robots, not a language-model control loop."
+6197,exclude,E1,"The loop under study is an RL controller's MDP; the LLM only supplies a potential-based progress score, with policy invariance proved on a small MDP."
+6205,exclude,E7,"TreeSoc runs DFS decomposition with tool routing for soccer video QA, but the reported claims are SoccerBench and NExT-QA accuracy, not the search mechanism."
+6208,exclude,E7,Lightweight LLM human-in-the-loop multi-robot system; evidence is unquantified improvements with 12 simulated TurtleBot3 robots and easier deployment.
+6216,exclude,E5,"Review of agentic AI architectures, coordination mechanisms and frameworks, with a CrewAI/LangChain/LangGraph case study and gains quoted from the literature."
+6220,include,"I1,I2","Study of an agentic LLM as the core robot controller: reports memory-guided replanning, execution recovery and hallucinated task success. Mechanism: loop state, termination."
+6222,exclude,E2,"Thesis parses language once into an action sequence; the replanning trigger is a 5cm object displacement in the scene graph, with no language-model control loop."
+6223,exclude,E4,"TeleCom-Bench evaluates telecom knowledge and end-to-end workflow tasks; it measures execution accuracy across LLMs, not any loop property."
+6236,exclude,E7,"S1-NexusAgent dual-loop self-evolving research agent; the claims are SOTA results on biomini-eval, ChemBench and MatSciBench."
+6241,include,"I1,I2","ReflectVLN triggers reflection when the execution agent emits deviation signals, reporting fewer high-level intention calls alongside recovery. Mechanism: retry/repair, triggering."
+6249,exclude,E3,ALRM wires an off-the-shelf ReAct-style loop into robotic manipulation plus a new benchmark; results rank ten LLMs by task success.
+6251,exclude,E7,DaDu-E closed-loop embodied planner with feedback and memory; claims are task success comparable to larger planners at 6.6x lower compute.
+6261,exclude,E5,"Conceptual theorising of agentic SDLC workflows from 30 prior papers, with SWE-bench and HumanEval numbers quoted from the literature."
+6273,exclude,E7,VLM-guided horticultural robot planning framework; results are crop-monitoring success rates and degradation under noisy semantic maps.
+6305,include,"I1,I2","PivoARL retries only from the pivotal erroneous turn instead of a full retry, cutting interaction turns about 42% versus full-retry methods. Mechanism: retry/repair."
+6325,exclude,E2,"VerifyMAS verifies failure hypotheses over finished trajectories; a fine-tuned attribution verifier scored on attribution accuracy, with no runtime loop."
+6328,exclude,E2,"AgenTracer trains a post-hoc failure tracer via counterfactual replay and fault injection; claims are attribution accuracy and downstream task gains, no loop of its own."
+6350,exclude,E2,"AFANet is a GNN classifier over completed multi-agent trajectories for failure attribution; no runtime loop, evaluated on attribution accuracy and cost."
+6376,exclude,E2,"Citation failure in single-pass RAG generation; CITECONTROL benchmark and CITENTION combine generative, attention and retrieval citation methods, no iterative control."

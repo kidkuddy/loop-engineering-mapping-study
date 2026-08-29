@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+3633,exclude,E1,"Loop is a recurrent architecture block unrolled at test time, not an LLM agent's control loop; claims are reasoning-benchmark accuracy."
+3637,include,I2,"Verification: tool-filtered candidates then sLM final verification; reports verification accuracy of PRMs and critic models, not only MATH scores."
+3639,exclude,E2,"Trains the model to pick shorter correct CoTs via seed data and self-improvement; single-pass generation length, no runtime iterative control."
+3640,include,I2,Termination: CGR periodically probes certainty and stops reasoning early; measures token savings vs accuracy and the certainty threshold trade-off over 64 seeds.
+3646,exclude,E2,"RL post-training reward and sampling scheme for thinking length; no runtime loop, claims are math-benchmark efficiency."
+3673,include,I2,Iteration policy: negative early exit prunes unproductive MCTS trajectories plus adaptive boosting; measures p99 latency and throughput of the search itself.
+3675,exclude,E7,"KG-prover is a theorem-proving system; reported claims are miniF2F/ProofNet/MUSTARD pass rates, not evidence about a loop mechanism."
+3676,exclude,E4,"POBs is a benchmark of subjective preferences and opinions; it measures neutrality and consistency, not any loop property."
+3685,exclude,E2,Theory of RL training sample efficiency under a token-horizon budget; training-time analysis with no runtime loop control mechanism.
+3686,include,I2,Iteration policy: recursive DCR iteratively reconciles disagreements and reallocates compute; compared against fixed-compute baselines plus a dispersion analysis.
+3702,exclude,E2,"RL training method (BRPO) for anytime reasoning under sampled budgets; no runtime loop, claims are accuracy vs GRPO across budgets."
+3709,exclude,E7,"PaCoRe is a multi-round parallel reasoning system; reported claims are HMMT and domain accuracy vs frontier systems, not about its coordination mechanism."
+3712,exclude,E1,"Loop is architectural recurrence/depth in models trained from scratch on cellular automata, not a language-model agent's control loop."
+3724,exclude,E7,"ScaleRTL is an RTL coding system; claims are VerilogEval and RTLLM accuracy gains, nothing measured about its self-correction loop."
+3739,exclude,E2,Energy/accuracy analysis of longer inference-time generation; no iterative control mechanism proposed or studied.
+3742,include,I2,"Verification and iteration policy: compares search against process verifiers vs adaptive sequential revision, measuring compute-optimal allocation against best-of-N."
+3744,include,I2,Termination/budgets: TAB allocates per-turn token budgets across a multi-turn agent loop from conversation history; compared to static and off-the-shelf budget baselines.
+3749,include,I2,Verification: state-level selective verification with feasibility gating and adaptive verifier allocation; reports 44% fewer verifier calls than best-of-N and beam search.
+3755,include,I2,Verification: proves and empirically corroborates that verifier-based scaling beats verifier-free trace distillation as the test-time budget grows.
+3758,exclude,E2,A token budget placed in the prompt for a single CoT generation; prompt-level compression with no control returning to the model.
+3762,exclude,E5,"Self-described survey of adaptive reasoning; taxonomy of existing training-based and training-free methods, no new mechanism."
+3777,exclude,E7,"CodeMonkeys is a SWE-bench system; reported claims are issue-resolution rate and dollar cost, not evidence about its iteration or selection mechanism."
+3779,exclude,E2,"Budget-aware supervised fine-tuning as a Stackelberg game with regret bounds; a label-query budget in training, no runtime loop."
+3780,include,I2,Iteration policy: AgentTTS searches model and budget allocations per subtask through iterative feedback with the environment; compared on search efficiency to baselines.
+3783,include,I2,Iteration policy: dynamic choice of which scaling method and how much compute per query under token and latency cost; compared against static allocation strategies.
+3784,include,I2,Control topology: dual-level planning allocates test-time compute across induced multi-agent collaboration modules; compared to allocation baselines across budget settings.
+3790,include,I2,Control topology: UCB coopetition decides each round whether agents collaborate or compete on coarse verifier signals; compared to self-correction and MAC baselines.
+3791,exclude,E2,"Prompt-structure and LoRA fine-tuning study on clinical NLI; single-pass inference, no loop."
+3792,exclude,E2,"LoRA-rank and RLVR training study under a micro compute budget; training dynamics only, no runtime loop control."
+3794,include,I2,Iteration policy: AVIC gates when and how much world-model imagination to invoke; analyses when imagination helps or harms and reports fewer world-model calls.
+3795,include,I2,Verification and iteration policy: compares verifier-guided search against adaptive sequential revision and measures compute-optimal allocation against best-of-N.
+3796,include,I2,"Iteration policy: controlled large-scale comparison of test-time scaling strategies across models and difficulty; no strategy dominates, yielding a selection recipe."
+3799,include,I2,Termination/budgets: Budget Tracker gives agents tool-call budget awareness and BATS adapts planning and verification; reports cost-performance scaling curves.
+3800,exclude,E5,"Survey/tutorial on small language models covering architectures, TTC scaling and trustworthiness; secondary study."
+3803,exclude,E2,"Reward model that reasons before scoring, evaluated on reward-modelling benchmarks under best-of-N selection; no iterative control."
+3805,include,I2,"Termination: ZIP-RC predicts reward and remaining length per token and takes meta-actions to continue, stop or resample; reports quality/compute/latency Pareto frontiers."
+3812,include,I2,Iteration policy: models how RAG performance scales with generation steps and retrieved documents and predicts the optimal allocation for a budget.
+3815,include,I2,Verification: AgentPRM scores each agent decision by promise and progress to guide the next action; reports 8x compute efficiency over baselines plus mechanism analyses.
+3817,include,I2,Iteration policy: a helper policy decides when to request intervention under budget C; PRM-labelled offline training and evaluation of the helper's timing behaviour.
+3818,include,I2,Retry/repair: UTDebug validates and backtracks edits on generated unit tests; measures the test signal's error-revealing quality alongside debugging gains.
+3824,exclude,E2,"Budget-conditioned RL training with a curriculum scheduler; the budget is a training signal for a single trace, no runtime loop control."
+3825,include,I2,"Empty abstract; the title names when-to-revise cost-aware routing, the decision to iterate again, as the contribution (iteration policy)."
+3829,exclude,E1,"Loop is recurrent encoder depth inside an ASR Transformer, not a language-model agent's control loop."
+3830,include,I2,"Termination: a small controller uses confidence to halt, re-examine or switch approach; reports 2.7 refinement steps and 92.6% precision when it halts."
+3831,exclude,E7,"The AI Scientist is an end-to-end research pipeline; claims are about generated manuscripts passing peer review, not about its loop mechanism."

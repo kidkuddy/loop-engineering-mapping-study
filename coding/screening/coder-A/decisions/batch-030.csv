@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+4022,exclude,E7,"Contribution is an agentic RL environment and dataset framework; claims are benchmark performance boosts on tool-use tasks, not about the loop mechanism."
+4023,exclude,E7,VLA agentic robotics framework; reported claims are a 25% success-rate gain and 53.7% less human time on manipulation tasks.
+4025,include,I2,"TDP contributes scoped local replanning over a DAG of sub-goals, compared against step-wise and one-shot planning paradigms; mechanism: iteration policy."
+4029,exclude,E7,"TaskWeave is an organizational-simulation framework; claims are simulation coherence, grounded artifacts and downstream NLP utility."
+4031,exclude,E7,"Enterprise memory substrate; claims are LongMemEval accuracy 93.8%, retrieval recall, latency and token counts, i.e. memory quality not loop control."
+4032,exclude,E7,"GraphThink is an embodied planning system; claims are state-of-the-art ALFRED success and generalization, not evidence about its replanning module."
+4035,exclude,E7,Subgoal planner plus milestone-reward RL; claims are WebArena-Lite success rates (6.4% to 43.0%) against other systems.
+4036,exclude,E7,"Hierarchical agentic RL training framework; claims are SOTA success and sample efficiency on ALFWorld, WebShop and Sokoban."
+4038,exclude,E7,"Step-level device-cloud router; claims are task success versus cloud-call cost on ALFWorld, WebShop and AppWorld."
+4039,include,I2,"SKILL.state replaces append-only history with an explicit mutable execution state fed to each step, compared against conversational history; mechanism: loop state."
+4040,exclude,E7,Benchmark plus tool-wise reward design for shopping agents; claims are success rates and preference capture on the task.
+4041,exclude,E4,"Benchmark of 100 office-suite tasks with code verifiers and cost signals; measures deliverable quality versus human labour, no loop property."
+4043,exclude,E7,SAGE is a scene-graph planner plus image-editing pipeline for manipulation; claims are state-of-the-art long-horizon task success.
+4044,exclude,E4,"Synthetic pipeline releasing 285 underspecified task variants; an ambiguity dataset and evaluation, not a loop-control mechanism."
+4046,exclude,E7,COSPLAY couples a decision agent with a skill bank; claims are 25.1% average reward gains across six game environments.
+4049,include,I2,"HORIZON measures horizon-dependent breakdown across 3100+ trajectories with validated failure attribution, a loop property not a task score; mechanism: iteration policy."
+4050,include,I2,Abstention-based delegation cascade plus behavior-tree retry; measured by removing about 27% of human answers at unchanged BT quality. Mechanism: control topology.
+4051,include,I2,Learns a runtime harness policy for reading and updating external state; reports harness annealing and evolution dynamics beyond success. Mechanism: loop state.
+4052,exclude,E4,"Benchmark of 200 live-web tasks with rubric grading; reports model success rates and efficiency, no loop-control mechanism studied."
+4053,include,I2,"Measures multi-turn FSM execution, isolating cumulative state maintenance and its degradation with horizon and branching factor. Mechanism: loop state."
+4055,include,I2,"ACON optimizes what context the loop carries by iteratively refining compression guidelines from failure analysis, against compression baselines. Mechanism: loop state."
+4057,exclude,E4,"RetailBench is a simulation benchmark scored on net worth and sales against an oracle policy; economic outcomes, no loop property."
+4058,exclude,E7,"Cloud-edge deployment framework; claims are progress rate, action grounding and success gains for weak edge agents."
+4059,exclude,E4,"Security evaluation benchmark with a risk taxonomy and task suite; scores outcome safety, awareness and utility, not loop control."
+4060,exclude,E7,"Empirical RL training recipe over reward, scale, data and algorithm; claims are SOTA TravelPlanner performance."
+4061,include,I2,"Measures per-step degradation over turns and identifies self-conditioning, where prior errors in context raise future error rates, mitigated by thinking. Mechanism: loop state."
+4063,exclude,E7,Inference plugin inserting transitional actions between VLA skills; claims are 10-25% full-sequence success on scientific manipulation.
+4064,include,I2,MAGE argues semantic memory mismatches execution state and keeps a state tree whose Revise operation restores a boundary and resumes a branch. Mechanism: loop state.
+4066,include,I2,Ledger keeps an explicit execution state and gates commands against it; ablations attribute resolution gains to govern and efficiency to inform. Mechanism: loop state.
+4067,include,I2,"Characterizes parallel against sequential context compaction, giving predictable control of summary volume and removing the blocking stall. Mechanism: loop state."
+4068,include,I2,"Runtime execution model gating each action on constructible authority with an admit/deny/halt state and a recovery loop, argued via safety and liveness. Mechanism: iteration policy."
+4070,exclude,E4,"MemGym is a memory benchmark reporting memory-isolated scores across agent gyms; measures memory quality, not a loop property."
+4071,exclude,E7,HCAPO is an RL credit-assignment algorithm; claims are success-rate gains on WebShop and ALFWorld over GRPO.
+4074,include,I2,"Studies scaling out peer agents against scaling up one agent, with the shared reasoning hub as the arrangement under test. Mechanism: control topology."
+4075,exclude,E7,Optimus-1 is a memory-equipped Minecraft agent; claims are benchmark success against existing agents and GPT-4V.
+4077,include,I2,"MMPO supervises the memory-summarization policy with belief entropy rather than outcome-only RL, localizing where intermediate memory degrades. Mechanism: loop state."
+4079,include,I2,"PASTE restructures the generate-then-act loop, speculatively executing predicted next tool calls and isolating results until the LLM confirms. Mechanism: iteration policy."
+4080,include,I2,"Memex indexes full-fidelity history and learns when to write, index and dereference it under a context budget, with analysis of the Memex loop. Mechanism: loop state."
+4081,exclude,E4,"EcoGym is an economic simulation benchmark scored on net worth, income and DAU across eleven LLMs; no loop property measured."
+4082,exclude,E7,Evolution-strategies fine-tuning framework for agents; claims are WebArena-Lite gains and GPU cost.
+4083,exclude,E7,Data-synthesis and post-training pipeline for search agents; claims are BrowseComp and Deepresearch benchmark scores.
+4084,include,I2,AdaCoM trains an external manager of a frozen agent's context and reports a fidelity-reliability trade-off plus cross-agent transfer. Mechanism: loop state.
+4085,exclude,E7,EAGLET trains a plug-in global planner; claims are SOTA success on three long-horizon agent tasks and 8x lower training cost.
+4086,exclude,E7,Hierarchical orchestrator and sub-agent system for MLE; claims are task performance gains against monolithic baselines.
+4087,include,I2,Slipstream validates a candidate compaction summary against the agent's independently continued reasoning before the loop resumes. Mechanism: verification.

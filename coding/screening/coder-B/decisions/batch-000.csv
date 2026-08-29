@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+6,exclude,E7,"Multi-agent code-generation eval system with a verification agent; reported claims are HumanEval pass rates ranking GPT-3.5/GPT-4/Bard, i.e. task outcomes, not the verification loop."
+10,exclude,E7,"Multi-agent scientific corpus distillation framework; ablations validate each agent but the claims are downstream biomedical QA accuracy vs Med-PaLM-2 and GPT-4, not loop control."
+23,exclude,E1,"Iterative resampling of variables from an LLM's conditionals is a Gibbs/MCMC sampler on a fixed schedule, not an autonomous agent's control loop."
+61,include,I2,BALAR is a task-agnostic outer loop whose iteration policy picks the next question by maximising expected mutual information and expands belief state; compared against reactive baselines.
+85,exclude,E2,"The plan is refined offline from training error feedback; at test time the LLM does single-pass inference guided by the learned plan, so there is no runtime control loop."
+91,exclude,E7,"STAgent is an agentic tool-using model built from a tool environment, data curation and an SFT/RL recipe; the reported claim is TravelBench and general-benchmark performance."
+135,exclude,E1,"The agent explained is a robot with an uninterpretable deep network policy; the LLM only generates post-hoc explanations, so no language-model agent loop is studied."
+140,exclude,E2,"A membership-inference evaluation over LMs trained on the Pile; no agent and no iterative control at all, only training-data leakage measurements."
+144,exclude,E7,"Distillation pipeline compressing ReAct agents with span-specific losses; reported claims are ALFWorld/HotPotQA/WebShop scores and compression, not the loop the student runs."
+146,exclude,E2,"xLAM contributes trained action models and a data pipeline; the evaluation is function-calling leaderboard performance, with no runtime loop mechanism as the contribution."
+152,exclude,E7,S-Agents proposes a tree-of-agents organisation but the evidence is only that it executes Minecraft building and resource collection; the topology is never the studied variable.
+153,exclude,E5,An overview paper summarising pretraining and fine-tuning data practices and listing open-source datasets; a secondary study with no method.
+154,exclude,E1,"The iterative searching and ranking is a weight-sensitivity search for a bit-flip attack on model parameters, not an LLM agent's control loop."
+186,exclude,E7,"KG-Agent's tool-select-then-update-memory iteration is the authors' own loop, but the reported claim is KGQA accuracy against larger LLMs on in- and out-domain datasets."
+217,exclude,E7,Hydrogen-Agent is a domain framework the authors built; claims are HydroBench factual accuracy over its base model and three end-to-end research case studies.
+222,exclude,E5,A systematisation that categorises runtime supply-chain threats into a taxonomy of data and tool attacks; a secondary study of the security literature.
+231,exclude,E4,"A 33-task penetration-testing benchmark scored by success rate and task milestones; it measures task outcomes, not a loop property such as termination or retries."
+235,exclude,E1,"The iteration is PPO plus Tabu Search over vehicle routes; the LLM only re-weights constraints, and results are distance, fuel and on-time delivery metrics."
+241,exclude,E7,"ReaperAI is an offensive-security agent the authors built; the reported evidence is successful exploitation of known vulnerabilities on Hack The Box, a task outcome."
+242,exclude,E5,"Self-described first comprehensive survey of LLM-based human-agent collaboration systems, with a paper list; a secondary study."
+247,exclude,E5,"A survey of twenty-six LLM RTL-generation efforts plus a baseline benchmarking of frontier models; a secondary study, no loop mechanism contributed."
+251,exclude,E5,"A review synthesising LangGraph, CrewAI and MCP multi-agent frameworks and their reported biomedical accuracies; a secondary study."
+252,exclude,E7,"ARM is an RCA-plus-mitigation closed loop for cloud-edge faults; reported claims are 52.9% SLA-violation detection and 70.7% successful mitigation, i.e. task outcomes."
+254,exclude,E7,"WaterRAG is a domain multi-agent RAG application; the ablation of its iterative loop is scored by 80.5% answer correctness on wastewater questions, a task outcome."
+255,include,I2,"GENIUS's finite-state error-recovery machine is the studied retry/repair mechanism: 76.3% of failed runs are autonomously recovered, with attempt-wise success decaying exponentially."
+260,exclude,E7,"ABA is an agentic auditing pipeline; the reported claims are that 25.7% of benchmark tasks have issues and that filtering shifts model rankings, not anything about its loop."
+261,exclude,E4,"A Zenodo record written up from a YouTube video describing OpenClaw, with no method, evaluation or data; not a research contribution."
+265,include,I2,"The loop architecture is the studied variable: one-shot vs iterative-feedback vs designer/debugger loops (only ~2pp gain vs ~20pp from model choice), plus five tool-calling agent designs."
+268,include,I2,"Controlled longitudinal study holding the model fixed and varying only the agent harness over 35 releases, attributing quality shifts to the iteration policy and context handling it implements."
+270,exclude,E5,A conceptual taxonomy review distinguishing AI Agents from Agentic AI with application mapping and challenge analysis; a secondary study.
+293,exclude,E7,The curate-train-refine loop is a data-generation pipeline and the reported claim is classification accuracy over zero- and few-shot baselines on four benchmarks.
+294,include,I2,Position paper arguing explicitly about loop control: recasts the agent loop as a single-ready-unit scheduler and proposes an explicit DAG with a node state machine giving termination guarantees.
+295,exclude,E7,"Zenith is a personal-assistant application; its PPAR loop and model router are evidenced only by 88% task success and 30% lower latency, i.e. task outcomes."
+302,exclude,E7,"TODO List Memory and Second Chance Backtrack are named as loop mechanisms but every reported number is navigation success rate on VLN-CE, HM3D, EQA and OpenUAV benchmarks."
+304,include,I2,SafeAgent verifies each action around the agent loop and arbitrates whether it proceeds; ablations show recovery confidence and policy weighting set distinct safety-utility operating points.
+307,exclude,E7,"The symbolic validator sits in the agent loop but the reported claims are requirements-task outputs: 100% coverage, 0.2% constraint violations and F1 0.47-0.51 against a gold standard."
+309,exclude,E3,"A deployed Islamic assistant wiring a standard tool-using retrieval loop; the reported claims are exam scores, IslamicMMLU leaderboard position and deployment lessons."
+317,exclude,E7,The Actor-Critic-Distiller-Refiner loop serves a power-systems explanation application; the reported claim is ~96% on explanation quality metrics for OPF redispatch.
+322,exclude,E5,"A survey of agent-harness components with a taxonomy, evaluation logic and model-harness coevolution discussion; a secondary study."
+328,include,I2,"Compares iteration policies for vericoding: an agentic loop scaling with agent budget, then state-based vs context-based tree-search orchestrators against that baseline at lower token cost."
+329,exclude,E7,DIAFORGE is a synthesis-plus-finetuning pipeline; the live agentic loop is only the evaluation harness and the claim is tool-invocation success over GPT-4o and Claude-3.5.
+339,include,I2,"Control topology is the studied variable: a capacity-limited selection and broadcast hub with diversity pruning, argued against unconstrained multi-agent loops to cut hallucination and add control."
+341,include,I2,"Tests LLM-as-jury, the default stopping criterion for agent loops, as a verification mechanism on a legal gold set; finds systematic confident error and argues verification must be an external gate."
+345,exclude,E4,A podcast episode summary and show notes arguing against agentic inflation; not a research contribution.
+347,exclude,E5,A tutorial review mapping five enabling knowledge pillars for agentic biosensors onto a Knowledge Integration Framework; a secondary study.

@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 6776,
+  "title": "Insider Attacks in Multi-Agent LLM Consensus Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) are increasingly deployed in multi-agent systems where agents communicate in natural language to solve tasks jointly. A key capability in such systems is consensus formation, where agents iteratively exchange messages and update decisions to reach a shared outcome. However, most existing multi-agent LLM frameworks assume that all participating agents are aligned with the system objective. In practice, a malicious insider may participate as a legitimate member of the group while pursuing a hidden adversarial goal. In this work, we study insider manipulation in multi-agent LLM consensus systems. We formalize the problem as a sequential decision-making task in which a malicious agent seeks to delay or prevent agreement among benign agents. To make attack optimization tractable, we propose a world-model-based framework that learns surrogate dynamics over the latent behavioral states of benign agents and then trains an attacker using reinforcement learning based on this learned model. Preliminary results show that the trained attacker reduces the benign consensus rate and prolongs disagreement more effectively than the direct malicious-prompt baseline. These results suggest that combining latent world models with reinforcement learning is a promising direction for adaptive insider attacks in language-based multi-agent systems."
+ },
+ {
+  "paper_id": 6790,
+  "title": "An Adversary-Resistant Multi-Agent LLM System via Credibility Scoring",
+  "year": 2025,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "While multi-agent LLM systems show strong capabilities in various domains, they are highly vulnerable to adversarial and low-performing agents. To resolve this issue, in this paper, we introduce a general and adversary-resistant multi-agent LLM framework based on credibility scoring. We model the collaborative query-answering process as an iterative game, where the agents communicate and contribute to a final system output. Our system associates a credibility score that is used when aggregating the team outputs. The credibility scores are learned gradually based on the past contributions of each agent in query answering. Our experiments across multiple tasks and settings demonstrate our system's effectiveness in mitigating adversarial influence and enhancing the resilience of multi-agent cooperation, even in the adversary-majority settings."
+ },
+ {
+  "paper_id": 6794,
+  "title": "Reliable Self-Harm Risk Screening via Adaptive Multi-Agent LLM Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Emerging AI systems in behavioral health and psychiatry use multi-step or multi-agent LLM pipelines for tasks like assessing self-harm risk and screening for depression. However, common evaluation approaches, like LLM-as-a-judge, do not indicate when a decision is reliable or how errors may accumulate across multiple LLM judgements, limiting their suitability for safety-critical settings. We present a statistical framework for multi-agent pipelines structured as directed acyclic graphs (DAGs) that provides an alternative to heuristic voting with principled, adaptive decision-making. We model each agent as a stochastic categorical decision and introduce (1) tighter agent-level performance confidence bounds, (2) a bandit-based adaptive sampling strategy based on input difficulty, and (3) regret guarantees over the multi-agent system that shows logarithmic error growth when deployed. We evaluate our system on two labeled datasets in behavioral health : the AEGIS 2.0 behavioral health subset (N=161) and a stratified sample of SWMH Reddit posts (N=250). Empirically, our adaptive sampling strategy achieves the lowest false positive rate of any condition across both datasets, 0.095 on AEGIS 2.0 compared to 0.159 for single-agent models, reducing incorrect flagging of safe content by 40\\% and still having similar false negative rates across all conditions. These results suggest that principled adaptive sampling offers a meaningful improvement in precision without reducing recall in this setting."
+ },
+ {
+  "paper_id": 6799,
+  "title": "Evaluating Theory of Mind and Internal Beliefs in LLM-Based Multi-Agent Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "LLM-based MAS are gaining popularity due to their potential for collaborative problem-solving enhanced by advances in natural language comprehension, reasoning, and planning. Research in Theory of Mind (ToM) and Belief-Desire-Intention (BDI) models has the potential to further improve the agent's interaction and decision-making in such systems. However, collaborative intelligence in dynamic worlds remains difficult to accomplish since LLM performance in multi-agent worlds is extremely variable. Simply adding cognitive mechanisms like ToM and internal beliefs does not automatically result in improved coordination. The interplay between these mechanisms, particularly in relation to formal logic verification, remains largely underexplored in different LLMs. This work investigates: How do internal belief mechanisms, including symbolic solvers and Theory of Mind, influence collaborative decision-making in LLM-based multi-agent systems, and how does the interplay of those components influence system accuracy? We introduce a novel multi-agent architecture integrating ToM, BDI-style internal beliefs, and symbolic solvers for logical verification. We evaluate this architecture in a resource allocation problem with various LLMs and find an intricate interaction between LLM capabilities, cognitive mechanisms, and performance. This work contributes to the area of AI by proposing a novel multi-agent system with ToM, internal beliefs, and symbolic solvers for augmenting collaborative intelligence in multi-agent systems and evaluating its performance under different LLM settings."
+ },
+ {
+  "paper_id": 6809,
+  "title": "Training-Free Agentic AI: Probabilistic Control and Coordination in Multi-Agent LLM Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Multi-agent large language model (LLM) systems enable complex, long-horizon reasoning by composing specialized agents, but practical deployment remains hindered by inefficient routing, noisy feedback, and high interaction cost. We introduce REDEREF, a lightweight and training-free controller for multi-agent LLM collaboration that improves routing efficiency during recursive delegation. REDEREF integrates (i) belief-guided delegation via Thompson sampling to prioritize agents with historically positive marginal contributions, (ii) reflection-driven re-routing using a calibrated LLM or programmatic judge, (iii) evidence-based selection rather than output averaging, and (iv) memory-aware priors to reduce cold-start inefficiency. Across multi-agent split-knowledge tasks, we show that while recursive retry alone saturates task success, belief-guided routing reduces token usage by 28%, agent calls by 17%, and time-to-success by 19% compared to random recursive delegation, and adapts gracefully under agent or judge degradation. These results demonstrate that simple, interpretable probabilistic control can meaningfully improve the efficiency and robustness of multi-agent LLM systems without training or fine-tuning."
+ },
+ {
+  "paper_id": 6816,
+  "title": "The Reasoning Trap: An Information-Theoretic Bound on Closed-System Multi-Step LLM Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "When copies of the same language model are prompted to debate, they produce diverse phrasings of one perspective rather than diverse perspectives. Multi-agent debate (MAD), and more broadly closed-system reasoning where agents iteratively transform each other's outputs, tends to preserve answer accuracy while degrading the reasoning behind those answers. We name the multi-agent case the Debate Trap and the broader phenomenon the Reasoning Trap, offering a programmatic theory of evidence-grounded reasoning failure.The framework has three parts: (i) SFS (Supported Faithfulness Score), a claim-level metric verifying decomposed atomic claims against provided evidence (decomposer-invariant rankings: Spearman rho=1.0); (ii) EGSR (Evidence-Grounded Socratic Reasoning), replacing adversarial argumentation with evidence-grounded inquiry; (iii) Theorem 1 (DPI Bound): under standard MAD, the chain E -> O^0 -> O^1 -> ... is Markov, and the Data Processing Inequality implies E[I(E;O^{t+1})] <= E[I(E;O^t)]. Three companion results -- open-system recovery (Theorem 2), EGSR accumulation (Lemma 2), and vote-aggregation floor (Proposition 1) -- partition multi-step LLM reasoning by its information-theoretic relationship to E. Across 16 conditions on SciFact (300 claims) and FEVER (1,000 claims), DebateCV (C13) preserves 88% of baseline accuracy while SFS drops 43%; majority-vote MAD (C15) reduces SFS to 1.7% of baseline (p < 10^{-6}, d = -0.96); EGSR recovers 98%. An R6 cohort study (Korean n=10x30 FEVER; English n=3x200 SciFact) finds inter-rater Fleiss kappa <= +0.018 with 0.8-1.4 Likert intra-rater shifts across language and domain -- the human agreement that faithfulness metrics have been calibrated against is not itself stable. We offer one falsifiable conjecture: any closed-system reasoning protocol preserving Theorem 1's Markov structure is, in expectation, subject to the same DPI bound."
+ },
+ {
+  "paper_id": 6820,
+  "title": "MAS-FIRE: Fault Injection and Reliability Evaluation for LLM-Based Multi-Agent Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "As LLM-based Multi-Agent Systems (MAS) are increasingly deployed for complex tasks, ensuring their reliability has become a pressing challenge. Since MAS coordinate through unstructured natural language rather than rigid protocols, they are prone to semantic failures (e.g., hallucinations, misinterpreted instructions, and reasoning drift) that propagate silently without raising runtime exceptions. Prevailing evaluation approaches, which measure only end-to-end task success, offer limited insight into how these failures arise or how effectively agents recover from them. To bridge this gap, we propose MAS-FIRE, a systematic framework for fault injection and reliability evaluation of MAS. We define a taxonomy of 15 fault types covering intra-agent cognitive errors and inter-agent coordination failures, and inject them via three non-invasive mechanisms: prompt modification, response rewriting, and message routing manipulation. Applying MAS-FIRE to three representative MAS architectures, we uncover a rich set of fault-tolerant behaviors that we organize into four tiers: mechanism, rule, prompt, and reasoning. This tiered view enables fine-grained diagnosis of where and why systems succeed or fail. Our findings reveal that stronger foundation models do not uniformly improve robustness. We further show that architectural topology plays an equally decisive role, with iterative, closed-loop designs neutralizing over 40% of faults that cause catastrophic collapse in linear workflows. MAS-FIRE provides the process-level observability and actionable guidance needed to systematically improve multi-agent systems."
+ },
+ {
+  "paper_id": 6826,
+  "title": "Delayed Verification Destabilizes Multi-Agent LLM Belief: Instability Thresholds and Optimal Corrector Placement",
+  "year": 2026,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Multi-agent large language model (LLM) systems often rely on verifier and critic agents to suppress hallucinations, but verification is delayed. During this delay, false claims can propagate through the agent network. We model this process as delayed consensus on a graph with grounded corrector nodes. Spectral decomposition by the grounded Laplacian yields a closed-form stability threshold for the verification dose: correction that is too strong or too delayed can turn consensus into oscillation. The most unstable regime occurs when the communication and verification delays coincide; for delay two, the threshold is the inverse golden ratio. The same framework gives a supermodular placement objective and a greedy (1-1/e)-approximation rule for assigning a limited corrector budget to influential nodes. Experiments across five open models confirm the predicted dose-delay oscillations. By contrast, grounded factual answering makes truth an absorbing boundary and eliminates the effect, suggesting that the instability is specific to signed-belief tasks while grounded verification remains stabilizing"
+ },
+ {
+  "paper_id": 6829,
+  "title": "Position: Towards a Responsible LLM-empowered Multi-Agent Systems",
+  "year": 2025,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "The rise of Agent AI and Large Language Model-powered Multi-Agent Systems (LLM-MAS) has underscored the need for responsible and dependable system operation. Tools like LangChain and Retrieval-Augmented Generation have expanded LLM capabilities, enabling deeper integration into MAS through enhanced knowledge retrieval and reasoning. However, these advancements introduce critical challenges: LLM agents exhibit inherent unpredictability, and uncertainties in their outputs can compound across interactions, threatening system stability. To address these risks, a human-centered design approach with active dynamic moderation is essential. Such an approach enhances traditional passive oversight by facilitating coherent inter-agent communication and effective system governance, allowing MAS to achieve desired outcomes more efficiently."
+ },
+ {
+  "paper_id": 6830,
+  "title": "Self-Resource Allocation in Multi-Agent LLM Systems",
+  "year": 2025,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "With the development of LLMs as agents, there is a growing interest in connecting multiple agents into multi-agent systems to solve tasks concurrently, focusing on their role in task assignment and coordination. This paper explores how LLMs can effectively allocate computational tasks among multiple agents, considering factors such as cost, efficiency, and performance. In this work, we address key questions, including the effectiveness of LLMs as orchestrators and planners, comparing their effectiveness in task assignment and coordination. Our experiments demonstrate that LLMs can achieve high validity and accuracy in resource allocation tasks. We find that the planner method outperforms the orchestrator method in handling concurrent actions, resulting in improved efficiency and better utilization of agents. Additionally, we show that providing explicit information about worker capabilities enhances the allocation strategies of planners, particularly when dealing with suboptimal workers."
+ },
+ {
+  "paper_id": 6835,
+  "title": "MasRouter: Learning to Route LLMs for Multi-Agent Systems",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Multi-agent systems (MAS) powered by Large Language Models (LLMs) have been demonstrated to push the boundaries of LLM capabilities, yet they often incur significant costs and face challenges in dynamic LLM selection. Current LLM routing methods effectively reduce overhead in single-agent scenarios by customizing LLM selection for each query, but they overlook the critical decisions regarding collaboration modes and agent roles in MAS. In response to this challenge, we first introduce the problem of Multi-Agent System Routing (MASR), which integrates all components of MAS into a unified routing framework. Toward this goal, we propose MasRouter, the first high-performing, cost-effective, and inductive MASR solution. MasRouter employs collaboration mode determination, role allocation, and LLM routing through a cascaded controller network, progressively constructing a MAS that balances effectiveness and efficiency. Extensive experiments demonstrate that MasRouter is (1) high-performing, achieving a $1.8\\%\\sim8.2\\%$ improvement over the state-of-the-art method on MBPP; (2) economical, reducing overhead by up to $52.07\\%$ compared to SOTA methods on HumanEval; and (3) plug-and-play, seamlessly integrating with mainstream MAS frameworks, reducing overhead by $17.21\\%\\sim28.17\\%$ via customized routing. The code is available at https://github.com/yanweiyue/masrouter."
+ },
+ {
+  "paper_id": 6853,
+  "title": "Conformity Dynamics in LLM Multi-Agent Systems: The Roles of Topology and Self-Social Weighting",
+  "year": 2026,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) are increasingly instantiated as interacting agents in multi-agent systems (MAS), where collective decisions emerge through social interaction rather than independent reasoning. A fundamental yet underexplored mechanism in this process is conformity, the tendency of agents to align their judgments with prevailing group opinions. This paper presents a systematic study of how network topology shapes conformity dynamics in LLM-based MAS through a misinformation detection task. We introduce a confidence-normalized pooling rule that controls the trade-off between self-reliance and social influence, enabling comparisons between two canonical decision paradigms: Centralized Aggregation and Distributed Consensus. Experimental results demonstrate that network topology critically governs both the efficiency and robustness of collective judgments. Centralized structures enable immediate decisions but are sensitive to hub competence and exhibit same-model alignment biases. In contrast, distributed structures promote more robust consensus, while increased network connectivity speeds up convergence but also heightens the risk of wrong-but-sure cascades, in which agents converge on incorrect decisions with high confidence. These findings characterize the conformity dynamics in LLM-based MAS, clarifying how network topology and self-social weighting jointly shape the efficiency, robustness, and failure modes of collective decision-making."
+ },
+ {
+  "paper_id": 6859,
+  "title": "Group size effects and collective misalignment in LLM multi-agent systems",
+  "year": 2025,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Multi-agent systems of large language models (LLMs) are rapidly expanding across domains, introducing dynamics not captured by single-agent evaluations. Yet, existing work has mostly contrasted the behavior of a single agent with that of a collective of fixed size, leaving open a central question: how does group size shape dynamics? Here, we move beyond this dichotomy and systematically explore outcomes across the full range of group sizes. We focus on multi-agent misalignment, building on recent evidence that interacting LLMs playing a simple coordination game can generate collective biases absent in individual models. First, we show that collective bias is a deeper phenomenon than previously assessed: interaction can amplify individual biases, introduce new ones, or override model-level preferences. Second, we demonstrate that group size affects the dynamics in a non-linear way, revealing model-dependent dynamical regimes. Finally, we develop a mean-field analytical approach and show that, above a critical population size, simulations converge to deterministic predictions that expose the basins of attraction of competing equilibria. These findings establish group size as a key driver of multi-agent dynamics and highlight the need to consider population-level effects when deploying LLM-based systems at scale."
+ },
+ {
+  "paper_id": 6863,
+  "title": "Herd Behavior: Investigating Peer Influence in LLM-based Multi-Agent Systems",
+  "year": 2025,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have enabled the emergence of multi-agent systems where LLMs interact, collaborate, and make decisions in shared environments. While individual model behavior has been extensively studied, the dynamics of peer influence in such systems remain underexplored. In this paper, we investigate herd behavior, the tendency of agents to align their outputs with those of their peers, within LLM-based multi-agent interactions. We present a series of controlled experiments that reveal how herd behaviors are shaped by multiple factors. First, we show that the gap between self-confidence and perceived confidence in peers significantly impacts an agent's likelihood to conform. Second, we find that the format in which peer information is presented plays a critical role in modulating the strength of herd behavior. Finally, we demonstrate that the degree of herd behavior can be systematically controlled, and that appropriately calibrated herd tendencies can enhance collaborative outcomes. These findings offer new insights into the social dynamics of LLM-based systems and open pathways for designing more effective and adaptive multi-agent collaboration frameworks."
+ },
+ {
+  "paper_id": 6865,
+  "title": "LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "We introduce LEGOMem, a modular procedural memory framework for multi-agent large language model (LLM) systems in workflow automation. LEGOMem decomposes past task trajectories into reusable memory units and flexibly allocates them across orchestrators and task agents to support planning and execution. To explore the design space of memory in multi-agent systems, we use LEGOMem as a lens and conduct a systematic study of procedural memory in multi-agent systems, examining where memory should be placed, how it should be retrieved, and which agents benefit most. Experiments on the OfficeBench benchmark show that orchestrator memory is critical for effective task decomposition and delegation, while fine-grained agent memory improves execution accuracy. We find that even teams composed of smaller language models can benefit substantially from procedural memory, narrowing the performance gap with stronger agents by leveraging prior execution traces for more accurate planning and tool use. These results position LEGOMem as both a practical framework for memory-augmented agent systems and a research tool for understanding memory design in multi-agent workflow automation."
+ },
+ {
+  "paper_id": 6888,
+  "title": "Iterative Audit Convergence in LLM-Managed Multi-Agent Systems: A Case Study in Prompt-Engineering Quality Assurance",
+  "year": 2026,
+  "venue": "Software",
+  "source": "openalex",
+  "abstract": "Prompt specifications for multi-agent large language model (LLM) systems carry data contracts and integration logic across interdependent files but are rarely subjected to structured-inspection rigor. We report a single-system case study of iterative, agent-driven auditing applied to AEGIS (Autonomous Engineering Governance and Intelligence System), a seven-lane production pipeline whose 7152-line specification surface was audited across nine rounds, surfacing 51 consistency defects (per-round counts of 15, 8, 12, 2, 8, 1, 4, 1, 0). We present a seven-category post hoc taxonomy with explicit coding rules, non-monotonic convergence consistent with cascading edits and audit-scope expansion, and a locked audit protocol. We further report two partial replications on a public synthetic mini-specification: a cross-LLM panel of four frontier vendors (OpenAI, Anthropic, Google, xAI; 12 traces; multi-vendor union detects all five seeded defects) and an inter-rater reliability check on a stratified subsample (Cohen\u2019s \u03ba = 0.80 on category, 0.46 on severity). The full reproducibility bundle accompanies the submission."
+ },
+ {
+  "paper_id": 6920,
+  "title": "ALLURE: Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "From grading papers to summarizing medical documents, large language models (LLMs) are evermore used for evaluation of text generated by humans and AI alike. However, despite their extensive utility, LLMs exhibit distinct failure modes, necessitating a thorough audit and improvement of their text evaluation capabilities. Here we introduce ALLURE, a systematic approach to Auditing Large Language Models Understanding and Reasoning Errors. ALLURE involves comparing LLM-generated evaluations with annotated data, and iteratively incorporating instances of significant deviation into the evaluator, which leverages in-context learning (ICL) to enhance and improve robust evaluation of text by LLMs. Through this iterative process, we refine the performance of the evaluator LLM, ultimately reducing reliance on human annotators in the evaluation process. We anticipate ALLURE to serve diverse applications of LLMs in various domains related to evaluation of textual data, such as medical summarization, education, and and productivity."
+ },
+ {
+  "paper_id": 6925,
+  "title": "A Reliability Control Framework for Robust Multi-Agent LLM Systems: Managing Workflows in Large Language Model Systems",
+  "year": 2026,
+  "venue": "Open MIND",
+  "source": "openalex",
+  "abstract": "Large language model (LLM)\u2013driven multi-agent systems are rapidly becoming integral to enterprise automation. Despite their increased use, real-world applications still face many reliability issues, including coordination problems, verification gaps, and recovery weaknesses. Recent empirical research calls for solutions to the problem that go beyond the management of tasks. In this paper, we propose the AI Reliability Control Framework (ARCF), which incorporates seven layers, intended to enhance the reliability of production multi-agent large language model systems. This framework has a Reliability Control Layer that controls operations, identifies failure instances, and triggers automatic fault recovery mechanisms. ARCF has four main functionalities: (i) monitoring in real time according to the Multi-Agent System Failure Taxonomy (MAST), (ii) formally verified fault-recovery protocols with probabilistic reliability analysis, (iii) observability using OpenTelemetry GenAI standards, and (iv) safety verification through the Constitution for Artificial Intelligence framework. Simulation evaluation of ARCF across various workflows used in enterprises reveals significant efficiently handled 89% of the failures. Additionally, real-time monitoring managed to encompass 93% of the current types of failures. These findings suggest that architectural supervision can help greatly improve large language model multi-agent systems in real-world use."
+ },
+ {
+  "paper_id": 6930,
+  "title": "A Multi-Agent LLM Experiment Revealing Architect-Level Failure Modes in Scientific Software Development",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "This paper presents quantum_bench, a controlled experiment in multi-agent LLM-assisted scientific software development. The system implements exact analytical solutions to five Tier 2 applied quantum mechanics problems in pure Ruby and validates computed results against peer-reviewed literature values from Griffiths and Schroeter (2018). The experiment employs a two-agent architecture: Claude as architect (prompt designer) and Codex as coder (Ruby implementer). The primary finding is not about quantum mechanics. It is about the multi-agent workflow itself: Claude, acting as architect, repeatedly hallucinated experiment goals that were never stated, substituted its own interpretations despite explicit correction, and directed Codex down architecturally wrong paths. Codex performed correctly throughout, implementing what each prompt specified. The reliability bottleneck in this multi-agent system was the LLM as architect, not the LLM as the coder. Claude errors are documented in five groups ordered by severity -- goal substitution, incomplete refactors, context loss, prompt design gaps, and process violations -- with one documented Codex implementation error and one mixed-attribution historical error note in CODEX_ERRORS.md. All five quantum mechanics problems ultimately pass validation against Griffiths and Schroeter values."
+ },
+ {
+  "paper_id": 6937,
+  "title": "quantum_bench: A Multi-Agent LLM Experiment Revealing Architect-Level Failure Modes in Scientific Software Development",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "A controlled experiment in multi-agent LLM-assisted scientific software development. The system implements exact analytical solutions to five Tier 2 applied quantum mechanics problems in pure Ruby and validates computed results against peer-reviewed literature values from Griffiths and Schroeter (2018). The experiment employs a two-agent architecture: Claude as architect (prompt designer) and Codex as coder (Ruby implementer). The primary finding is not about quantum mechanics -- it is about the multi-agent workflow itself. Claude made 21 documented errors across five error groups (goal substitution, incomplete refactors, context loss, prompt design gaps, and process violations). Codex made zero documented architectural errors. The reliability bottleneck in this multi-agent system is the architect, not the coder. All five quantum mechanics problems pass validation against Griffiths and Schroeter peer-reviewed literature values. 44 RSpec examples, 0 failures."
+ },
+ {
+  "paper_id": 6951,
+  "title": "RedDebate: Safer Responses Through Multi-Agent Red Teaming Debates",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We introduce RedDebate, a novel multi-agent debate framework that provides the foundation for Large Language Models (LLMs) to identify and mitigate their unsafe behaviours. AI safety approaches often rely on costly human evaluation or isolated single-model assessment, both constrained by scalability and prone to oversight failures. RedDebate employs collaborative argumentation among multiple LLMs across diverse debate scenarios, enabling them to critically evaluate one another's reasoning and systematically uncover unsafe failure modes through fully automated red-teaming. To support this, we propose designing distinct long-term memory modules that preserve safety-relevant insights from debate interactions and leverage them during subsequent inference, facilitating continuous refinement of model behaviour. Empirical evaluation on safety benchmarks across a diverse set of models demonstrates that RedDebate substantially reduces unsafe outputs. While debate alone allows LLMs to refine their behaviour, the addition of memory yields further error reductions. To the best of our knowledge, RedDebate is the first fully automated framework to unify multi-agent debate and red-teaming to progressively enhance LLM safety without human intervention."
+ },
+ {
+  "paper_id": 6986,
+  "title": "Causal-Aware LLM Agents for PHM Co-pilots",
+  "year": 2025,
+  "venue": "Annual Conference of the PHM Society",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs), while capable of generating plausible diagnostic plans from sensor data, inherently lack true causal reasoning capabilities and are prone to hallucinations. To address this limitation, we propose a hybrid AI framework that integrates LLMs with structured causal inference to enable robust, interpretable decision-making in predictive health monitoring (PHM) for complex systems. Our architecture positions the LLM as a planning agent that infers candidate failure modes and troubleshooting steps, while delegating causal evaluation to an external inference model grounded in formal causal principles. The system constructs a localized causal knowledge graph (KG) by retrieving top-k similar historical traces based on the current sensor context, and uses this graph to simulate and evaluate the impact of potential actions. We explore three strategies for handling multi-step diagnostic plans: step-wise decomposition, compound treatment modelling, and sequential intervention chains. Recommendations are ranked based on their estimated effect on resolution likelihood and further validated by a dedicated Evaluator Agent using counterfactual reasoning. Our results demonstrate that augmenting LLM-generated plans with external causal inference significantly improves relevance, consistency, and safety\u2014offering a deployable blueprint for high-stakes PHM scenarios where LLMs alone cannot be trusted to reason reliably."
+ },
+ {
+  "paper_id": 6988,
+  "title": "A Systematic Study of LLM-Based Architectures for Automated Patching",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have shown promise for automated patching, but their effectiveness depends strongly on how they are integrated into patching systems. While prior work explores prompting strategies and individual agent designs, the field lacks a systematic comparison of patching architectures. In this paper, we present a controlled evaluation of four LLM-based patching paradigms -- fixed workflow, single-agent system, multi-agent system, and general-purpose code agents -- using a unified benchmark and evaluation framework. We analyze patch correctness, failure modes, token usage, and execution time across real-world vulnerability tasks. Our results reveal clear architectural trade-offs: fixed workflows are efficient but brittle, single-agent systems balance flexibility and cost, and multi-agent designs improve generalization at the expense of substantially higher overhead and increased risk of reasoning drift on complex tasks. Surprisingly, general-purpose code agents achieve the strongest overall patching performance, benefiting from general-purpose tool interfaces that support effective adaptation across vulnerability types. Overall, we show that architectural design and iteration depth, rather than model capability alone, dominate the reliability and cost of LLM-based automated patching."
+ },
+ {
+  "paper_id": 6992,
+  "title": "Agentic AI for Commercial Insurance Underwriting with Adversarial Self-Critique",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Commercial insurance underwriting is a labor-intensive process that requires manual review of extensive documentation to assess risk and determine policy pricing. While AI offers substantial efficiency improvements, existing solutions lack comprehensive reasoning and internal mechanisms to ensure reliability in regulated, high-stakes environments. Full automation remains impractical and inadvisable when human judgment and accountability are critical. This study presents a decision-negative, human-in-the-loop agentic system that incorporates an adversarial self-critique mechanism as a bounded safety architecture for regulated underwriting workflows. In this system, a critic agent challenges the primary agent's conclusions prior to submitting recommendations to human reviewers. This internal system of checks and balances addresses a critical gap in AI safety for regulated workflows. Additionally, the research develops a formal taxonomy of failure modes to characterize potential errors by decision-negative agents. This taxonomy provides a structured framework for risk identification and management in high-stakes applications. Experimental evaluation using 500 expert-validated underwriting cases demonstrates that the adversarial critique mechanism reduces AI hallucination rates from 11.3% to 3.8% and increases decision accuracy from 92% to 96%. At the same time, the framework enforces strict human authority over all binding decisions by design. These findings indicate that adversarial self-critique supports safer AI deployment in regulated domains and offers a model for responsible integration where human oversight is indispensable."
+ },
+ {
+  "paper_id": 6993,
+  "title": "Local Green, Global Red I - Evaluated Path Kernels for Composed Agent Reliability",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Local Green, Global Red: Evaluated Path Kernels for Composed Agent Reliability introduces a finite calculus for measuring non-compositional verification in composed AI agent systems. The paper formalizes a central reliability failure mode in modern multi-stage agents: The paper formalizes the failure mode E(\u03b3\u2081)=1, E(\u03b3\u2082)=1 \u21cf E(\u03b3\u2082\u22c6\u03b3\u2081)=1: locally validated steps do not necessarily compose into globally correct behavior. That is, locally validated steps do not necessarily compose into globally correct behavior. The work defines Evaluated Path Kernels (EPK), proves a conditional finite kernel composition theorem under explicit factorization assumptions, and derives measurable residual defect terms when evaluator composition fails. The framework introduces quantitative diagnostics including: Evaluator Gluing Defect (\u0394\u2091) Negative Gluing Defect Rate (NGD) Residual Kernel Error (RKE) Proposal-weighted hidden failure mass (wNGD) The manuscript connects finite path-space reliability, proposal-weighted trajectory modeling, Product-of-Experts vs. Mixture-of-Experts verification tradeoffs, and boundary sufficiency in multi-agent systems. It further develops a Proposal\u2013Projection Representation (PPR) framework describing structural limits of systems whose outputs require external evaluator authorization. Primary application targets include: LLM agents repository-scale software repair hardware verification agents tool-augmented autonomous systems multi-agent orchestration The repository includes: theorem-consistent finite calculus formulations benchmark protocols synthetic diagnostics reproducibility fixtures LaTeX source and compiled manuscript This work is presented as a finite obstruction and compositional reliability framework rather than a claim of benchmark-complete empirical validation."
+ }
+]

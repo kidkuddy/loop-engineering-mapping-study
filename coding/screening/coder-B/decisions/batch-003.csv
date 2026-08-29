@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+1558,exclude,E2,"Post-training pipeline: step-tagged SFT plus GRPO with rollout-based process rewards; no runtime loop, claims are video-benchmark accuracy over Qwen3-VL-8B."
+1603,exclude,E2,"Benchmark plus error taxonomy over CoT traces on topological puzzles; no iterative control mechanism, conclusion is about constraint extraction from representations."
+1607,include,I1;I2,Negative result on retry/repair: behavioral and mechanistic analysis of whether LLMs incorporate external feedback during self-correction; the correction step itself is the object.
+1609,exclude,E2,"Contribution is fine-tuning plus a two-stage predicate/FOL decomposition that replaces self-iteration; no control returns, claims are error rates and predicate coverage."
+1612,exclude,E5,"Survey of long chain-of-thought reasoning with a taxonomy of paradigms; secondary study, retained as a snowballing seed."
+1636,include,I1;I2,External verifier detects wrong answers and injects emotional feedback as the trigger for revision; the triggering signal for the correction cycle is the studied variable.
+1673,include,I1;I2,"Trains step-level self-verification and self-correction and reports self-correction frequency and effectiveness, not only end-task scores; mechanism is verification/repair."
+1692,exclude,E7,"Authors build an FEA agent that inspects solver output and iterates, but reported claims are end-task solve rates and 88% executable API calls, not the iteration mechanism."
+1704,exclude,E2,"Corrective ICL places past wrong predictions and gold corrections in the prompt; context engineering with no control return, evaluated by classification accuracy."
+1714,exclude,E7,"Teacher-supervised thought-template distillation and cross-model DPO for a self-correcting student; reported claims are MATH/GSM8K accuracy, not the correction cycle."
+1716,exclude,E2,"Position paper on context-aware cognitive support from a think-aloud study; no autonomous agent loop, no mechanism governing whether execution repeats."
+1722,exclude,E7,"RL internalises generate-reflect-correct into weights, but claims are pass rates on seven code benchmarks in a single-attempt setting; the loop itself is not measured."
+1760,exclude,E5,"Survey of over 200 studies on multimodal mathematical reasoning, organised into benchmarks, methods and challenges; secondary study."
+1767,exclude,E2,"LLM parses to an action language and an external solver reasons; a one-pass hybrid pipeline with human corrections, claims are answer correctness on benchmarks."
+1776,exclude,E2,"Prompting method that solves analogous problems and reuses them to form a solution; fixed prompt chain with no control return, gains reported as task accuracy."
+1778,exclude,E5,"Survey of complex logical reasoning in large vision-language models, organising reasoning families, architectures and benchmarks; secondary study."
+1780,exclude,E7,"Driving decision framework with a self-correction experience database; reported claim is a 14% collision-rate reduction versus GPT-Driver, a task outcome."
+1785,exclude,E4,Tutorial on LLM-driven context-aware computing with two showcase demonstrations; not a research contribution.
+1797,exclude,E7,"VeriAssist wires a simulator into a generate-verify-correct loop for Verilog, but claims are syntax and functional correctness on RTL benchmarks, not the loop."
+1805,include,I1;I2,"Control topology is the studied variable: hierarchical, single-agent and stochastic search compared, with simulations required cut up to 90% - a search-trajectory measure."
+1853,exclude,E7,"Dual short/long-term memory mechanism inside a behaviour-analysis interface, evaluated by MABE 2022 task performance; the claim is about task results, not loop control."
+1867,exclude,E5,Review of 32 hackathon projects applying LLMs across materials science and chemistry; secondary overview with no method of its own.
+1875,exclude,E2,Blockchain reputation system scoring LLM behaviour from automatic and human feedback; no agent runtime loop is proposed or studied.
+1882,include,I1;I2,"Verification/repair: fact-level confidence is the check that decides which facts get revised, and the calibration of that signal is analysed, not just the output."
+1888,exclude,E2,"Fine-tunes on self-generated rationales and reranks samples with an outcome reward model; parallel sampling plus selection, claim is 86.6% execution accuracy."
+1895,include,I1;I2,"Iteration policy: adaptive path exploration with reflection deciding when to self-correct, argued against the fixed predefined exploration breadth and measured for efficiency."
+1900,exclude,E2,"R1-Zero-style RL with a rule-metric mixed reward for machine translation; a training method whose model has no runtime loop, claims are WMT24 metric scores."
+1906,exclude,E2,"Top-down prompting framework steering moral reasoning with moral theories; single-pass prompting, evaluated on morality datasets."
+1914,include,I1;I2,"SCoRe's multi-turn RL targets self-correction itself and the reported claim is the self-correction delta (+15.6%/+9.1%), a measurement of the repair mechanism."
+1921,exclude,E3,Comparative evaluation of four models on urology questions using off-the-shelf re-prompting with critiques; reported claims are clinician-rated answer quality.
+1989,exclude,E2,Interview/survey study of 51 practitioners on output-format constraints; no iterative control and no agent loop in the contribution.
+2030,exclude,E2,"Samples several agentic-search trajectories and picks one via sub-question checks; post-hoc selection over parallel samples, control never returns to the loop."
+2052,include,I1;I2,"Measures the loop itself: two LLMs exchanging turns with no outside input drift into repetition, quantified by lexical and embedding metrics; a stuck-loop/termination claim."
+2053,include,I1;I2,"RISE trains and then analyses self-verification as such - verification frequency, accuracy and the effect of extra verification compute, beyond solve rates."
+2058,exclude,E7,"Provenance model and capture system for agentic workflows; it observes prompts, responses and decisions for reliability queries rather than governing the loop."
+2224,exclude,E7,"GeneAgent verifies its own claims against biological databases, but the reported claims are gene-set description accuracy versus GPT-4 and expert review."
+2237,exclude,E5,Taxonomic survey synthesising over 300 studies of hallucination mitigation techniques; secondary study.
+2251,include,I1;I2,"Verification-driven escalation is the contribution: few-shot self-verification feeds a POMDP router deciding whether to re-run on a larger model, measured as >50% cost cut."
+2261,exclude,E2,"LLM anomaly detection in cyber-physical data via RAG and a two-step rule-inference prompt; prompt design with no iterative control, claims are F1 scores."
+2262,include,I1;I2,Compares alternative loop mechanisms head to head - single attempt vs self-debugging vs self-debugging with self-verification - and reports each one's effect on success.
+2284,exclude,E7,"Pareto-optimal risk score estimating LLM error probability; the claim is estimator quality (correlation with error rate), correction is only a downstream demonstration."
+2313,exclude,E7,"DSVD adds parallel self-verification and rollback during decoding, but the reported evidence is TruthfulQA/FActScore benchmark gains rather than the mechanism itself."
+2316,include,I1;I2,"Verification: the draft, plan verification questions, answer independently, revise cycle is the contribution and its effect on hallucination is measured against the plain draft."
+2325,exclude,E7,"Consistency-based reward model for training tool-augmented agents; the verifier is a training signal, and claims are benchmark performance and training stability."
+2332,exclude,E5,"Survey of LLM-as-a-judge with a formal definition, classification and a reliability benchmark; secondary study."

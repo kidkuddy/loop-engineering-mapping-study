@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+9106,exclude,E2,"Empty abstract; title's contribution is suicide-risk detection via fine-tuning and prompt refinement for dataset expansion, not a runtime loop."
+9107,exclude,E7,"Empty abstract; title contributes a CLI fuzzer built on path-guided iterative prompting; claims would be fuzzing outcomes, not the iteration policy."
+9108,exclude,E2,"Empty abstract; title names an LLM application supporting self-regulated learning, with no loop-control mechanism as the contribution."
+9109,exclude,E2,"ChatGPT scores and comments on 28 open-ended assignments are compared with teachers; single-pass generation, control never returns."
+9111,exclude,E2,"Empty abstract; title is self-improvement training of an audio LLM on unlabeled speech, a training method with no runtime loop."
+9112,exclude,E7,"Refine4LLM guides and verifies LLM code via refinement calculus, but reported results are code robustness and time versus baselines, i.e. task outcomes."
+9113,exclude,E7,"ICTO learns iteratively from success and failure trajectories; reported claims are 12.4% task efficiency and 15.7% generalisation, not evidence about the mechanism."
+9114,exclude,E2,"Rubric-aligned scoring with attention regularisation; results are RMSE, rubric coherence and teacher trust, with no iterative control."
+9115,exclude,E1,"Empty abstract; eco-feedback generation for buildings is occupant and energy feedback, not a language-model agent's control loop."
+9117,include,I2,"Empty abstract; title names a closed-loop feedback framework for iterative optimisation as the contribution, an iteration policy governing regeneration."
+9118,exclude,E3,"Empty abstract; title applies an off-the-shelf iterative scientific-debugging loop to mutation testing, a domain application."
+9119,exclude,E2,"Empty abstract; title offers confidence-aware prompt refinement, prompt engineering with no stated iterative control."
+9120,exclude,E7,Empty abstract; title's contribution is a retrieval-generation-feedback recommender framework; claims would be recommendation quality.
+9121,exclude,E2,"BP-LLM is a preference-alignment training method; binary feedback is a training signal and win rates are task outcomes, no runtime loop."
+9122,exclude,E2,Compares instructor and LLM checklist ratings under six prompt designs; single-pass rating with no iterative control.
+9123,exclude,E2,"Empty abstract; title offers curative prompt refinement against hallucination, prompt engineering with no stated iterative control."
+9124,exclude,E2,"Empty abstract; title tests feasibility of LLM Schema.org metadata refinement, a single-pass application with no loop."
+9128,exclude,E2,"Empty abstract; title's contribution is a lightweight framework with parameter fusion for personalised feedback, no runtime loop."
+9129,exclude,E1,"Empty abstract; the loop is DRL policy training for flexible job-shop scheduling with the LLM refining definitions, not an LLM agent's loop."
+9131,exclude,E7,"Empty abstract; title's iterative self-correction serves text-driven person re-identification, so claims would be re-ID accuracy."
+9132,exclude,E3,Empty abstract; title wires off-the-shelf self-reasoning and self-refinement to enhance Korean semantic role labelling performance.
+9135,exclude,E3,Empty abstract; title leverages existing self-refinement to suppress excessive responses in a virtual simulated patient application.
+9136,exclude,E2,"Empty abstract; Self-Polish refines the problem statement to enhance reasoning, prompt-level rewriting rather than governing the loop."
+9140,exclude,E7,"RL-driven LLM agents refine testing strategies, but reported findings are faster failure-mode discovery plus governance and policy discussion, not mechanism evidence."
+9141,exclude,E5,"Review summarising recent RLHF and RLAIF feedback-based alignment research, its mechanisms and limits; a secondary study."
+9142,exclude,E1,"Empty abstract; CSI feedback for massive MIMO is a wireless channel feedback loop, not a language-model agent's loop."
+9143,exclude,E2,"Self-questioning and answer enhancement generate DPO preference data; the iteration is a training and data-generation loop, and claims are benchmark competitiveness."
+9148,exclude,E5,Defines self-reflection terminology and classifies existing self-reflection methodologies with paradigmatic examples; a survey.
+9149,exclude,E3,"Empty abstract; title applies iterative LLM-assisted active learning to multi-label patent classification, an off-the-shelf loop in a domain task."
+9152,exclude,E2,"Empty abstract; title analyses bias in competition solutions for writing-feedback tools, with no iterative loop mechanism."
+9153,exclude,E2,"Prompt-engineered offline LLM simulates pupils and gives teachers formative feedback; early qualitative findings, no iterative control."
+9154,exclude,E2,"Empty abstract; the title's prompt-constrained feedback control governs review comments in a peer-code-review app, not an agent's loop."
+9155,exclude,E1,"Empty abstract; adversarial self-imitation RL for robot control and navigation with LLM reward feedback, not a language-model agent's loop."
+9156,exclude,E1,"LLM supplies preference labels for online preference-based RL; the loop is RL reward learning with an RL policy, not a language-model agent's loop."
+9157,exclude,E7,Empty abstract; title's iterative refinement and goal articulation optimise LLMs for clinical information extraction; claims would be extraction accuracy.
+9159,exclude,E2,Empty abstract; self-supervised refinement of the model for zero-shot commonsense reasoning is a training method with no runtime loop.
+9160,exclude,E7,"Empty abstract; contribution is a legal-reasoning LLM trained with RL, iterative inference being a component; claims would be legal task performance."
+9163,exclude,E2,"BERT scoring plus generative diagnostic comments; 0.87 agreement with manual scores, single-pass with no iterative control."
+9166,exclude,E2,"Empty abstract; title studies LLM refinement of urology text readability, a single-pass rewriting application."
+9167,exclude,E2,Rubric-aligned Arabic feedback compared with instructor feedback on six submissions; single-pass generation with no iterative control.
+9169,exclude,E5,"Reviews and summarises three families of thought-exploration, self-correction and guided-search methods plus datasets and metrics; secondary study."
+9170,include,I2,Isolates and quantifies self-correction as a dimension and reports persistent vulnerabilities in unsupervised revision protocols; evidence about retry/repair.
+9174,exclude,E7,"Empty abstract; title's reasoning and self-correction approach targets text-based event prediction, so claims would be prediction accuracy."
+9175,include,I2,"Empty abstract; title names self-verification through step-wise reasoning and verification as the contribution, i.e. checking a step to decide what follows."
+9184,include,I2,"Position paper arguing LRM effort collapse and disengagement are bounded-rational features, with testable hypotheses and computational rest; explicit argument about termination."

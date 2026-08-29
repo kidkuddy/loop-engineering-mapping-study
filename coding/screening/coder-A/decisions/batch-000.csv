@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+1,exclude,E2,"Fine-tuning on negative trajectories with a prefix/suffix tag; the contribution is agent-tuning data usage, no runtime control structure."
+2,include,I2,"Retry/repair and termination: a bounded policy that 'finalizes, retries, or escalates' on execution-state events, compared against open-loop execution."
+3,include,I2,"Control topology: compares a single-agent baseline against three multi-agent reasoning hierarchies (peer review, triage-ranking, triage-forms) as the studied variable."
+6,exclude,E2,Eight agents each retrieve code once and a verification agent scores it on HumanEval; nothing returns control for another attempt.
+9,exclude,E5,Self-described survey with a 'methodology-centered taxonomy' of LLM agent systems.
+10,exclude,E7,"Multi-agent corpus distillation built by the authors; claims are biomedical QA gains over baselines, not about loop control."
+14,include,I2,Iteration policy: action selection combines LLM likelihood with an offline RL critic's action values plus dynamic action rescoring per interaction demand.
+15,exclude,E2,RL fine-tuning and benchmark evaluation of reasoning under noisy inputs; no runtime iteration or control structure.
+21,exclude,E4,"Self-described tutorial surveying RAG, PAL, ReAct, LangChain, fine-tuning and transformer training techniques."
+22,exclude,E2,"Alignment Fine-Tuning with a constraint alignment loss over CoT responses; a training objective, not a runtime loop."
+23,exclude,E1,"The iteration is an MCMC/Gibbs sampler resampling variables via LLM conditionals, not an autonomous agent's decision loop."
+27,exclude,E5,Essay and literature review categorising four types of LLM deception with an evaluative stance on governance.
+34,exclude,E7,"Rubric reward models are evaluated for interpretability, faithfulness and configurable trade-offs, not for what the agent's loop does next."
+35,exclude,E5,Critical review of existing causal reasoning benchmarks for LLMs.
+39,exclude,E7,"HELPER retrieves memory as in-context examples; the reported claim is 1.7x TEACh TfD state-of-the-art, a task outcome."
+47,exclude,E2,"Behavioural study of whether LLM agents show human-like trust in Trust Games; the object is behavioural alignment, not a control mechanism."
+50,exclude,E5,"Survey of the agent skills landscape organised along four axes, plus a proposed governance framework."
+51,exclude,E2,"AgentGen synthesises environments and planning tasks for instruction tuning; the contribution is training data, not runtime control."
+54,exclude,E7,Agent-Driver is an application built by the authors; the claim is outperforming state-of-the-art driving methods on nuScenes.
+57,exclude,E5,"Survey of RL across the LLM lifecycle, including datasets, benchmarks and tools."
+59,exclude,E2,Automatic prompt optimisation producing shorter prompts; the deployed prompt is used single-pass and claims are token count and accuracy.
+61,include,I2,Iteration policy: a task-agnostic outer loop that picks the next clarifying question by maximising expected mutual information and expands its state when insufficient.
+72,exclude,E2,"Length-difference positional encoding fine-tuned to stop generation at a target token count; decoding-level, no agent loop."
+77,include,I2,"Control topology: four agentic issue-resolution architectures are the controlled variable, measuring energy wasted on 'unproductive reasoning loops' (9.4x spread)."
+79,exclude,E5,"Comprehensive survey of LLM-brained GUI agents, their components, data, benchmarks and research gaps."
+83,exclude,E7,Husky's contribution is a unified action ontology plus trained expert models; the claim is beating prior agents on 14 evaluation datasets.
+85,exclude,E2,The plan is refined offline from training error feedback and then used as a fixed prompt at test time; no control returns at inference.
+86,exclude,E2,"Post-training quantisation of weights and the KV cache; concerns memory and accuracy, no agent or loop."
+87,exclude,E2,"Classification of tutor praise responses for real-time feedback, reported as F1 scores; no iterative agent control."
+90,include,I2,"Loop state: an external VAD state carried across a 25-turn dialogue governs generation, with stateless vs first-order vs second-order dynamics compared for coherence and recovery."
+91,exclude,E7,"STAgent's contributions are a tool environment, data curation and a SFT/RL training recipe; the claim is TravelBench performance."
+92,exclude,E7,ElliottAgents is a domain system the authors built; claims are pattern recognition and interpretable market predictions.
+93,exclude,E2,"Benchmarking five LLMs on 166 ICPC problems for correctness and efficiency; one-shot generation quality, no loop."
+94,exclude,E4,"Benchmark of agents that measures SOP and constraint adherence pass rates, not a loop property such as stuck loops, termination or retries."
+97,exclude,E2,"Compares base, custom and fine-tuned GPT classification accuracy against human coding of ESG papers; no iterative control."
+107,exclude,E7,"Lang-PINN is a pipeline built by the authors; reported claims are PDE solution MSE, execution success rate and time overhead."
+109,exclude,E2,"Evaluates 13 open-source LLMs in a RAG setup on context relevance, faithfulness and answer relevance; retrieval is single-pass."
+113,exclude,E2,"Trial-and-demonstration is a training regime for word acquisition from scratch; the loop is in learning, not in a deployed agent."
+116,include,I2,"Loop state: reports systematic failures managing long-horizon context and task-state hallucination, then adds explicit belief state representations and measures the effect."
+122,exclude,E2,"Zero-shot chain-of-thought classification of class membership, scored by F1; single-pass prompting."
+123,exclude,E2,LLMs used once as raters of palliative care conversation quality on metrics like understanding and empathy; no loop.
+124,exclude,E7,"Causal Agent wires causal tools, memory and reasoning together; the claim is above-80% accuracy on the CausalTQA benchmark and a 6% gain on QRData."
+128,exclude,E2,"A self-generated cross-modal data construction strategy for training an audio LLM; benchmark performance, no runtime loop."
+129,exclude,E2,"Feedback-conditioned refinements are generated to build fine-tuning data for summarisation; the refinement is offline, not an agent's runtime loop."
+135,exclude,E1,"The agents explained are robots and other uninterpretable policy models, not language-model agents; the contribution is natural-language explanation of their behaviour."

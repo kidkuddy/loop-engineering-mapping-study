@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 3097,
+  "title": "No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Critique-guided reinforcement learning (RL) has emerged as a powerful paradigm for training LLM agents by augmenting sparse outcome rewards with natural-language feedback. However, current methods often rely on static or offline critic models, which fail to adapt as the policy evolves. In on-policy RL, the agent's error patterns shift over time, causing stationary critics to become stale and providing feedback of diminishing utility. To address this, we introduce ECHO (Evolving Critic for Hindsight-Guided Optimization)}, a framework that jointly optimizes the policy and critic through a synchronized co-evolutionary loop. ECHO utilizes a cascaded rollout mechanism where the critic generates multiple diagnoses for an initial trajectory, followed by policy refinement to enable group-structured advantage estimation. We address the challenge of learning plateaus via a saturation-aware gain shaping objective, which rewards the critic for inducing incremental improvements in high-performing trajectories. By employing dual-track GRPO updates, ECHO ensures the critic's feedback stays synchronized with the evolving policy. Experimental results show that ECHO yields more stable training and higher long-horizon task success across open-world environments."
+ },
+ {
+  "paper_id": 3100,
+  "title": "InternLM2 Technical Report",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The evolution of Large Language Models (LLMs) like ChatGPT and GPT-4 has sparked discussions on the advent of Artificial General Intelligence (AGI). However, replicating such advancements in open-source models has been challenging. This paper introduces InternLM2, an open-source LLM that outperforms its predecessors in comprehensive evaluations across 6 dimensions and 30 benchmarks, long-context modeling, and open-ended subjective evaluations through innovative pre-training and optimization techniques. The pre-training process of InternLM2 is meticulously detailed, highlighting the preparation of diverse data types including text, code, and long-context data. InternLM2 efficiently captures long-term dependencies, initially trained on 4k tokens before advancing to 32k tokens in pre-training and fine-tuning stages, exhibiting remarkable performance on the 200k ``Needle-in-a-Haystack\" test. InternLM2 is further aligned using Supervised Fine-Tuning (SFT) and a novel Conditional Online Reinforcement Learning from Human Feedback (COOL RLHF) strategy that addresses conflicting human preferences and reward hacking. By releasing InternLM2 models in different training stages and model sizes, we provide the community with insights into the model's evolution."
+ },
+ {
+  "paper_id": 3106,
+  "title": "A Survey on Symbolic Knowledge Distillation of Large Language Models",
+  "year": 2024,
+  "venue": "IEEE Transactions on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "This survey article delves into the emerging and critical area of symbolic knowledge distillation in large language models (LLMs). As LLMs such as generative pretrained transformer-3 (GPT-3) and bidirectional encoder representations from transformers (BERT) continue to expand in scale and complexity, the challenge of effectively harnessing their extensive knowledge becomes paramount. This survey concentrates on the process of distilling the intricate, often implicit knowledge contained within these models into a more symbolic, explicit form. This transformation is crucial for enhancing the interpretability, efficiency, and applicability of LLMs. We categorize the existing research based on methodologies and applications, focusing on how symbolic knowledge distillation can be used to improve the transparency and functionality of smaller, more efficient artificial intelligence (AI) models. The survey discusses the core challenges, including maintaining the depth of knowledge in a comprehensible format, and explores the various approaches and techniques that have been developed in this field. We identify gaps in current research and potential opportunities for future advancements. This survey aims to provide a comprehensive overview of symbolic knowledge distillation in LLMs, spotlighting its significance in the progression toward more accessible and efficient AI systems."
+ },
+ {
+  "paper_id": 3157,
+  "title": "Seeing Isn\u2019t Believing: Mitigating Belief Inertia via Active Intervention in Embodied Agents",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent advancements in large language models (LLMs) have enabled agents to tackle complex embodied tasks through environmental interaction.However, these agents still make suboptimal decisions and perform ineffective actions, as they often overlook critical environmental feedback that differs from their internal beliefs.Through a formal probing analysis, we characterize this as belief inertia, a phenomenon where agents stubbornly adhere to prior beliefs despite explicit observations.To address this, we advocate active belief intervention, moving from passive understanding to active management.We introduce the Estimate-Verify-Update (EVU) mechanism, which empowers agents to predict expected outcomes, verify them against observations through explicit reasoning, and actively update prior beliefs based on the verification evidence.EVU is designed as a unified intervention mechanism that generates textual belief states explicitly, and can be integrated into both promptingbased and training-based agent reasoning methods.Extensive experiments across three embodied benchmarks demonstrate that EVU consistently yields substantial gains in task success rates.Further analyses validate that our approach effectively mitigates belief inertia, advancing the development of more robust embodied agents."
+ },
+ {
+  "paper_id": 3161,
+  "title": "CentaurTA: A Self-Improving Human-Agents Collaboration Framework for Thematic Analysis",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Qualitative analysis is essential for studying complex social and behavioral phenomena, yet existing large language model (LLM) approaches face key limitations.Fully automated pipelines often compromise methodological rigor, while manual coding remains costly and labor-intensive.Although recent work emphasizes human-AI collaboration, many multiagent systems focus primarily on theme-level outputs, provide limited human oversight, and overlook grained, data-level coding quality.We introduce CentaurTA, an iterative, selfimproving human-agent framework for scalable thematic analysis.CentaurTA places humans in the loop to oversee and guide analysis, using expert feedback as a persistent learning signal to drive prompt-level refinement.By combining structured human feedback with rubric-based evaluation, CentaurTA provides fine-grained supervision for both open coding and theme construction while preserving methodological rigor.Experiments across multiple datasets, baselines, and LLM families show that CentaurTA improves coding alignment and transparency, highlighting the central role of human feedback in reliable qualitative analysis."
+ },
+ {
+  "paper_id": 3187,
+  "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "State-of-the-art large language models (LLMs) exhibit impressive problem-solving capabilities but may struggle with complex reasoning and factual correctness. Existing methods harness the strengths of chain-of-thought and retrieval-augmented generation (RAG) to decompose a complex problem into simpler steps and apply retrieval to improve factual correctness. These methods work well on straightforward reasoning tasks but often falter on challenging tasks such as competitive programming and mathematics, due to frequent reasoning errors and irrelevant knowledge retrieval. To address this, we introduce Critic-guided planning with Retrieval-augmentation, CR-Planner, a novel framework that leverages fine-tuned critic models to guide both reasoning and retrieval processes through planning. CR-Planner solves a problem by iteratively selecting and executing sub-goals. Initially, it identifies the most promising sub-goal from reasoning, query generation, and retrieval, guided by rewards given by a critic model named sub-goal critic. It then executes this sub-goal through sampling and selecting the optimal output based on evaluations from another critic model named execution critic. This iterative process, informed by retrieved information and critic models, enables CR-Planner to effectively navigate the solution space towards the final answer. We employ Monte Carlo Tree Search to collect the data for training the critic models, allowing for a systematic exploration of action sequences and their long-term impacts. We validate CR-Planner on challenging domain-knowledge-intensive and reasoning-heavy tasks, including competitive programming, theorem-driven math reasoning, and complex domain retrieval problems. Our experiments demonstrate that CR-Planner significantly outperforms baselines, highlighting its effectiveness in addressing challenging problems by improving both reasoning and retrieval."
+ },
+ {
+  "paper_id": 3283,
+  "title": "Proceedings of the First International Workshop on Next-Generation Language Models for Knowledge Representation and Reasoning (NeLaMKRR 2024)",
+  "year": 2024,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Reasoning is an essential component of human intelligence as it plays a fundamental role in our ability to think critically, support responsible decisions, and solve challenging problems. Traditionally, AI has addressed reasoning in the context of logic-based representations of knowledge. However, the recent leap forward in natural language processing, with the emergence of language models based on transformers, is hinting at the possibility that these models exhibit reasoning abilities, particularly as they grow in size and are trained on more data. Despite ongoing discussions about what reasoning is in language models, it is still not easy to pin down to what extent these models are actually capable of reasoning.   The goal of this workshop is to create a platform for researchers from different disciplines and/or AI perspectives, to explore approaches and techniques with the aim to reconcile reasoning between language models using transformers and using logic-based representations. The specific objectives include analyzing the reasoning abilities of language models measured alongside KR methods, injecting KR-style reasoning abilities into language models (including by neuro-symbolic means), and formalizing the kind of reasoning language models carry out. This exploration aims to uncover how language models can effectively integrate and leverage knowledge and reasoning with it, thus improving their application and utility in areas where precision and reliability are a key requirement."
+ },
+ {
+  "paper_id": 3307,
+  "title": "PhysNote: Self-Knowledge Notes for Evolvable Physical Reasoning in Vision-Language Model",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Vision-Language Models (VLMs) have demonstrated strong performance on textbook-style physics problems, yet they frequently fail when confronted with dynamic real-world scenarios that require temporal consistency and causal reasoning across frames. We identify two fundamental challenges underlying these failures: (1) spatio-temporal identity drift, where objects lose their physical identity across successive frames and break causal chains, and (2) volatility of inference-time insights, where a model may occasionally produce correct physical reasoning but never consolidates it for future reuse. To address these challenges, we propose PhysNote, an agentic framework that enables VLMs to externalize and refine physical knowledge through self-generated \"Knowledge Notes.\" PhysNote stabilizes dynamic perception through spatio-temporal canonicalization, organizes self-generated insights into a hierarchical knowledge repository, and drives an iterative reasoning loop that grounds hypotheses in visual evidence before consolidating verified knowledge. Experiments on PhysBench demonstrate that PhysNote achieves 56.68% overall accuracy, a 4.96% improvement over the best multi-agent baseline, with consistent gains across all four physical reasoning domains."
+ },
+ {
+  "paper_id": 3355,
+  "title": "Enhancing Small Language Models Reasoning through Knowledge Graph Grounding",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Although large language models (LLMs) have set benchmarks for zero-shot reasoning, their deployment remains cost-prohibitive and environmentally taxing. Small Language Models (SLMs) offer a sustainable alternative, but prone to errors, on tasks requiring complex, multi-hop logical grounding. We investigate a neuro-symbolic agentic framework to enhance the reasoning capabilities of SLMs, specifically Gemma 3 (1B, 4B) and Llama 3.2 (3B), using the CLUTRR kinship benchmark. Our approach transforms the SLM into a minimalist agent utilizing two specialized tool calls: extract_facts for symbolic triplet extraction and get_hint for expert reasoning via a Relational Graph Convolutional Network (RGCN). We evaluate these models across two configurations, both in an Oracle scenario with ground-truth triplets and a Realistic scenario relying on self-extracted knowledge. Our results reveal that while RGCN-derived hints provide a 1.5 - 2x performance gain over story-only baselines, the system is constrained by the extraction bottleneck and sequential deductive fragility, where early extraction errors compound over multi-hop chains. Furthermore, we identify a \"distraction effect\" in specific architectures where noisy, self-generated facts degrade performance despite the presence of expert hints. This work characterizes the challenges of symbolic grounding in low-resource agentic systems and provides a roadmap for iterative verification in neuro-symbolic agentic pipelines."
+ },
+ {
+  "paper_id": 3369,
+  "title": "How Reasoning Evolves from Post-Training Data: An Empirical Study Using Chess",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "We study how reasoning evolves in a language model -- from supervised fine-tuning (SFT) to reinforcement learning (RL) -- by analyzing how a set of theoretically-inspired datasets influences language model performance in chess. We find that fine-tuning a model to directly predict the best move leads to effective RL and the strongest downstream performance -- however, the RL stage elicits \\textit{unfaithful} reasoning (reasoning inconsistent with the chosen move). Alternatively, training on multi-move trajectories yields comparable downstream performance with faithful reasoning and more stable RL. We analyze multiple qualitative and quantitative measures and highlight how these evolve from SFT through RL; we find several SFT-checkpoint metrics -- spanning evaluation performance, hallucination rates, and reasoning quality -- to be predictive of post-RL model performance. Finally, we ground our results with an experiment measuring \\textit{chess information density} in our custom datasets. We release models as well as training data, evaluations, and code that allowed us to surpass leading open-source reasoning models in chess with a 7B-parameter model. Code, models, and data are available at https://github.com/lucasdino/lang-chess."
+ },
+ {
+  "paper_id": 3412,
+  "title": "Large Language Models as Calibration Agents in Hydrological Modeling: Feasibility and Limitations",
+  "year": 2026,
+  "venue": "Geophysical Research Letters",
+  "source": "openalex",
+  "abstract": "Abstract Large language models (LLMs) represent the forefront of artificial intelligence, exhibiting substantial potential for advancing understanding and reasoning in complex Earth system sciences. Hydrological modeling, essential for water resource management and Earth system knowledge, predominantly relies on traditional calibration paradigms and remains largely unexplored with respect to leveraging recent advancements in LLMs. Five advanced LLMs (GPT\u20104o\u2010mini, DeepSeek\u2010R1, DeepSeek\u2010V3, Llama\u20104maverick, and llama\u201070b) were systematically evaluated and compared against two benchmarks (SCE\u2010UA and NSGA\u2010III). Results indicate substantial variability: DeepSeek\u2010R1 achieved stable near\u2010optimal convergence within 200 iterations, significantly faster than SCE\u2010UA (>1,200) or NSGA\u2010III (>2,200), and delivered slightly improved accuracy, while yielding parameters with enhanced physical interpretability consistent with expert reasoning. Alternatively, the other LLMs performed less favorably than two benchmarks. These findings demonstrate both the promise and limitations of applying LLMs to hydrological parameter calibration, providing an initial step toward exploring the broader potential of LLMs in Earth system modeling."
+ },
+ {
+  "paper_id": 3420,
+  "title": "Graph-of-Thoughts for Fact-Checking with Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "We present a fact-checking system developed for the 2025 Automated Verification of Textual Claims (AVeriTeC) shared task, leveraging the Graph-of-Thoughts (GoT) prompting scheme.The GoT approach facilitates iterative refinement during fact-checking by conditioning question generation on previous answers and enabling the incorporation of multiple evidence documents per question, thereby mitigating the impact of factually incorrect evidence.The efficiency requirements of the shared task are addressed by restricting the width and depth of the thought graph.Additionally, an efficient stopping criterion is derived from the dataset's Not Enough Information (NEI) label.Our system utilizes fine-tuned open-source Large Language Models (LLMs) for question generation, question answering, and final verdict prediction.Empirical results demonstrate competitive performance against top-performing systems in the AVeriTeC shared task and improvements over the baseline method.Our code is publicly available 1 ."
+ },
+ {
+  "paper_id": 3534,
+  "title": "JARVIS, should this study be selected for full-text screening? Performance of a Joint AI-ReViewer Interactive Screening tool for systematic reviews",
+  "year": 2026,
+  "venue": "medRxiv",
+  "source": "openalex",
+  "abstract": "Abstract Background Systematic reviews are essential for evidence-based decision making in health sciences but require substantial time and resource for manual processes, particularly title and abstract screening. Recent advances in machine learning and large language models (LLMs) have demonstrated promise in accelerating screening with high recall but are often limited by modest gains in efficiency, mostly due to the absence of a generalisable stopping criterion. Here, we introduce and report preliminary findings on the performance of a novel semi-automated active learning system, JARVIS, that integrates LLM-based reasoning using the PICOS framework, neural networks-based classification, and human decision-making to facilitate abstract screening. Methods Datasets containing author-made inclusion and exclusion decisions from six published systematic reviews were used to pilot the semi-automated screening system. Model performance was evaluated across recall, specificity and area under the curve precision-recall (AUC-PR), using full-text inclusion as the ground truth. Estimated workload and financial savings were calculated by comparing total screening time and reviewer costs across manual and semi-automated scenarios. Results Across the six review datasets, recall ranged between 98.2% and 100%, and specificity ranged between 97.9% and 99.2% at the defined stopping point. Across iterations, AUC-PR values ranged between 83.8% and 100%. Compared with human-only screening, JARVIS delivered workload savings between 71.0% and 93.6%. When a single reviewer read the excluded records, workload savings ranged between 35.6 % and 46.8%. Conclusion The proposed semi-automated system substantially reduced reviewer workload while maintaining high recall, improving on previously reported approaches. Further validation in larger and more varied reviews, as well as prospective testing, is warranted."
+ },
+ {
+  "paper_id": 3547,
+  "title": "Penelope: Localized Latent Recurrence for Efficient Structured Reasoning",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Complex structured reasoning tasks often require additional computation, yet current language models obtain it mainly by increasing parameter scale or by serializing intermediate steps as chain-of-thought (CoT) tokens. The former raises training and deployment costs, while the latter ties reasoning computation to autoregressive output length. We introduce Penelope, an efficient latent-reasoning framework for pretrained decoder-only Transformers that localizes recurrent computation to a selected decoder interval. The lower decoder prefix is evaluated once to construct a problem-conditioned boundary memory, which is then iteratively refined through time-modulated GRU dynamics and recurrent readout states before answer generation. A progressive CoT-to-latent curriculum transfers visible reasoning into this internal recurrent path, allowing additional computation to be allocated in latent space without repeatedly executing the complete decoder or generating a long intermediate trace. Experiments on open-source structured-reasoning benchmarks show that, at validation-selected latent budgets, Penelope attains competitive accuracy relative to established latent-reasoning models while reducing measured inference latency. These results show that latent refinement can be localized to a narrow decoder interval, reducing repeated full-decoder execution without generating a long visible reasoning trace and providing a practical accuracy-efficiency tradeoff for decoder-only Transformer models."
+ },
+ {
+  "paper_id": 3593,
+  "title": "Empowering Multi-Turn Tool-Integrated Agentic Reasoning with Group Turn Policy Optimization",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Training Large Language Models (LLMs) for multi-turn Tool-Integrated Reasoning (TIR) - where models iteratively reason, generate code, and verify through execution - remains challenging for existing reinforcement learning (RL) approaches. Current RL methods, exemplified by Group Relative Policy Optimization (GRPO), suffer from coarse-grained, trajectory-level rewards that provide insufficient learning signals for complex multi-turn interactions, leading to training stagnation. To address this issue, we propose Group Turn Policy Optimization (GTPO), a novel RL algorithm specifically designed for training LLMs on multi-turn TIR tasks. GTPO introduces three key innovations: (1) turn-level reward assignment that provides fine-grained feedback for individual turns, (2) return-based advantage estimation where normalized discounted returns are calculated as advantages, and (3) self-supervised reward shaping that exploits self-supervision signals from generated code to densify sparse binary outcome-based rewards. Our comprehensive evaluation demonstrates that GTPO outperforms GRPO by 3.0% across diverse math reasoning benchmarks, establishing its effectiveness. GTPO also improves GRPO by 3.9% on commonsense reasoning and program synthesis tasks, demonstrating its generalizability to non-math domains. Importantly, GTPO incurs negligible overhead, ensuring its practicality for real-world scenarios."
+ },
+ {
+  "paper_id": 3598,
+  "title": "Adaptive Test-Time Compute Allocation for Block Diffusion Language Models in Complex Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Recent advances in block diffusion language models have demonstrated competitive performance and strong scalability on reasoning tasks. However, their test-time compute allocation remains largely unexplored, leaving a critical speed-effectiveness trade-off unresolved in long Chain-of-Thought reasoning. To address this, we propose a unified test-time compute allocation framework that introduces adaptivity in both step-wise decoding and blockwise generation. At the decoding level, we propose Bounded Adaptive Confidence Decoding (BACD), a difficulty-aware sampling strategy that dynamically adjusts denoising based on model confidence, accelerating inference while controlling error accumulation. Beyond step-wise adaptivity, we introduce the Think Coarse, Critic Fine (TCCF) paradigm that allocates large block sizes for exploratory thinking and smaller block sizes for precise refinement. To stabilize training under varying block configurations, we adopt Progressive Block Size Extension, which mitigates quality degradation when scaling up block sizes. Extensive evaluations on six benchmarks show that our TDAR-8B model with BACD and TCCF achieves a 2.38$\\times$ speedup and +3.4% average accuracy over the strong TraDo-8B baseline, unlocking the potential of block diffusion in complex reasoning."
+ },
+ {
+  "paper_id": 3617,
+  "title": "Provable Scaling Laws for the Test-Time Compute of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We propose two simple, principled and practical algorithms that enjoy provable scaling laws for the test-time compute of large language models (LLMs). The first one is a two-stage knockout-style algorithm: given an input problem, it first generates multiple candidate solutions, and then aggregate them via a knockout tournament for the final output. Assuming that the LLM can generate a correct solution with non-zero probability and do better than a random guess in comparing a pair of correct and incorrect solutions, we prove theoretically that the failure probability of this algorithm decays to zero exponentially or by a power law (depending on the specific way of scaling) as its test-time compute grows. The second one is a two-stage league-style algorithm, where each candidate is evaluated by its average win rate against multiple opponents, rather than eliminated upon loss to a single opponent. Under analogous but more robust assumptions, we prove that its failure probability also decays to zero exponentially with more test-time compute. Both algorithms require a black-box LLM and nothing else (e.g., no verifier or reward model) for a minimalistic implementation, which makes them appealing for practical applications and easy to adapt for different tasks. Through extensive experiments with diverse models and datasets, we validate the proposed theories and demonstrate the outstanding scaling properties of both algorithms."
+ },
+ {
+  "paper_id": 3632,
+  "title": "Rethinking Fine-Tuning when Scaling Test-Time Compute: Limiting Confidence Improves Mathematical Reasoning",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Recent progress in large language models (LLMs) highlights the power of scaling test-time compute to achieve strong performance on complex tasks, such as mathematical reasoning and code generation. This raises a critical question: how should model training be modified to optimize performance under a subsequent test-time compute strategy and budget? To explore this, we focus on pass@N, a simple test-time strategy that searches for a correct answer in $N$ independent samples. We show, surprisingly, that training with cross-entropy (CE) loss can be ${\\it misaligned}$ with pass@N in that pass@N accuracy ${\\it decreases}$ with longer training. We explain the origins of this misalignment in terms of model overconfidence induced by CE, and experimentally verify our prediction of overconfidence as an impediment to scaling test-time compute via pass@N. Furthermore we suggest a principled, modified training loss that is better aligned to pass@N by limiting model confidence and rescuing pass@N test performance. Our algorithm demonstrates improved mathematical reasoning on MATH and MiniF2F benchmarks under several scenarios: (1) providing answers to math questions; and (2) proving theorems by searching over proof trees of varying shapes. Overall our work underscores the importance of co-designing two traditionally separate phases of LLM development: training-time protocols and test-time search and reasoning strategies."
+ },
+ {
+  "paper_id": 3673,
+  "title": "Adaptive Parallel Monte Carlo Tree Search for Efficient Test-time Compute Scaling",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Monte Carlo Tree Search (MCTS) is an effective test-time compute scaling (TTCS) method for improving the reasoning performance of large language models, but its highly variable execution time leads to severe long-tail latency in practice. Existing optimizations such as positive early exit, reduce latency in favorable cases but are less effective when search continues without meaningful progress. We introduce {\\it negative early exit}, which prunes unproductive MCTS trajectories, and an {\\it adaptive boosting mechanism} that reallocates reclaimed computation to reduce resource contention among concurrent searches. Integrated into vLLM, these techniques substantially reduce p99 end-to-end latency while improving throughput and maintaining reasoning accuracy."
+ },
+ {
+  "paper_id": 3686,
+  "title": "Divergent-Convergent Reasoning: Scaling Test-Time Compute through Structured Solution Synthesis",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Test-time compute can substantially improve Large Language Model (LLM) reasoning performance, yet how and when additional compute helps remains poorly understood. We study Divergent-Convergent Reasoning (DCR), a simple two-phase primitive consisting of an exploration phase that generates multiple candidate solutions followed by a convergent reconciliation phase. We present three core results. First, we show that even a single reconciliation step can reliably amplify correct minority reports: across datasets, DCR often recovers the correct answer when correct exploration outputs are in the minority, a regime where majority voting fails. Second, we introduce recursive DCR, an autoregressive reconciliation system that iteratively analyzes disagreements and allocates additional test-time compute. Recursive DCR achieves higher accuracy than fixed-compute baselines-reaching 93.3% on AIME 2024 and 92.0% on AIME 2025-while using roughly 27% less compute on average, demonstrating that attentive resource allocation is superior to uniform scaling. Third, we analyze disagreement among exploration outputs via a simple, training-free dispersion metric. Dispersion reveals a structured relationship between disagreement and test-time gains: in regimes where DCR is effective, higher disagreement among exploration outputs is associated with larger accuracy improvements from reconciliation. Together, these results show that disagreement, often viewed as noise, can be systematically exploited to improve test-time reasoning and reveal emerging scaling laws for agentic LLM systems."
+ },
+ {
+  "paper_id": 3739,
+  "title": "The Energy Cost of Reasoning: Analyzing Energy Usage in LLMs with Test-time Compute",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Scaling large language models (LLMs) has driven significant advancements, yet it faces diminishing returns and escalating energy demands. This work explores how test-time compute (TTC) can serve as an energy-efficient complement to conventional scaling strategies by allocating additional computational resources at inference time rather than during training. Specifically, we investigate whether employing TTC can achieve superior accuracy-energy trade-offs compared to simply increasing model size. Our empirical analysis reveals that TTC surpasses traditional model scaling in accuracy/energy efficiency, with notable gains in tasks demanding complex reasoning rather than mere factual recall. Further, we identify a critical interaction between TTC performance and output sequence length, demonstrating that strategically adjusting compute resources at inference time according to query complexity can substantially enhance efficiency. Our findings advocate for TTC as a promising direction, enabling more sustainable, accurate, and adaptable deployment of future language models."
+ },
+ {
+  "paper_id": 3742,
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model."
+ },
+ {
+  "paper_id": 3755,
+  "title": "Scaling Test-Time Compute Without Verification or RL is Suboptimal",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Despite substantial advances in scaling test-time compute, an ongoing debate in the community is how it should be scaled up to enable continued and efficient improvements with scaling. There are largely two approaches: first, distilling successful search or thinking traces; and second, using verification (e.g., 0/1 outcome rewards, reward models, or verifiers) to guide reinforcement learning (RL) and search algorithms. In this paper, we prove that finetuning LLMs with verifier-based (VB) methods based on RL or search is far superior to verifier-free (VF) approaches based on distilling or cloning search traces, given a fixed amount of compute/data budget. Further, we show that as we scale test-time compute (measured as the output token length) and training data, suboptimality of VF methods scales poorly compared to VB when the base pre-trained LLM presents a heterogeneous distribution over correct solution traces (e.g., different lengths, styles, etc.) and admits a non-sharp distribution over rewards on traces sampled from it. We formalize this condition using anti-concentration [Erd\u0151s, 1945]. This implies a stronger result that VB methods scale better asymptotically, with the performance gap between VB and VF methods widening as test-time budget grows. We corroborate our theory empirically on both didactic and math reasoning problems with 3/8/32B-sized pre-trained LLMs, where we find verification is crucial for scaling test-time compute."
+ },
+ {
+  "paper_id": 3779,
+  "title": "Optimal Budgeted Adaptation of Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "The trade-off between labeled data availability and downstream accuracy remains a central challenge in fine-tuning large language models (LLMs). We propose a principled framework for \\emph{budget-aware supervised fine-tuning} by casting LLM adaptation as a contextual Stackelberg game. In our formulation, the learner (leader) commits to a scoring policy and a label-querying strategy, while an adaptive environment (follower) selects challenging supervised alternatives in response. To explicitly address label efficiency, we incorporate a finite supervision budget directly into the learning objective. Our algorithm operates in the full-feedback regime and achieves $\\tilde{O}(d\\sqrt{T})$ regret under standard linear contextual assumptions. We extend the framework with a Largest-Latency-First (LLF) confidence gate that selectively queries labels, achieving a budget-aware regret bound of $\\tilde{O}(\\sqrt{dB} + c\\sqrt{B})$ with $B=\u03b2T$."
+ },
+ {
+  "paper_id": 3799,
+  "title": "Budget-Aware Tool Use Enables Effective Agent Scaling",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Scaling test-time computation has been extended from language model reasoning to tool-augmented agents, where scaling involves not only thinking in tokens but also acting via tool calls that directly constrain environmental interaction. However, we found that simply increasing the tool-call budget fails to improve performance, as agents lack \"budget awareness\" and quickly hit a performance ceiling. We study how to scale such agents effectively under explicit tool-call budgets, focusing on web search agents. We first introduce the Budget Tracker, a lightweight plug-in that provides the agent with continuous budget awareness, enabling simple yet effective scaling. We further develop BATS (Budget-Aware Test-time Scaling), an advanced framework that leverages this awareness to dynamically adapt its planning and verification strategy. To analyze cost-performance scaling in a controlled manner, we formalize a unified cost metric that jointly accounts for token and tool consumption. We provide the first systematic study on budget-constrained agents, showing that budget-aware methods produce more favorable scaling curves and push the cost-performance Pareto frontier. Our work offers empirical insights toward a more transparent and principled understanding of scaling in tool-augmented agents. Our code is available at https://github.com/google-research/budget-aware-agent."
+ },
+ {
+  "paper_id": 3830,
+  "title": "CoRefine: Confidence-Guided Self-Refinement for Adaptive Test-Time Compute",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) often rely on test-time scaling via parallel decoding (for example, 512 samples) to boost reasoning accuracy, but this incurs substantial compute. We introduce CoRefine, a confidence-guided self-refinement method that achieves competitive accuracy using a fraction of the tokens via a lightweight 211k-parameter Conv1D controller atop a frozen LLM. The controller consumes full-trace confidence to decide whether to halt, re-examine, or try a different approach, enabling targeted self-correction with an average of 2.7 refinement steps per problem and roughly 190-fold token reduction relative to 512-sample baselines. Across diverse reasoning benchmarks and three open-source models, the controller achieves 92.6 percent precision when it confidently halts, indicating that confidence dynamics reliably signal correctness without ground-truth verification. We extend this to CoRefine-Tree, a hybrid sequential-parallel variant that adaptively balances exploration and exploitation, with easy serving integration and verifier compatibility. By treating confidence as a control signal rather than a correctness guarantee, CoRefine provides a modular primitive for scalable reasoning and agentic settings with imperfect verifiers."
+ },
+ {
+  "paper_id": 3831,
+  "title": "Towards end-to-end automation of AI research",
+  "year": 2026,
+  "venue": "Nature",
+  "source": "openalex",
+  "abstract": "Abstract The automation of science is a long-standing ambition in artificial intelligence (AI) research 1,2 . Although the community has made substantial progress in automating individual components of the scientific process, a system that autonomously navigates the entire research life cycle\u2014from conception to publication\u2014has remained out of reach. Here we present a pipeline for automating the entire scientific process end to end. We present The AI Scientist, which creates research ideas, writes code, runs experiments, plots and analyses data, writes the entire scientific manuscript, and performs its own peer review. Its ideas, execution and presentation are of sufficient quality that the manuscript generated by this AI system passed the first round of peer review for a workshop of a top-tier machine learning conference. The workshop had an acceptance rate of 70%. Our system leverages modern foundation models 3\u20135 within a complex agentic system. We evaluate The AI Scientist in two settings: a focused mode using human-provided code templates as an initial scaffold for conducting research on a specific topic and a template-free, open-ended mode that leverages agentic search for wider scientific exploration 6,7 . Both settings produce diverse ideas and automatically test, report on and evaluate them. This achievement demonstrates the growing capacity of AI for making scientific contributions and signifies a potential paradigm shift in how research is conducted. As with any impactful new technology, there could be important risks, including taxing overwhelmed review systems and adding noise to the scientific literature. However, if developed responsibly, such autonomous systems could greatly accelerate scientific discovery."
+ },
+ {
+  "paper_id": 3836,
+  "title": "FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Scaling test-time computation has been shown to significantly improve large language model (LLM) performance without additional training. However, extending these techniques to multi-agent systems remains challenging: existing approaches lack principled mechanisms for allocating compute to enable effective collaboration, scaling coordination itself, or optimizing compute usage under explicit budget constraints. To address this gap, we propose FutureWeaver, a framework for planning and optimizing test-time compute allocation in multi-agent systems under fixed budgets. It introduces collaboration modules, formalized as modular, callable functions that encapsulate reusable multi-agent workflows and are automatically induced via self-play reflection from recurring interaction patterns. Building on these modules, it employs \\emph{a dual-level planning architecture} that jointly performs short-horizon action selection and long-horizon abstract lookahead to optimize inference trajectories under budget constraints. Experiments on complex agent benchmarks demonstrate that FutureWeaver consistently outperforms baselines across diverse budget settings, validating its effectiveness for multi-agent collaboration in inference-time optimization."
+ },
+ {
+  "paper_id": 3855,
+  "title": "MUR: Momentum Uncertainty guided Reasoning for Large Language Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models have achieved impressive performance on reasoning-intensive tasks, yet optimizing their reasoning efficiency remains an open challenge. While Test-Time Scaling (TTS) improves reasoning quality, it often leads to overthinking, wasting tokens on redundant computations. This work investigates how to efficiently and adaptively guide current model' test-time scaling without additional training. Inspired by the concept of momentum in physics, we propose Momentum Uncertainty-guided Reasoning (MUR), which dynamically allocates thinking budgets to critical reasoning steps by tracking and aggregating stepwise uncertainty over time. To support flexible inference-time control, we introduce gamma-control, a simple mechanism that tunes the reasoning budget via a single hyperparameter. We provide in-depth theoretical proof to support the superiority of MUR in terms of stability and biases. MUR is comprehensively evaluated against various TTS methods across four challenging benchmarks (MATH-500, AIME24, AIME25, and GPQA-diamond) using different sizes of recent Qwen3 models (1.7B, 4B, and 8B). Results demonstrate that MUR reduces computation by by over 45% on average while improving accuracy from 0.33 to 3.46%."
+ },
+ {
+  "paper_id": 3856,
+  "title": "Test-Time Compute and Budget (\u201cReasoning Effort\u201d): An Underrecognized Methodologic Variable in Medical Large Language Model Research",
+  "year": 2026,
+  "venue": "Korean Journal of Radiology",
+  "source": "openalex",
+  "abstract": "THINK DEEPLY: WHAT IS TEST-TIME COMPUTE?Test-time compute (TTC) is the allocation of additional computation during inference to enable a large language model (LLM) to perform internal and deliberate reasoning to solve complex tasks (\"think deeply before answering\").Driven by this mechanism, current LLMs have shifted from immediate heuristic pattern completion to slower multistep reasoning.Nowadays, these new LLMs are often called \"reasoning models.\"Unlike traditional language models constrained to single-pass autoregressive next-token predictions based on statistical regularities, they can explore, evaluate, and refine candidate solution paths before answering [1].In the nascent stage, Snell et al. [2] demonstrated that TTC can outperform simply scaling training-time resources, such as model parameters, pretraining data, or total training Test-Time Compute and Budget (\"Reasoning Effort\"): An Underrecognized Methodologic Variable in Medical Large Language Model Research"
+ },
+ {
+  "paper_id": 3857,
+  "title": "Think Hard Only When Needed: A Hybrid Best-of-N and Beam Search for Efficient Test-Time Compute",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Test-time compute has emerged as a promising paradigm that enables small language models (SLMs) to achieve large language model (LLM)-level capabilities by allocating additional compute for explicit reasoning during inference.Two common approaches are beam search and Best-of-N sampling.Beam search improves reasoning quality by scoring and optimizing token sequences using Process Reward Models (PRMs), but can incur non-trivial computational overhead and latency.In contrast, Best-of-N executes all reasoning trajectories without PRM guidance, often wasting compute on low-quality trajectories that may have gone astray early in the generation process.To address both inefficiencies, we propose THROW (THink haRd Only When needed)-a hybrid inference pipeline that combines the diversity of Best-of-N with the reasoning trajectory optimization of beam search.THROW introduces a selective branch truncation and expansion mechanism: it generates shorter initial trajectories than Best-of-N and evaluates them using PRMs to classify each query as \"easy\" or \"hard\".Based on this classification, THROW applies branch truncation for easy queries, mimicking Best-of-N, and PRM-guided branch expansion for hard ones, similar to beam search.Evaluations on MATH500, AMC23, and AIME24 demonstrate that THROW achieves 1.54\u00d7 and 14.38\u00d7 latency speedups and 35.7% and 80.4% token reductions on average while preserving high reasoning accuracy compared to Best-of-N and Beam Search, respectively."
+ },
+ {
+  "paper_id": 3874,
+  "title": "Towards Robust Causal Deep Learning",
+  "year": 2026,
+  "venue": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+  "source": "openalex",
+  "abstract": "Deep learning is increasingly used not only for prediction, but also for causal inference, sequential decision-making, and the monitoring of language-model reasoning. In these settings, predictive accuracy alone is not enough: the learned computation must align with the causal, decision-theoretic, or counterfactual object being estimated. This dissertation develops methods for strengthening the reliability of deep learning in three settings where standard tools can silently fail: causal effect estimation from observational data, finite-budget Monte Carlo Tree Search, and chain-of-thought reasoning in large language models. The common thesis is that robustness comes from imposing the right structural inductive bias. Each chapter identifies a mismatch between a flexible learning architecture and the statistical object it is asked to estimate, then introduces a principled correction that uses known structure rather than ignoring it. The first chapter introduces the DAG-aware Transformer, a neural architecture for causal effect estimation that embeds a supplied causal directed acyclic graph as a hard structural constraint on attention. Standard attention permits all variables to exchange information, but causal variables are not exchangeable tokens: treatments, outcomes, confounders, and proxies play asymmetric roles in identification. The proposed architecture masks attention scores according to the causal graph and omits layer normalization, which can distort heterogeneous causal variables by forcing them onto a common scale. This produces representations whose information flow respects the causal pathways assumed by the estimand. The architecture supports a unified family of estimators, including outcome-regression, propensity-score, augmented inverse-probability-weighted, and proximal bridge-function estimators. Across the LaLonde, ACIC, and Demand benchmarks, the DAG-aware Transformer improves over classical nonparametric baselines, modular multilayer perceptrons, and causally agnostic graph and Transformer architectures. Ablations further show that robustness depends on the credibility of the supplied graph: a correctly specified DAG improves estimation, while"
+ },
+ {
+  "paper_id": 3879,
+  "title": "Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Tree-of-Thought (ToT) reasoning structures Large Language Model (LLM) inference as a tree-based search, demonstrating strong potential for solving complex mathematical and programming tasks. However, its efficiency is constrained by the reward dependency barrier -- a synchronization bottleneck caused by sequential reward-guided exploration that limits search parallelism and introduces substantial latency. Prior system optimizations, mainly designed for linear Chain-of-Thought (CoT) reasoning, cannot address these challenges, leaving the efficiency of ToT underexplored. To enhance ToT reasoning efficiency, we observe that the reasoning paths can be explored speculatively to break the reward synchronization barrier. Therefore, in this paper, we propose SPEX and introduce three key techniques: (i) intra-query speculative path selection to predict and expand high-potential branches of ToT, (ii) inter-query budget allocation to balance speculative resource allocation across queries dynamically, and (iii) adaptive early termination to prune deep and redundant branches for a skewed search tree. We implement SPEX on top of the SGLang framework and evaluate it across diverse ToT algorithms and LLMs. Extensive experiments show that SPEX achieves $1.2 \\sim 3 \\times$ speedup for different ToT reasoning algorithms. Moreover, SPEX synergizes with token-level speculative decoding, achieving cumulative speedups of up to $4.1\\times$. Ablation studies further confirm the contributions of each technique. Overall, SPEX represents a significant step toward efficient and scalable ToT reasoning, unlocking the parallelism required for high-performance inference-time scaling for LLMs."
+ },
+ {
+  "paper_id": 3884,
+  "title": "Don't Overthink It: Inter-Rollout Action Agreement as a Free Adaptive-Compute Signal for LLM Agents",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Inference-time compute scaling has emerged as a powerful technique for improving the reliability of large language model (LLM) agents, but existing methods apply compute uniformly: every decision step receives the same budget regardless of its difficulty. We introduce TrACE (Trajectorical Adaptive Compute via agrEement), a training-free controller that allocates LLM calls adaptively across agent timesteps by measuring inter-rollout action agreement. At each step, TrACE samples a small set of candidate next actions and measures how consistently the model commits to the same action. High agreement signals an easy decision; the controller commits immediately. Low agreement signals uncertainty; the controller samples additional rollouts up to a configurable cap before committing to the plurality action. No learned components, no external verifier, and no human labels are required. We evaluate TrACE against greedy decoding and fixed-budget self-consistency (SC-4, SC-8) on two benchmarks spanning single-step reasoning (GSM8K, n=50) and multi-step household navigation (MiniHouse, n=30), using a Qwen 2.5 3B Instruct model running on CPU. TrACE-4 matches SC-4 accuracy while using 33% fewer LLM calls on GSM8K and 39% fewer on MiniHouse. TrACE-8 matches SC-8 accuracy with 55% fewer calls on GSM8K and 65% fewer on MiniHouse. We further show that inter-rollout agreement is a reliable signal of step-level success, validating the core hypothesis that the model's own output consistency encodes difficulty information that can be exploited without training. TrACE is the first training-free, per-timestep adaptive-compute controller for LLM agents to be evaluated on multi-step sequential decision tasks."
+ },
+ {
+  "paper_id": 3885,
+  "title": "MetaScale: Test-Time Scaling with Evolving Meta-Thoughts",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "One critical challenge for large language models (LLMs) in complex reasoning is their reliance on matching reasoning patterns from training data, instead of proactively selecting the most appropriate cognitive strategy to solve a given task.Existing approaches impose fixed cognitive structures that enhance performance in specific tasks but lack adaptability across diverse scenarios.To address this limitation, we introduce METASCALE, a test-time scaling framework based on meta-thoughts, i.e., adaptive thinking strategies tailored to each task.METASCALE initializes a pool of candidate meta-thoughts, then iteratively selects and evaluates them using a multi-armed bandit algorithm with upper confidence bound selection, guided by a reward model.To further enhance adaptability, a genetic algorithm evolves highreward meta-thoughts, refining and extending the strategy pool over time.By dynamically proposing and optimizing meta-thoughts at inference time, METASCALE improves both accuracy and generalization across a wide range of tasks.Experimental results demonstrate that METASCALE consistently outperforms standard inference approaches, achieving an 11% performance gain in win rate on Arena-Hard for GPT-4o, surpassing o1-mini by 0.9% under style control.Notably, METASCALE scales more effectively with increasing sampling budgets and produces more structured, expert-level responses.1"
+ },
+ {
+  "paper_id": 3888,
+  "title": "TRACE: A Unified Rollout Budget Allocation Framework for Efficient Agentic Reinforcement Learning",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Reinforcement learning with verifiable rewards (RLVR) is a promising approach for enhancing reasoning and agentic behavior in large language models. However, rollout-intensive policy optimization is often limited by insufficient reward contrast, arising when overly simple or complex prompts generate low-variance feedback and when outcome-only rewards assign the same terminal assessment to every decision in a multi-turn rollout. Past efforts have focused on allocating available rollout resources to promising prompts, yet they only leverage sample informativeness at the prompt level and neglect variation in prefix-level informativeness across turns within the same rollout. This work targets multi-turn agentic RL by modeling each ReAct-style thought-action-observation turn as a semantically distinct node, allowing budget allocation to extend from prompt roots to turn-level prefixes with further continuations, which naturally forms tree-structured rollouts. We introduce Tree Rollout Allocation for Contrastive Exploration (TRACE), a unified rollout allocation framework that enhances reward contrast within a fixed sampling budget. Technically, TRACE allocates rollout budget to both prompt roots and intermediate prefixes that are most likely to yield mixed terminal rewards. A shared generalizable predictor estimates conditional success probability at these anchors from prefix histories to guide this allocation. The resulting adaptive tree structure enriches outcome-only feedback and amplifies the policy-update signal. Empirically, TRACE achieves competitive performance and efficiency gains on typical agentic benchmarks, e.g., improving Qwen3-14B Multi-Hop QA average accuracy by 2.8 points over competitive baselines at equal sampling cost."
+ },
+ {
+  "paper_id": 3906,
+  "title": "SAIL: Test-Time Scaling for In-Context Imitation Learning with VLM",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In-context imitation learning allows robots to acquire skills from demonstrations, yet one-shot trajectory generation remains fragile under environmental variation. We propose SAIL, a framework that reframes robot imitation as an iterative refinement problem capable of scaling with test-time compute. SAIL utilizes Monte Carlo Tree Search, where each node is a complete trajectory and edges correspond to trajectory refinements. The process is guided by three core components: an automated archive of successful trajectories for contextually relevant retrieval, a vision language model-based scoring mechanism for trajectory evaluation, and a step-level feedback that provides trajectory-aligned scores for iterative refinement. Experiments across six diverse manipulation tasks in simulation and real-world validation clearly demonstrate that increasing test-time compute consistently improves success rates, achieving up to 95% on complex tasks. Our results suggest that trajectory-level test-time scaling is a robust path toward more generalizable robotic agents."
+ },
+ {
+  "paper_id": 3907,
+  "title": "Offline Reinforcement Learning for LLM Multi-step Reasoning",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Improving the multi-step reasoning ability of large language models (LLMs) with offline reinforcement learning (RL) is essential for quickly adapting them to complex tasks.While Direct Preference Optimization (DPO) has shown promise in aligning LLMs with human preferences, it is less suitable for multi-step reasoning tasks because (1) DPO relies on paired preference data, which is not readily available for multi-step reasoning tasks, and (2) it treats all tokens uniformly, making it ineffective for credit assignment in multi-step reasoning tasks, which often come with sparse reward.In this work, we propose OREO (Offline REasoning Optimization), an offline RL method for enhancing LLM multi-step reasoning.Building on insights from previous works of maximum entropy reinforcement learning, it jointly learns a policy model and value function by optimizing the soft Bellman Equation.We show in principle that it reduces the need to collect pairwise data and enables better credit assignment.Empirically, OREO surpasses existing offline learning methods on multi-step reasoning benchmarks, including mathematical reasoning tasks (GSM8K, MATH), and embodied agent control (ALFWorld).The approach can be extended to a multi-iteration framework when additional resources are available.Furthermore, the learned value function can be leveraged to guide the tree search for free, which can further boost the performance during test time."
+ },
+ {
+  "paper_id": 3915,
+  "title": "Expressive Power of Implicit Models: Rich Equilibria and Test-Time Scaling",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Implicit models, an emerging model class, compute outputs by iterating a single parameter block to a fixed point. This architecture realizes an infinite-depth, weight-tied network that trains with constant memory, significantly reducing memory needs for the same level of performance compared to explicit models. While it is empirically known that these compact models can often match or even exceed the accuracy of larger explicit networks by allocating more test-time compute, the underlying mechanism remains poorly understood. We study this gap through a nonparametric analysis of expressive power. We provide a strict mathematical characterization, showing that a simple and regular implicit operator can, through iteration, progressively express more complex mappings. We prove that for a broad class of implicit models, this process lets the model's expressive power scale with test-time compute, ultimately matching a much richer function class. The theory is validated across four domains: image reconstruction, scientific computing, operations research, and LLM reasoning, demonstrating that as test-time iterations increase, the complexity of the learned mapping rises, while the solution quality simultaneously improves and stabilizes."
+ },
+ {
+  "paper_id": 3917,
+  "title": "Latent Chain-of-Thought Improves Structured-Data Transformers",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Chain-of-thought and more broadly test-time compute are known to augment the expressive capabilities of language models and have led to major innovations in reasoning. Motivated by this success, this paper explores latent chain-of-thought as well as the impact of depth and looping for time-series and tabular data. We propose a recurrent scheme in which a structured-data transformer, after an initial forward pass, compresses its query-position hidden states into feedback tokens that are appended to the input and processed again, allowing multiple rounds of latent computation before prediction. We compare CoT models against a same-depth no-CoT baseline, a deeper baseline matched to the CoT model in effective depth, and a looped transformer with weight-tied recurrence but no additional chain-of-thought tokens. Across 36 datasets in time-series forecasting and tabular prediction, latent chain-of-thought improves over the baseline on 7/9 time-series datasets (+12.63\\% average gain) and 23/27 tabular datasets (+3.25\\% average gain), with CoT models performing best on average in both settings. We also show that the benefit of CoT extends to pretrained foundation models: applying latent CoT to nanoTabPFN, a small open-source tabular foundation model, improves its performance above the much larger TabPFN-v2 on TabArena. Together, these results demonstrate that chain-of-thought is a useful axis for scaling test-time compute for structured data."
+ },
+ {
+  "paper_id": 3919,
+  "title": "Rewarding Graph Reasoning Process makes LLMs more Generalized Reasoners",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Despite significant advancements in Large Language Models (LLMs), developing advanced reasoning capabilities in LLMs remains a key challenge. Process Reward Models (PRMs) have demonstrated exceptional promise in enhancing reasoning by providing step-wise feedback, particularly in the context of mathematical reasoning. However, their application to broader reasoning domains remains understudied, largely due to the high costs associated with manually creating step-level supervision. In this work, we explore the potential of PRMs in graph reasoning problems - a domain that demands sophisticated multi-step reasoning and offers opportunities for automated step-level data generation using established graph algorithms. We introduce GraphSilo, the largest dataset for graph reasoning problems with fine-grained step-wise label, built using automated Task-oriented Trajectories and Monte Carlo Tree Search (MCTS) to generate detailed reasoning steps with step-wise labels. Building upon this dataset, we train GraphPRM, the first PRM designed for graph reasoning problems, and evaluate its effectiveness in two key settings: inference-time scaling and reinforcement learning via Direct Preference Optimization (DPO). Experimental results show that GraphPRM significantly improves LLM performance across 13 graph reasoning tasks, delivering a 9% gain for Qwen2.5-7B and demonstrating transferability to new graph reasoning datasets and new reasoning domains like mathematical problem-solving. Notably, GraphPRM enhances LLM performance on GSM8K and MATH500, underscoring the cross-domain applicability of graph-based reasoning rewards. Our findings highlight the potential of PRMs in advancing reasoning across diverse domains, paving the way for more versatile and effective LLMs."
+ },
+ {
+  "paper_id": 3931,
+  "title": "ThinkQE: Query Expansion via an Evolving Thinking Process",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Effective query expansion for web search benefits from promoting both exploration and result diversity to capture multiple interpretations and facets of a query.While recent LLM-based methods have improved retrieval performance and demonstrate strong domain generalization without additional training, they often generate narrowly focused expansions that overlook these desiderata.We propose ThinkQE, a testtime query expansion framework addressing this limitation through two key components: a thinking-based expansion process that encourages deeper and comprehensive semantic exploration, and a corpus-interaction strategy that iteratively refines expansions using retrieval feedback from the corpus.Experiments on diverse web search benchmarks (DL19, DL20, and BRIGHT) show ThinkQE consistently outperforms prior approaches, including trainingintensive dense retrievers and rerankers.1"
+ },
+ {
+  "paper_id": 3940,
+  "title": "Mind the Gap: Examining the Self-Improvement Capabilities of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Self-improvement is a mechanism in Large Language Model (LLM) pre-training, post-training and test-time inference. We explore a framework where the model verifies its own outputs, filters or reweights data based on this verification, and distills the filtered data. Despite several empirical successes, a fundamental understanding is still lacking. In this work, we initiate a comprehensive, modular and controlled study on LLM self-improvement. We provide a mathematical formulation for self-improvement, which is largely governed by a quantity which we formalize as the generation-verification gap. Through experiments with various model families and tasks, we discover a scaling phenomenon of self-improvement -- a variant of the generation-verification gap scales monotonically with the model pre-training flops. We also examine when self-improvement is possible, an iterative self-improvement procedure, and ways to improve its performance. Our findings not only advance understanding of LLM self-improvement with practical implications, but also open numerous avenues for future research into its capabilities and boundaries."
+ },
+ {
+  "paper_id": 3944,
+  "title": "OctoTools: An Agentic Framework with Extensible Tools for Complex Reasoning",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Solving complex reasoning tasks may involve visual understanding, domain knowledge retrieval, numerical calculation, and multi-step reasoning. Existing methods augment large language models (LLMs) with external tools but are restricted to specialized domains, limited tool types, or require additional training data. In this paper, we introduce OctoTools, a training-free, user-friendly, and easily extensible multi-agent framework designed to tackle complex reasoning across diverse domains. OctoTools introduces standardized tool cards to encapsulate tool functionality, a planner for both high-level and low-level planning, and an executor to carry out tool usage. We validate OctoTools' generality across 16 diverse tasks (including MathVista, MMLU-Pro, MedQA, and GAIA-Text), achieving substantial average accuracy gains of 9.3% over GPT-4o. Furthermore, OctoTools also outperforms AutoGen, GPT-Functions, and LangChain by up to 10.6% when given the same set of tools. Through comprehensive analysi, ablations, and robustness tests with compact backbones and noisy tool environments, OctoTools demonstrates advantages in task planning, effective tool usage, and multi-step problem solving. Code, demos, and visualization are publicly available at https://octotools.github.io/."
+ },
+ {
+  "paper_id": 3965,
+  "title": "Table-R1: Inference-Time Scaling for Table Reasoning Tasks",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In this work, we present the first study to explore inference-time scaling on table reasoning tasks.We develop and evaluate two post-training strategies to enable inferencetime scaling: distillation from frontier model reasoning traces and reinforcement learning with verifiable rewards (RLVR).For distillation, we introduce a large-scale dataset of reasoning traces generated by DeepSeek-R1, which we use to fine-tune LLMs into the Table-R1-SFT model.For RLVR, we propose taskspecific verifiable reward functions and apply the GRPO algorithm to obtain the Table-R1-Zero model.We evaluate our Table-R1series models across diverse table reasoning tasks, including short-form QA, fact verification, and free-form QA.Notably, the Table-R1-Zero model matches or exceeds the performance of GPT-4.1 and DeepSeek-R1, while using only a 7B-parameter LLM.It also demonstrates strong generalization to out-of-domain datasets.Extensive ablation and qualitative analyses reveal the benefits of instruction tuning, model architecture choices, and cross-task generalization, as well as emergence of essential table reasoning skills during RL training.Model huggingface.co/Table-R1Code github.com/Table-R1"
+ }
+]

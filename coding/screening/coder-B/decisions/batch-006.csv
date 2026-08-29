@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+3969,include,I2,"When/How/Which modules decide when to intervene in and resample a reasoning path; measured by shortened CoTs, a property of the trajectory. Mechanism: iteration policy."
+3970,exclude,E1,"Looped latent refinement inside a pretrained transformer (block recursion, early exit); the loop is model-internal computation, not an LLM agent's control loop."
+3975,include,I2,"Studies experience distilled into context and how agent performance scales with accumulated experience, to avoid wasted exploration budget. Mechanism: loop state."
+3995,exclude,E4,"Security benchmark of 644 attack cases over 28 agent environments; reports attack susceptibility, not a loop property such as termination or retries."
+4005,exclude,E4,"Office-workflow benchmark plus a generation pipeline; reports task capability on 600+ long-horizon tasks, not a loop property."
+4022,exclude,E7,"Agentic RL environment builder plus advantage estimator; claims are tool-use benchmark performance boosts, not evidence about a loop mechanism."
+4038,include,I2,"Step-level device-cloud coordinator compared against coarse task-level routers, reported as success at 46.3% cloud steps. Mechanism: control topology, routing granularity is the variable."
+4040,exclude,E7,"Shopping benchmark plus tool-wise process rewards; claims are e-commerce success rates and preference capture, not the loop mechanism."
+4046,exclude,E7,"Co-evolving decision agent and skill bank; the reported claim is 25.1% average game reward over frontier baselines, a task outcome."
+4055,include,I2,"Compressor for observations and history refined from failure analysis, compared against compression baselines and measured by 26-54% peak token reduction. Mechanism: loop state."
+4060,exclude,E7,"RL training recipe (reward shaping, data, algorithm) for tool-using agents; takeaways concern training dynamics and TravelPlanner performance, not loop control."
+4070,exclude,E4,"Agentic memory benchmark with memory-isolated scores and a reward model for compression quality; ranks memory quality, not a loop property."
+4081,exclude,E4,"Plan-and-execute benchmark in simulated economies; reported outcomes are net worth, income and DAU across eleven LLMs."
+4088,exclude,E7,Planner/Executor split plus synthetic plan data; the claims are 57.58% WebArena-Lite and 81.36% WebVoyager success rates.
+4089,include,I2,"Runtime guidance DSL wrapping the execution loop to monitor step deviations and refine guidance from traces; tested over 15 skills, with lower run-to-run variability. Mechanism: verification."
+4094,exclude,E4,"132-month CFO simulator; reported findings are survival, capital sizing and allocation outcomes across 23 LLMs, not a loop property."
+4099,exclude,E7,Multi-agent coordination framework evaluated on maze puzzles by coordination and task performance; no claim about the coordination mechanism as such.
+4111,exclude,E3,"Skill-poisoning attack measured by attack success rate on off-the-shelf codex+gpt-5.2 agents; the agent loop is used unmodified, not studied."
+4118,exclude,E7,"Hierarchical DPO with a curriculum for offline agent alignment; claims are benchmark wins over preference-learning baselines, a training result."
+4133,include,I2,Checkpoint instrumentation separating failures before/after capability exposure; interventions raise state observation 65.5%-95.4% in a 92-seed study. Mechanism: loop state reuse across turns.
+4176,exclude,E7,"Entropy-modulated policy gradient for agent RL; evidence is performance gains on WebShop, ALFWorld and Deep Search over policy-gradient baselines."
+4178,include,I2,"Formalises addition/revision/retraction interruptions and measures how agents adapt and recover mid-task in WebArena-Lite. Mechanism: iteration policy, replanning on a mid-run signal."
+4187,exclude,E1,"Programmatic learning from demonstration; the loops are control-flow constructs in a synthesised robot program, not an agent's control loop."
+4200,exclude,E7,Modular LLM agent system for robot tool manipulation; claims are task execution capability across manipulation scenarios.
+4201,exclude,E7,Memory-efficient PPO variant for training interactive agents; the claim is 9 points of AppWorld success over an o1 agent.
+4205,exclude,E7,Multi-agent LLM cerebrum driving metamaterial hardware; claims are EM manipulation and robot-commanding task execution in an assisted-living prototype.
+4218,exclude,E7,Skill bootstrapping guided by an LLM; the claim is zero-shot success on unseen long-horizon household tasks over bootstrapping baselines.
+4221,exclude,E7,Hierarchical multi-agent mobile automation with dual-level retrieval; claims are 11.0% task completion and 10.2% step-efficiency gains over SoTA.
+4226,exclude,E7,Learns PDDL predicates and operators from language feedback; claims are 73% simulated and 40% real manipulation success on novel tasks.
+4232,exclude,E2,Modular embodied instruction-following system whose LLM use is one-shot prompting for landmark-object relations; no iterative control returns to the model.
+4235,exclude,E7,Decoding strategy combining LM and grounded-model scores for embodied action generation; evidence is that it solves long-horizon robot tasks in three domains.
+4246,exclude,E7,"Cooperative embodied task-and-motion planning system aimed at latency and communication overhead; the abstract states motivation only, no claim about a loop mechanism."
+4273,exclude,E7,Fine-tunes open LLMs on 6B tokens of production workflow data; claims are Mind2Web and WebArena success-rate records.
+4288,exclude,E7,LLM orchestration of bimanual robot coordination policies; the reported claim is success rate over a baseline plus qualitative failure analysis.
+4299,include,I2,"Execution-feedback description and self-explanation correct failed plans, and a trainable selector ranks sub-goals; ablation studies isolate each. Mechanism: retry/repair."
+4300,exclude,E5,"Survey of LLM-based multi-agent systems: domains, profiling, communication, capacity growth and datasets."
+4304,exclude,E7,"Tool-augmented diagnostic agent for fault attribution in long traces; claims are attribution accuracy and precision on Who&When and TRAIL, task outcomes."
+4313,exclude,E7,"State abstraction, trajectory exemplars and exemplar memory for a computer-control agent; claims are MiniWoB++ and Mind2Web success rates."
+4318,include,I2,"Process-based evaluation across planning, execution and replanning layers, comparing PDDL and NL plans and locating the dominant bottleneck. Mechanism: iteration policy and replanning."
+4324,include,I2,Formalises turn-wise drift as KL divergence with a recurrence model and shows reminder interventions reduce divergence in tau-Bench. Mechanism: loop state across turns.
+4325,exclude,E7,"Dual-agent VLN framework with a knowledge agent and history agent; claims are R2R, REVERIE and SOON navigation success."
+4360,exclude,E7,"Adaptive planning modes and uncertainty-guided MCTS inside a web-agent framework, but the only reported evidence is WebArena and WebVoyager performance over baselines."
+4447,exclude,E2,"Topological descriptors of representation change across model layers, applied to layer pruning; no agent and no runtime loop."
+4453,exclude,E2,"Fine-tunes an LLM on generated episodic-memory dialogues and tests recall on EM-Test; no runtime loop, the claim is memory QA quality."
+4487,exclude,E5,Review of the impossible-languages literature arguing LMs learn attested and impossible languages equally well; no agent loop.

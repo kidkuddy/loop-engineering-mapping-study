@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+430,include,I2,"Compares prompt-based uncertainty decomposition against ReAct+UE and UAM on clarification F1, measuring the ask-vs-act decision itself; contributes to iteration policy."
+431,exclude,E1,Evolutionary kernel-based cognitive architecture with symbol emergence; not a language-model agent's loop.
+433,exclude,E5,"Catalogue of ten architectural patterns plus a reference architecture synthesised across eight existing systems; taxonomy-style overview, no studied loop mechanism."
+434,exclude,E7,"Proposes the UMM cognitive architecture and the MindOS builder; the contribution is a whole agent architecture, with no evidence or argument about loop control."
+436,exclude,E1,"AgentSpeak agent on a two-wheeled maze robot, 287 reasoning cycles on embedded hardware; no language-model policy."
+437,exclude,E7,"ASIC-Agent is an authored multi-agent hardware-design system; reported claims are ASIC-Agent-Bench task automation, not its loop."
+439,exclude,E3,Off-the-shelf GPT-4 tool-calling agent applied to website hacking; reported claims are exploit success rates in a domain.
+440,exclude,E1,"Autonomous agent software on nano-satellite microcontrollers for debris de-orbiting; feasibility and energy, no language-model loop."
+441,include,I2,"Controlled framework-level study isolating architectural effects on orchestration overhead, planning accuracy and coordination success; the arrangement is the studied variable (control topology)."
+442,include,I2,"Explicit design argument plus measurement of when an agentic run is warranted over a single LLM call, 92% modality-selection accuracy; triggering/scheduling."
+445,exclude,E1,Behaviour explanation for a reinforcement-learning robot policy; no language-model agent loop.
+449,exclude,E7,"DriveAgent is an authored multi-agent driving pipeline; claims are driving-dataset metrics against baselines, not about the loop."
+450,exclude,E7,"AEMA is an authored evaluation framework; claims are evaluation stability, human alignment and traceability versus LLM-as-a-Judge, not loop control."
+452,exclude,E7,"MACLA's procedural memory is judged by 78.1% average benchmark performance and ALFWorld generalisation; end-task outcomes, not evidence about the selection mechanism."
+453,exclude,E7,"Edu-Theater is a learner-simulation system for education; claims are simulation accuracy, LLM-call count and downstream adaptive testing."
+454,include,I2,"Runtime decides how many agents share a call and gates every mode switch on rolling-mean quality, matching a hand-tuned oracle per cell; control topology."
+455,exclude,E7,"MAPE flywheel around NVIDIA's deployed assistant; reported claims are routing accuracy, fine-tuning gains and latency, not the loop mechanism."
+457,include,I2,"Cost-model decision on outsourcing subtasks to third-party agents, validated over 239 simulations and 240 real tasks including an epsilon-greedy comparison; control topology."
+458,exclude,E1,Multi-agent A2C reinforcement learning for cooperative vehicle maneuver planning; no language-model policy.
+459,exclude,E7,"FinCon is an authored multi-agent financial system; claims are investment returns on trading and portfolio tasks, not about its self-critique cycle."
+460,exclude,E2,V2V-LLM fuses multi-vehicle perception to answer driving questions in a single pass; no iterative control returning on a signal.
+462,exclude,E1,CEMA explains driving-agent decisions by counterfactual forward simulation of a probabilistic model; not a language-model agent's loop.
+463,exclude,E7,"Multi-agent debate is used as an evaluation apparatus; claims are psychometric and semantic measurements of agent behaviour, not loop control."
+465,exclude,E5,Security threat analysis of OpenClaw with a five-layer lifecycle taxonomy and a review of existing defense strategies; secondary overview.
+467,include,I2,Compares LAA architectures and LLM backbones and adds a controller orchestrating specialised agents; the architecture is the studied variable (control topology).
+468,exclude,E4,"AgentDAM is a benchmark for privacy data minimisation by web agents; it measures a privacy property, not a loop property."
+469,exclude,E3,A general-purpose LLM coding agent is placed in a simulator loop for architectural design space exploration; claims are design quality and evaluation counts.
+470,include,I2,"Communication strategies and an environment-based verifier are the studied variables in Einstein Puzzles collaboration, with the verifier's effect on rule comprehension reported; verification."
+471,exclude,E3,"Off-the-shelf LLM agents run 1,100 Among Us games; claims are speech-act and deception behaviour in the game, not loop control."
+472,include,I2,"Attacks trap agents in repetitive or irrelevant actions with failure rates above 80%, and a self-examination detector is tested; evidence about stuck loops and termination."
+473,exclude,E7,"Catalyst-Agent is an authored chemistry screening agent; claims are ORR/NRR/CO2RR success rates, convergence trials and new candidate materials."
+476,exclude,E7,"The hierarchical reflection architecture is reported only through AndroidWorld and AndroidLab success rates (62.9%, 44.2%); no evidence about the reflection mechanism itself."
+477,exclude,E7,ProofCouncil's author-critic agent is judged by how many FirstProof and open problems it solved; claims are task outcomes.
+479,include,I2,"A controller checks preconditions and authorises execution; compared with ReAct and LangChain over 360 episodes, reporting redundant tool calls and intermediate-state reuse; verification."
+480,exclude,E7,"SkillMaster's skill create/refine/select training is judged by ALFWorld and WebShop success rates (+8.8%, +9.3%); end-task outcomes."
+482,include,I2,"Failure detection plus adaptive replanning and corrective prompting is the contribution, evaluated on failure propagation and recovery against existing methods; retry/repair."
+483,exclude,E7,"MCP-Zero's active tool discovery is judged by tool-selection accuracy over 3k tools and 98% token reduction; retrieval quality, not loop control."
+484,exclude,E2,"A conceptual layered guardrail over LLM reasoning, scored on boundary failure rates under adversarial prompting; no iterative agent control loop."
+486,exclude,E7,An agentic director drives dyadic gesture generation; claims are motion quality and user-study ratings of the interaction.
+487,exclude,E7,"Design-fiction framework for AIS-stratified empathetic care agents; claims concern therapeutic personalisation, not loop control."
+488,exclude,E5,Explicitly reviews architectures and implementation methods for building LLM agents; secondary study.
+490,exclude,E5,"Conceptual HCI framework on agent identity as a collaboration interface, explicitly separated from engineering orchestration; no loop-control claim."
+492,include,I2,"The agent itself decides when to consolidate knowledge and prune raw history, measured at 6.0 autonomous compressions per task and 22.7% token reduction at equal accuracy; loop state."
+496,exclude,E7,The open-world Station is judged by the mathematical results its agents discovered; the coordinator-free arrangement is not the studied variable.
+497,exclude,E3,Off-the-shelf GPT-4 agent given CVE descriptions exploits 87% of one-day vulnerabilities; a domain capability result.

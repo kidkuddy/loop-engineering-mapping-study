@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+1445,exclude,E7,"Multi-agent framework with 360 assessment and experience pool; the only reported claim is effectiveness on complex task datasets, not about the assessment-feedback loop."
+1446,include,I2,TriPosT trains small models to revise their own generations; the claim is that correcting its own mistakes is crucial to gaining that ability - retry/repair.
+1447,exclude,E2,"Case study of GenAI tools in a teacher-education course; ideation and content creation, no autonomous iterative control."
+1449,include,I2,GIF-MCTS makes Monte Carlo tree search with generate/improve/fix the code-generation strategy and compares it to alternative generation strategies - iteration policy.
+1450,include,I2,"Empirical study of whether sub-22B LLMs can self-correct given natural-language feedback, measured across scales - a claim about the retry/repair step itself."
+1452,include,I2,Volcano generates self-feedback then self-revises; qualitative analysis shows the feedback is better grounded than the initial response - retry/repair cycle.
+1456,include,I2,"MAgICoRe targets excessive, mislocalised and insufficient refinement, routing easy/hard problems and iterating with reward scores; beats Self-Refine at half compute - iteration policy."
+1458,include,I2,"PPDPP is a tunable plug-in choosing the agent's next dialogue action, compared against prompting and verbal-feedback planners under an interactive evaluation - iteration policy."
+1459,include,I2,ProgCo's self-generated verification programs decide what refinement happens next; the claim is that self-correction itself becomes effective - verification.
+1461,include,I2,Graph of Thoughts makes the thought graph with feedback loops the contribution and compares it against ToT/CoT on quality and cost - iteration policy over search states.
+1465,include,I2,"A2R's metric-guided assessment decides the feedback driving each refinement round, with citation-error and hallucination metrics scoring that check - verification."
+1466,exclude,E7,"EvolutionaryAgent is an agent framework whose reported claims are alignment with evolving social norms and retained task proficiency, not loop control."
+1467,exclude,E2,"RankPrompt ranks multiple independently sampled responses via comparison prompts; selection over parallel samples, control never returns."
+1468,exclude,E5,Narrative review of prompting strategies for licensing-exam item generation; secondary study.
+1469,exclude,E2,"Prompt optimisation explicitly via 'a single-step update' from confusion-matrix feedback, presented as avoiding iterative refinement - no loop."
+1470,exclude,E7,SC-VLA is a fast/slow manipulation system; the reported claims are manipulation accuracy on seen and unseen tasks versus the previous SOTA VLA.
+1471,include,I2,"FDSP feeds static-analysis findings back into patching and is compared against LLM self-feedback (+17.6%), a comparison of repair feedback sources - retry/repair."
+1472,include,I2,"PromptWizard's critique-and-synthesis loop balancing exploration and exploitation is the contribution, compared with other prompt optimisers on API calls and cost - iteration policy."
+1474,exclude,E7,"LLaMP is a hierarchical multi-agent materials-science pipeline; claims are property retrieval, structure editing and simulation performance - domain outcomes."
+1475,include,I2,DIMSIM distils critic models and shows they beat using an LLM directly as critic in 0-shot and few-shot settings - a comparison of the critique step - verification.
+1476,exclude,E2,"Eleven LLMs scored on national assessment problems plus teacher interviews; one-shot solution quality, no iterative control."
+1477,exclude,E2,ICLEF uses self-critique to build distillation data; the resulting student models do one-shot style transfer with no runtime loop.
+1479,include,I2,"SLSC-MCTS argues trajectory-level critique mislocates flawed steps, uses node values to discard ineffective step-level critiques, and reports shorter trajectories - iteration policy."
+1480,exclude,E2,"Closed-world evaluation of three LLMs classifying CWE labels; single-pass detection and classification, no loop."
+1481,exclude,E4,Tutorial outlining lines of research on extending LLM capabilities beyond scaling; not a research contribution.
+1483,include,I2,"CodeTree's tree search makes the ranking, termination and expansion decisions from execution and agent feedback - the iteration policy is the contribution."
+1484,exclude,E2,Self-play fine-tuning for Text-to-SQL; iteration sits in training-data synthesis and the resulting model emits SQL with no runtime loop.
+1485,include,I2,"Investigates self-debugging with self-generated tests, contrasting post-execution and in-execution paradigms and the bias each induces - a study of retry/repair."
+1486,exclude,E7,VisCode-200K dataset plus a fine-tuned model; the reported claims are PandasPlotBench plot-generation performance against baselines.
+1487,include,I2,ECCO compares iterative refinement under execution versus NL feedback and reports which signal preserves correctness and which improves efficiency - the repair signal is measured.
+1491,exclude,E7,IRIS is an iterative self-refinement attack pipeline; the reported claims are 98/92/94% jailbreak success rates against prior attack approaches.
+1492,exclude,E5,"Review of generative-AI requirements, model taxonomy, input-output formats and evaluation metrics; secondary study."
+1493,exclude,E2,"ChainForge is a visual prompt-engineering and hypothesis-testing toolkit evaluated by user studies; the refinement is the human's, not an agent loop."
+1494,exclude,E7,LASSI-EE is a multi-stage refactoring pipeline with self-correcting feedback; the reported claim is 34-36% energy reduction on benchmarks.
+1495,exclude,E2,"Three-phase prompt-template and text-to-image framework for heritage reconstruction; refinement is manual validation, no autonomous loop."
+1496,include,I2,"PREFER's feedback-reflect-refine cycle synthesises new prompts for weak learners, and its bagging evaluation is shown superior to majority voting - iteration policy."
+1497,exclude,E2,"CLoud reward models emit a critique then a scalar score in one pass, scored on RewardBench and Best-of-N; control never returns."
+1499,exclude,E2,"ChatGPT prompted to emulate a text adventure for language learning; the iterative refinement is the authors' own, no autonomous loop."
+1503,exclude,E5,"Review of generative-AI risks, attacks and defences in cybersecurity and privacy; secondary study."
+1505,include,I2,"Mirror targets getting stuck at a reflection iteration via Navigator/Reasoner diversity and agreement, with an ablation showing the strategies alleviate it - iteration policy."
+1506,exclude,E7,PlotGen is a multi-agent visualization pipeline; the reported claim is a 4-6% gain on MatPlotBench plus user trust and productivity.
+1507,exclude,E7,Iterative reflection framework for document-level relation extraction; claims are zero-shot DocRE performance matching supervised BERT models.
+1510,exclude,E7,MCQG-SRefine is a self-refine pipeline for USMLE question generation; claims are expert satisfaction with question quality and difficulty.
+1511,exclude,E7,SAGE is a two-stage synthetic-data paradigm with agent-based refinement; claims are RAG performance parity and reduced privacy risk.
+1512,include,I2,ReAd replaces physical verification and self-reflection with advantage-based feedback for replanning and reports fewer interaction steps and LLM query rounds - verification.

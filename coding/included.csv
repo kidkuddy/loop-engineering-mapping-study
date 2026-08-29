@@ -1,0 +1,976 @@
+paper_id,title,year,venue,source
+2,A Physical Agentic Loop for Language-Guided Grasping with Execution-State Monitoring,2026,arXiv:cs.RO,arxiv
+3,Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Functional Materials Discovery,2025,arXiv:cond-mat.mtrl-sci,arxiv
+14,Retrospex: Language Agent Meets Offline Reinforcement Learning Critic,2025,arXiv:cs.CL,arxiv
+61,BALAR : A Bayesian Agentic Loop for Active Reasoning,2026,arXiv:cs.AI,arxiv
+77,SWEnergy: An Empirical Study on Energy Efficiency in Agentic Issue Resolution Frameworks with SLMs,2025,arXiv:cs.SE,arxiv
+90,Controlling Long-Horizon Behavior in Language Model Agents with Explicit State Dynamics,2026,arXiv:cs.AI,arxiv
+116,Theory of Mind for Multi-Agent Collaboration via Large Language Models,2023,arXiv:cs.CL,arxiv
+156,When Agents Do Not Stop: Uncovering Infinite Agentic Loops in LLM Agents,2026,arXiv:cs.SE,arxiv
+215,DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation,2025,arXiv (Cornell University),openalex
+221,AGENTSAFE: A Unified Framework for Ethical Assurance and Governance in Agentic AI,2025,arXiv (Cornell University),openalex
+225,Agent-SAMA: State-Aware Mobile Assistant,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+234,From the logic of coordination to goal-directed reasoning: the agentic turn in artificial intelligence,2026,Frontiers in Artificial Intelligence,openalex
+236,"MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",2024,arXiv (Cornell University),openalex
+237,AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents,2024,arXiv (Cornell University),openalex
+255,GENIUS: an agentic AI framework for autonomous design and execution of simulation protocols,2026,Communications Materials,openalex
+262,Characterizing Large Language Model Agentic Workflows: A Study on N8n Ecosystem,2026,arXiv (Cornell University),openalex
+263,Can Small Agents Collaborate to Beat a Single Large Language Model?,2026,arXiv (Cornell University),openalex
+265,Towards Evaluating Agentic Large Language Models in Digital System Design,2026,Open MIND,openalex
+268,Don't Blame the Large Language Model: How Agent Harness Evolution Shapes Coding Agent Quality,2026,arXiv (Cornell University),openalex
+271,Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems,2026,arXiv (Cornell University),openalex
+272,Semantic Early-Stopping for Iterative LLM Agent Loops,2026,arXiv (Cornell University),openalex
+274,Verified Detection and Prevention of Concurrency Anomalies in Multi-Agent Large Language Model Systems,2026,arXiv (Cornell University),openalex
+279,From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work,2026,arXiv (Cornell University),openalex
+281,"Evaluating Large Language Models as Live Strategic Agents: Provider Performance, Hybrid Decomposition, and Operational Gaps in Timed Risk Play",2026,arXiv (Cornell University),openalex
+284,Structured Feedback Improves Repair in an LLM Agent Loop,2026,arXiv (Cornell University),openalex
+285,When Do Agent Loops Mistake Stagnation for Progress? Self-Evaluation Bias and Externally Grounded Verification in Long-Running Autonomous LLM Agent Loops,2026,arXiv (Cornell University),openalex
+294,From Agent Loops to Structured Graphs:A Scheduler-Theoretic Framework for LLM Agent Execution,2026,arXiv (Cornell University),openalex
+301,AGENTIC COLLAPSE: A Time-Delayed Cybernetic Framework for Epistemic Stability in Autonomous AI Systems,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+304,SafeAgent: A Runtime Protection Architecture for Agentic Systems,2026,arXiv (Cornell University),openalex
+305,Beyond Executable Models: The Pufibara Agent Harness and the Modelica Agent Workflow Benchmark for Physical System Modeling,2026,arXiv (Cornell University),openalex
+311,Ai In The Loop: The Autonomous Sunk-Cost Fallacy,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+312,Physics as the label for measuring and correcting materials reasoning in multimodal models,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+313,The Autonomous Sunk-Cost Fallacy: Stopping Failures and Meta-Reasoning in LLMs Deployed within the Autonomous Empirical Optimization System (AEOS),2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+321,LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks,2026,arXiv (Cornell University),openalex
+324,Supervising Ralph Wiggum: Exploring a Metacognitive Co-Regulation Agentic AI Loop for Engineering Design,2026,arXiv (Cornell University),openalex
+328,Automating Formal Verification with Agent-Guided Tree Search,2026,arXiv (Cornell University),openalex
+333,Escaping the Self-Confirmation Trap: An Execute-Distill-Verify Paradigm for Agentic Experience Learning,2026,arXiv (Cornell University),openalex
+334,Operational Hallucination and Safety Drift in AI Agents,2026,arXiv (Cornell University),openalex
+335,Agentic Framework for Deep Learning workload migration via In-Context Learning,2026,arXiv (Cornell University),openalex
+337,The Context Gathering Decision Process: A POMDP Framework for Agentic Search,2026,arXiv (Cornell University),openalex
+339,Operationalizing Global Workspace Theory for Metacognitive Multi-Agent LLM Architecture,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+341,Agreement Is Not Truth: How LLM Juries Converge Confidently on Legally False Answers,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+343,A-ProS: Towards Reliable Autonomous Programming Through Multi-Model Feedback,2026,arXiv (Cornell University),openalex
+346,Best Token Use Path (BTUP): Client-Side Traffic Engineering for Cost-Aware LLM Inference,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+348,"Dread without a dreader: anxiety as a non-terminating race, and the collision at the edge of constructive representation",2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+369,A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents,2026,arXiv:cs.AI,arxiv
+370,Personality-Driven Decision-Making in LLM-Based Autonomous Agents,2025,arXiv:cs.AI,arxiv
+401,ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs,2026,arXiv:cs.AI,arxiv
+422,A Concurrent Modular Agent: Framework for Autonomous LLM Agents,2025,arXiv:cs.AI,arxiv
+426,Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Controlled Sweep,2026,arXiv:cs.MA,arxiv
+427,Zombie Agents: Persistent Control of Self-Evolving LLM Agents via Self-Reinforcing Injections,2026,arXiv:cs.CR,arxiv
+430,Uncertainty Decomposition for Clarification Seeking in LLM Agents,2026,arXiv:cs.AI,arxiv
+441,Understanding Multi-Agent LLM Frameworks: A Unified Benchmark and Experimental Analysis,2026,arXiv:cs.AI,arxiv
+442,"STRIDE: A Systematic Framework for Selecting AI Modalities -- Agentic AI, AI Assistants, or LLM Calls",2025,arXiv:cs.AI,arxiv
+454,Agent Capsules: Quality-Gated Granularity Control for Multi-Agent LLM Pipelines,2026,arXiv:cs.CL,arxiv
+457,COALESCE: Economic and Security Dynamics of Skill-Based Task Outsourcing Among Team of Autonomous LLM Agents,2025,arXiv:cs.AI,arxiv
+467,BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents,2023,arXiv:cs.AI,arxiv
+470,Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry,2025,arXiv:cs.CL,arxiv
+472,Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification,2024,arXiv:cs.CR,arxiv
+479,Structured Cognitive Loop for Behavioral Intelligence in Large Language Model Agents (Extended Revision: From Behavioral Architecture to Epistemic Accountability),2025,arXiv:cs.AI,arxiv
+482,A Self-Healing Framework for Reliable LLM-Based Autonomous Agents,2026,arXiv:cs.SE,arxiv
+492,Active Context Compression: Autonomous Memory Management in LLM Agents,2026,arXiv:cs.AI,arxiv
+509,Verifiability-First Agents: Provable Observability and Lightweight Audit Agents for Controlling Autonomous LLM Systems,2025,arXiv:cs.MA,arxiv
+512,The Observability Gap: Why Output-Level Human Feedback Fails for LLM Coding Agents,2026,arXiv:cs.HC,arxiv
+517,Task Memory Engine (TME): Enhancing State Awareness for Multi-Step LLM Agent Tasks,2025,arXiv:cs.AI,arxiv
+518,ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation,2026,arXiv:cs.AI,arxiv
+522,Silent Failure in LLM Agent Systems: The Entropy Principle and the Inevitable Disorder of Autonomous Agents,2026,arXiv:cs.MA,arxiv
+523,Continuous Improvement and Parallel Autonomous Exploration: An LLM-Agent Framework for Searching Large Solution Spaces,2026,arXiv:cs.MA,arxiv
+542,EvoTrainer: Co-Evolving LLM Policies and Training Harnesses for Autonomous Agentic Reinforcement Learning,2026,arXiv:cs.AI,arxiv
+561,Adaptive Data Flywheel: Applying MAPE Control Loops to AI Agent Improvement,2026,,openalex
+566,Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense,2026,arXiv (Cornell University),openalex
+567,AICL: A Control-Loop Architecture for Stable Long-Horizon LLM Agents,2025,Zenodo (CERN European Organization for Nuclear Research),openalex
+571,Resilience in Ambient Multi-Agent LLMs via Decentralized Bio-Autonomic Control and Immune-Inspired Anomaly Detection,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+578,Self-Evolving Software Agents,2026,arXiv (Cornell University),openalex
+581,The Brain Needs a Body: Stabilizing Long-Horizon Reasoning with Kinematic Control,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+590,Novel AI Architectures for Intelligent Telecom Network Control,2026,Epubl LTU,openalex
+595,State Machine Structured Agents for Physical Science Reasoning,2026,Proceedings of the AAAI Symposium Series,openalex
+597,The Agentic Memory Dilemma: Designing the First True Working Memory System for AI Agents,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+602,LLMs as Hackers: Autonomous Linux Privilege Escalation Attacks,2026,Empirical Software Engineering,openalex
+608,Enactive Cognitive Architectures for LLMs: A Homeostatic Approach to Functional Teleology and Algorithmic Individuation,2026,,openalex
+615,Safe integration of Large Language Models into industrial process control: a multi-agent architecture with P&ID-grounded validation,2026,Autonomous Intelligent Systems,openalex
+620,Safety Sidecar: Reflection-Driven Runtime Control for Safer Agents,2026,,openalex
+637,Critique of Agent Model,2026,arXiv (Cornell University),openalex
+639,"Remember, Don't Re-read: Stateful ReAct Agents for Token-Efficient Autonomous Experimentation",2026,arXiv (Cornell University),openalex
+660,The Dual-State Architecture for Reliable LLM Agents,2025,arXiv (Cornell University),openalex
+666,Breaking the Loop: AWARE is the New MAPE-K,2025,,openalex
+690,Future Factories With 6G: Agentic AI and Cyber–Physical Digital Twins,2025,IEEE Internet of Things Journal,openalex
+691,A self-correcting multi-agent LLM framework for language-based physics simulation and explanation,2026,npj Artificial Intelligence,openalex
+709,ComoRAG: A Cognitive-Inspired Memory-Organized RAG for Stateful Long Narrative Reasoning,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+714,Evaluation-Driven Development and Operations of LLM Agents: A Process Model and Reference Architecture,2024,arXiv (Cornell University),openalex
+743,ReAct: Synergizing Reasoning and Acting in Language Models,2022,arXiv:cs.CL,arxiv
+752,On the Brittle Foundations of ReAct Prompting for Agentic Large Language Models,2024,arXiv:cs.AI,arxiv
+797,"Towards Autonomous Agents: Adaptive-planning, Reasoning, and Acting in Language Models",2024,arXiv:cs.AI,arxiv
+825,PRACT: Optimizing Principled Reasoning and Acting of LLM Agent,2024,arXiv:cs.AI,arxiv
+826,Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In,2024,arXiv:cs.CR,arxiv
+851,CP-Agent: A Calibrated Risk-Controlled Agent for Feedback-Driven Competitive Programming,2026,arXiv:cs.CL,arxiv
+859,The Geometry of Dialogue: Graphing Language Models to Reveal Synergistic Teams for Multi-Agent Collaboration,2025,arXiv:cs.CL,arxiv
+865,Learning Evolving Latent Strategies for Multi-Agent Language Systems without Model Fine-Tuning,2025,arXiv:cs.LG,arxiv
+872,DLLM-Searcher: Adapting Diffusion Large Language Model for Search Agents,2026,arXiv:cs.AI,arxiv
+879,Towards Uncertainty-Aware Language Agent,2024,arXiv:cs.CL,arxiv
+901,Behavior Trees Enable Structured Programming of Language Model Agents,2024,arXiv:cs.AI,arxiv
+903,"Multi-Paradigm Agent Interaction in Practice:A Systematic Analysis of Generator-Evaluator, ReAct Loop,and Adversarial Evaluation in the buddyMe Framework",2026,arXiv:cs.AI,arxiv
+908,RF-Agent: Automated Reward Function Design via Language Agent Tree Search,2026,arXiv:cs.AI,arxiv
+913,Prime Agent: A Self-Improving RLM Harness,2026,arXiv:cs.AI,arxiv
+915,Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning,2025,arXiv:cs.CL,arxiv
+930,Agent-BRACE: Decoupling Beliefs from Actions in Long-Horizon Tasks via Verbalized State Uncertainty,2026,arXiv:cs.CL,arxiv
+938,Towards Effective GenAI Multi-Agent Collaboration: Design and Evaluation for Enterprise Applications,2024,arXiv:cs.CL,arxiv
+950,Reflexion: Language Agents with Verbal Reinforcement Learning,2023,arXiv (Cornell University),openalex
+971,Large Language Model-based Human-Agent Collaboration for Complex Task Solving,2024,,openalex
+973,Understanding the Weakness of Large Language Model Agents within a Complex Android Environment,2024,,openalex
+975,Large Language Model Agent as a Mechanical Designer,2024,arXiv (Cornell University),openalex
+978,Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models,2023,arXiv (Cornell University),openalex
+988,ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs,2024,,openalex
+1004,HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model,2025,Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),openalex
+1021,AutoFlow: Automated Workflow Generation for Large Language Model Agents,2024,arXiv (Cornell University),openalex
+1022,Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration,2023,arXiv (Cornell University),openalex
+1038,Testing Language Model Agents Safely in the Wild,2023,arXiv (Cornell University),openalex
+1040,Pre-Act: Multi-Step Planning and Reasoning Improves Acting in LLM Agents,2025,arXiv (Cornell University),openalex
+1043,Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In,2025,,openalex
+1044,Think-on-Graph: Deep and Responsible Reasoning of Large Language Model on Knowledge Graph,2023,arXiv (Cornell University),openalex
+1048,Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions,2023,arXiv (Cornell University),openalex
+1054,KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents,2025,,openalex
+1058,Adaptive heterogeneous multi-agent debate for enhanced educational and factual reasoning in large language models,2025,Journal of King Saud University - Computer and Information Sciences,openalex
+1061,"ReSpAct: Harmonizing Reasoning, Speaking, and Acting Towards Building Large Language Model-Based Conversational AI Agents",2024,arXiv (Cornell University),openalex
+1067,Recursive Introspection: Teaching Language Model Agents How to Self-Improve,2024,arXiv (Cornell University),openalex
+1070,AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors,2023,arXiv (Cornell University),openalex
+1077,Large Language Model Guided Tree-of-Thought,2023,arXiv (Cornell University),openalex
+1082,Suppressing echo cascades in language-model agents with multi-critic plan selection,2026,Research Square,openalex
+1101,Agentic Large Language Models for Conceptual Systems Engineering and Design,2025,Journal of Mechanical Design,openalex
+1103,Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models,2024,arXiv (Cornell University),openalex
+1113,Tree Search for Language Model Agents,2024,arXiv (Cornell University),openalex
+1116,Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models,2025,arXiv (Cornell University),openalex
+1126,AutoTool: Efficient Tool Selection for Large Language Model Agents,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+1182,SELF: Self-Evolution with Language Feedback,2023,arXiv:cs.CL,arxiv
+1203,Can Language Models Critique Themselves? Investigating Self-Feedback for Retrieval Augmented Generation at BioASQ 2025,2025,arXiv:cs.CL,arxiv
+1241,Self-Refine: Iterative Refinement with Self-Feedback,2023,arXiv:cs.CL,arxiv
+1257,FAIR-RAG: Faithful Adaptive Iterative Refinement for Retrieval-Augmented Generation,2025,arXiv:cs.CL,arxiv
+1273,Teaching Large Language Models to Self-Debug,2023,arXiv:cs.CL,arxiv
+1283,Self-Refinement of Language Models from External Proxy Metrics Feedback,2024,arXiv:cs.CL,arxiv
+1319,Are Retrials All You Need? Enhancing Large Language Model Reasoning Without Verbalized Feedback,2025,arXiv:cs.CL,arxiv
+1331,MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models,2023,arXiv:cs.CL,arxiv
+1341,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,2024,,openalex
+1343,SummIt: Iterative Text Summarization via ChatGPT,2023,,openalex
+1346,Self-critiquing models for assisting human evaluators,2022,arXiv (Cornell University),openalex
+1348,CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing,2023,arXiv (Cornell University),openalex
+1349,Large Language Models Cannot Self-Correct Reasoning Yet,2023,arXiv (Cornell University),openalex
+1350,Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback,2023,arXiv (Cornell University),openalex
+1351,TEaR: Improving LLM-based Machine Translation with Systematic Self-Refinement,2025,,openalex
+1353,Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement,2024,ACL,openalex
+1364,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate,2023,arXiv (Cornell University),openalex
+1366,Can Large Language Models Really Improve by Self-critiquing Their Own Plans?,2023,arXiv (Cornell University),openalex
+1367,MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL,2025,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+1376,CriticBench: Benchmarking LLMs for Critique-Correct Reasoning,2024,,openalex
+1378,When Hindsight is Not 20/20: Testing Limits on Reflective Thinking in Large Language Models,2024,,openalex
+1382,LATTE: Improving Latex Recognition for Tables and Formulae with Iterative Refinement,2025,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+1384,Query2CAD: Generating CAD models using natural language queries,2024,arXiv (Cornell University),openalex
+1391,Is Self-Repair a Silver Bullet for Code Generation?,2023,arXiv (Cornell University),openalex
+1392,LLM-ARC: Enhancing LLMs with an Automated Reasoning Critic,2024,arXiv (Cornell University),openalex
+1394,Self-Contrast: Better Reflection Through Inconsistent Solving Perspectives,2024,arXiv (Cornell University),openalex
+1395,"Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",2024,arXiv (Cornell University),openalex
+1406,RCOT: Detecting and Rectifying Factual Inconsistency in Reasoning by Reversing Chain-of-Thought,2023,arXiv (Cornell University),openalex
+1407,Visual Reasoning and Multi-Agent Approach in Multimodal Large Language Models (MLLMs): Solving TSP and mTSP Combinatorial Challenges,2024,Machine Learning and Knowledge Extraction,openalex
+1417,MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL,2024,arXiv (Cornell University),openalex
+1419,Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation,2024,,openalex
+1420,Iteratively refined ChatGPT outperforms clinical mentors in generating high-quality interprofessional education clinical scenarios: a comparative study,2025,BMC Medical Education,openalex
+1421,Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks,2025,Findings of the Association for Computational Linguistics: ACL 2025,openalex
+1422,Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks,2024,arXiv (Cornell University),openalex
+1429,LLaMA-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning,2024,arXiv (Cornell University),openalex
+1432,Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration,2023,arXiv (Cornell University),openalex
+1433,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,2023,arXiv (Cornell University),openalex
+1442,AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement,2024,arXiv (Cornell University),openalex
+1449,Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search,2024,arXiv (Cornell University),openalex
+1450,Smaller Large Language Models Can Do Moral Self-Correction,2025,,openalex
+1452,Volcano: Mitigating Multimodal Hallucination through Self-Feedback Guided Revision,2023,arXiv (Cornell University),openalex
+1456,"MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",2025,Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing,openalex
+1458,Plug-and-Play Policy Planner for Large Language Model Powered Dialogue Agents,2023,arXiv (Cornell University),openalex
+1459,ProgCo: Program Helps Self-Correction of Large Language Models,2025,ACL,openalex
+1461,Graph of Thoughts: Solving Elaborate Problems with Large Language Models,2024,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+1465,"Ask, Assess, and Refine: Rectifying Factual Consistency and Hallucination in LLMs with Metric-Guided Feedback Learning",2024,,openalex
+1471,Can LLMs Patch Security Issues?,2023,arXiv (Cornell University),openalex
+1472,"PromptWizard: Optimizing Prompts via Task-Aware, Feedback-Driven Self-Evolution",2025,,openalex
+1475,DIMSIM: Distilled Multilingual Critics for Indic Text Simplification,2024,,openalex
+1479,Empowering Large Language Model Agent through Step-Level Self-Critique and Self-Training,2025,Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval,openalex
+1483,CodeTree: Agent-guided Tree Search for Code Generation with Large Language Models,2024,arXiv (Cornell University),openalex
+1485,Revisit Self-Debugging with Self-Generated Tests for Code Generation,2025,arXiv (Cornell University),openalex
+1487,ECCO: Can We Improve Model-Generated Code Efficiency Without Sacrificing Functional Correctness?,2024,,openalex
+1496,PREFER: Prompt Ensemble Learning via Feedback-Reflect-Refine,2023,arXiv (Cornell University),openalex
+1505,Mirror: A Multiple-perspective Self-Reflection Method for Knowledge-rich Reasoning,2024,arXiv (Cornell University),openalex
+1512,Towards Efficient LLM Grounding for Embodied Multi-Agent Collaboration,2024,arXiv (Cornell University),openalex
+1514,Large Language Models Can Self-Correct with Key Condition Verification,2024,arXiv (Cornell University),openalex
+1517,An Empirical Study on Self-correcting Large Language Models for Data Science Code Generation,2024,arXiv (Cornell University),openalex
+1531,Enabling Language Models to Implicitly Learn Self-Improvement,2023,arXiv (Cornell University),openalex
+1548,Sherlock: Self-Correcting Reasoning in Vision-Language Models,2025,arXiv:cs.CV,arxiv
+1553,CosmicFish-HRM: Adaptive Reasoning via Hierarchical Recurrent Mechanisms in Compact Language Models,2026,arXiv:cs.LG,arxiv
+1554,Language Models can perform Single-Utterance Self-Correction of Perturbed Reasoning,2025,arXiv:cs.CL,arxiv
+1555,Embedding Self-Correction as an Inherent Ability in Large Language Models for Enhanced Mathematical Reasoning,2024,arXiv:cs.AI,arxiv
+1556,Small Language Models Need Strong Verifiers to Self-Correct Reasoning,2024,arXiv:cs.CL,arxiv
+1564,Large Language Models have Intrinsic Self-Correction Ability,2024,arXiv:cs.CL,arxiv
+1566,Decomposing LLM Self-Correction: The Accuracy-Correction Paradox and Error Depth Hypothesis,2025,arXiv:cs.AI,arxiv
+1567,Learning Adaptive Parallel Reasoning with Language Models,2025,arXiv:cs.AI,arxiv
+1573,Multi-Layer GRPO: Enhancing Reasoning and Self-Correction in Large Language Models,2025,arXiv:cs.LG,arxiv
+1574,Smaller Large Language Models Can Do Moral Self-Correction,2024,arXiv:cs.CL,arxiv
+1579,On the Convergence of Moral Self-Correction in Large Language Models,2025,arXiv:cs.CL,arxiv
+1581,Self-Correction Bench: Uncovering and Addressing the Self-Correction Blind Spot in Large Language Models,2025,arXiv:cs.CL,arxiv
+1594,Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models,2024,arXiv:cs.CL,arxiv
+1599,Small Language Model Can Self-correct,2024,arXiv:cs.CL,arxiv
+1602,Intent-Aware Self-Correction for Mitigating Social Biases in Large Language Models,2025,arXiv:cs.CL,arxiv
+1606,CyberCorrect: A Cybernetic Framework for Closed-Loop Self-Correction in Large Language Models,2026,arXiv:cs.AI,arxiv
+1607,Self-correction is Not An Innate Capability in Language Models,2024,arXiv:cs.CL,arxiv
+1610,Self-Correcting Large Language Models: Generation vs. Multiple Choice,2025,arXiv:cs.CL,arxiv
+1615,Confidence Matters: Revisiting Intrinsic Self-Correction Capabilities of Large Language Models,2024,arXiv:cs.CL,arxiv
+1618,Self-Taught Self-Correction for Small Language Models,2025,arXiv:cs.CL,arxiv
+1636,ESC: Emotional Self-Correction for Reliable Vision-Language Models,2026,arXiv:cs.CV,arxiv
+1654,Self-Correcting Code Generation Using Small Language Models,2025,arXiv:cs.CL,arxiv
+1673,Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs,2026,arXiv:cs.CL,arxiv
+1687,Evolutionary Prompt Optimization Discovers Emergent Multimodal Reasoning Strategies in Vision-Language Models,2025,arXiv:cs.CL,arxiv
+1696,Synthetic Error Injection Fails to Elicit Self-Correction In Language Models,2025,arXiv:cs.AI,arxiv
+1723,Monitor-Generate-Verify (MGV): Formalising Metacognitive Theory for Language Model Reasoning,2025,arXiv:cs.AI,arxiv
+1755,Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic,2023,arXiv (Cornell University),openalex
+1762,Can ChatGPT Defend its Belief in Truth? Evaluating LLM Reasoning via Debate,2023,,openalex
+1792,On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks,2024,arXiv (Cornell University),openalex
+1793,Iterative Self-Questioning Supervision with Semantic Calibration for Stable Reasoning Chains in Large Language Models,2026,Preprints.org,openalex
+1805,Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Heterogeneous Catalyst Discovery,2026,npj Computational Materials,openalex
+1821,Self-Correction Makes LLMs Better Parsers,2025,EMNLP,openalex
+1835,LR²Bench: Evaluating Long-chain Reflective Reasoning Capabilities of Large Language Models via Constraint Satisfaction Problems,2025,,openalex
+1836,Generating Sequences by Learning to Self-Correct,2022,arXiv (Cornell University),openalex
+1837,Self-Corrective Task Planning by Inverse Prompting with Large Language Models,2025,,openalex
+1840,Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs,2025,,openalex
+1847,Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models,2024,arXiv (Cornell University),openalex
+1849,Understanding the Dark Side of LLMs’ Intrinsic Self-Correction,2025,,openalex
+1854,ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning,2025,,openalex
+1861,SETS: Leveraging Self-Verification and Self-Correction for Improved Test-Time Scaling,2025,arXiv (Cornell University),openalex
+1865,Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving,2024,,openalex
+1868,A Theoretical Understanding of Self-Correction through In-context Alignment,2024,arXiv (Cornell University),openalex
+1870,LLaVA-SCo: Teach Vision Language Models to Self-Correct,2025,,openalex
+1882,Fact-Level Confidence Calibration and Self-Correction,2024,arXiv (Cornell University),openalex
+1883,CorrectBench: Automatic Testbench Generation with Functional Self-Correction using LLMs for HDL Design,2024,arXiv (Cornell University),openalex
+1885,"LLMs cannot find reasoning errors, but can correct them given the error location",2024,,openalex
+1891,Instantiation-based Formalization of Logical Reasoning Tasks Using Language Models and Logical Solvers,2025,,openalex
+1892,Enhancing safety of vision-language reasoning through model-to-model deliberation,2025,Complex & Intelligent Systems,openalex
+1894,Entropy-based Exploration Conduction for Multi-step Reasoning,2025,,openalex
+1895,Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs,2024,arXiv (Cornell University),openalex
+1902,Mirror: Multiple-perspective Self-Reflection Method for Knowledge-rich Reasoning,2024,,openalex
+1912,CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis,2025,arXiv (Cornell University),openalex
+1914,Training Language Models to Self-Correct via Reinforcement Learning,2024,arXiv (Cornell University),openalex
+1918,Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning,2025,,openalex
+1923,"LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints",2024,EMNLP,openalex
+1934,GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases,2024,arXiv:cs.AI,arxiv
+1948,A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning,2023,arXiv:cs.AI,arxiv
+1986,ReVeal: Self-Evolving Code Agents via Reliable Self-Verification,2025,arXiv:cs.SE,arxiv
+2052,Convergence of Outputs When Two Large Language Models Interact in a Multi-Agentic Setup,2025,arXiv:cs.CL,arxiv
+2053,"Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",2025,arXiv:cs.AI,arxiv
+2088,ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification,2025,arXiv:cs.LG,arxiv
+2227,Fight Fire With Fire: How Much Can We Trust ChatGPT on Source Code-Related Tasks?,2024,IEEE Transactions on Software Engineering,openalex
+2228,A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning,2024,,openalex
+2239,Deductive Verification of Chain-of-Thought Reasoning,2023,arXiv (Cornell University),openalex
+2242,Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR,2025,arXiv (Cornell University),openalex
+2249,Feedback Loops With Language Models Drive In-Context Reward Hacking,2024,arXiv (Cornell University),openalex
+2251,AutoMix: Automatically Mixing Language Models,2023,arXiv (Cornell University),openalex
+2262,Can Large Language Models Solve Robot Routing?,2024,arXiv (Cornell University),openalex
+2263,Chain-of-Verification Reduces Hallucination in Large Language Models,2024,,openalex
+2289,Incentivizing LLMs to Self-Verify Their Answers,2025,,openalex
+2291,Diversity of Thought Elicits Stronger Reasoning Capabilities in Multi-Agent Debate Frameworks,2024,Journal of Robotics and Automation Research,openalex
+2293,AgentDiagnose: An Open Toolkit for Diagnosing LLM Agent Trajectories,2025,,openalex
+2295,Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models,2025,,openalex
+2300,Self-Verifying Reflection Helps Transformers with CoT Reasoning,2025,,openalex
+2306,Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step,2024,,openalex
+2312,Self-Verification Dilemma: Experience-Driven Suppression of Overused Checking in LLM Reasoning,2026,arXiv (Cornell University),openalex
+2313,DSVD: Dynamic Self-Verify Decoding for Faithful Generation in Large Language Models,2025,,openalex
+2315,Sell Me This Stock: Unsafe Recommendation Drift in LLM Agents,2026,arXiv (Cornell University),openalex
+2316,Chain-of-Verification Reduces Hallucination in Large Language Models,2023,arXiv (Cornell University),openalex
+2317,Verbalized Confidence Triggers Self-Verification: Emergent Behavior Without Explicit Reasoning Supervision,2025,arXiv (Cornell University),openalex
+2321,Verified Agentic AI (VAAI): A Multi-Agent Framework for Trustworthy Large Language Models,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+2324,A Training-Free Regeneration Paradigm: Contrastive Reflection Memory Guided Self-Verification and Self-Improvement,2026,arXiv (Cornell University),openalex
+2333,CLOSER-VLN: Closed-Loop Self-Verified Retrieval-Augmented Reasoning for Aerial Vision-Language Navigation,2026,arXiv (Cornell University),openalex
+2334,Catching Hallucinated Citations in Video-LLM Question Answering: A Self-Verification Pipeline and Verifier Ablation Study,2026,arXiv (Cornell University),openalex
+2340,XunMing-AI: A Trias Politica Multi-Agent Harness Framework for High-Fidelity Logic Synthesis,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+2343,SVR: Self-Verifying Refinement via Joint Verdict-Confidence Reinforcement Learning for Adaptive Test-Time Compute,2026,arXiv (Cornell University),openalex
+2352,Verification-Aware Planning for Multi-Agent Systems,2025,arXiv (Cornell University),openalex
+2354,Tests Pass. Nothing Works. Systematic Completion Fabrication in LLM Coding Agents,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+2356,AMTFV: Agentic Mathematical Tool-Flow Verification for LLM Self-Correction,2026,arXiv (Cornell University),openalex
+2359,"The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",2026,arXiv (Cornell University),openalex
+2365,Verification-Aware Planning for Multi-Agent Systems,2026,,openalex
+2385,Real-Time Trust Verification for Safe Agentic Actions using TrustBench,2026,arXiv (Cornell University),openalex
+2388,Reconciling Divergent Views Through a Critical Analysis of Iterative Self-Improvement in LLMs,2025,,openalex
+2456,MCTS-Judge: Test-Time Scaling in LLM-as-a-Judge for Code Correctness Evaluation,2025,arXiv:cs.LG,arxiv
+2506,LLM-as-a-Judge for Reference-less Automatic Code Validation and Refinement for Natural Language to Bash in IT Automation,2025,arXiv:cs.SE,arxiv
+2560,Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence,2026,arXiv:cs.CL,arxiv
+2672,"Evaluating large language models on business process modeling: framework, benchmark, and self-improvement analysis",2025,Software & Systems Modeling,openalex
+2895,Towards Reliable and Fluent Large Language Models: Incorporating Feedback Learning Loops in QA Systems,2023,arXiv:cs.CL,arxiv
+2917,The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement,2025,arXiv:cs.CL,arxiv
+2935,AdaPlanner: Adaptive Planning from Feedback with Language Models,2023,arXiv:cs.CL,arxiv
+2971,RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs,2023,arXiv:cs.CL,arxiv
+2987,Agentic Feedback Loop Modeling Improves Recommendation and User Simulation,2024,arXiv:cs.IR,arxiv
+3019,RAG-Critic: Leveraging Automated Critic-Guided Agentic Workflow for Retrieval Augmented Generation,2025,,openalex
+3040,GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+3058,Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks,2025,,openalex
+3076,Critic-Guided Heterogeneous Multi-Agent Reasoning for Reliable Mathematical Problem Solving,2026,arXiv (Cornell University),openalex
+3091,GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models,2026,arXiv (Cornell University),openalex
+3157,Seeing Isn’t Believing: Mitigating Belief Inertia via Active Intervention in Embodied Agents,2026,,openalex
+3163,Requesting Expert Reasoning: Augmenting LLM Agents with Learned Collaborative Intervention,2026,arXiv (Cornell University),openalex
+3165,From Hallucination to Structure Snowballing: The Alignment Tax of Constrained Decoding in LLM Reflection,2026,arXiv (Cornell University),openalex
+3166,AI Founding Fathers: A Case Study of GIS Search in Multi-Agent Pipelines,2025,arXiv (Cornell University),openalex
+3187,Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks,2024,arXiv (Cornell University),openalex
+3292,Coherent Multimodal Reasoning with Iterative Self-Evaluation for Vision-Language Models,2025,arXiv:cs.CL,arxiv
+3297,Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning,2024,arXiv:cs.CL,arxiv
+3318,PRIME: Policy-Reinforced Iterative Multi-agent Execution for Algorithmic Reasoning in Large Language Models,2026,arXiv:cs.CL,arxiv
+3319,Iterative Refinement Improves Compositional Image Generation,2026,arXiv:cs.CV,arxiv
+3324,IdealGPT: Iteratively Decomposing Vision and Language Reasoning via Large Language Models,2023,arXiv:cs.CV,arxiv
+3331,Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox,2025,arXiv:cs.SE,arxiv
+3348,Reason Popper-ly: Patching In-Context Reasoning with Inductive Logic Programming,2026,arXiv:cs.AI,arxiv
+3407,Let’s Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs,2023,,openalex
+3467,CRAFT: Continuous Reasoning and Agentic Feedback Tuning for Multimodal Text-to-Image Generation,2025,arXiv (Cornell University),openalex
+3504,Language Model Cascades,2022,arXiv (Cornell University),openalex
+3517,PiVe: Prompting with Iterative Verification Improving Graph-based Generative Capability of LLMs,2024,,openalex
+3581,AVA: Towards Autonomous Visualization Agents through Visual Perception‐Driven Decision‐Making,2024,Computer Graphics Forum,openalex
+3628,GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning,2025,arXiv:cs.CL,arxiv
+3637,T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models,2025,arXiv:cs.CL,arxiv
+3640,Certainty-Guided Reasoning in Large Language Models: A Dynamic Thinking Budget Approach,2025,arXiv:cs.AI,arxiv
+3673,Adaptive Parallel Monte Carlo Tree Search for Efficient Test-time Compute Scaling,2026,arXiv:cs.AI,arxiv
+3686,Divergent-Convergent Reasoning: Scaling Test-Time Compute through Structured Solution Synthesis,2026,arXiv:cs.AI,arxiv
+3742,Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,2024,arXiv:cs.LG,arxiv
+3744,Not All Turns Are Equally Hard: Adaptive Thinking Budgets For Efficient Multi-Turn Reasoning in Agents,2026,arXiv:cs.LG,arxiv
+3749,Adaptive Test-Time Compute Allocation via Learned Heuristics over Categorical Structure,2026,arXiv:cs.AI,arxiv
+3755,Scaling Test-Time Compute Without Verification or RL is Suboptimal,2025,arXiv:cs.LG,arxiv
+3780,AgentTTS: Large Language Model Agent for Test-time Compute-optimal Scaling Strategy in Complex Tasks,2025,arXiv:cs.AI,arxiv
+3783,Latency and Token-Aware Test-Time Compute,2025,arXiv:cs.LG,arxiv
+3784,FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration,2025,arXiv:cs.AI,arxiv
+3790,Adaptive Coopetition: Leveraging Coarse Verifier Signals for Resilient Multi-Agent LLM Reasoning,2025,arXiv:cs.MA,arxiv
+3794,When and How Much to Imagine: Adaptive Test-Time Scaling with World Models for Visual Spatial Reasoning,2026,arXiv:cs.CV,arxiv
+3795,Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters,2024,arXiv (Cornell University),openalex
+3796,The Art of Scaling Test-Time Compute for Large Language Models,2025,arXiv (Cornell University),openalex
+3799,Budget-Aware Tool Use Enables Effective Agent Scaling,2025,arXiv (Cornell University),openalex
+3805,Zero-Overhead Introspection for Adaptive Test-Time Compute,2025,arXiv (Cornell University),openalex
+3812,Inference Scaling for Long-Context Retrieval Augmented Generation,2024,arXiv (Cornell University),openalex
+3815,AgentPRM: Process Reward Models for LLM Agents via Step-Wise Promise and Progress,2026,,openalex
+3817,Self-Regulation and Requesting Interventions,2025,arXiv (Cornell University),openalex
+3818,Learning to Generate Unit Tests for Automated Debugging,2025,arXiv (Cornell University),openalex
+3825,When to Revise: Cost-Aware Adaptive Routing for LLM Reasoning,2026,SSRN Electronic Journal,openalex
+3830,CoRefine: Confidence-Guided Self-Refinement for Adaptive Test-Time Compute,2026,arXiv (Cornell University),openalex
+3833,On the Limits of Test-Time Compute: Sequential Reward Filtering for Better Inference,2025,arXiv (Cornell University),openalex
+3836,FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration,2025,arXiv (Cornell University),openalex
+3838,Dynamic Closed-Loop Steering for Adaptive and Geometry-Preserving System-2 Reasoning,2026,Applied Sciences,openalex
+3846,T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models,2025,arXiv (Cornell University),openalex
+3847,Parallel Environments for Agents,2026,,openalex
+3849,Interpretable Adaptive Sampling for LLM Test-Time Scaling,2026,arXiv (Cornell University),openalex
+3855,MUR: Momentum Uncertainty guided Reasoning for Large Language Models,2025,arXiv (Cornell University),openalex
+3856,Test-Time Compute and Budget (“Reasoning Effort”): An Underrecognized Methodologic Variable in Medical Large Language Model Research,2026,Korean Journal of Radiology,openalex
+3857,Think Hard Only When Needed: A Hybrid Best-of-N and Beam Search for Efficient Test-Time Compute,2026,,openalex
+3859,Dynamic Closed-Loop Steering for Robust and Interpretable System-2 Reasoning in Large Language Models,2026,Preprints.org,openalex
+3860,Reasoning Cache: Continual Improvement Over Long Horizons via Short-Horizon RL,2026,arXiv (Cornell University),openalex
+3863,Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning,2026,arXiv (Cornell University),openalex
+3866,Do We Truly Need So Many Samples? Multi-LLM Repeated Sampling Efficiently Scales Test-Time Compute,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+3867,When to Think and When to Look: Uncertainty-Guided Lookback,2025,arXiv (Cornell University),openalex
+3870,DOVA: Deliberation-First Multi-Agent Orchestration for Autonomous Research Automation,2026,arXiv (Cornell University),openalex
+3871,Formal Mathematics Statement Curriculum Learning,2022,arXiv (Cornell University),openalex
+3872,Dual-Dimensional Consistency: Balancing Budget and Quality in Adaptive Inference-Time Scaling,2026,arXiv (Cornell University),openalex
+3875,Granularity-Regulated Adaptive Computational Efficiency for Optimal Verification in Test-Time Scaling,2026,arXiv (Cornell University),openalex
+3879,Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration,2026,arXiv (Cornell University),openalex
+3880,"Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling",2026,arXiv (Cornell University),openalex
+3882,CAPS: Cascaded Adaptive Pairwise Selection for Efficient Parallel Reasoning,2026,arXiv (Cornell University),openalex
+3884,Don't Overthink It: Inter-Rollout Action Agreement as a Free Adaptive-Compute Signal for LLM Agents,2026,arXiv (Cornell University),openalex
+3885,MetaScale: Test-Time Scaling with Evolving Meta-Thoughts,2026,,openalex
+3886,PAC-MCTS: Bias-Aware Pruning for Robust LLM-Guided Search and Planning,2026,arXiv (Cornell University),openalex
+3895,KACE: Knowledge-Adaptive Context Engineering for Mathematical Reasoning,2026,arXiv (Cornell University),openalex
+3905,Meta Prompting for AI Systems,2023,arXiv (Cornell University),openalex
+3906,SAIL: Test-Time Scaling for In-Context Imitation Learning with VLM,2026,arXiv (Cornell University),openalex
+3914,ThinkBooster: A Unified Framework for Seamless Test-Time Scaling of LLM Reasoning,2026,arXiv (Cornell University),openalex
+3916,Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning,2026,arXiv (Cornell University),openalex
+3921,AirRAG: Autonomous Strategic Planning and Reasoning Steer Retrieval Augmented Generation,2025,,openalex
+3922,To Backtrack or Not to Backtrack: When Sequential Search Limits Model Reasoning,2025,arXiv (Cornell University),openalex
+3932,Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs,2024,arXiv (Cornell University),openalex
+3935,Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1,2026,arXiv (Cornell University),openalex
+3940,Mind the Gap: Examining the Self-Improvement Capabilities of Large Language Models,2024,arXiv (Cornell University),openalex
+3949,Collaborative Beam Search: Enhancing LLM Reasoning via Collective Consensus,2025,Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing,openalex
+3953,Compile to Compress: Boosting Formal Theorem Provers by Compiler Outputs,2026,arXiv (Cornell University),openalex
+3962,Iterative Deepening Sampling as Efficient Test-Time Scaling,2025,arXiv (Cornell University),openalex
+3963,Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought,2025,arXiv (Cornell University),openalex
+3964,CascadeDebate: Multi-Agent Deliberation for Cost-Aware LLM Cascades,2026,,openalex
+3969,Test-time Prompt Intervention,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+3975,Decocted Experience Improves Test-Time Inference in LLM Agents,2026,arXiv (Cornell University),openalex
+3976,Limited Reasoning Space: The cage of long-horizon reasoning in LLMs,2026,arXiv (Cornell University),openalex
+3981,HyPER: Bridging Exploration and Exploitation for Scalable LLM Reasoning with Hypothesis Path Expansion and Reduction,2026,arXiv (Cornell University),openalex
+3986,AgentRewind: Recoverable Execution for Long-Horizon LLM Agents,2026,arXiv:cs.AI,arxiv
+3987,Intrinsic Stability Limits of Autoregressive Reasoning: Structural Consequences for Long-Horizon Execution,2026,arXiv:cs.AI,arxiv
+3990,Do AI Agents Know When a Task Is Simple? Toward Complexity-Aware Reasoning and Execution,2026,arXiv:cs.AI,arxiv
+3997,ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning,2025,arXiv:cs.AI,arxiv
+4015,Scaling Long-Horizon LLM Agent via Context-Folding,2025,arXiv:cs.CL,arxiv
+4017,MAGE: Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory,2026,arXiv:cs.CR,arxiv
+4025,Beyond Entangled Planning: Task-Decoupled Planning for Long-Horizon Agents,2026,arXiv:cs.AI,arxiv
+4038,Hera: Learning Long-Horizon Coordination for Device-Cloud Collaborative LLM Agents,2026,arXiv:cs.AI,arxiv
+4039,SKILL.state: Scalable Long-Horizon Agent Skills,2026,arXiv:cs.AI,arxiv
+4049,The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break,2026,arXiv:cs.AI,arxiv
+4050,From Dialogue to Execution: Mixture-of-Agents Assisted Interactive Planning for Behavior Tree-Based Long-Horizon Robot Execution,2026,arXiv:cs.RO,arxiv
+4051,EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents,2026,arXiv:cs.LG,arxiv
+4053,The Illusion of Procedural Reasoning: Measuring Long-Horizon FSM Execution in LLMs,2025,arXiv:cs.AI,arxiv
+4055,ACON: Optimizing Context Compression for Long-horizon LLM Agents,2025,arXiv:cs.AI,arxiv
+4061,The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs,2025,arXiv:cs.AI,arxiv
+4064,Beyond Semantic Organization: Memory as Execution State Management for Long-Horizon Agents,2026,arXiv:cs.AI,arxiv
+4066,Turning Interaction History into Execution State: A Runtime Layer for Long-Horizon Coding Agents,2026,arXiv:cs.SE,arxiv
+4067,Parallel Context Compaction for Long-Horizon LLM Agent Serving,2026,arXiv:cs.AI,arxiv
+4068,"Operationalizing Reconstructive Authority: Runtime Construction, Dependency Resolution, and Execution Gating in Autonomous Agent Systems",2026,arXiv:cs.AI,arxiv
+4074,AgentFugue: Agent Scaling for Long-Horizon Tasks through Collective Reasoning,2026,arXiv:cs.AI,arxiv
+4077,Meta-Cognitive Memory Policy Optimization for Long-Horizon LLM Agents,2026,arXiv:cs.AI,arxiv
+4079,Parallelizing Tool Execution and LLM Generation for Low-Latency Agent Serving,2026,arXiv:cs.DC,arxiv
+4080,Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory,2026,arXiv:cs.CL,arxiv
+4084,Learning Agent-Compatible Context Management for Long-Horizon Tasks,2026,arXiv:cs.AI,arxiv
+4087,Slipstream: Trajectory-Grounded Compaction Validation for Long-Horizon Agents,2026,arXiv:cs.MA,arxiv
+4089,SkillSentry: Reliable Skill Execution for LLM Agents via Runtime Assurance,2026,arXiv:cs.AI,arxiv
+4090,WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration,2024,arXiv:cs.AI,arxiv
+4109,KAIJU: An Executive Kernel for Intent-Gated Execution of LLM Agents,2026,arXiv:cs.SE,arxiv
+4110,AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents,2026,arXiv:cs.AI,arxiv
+4114,AgentRadio: Passive Awareness for Long-Horizon Multi-Agent Collaboration,2026,arXiv:cs.MA,arxiv
+4125,Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses,2026,arXiv:cs.AI,arxiv
+4126,ACM: Agentic Context Management for Long Horizon Tasks,2026,arXiv:cs.AI,arxiv
+4133,Beyond End-to-End Success: Diagnosing Failures in Long-Horizon Security LLM Agents,2026,arXiv:cs.CR,arxiv
+4138,Weighted Memory Tree: Remembering What Matters for Long-Horizon LLM Agents,2026,arXiv:cs.AI,arxiv
+4152,Long-Horizon Plan Execution in Large Tool Spaces through Entropy-Guided Branching,2026,arXiv:cs.AI,arxiv
+4155,HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model,2024,arXiv:cs.CL,arxiv
+4157,CHILL-Harness: Counterfactual Harness Learning for Efficient Reasoning in Long-Horizon Agents,2026,arXiv:cs.MA,arxiv
+4162,Faramesh: A Protocol-Agnostic Execution Control Plane for Autonomous Agent Systems,2026,arXiv:cs.AI,arxiv
+4172,SWE-Marathon: Can Agents Autonomously Complete Ultra-Long-Horizon Software Work?,2026,arXiv:cs.SE,arxiv
+4178,When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation,2026,arXiv:cs.CL,arxiv
+4180,ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration,2025,arXiv:cs.AI,arxiv
+4182,Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks,2025,arXiv:cs.AI,arxiv
+4185,Revisable by Design: A Theory of Streaming LLM Agent Execution,2026,arXiv:cs.LG,arxiv
+4192,ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning,2026,,openalex
+4194,RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation,2024,arXiv (Cornell University),openalex
+4203,"Generative AI in Embodied Systems: System-Level Analysis of Performance, Efficiency and Scalability",2025,,openalex
+4209,ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning,2023,arXiv (Cornell University),openalex
+4212,Towards Robust Multi-Modal Reasoning via Model Selection,2023,arXiv (Cornell University),openalex
+4213,The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs,2025,arXiv (Cornell University),openalex
+4235,Grounded Decoding: Guiding Text Generation with Grounded Models for Embodied Agents,2023,arXiv (Cornell University),openalex
+4239,Video Language Planning,2023,arXiv (Cornell University),openalex
+4240,Statler: State-Maintaining Language Models for Embodied Reasoning,2023,arXiv (Cornell University),openalex
+4242,AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers,2023,arXiv (Cornell University),openalex
+4248,VADER: Visual Affordance Detection and Error Recovery for Multi Robot Human Collaboration,2024,arXiv (Cornell University),openalex
+4249,Scalable Multi-Robot Collaboration with Large Language Models: Centralized or Decentralized Systems?,2023,arXiv (Cornell University),openalex
+4251,Agent Workflow Memory,2024,arXiv (Cornell University),openalex
+4286,Accelerating scientific discovery with Co-Scientist,2026,Nature,openalex
+4299,"Describe, Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents",2023,arXiv (Cornell University),openalex
+4308,Trust-Aware Runtime Verification for Autonomous LLM Agent Systems,2026,,openalex
+4311,Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation,2024,arXiv (Cornell University),openalex
+4318,Why Do LLM-based Web Agents Fail? A Hierarchical Planning Perspective,2026,,openalex
+4320,Web-Shepherd: Advancing PRMs for Reinforcing Web Agents,2025,,openalex
+4324,Drift No More? Context Equilibria in Multi-Turn LLM Interactions,2025,arXiv (Cornell University),openalex
+4327,Closed-Loop Open-Vocabulary Mobile Manipulation with GPT-4V,2024,arXiv (Cornell University),openalex
+4332,Long-Horizon Practice: Structural Lower Bounds Beyond Single-Step Capability,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+4333,AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents,2026,arXiv (Cornell University),openalex
+4335,Interactive and Expressive Code-Augmented Planning with Large Language Models,2024,arXiv (Cornell University),openalex
+4347,SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs,2025,arXiv (Cornell University),openalex
+4356,TabAgent: A Framework for Replacing Agentic Generative Components with Tabular-Textual Classifiers,2026,arXiv (Cornell University),openalex
+4360,WebUncertainty: Dual-Level Uncertainty Driven Planning and Reasoning For Autonomous Web Agent,2026,arXiv (Cornell University),openalex
+4572,The Trap of Trajectory: Towards Understanding and Mitigating Spurious Correlations in Agentic Memory,2026,arXiv (Cornell University),openalex
+4573,Oblivion: Self-Adaptive Agentic Memory Control through Decay-Driven Activation,2026,arXiv (Cornell University),openalex
+4580,RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States,2026,arXiv (Cornell University),openalex
+4596,State-Aware Runtime for Long-Horizon LLM Agents: A Conceptual Framework and Research Agenda,2026,,openalex
+4598,"Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",2026,arXiv (Cornell University),openalex
+4612,PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents,2026,arXiv (Cornell University),openalex
+4613,The Missing Knowledge Layer in Cognitive Architectures for AI Agents,2026,arXiv (Cornell University),openalex
+4615,Learning on the Job: Continual Learning from Deployment Feedback for Frozen-Weights Agents,2026,arXiv (Cornell University),openalex
+4617,OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents,2026,arXiv (Cornell University),openalex
+4619,Eval-Driven Memory (EDM): A Persistence Governance Layer for Reliable Agentic AI via Metric-Guided Selective Consolidation,2026,Preprints.org,openalex
+4624,Calibrating Criterion Revision in LLM Agents: Failure Modes and a Trace-Anchored Protocol,2026,arXiv (Cornell University),openalex
+4632,Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents,2026,arXiv (Cornell University),openalex
+4643,Human-Like Lifelong Memory: A Neuroscience-Grounded Architecture for Infinite Interaction,2026,arXiv (Cornell University),openalex
+4644,Memory as a Controlled Process: Learned Adaptive Memory Management for LLM Agents,2026,arXiv (Cornell University),openalex
+4659,Towards Reversible Forgetting: Managing Obsolete Knowledge in Continual Enterprise AI Agents,2026,arXiv (Cornell University),openalex
+4660,Mesh Memory Protocol: Semantic Infrastructure for Multi-Agent LLM Systems,2026,arXiv (Cornell University),openalex
+4665,EquiMem: Calibrating Shared Memory in Multi-Agent Debate via Game-Theoretic Equilibrium,2026,arXiv (Cornell University),openalex
+4669,When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict,2026,arXiv (Cornell University),openalex
+4673,SEAGym: An Evaluation Environment for Self-Evolving LLM Agents,2026,arXiv (Cornell University),openalex
+4684,LOGOS: A Living Logic for AI Agent Teams That Evolve With Humans,2026,arXiv (Cornell University),openalex
+4686,The Compliance Trap: Diagnosing How AI Agents Consume Conflicting Memory,2026,arXiv (Cornell University),openalex
+4687,From Model Scaling to System Scaling: Scaling the Harness in Agentic AI,2026,arXiv (Cornell University),openalex
+4704,When Experience Becomes Instruction: Trajectory Poisoning in Self-Evolving Agent Skill Systems,2026,arXiv (Cornell University),openalex
+4714,PASK: Toward Intent-Aware Proactive Agents with Long-Term Memory,2026,arXiv (Cornell University),openalex
+4719,Argus: A General-Purpose Agentic Reasoning Runtime for Long-Horizon Tasks,2026,arXiv (Cornell University),openalex
+4742,AgentSwing: Adaptive Parallel Context Management Routing for Long-Horizon Web Agents,2026,arXiv:cs.CL,arxiv
+4746,Context as a Tool: Context Management for Long-Horizon SWE-Agents,2025,arXiv:cs.CL,arxiv
+4816,MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents,2024,arXiv:cs.SE,arxiv
+4822,AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management,2025,arXiv:cs.AI,arxiv
+4830,Efficient On-Device Agents via Adaptive Context Management,2025,arXiv:cs.AI,arxiv
+4833,LLM Agents Are Latent Context Managers: Eliciting Self-Managed Context via State Proprioception,2026,arXiv:cs.CL,arxiv
+4836,Context as an Environment: Programmatic Context Management for Long-Horizon Agents,2026,arXiv:cs.AI,arxiv
+4856,Modeling Clinical Concern Trajectories in Language Model Agents,2026,arXiv:cs.AI,arxiv
+4861,The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management,2025,arXiv:cs.SE,arxiv
+4886,ContextBudget: Budget-Aware Context Management for Long-Horizon Search Agents,2026,arXiv:cs.AI,arxiv
+4916,Plans Don't Persist: Why Context Management Is Load Bearing for LLM Agents,2026,arXiv:cs.AI,arxiv
+4944,Context as a Tool: Context Management for Long-Horizon SWE-Agents,2026,,openalex
+4957,CoMem: Context Management with A Decoupled Long-Context Model,2026,arXiv (Cornell University),openalex
+4960,MAS-ProVe: Understanding the Process Verification of Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+4963,Git Context Controller: Manage the Context of LLM-based Agents like Git,2025,arXiv (Cornell University),openalex
+4970,PACEvolve: Enabling Long-Horizon Progress-Aware Consistent Evolution,2026,arXiv (Cornell University),openalex
+4971,A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management,2026,arXiv (Cornell University),openalex
+4974,Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory,2026,arXiv (Cornell University),openalex
+4975,ACE: Pluggable Adaptive Context Elasticizer across Agents,2026,arXiv (Cornell University),openalex
+4977,HyMem: Hierarchical Context Management for Long-Horizon Agents via Information Isolation,2026,arXiv (Cornell University),openalex
+4978,AgentProg: Empowering Long-Horizon GUI Agents with Program-guided Context Management,2026,,openalex
+4979,Laser: Governing Long-Horizon Agentic Search via Structured Protocol and Context Register,2025,arXiv (Cornell University),openalex
+4981,Scaling LLM Multi-turn RL with End-to-end Summarization-based Context Management,2025,arXiv (Cornell University),openalex
+4983,ARC: Active and Reflection-driven Context Management for Long-Horizon Information Seeking Agents,2026,,openalex
+4986,PRInTS: Reward Modeling for Long-Horizon Information Seeking,2025,arXiv (Cornell University),openalex
+4988,Game-Theoretic Multi-Agent Control for Robust Contextual Reasoning in LLMs,2026,arXiv (Cornell University),openalex
+4992,SAM: State-Adaptive Memory for Long-Horizon Reasoning Agent,2026,arXiv (Cornell University),openalex
+4998,Beyond Resolution Rates: Behavioral Drivers of Coding Agent Success and Failure,2026,arXiv (Cornell University),openalex
+5002,Proactive Context Focus: A Tier-Aligned Framework for Long-Horizon LLM Agents,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+5007,Self-Correcting Long-Horizon Search Agents via Tree-Structured Memory,2026,arXiv (Cornell University),openalex
+5010,DPEPO: Diverse Parallel Exploration Policy Optimization for LLM-based Agents,2026,arXiv (Cornell University),openalex
+5011,From Noisy Traces to Root Causes: Structural Trajectory Analysis and Causal Extraction for Agent Optimization,2026,arXiv (Cornell University),openalex
+5017,"Better Harnesses, Smaller Models: Building 90% Cheaper Agents via Automated Harness Adaptation",2026,arXiv (Cornell University),openalex
+5019,"MedBench v5: A Dynamic, Process-Oriented, and Hallucination-Aware Benchmark for Clinical Multimodal Models",2026,arXiv (Cornell University),openalex
+5024,AI scientists produce results without reasoning scientifically,2026,arXiv (Cornell University),openalex
+5025,Scaling Test-Time Compute for Agentic Coding,2026,arXiv (Cornell University),openalex
+5026,ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization,2025,arXiv (Cornell University),openalex
+5036,Matching Matters: A Fair Quality-Efficiency Benchmark for Command-Line Agents,2026,arXiv (Cornell University),openalex
+5039,HARBOR: Automated Harness Optimization,2026,arXiv (Cornell University),openalex
+5047,AdaMEM: Test-Time Adaptive Memory for Language Agents,2026,arXiv (Cornell University),openalex
+5051,Inside the Scaffold: A Source-Code Taxonomy of Coding Agent Architectures,2026,arXiv (Cornell University),openalex
+5055,ActiveMem: Distributed Active Memory for Long-Horizon LLM Reasoning,2026,arXiv (Cornell University),openalex
+5064,ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory,2025,arXiv (Cornell University),openalex
+5069,PEEK: Context Map as an Orientation Cache for Long-Context LLM Agents,2026,arXiv (Cornell University),openalex
+5073,DREvo: Distilling Recalibrated Historical Experience for Harness Self-Evolution,2026,arXiv (Cornell University),openalex
+5081,Learning When to Remember: Risk-Sensitive Contextual Bandits for Abstention-Aware Memory Retrieval in LLM-Based Coding Agents,2026,arXiv (Cornell University),openalex
+5092,Masking Stale Observations Helps Search Agents -- Until It Doesn't: A Regime Map and Its Mechanism,2026,arXiv (Cornell University),openalex
+5093,LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents,2026,arXiv (Cornell University),openalex
+5095,Escaping the Context Bottleneck: Active Context Curation for LLM Agents via Reinforcement Learning,2026,arXiv (Cornell University),openalex
+5101,ContextWeaver: Selective and Dependency-Structured Memory Construction for LLM Agents,2026,arXiv (Cornell University),openalex
+5103,Diagnosing and Mitigating Context Rot in Long-horizon Search,2026,arXiv (Cornell University),openalex
+5106,Governance Decay: How Context Compaction Silently Erases Safety Constraints in Long-Horizon LLM Agents,2026,arXiv (Cornell University),openalex
+5110,PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning,2026,arXiv (Cornell University),openalex
+5111,Intent-Driven Situation Tracking for User-Centric Multi-Turn Agents,2026,arXiv (Cornell University),openalex
+5128,Learning Transferable Topology Priors for Multi-Agent LLM Collaboration Across Domains,2026,arXiv:cs.CL,arxiv
+5129,Multi-Agent Collaboration via Evolving Orchestration,2025,arXiv:cs.CL,arxiv
+5143,Reward Modeling for Multi-Agent Orchestration,2026,arXiv:cs.AI,arxiv
+5163,Beyond the Strongest LLM: Multi-Turn Multi-Agent Orchestration vs. Single LLMs on Benchmarks,2025,arXiv:cs.AI,arxiv
+5165,Multi-Agent Coordination Adaptation via Structure-Guided Orchestration,2026,arXiv:cs.MA,arxiv
+5181,GUARDIAN: Safeguarding LLM Multi-Agent Collaborations with Temporal Graph Modeling,2025,arXiv:cs.AI,arxiv
+5184,LEMON: Learning Executable Multi-Agent Orchestration via Counterfactual Reinforcement Learning,2026,arXiv:cs.AI,arxiv
+5185,Recognize Your Orchestrator: An Entropy Dynamics Perspective for LLM Multi-Agent Systems,2026,arXiv:cs.AI,arxiv
+5189,Semantic Uncertainty-Guided Orchestration in Hierarchical Multi-Agent Systems,2026,arXiv:cs.AI,arxiv
+5191,AdaptOrch: Task-Adaptive Multi-Agent Orchestration in the Era of LLM Performance Convergence,2026,arXiv:cs.MA,arxiv
+5196,LLM Agents for Deliberative Collaboration: A Study on Joint Decision Making Under Partial Observability,2026,arXiv:cs.CL,arxiv
+5202,Learning to Deliberate: Meta-policy Collaboration for Agentic LLMs with Multi-agent Reinforcement Learning,2025,arXiv:cs.AI,arxiv
+5208,Learning Latency-Aware Orchestration for Multi-Agent Systems,2026,arXiv:cs.MA,arxiv
+5212,Difficulty-Aware Agentic Orchestration for Query-Specific Multi-Agent Workflows,2025,arXiv:cs.AI,arxiv
+5214,MARS: toward more efficient multi-agent collaboration for LLM reasoning,2025,arXiv:cs.CL,arxiv
+5216,INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration,2026,arXiv:cs.AI,arxiv
+5225,CausalPlan: Empowering Efficient LLM Multi-Agent Collaboration Through Causality-Driven Planning,2025,arXiv:cs.AI,arxiv
+5237,Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems,2026,arXiv:cs.AI,arxiv
+5241,Scaling Large Language Model-based Multi-Agent Collaboration,2024,arXiv:cs.AI,arxiv
+5243,OrchBench: Evaluating Multi-Agent Orchestration Plans in Isolation via Deterministic Simulation,2026,arXiv:cs.AI,arxiv
+5246,HieraMAS: Optimizing Intra-Node LLM Mixtures and Inter-Node Topology for Multi-Agent Systems,2026,arXiv:cs.MA,arxiv
+5249,LLM Consortium for Software Design Refinement: A Controlled Experiment on Multi-Agent Collaboration Topologies,2026,arXiv:cs.SE,arxiv
+5251,"Benchmarking Multi-Agent LLM Architectures for Financial Document Processing: A Comparative Study of Orchestration Patterns, Cost-Accuracy Tradeoffs and Production Scaling Strategies",2026,arXiv:cs.AI,arxiv
+5264,Dynamic Attentional Context Scoping: Agent-Triggered Focus Sessions for Isolated Per-Agent Steering in Multi-Agent LLM Orchestration,2026,arXiv:cs.MA,arxiv
+5271,Facilitating Trustworthy Human-Agent Collaboration in LLM-based Multi-Agent System oriented Software Engineering,2025,arXiv:cs.SE,arxiv
+5274,Verified Multi-Agent Orchestration: A Plan-Execute-Verify-Replan Framework for Complex Query Resolution,2026,arXiv:cs.AI,arxiv
+5275,Retrieval-Conditioned Topology Selection with Provable Budget Conservation for Multi-Agent Code Generation,2026,arXiv:cs.AI,arxiv
+5278,Collaboration Dynamics and Reliability Challenges of Multi-Agent LLM Systems in Finite Element Analysis,2024,arXiv:cs.AI,arxiv
+5279,AMAS: Adaptively Determining Communication Topology for LLM-based Multi-Agent System,2025,arXiv:cs.CL,arxiv
+5282,Structure Matters: Evaluating Multi-Agents Orchestration in Generative Therapeutic Chatbots,2026,arXiv:cs.HC,arxiv
+5287,MAMM-Refine: A Recipe for Improving Faithfulness in Generation with Multi-Agent Collaboration,2025,arXiv:cs.CL,arxiv
+5289,Focus Is All You Need: Adaptive Goal-aware Attention Orchestration for Multi-Agent Graph Systems,2026,arXiv:cs.AI,arxiv
+5293,From Spark to Fire: Modeling and Mitigating Error Cascades in LLM-Based Multi-Agent Collaboration,2026,arXiv:cs.MA,arxiv
+5302,OMAC: A Holistic Optimization Framework for LLM-Based Multi-Agent Collaboration,2025,arXiv:cs.MA,arxiv
+5304,Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework,2026,arXiv:cs.MA,arxiv
+5307,Adaptive Collaboration with Humans: Metacognitive Policy Optimization for Multi-Agent LLMs with Continual Learning,2026,arXiv:cs.AI,arxiv
+5308,Brain-Inspired Graph Multi-Agent Systems for LLM Reasoning,2026,arXiv:cs.AI,arxiv
+5311,Towards Multi-Agent Reasoning Systems for Collaborative Expertise Delegation: An Exploratory Design Study,2025,arXiv:cs.CL,arxiv
+5312,AgentNet: Decentralized Evolutionary Coordination for LLM-based Multi-Agent Systems,2025,Advances in Neural Information Processing Systems 38,openalex
+5316,Scaling Large Language Model-based Multi-Agent Collaboration,2024,arXiv (Cornell University),openalex
+5324,DynTaskMAS: A Dynamic Task Graph-driven Framework for Asynchronous and Parallel LLM-based Multi-Agent Systems,2025,Proceedings of the International Conference on Automated Planning and Scheduling,openalex
+5338,A Self-Reflective Multi-Agent Collaboration Framework for Dynamic Software Engineering Tasks,2026,Preprints.org,openalex
+5349,GroupDebate: Enhancing the Efficiency of Multi-Agent Debate Using Group Discussion,2026,,openalex
+5353,Multi-Agent LLM Systems: From Emergent Collaboration to Structured Collective Intelligence,2025,Preprints.org,openalex
+5357,TopoDIM: One-shot Topology Generation of Diverse Interaction Modes for Multi-Agent Systems,2026,,openalex
+5368,"ORCH: many analyses, one merge—a deterministic multi-agent orchestrator for discrete-choice reasoning with EMA-guided routing",2026,Frontiers in Artificial Intelligence,openalex
+5383,Flow: Modularized Agentic Workflow Automation,2025,arXiv (Cornell University),openalex
+5409,SwarmAgentic: Towards Fully Automated Agentic System Generation via Swarm Intelligence,2025,EMNLP,openalex
+5420,"Towards Adaptive, Scalable, and Robust Coordination of LLM Agents: A Dynamic Ad-Hoc Networking Perspective",2026,arXiv (Cornell University),openalex
+5432,MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+5445,Stochastic Self-Organization in Multi-Agent Systems,2025,arXiv (Cornell University),openalex
+5449,EvoMAS: Evolutionary Generation of Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+5454,OptiMAS: Automatically Optimize Multi-Agent System,2026,arXiv (Cornell University),openalex
+5456,Decentralized Multi-Agent Systems with Shared Context,2026,arXiv (Cornell University),openalex
+5462,BAMAS: Structuring Budget-Aware Multi-Agent Systems,2025,arXiv (Cornell University),openalex
+5464,An Empirical Study of Multi-Agent Collaboration for Automated Research,2026,arXiv (Cornell University),openalex
+5465,Rethinking Query Optimization for Multi-Agent Systems [Vision],2025,arXiv (Cornell University),openalex
+5475,ALAS: Transactional and Dynamic Multi-Agent LLM Planning,2025,arXiv (Cornell University),openalex
+5480,Graph-theoretic Agreement Framework for Multi-agent LLM Systems,2026,arXiv (Cornell University),openalex
+5483,Response-Conditioned Parallel-to-Sequential Orchestration for Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+5484,Coordination as an Architectural Layer for LLM-Based Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+5485,Economy of Minds: Emerging Multi-Agent Intelligence with Economic Interactions,2026,arXiv (Cornell University),openalex
+5487,Adaptive Sparse Dense Communication Network for Multi-Agent LLMs,2026,Preprints.org,openalex
+5488,Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies,2025,arXiv (Cornell University),openalex
+5489,Managing Uncertainty in LLM-based Multi-Agent System Operation,2026,arXiv (Cornell University),openalex
+5610,VADAOrchestra: Neurosymbolic Orchestration of Adaptive Reasoning Workflows,2026,arXiv:cs.AI,arxiv
+5631,Self-Healing Agentic Orchestrators for Reliable Tool-Augmented Large Language Model Systems,2026,arXiv:cs.AI,arxiv
+5645,Demystifying the Lifecycle of Failures in Platform-Orchestrated Agentic Workflows,2025,arXiv:cs.AI,arxiv
+5680,ClawArena-Team: Benchmarking Subagent Orchestration and Dynamic Workflows in Language-Model Agents,2026,arXiv:cs.AI,arxiv
+5682,Agentic Verifier-in-the-Loop Solver Orchestration for Cell-Free Massive MIMO Downlink Power Control,2026,arXiv:cs.IT,arxiv
+5688,FAME: QoS-aware Async Service Orchestration for Agentic Workflows,2026,arXiv:cs.DC,arxiv
+5755,ToolSmith: A Multi-Agent Framework for Enterprise Tool Creation,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+5773,Good Parenting is all you need -- Multi-agentic LLM Hallucination Mitigation,2024,arXiv (Cornell University),openalex
+5829,Beyond Chatbots: Moving Toward Multistep Modular AI Agents in Medical Education,2025,JMIR Medical Education,openalex
+5836,Hallucination Mitigation using Agentic AI Natural Language-Based Frameworks,2025,arXiv (Cornell University),openalex
+5838,CellPilot: an agentic framework that pilots small language models through autonomous single-cell annotation,2026,bioRxiv (Cold Spring Harbor Laboratory),openalex
+5843,Agentic Framework for Intelligent Surrogate Modeling of Simulator-Driven Workflows,2025,,openalex
+5845,EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design,2026,arXiv (Cornell University),openalex
+5860,Audio-Mind: An Auditable Agentic Framework for Audio Understanding,2026,arXiv (Cornell University),openalex
+5863,"Advancing Agentic Systems: Dynamic Task Decomposition, Tool Integration and Evaluation using Novel Metrics and Dataset",2024,arXiv (Cornell University),openalex
+5865,United Minds or Isolated Agents? Exploring Coordination of LLMs under Cognitive Load Theory,2025,arXiv (Cornell University),openalex
+5868,Harness as an Asset: Enforcing Determinism via the Convergent AI Agent Framework (CAAF),2026,arXiv (Cornell University),openalex
+5899,ALAS: A Stateful Multi-LLM Agent Framework for Disruption-Aware Planning,2025,arXiv:cs.AI,arxiv
+5904,When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents,2026,arXiv:cs.RO,arxiv
+5909,Bayesian Partner Modelling enables Adaptive Replanning for LLM Coordination,2026,arXiv:cs.MA,arxiv
+5913,When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents,2026,arXiv:cs.AI,arxiv
+5918,Agent Planning Benchmark: A Diagnostic Framework for Planning Capabilities in LLM Agents,2026,arXiv:cs.CL,arxiv
+5928,Testing and Understanding Erroneous Planning in LLM Agents through Synthesized User Inputs,2024,arXiv:cs.AI,arxiv
+5930,A Machine-to-Machine Knowledge-Guided LLM Agent for Generalizable Radiotherapy Treatment Planning,2026,arXiv:physics.med-ph,arxiv
+5931,Tensor-Coord: Algebraic Decomposition of Joint Plan Tensors for Conflict-Free Multi-Agent LLM Planning,2026,arXiv:cs.AI,arxiv
+5934,Agentic Self-Evolutionary Replanning for Embodied Navigation,2026,arXiv:cs.RO,arxiv
+5940,Agentic LLM Planning via Step-Wise PDDL Simulation: An Empirical Characterisation,2026,arXiv:cs.AI,arxiv
+5942,Robotouille: An Asynchronous Planning Benchmark for LLM Agents,2025,arXiv:cs.RO,arxiv
+5945,AI Planning Framework for LLM-Based Web Agents,2026,arXiv:cs.AI,arxiv
+5962,Coarse-to-Fine Grounded Memory for LLM Agent Planning,2025,arXiv:cs.AI,arxiv
+5965,RePLan: Robotic Replanning with Perception and Language Models,2024,arXiv:cs.RO,arxiv
+5971,"SagaLLM: Context Management, Validation, and Transaction Guarantees for Multi-Agent LLM Planning",2025,arXiv:cs.AI,arxiv
+5974,Fact-Augmented Lookahead Planning for LLM Agents,2025,arXiv:cs.LG,arxiv
+5975,Coupling Planning with Episodic Memory in LLM Agents for Software Issue Resolution,2026,arXiv:cs.SE,arxiv
+5990,Does The Way You Plan Matter? An Empirical Study of Planning Representations for LLM Web Agents,2026,arXiv:cs.CL,arxiv
+5999,ToolTree: Efficient LLM Agent Tool Planning via Dual-Feedback Monte Carlo Tree Search and Bidirectional Pruning,2026,arXiv:cs.AI,arxiv
+6002,Why Reasoning Fails to Plan: A Planning-Centric Analysis of Long-Horizon Decision Making in LLM Agents,2026,arXiv:cs.AI,arxiv
+6007,Plan-Then-Execute: An Empirical Study of User Trust and Team Performance When Using LLM Agents As A Daily Assistant,2025,arXiv:cs.HC,arxiv
+6010,FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems,2026,arXiv:cs.CR,arxiv
+6016,Can We Rely on LLM Agents to Draft Long-Horizon Plans? Let's Take TravelPlanner as an Example,2024,arXiv:cs.AI,arxiv
+6021,Self-Evolving World Models for LLM Agent Planning,2026,arXiv:cs.AI,arxiv
+6029,Learning When to Plan: Efficiently Allocating Test-Time Compute for LLM Agents,2025,arXiv:cs.AI,arxiv
+6036,"Before you <think>, monitor: Implementing Flavell's metacognitive framework in LLMs",2025,arXiv:cs.AI,arxiv
+6048,ALAS: Transactional and Dynamic Multi-Agent LLM Planning,2025,arXiv:cs.MA,arxiv
+6060,Encouraging Good Processes Without the Need for Good Answers: Reinforcement Learning for LLM Agent Planning,2025,arXiv:cs.LG,arxiv
+6067,Strategist: Self-improvement of LLM Decision Making via Bi-Level Tree Search,2024,arXiv:cs.AI,arxiv
+6075,How Much Heavy Lifting Can an Agent Harness Do?: Measuring the LLM's Residual Role in a Planning Agent,2026,arXiv:cs.AI,arxiv
+6076,Training the Orchestrator: A Supervised Approach to End-to-End PDDL Planning with LLM Agents,2026,arXiv:cs.AI,arxiv
+6078,KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents,2024,arXiv:cs.CL,arxiv
+6080,Metagent-P: A Neuro-Symbolic Planning Agent with Metacognition for Open Worlds,2025,,openalex
+6081,CART: A traceable zero-shot planning framework for large language models with adaptive replanning,2025,Knowledge-Based Systems,openalex
+6093,LLM-Driven Adaptive Recovery for Multi-Agent Systems in Dynamic Environments,2026,Proceedings of the ... ISARC,openalex
+6098,Do Agents Need to Plan Step-by-Step? Rethinking Planning Horizon in Data-Centric Tool Calling,2026,,openalex
+6118,An LLM Compiler for Parallel Function Calling,2023,arXiv (Cornell University),openalex
+6140,Recover: A Neuro-Symbolic Framework for Failure Detection and Recovery,2024,arXiv (Cornell University),openalex
+6141,Simulating Human-like Daily Activities with Desire-driven Autonomy,2024,arXiv (Cornell University),openalex
+6156,LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation,2026,,openalex
+6162,When Should Users Check? Modeling Confirmation Frequency in Multi-Step Agentic AI Tasks,2026,,openalex
+6172,Goal2Skill: Long-Horizon Manipulation with Adaptive Planning and Reflection,2026,arXiv (Cornell University),openalex
+6181,How to Steer Your Multi-Agent System: Human-LLM Collaborative Planning,2026,Proceedings of the ACM Conference on AI and Agentic Systems,openalex
+6184,A Closed-Loop Modular Language Agent with Step Verification and Local Correction for Multi-Step Task Solving,2026,Electronics,openalex
+6189,ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration,2025,arXiv (Cornell University),openalex
+6194,Logic-Based Verification of Task Allocation for LLM-Enabled Multi-Agent Manufacturing Systems,2026,arXiv (Cornell University),openalex
+6196,A Hierarchical Error-Corrective Graph Framework for Autonomous Agents with LLM-Based Action Generation,2026,arXiv (Cornell University),openalex
+6200,GraSP: Graph-Structured Skill Compositions for LLM Agents,2026,arXiv (Cornell University),openalex
+6204,REFLEX: Metacognitive Reasoning for Reflective Zero-Shot Robotic Planning with Large Language Models,2025,arXiv (Cornell University),openalex
+6207,Skill-MAS: Evolving Meta-Skill for Automatic Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+6220,From Language to Action: Can LLM-Based Agents Be Used for Embodied Robot Cognition?,2026,arXiv (Cornell University),openalex
+6235,Bridging Values and Behavior: A Hierarchical Framework for Proactive Embodied Agents,2026,arXiv (Cornell University),openalex
+6241,ReflectVLN: Training Vision-Language Navigation Agents with Reflective Reasoning,2026,arXiv (Cornell University),openalex
+6242,Position: Beyond Model-Centric Prediction -- Agentic Time Series Forecasting,2026,arXiv (Cornell University),openalex
+6252,Verification-Gated Agentic Mission-State Governance for Intelligent Industrial Multi-Robot Systems,2026,arXiv (Cornell University),openalex
+6256,Reflecting with Two Voices: A Co-Adaptive Dual-Strategy Framework for LLM-Based Agent Decision Making,2025,arXiv (Cornell University),openalex
+6269,VLM-DEWM: Dynamic External World Model for Verifiable and Resilient Vision-Language Planning in Manufacturing,2026,arXiv (Cornell University),openalex
+6270,RAMP: Risk-Aware Multi-Turn Planning for Jailbreak Red-Teaming,2026,,openalex
+6292,Real-Time Detection and Repair of LLM Agent Failures,2026,arXiv:cs.AI,arxiv
+6305,Agent Reinforcement Learning via Pivotal-Aware Self-Feedback Retry,2026,arXiv:cs.AI,arxiv
+6321,Self-Evaluating LLMs for Multi-Step Tasks: Stepwise Confidence Estimation for Failure Detection,2025,arXiv:cs.LG,arxiv
+6331,Why Retrying Fails: Context Contamination in LLM Agent Pipelines,2026,arXiv:cs.AI,arxiv
+6349,Verified Tool Calls Improve LLM Agent Reliability Under Non-Atomic Failures,2026,arXiv:cs.SE,arxiv
+6360,Where LLM Agents Fail and How They can Learn From Failures,2025,arXiv:cs.AI,arxiv
+6407,CausalFlow: Causal Attribution and Counterfactual Repair for LLM Agent Failures,2026,arXiv:cs.LG,arxiv
+6410,Compaction as Epistemic Failure: How Agentic LLM Tools Fabricate Confirmed Results from Killed Processes,2026,arXiv:cs.SE,arxiv
+6432,From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents,2026,arXiv:cs.LG,arxiv
+6445,AgentCheck: A Reproduce-Intervene-Mitigate Workbench for LLM Agents over MCP,2026,arXiv:cs.SE,arxiv
+6459,Repair or Resample? Rethinking Failure Debugging in LLM Multi-Agent Systems,2026,arXiv:cs.AI,arxiv
+6462,"Autonomous Topology Mutation: Safe Runtime Restructuring for Multi-Agent LLM Systems with Capability, State, and Shadow Invariants",2026,arXiv:cs.AI,arxiv
+6468,AutoHarness: improving LLM agents by automatically synthesizing a code harness,2026,arXiv:cs.CL,arxiv
+6479,Mitigating Execution Hallucinations and Computational Inflation in Agentic RAG via Strict Protocol Boundaries,2026,Electronics,openalex
+6497,Evaluating Long-Horizon Reasoning and Self-Correction in Large Language Models with Verifiable Task Chains,2026,Journal of the Association for Information Systems,openalex
+6498,From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing,2025,,openalex
+6509,CAR: Empowering Agents with Dynamic Tool Synthesis and Global Trajectory Rectification,2026,,openalex
+6515,GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration,2026,arXiv (Cornell University),openalex
+6518,Agent-First Tool API: A Semantic Interface Paradigm for Enterprise AI Agent Systems,2026,arXiv (Cornell University),openalex
+6520,Bridging Protocol and Production: Design Patterns for Deploying AI Agents with Model Context Protocol,2026,arXiv (Cornell University),openalex
+6524,Meta-Agent: From Task Descriptions to Verified Multi-Agent Systems,2026,arXiv (Cornell University),openalex
+6527,THE DISPATCHER: BRIDGING THE PROBABILISTIC GAP IN AUTOMATED DECISION MODELING,2026,Bulletin of NTU KhPI Series Strategic Management Portfolio Program and Project Management,openalex
+6532,Autonomous adversary: red-teaming in the age of LLM,2026,arXiv (Cornell University),openalex
+6533,Behavioral Controllability of Agentic Models for Information Extraction: From Fixed Workflows to Reflective Agents,2026,arXiv (Cornell University),openalex
+6537,MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers,2026,arXiv (Cornell University),openalex
+6540,Agent-SAMA: State-Aware Mobile Assistant,2025,arXiv (Cornell University),openalex
+6545,Graph-Based Self-Healing Tool Routing for Cost-Efficient LLM Agents,2026,arXiv (Cornell University),openalex
+6547,AI-NativeBench: An Open-Source White-Box Agentic Benchmark Suite for AI-Native Systems,2026,arXiv (Cornell University),openalex
+6554,Shared Selective Persistent Memory for Agentic LLM Systems,2026,arXiv (Cornell University),openalex
+6559,Context Rot: Why MCP is Breaking in Production and How the Skills Architecture Fixes It,2026,European Journal of Electrical Engineering and Computer Science,openalex
+6562,Agentic Frameworks for Reasoning Tasks: An Empirical Study,2026,arXiv (Cornell University),openalex
+6563,Your Agent Has a Genome: Sequence-Level Behavioral Analysis and Runtime Governance of LLM-Powered Autonomous Agents,2026,arXiv (Cornell University),openalex
+6579,Evaluating LLM Agents on Automated Software Analysis Tasks,2026,arXiv (Cornell University),openalex
+6580,Why Search When You Can Transfer? Amortized Agentic Workflow Design from Structural Priors,2026,arXiv (Cornell University),openalex
+6581,Execution as Verification: Fine-Grained Self-Correcting Reasoning for Complex KBQA,2026,,openalex
+6595,BioProAgent: Neuro-Symbolic Grounding for Constrained Scientific Planning,2026,,openalex
+6600,"PHMForge: Evaluating LLM Agents on Industrial Prognostics through MCP-Native, Algorithm-Grounded Tools",2026,arXiv (Cornell University),openalex
+6603,Self-Programmed Execution for Language-Model Agents,2026,arXiv (Cornell University),openalex
+6607,ScrambleToolBench: Agents Search Exhaustively Even When Their Own Map Points to the Next Step,2026,arXiv (Cornell University),openalex
+6612,AGI Requires a Coordination Layer on Top of Pattern Repositories,2025,arXiv (Cornell University),openalex
+6620,SaaSBench: Exploring the Boundaries of Coding Agents in Long-Horizon Enterprise SaaS Engineering,2026,arXiv (Cornell University),openalex
+6629,Tree-Notebook: A Context-Aware Agent with Tree Search and Entropy-Aware Data Shadow for Interactive Data Science,2026,Findings of the Association for Computational Linguistics: ACL 2026,openalex
+6634,Comparative Evaluation of Agentic Workflow Capabilities in AI IDE Agents for Web-Based Learning Media Development,2026,Journal of Applied Informatics and Computing,openalex
+6641,AdsMind: A Physics-Grounded Multi-Agent System for Self-Correcting Discovery of Adsorption Configurations on Heterogeneous Catalyst Surfaces,2026,arXiv (Cornell University),openalex
+6646,AssetOpsBench: Benchmarking AI Agents for Task Automation in Industrial Asset Operations and Maintenance,2025,arXiv (Cornell University),openalex
+6647,ProcCtrlBench: Evaluating Process-Level Defects and Control Preservation in LLM Coding Agents,2026,arXiv (Cornell University),openalex
+6649,SGA-MCTS: Decoupling Planning from Execution via Training-Free Atomic Experience Retrieval,2026,arXiv (Cornell University),openalex
+6656,A Formal Hierarchical Architecture for Agentic Orchestration with Stack-Based Execution and Lazy Discovery,2026,arXiv (Cornell University),openalex
+6661,Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services,2026,arXiv (Cornell University),openalex
+6707,$Σ$-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems,2026,arXiv:cs.MA,arxiv
+6752,Token Coherence: Adapting MESI Cache Protocols to Minimize Synchronization Overhead in Multi-Agent LLM Systems,2026,arXiv:cs.DC,arxiv
+6763,AgentGit: A Version Control Framework for Reliable and Scalable LLM-Powered Multi-Agent Systems,2025,arXiv:cs.MA,arxiv
+6769,EARS: Explanatory Abstention for Reliable Sub-Agent Modeling in Large-scale Multi-Agent Systems,2026,arXiv:cs.MA,arxiv
+6776,Insider Attacks in Multi-Agent LLM Consensus Systems,2026,arXiv:cs.MA,arxiv
+6790,An Adversary-Resistant Multi-Agent LLM System via Credibility Scoring,2025,arXiv:cs.MA,arxiv
+6794,Reliable Self-Harm Risk Screening via Adaptive Multi-Agent LLM Systems,2026,arXiv:cs.LG,arxiv
+6799,Evaluating Theory of Mind and Internal Beliefs in LLM-Based Multi-Agent Systems,2026,arXiv:cs.MA,arxiv
+6809,Training-Free Agentic AI: Probabilistic Control and Coordination in Multi-Agent LLM Systems,2026,arXiv:cs.CL,arxiv
+6816,The Reasoning Trap: An Information-Theoretic Bound on Closed-System Multi-Step LLM Reasoning,2026,arXiv:cs.CL,arxiv
+6820,MAS-FIRE: Fault Injection and Reliability Evaluation for LLM-Based Multi-Agent Systems,2026,arXiv:cs.SE,arxiv
+6826,Delayed Verification Destabilizes Multi-Agent LLM Belief: Instability Thresholds and Optimal Corrector Placement,2026,arXiv:cs.MA,arxiv
+6829,Position: Towards a Responsible LLM-empowered Multi-Agent Systems,2025,arXiv:cs.MA,arxiv
+6830,Self-Resource Allocation in Multi-Agent LLM Systems,2025,arXiv:cs.MA,arxiv
+6835,MasRouter: Learning to Route LLMs for Multi-Agent Systems,2025,arXiv:cs.LG,arxiv
+6853,Conformity Dynamics in LLM Multi-Agent Systems: The Roles of Topology and Self-Social Weighting,2026,arXiv:cs.MA,arxiv
+6859,Group size effects and collective misalignment in LLM multi-agent systems,2025,arXiv:cs.MA,arxiv
+6863,Herd Behavior: Investigating Peer Influence in LLM-based Multi-Agent Systems,2025,arXiv:cs.MA,arxiv
+6865,LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation,2025,arXiv:cs.AI,arxiv
+6888,Iterative Audit Convergence in LLM-Managed Multi-Agent Systems: A Case Study in Prompt-Engineering Quality Assurance,2026,Software,openalex
+6920,ALLURE: Auditing and Improving LLM-based Evaluation of Text using Iterative In-Context-Learning,2023,arXiv (Cornell University),openalex
+6925,A Reliability Control Framework for Robust Multi-Agent LLM Systems: Managing Workflows in Large Language Model Systems,2026,Open MIND,openalex
+6930,A Multi-Agent LLM Experiment Revealing Architect-Level Failure Modes in Scientific Software Development,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+6937,quantum_bench: A Multi-Agent LLM Experiment Revealing Architect-Level Failure Modes in Scientific Software Development,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+6951,RedDebate: Safer Responses Through Multi-Agent Red Teaming Debates,2025,arXiv (Cornell University),openalex
+6986,Causal-Aware LLM Agents for PHM Co-pilots,2025,Annual Conference of the PHM Society,openalex
+6988,A Systematic Study of LLM-Based Architectures for Automated Patching,2026,arXiv (Cornell University),openalex
+6992,Agentic AI for Commercial Insurance Underwriting with Adversarial Self-Critique,2026,,openalex
+6993,"Local Green, Global Red I - Evaluated Path Kernels for Composed Agent Reliability",2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+6994,"Local Green, Global Red Evaluated Path Kernels for Composed Agent Reliability",2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+6998,Design and Implementation of Agentic AI Pipelines for Enterprise Decision-Making Architecture Patterns for Production Systems,2026,International Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences,openalex
+7005,Improving Steering and Verification in AI-Assisted Data Analysis with Interactive Task Decomposition,2024,,openalex
+7010,The Consistency Illusion: How Multi-Agent Debate Hides Reasoning Misalignment,2026,arXiv (Cornell University),openalex
+7022,A Modular Multi-Agent {LLM} Architecture for Text-to-Diagram Generation and User-Guided Refinement,2026,e-Informatica Software Engineering Journal,openalex
+7023,XPS 2: A Neuro-Symbolic Evolution of Diagnostic Expert Systems for High-Stakes AI,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+7029,Structural Limitations of LLM Multi-Agent Systems as of December 2025,2025,OSF Preprints (OSF Preprints),openalex
+7039,A Self-Healing Framework for Reliable LLM-Based Autonomous Agents,2026,arXiv (Cornell University),openalex
+7042,"Coordination Topology as Failure Geometry: How Network Structure, Protocol Design, and Consensus Dynamics Jointly Shape Multi-Agent System Reliability",2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+7137,TUMIX: Multi-Agent Test-Time Scaling with Tool-Use Mixture,2025,arXiv:cs.CL,arxiv
+7151,SI-Agent: An Agentic Framework for Feedback-Driven Generation and Tuning of Human-Readable System Instructions for Large Language Models,2025,arXiv:cs.AI,arxiv
+7169,Linear Feedback Control Systems for Iterative Prompt Optimization in Large Language Models,2025,arXiv:cs.LG,arxiv
+7181,Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training,2025,arXiv:cs.AI,arxiv
+7186,Retroformer: Retrospective Large Language Agents with Policy Gradient Optimization,2023,arXiv:cs.CL,arxiv
+7197,Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use,2026,arXiv:cs.CL,arxiv
+7211,Rethinking the Role of Entropy in Optimizing Tool-Use Behaviors for Large Language Model Agents,2026,arXiv:cs.AI,arxiv
+7222,IterInject: Indirect Prompt Injection Against LLM Agents via Feedback-Guided Iterative Optimization,2026,arXiv:cs.LG,arxiv
+7236,Can AI Scientist Agents Learn from Lab-in-the-Loop Feedback? Evidence from Iterative Perturbation Discovery,2026,arXiv:cs.LG,arxiv
+7239,Benchmarking Large Language Models for ABAP Code Generation: An Empirical Study on Iterative Improvement by Compiler Feedback,2026,arXiv:cs.SE,arxiv
+7245,Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability,2026,arXiv:cs.CL,arxiv
+7391,MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback,2023,arXiv (Cornell University),openalex
+7430,Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents,2025,SuperIntelligence - Robotics - Safety & Alignment,openalex
+7453,MARS: Memory-Enhanced Agents with Reflective Self-improvement,2025,arXiv:cs.CL,arxiv
+7458,Contextual Experience Replay for Self-Improvement of Language Agents,2025,arXiv:cs.AI,arxiv
+7461,Experiential Reflective Learning for Self-Improving LLM Agents,2026,arXiv:cs.LG,arxiv
+7462,Recursive Harness Self-Improvement,2026,arXiv:cs.LG,arxiv
+7469,WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model,2025,arXiv:cs.CL,arxiv
+7474,Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents,2026,arXiv:cs.CV,arxiv
+7480,Beyond Accuracy: The Role of Calibration in Self-Improving Large Language Models,2025,arXiv:cs.CL,arxiv
+7515,Positive Experience Reflection for Agents in Interactive Text Environments,2024,arXiv:cs.CL,arxiv
+7516,Perceptual Self-Reflection in Agentic Physics Simulation Code Generation,2026,arXiv:cs.SE,arxiv
+7535,Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement,2024,arXiv:cs.AI,arxiv
+7536,A Zero-Shot Language Agent for Computer Control with Structured Reflection,2023,arXiv:cs.CL,arxiv
+7539,PreFlect: From Retrospective to Prospective Reflection in Large Language Model Agents,2026,arXiv:cs.AI,arxiv
+7581,Autoreflection: How Agentic Strange Loops Turn Human Culture into AI Infrastructure,2026,arXiv:cs.CY,arxiv
+7595,Causal Reflection with Language Models,2025,arXiv:cs.LG,arxiv
+7608,"Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory",2025,arXiv:cs.CR,arxiv
+7615,Self-Improving AI Agents through Self-Play,2025,arXiv:cs.AI,arxiv
+7616,Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement,2026,arXiv:physics.soc-ph,arxiv
+7619,Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine,2025,arXiv:cs.AI,arxiv
+7628,Interrupting the Loop: Periodic Subject Changes Raise Judged Surprise and Connection in Base Language Models,2026,arXiv:cs.CL,arxiv
+7649,Gödel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement,2025,Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers),openalex
+7651,Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training,2025,arXiv (Cornell University),openalex
+7672,Learn Like Humans: Use Meta-cognitive Reflection for Efficient Self-Improvement,2026,Underline Science Inc.,openalex
+7680,Improving Factuality and Reasoning in Language Models through Multiagent Debate,2023,arXiv (Cornell University),openalex
+7689,Knowledge-Centric Self-Improvement,2026,arXiv (Cornell University),openalex
+7702,OPT-BENCH: Evaluating the Iterative Self-Optimization of LLM Agents in Large-Scale Search Spaces,2026,Underline Science Inc.,openalex
+7703,OPT-BENCH: Evaluating the Iterative Self-Optimization of LLM Agents in Large-Scale Search Spaces,2026,arXiv (Cornell University),openalex
+7714,Provable and Practical In-Context Policy Optimization for Self-Improvement,2026,arXiv (Cornell University),openalex
+7724,Hierarchical Self-Improvement: A Framework for Task-Specific Evolvable Agent Harnesses,2026,arXiv (Cornell University),openalex
+7725,More Yap Less Meaning: Uncovering Self-Improvement Behavior in SLMs,2026,,openalex
+7726,COMAP: Co-Evolving World Models and Agent Policies for LLM Agents,2026,arXiv (Cornell University),openalex
+7738,AutoMem: A Text-Gradient Recursive Self-Improvement Framework for Automated Memory Architectures Search,2026,arXiv (Cornell University),openalex
+7748,MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution,2026,arXiv (Cornell University),openalex
+7753,FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast,2026,,openalex
+7761,ARM: Discovering Agentic Reasoning Modules for Generalizable Multi-Agent Systems,2025,arXiv (Cornell University),openalex
+7766,SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search,2025,arXiv (Cornell University),openalex
+7769,SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search,2026,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+7795,Automated Design of Agentic Systems,2024,arXiv (Cornell University),openalex
+7822,Making AI Tutors Empathetic and Conscious: A Needs-Driven Pathway to Synthetic Machine Consciousness,2025,AI,openalex
+7834,Vision-Language Models Can Self-Improve Reasoning via Reflection,2025,,openalex
+7863,Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search,2026,arXiv:cs.LG,arxiv
+7914,No Train Still Gain. Unleash Mathematical Reasoning of Large Language Models with Monte Carlo Tree Search Guided by Energy Function,2023,arXiv:cs.AI,arxiv
+7929,Enhancing Large Language Models with Reward-guided Tree Search for Knowledge Graph Question and Answering,2025,arXiv:cs.CL,arxiv
+7933,Policy Guided Tree Search for Enhanced LLM Reasoning,2025,arXiv:cs.LG,arxiv
+7940,TabTracer: Monte Carlo Tree Search for Complex Table Reasoning with Large Language Models,2026,arXiv:cs.DB,arxiv
+7941,Tempest: Autonomous Multi-Turn Jailbreaking of Large Language Models with Tree Search,2025,arXiv:cs.AI,arxiv
+7943,Towards Logically Sound Natural Language Reasoning with Logic-Enhanced Language Model Agents,2024,arXiv:cs.AI,arxiv
+7954,Autonomous Tree-search Ability of Large Language Models,2023,arXiv:cs.CL,arxiv
+7955,Zero-Shot Multi-Hop Question Answering via Monte-Carlo Tree Search with Large Language Models,2024,arXiv:cs.CL,arxiv
+7961,GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning,2026,arXiv:cs.AI,arxiv
+7965,Amortized Reasoning Tree Search: Decoupling Proposal and Decision in Large Language Models,2026,arXiv:cs.LG,arxiv
+7985,VerifiAgent: a Unified Verification Agent in Language Model Reasoning,2025,arXiv:cs.CL,arxiv
+7995,Interpretable Contrastive Monte Carlo Tree Search Reasoning,2024,arXiv:cs.CL,arxiv
+7999,Don't Get Lost in the Trees: Streamlining LLM Reasoning by Overcoming Tree Search Exploration Pitfalls,2025,arXiv:cs.CL,arxiv
+8005,Empirical-MCTS: Continuous Agent Evolution via Dual-Experience Monte Carlo Tree Search,2026,arXiv:cs.AI,arxiv
+8012,Multi-Agent Sampling: Scaling Inference Compute for Data Synthesis with Tree Search-Based Agentic Collaboration,2024,arXiv:cs.CL,arxiv
+8029,Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training,2023,arXiv:cs.LG,arxiv
+8034,Before Reasoning Can Fail: Pre-Evidence Procedural Failures in Agentic RAG,2026,arXiv:cs.AI,arxiv
+8038,Reasoning with Language Model is Planning with World Model,2023,Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing,openalex
+8051,When is Tree Search Useful for LLM Planning? It Depends on the Discriminator,2024,,openalex
+8067,Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents,2024,arXiv (Cornell University),openalex
+8072,SeRTS: Self-Rewarding Tree Search for Biomedical Retrieval-Augmented Generation,2024,,openalex
+8081,ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search,2024,arXiv (Cornell University),openalex
+8085,Towards Collaborative Intelligence: Propagating Intentions and Reasoning for Multi-Agent Coordination with Large Language Models,2024,arXiv (Cornell University),openalex
+8099,A brain-inspired agentic architecture to improve planning with LLMs,2025,Nature Communications,openalex
+8116,ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search,2023,arXiv (Cornell University),openalex
+8133,Monte Carlo Planning with Large Language Model for Text-Based Game Agents,2025,arXiv (Cornell University),openalex
+8165,Continually Learning Planning Agent for Large Environments guided by LLMs,2024,,openalex
+8170,Improving Planning with Large Language Models: A Modular Agentic Architecture,2023,arXiv (Cornell University),openalex
+8173,"Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency",2023,arXiv (Cornell University),openalex
+8189,Prompt-Based Monte-Carlo Tree Search for Goal-Oriented Dialogue Policy Planning,2023,arXiv (Cornell University),openalex
+8191,I-MCTS: Enhancing Agentic AutoML via Introspective Monte Carlo Tree Search,2026,,openalex
+8193,WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration,2025,Proceedings of the AAAI Conference on Artificial Intelligence,openalex
+8204,Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search,2025,,openalex
+8205,Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation,2024,,openalex
+8212,General Agentic Planning Through Simulative Reasoning with World Models,2025,arXiv (Cornell University),openalex
+8221,CoPS: Empowering LLM Agents with Provable Cross-Task Experience Sharing,2024,arXiv (Cornell University),openalex
+8230,PreAct: Prediction Enhances Agent's Planning Ability,2024,arXiv (Cornell University),openalex
+8233,A Decoupled Human-in-the-Loop System for Controlled Autonomy in Agentic Workflows,2026,arXiv:cs.AI,arxiv
+8249,Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning,2026,arXiv:cs.CL,arxiv
+8255,Optimizing Agent Planning for Security and Autonomy,2026,arXiv:cs.CR,arxiv
+8262,Calibration Is Not Control: Why LLM-Agent Oversight Needs Intervention,2026,arXiv:cs.AI,arxiv
+8275,RecSys Factory: Bounding LLM Agent Autonomy to Decision Points in the Industrial Recommender Lifecycle,2026,arXiv:cs.AI,arxiv
+8281,Magentic-UI: Towards Human-in-the-loop Agentic Systems,2025,arXiv:cs.AI,arxiv
+8282,Measuring AI agent autonomy: Towards a scalable approach with code inspection,2025,arXiv:cs.AI,arxiv
+8284,Governed AI-Assisted Engineering: Graduated Human Oversight for Agentic Code Generation in Regulated Domains,2026,arXiv:cs.HC,arxiv
+8294,Separating Capability from Permission: A Governance Framework for Agentic AI Autonomy Levels,2026,arXiv:cs.AI,arxiv
+8302,"Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human",2026,arXiv:cs.AI,arxiv
+8312,Comparing Human Oversight Strategies for Computer-Use Agents,2026,arXiv:cs.HC,arxiv
+8326,LLM A*: Human in the Loop Large Language Models Enabled A* Search for Robotics,2023,arXiv:cs.RO,arxiv
+8336,The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence,2026,arXiv:cs.AI,arxiv
+8340,Specifying the Delegated-Autonomy Boundary: Requirements Engineering for Agentic AI,2026,arXiv:cs.SE,arxiv
+8344,Reliable Weak-to-Strong Monitoring of LLM Agents,2025,arXiv:cs.AI,arxiv
+8353,FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight,2026,arXiv:cs.AI,arxiv
+8361,pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development,2026,arXiv:cs.MA,arxiv
+8363,Steerability via constraints: a substrate for scalable oversight of coding agents,2026,arXiv:cs.AI,arxiv
+8398,Human Oversight-by-Design for Accessible Generative IUIs,2026,arXiv:cs.HC,arxiv
+8406,A Benchmark for Scalable Oversight Protocols,2025,arXiv:cs.AI,arxiv
+8407,Improving Knowledge Extraction from LLMs for Task Learning through Agent Analysis,2023,arXiv:cs.AI,arxiv
+8412,Tiered Agentic Oversight: A Hierarchical Multi-Agent System for Healthcare Safety,2025,arXiv:cs.AI,arxiv
+8437,Human-artificial interaction in the age of agentic AI: a system-theoretical approach,2025,Frontiers in Human Dynamics,openalex
+8493,HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization,2026,arXiv (Cornell University),openalex
+8518,Accountable Multi-Agent AI Systems: Orchestration Frameworks for Enterprise Workflow Automation with Human-in-the-Loop Verification,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+8528,pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development,2026,arXiv (Cornell University),openalex
+8569,GDPR Auto-Formalization with AI Agents and Human Verification,2026,arXiv (Cornell University),openalex
+8613,"An Agentic LLM Framework for Autonomous Surgical Continuum Monitoring: ReAct-Driven Tool-Use Agents for Presurgical, Intraoperative, and Postsurgical Cardiopulmonary Care",2026,Bioengineering,openalex
+8624,LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation,2026,arXiv:cs.SE,arxiv
+8625,"Loop Engineering: Building Blocks, Adoption, and Impact",2026,arXiv:cs.SE,arxiv
+8628,Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting,2026,arXiv:cs.SE,arxiv
+8701,"Loop Engineering: Building Blocks, Adoption, and Impact (Supplementary Material)",2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+8712,Inverted Orchestration in Software Development: A Deterministic Harness and Looping Engineering under Enterprise Constraints,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+8716,"Loop Engineering of Agentic, Developer, and External Feedback Cycles for Large-Scale Enterprise Healthcare Applications",2026,International Journal of Computational Mathematical Ideas,openalex
+8724,Agentic AI Automation for Data Science in Large-Scale Projects: Intelligent Agents and Loop Engineering,2026,International Journal of Computational Mathematical Ideas,openalex
+8726,"Loop Engineering: The $165,000 Receipt — Reading an Agentic Code Migration as a Model Risk Management Case Study",2026,Open MIND,openalex
+8729,From Prompt Engineering to Loop Engineering: A Five-Layer Taxonomy for Evaluating AI Systems Engineering Practice,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+8737,"Loop Engineering for Agentic Software Systems: LEAF Architecture, Pattern Taxonomy, Use Cases, Evaluation, Challenges, and Future Directions",2026,,openalex
+8739,"The Evidence Closure Loop: Engineering a Bounded-Autonomous, Multi-Agent Security Staff for Evidence-Grounded Assessments and Bug Bounty",2026,Open MIND,openalex
+8746,语义块:Loop Engineering 在单 Agent 系统中的上下文隔离实践,2026,Zenodo (CERN European Organization for Nuclear Research),openalex
+8844,Agentic Workflows for Improving Large Language Model Reasoning in Robotic Object-Centered Planning,2025,Robotics,crossref
+8845,Hierarchical Agentic AI Framework for Autonomous Task Planning using Large Language Model Reasoning,2026,International Journal of Innovative Research in Engineering and Management,crossref
+8847,Self-Contrastive Loop of Thought Method for Text-to-SQL Based on Large Language Model,2025,Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling (XLLM 2025),crossref
+8885,Agentic Large Language Models for Conceptual Systems Engineering and Design,2026,Journal of Mechanical Design,crossref
+8898,Dynamics of Agentic Loops in Large Language Models: A Geometric Theory of Trajectories.,2025,CoRR,dblp
+8916,Trust-Aware Runtime Verification for Autonomous LLM Agent Systems,2026,"2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET)",crossref
+8931,Formal Model of a Controllable LLM Agent Based on a Cognitive Architecture,2026,Программные системы и вычислительные методы,crossref
+8932,OpenAI single-agent LLM architecture reduces computational overhead relative to multi-agent orchestration in a simulated mars rover decision-support benchmark,2026,Frontiers in Robotics and AI,crossref
+8944,Beyond Content Filtering: A “Circuit Breaker” Architecture for Autonomous Agent Action Safety,2026,SoutheastCon 2026,crossref
+8971,Multi-Agent LLM Pipeline for Code Writing: An Experimental Study of Writer-Reviewer Architecture,2026,ADBA Computer Science,crossref
+9050,Multi-agent Self-Reflection Framework: Enhancing the Logical Reasoning Ability of Large Language Models through API Interaction,2025,2025 IEEE 5th International Conference on Data Science and Computer Application (ICDSCA),crossref
+9076,KnowPath: leveraging large language model prior reasoning paths for dynamic self-reflective reasoning via knowledge graph subgraph exploration,2026,Expert Systems with Applications,crossref
+9083,ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning,2024,2024 IEEE International Conference on Robotics and Automation (ICRA),crossref
+9089,Iterative Semantic Refinement: A Vision Language Model-Driven Approach to Auto-Regressive Image Editing,2025,2025 9th International Symposium on Innovative Approaches in Smart Technologies (ISAS),crossref
+9093,Self-Reflection in Large Language Model Agents: Effects on Problem-Solving Performance,2024,2024 2nd International Conference on Foundation and Large Language Models (FLLM),crossref
+9096,DyFIRER: A Dynamic Feedback Iterative Multi-Agent Framework for Open Relation Extraction Based on Large Language Models,2026,Applied Sciences,crossref
+9117,A closed-loop feedback framework based on large language models for iterative optimization in medical record generation,2026,International Symposium on Robotics and Artificial Intelligence (ISRAI 2025),crossref
+9131,Iterative Self-Correction for Text-Driven Person Re-Identification with Large Vision-Language Models,2026,Findings of the Association for Computational Linguistics: ACL 2026,crossref
+9170,"Multi-Criteria Evaluation of Hierarchical Reasoning, Self-Correction, and Factual Consistency in Large Language Models across Complex Language Tasks",2026,Journal of Innovative Research and Technology,crossref
+9175,LLMSR@XLLM25: SWRV: Empowering Self-Verification of Small Language Models through Step-wise Reasoning and Verification,2025,Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling (XLLM 2025),crossref
+9184,Not an Illusion but a Manifestation: Understanding Large Language Model Reasoning Limitations Through Dual-Process Theory,2025,Applied Sciences,crossref
+9197,Refining Reasoning Chains through Self Correcting Reinforcement Learning Architectures for Mitigating Logical Hallucinations in Large Language Models,2026,International Journal of Artificial Intelligence Research,crossref
+9214,GraphReason: Enhancing Reasoning Capabilities of Large Language Models through A Graph-Based Verification Approach,2024,Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024),crossref
+9242,A cost-effective approach for knowledge graph reasoning path retrieval and enhanced large language model reliability,2026,PeerJ Computer Science,crossref
+9263,A Closed-Loop Modular Language Agent with Step Verification and Local Correction for Multi-Step Task Solving,2026,Electronics,crossref
+9269,Knowledge-Augmented Language Model Verification,2023,Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing,crossref
+9426,Critic-CoT: Boosting the Reasoning Abilities of Large Language Model via Chain-of-Thought Critic,2025,Findings of the Association for Computational Linguistics: ACL 2025,crossref
+9429,CriticEval: Evaluating Large-scale Language Model as Critic,2024,Advances in Neural Information Processing Systems 37,crossref
+9460,Winning Isn't Reasoning,2026,The International FLAIRS Conference Proceedings,crossref
+9484,Search-on-Graph: Iterative Informed Navigation for Large Language Model Reasoning on Knowledge Graphs,2026,Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2,crossref
+9515,IVC-DB: Iterative verification correction method guided by dual-Backward mathematical reasoning in large language models,2026,Knowledge-Based Systems,crossref
+9531,Adaptive Test-Time Reasoning with Uncertainty-Guided Verification: Enhancing Intrinsic Reasoning Capabilities of Large Language Models,2026,2026 International Conference on Computer Intelligence and Software Engineering (CICSE),crossref
+9553,Derailer-Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning,2025,Findings of the Association for Computational Linguistics: ACL 2025,crossref
+9614,A Modular Multi-Agent Coordination Framework for Persistent Autonomous AI Assistants with Tool Orchestration and Long-Horizon Task Management,2026,International Journal of Innovative Science and Research Technology,crossref
+9615,Toward Scalable LLM-Based Multi-Agent Collaboration: A Dynamic Task Graph Approach with Asynchronous Parallel Execution,2026,Electronics,crossref
+9616,ReflectiChain: Mitigating Semantic-Execution Drift in Long-Horizon LLM Agents via Retrospective Reflection and Double-Loop Policy Adaptation,2026,Electronics,crossref
+9650,VerifyLLM: LLM-Based Pre-Execution Task Plan Verification for Robots,2025,2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),crossref
+9662,"Thought Management System for long-horizon, goal-driven LLM agents",2026,Journal of Computational Science,crossref
+9840,AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration,2025,Findings of the Association for Computational Linguistics: EMNLP 2025,crossref
+9845,EDAgent: A Concurrent Orchestration Method for Collaborative LLM Multi-Agent System,2026,2026 IEEE 46th International Conference on Distributed Computing Systems (ICDCS),crossref
+9850,"Autonomous Evaluation Architectures: Multi-Agent LLM Pipelines, Browser-Grounded Testing: Programmatic Alignment via DSPy, and Adversarial Robustness in Production Orchestration Systems",2026,Computer Fraud and Security,crossref
+9855,Adaptive Orchestration with Cross-Episode Memory for Dynamic LLM-based Agent Pools,2026,WOCHAT2026: Workshop on Chatbots and Agentic Technologies,crossref
+9904,LLM Enabled Multi-Agent System for 6G Networks: Framework and Method of Dual-Loop Edge-Terminal Collaboration,2026,IEEE Communications Magazine,crossref
+9931,Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent,2025,Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing,crossref
+9964,Artificial intelligence orchestration for text-based ultrasonic simulation via self-review by multi-large language model agents,2025,Scientific Reports,crossref
+9969,AGENTIC AI FOR ENTERPRISE WORKFLOW AUTOMATION: IMPACT AND ARCHITECTURAL PRINCIPLES FOR MULTI-AGENT ORCHESTRATION,2026,International Journal of Research in Commerce and Management Studies,crossref
+10029,STAR: Steelmaking Task-Aware Routing for Multi-Agent LLM Expert Systems,2026,Electronics,crossref
+10074,"Emergent Autonomous Sub-Agent Spawning in LLM-Based Multi-Agent Software Engineering Systems:An Empirical Case Study, Controlled Pilot Experiment, and Benchmark Framework""Can AI Agents Have Babies?""",2026,International Journal of Research and Scientific Innovation,crossref
+10096,LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination,2024,International Joint Conference on Autonomous Agents and Multiagent Systems,crossref
+10122,Ethical Coordination of LLM Multi-Agent Systems,2026,Electronics,crossref
+10136,"Are Agents Listening to Each Other? Measuring What Drives Agent Actions in
+                    <scp>LLM</scp>
+                    ‐Based Multi‐Agent Systems",2026,Expert Systems,crossref
+10271,Self-reflection enhances large language models towards substantial academic response,2025,npj Artificial Intelligence,crossref
+10274,Self-ReS: Self-Reflection in Large Vision-Language Models for Long Video Understanding,2025,2025 IEEE International Conference on Multimedia and Expo (ICME),crossref
+10276,Self-Referential Introspection in Large Language Models: The Critical Threshold for Recursive Self-Improvement,2026,Entropy,crossref
+10277,Iterative Self-Improvement of Vision Language Models for Image Scoring and Self-Explanation,2025,2025 IEEE International Conference on Image Processing (ICIP),crossref
+10311,Enhancing Logical Reasoning Depth via Monte Carlo Tree Search Integrated Reinforcement Learning for Advanced Large Language Model Thinking Processes,2026,International Journal of Artificial Intelligence Research,crossref
+10326,Improving Exploration Efficiency in Complex Reasoning Tasks via Guided Reinforcement Learning and Large Language Model Heuristic Search Strategies,2026,International Journal of Artificial Intelligence Research,crossref
+10351,A Tree-Based Search Algorithm with Global Pheromone and Local Signal Guidance for Scientific Chart Reasoning,2025,Mathematics,crossref
+10374,Trustworthy Agentic AI: Balancing Autonomy with Human Oversight,2025,International Journal of Computer Science and Mobile Computing,crossref
+10432,Rationality Meets Irrationality: Incentivizing Dual Cognitive Loop for LLM-Based Agent in Social Simulation,2026,IEEE Transactions on Computational Social Systems,crossref
+10547,Feedback Loops and Code Perturbations in LLM-Based Software Engineering: A Case Study on a C-to-Rust Translation System.,2026,SANER,dblp
+10564,"Fail Fast, or Ask: Mitigating the Deficiencies of Reasoning LLMs with Human-in-the-Loop Systems Engineering.",2025,CoRR,dblp
+10565,Feedback Loops and Code Perturbations in LLM-based Software Engineering: A Case Study on a C-to-Rust Translation System.,2025,CoRR,dblp
+10647,Towards Self-Refinement of Vision-Language Models with Triangular Consistency.,2025,NeurIPS,dblp-venue
+10652,Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs.,2025,NeurIPS,dblp-venue
+10696,Flow: Modularized Agentic Workflow Automation.,2025,ICLR,dblp-venue
+10699,AFlow: Automating Agentic Workflow Generation.,2025,ICLR,dblp-venue
+10712,Scaling Autonomous Agents via Automatic Reward Modeling And Planning.,2025,ICLR,dblp-venue
+10720,AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG.,2026,ACL,dblp-venue
+10761,Learning to Refine: Self-Refinement of Parallel Reasoning in LLMs.,2026,ACL,dblp-venue
+10769,Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models.,2025,ACL,dblp-venue
+10770,Divide-Verify-Refine: Can LLMs Self-align with Complex Instructions?,2025,ACL,dblp-venue
+10773,LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning.,2026,ACL,dblp-venue
+10775,"Meeseeks: A Feedback-Driven, Iterative Self-Correction Benchmark evaluating LLMs&apos; Instruction Following Capability.",2026,ACL,dblp-venue
+10779,Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs.,2025,ACL,dblp-venue
+10781,Understanding the Dark Side of LLMs&apos; Intrinsic Self-Correction.,2025,ACL,dblp-venue
+10782,Two-Pronged Human Evaluation of ChatGPT Self-Correction in Radiology Report Simplification.,2024,ACL,dblp-venue
+10785,PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows.,2026,ACL,dblp-venue
+10786,Evolutionary Guided Decoding: Iterative Value Refinement for LLMs.,2026,ACL,dblp-venue
+10805,Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks.,2026,ACL,dblp-venue
+10848,Towards Enforcing Company Policy Adherence in Agentic Workflows.,2025,EMNLP,dblp-venue
+10855,Democratizing LLMs: An Exploration of Cost-Performance Trade-offs in Self-Refined Open-Source Models.,2023,EMNLP,dblp-venue
+10858,A Probabilistic Inference Scaling Theory for LLM Self-Correction.,2025,EMNLP,dblp-venue
+10913,A²Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators.,2026,AAAI,dblp-venue

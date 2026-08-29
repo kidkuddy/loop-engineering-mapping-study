@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+7943,include,I2,Solver checks logic-translated reasoning and drives refinement; the verifier itself is measured via error-detection accuracy. Mechanism: verification.
+7947,exclude,E1,"MCTS over which positions to unmask inside diffusion LM decoding; a token-level decoding search, not a language-model agent's control loop."
+8005,include,I2,"Dual-loop search with cross-problem experience memory, compared against stateless MCTS to isolate that memory. Mechanism: iteration policy plus loop state."
+8051,include,I2,"Measures how discriminator accuracy changes the payoff and cost of iterative correction and tree search versus re-ranking. Mechanism: verification, iteration policy."
+8068,exclude,E7,"MAS training framework; reported claims are task performance and token counts against single-agent and vanilla MAS baselines, not about the loop."
+8072,include,I2,Self-rewarding tree search re-queries on scored feedback and is compared against self-reflection on efficiency and scalability. Mechanism: iteration policy.
+8085,include,I2,Reports that intention propagation reduces miscoordination errors and that agents learn whom to inform; the arrangement is the studied variable. Mechanism: control topology.
+8102,exclude,E3,Benchmarks off-the-shelf ReAct and Language Agent Tree Search against simple prompting on medical exam questions; reports accuracy and latency only.
+8112,exclude,E2,"Abstract chains are decoded then reified by parallel tool calls that deliberately do not wait on responses; no control return, claims are QA accuracy and speed."
+8121,exclude,E7,LLM search with quantum-chemistry feedback built for catalyst discovery; the reported claim is catalyst quality against expert descriptor baselines.
+8137,exclude,E4,"Auction simulation benchmark for bidding agents; it measures budget management and goal adherence, not a loop property such as termination or retries."
+8165,exclude,E7,"neoplanner combines UCB state-space search with LLM queries and stored trial learnings, but the only reported claim is 124% higher average reward in ScienceWorld."
+8170,include,I2,"Modular planner compared against tree-of-thought and multi-agent debate on the same tasks, so the module arrangement is the studied variable. Mechanism: control topology."
+8173,include,I2,"Plan long horizon, act one step, replan from the memory buffer, with a proved sqrt(T) regret bound on interactions. Mechanism: iteration policy."
+8191,exclude,E7,"Introspective MCTS for AutoML agents, but the reported claim is a 4% absolute gain over open-source AutoML agents on ML tasks."
+8233,include,I2,"Design argument for HITL as a separate runtime component, formalizing intervention conditions and how control returns. Mechanism: iteration policy (whether the run proceeds)."
+8246,exclude,E2,"Event assistant built from prompt engineering, retrieval grounding and human validation during development; no iterative runtime control is described."
+8260,exclude,E1,"Mini-review of mobile manipulators with variable autonomy; the loop is robot teleoperation and human-robot teaming, not a language-model agent loop."
+8316,exclude,E1,Bayesian Theory-of-Mind collaborative planning agent guiding a human; no language model and no LLM agent loop.
+8326,include,I2,"LLM-guided A* with human feedback on intermediate plans, reporting search-space efficiency against A* and RL, a property of the search. Mechanism: iteration policy."
+8328,exclude,E5,Aggregates the metrics other authors report into an autonomy-axis taxonomy and leaderboard for Text-to-SQL; a secondary study.
+8340,include,I2,"Argues explicitly for specifying graduated authority, oversight and how control is returned to humans at runtime. Mechanism: iteration policy and termination."
+8358,exclude,E7,Two multi-agent systems for screening and extraction; claims are screening accuracy over a single-LLM baseline and reproduction of a published meta-analysis.
+8365,exclude,E1,"Tutorial survey of human-in-the-loop ML for autonomous vehicles: curriculum learning, RL reward shaping, active learning; not a language-model agent loop."
+8389,exclude,E7,Autonomy-assessment framework scored in a beer distribution game; the reported claim links autonomy scores to supply-chain tier costs.
+8390,exclude,E5,"Vision and roadmap for agentic software project management: working modes, role evolution and a research agenda, with no method or evaluation."
+8401,exclude,E7,Five-level autonomy framework allocating SOC tasks between humans and AI; claims are SOC outcomes such as alert fatigue and response coordination.
+8418,exclude,E3,Case study using an off-the-shelf agentic LLM to generate R code under step-by-step human review; results are environmental-health findings at Superfund sites.
+8443,exclude,E5,"Review of LLM-assisted coding risks with a behavior taxonomy, framework comparisons and a research roadmap; no mechanism is evaluated."
+8455,exclude,E2,"Semantic classification plus one-shot LLM draft responses with staff review; no iterative control, results are routing accuracy and resolution time."
+8467,exclude,E5,"Perspective piece reflecting on existing literature about bias, interpretability and security in LLM code generation; no loop and no method."
+8491,exclude,E5,Conceptual framework organizing GenAI application areas in marketing plus ethics principles; no agent loop is studied.
+8499,exclude,E5,"Encyclopedia state-of-the-art overview of AI, AI literacy and policy in higher education."
+8506,exclude,E5,Literature review of ChatGPT's effects on human-computer interaction and user psychology.
+8514,exclude,E2,"Writing assistant with visual programming and draft prototyping, evaluated by a usability lab study; no autonomous iterative control."
+8515,exclude,E5,Scoping review of LLMs and generative AI in telehealth across six databases.
+8524,exclude,E5,"Literature-based conceptual analysis of AI adoption barriers in SMEs via TOE-DOI, with a six-phase roadmap; no agent loop."
+8526,exclude,E5,"Perspective review comparing LLMs and text mining for food-health evidence; advocates hybrid approaches, no mechanism studied."
+8528,include,I2,"Gates diagnose failure modes and recommend loopbacks; evaluated against an ungated baseline on matched tasks, failure severity 1.58 to 1.16. Mechanism: verification and retry."
+8529,exclude,E7,"Proposed neuro-symbolic PTSD follow-up architecture with an HITL interface; comparative claims are contextual alignment, privacy and clinician supervision."
+8533,exclude,E2,"Prompt engineering then chain-of-thought classification with escalation routing; reported claims are classification accuracy and empathy scores, no control return."
+8544,exclude,E5,"Survey of LLM-driven driver monitoring and assistance systems, their frameworks, benchmarks and datasets."
+8551,exclude,E5,"Cross-layer narrative review of agentic AI architectures, threat taxonomies and governance strategies."
+8556,exclude,E5,"Theoretical-conceptual paper on authorship and knowledge lineage integrating philosophy, Islamic epistemology and institutional practice; no agent loop."
+8557,exclude,E2,"Interview and focus-group study around an LLM advice probe for procrastination; single-pass generation, no iterative control studied."

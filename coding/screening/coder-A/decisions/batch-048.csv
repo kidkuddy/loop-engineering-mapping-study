@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+6077,exclude,E7,"Meta-agent decomposition/allocation framework; the only claim is beating single-agent systems and existing planning strategies on real-world tasks, not evidence about its feedback loop."
+6078,include,I2,Action knowledge base constrains which action is chosen next (iteration policy); reports planning-hallucination mitigation analysis beyond HotpotQA/ALFWorld accuracy.
+6080,include,I2,"Plan-verify-execute-reflect cycle is the contribution (verification); measures a loop property, 34% fewer replanning counts on long-term Minecraft tasks."
+6081,include,I2,Empty abstract; title names adaptive replanning as the framework's contribution (retry/repair).
+6085,exclude,E5,Survey of LLM-based embodied task planning organised into a three-paradigm taxonomy.
+6088,exclude,E4,"Benchmark measuring spatial and temporal-causal planning ability of foundation models, not a loop property such as retries or termination."
+6093,include,I2,The LLM failure-recovery mechanism is the contribution (retry/repair); 120 generated recovery plans scored against seven executability criteria.
+6097,exclude,E5,Survey of LLM planners assessed against six performance criteria.
+6098,include,I2,"Controlled study isolating planning horizon, full-horizon with lazy replanning versus single-step, as the variable: iteration policy compared to an alternative."
+6100,exclude,E7,"Ablation removes Theory-of-Mind inference, not the verification or replanning loop; claims are interaction steps and trust ratings on a construction task."
+6101,exclude,E5,PRISMA systematic review of foundation models for mobile service robotics.
+6105,exclude,E1,"Path planning by metaheuristics, fuzzy systems and RL/DRL navigation; no language-model agent loop."
+6106,exclude,E5,"Review of LLM reasoning, planning and decision-making capabilities."
+6111,exclude,E5,"Survey of LLM-based scientific agents: architectures, benchmarks, applications, ethics."
+6113,exclude,E7,"Industrial multi-agent task-automation framework; presents no evidence about its planning/execution loop, only asserted reliability and scalability."
+6114,exclude,E7,"Hybrid Q-learning/DQN with LLM policy refinement; claims are deadlock recovery, time-to-goal and collision rates."
+6115,exclude,E7,"UAV cooperative path-planning system; claims are mission success rate, collisions, path length and sample efficiency against RL baselines."
+6118,include,I2,"Replaces sequential ReAct reasoning with planner, task-fetching unit and parallel executor (iteration policy); measured as latency and cost against ReAct."
+6120,exclude,E7,"Perspective proposing a dual-lane agentic architecture for chemical kinetic model development; claims concern decision-grade models, not the loop."
+6135,exclude,E7,"Voice-to-action system for a mobile manipulator; reports component-level seeking, navigation and manipulation performance on a search task."
+6140,include,I2,Online failure identification and recovery is the contribution (retry/repair); detection and recovery both measured against an LLM-only baseline.
+6141,include,I2,A dynamic value system decides which activity the agent proposes and does next (iteration policy); rationality and variability of the chosen activities compared with other LLM agents.
+6146,exclude,E7,"Recursive evaluation and adaptive planning modules proposed, but the reported claims are multi-hop QA accuracy against RAG baselines."
+6148,exclude,E5,"Empirical study over 997 papers, 1509 GitHub projects and a practitioner survey on LLM use in UAV projects; no loop mechanism."
+6149,exclude,E7,"GA task allocation with an LLM replanning module; claims are harvesting productivity, human idle time and fleet scaling."
+6150,exclude,E7,"Hypothesis-verification-replanning weather-diagnosis system; evidence is diagnostic performance on its new benchmark, not the closed loop."
+6152,exclude,E7,Two-stage Qwen2-VL planner for spatial semantics; claims are relation-extraction completeness and execution success rate.
+6154,exclude,E5,Systems-perspective reorganisation of existing agent research into a sensing/communication/decision/execution taxonomy.
+6156,include,I2,"Systematic study of where procedural memory is placed and how retrieved across orchestrator and task agents (loop state), with OfficeBench results per placement."
+6157,exclude,E7,"Federated platform claim is decomposition accuracy, startup and tail latency from container orchestration; contribution is resource management, not loop control."
+6159,exclude,E7,"Perspective proposing an orchestrator-plus-specialist agent framework for urban water workflows; barrier analysis only, no mechanism evidence."
+6160,exclude,E5,Review and novel taxonomy of agentic and LLM-based multimodal anomaly detection.
+6162,include,I2,Models where confirmation checkpoints should fall mid-run (verification); 48-participant study comparing intermediate confirmation against confirm-at-end.
+6163,exclude,E7,"Skill-state-graph planner with closed-loop replanning; claims are planning success, token overhead and task success in mobile manipulation."
+6165,exclude,E7,Hierarchical post-training of a VLA planner and executor; claims are success rates on manipulation benchmarks.
+6167,exclude,E7,"Skill-centric hierarchical framework with a unified VLA model; claim is 50% higher success rate on unseen objects, scenes and tasks."
+6169,exclude,E7,"Self-reflection and self-evolution modules proposed, but the reported claims are success rate and execution efficiency over a single-robot baseline."
+6172,include,I2,Planner performs outcome verification and error-driven correction; ablations confirm the effect of structured memory and closed-loop recovery (retry/repair).
+6176,exclude,E4,Doctoral dissertation on situated language grounding; book-length record whose contributions are grounding models and benchmarks.
+6177,exclude,E7,"Curriculum-managed 64x64 agent grid; claims are stability, oracle usage and reasoning on a Tower of Hanoi benchmark."
+6181,include,I2,Formalises a design space for human-in-the-loop plan revision and benchmarks how LLMs revise plans under varying scope and revision strategy (iteration policy).
+6182,exclude,E7,LTLf grounding with a receding-horizon replanning loop; claims are success rate and interaction fluency in multi-robot handover.
+6183,exclude,E7,"Self-QA zero-shot planner with visually grounded replanning, but the evidence is ALFRED benchmark metrics against planning models."
+6184,include,I2,Step verification acts as a process-level control signal with local regeneration then replanning (retry/repair); reports 85.7% regrounding and 53.3% replanning recovery rates.
+6185,exclude,E2,The LLM is invoked once to emit a task DAG; the studied scheduler is a classical online allocator with no iterative language-model control loop.

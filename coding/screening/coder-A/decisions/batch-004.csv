@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+338,exclude,E7,"Agentic loop generates tests; reported claims are coverage, fault detection and developer survey on eight Java apps, not about the loop's planning/reflection phases."
+339,include,I2,Contribution is the GWT selection-and-broadcast hub governing multi-agent loops (control topology); argues for and evaluates the orchestration itself vs unconstrained loops.
+340,exclude,E7,"Authors' generator-evaluator-optimizer loop compiles IoT sampling policies; claims are RMSE against classical baselines and random search, i.e. task outcomes."
+341,include,I2,Tests LLM-jury agreement used as the stopping criterion for agent loops (termination/verification); measures the mechanism on a legal gold set and shows it floors on confident error.
+342,exclude,E7,"Corrective agentic RAG loop built for education; reported claims are hallucination reduction, retrieval diversity and latency versus standard RAG, i.e. task outcomes."
+343,include,I2,Controlled ablation shows stateful refinement beats stateless by 8.5-10.6 pp and cuts repeated failures 3.5x: evidence about the retry/repair loop and its carried state.
+344,exclude,E2,"Contribution is a causal account of rare-cue stickiness inside the model plus proposed indicators; no loop-control mechanism, loop count is only a proposed diagnostic."
+345,exclude,E4,Podcast episode summary and show notes on 'agentic tax'; not a research contribution.
+346,include,I2,"BTUP's control plane sets reasoning/output budgets, validator-driven reroute and retry/escalation to bound unbounded agent loops; argued explicitly as a design position."
+347,exclude,E5,Self-described tutorial review synthesising five enabling pillars for agentic biosensors.
+348,include,I2,"Pre-registered agent-loop study: goals with no representable terminal fail to converge (0.32 vs 0.90+), reported as a budget- and threshold-invariant loop-level termination property."
+349,exclude,E7,"Authors built an edit-run-read-revise loop, but every reported claim is CT reconstruction benchmarking: headroom scores, tier rankings and noise robustness."
+354,exclude,E1,NATO reference architecture for autonomous cyber-defense agents on military networks; not a language-model agent's control loop.
+366,exclude,E7,Context-engineering pipeline with Claude Code sub-agents; claims are higher single-shot success rates and state-of-the-art performance on repositories.
+367,exclude,E2,"Reference architecture translating natural language into provenance queries via prompt tuning and RAG; no iterative runtime control, evaluated on query answer accuracy."
+369,include,I2,"Names the proposer-verifier-commit-reject boundary as the primitive and argues explicitly for pattern choice (verification, control topology) via a methodology and reliability decomposition."
+370,include,I2,"Measures how induced OCEAN traits change task selection, planning and scheduling in the agent, i.e. the iteration policy itself, rather than end-task performance."
+372,exclude,E1,"3D-stacked chiplet interconnect architecture for LLM serving; hardware, no agent loop."
+373,exclude,E7,"Contribution is the UReCoM prompt-injection attack on deployed agents; claims are attack success against prevention and detection defenses, not about loop control."
+377,exclude,E3,Zero-trust infrastructure wrapped around nine off-the-shelf healthcare agents; reported results are 90-day deployment findings and fleet hardening.
+380,exclude,E7,"Three-layer architecture evaluated on 2000 synthetic tasks; claims are latency, energy and offline completion rates against cloud-centric and edge-only baselines."
+383,exclude,E1,Empathic agent framework built on utility functions and shared values with a prototype in a general-purpose language; not a language-model agent's loop.
+384,exclude,E1,Hardware and model co-design analysis of DeepSeek-V3 training infrastructure; no agent loop.
+389,exclude,E1,Model-free deep Q-learning over a PL-POMDP with LTL specifications; reinforcement learning with no language-model policy.
+391,exclude,E7,Production browser-agent experience report; the reported claim is roughly 85% success on 53 WebGames challenges against prior agents.
+393,exclude,E5,"Secondary study: audits what twelve existing agent benchmark papers disclose, scoring their reporting rather than any loop mechanism."
+395,exclude,E2,Survey of 130 professionals' perceptions of multi-agent AI adoption and governance; no agent loop is studied.
+397,exclude,E7,Production multi-agent incident-resolution architecture; the reported claim is autonomous resolution rates above 90% for common incident categories.
+400,exclude,E7,"Synergy is a general-purpose agent architecture and runtime harness; the paper argues for agent identity and lifelong evolution, offering no claim about its loop mechanism."
+401,include,I2,"ProgRouter's progress-guided step-wise selection of which LLM runs next under time and cost budgets is the contribution, compared against one-shot cascade routing methods."
+403,exclude,E7,Multi-agent claim-verification system; the reported claim is 94.3% versus 88.7% accuracy on TabFact.
+404,exclude,E7,"Large-scale social simulation platform; the deployment evidence is market stylized facts, wealth stratification and profile evolution across tens of thousands of agents."
+407,exclude,E7,"RepairAgent's finite state machine guides tool invocation, but the reported claims are 164 Defects4J bugs repaired and cost per bug, with no evidence about the FSM itself."
+408,exclude,E7,"AgentGuard is a four-phase pipeline that discovers unsafe tool workflows and emits constraints; claims are feasibility of the safety evaluation, not loop control."
+410,exclude,E7,ANX is an agent interaction protocol and decoupled architecture; reported claims are 47-66% token reductions and shorter execution time on form filling.
+415,exclude,E7,"Hierarchical LangGraph multi-agent system for delivery disruptions, scored by an LLM-as-a-Judge protocol on 30 curated scenarios."
+418,exclude,E7,"Causal Agent Replay attributes past failures to steps post hoc; validated by recovery of planted ground truth, and it governs nothing about how the loop proceeds."
+419,exclude,E5,"Multi-dimensional taxonomy and domain ontology of autonomous multi-agent architectures, illustrated by classifying representative systems."
+421,exclude,E7,ODA's observation-action-reflection cycle serves a knowledge-graph QA system; the reported claims are 12.87% and 8.9% accuracy improvements.
+422,include,I2,"The contribution is the arrangement itself: asynchronous modules over a shared global state that sustain a fault-tolerant behavioral loop, argued as a Society of Mind realization."
+424,exclude,E7,"HackSynth's Planner-Summarizer loop is evaluated by CTF solve counts across 200 challenges; the parameter study covers temperature and top-p, not the loop."
+425,exclude,E7,Contribution is an RL training framework for an ML-engineering agent; claims are task performance parity with larger proprietary models at lower cost.
+426,include,I2,Holds the activity surface fixed and varies only subtask-to-worker assignment across four configurations plus a single agent: the control topology is the studied variable.
+427,include,I2,"Studies how poisoned long-term memory persists across sessions and dictates later tool actions, with strategies per memory implementation: a claim about loop state carried between turns."
+428,exclude,E7,Multi-agent full-pipeline AutoML with retrieval-augmented planning and multi-stage verification; the reported claim is a higher success rate on seven downstream tasks.

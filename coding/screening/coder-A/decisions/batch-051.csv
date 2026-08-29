@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+6492,exclude,E7,"Self-driving-lab VLM inspection module; reported claims are localization accuracy, tenfold time reduction and workflow efficiency, not the loop mechanism."
+6493,exclude,E5,Overview piece mapping standardization gaps for GenAI RAN agent architectures; no method and no mechanism studied.
+6495,exclude,E5,"Secondary analysis of published self-healing DevOps frameworks, MTTR figures and market-adoption statistics; no primary method."
+6497,include,I2,Benchmark triggers a self-correction attempt after unit-test failure and reports error-recovery rate separately from reasoning depth; measures retry/repair.
+6498,include,I2,"Adds five augmentations (adaptive planning, error detection and recovery, global context memory) to pen-test agents and reports each one's effect; iteration policy."
+6500,exclude,E4,Android agent benchmark reporting task completion (30.6%) and task-variation robustness; measures no loop property.
+6501,exclude,E7,"Enterprise MCP control-plane platform; claims concern governance, security and scalability of an agent system, not any loop-control mechanism."
+6509,include,I2,"CAR contributes reflective replanning against myopic local retries, compared with ReAct and Plan-and-Solve on a tool-scarcity diagnostic benchmark; retry/repair."
+6510,exclude,E7,"Distilled 32B agent model; claims are success rates on AgentBench, MMLU-Pro and MATH-500, not evidence about its error recovery or meta-cognition head."
+6511,exclude,E7,MobA's reflection and memory modules are reported only through task performance on MobBench and AndroidArena; no claim about the recovery mechanism itself.
+6513,exclude,E5,Survey of over 200 studies with a taxonomy of healthcare AI agents.
+6515,include,I2,Engine-governed DAG routing is the studied variable against prompted orchestration; reports zero framework-induced hallucinations and per-memory-tier ablations; control topology.
+6517,exclude,E4,"Benchmark for trajectory-level reward models; it measures judge accuracy on preference pairs, not a loop property."
+6518,include,I2,Six-verb protocol with verify and recover phases; comparison against CRUD baselines reports 5.8x better autonomous error recovery and 72.7% fewer human interventions; verification.
+6520,include,I2,Argues explicitly for adaptive tool-budget allocation and structured error-recovery semantics as missing MCP primitives; termination budgets and retry/repair.
+6521,exclude,E2,"A 1B model converts task descriptions into behavior trees in one shot; claims are BT generation success rates and inference speed, with no iterative control studied."
+6522,exclude,E5,"Narrative review of tool-use, orchestration and error-recovery literature; no primary method."
+6523,exclude,E7,"CLEANER purifies RL training trajectories; reported claims are AIME, GPQA and LiveCodeBench accuracy gains, not evidence about runtime loop control."
+6524,include,I2,Construction- and execution-time verification gates plus three-level error attribution driving retries or re-decomposition; ablations report error recovery and workflow stability; verification.
+6525,exclude,E7,GIS benchmark plus Plan-and-React architecture judged by parameter execution accuracy and cartographic correctness; domain task outcomes.
+6527,include,I2,Petri-net dispatcher enforces retry budgets guaranteeing termination; 200 generation cycles compare two error-recovery strategies; termination and retry/repair.
+6528,exclude,E3,"Off-the-shelf agents (Claude Code, Codex) drive a manipulator through a browser interface with no modification; results are LIBERO task success rates."
+6531,exclude,E7,"Agentic executors in Java microservices; case study reports throughput, recovery time and developer effort rather than evidence about the loop mechanism."
+6532,include,I2,"Compares fully autonomous, self-scaffolded and expert-defined planning modalities for red-team agents, reporting completion rates and failure modes per mode; iteration policy."
+6533,include,I2,"Compares a fixed workflow with reflective agent variants; process measures of retries, reflection, memory use and failure recovery are primary, extraction coverage secondary; iteration policy."
+6534,exclude,E7,"kai iteratively generates notebook analyses; claims are cell-type annotation performance, code-error robustness and sycophancy in a biology domain."
+6537,include,I2,"1,000-task MCP benchmark whose diagnostic taxonomy measures premature stopping after successful tool execution as a distinct failure class; termination."
+6538,exclude,E7,"LLM-orchestrated qubit calibration; claims are 108 of 112 qubits calibrated, 4-5x speedup and expert agreement, all task outcomes."
+6540,include,I2,"FSM state model guides planning, execution verification and recovery; reports recovery rates (71.9%, 66.7%) and +13.8% recovery over prior methods; loop state and retry/repair."
+6541,exclude,E7,Pen-test system claims 47.7% subtask completion and root access on HTB targets against PentestGPT baselines; domain outcomes.
+6545,include,I2,Deterministic shortest-path rerouting on tool failure reserves the LLM for infeasible paths; measures 93% fewer control-plane LLM calls and no silent failures; retry/repair.
+6546,exclude,E7,"Multi-agent FEM framework whose ablation studies the knowledge graph's effect on physics scores and material fidelity, not the loop."
+6547,include,I2,White-box benchmark measuring execution dynamics across 21 variants; finds self-healing retries act as cost multipliers on unviable workflows; retry/repair.
+6548,exclude,E7,"CAT data layer for declaring agent tool access; the evaluation reports which of 22 models succeed on 115 tasks, not loop-mechanism evidence."
+6549,exclude,E7,Neuroimaging pipeline agent; claims are preprocessing step correctness and Alzheimer's classification AUC of 0.95.
+6552,exclude,E2,"Replication comparing natural-language with structured tool calling; measures per-call accuracy, critical errors and tokens, with no iterative control mechanism studied."
+6554,include,I2,"Three-way comparison of no memory, full history and selective persistent memory shows full history degrades completion; state carried across sessions to steer the agent; loop state."
+6555,exclude,E7,Artifact-evaluation agent; claims are badge agreement with human adjudication (70.56%) and reviewer confidence.
+6556,exclude,E7,Trainable SRE multi-agent framework; claims are AIOpsLab success rates from GRPO training and failure-trajectory mining.
+6557,exclude,E7,"RTL verification framework; claims are line, branch, toggle and functional coverage on eight designs."
+6558,exclude,E2,DSL constrains the action space for one-shot generation of analysis specifications; claims are 93% less human code and 95% generation success.
+6559,include,I2,"Compares Skills Architecture against MCP on context carried across long sessions, reporting 42% lower context entropy and error recurrence falling from 0.34 to 0.09; loop state."
+6562,include,I2,"Runs 22 frameworks and attributes failures to orchestration: uncontrolled context growth, retry storms costing $1,434, quota exhaustion from iterative calls; iteration policy."
+6563,include,I2,"Encodes 347 ReAct traces as plan/execute/verify sequences, finds a 2.1% execute-to-verify transition, then deploys Governor intervention (+6.2% success, -44% tokens); verification."
+6564,exclude,E7,"Kubernetes management agent; claims are a 75% scenario pass rate, query resolution, latency and cost, all domain outcomes."

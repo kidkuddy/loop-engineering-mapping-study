@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+579,exclude,E7,"Framework for autonomous test-generation agents; the reported claims are coverage, defect detection and CI/CD resource use, not the feedback-aware loop itself."
+580,exclude,E5,"Reference architecture, taxonomy of multi-agent topologies and a hardening checklist synthesised from industry platforms; an overview, not a studied mechanism."
+581,include,I2,PID/EKF inner loop decides when the LLM is invoked at all; 60x latency and 99% token reduction vs CoT agents measure the loop itself. Mechanism: iteration policy.
+582,exclude,E1,"LLMs as sequence completers for low-level robot control and a CartPole stabilizing controller; the closed loop is a control-theoretic policy, not an agent loop."
+585,exclude,E5,"Narrative overview of how LLM-augmented automation extends AIOps and autonomous DB tuning; architectural analysis of a trend, no mechanism studied."
+587,exclude,E5,"Systematic review mapping GenAI literature across buildings, grids and urban energy systems for 2021-2025."
+589,exclude,E1,"Survey of multi-modal foundation models for 6G SAGINs; the control loops are radio/network control loops with FM predictors, not LLM agent loops."
+590,include,I2,Reflexion episodic-memory loop is the central contribution and is ablated: removing it raises latency anomalies by ~33%. Mechanism: retry/repair after failed interventions.
+591,exclude,E7,Thesis builds a cyber-immune architecture of regulated defense control loops but only offers a roadmap for making them measurable; claims are defense outcomes.
+593,exclude,E7,"LASSA agent architecture for UUV fault tolerance; the evidence is mission outcomes from lake trials (turn radius replanned 4m to 12m, mission completed), not the loop."
+594,exclude,E5,"Taxonomy-driven survey of agentic LLM systems along autonomy, tool use, collaboration and safety-governance axes."
+595,include,I2,"Structured agent state carried across iterations with explicit update rules is the contribution, and the paper argues that state is the key enabler. Mechanism: loop state."
+596,exclude,E7,"Closed-loop LLM control of a phytosensor farm; reported claims are 35% shorter production cycle and 18-67.9% energy savings, i.e. application outcomes."
+597,exclude,E4,"Opinion piece stating a memory dilemma for RAG-backed agents; no method, no system and no evidence in the abstract."
+598,exclude,E2,"Domain assistant from fine-tuning plus RAG under expert oversight; a four-level development path and a Level-1 conversational prototype, no runtime iterative control."
+599,exclude,E5,"Proposes the LAUS architecture but the paper reviews enabling technologies, analyses threats and lists open research challenges."
+602,include,I2,Controlled comparison of context-management and LLM-driven reflection inside a privilege-escalation loop; reflection-based state doubled success 33%-66%. Mechanism: loop state.
+604,exclude,E5,"Consolidates recent advances in telemetry, digital twins and agentic components and identifies trends in current literature on optical network automation."
+605,exclude,E5,Meta-synthesis drawing four prior studies together into a layered reference architecture; a secondary study.
+606,exclude,E5,"Surveys open-source agents, derives a unified architecture and analyses attack vectors; claims are about isolation and privilege separation, not loop control."
+608,include,I2,Homeostatic regulation layer with internal state vectors governs the agent's next action; evidence is longitudinal telemetry of the regulation itself. Mechanism: loop state.
+612,exclude,E7,"Modular reference architecture splitting on-device from cloud agents plus a governance layer; the analysis is latency, energy and deployment trade-offs, not the loop."
+613,exclude,E5,"Review of LLM integration levels in traffic systems through an information-theoretic lens, ending in a research agenda."
+615,include,I2,P&ID-grounded validation gates each LLM proposal before execution; an error-injection study over 43 proposals (100% recall) and B0-B3 baselines measure the gate. Mechanism: verification.
+620,include,I2,"Reflection is instantiated as a closed-loop controller with external verifiers gating action release and memory updates, evaluated across 8 CWEs and 4 LLMs. Mechanism: verification."
+621,exclude,E5,Survey letter on existing LLM-based single-agent and multi-agent RL frameworks with future research directions.
+622,exclude,E5,Survey of agentic recommender systems with an autonomy taxonomy and a review of evaluation methodologies.
+624,exclude,E7,"Five-layer cognitive ICT architecture validated by industrial case studies; claims are 60% less downtime, 41% energy saving and 95% interoperability."
+625,exclude,E5,"Systematically reviews principles, methodologies and applications of Graph Engineering for LLM agent systems."
+626,exclude,E5,Comprehensive review of agentic AI architectures and control frameworks for smart grids.
+628,exclude,E5,Literature review of how LLMs are used in high-level software testing.
+629,exclude,E7,EvoPINN's agentic discovery loop is judged only by relative L2 error against PINN baselines; the verification and memory-conditioned proposal steps are not evaluated as such.
+630,exclude,E5,Review of 49 studies mapped onto a seven-dimensional taxonomy of LLM-based healthcare agents.
+631,exclude,E7,Multi-agent orchestration framework whose reported claims are 23.4% higher task accuracy and 31.7% fewer tokens against baselines; ablations report task accuracy.
+633,exclude,E2,Deterministic rule agents compute supervisory states and an LLM answers operator queries over the enriched logs; control never returns to the agent.
+634,exclude,E7,"Open-source UAV agent framework; the abstract reports capabilities, skills and supported simulators, with no evidence about its closed-loop decision mechanism."
+635,exclude,E1,The loop is the O-RAN non-RT/near-RT RIC control loop; the contribution is PPO-based fine-tuning of an LLM policy for radio network control.
+637,include,I2,Position paper arguing that decision-making and self-regulation must be internalized in the system rather than assembled from external scaffolding. Mechanism: iteration policy.
+638,exclude,E4,"IEEE DataPort record: a STIX threat-matrix knowledge base of tactics, techniques and mitigations, with no method."
+639,include,I2,"Stateless vs stateful ReAct compared on loop cost directly: 90% and 52% fewer tokens at equal quality, O(n) to O(1) per iteration. Mechanism: loop state."
+640,exclude,E1,"Review of vision-based robot navigation; the loops are SLAM loop closure and classical planning/control, with no language-model agent."
+641,exclude,E7,"ADAF's closed-loop provisioning is judged by provisioning time (-92%), cost (-43%) and MTTD; the claims are operational outcomes."
+647,exclude,E7,"Three-module agentic architecture demonstrated by solving tasks on three robot platforms; the claim is cross-embodiment task success, not the arrangement as a variable."
+649,exclude,E5,"Abstract empty; the title names an evolution of digital twins toward agentic systems, a perspective piece, not a loop mechanism."
+651,exclude,E5,"Survey of aerial vision-and-language navigation methods, benchmarks and seven open problems."

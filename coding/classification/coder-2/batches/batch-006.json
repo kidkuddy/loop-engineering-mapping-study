@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 1366,
+  "title": "Can Large Language Models Really Improve by Self-critiquing Their Own Plans?",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There have been widespread claims about Large Language Models (LLMs) being able to successfully verify or self-critique their candidate solutions in reasoning problems in an iterative mode. Intrigued by those claims, in this paper we set out to investigate the verification/self-critiquing abilities of large language models in the context of planning. We evaluate a planning system that employs LLMs for both plan generation and verification. We assess the verifier LLM's performance against ground-truth verification, the impact of self-critiquing on plan generation, and the influence of varying feedback levels on system performance. Using GPT-4, a state-of-the-art LLM, for both generation and verification, our findings reveal that self-critiquing appears to diminish plan generation performance, especially when compared to systems with external, sound verifiers and the LLM verifiers in that system produce a notable number of false positives, compromising the system's reliability. Additionally, the nature of feedback, whether binary or detailed, showed minimal impact on plan generation. Collectively, our results cast doubt on the effectiveness of LLMs in a self-critiquing, iterative framework for planning tasks."
+ },
+ {
+  "paper_id": 1367,
+  "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Self-correction in text-to-SQL is the process of prompting large language model (LLM) to revise its previously incorrectly generated SQL, and commonly relies on manually crafted self-correction guidelines by human experts that are not only labor-intensive to produce but also limited by the human ability in identifying all potential error patterns in LLM responses. We introduce MAGIC, a novel multi-agent method that automates the creation of the self-correction guideline. MAGIC uses three specialized agents: a manager, a correction, and a feedback agent. These agents collaborate on the failures of an LLM-based method on the training set to iteratively generate and refine a self-correction guideline tailored to LLM mistakes, mirroring human processes but without human involvement. Our extensive experiments show that MAGIC's guideline outperforms expert human's created ones. We empirically find out that the guideline produced by MAGIC enhances the interpretability of the corrections made, providing insights in analyzing the reason behind the failures and successes of LLMs in self-correction."
+ },
+ {
+  "paper_id": 1376,
+  "title": "CriticBench: Benchmarking LLMs for Critique-Correct Reasoning",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "The ability of Large Language Models (LLMs) to critique and refine their reasoning is crucial for their application in evaluation, feedback provision, and self-improvement.This paper introduces CRITICBENCH, a comprehensive benchmark designed to assess LLMs' abilities to critique and rectify their reasoning across a variety of tasks.CRITICBENCH encompasses five reasoning domains: mathematical, commonsense, symbolic, coding, and algorithmic.It compiles 15 datasets and incorporates responses from three LLM families.Utilizing CRITICBENCH, we evaluate and dissect the performance of 17 LLMs in generation, critique, and correction reasoning, i.e., GQC reasoning, and analyze the key factors affecting LLM critical reasoning.Our findings reveal: (1) a linear relationship in GQC capabilities, with critiquefocused training markedly enhancing performance; (2) a task-dependent variation in critique and correction effectiveness, with logicoriented tasks being more amenable to correction; (3) GQC knowledge inconsistencies that decrease as model size increases; and (4) an intriguing inter-model critiquing pattern, where stronger models are better at critiquing weaker ones, while weaker models can surprisingly surpass stronger ones in their self-critique.We hope these insights into the nuanced critiquecorrect reasoning of LLMs will foster further research in LLM critique and self-improvement 1 ."
+ },
+ {
+  "paper_id": 1378,
+  "title": "When Hindsight is Not 20/20: Testing Limits on Reflective Thinking in Large Language Models",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent studies suggest that self-reflective prompting can significantly enhance the reasoning capabilities of Large Language Models (LLMs).However, the use of external feedback as a stop criterion raises doubts about the true extent of LLMs' ability to emulate human-like self-reflection.In this paper, we set out to clarify these capabilities under a more stringent evaluation setting in which we disallow any kind of external feedback.Our findings under this setting show a split: while self-reflection enhances performance in TruthfulQA, it adversely affects results in HotpotQA.We conduct follow-up analyses to clarify the contributing factors in these patterns, and find that the influence of self-reflection is impacted both by reliability of accuracy in models' initial responses, and by overall question difficulty: specifically, self-reflection shows the most benefit when models are less likely to be correct initially, and when overall question difficulty is higher.We also find that self-reflection reduces tendency toward majority voting.Based on our findings, we propose guidelines for decisions on when to implement self-reflection.We release the codebase for reproducing our experiments at https: //github.com/yanhong-lbh/ LLM-SelfReflection-Eval."
+ },
+ {
+  "paper_id": 1382,
+  "title": "LATTE: Improving Latex Recognition for Tables and Formulae with Iterative Refinement",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Portable Document Format (PDF) files are dominantly used for storing and disseminating scientific research, legal documents, and tax information. LaTeX is a popular application for creating PDF documents. Despite its advantages, LaTeX is not WYSWYG---what you see is what you get, i.e., the LaTeX source and rendered PDF images look drastically different, especially for formulae and tables. This gap makes it hard to modify or export LaTeX sources for formulae and tables from PDF images, and existing work is still limited. First, prior work generates LaTeX sources in a single iteration and struggles with complex LaTeX formulae. Second, existing work mainly recognizes and extracts LaTeX sources for formulae; and is incapable or ineffective for tables. This paper proposes LATTE, the first iterative refinement framework for LaTeX recognition. Specifically, we propose delta-view as feedback, which compares and pinpoints the differences between a pair of rendered images of the extracted LaTeX source and the expected correct image. Such delta-view feedback enables our fault localization model to localize the faulty parts of the incorrect recognition more accurately and enables our LaTeX refinement model to repair the incorrect extraction more accurately. LATTE improves the LaTeX source extraction accuracy of both LaTeX formulae and tables, outperforming existing techniques as well as GPT-4V by at least 7.07% of exact match, with a success refinement rate of 46.08% (formula) and 25.51% (table)."
+ },
+ {
+  "paper_id": 1384,
+  "title": "Query2CAD: Generating CAD models using natural language queries",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Computer Aided Design (CAD) engineers typically do not achieve their best prototypes in a single attempt. Instead, they iterate and refine their designs to achieve an optimal solution through multiple revisions. This traditional approach, though effective, is time-consuming and relies heavily on the expertise of skilled engineers. To address these challenges, we introduce Query2CAD, a novel framework to generate CAD designs. The framework uses a large language model to generate executable CAD macros. Additionally, Query2CAD refines the generation of the CAD model with the help of its self-refinement loops. Query2CAD operates without supervised data or additional training, using the LLM as both a generator and a refiner. The refiner leverages feedback generated by the BLIP2 model, and to address false negatives, we have incorporated human-in-the-loop feedback into our system. Additionally, we have developed a dataset that encompasses most operations used in CAD model designing and have evaluated our framework using this dataset. Our findings reveal that when we used GPT-4 Turbo as our language model, the architecture achieved a success rate of 53.6\\% on the first attempt. With subsequent refinements, the success rate increased by 23.1\\%. In particular, the most significant improvement in the success rate was observed with the first iteration of the refinement. With subsequent refinements, the accuracy of the correct designs did not improve significantly. We have open-sourced our data, model, and code (github.com/akshay140601/Query2CAD)."
+ },
+ {
+  "paper_id": 1391,
+  "title": "Is Self-Repair a Silver Bullet for Code Generation?",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models have shown remarkable aptitude in code generation, but still struggle to perform complex tasks. Self-repair -- in which the model debugs and repairs its own code -- has recently become a popular way to boost performance in these settings. However, despite its increasing popularity, existing studies of self-repair have been limited in scope; in many settings, its efficacy thus remains poorly understood. In this paper, we analyze Code Llama, GPT-3.5 and GPT-4's ability to perform self-repair on problems taken from HumanEval and APPS. We find that when the cost of carrying out repair is taken into account, performance gains are often modest, vary a lot between subsets of the data, and are sometimes not present at all. We hypothesize that this is because self-repair is bottlenecked by the model's ability to provide feedback on its own code; using a stronger model to artificially boost the quality of the feedback, we observe substantially larger performance gains. Similarly, a small-scale study in which we provide GPT-4 with feedback from human participants suggests that even for the strongest models, self-repair still lags far behind what can be achieved with human-level debugging."
+ },
+ {
+  "paper_id": 1392,
+  "title": "LLM-ARC: Enhancing LLMs with an Automated Reasoning Critic",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We introduce LLM-ARC, a neuro-symbolic framework designed to enhance the logical reasoning capabilities of Large Language Models (LLMs), by combining them with an Automated Reasoning Critic (ARC). LLM-ARC employs an Actor-Critic method where the LLM Actor generates declarative logic programs along with tests for semantic correctness, while the Automated Reasoning Critic evaluates the code, runs the tests and provides feedback on test failures for iterative refinement. Implemented using Answer Set Programming (ASP), LLM-ARC achieves a new state-of-the-art accuracy of 88.32% on the FOLIO benchmark which tests complex logical reasoning capabilities. Our experiments demonstrate significant improvements over LLM-only baselines, highlighting the importance of logic test generation and iterative self-refinement. We achieve our best result using a fully automated self-supervised training loop where the Actor is trained on end-to-end dialog traces with Critic feedback. We discuss potential enhancements and provide a detailed error analysis, showcasing the robustness and efficacy of LLM-ARC for complex natural language reasoning tasks."
+ },
+ {
+  "paper_id": 1394,
+  "title": "Self-Contrast: Better Reflection Through Inconsistent Solving Perspectives",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The reflection capacity of Large Language Model (LLM) has garnered extensive attention. A post-hoc prompting strategy, e.g., reflexion and self-refine, refines LLM's response based on self-evaluated or external feedback. However, recent research indicates without external feedback, LLM's intrinsic reflection is unstable. Our investigation unveils that the key bottleneck is the quality of the self-evaluated feedback. We find LLMs often exhibit overconfidence or high randomness when self-evaluate, offering stubborn or inconsistent feedback, which causes poor reflection. To remedy this, we advocate Self-Contrast: It adaptively explores diverse solving perspectives tailored to the request, contrasts the differences, and summarizes these discrepancies into a checklist which could be used to re-examine and eliminate discrepancies. Our method endows LLM with diverse perspectives to alleviate stubborn biases. Moreover, their discrepancies indicate potential errors or inherent uncertainties that LLM often overlooks. Reflecting upon these can catalyze more accurate and stable reflection. Experiments conducted on a series of reasoning and translation tasks with different LLMs serve to underscore the effectiveness and generality of our strategy."
+ },
+ {
+  "paper_id": 1395,
+  "title": "Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Despite the impressive capabilities of Large Language Models (LLMs) on various tasks, they still struggle with scenarios that involves complex reasoning and planning. Recent work proposed advanced prompting techniques and the necessity of fine-tuning with high-quality data to augment LLMs' reasoning abilities. However, these approaches are inherently constrained by data availability and quality. In light of this, self-correction and self-learning emerge as viable solutions, employing strategies that allow LLMs to refine their outputs and learn from self-assessed rewards. Yet, the efficacy of LLMs in self-refining its response, particularly in complex reasoning and planning task, remains dubious. In this paper, we introduce AlphaLLM for the self-improvements of LLMs, which integrates Monte Carlo Tree Search (MCTS) with LLMs to establish a self-improving loop, thereby enhancing the capabilities of LLMs without additional annotations. Drawing inspiration from the success of AlphaGo, AlphaLLM addresses the unique challenges of combining MCTS with LLM for self-improvement, including data scarcity, the vastness search spaces of language tasks, and the subjective nature of feedback in language tasks. AlphaLLM is comprised of prompt synthesis component, an efficient MCTS approach tailored for language tasks, and a trio of critic models for precise feedback. Our experimental results in mathematical reasoning tasks demonstrate that AlphaLLM significantly enhances the performance of LLMs without additional annotations, showing the potential for self-improvement in LLMs."
+ },
+ {
+  "paper_id": 1406,
+  "title": "RCOT: Detecting and Rectifying Factual Inconsistency in Reasoning by Reversing Chain-of-Thought",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language Models (LLMs) have achieved promising performance on arithmetic reasoning tasks by incorporating step-by-step chain-of-thought (CoT) prompting. However, LLMs face challenges in maintaining factual consistency during reasoning, exhibiting tendencies to condition overlooking, question misinterpretation, and condition hallucination over given problems. Existing methods use coarse-grained feedback (e.g., whether the answer is correct) to improve factual consistency. In this work, we propose RCoT (Reversing Chain-of-Thought), a novel method to improve LLMs' reasoning abilities by automatically detecting and rectifying factual inconsistency in LLMs, generated solutions. To detect factual inconsistency, RCoT first asks LLMs to reconstruct the problem based on generated solutions. Then fine-grained comparisons between the original problem and the reconstructed problem expose the factual inconsistency in the original solutions. To rectify the solution, RCoT formulates detected factual inconsistency into fine-grained feedback to guide LLMs in revising solutions. Experimental results demonstrate improvements of RCoT over standard CoT, Self-Consistency and Self-Refine across seven arithmetic datasets. Moreover, we find that manually written fine-grained feedback can dramatically improve LLMs' reasoning abilities (e.g., ChatGPT reaches 94.6% accuracy on GSM8K), encouraging the community to further explore the fine-grained feedback generation methods."
+ },
+ {
+  "paper_id": 1407,
+  "title": "Visual Reasoning and Multi-Agent Approach in Multimodal Large Language Models (MLLMs): Solving TSP and mTSP Combinatorial Challenges",
+  "year": 2024,
+  "venue": "Machine Learning and Knowledge Extraction",
+  "source": "openalex",
+  "abstract": "Multimodal Large Language Models (MLLMs) harness comprehensive knowledge spanning text, images, and audio to adeptly tackle complex problems. This study explores the ability of MLLMs in visually solving the Traveling Salesman Problem (TSP) and Multiple Traveling Salesman Problem (mTSP) using images that portray point distributions on a two-dimensional plane. We introduce a novel approach employing multiple specialized agents within the MLLM framework, each dedicated to optimizing solutions for these combinatorial challenges. We benchmarked our multi-agent model solutions against the Google OR tools, which served as the baseline for comparison. The results demonstrated that both multi-agent models\u2014Multi-Agent 1, which includes the initializer, critic, and scorer agents, and Multi-Agent 2, which comprises only the initializer and critic agents\u2014significantly improved the solution quality for TSP and mTSP problems. Multi-Agent 1 excelled in environments requiring detailed route refinement and evaluation, providing a robust framework for sophisticated optimizations. In contrast, Multi-Agent 2, focusing on iterative refinements by the initializer and critic, proved effective for rapid decision-making scenarios. These experiments yield promising outcomes, showcasing the robust visual reasoning capabilities of MLLMs in addressing diverse combinatorial problems. The findings underscore the potential of MLLMs as powerful tools in computational optimization, offering insights that could inspire further advancements in this promising field."
+ },
+ {
+  "paper_id": 1417,
+  "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Self-correction in text-to-SQL is the process of prompting large language model (LLM) to revise its previously incorrectly generated SQL, and commonly relies on manually crafted self-correction guidelines by human experts that are not only labor-intensive to produce but also limited by the human ability in identifying all potential error patterns in LLM responses. We introduce MAGIC, a novel multi-agent method that automates the creation of the self-correction guideline. MAGIC uses three specialized agents: a manager, a correction, and a feedback agent. These agents collaborate on the failures of an LLM-based method on the training set to iteratively generate and refine a self-correction guideline tailored to LLM mistakes, mirroring human processes but without human involvement. Our extensive experiments show that MAGIC's guideline outperforms expert human's created ones. We empirically find out that the guideline produced by MAGIC enhances the interpretability of the corrections made, providing insights in analyzing the reason behind the failures and successes of LLMs in self-correction. All agent interactions are publicly available at https://huggingface.co/datasets/microsoft/MAGIC."
+ },
+ {
+  "paper_id": 1419,
+  "title": "Socratic Human Feedback (SoHF): Expert Steering Strategies for LLM Code Generation",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) are increasingly used for generating code solutions, empowered by features like self-debugging and self-reflection.However, LLMs often struggle with complex programming problems without human guidance.This paper investigates the strategies employed by expert programmers to steer code-generating LLMs toward successful outcomes.Through a study involving experts using natural language to guide GPT-4, Gemini Ultra, and, Claude 3.5 Sonnet on highly difficult programming challenges, we frame our analysis using the \"Socratic Feedback\" paradigm for understanding effective steering strategies.By analyzing 30 conversational transcripts across all three models, we map observed feedback strategies to five stages of Socratic Questioning: Definition, Elenhus, Maieutic, Dialectic, and Counter-factual reasoning.We find evidence that by employing a combination of different Socratic feedback strategies across multiple turns, programmers successfully guided the models to solve 74% of the problems that the models initially failed to solve on their own."
+ },
+ {
+  "paper_id": 1420,
+  "title": "Iteratively refined ChatGPT outperforms clinical mentors in generating high-quality interprofessional education clinical scenarios: a comparative study",
+  "year": 2025,
+  "venue": "BMC Medical Education",
+  "source": "openalex",
+  "abstract": "BACKGROUND: Interprofessional education (IPE) is essential for promoting teamwork among healthcare professionals. However, its implementation is often hindered by the limited availability of interprofessional faculty and scheduling challenges in creating high-quality IPE scenarios. While AI tools like ChatGPT are increasingly being explored for this purpose, they have yet to demonstrate the ability to generate high-quality IPE scenarios, which remains a significant challenge. This study examines the effectiveness of GPT-4o, an advanced version of ChatGPT enhanced by novel methodologies, in overcoming these obstacles. METHODS: This comparative study assessed clinical scenarios generated by GPT-4o using two strategies-standard prompt (a single-step scenario generation without iterative feedback) and iterative refinement (a multi-step, feedback-driven process)-against those crafted by clinical mentors. The iterative refinement method, inspired by actual clinical scenario development, employs a cyclical process of evaluation and refinement, closely mimicking discussions among professionals. Scenarios were evaluated for time efficiency and quality using the Interprofessional Quality Score (IQS), defined as the mean score assigned by multidisciplinary evaluators across five interprofessional criteria: clinical authenticity, team collaboration, educational alignment, appropriate challenge, and student engagement. RESULTS: Scenarios developed using the iterative refinement strategy were completed significantly faster than those by clinical mentors and achieved higher or equivalent IQS. Notably, these scenarios matched or exceeded the quality of those created by humans, particularly in areas such as appropriate challenge and student engagement. Conversely, scenarios generated via the standard prompt method exhibited lower accuracy and various other deficiencies. Blinded attribution assessments by students further demonstrated that scenarios developed through iterative refinement were often indistinguishable from those created by human mentors. CONCLUSIONS: Employing GPT-4o with iterative refinement and role-playing strategies produces clinical scenarios that, in some areas, exceed those developed by clinical mentors. This approach reduces the need for extensive faculty involvement, highlighting AI's potential to closely align with established educational frameworks a"
+ },
+ {
+  "paper_id": 1421,
+  "title": "Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "openalex",
+  "abstract": "While Vision-Language Models (VLMs) have shown remarkable abilities, they invariably generate flawed responses.Self-correction that instructs models to refine their outputs presents a promising solution to this issue.Previous studies have mainly concentrated on Large Language Models (LLMs), while the self-correction abilities of VLMs, particularly concerning both visual and linguistic information, remain largely unexamined.This study investigates the self-correction capabilities of VLMs during both inference and fine-tuning stages.We introduce a Self-Correction Learning (SCL) approach that enables VLMs to learn from their self-generated self-correction data through Direct Preference Optimization (DPO) without relying on external feedback, facilitating self-improvement.Experimental results demonstrate that although VLMs struggle to self-correct effectively during iterative inference without additional fine-tuning and external feedback, they can enhance their performance and avoid previous mistakes through preference fine-tuning when their generated self-correction data are categorized into preferred and disfavored samples.This study emphasizes that self-correction is not merely a refinement process; rather, it should enhance models' reasoning ability through additional training, enabling them to generate high-quality responses directly without further refinement. 1"
+ },
+ {
+  "paper_id": 1422,
+  "title": "Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "While Vision-Language Models (VLMs) have shown remarkable abilities in visual and language reasoning tasks, they invariably generate flawed responses. Self-correction that instructs models to refine their outputs presents a promising solution to this issue. Previous studies have mainly concentrated on Large Language Models (LLMs), while the self-correction abilities of VLMs, particularly concerning both visual and linguistic information, remain largely unexamined. This study investigates the self-correction capabilities of VLMs during both inference and fine-tuning stages. We introduce a Self-Correction Learning (SCL) approach that enables VLMs to learn from their self-generated self-correction data through Direct Preference Optimization (DPO) without relying on external feedback, facilitating self-improvement. Specifically, we collect preferred and disfavored samples based on the correctness of initial and refined responses, which are obtained by two-turn self-correction with VLMs during the inference stage. Experimental results demonstrate that although VLMs struggle to self-correct effectively during iterative inference without additional fine-tuning and external feedback, they can enhance their performance and avoid previous mistakes through preference fine-tuning when their self-generated self-correction data are categorized into preferred and disfavored samples. This study emphasizes that self-correction is not merely a refinement process; rather, it should enhance the reasoning abilities of models through additional training, enabling them to generate high-quality responses directly without further refinement."
+ },
+ {
+  "paper_id": 1429,
+  "title": "LLaMA-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "This paper presents an advanced mathematical problem-solving framework, LLaMA-Berry, for enhancing the mathematical reasoning ability of Large Language Models (LLMs). The framework combines Monte Carlo Tree Search (MCTS) with iterative Self-Refine to optimize the reasoning path and utilizes a pairwise reward model to evaluate different paths globally. By leveraging the self-critic and rewriting capabilities of LLMs, Self-Refine applied to MCTS (SR-MCTS) overcomes the inefficiencies and limitations of conventional step-wise and greedy search algorithms by fostering a more efficient exploration of solution spaces. Pairwise Preference Reward Model~(PPRM), inspired by Reinforcement Learning from Human Feedback (RLHF), is then used to model pairwise preferences between solutions, utilizing an Enhanced Borda Count (EBC) method to synthesize these preferences into a global ranking score to find better answers. This approach addresses the challenges of scoring variability and non-independent distributions in mathematical reasoning tasks. The framework has been tested on general and advanced benchmarks, showing superior performance in terms of search efficiency and problem-solving capability compared to existing methods like ToT and rStar, particularly in complex Olympiad-level benchmarks, including GPQA, AIME24 and AMC23."
+ },
+ {
+  "paper_id": 1432,
+  "title": "Towards Reasoning in Large Language Models via Multi-Agent Peer Review Collaboration",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown remarkable capabilities in general natural language processing tasks but often fall short in complex reasoning tasks. Recent studies have explored human-like problem-solving strategies, such as self-correct, to push further the boundary of single-model reasoning ability. In this work, we let a single model \"step outside the box\" by engaging multiple models to correct each other. We introduce a multi-agent collaboration strategy that emulates the academic peer review process. Each agent independently constructs its own solution, provides reviews on the solutions of others, and assigns confidence levels to its reviews. Upon receiving peer reviews, agents revise their initial solutions. Extensive experiments on three different types of reasoning tasks show that our collaboration approach delivers superior accuracy across all ten datasets compared to existing methods. Further study underscores the effectiveness of integrating confidence in reviews, demonstrates the superiority of feedback exchange over mere solution sharing, and highlights the role of capability and diversity in fostering successful collaboration."
+ },
+ {
+  "paper_id": 1433,
+  "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language models are increasingly being deployed for general problem solving across a wide range of tasks, but are still confined to token-level, left-to-right decision-making processes during inference. This means they can fall short in tasks that require exploration, strategic lookahead, or where initial decisions play a pivotal role. To surmount these challenges, we introduce a new framework for language model inference, Tree of Thoughts (ToT), which generalizes over the popular Chain of Thought approach to prompting language models, and enables exploration over coherent units of text (thoughts) that serve as intermediate steps toward problem solving. ToT allows LMs to perform deliberate decision making by considering multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. Our experiments show that ToT significantly enhances language models' problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74%. Code repo with all prompts: https://github.com/princeton-nlp/tree-of-thought-llm."
+ },
+ {
+  "paper_id": 1442,
+  "title": "AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Automated code generation with large language models has gained significant traction, but there remains no guarantee on the correctness of generated code. We aim to use formal verification to provide mathematical guarantees that the generated code is correct. However, generating formally verified code with LLMs is hindered by the scarcity of training data and the complexity of formal proofs. To tackle this challenge, we introduce AlphaVerus, a self-improving framework that bootstraps formally verified code generation by iteratively translating programs from a higher-resource language and leveraging feedback from a verifier. AlphaVerus operates in three phases: exploration of candidate translations, Treefinement -- a novel tree search algorithm for program refinement using verifier feedback, and filtering misaligned specifications and programs to prevent reward hacking. Through this iterative process, AlphaVerus enables a LLaMA-3.1-70B model to generate verified code without human intervention or model finetuning. AlphaVerus shows an ability to generate formally verified solutions for HumanEval and MBPP, laying the groundwork for truly trustworthy code-generation agents."
+ },
+ {
+  "paper_id": 1449,
+  "title": "Generating Code World Models with Large Language Models Guided by Monte Carlo Tree Search",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In this work we consider Code World Models, world models generated by a Large Language Model (LLM) in the form of Python code for model-based Reinforcement Learning (RL). Calling code instead of LLMs for planning has potential to be more precise, reliable, interpretable, and extremely efficient. However, writing appropriate Code World Models requires the ability to understand complex instructions, to generate exact code with non-trivial logic and to self-debug a long program with feedback from unit tests and environment trajectories. To address these challenges, we propose Generate, Improve and Fix with Monte Carlo Tree Search (GIF-MCTS), a new code generation strategy for LLMs. To test our approach in an offline RL setting, we introduce the Code World Models Benchmark (CWMB), a suite of program synthesis and planning tasks comprised of 18 diverse RL environments paired with corresponding textual descriptions and curated trajectories. GIF-MCTS surpasses all baselines on the CWMB and two other benchmarks, and we show that the Code World Models synthesized with it can be successfully used for planning, resulting in model-based RL agents with greatly improved sample efficiency and inference speed."
+ },
+ {
+  "paper_id": 1450,
+  "title": "Smaller Large Language Models Can Do Moral Self-Correction",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Self-correction is one of the most amazing emerging capabilities of Large Language Models (LLMs), enabling LLMs to self-modify an inappropriate output given a natural language feedback which describes the problems of that output.Moral self-correction is a posthoc approach correcting unethical generations without requiring a gradient update, making it both computationally lightweight and capable of preserving the language modeling ability.Previous works have shown that LLMs can self-debias, and it has been reported that small models, i.e., those with less than 22B parameters, are not capable of moral self-correction.However, there is no direct proof as to why such smaller models fall short of moral selfcorrection, though previous research hypothesizes that larger models are skilled in following instructions and understanding abstract social norms.In this paper, we empirically validate this hypothesis in the context of social stereotyping, through meticulous prompting.Our experimental results indicate that (i) surprisingly, 3.8B LLMs with proper safety alignment fine-tuning can achieve very good moral selfcorrection performance, highlighting the significant effects of safety alignment; and (ii) small LLMs are indeed weaker than larger-scale models in terms of comprehending social norms and self-explanation through CoT, but all scales of LLMs show bad self-correction performance given unethical instructions.Content Warning: some examples in this paper are offensive or toxic."
+ },
+ {
+  "paper_id": 1452,
+  "title": "Volcano: Mitigating Multimodal Hallucination through Self-Feedback Guided Revision",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large multimodal models suffer from multimodal hallucination, where they provide incorrect responses misaligned with the given visual information. Recent works have conjectured that one of the reasons behind multimodal hallucination is due to the vision encoder failing to ground on the image properly. To mitigate this issue, we propose a novel approach that leverages self-feedback as visual cues. Building on this approach, we introduce Volcano, a multimodal self-feedback guided revision model. Volcano generates natural language feedback to its initial response based on the provided visual information and utilizes this feedback to self-revise its initial response. Volcano effectively reduces multimodal hallucination and achieves state-of-the-art on MMHal-Bench, POPE, and GAVIE. It also improves on general multimodal abilities and outperforms previous models on MM-Vet and MMBench. Through qualitative analysis, we show that Volcano's feedback is properly grounded on the image than the initial response. This indicates that Volcano can provide itself with richer visual information through feedback generation, leading to self-correct hallucinations. We publicly release our model, data, and code at https://github.com/kaistAI/Volcano}{github.com/kaistAI/Volcano"
+ },
+ {
+  "paper_id": 1456,
+  "title": "MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "source": "openalex",
+  "abstract": "Large language model (LLM) reasoning can be improved by scaling test-time compute with aggregation, i.e., generating multiple samples and aggregating over them.While improving performance, this strategy often reaches a saturation point beyond which additional compute provides no return.Refinement offers an alternative by using model-generated feedback to improve answer quality.However, refinement faces three key challenges: (1) Excessive refinement: Uniformly refining all instances can cause over-correction and reduce overall performance.(2) Inability to localize and address errors: LLMs struggle to identify and correct their own mistakes.(3) Insufficient refinement: Stopping refinement too soon could leave errors unaddressed.To tackle these issues, we propose MAGICORE, a framework for Multi-Agent Iteration for Coarse-to-fine Refinement.MAGICORE mitigates excessive refinement by categorizing problems as easy or hard, solving easy problems with coarsegrained aggregation, and solving the hard ones with fine-grained multi-agent refinement.To better localize errors, we incorporate external step-wise reward model scores, and to ensure sufficient refinement, we iteratively refine the solutions using a multi-agent setup.We evaluate MAGICORE on Llama-3-8B and GPT-3.5 and show its effectiveness across seven reasoning datasets.One iteration of MAGI-CORE beats Self-Consistency by 3.4%, Bestof-k by 3.2%, and Self-Refine by 4.0% even when these baselines use k = 120, and MAGI-CORE uses less than 50% of the compute. 1"
+ }
+]

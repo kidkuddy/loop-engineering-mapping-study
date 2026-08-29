@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+3097,exclude,E7,"ECHO co-evolves a critic with the policy during RL; reported claims are training stability and long-horizon task success, not evidence about a runtime loop-control mechanism."
+3100,exclude,E2,"InternLM2 pretraining, SFT and COOL RLHF technical report; no runtime agent loop, evaluation is benchmark scores across 30 benchmarks."
+3106,exclude,E5,"Survey article categorising existing research on symbolic knowledge distillation in LLMs; secondary study, retained as a snowballing seed."
+3157,include,"I1,I2",EVU estimate-verify-update mechanism; abstract reports a probing analysis quantifying belief inertia and analyses validating its mitigation. Mechanism: verification driving belief-state update.
+3161,exclude,E7,"CentaurTA is a human-in-the-loop thematic-analysis system; reported claims are coding alignment and transparency on qualitative datasets, i.e. task outcomes."
+3187,include,"I1,I2","CR-Planner's contribution is critic-guided iterative sub-goal selection with MCTS-trained critics, compared against CoT and RAG planning baselines. Mechanism: iteration policy plus verification."
+3283,exclude,E4,"Workshop proceedings front matter for NeLaMKRR 2024; a call and scope statement, no method or research contribution."
+3307,exclude,E7,"PhysNote's knowledge-note repository and iterative loop are reported only via PhysBench accuracy (56.68%, +4.96% over the best baseline); no claim about the loop itself."
+3355,exclude,E7,"Neuro-symbolic SLM agent with two tool calls, evaluated by CLUTRR accuracy plus error analysis; iterative verification is named as a future roadmap, not the studied mechanism."
+3369,exclude,E2,"Empirical study of how post-training data (SFT then RL) shapes chess reasoning; training-time analysis, no runtime agent loop."
+3412,exclude,E3,Five off-the-shelf LLMs applied as calibration agents for a hydrological model and benchmarked against SCE-UA and NSGA-III on parameter accuracy; domain application of an unmodified loop.
+3420,exclude,E7,"Shared-task fact-checking system built on the Graph-of-Thoughts scheme; reported claims are AVeriTeC verdict performance, with no evidence about its stopping criterion."
+3534,exclude,E1,JARVIS is an active-learning screening workflow over a neural classifier with human reviewer decisions; the iteration is not an autonomous LLM agent's control loop.
+3547,exclude,E2,"Penelope localises recurrent latent computation to a decoder interval; internal architecture for one-shot answer generation, no agent loop."
+3593,exclude,E7,"GTPO is a turn-level RL training algorithm for tool-integrated agents; reported claims are benchmark accuracy gains over GRPO, not evidence about the runtime loop."
+3598,exclude,E2,"Adaptive confidence decoding and block-size allocation inside a block diffusion LM; the iteration is denoising and decoding, no agent loop."
+3617,exclude,E2,"Candidates are generated once then aggregated by knockout or league comparisons; parallel sampling and voting, control never returns to generation."
+3632,exclude,E2,"Contribution is a modified training loss aligned to pass@N; pass@N searches N independent samples, so there is no iterative control."
+3673,include,"I1,I2",Negative early exit prunes unproductive MCTS trajectories and adaptive boosting reallocates the reclaimed compute; p99 latency and throughput measured at maintained accuracy. Mechanism: termination.
+3686,include,"I1,I2","Recursive DCR iteratively reconciles disagreeing candidates and allocates extra compute, beating fixed-compute baselines with 27% less compute; dispersion analysed. Mechanism: iteration policy."
+3739,exclude,E2,Measures energy and accuracy of inference-time compute versus model scaling; no agent loop and no loop-control mechanism is studied.
+3742,include,"I1,I2","Compares verifier-guided search against adaptive test-time revision and derives a compute-optimal per-prompt allocation, 4x over best-of-N. Mechanism: iteration policy with verification."
+3755,include,"I1,I2","Proves and empirically corroborates that verifier-based test-time scaling beats verifier-free trace distillation as the budget grows. Mechanism: verification, argued and compared directly."
+3779,exclude,E2,"Budget-aware supervised fine-tuning cast as a Stackelberg game with regret bounds for label querying; a training and labelling procedure, no agent runtime loop."
+3799,include,"I1,I2",Budget Tracker and BATS give agents tool-call budget awareness; systematic study reports cost-performance scaling curves under explicit budgets. Mechanism: termination and budget control.
+3830,include,"I1,I2","A confidence controller decides whether to halt, re-examine or switch approach; 92.6% precision when it halts, 2.7 refinement steps reported. Mechanism: termination and iteration policy."
+3831,exclude,E7,"The AI Scientist automates the research pipeline end to end; the reported claim is that its manuscript passed workshop peer review, i.e. a task outcome."
+3836,include,"I1,I2",FutureWeaver's dual-level planner allocates test-time compute across multi-agent workflows and is compared with baselines across budget settings. Mechanism: iteration policy under budget.
+3855,include,"I1,I2","MUR allocates step-level thinking budget by momentum uncertainty with gamma-control, compared against several TTS methods at 45% less compute. Mechanism: iteration policy and budget."
+3856,include,"I1,I2","Position piece arguing reasoning-effort (test-time compute) budget is an unreported methodologic variable medical LLM studies must control. Mechanism: termination/budget, argued explicitly."
+3857,include,"I1,I2",THROW classifies queries easy or hard with a PRM then truncates or expands branches; latency and token cost measured against Best-of-N and beam search. Mechanism: iteration policy.
+3874,exclude,E4,"Doctoral dissertation on causal deep learning; the contribution described is a DAG-aware Transformer for effect estimation, not a loop-control mechanism."
+3879,include,"I1,I2","SPEX adds speculative path selection, inter-query budget allocation and adaptive early termination to ToT search; ablations confirm each technique. Mechanism: iteration policy, termination."
+3884,include,"I1,I2","TrACE commits or samples more rollouts per timestep from inter-rollout action agreement, matching SC-4/SC-8 accuracy with 33-65% fewer calls. Mechanism: iteration policy."
+3885,include,"I1,I2","MetaScale selects and evolves meta-thought strategies via UCB bandit and a genetic pool, compared with standard inference and across sampling budgets. Mechanism: iteration policy."
+3888,exclude,E7,"TRACE allocates rollout budget during agentic RL training; the reported claim is benchmark accuracy at equal sampling cost, not evidence about a runtime loop mechanism."
+3906,include,"I1,I2","SAIL runs MCTS over trajectory refinements with VLM scoring and step-level feedback; success rate is reported as a function of test-time compute. Mechanism: iteration policy, verification."
+3907,exclude,E7,"OREO is an offline RL objective for multi-step reasoning; claims are benchmark performance over offline-learning baselines, not about loop control."
+3915,exclude,E2,"Implicit models iterate a parameter block to a fixed point; the paper characterises expressivity of internal recurrence, no agent loop."
+3917,exclude,E2,"Recurrent feedback tokens add latent computation inside a structured-data transformer; internal looping for one-shot tabular and time-series prediction, no agent loop."
+3919,exclude,E7,"GraphSilo dataset plus a trained GraphPRM step scorer; claims are 9% accuracy gains across 13 graph-reasoning tasks and transfer, not evidence about loop control."
+3931,exclude,E7,"ThinkQE iteratively refines expansions with corpus feedback but reports only retrieval effectiveness on DL19, DL20 and BRIGHT; the claims are domain metrics."
+3940,include,"I1,I2","Formalises self-improvement as a generation-verification gap, measures how it scales with pretraining flops, and examines when iterative self-improvement works. Mechanism: verification."
+3944,exclude,E7,OctoTools is a tool-augmented multi-agent framework; claims are 9.3% accuracy gains over GPT-4o and margins over AutoGen and LangChain across 16 tasks.
+3965,exclude,E7,Table-R1 post-trains by distillation and RLVR for table reasoning; claims are task performance and out-of-domain generalisation on table benchmarks.

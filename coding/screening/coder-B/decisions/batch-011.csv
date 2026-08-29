@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+6968,exclude,E2,"Interactive tool surfacing AI-incident news and LLM-generated harms from a user's prompt, evaluated by a prototyper user study; no iterative agent control."
+6982,exclude,E7,"DeepRare multi-agent diagnosis system they built; reported claims are Recall@1 57.18% and 95.4% expert agreement, i.e. diagnostic task outcomes."
+6989,exclude,E5,PRISMA 2020 systematic literature review synthesising 128 RAG studies.
+6999,exclude,E2,"Evaluates model reliability over user-driven multi-turn dialogue (instruction drift, intent confusion); no autonomous control loop and no loop property measured."
+7004,exclude,E2,"InconLens is a visual analytics tool for comparing agent runs, validated by a case study and expert interviews; it diagnoses behaviour, it governs no loop."
+7009,exclude,E5,"Review mapping documented peer-review failure modes onto LLM applications and safeguards, drawing on emerging evidence; nothing about loop control."
+7026,exclude,E7,"Hierarchical multi-agent SRE framework they built; claims are 92.1% root-cause accuracy and 82% lower time-to-diagnosis, domain outcomes."
+7041,exclude,E2,"MaCBench evaluates vision-language models on chemistry data extraction and interpretation; single-pass capability testing, no loop measured."
+7113,exclude,E7,"Controller-Proposer-Solver training pipeline; evidence is Pass^1 66.4 to 74.9 on Tau2-Bench Retail and Pass^k, task outcomes rather than the loop mechanism."
+7141,exclude,E7,ART tool-injection framework for VLA models; the reported claim is a 20% higher success rate on simulation and real robot tasks.
+7163,exclude,E7,"Multi-agent logic-synthesis optimiser with a self-correcting module, but reported claims are 12.4% PDA improvement and 86.3% success on synthesis benchmarks."
+7173,exclude,E2,"RLHF fine-tuning perspective treating the pretrained LM as policy, reward and transition function; a training claim, no runtime agent loop."
+7214,exclude,E7,"AURA speech-to-speech assistant with tool invocation; claims are VoiceBench 92.75, AlpacaEval 4.39 and 90% human-rated task success."
+7282,exclude,E2,Two LLM-backed web applications for calibrating ethical weights and diagnosing software alignment; no iterative agent control structure.
+7301,exclude,E5,Self-described comprehensive survey and overview of the LLM literature.
+7403,exclude,E5,"Literature review of 142 human-evaluation studies, producing the QUEST evaluation framework."
+7410,exclude,E5,Narrative review cataloguing trust-in-automation measurement methods; no language-model agent and no loop.
+7440,exclude,E7,Aviary gymnasium plus five environments and online training; the reported claims are matching frontier agents and experts at 100x lower inference cost.
+7461,include,I2,Loop state: heuristics distilled from past trajectories are retrieved and injected to guide execution; ablations show selective retrieval is essential and beats few-shot trajectories.
+7462,include,I2,"Iteration policy: represents the harness as a prompt-level specification of the agent loop and refines it from pairwise feedback; gains attributed to context flow, not longer traces."
+7473,exclude,E5,"Survey of self-improvement in multimodal LLMs, structured by data collection, data organisation and model optimisation."
+7474,include,I2,"Retry/repair: failed trajectories are diagnosed into inference-time patches, and the failure-driven loop is measured (42.3 to 48.9 on OSWorld) against success-only self-improvement."
+7480,include,I2,"Verification: studies the self-refinement loop itself, showing rising ECE across rounds and comparing calibration applied before, after, or at each self-improvement step."
+7516,include,I2,"Verification: a vision model inspects rendered animation frames to drive refinement, and the iterative loop is compared against single-shot generation baselines."
+7524,exclude,E2,Filters self-generated samples by distribution-shift weight before fine-tuning; a self-training data-quality method whose model has no runtime loop.
+7539,include,I2,"Iteration policy: prospective criticism of plans before execution plus dynamic re-planning on deviation, compared against retrospective reflection-based baselines."
+7578,exclude,E7,ToM-agent framework with counterfactual reflection over dialogue; claims are downstream empathy/persuasion task performance and first- and second-order ToM.
+7581,include,I2,"Position paper arguing that agents reading and editing their own identity and memory files each activation (loop state) yields autoreflection, with criteria tested on 290k posts."
+7584,exclude,E2,SPEE distils experience into parameters then runs RL post-training; claims are accuracy on five math benchmarks and the trained model has no runtime loop.
+7620,exclude,E2,"Self-training: high-confidence CoT answers are used to fine-tune the model; the claims are reasoning accuracy gains, with no iterative runtime control."
+7631,exclude,E2,"States it generates a single-pass reflection chain plus lightweight fine-tuning; control never returns, and claims are medical benchmark accuracy."
+7633,exclude,E2,"Position on AI as friction supporting a designer's reflection-in-action during ideation; the iteration is the human's, not an agent control loop."
+7668,exclude,E2,MCTS is used offline to synthesise reasoning data for supervised fine-tuning; the tuned model answers without a runtime loop and claims are MBPP-Complex gains.
+7685,exclude,E5,Systematic survey of prompt engineering with a taxonomy of 58 prompting techniques and a meta-analysis.
+7698,exclude,E5,PRISMA systematic review of 26 articles on ChatGPT in higher education.
+7702,include,I2,"OPT-BENCH measures a loop property: whether agents iteratively refine solutions from environment feedback, with an explicit perception-memory-reasoning loop across 19 LLMs."
+7714,include,I2,"Iteration policy: in-context refinement across rounds using self-assessed rewards, with theory for the update and min-entropy selection compared to other inference-time algorithms."
+7725,include,I2,"Retry/repair: a three-step self-correction pipeline measured directly, finding only a 4.4% gain from injected hints and longer hints correlating with wrong final answers."
+7753,include,I2,Loop state: reflection converts failures into memory artifacts broadcast across a population; a no-graduation ablation isolates broadcast and it is compared against Reflexion.
+7779,exclude,E5,Systematic review/survey of large multimodal agents and their evaluation methodologies.
+7787,exclude,E5,Survey of embodied AI literature covering LLM-driven and world-model-driven work.
+7810,exclude,E5,Generational overview and taxonomy of AI 1.0 to 4.0 with historical tracing; no method and no loop mechanism.
+7816,exclude,E5,Survey of self-evolution approaches in LLMs with a conceptual four-phase taxonomy.
+7833,exclude,E7,"rStar-Math pairs MCTS search with a process reward model and self-evolution rounds, but the reported claims are MATH 90.0% and AIME placement, task outcomes."
+7912,exclude,E7,TreeThink packages existing tree-search methods with formal verifiers; reported claims are cross-language proof-search demonstrations and 6.3x async speedup.

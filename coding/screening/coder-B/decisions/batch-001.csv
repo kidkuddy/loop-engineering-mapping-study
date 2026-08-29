@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+401,exclude,E7,"Step-wise LLM routing framework; reported claims are operating-cost reduction and task accuracy on HumanEval Plus/MBPP/MATH-500/ASQA, not evidence about the routing mechanism itself."
+415,exclude,E7,"Hierarchical supervisor/worker delivery-disruption system; claims are LLM-as-judge scores on 30 domain scenarios, nothing about the orchestration mechanism."
+418,exclude,E7,"Post-hoc causal attribution of which agent step caused a failure; diagnostic tooling validated on synthetic SCMs, it governs no loop mechanism."
+419,exclude,E5,Multi-dimensional taxonomy of autonomous LLM multi-agent architectures with an exploratory classification of existing systems; taxonomy-only secondary study.
+426,include,"I1,I2","Holds tools, orchestrator and model fixed and varies only subtask-to-worker assignment across five configurations under preregistered criteria; control topology is the studied variable."
+433,exclude,E5,"Catalogue of ten architectural patterns plus a reference architecture synthesised from 8 existing skill-mediated systems; secondary pattern overview, no loop-mechanism claim."
+434,exclude,E7,"Theoretical cognitive architecture and the MindOS agent-building engine; no evidence or explicit argument about any loop-control mechanism, only architecture description."
+437,exclude,E7,"Multi-agent ASIC design system with its own benchmark; claims are automation success across hardware design tasks, task outcomes only."
+441,include,"I1,I2","Controlled framework-level study isolating architecture: reports orchestration overhead, planning accuracy and coordination success below 30%; coordination topology is the studied variable."
+449,exclude,E7,"Multi-agent sensor-fusion driving pipeline; claims are superior performance on autonomous driving datasets, domain metrics only."
+455,exclude,E7,"MAPE data flywheel around a deployed RAG assistant; claims are routing and rephrasal accuracy and latency after fine-tuning, deployment outcomes not loop control."
+477,exclude,E7,"Author-critic mathematical agent; claims are how many FirstProof and open problems referees judged correct, task outcomes only."
+480,exclude,E7,"Skill create/refine/select training framework; headline claims are ALFWorld and WebShop success rates (+8.8%, +9.3%), task outcomes rather than the loop mechanism."
+483,exclude,E7,"Active tool-discovery framework; claims are tool-selection accuracy over 3k candidates and 98% token reduction on APIBank, retrieval efficiency rather than loop control."
+497,exclude,E3,"Off-the-shelf GPT-4 tool agent pointed at 15 one-day CVEs; claims are exploit success rates (87% with the CVE description), domain outcomes only."
+498,include,"I1,I2","Dual-Evolution evolves the query and retrieved sub-graph across reasoning steps and ablations isolate the MACER components, so the retrieval iteration policy is the studied mechanism."
+508,exclude,E4,Technical white paper specifying a three-layer agent communication protocol; no method and no evaluation.
+522,include,"I1,I2","Measures disorder growth per interaction round (alpha) over 40,000 controlled trials and proposes an integrity gate on step execution; the claim is about loop continuation, not task outcomes."
+523,include,"I1,I2",Compares single-agent refinement under a leaderboard reward against five parallel agents under the same reward (47.8-57.4% vs 62.8-69.4%); the loop arrangement is the studied variable.
+530,exclude,E1,"Blockchain black box plus LLM-generated explanations for ROS mobile robots; the loop is robot navigation, not a language-model agent's control loop."
+532,exclude,E7,"Fast and slow LLM agent loops optimising recommender models; evidence is successful production launches and model performance at YouTube, task outcomes."
+553,exclude,E7,"Agentic control plane for micro-frontend and microservice rollout; claims are adaptation latency, error rate and manual-intervention reductions versus DevOps baselines."
+566,include,"I1,I2",Action catalogs enforced at the tool-output interface keep even the weaker Haiku controller catalog-bounded over 40 runs; the per-step constraint on action selection is the studied mechanism.
+572,exclude,E7,"Bundles MAPE-K loops, immune anomaly detection, gossip and federated learning; claims are aggregate resilience and recovery versus baselines, nothing isolating the control loop."
+578,include,"I1,I2","An evolution module beside the BDI-LLM reasoning loop revises goals and code at run time (iteration policy); the prototype reports its feasibility and stability limits, not task scores."
+585,exclude,E5,Overview of LLM-augmented AIOps and platform automation through architectural analysis and case studies; review article with no method or mechanism evaluation.
+589,exclude,E1,"Survey of multi-modal foundation models for space-air-ground 6G; the control loops discussed are wireless network control, not a language-model agent's loop."
+590,include,"I1,I2","Ablates the Reflexion episodic memory: the full agent cuts latency anomalies by ~33% versus the ablated configuration, measuring loop state carried between failed interventions."
+595,include,"I1,I2",Explicit agent-state tuple with typed update rules maintained across iterations and enforced at tool invocation; the paper argues and shows this structured loop state is the key enabler.
+597,include,"I1,I2",Position piece arguing the vector-DB RAG control loop is brittle: no feedback between retrieval and reasoning and no importance or time decay in the loop state it carries.
+598,exclude,E2,"Domain forestry assistant roadmap; the Level-1 prototype is retrieval-grounded conversation under human oversight, with no iterative runtime control."
+606,exclude,E5,"Surveys open-source agents, derives a unified architecture and analyses attack vectors with a four-agent security case study; no loop-control mechanism claim."
+608,include,"I1,I2","Homeostatic drive vectors regulate what the agent does next across turns; longitudinal telemetry of two instances reports the regulation mechanism's own dynamics, not task outcomes."
+628,exclude,E5,Literature review of how LLMs are used in high-level software testing.
+660,include,"I1,I2",Guard functions verify each step's post-condition and a three-level recovery hierarchy handles failure; measures reliability gains up to 66 points and step-specific recovery rates.
+667,exclude,E7,"Aerospace 4D knowledge-graph verification pipeline; claims are 70-93% verification success and KG error rates falling from 15% to 2.5%, domain outcomes."
+678,exclude,E7,"Closed-loop multi-agent tuner for vector indexes; claims are 42% p99 tail-latency reduction and memory scheduling gains, system outcomes rather than loop control."
+838,exclude,E7,"Iterative persona optimisation for crowd simulation; claims are an 84% reduction in behavioural distributional divergence, simulation realism rather than loop control."
+859,include,"I1,I2",Builds teams by community detection over a pairwise-dialogue model graph and compares them against random and hand-curated teams; the multi-agent arrangement is the studied variable.
+873,exclude,E2,Conceptual argument that next-word prediction infers agent intentions; concerns single-pass LM generation with no iterative control.
+903,include,"I1,I2","Measures each paradigm in one framework: pre-review catches omissions in 20% of tasks, the ReAct loop makes ~30% redundant tool calls, adversarial rounds converge in 2-3 for 70%."
+930,include,"I1,I2",A structured belief state with verbalized certainty replaces full history as what the policy conditions on; compared against history-conditioned RL baselines and shown to calibrate over episodes.
+956,exclude,E5,"Integrative survey of LLM-based agents, their components, coordination, benchmarks and challenges."
+960,exclude,E2,Pretrained and finetuned model-series technical report; no runtime agent loop is proposed or studied.
+961,exclude,E5,"Survey of the Internet of Agents: architecture, operational enablers and open research directions."

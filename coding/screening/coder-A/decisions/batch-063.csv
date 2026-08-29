@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+8326,exclude,E7,"LLM A* is a path-planning framework; reported claims are search-space efficiency and path quality versus A* and RL, i.e. task outcomes, not evidence about a loop-control mechanism."
+8328,exclude,E5,"Leaderboard aggregation of metrics the authors themselves report, plus an autonomy-axis taxonomy of Text-to-SQL systems; a secondary study, not a primary mechanism contribution."
+8333,exclude,E7,"HULA is a deployed human-in-the-loop coding-agent system; claims are perceived development time and effort and code quality at Atlassian, i.e. task outcomes."
+8336,include,I2,Entropy-based escalation gate and blind-mass measures decide when the agent may take the next step autonomously; measured on a held-out split. Mechanism: iteration policy.
+8338,exclude,E7,"Contribution is an eight-phase agent skill system for NPU deployment; claims are 2.2x/4.0x speedups and successful deployment of eight LLMs, i.e. task outcomes."
+8340,include,I2,"Specifies the delegated-autonomy boundary: graduated authority tiers, oversight and how control is returned, argued explicitly via the AJR and ADP artifacts. Mechanism: iteration policy."
+8344,include,I2,"Compares monitor scaffoldings and awareness levels, measuring monitor reliability and a 15% TPR gain from escalating pre-flagged cases. Mechanism: verification of agent trajectories."
+8353,include,I2,"Neuro-symbolic judge compared against the LLM-as-a-Judge alternative (+16.6%), with weak-to-strong judging and iterative refinement measured. Mechanism: verification."
+8358,exclude,E7,"Two multi-agent systems for literature review; claims are screening accuracy over a single-LLM baseline and trials recovered in a reproduced meta-analysis, i.e. task outcomes."
+8361,include,I2,"Gated architecture evaluated against an ungated baseline on five matched tasks, with failure severity attributed to the gates. Mechanism: verification gates triggering loopbacks."
+8363,include,I2,Controlled experiment ablates the constrained substrate and docs CLI: reviewer recall on 11 inserted backdoors rises from 54.5% to 90.9%. Mechanism: verification of coding agents.
+8365,exclude,E1,"Tutorial survey of HITL machine learning for autonomous vehicles: curriculum learning, HITL-RL reward shaping, active learning; training and vehicle-control loops, not an LLM agent loop."
+8366,exclude,E4,"CentaurEval is a benchmark of collaboration-necessary coding tasks reporting pass rates under four intervention levels; it measures task success, not any loop property."
+8370,exclude,E7,Vis-CoT is an interactive chain-of-thought editing tool; reported claims are final-answer accuracy (up to +24pp on GSM8K/StrategyQA) and perceived usability.
+8378,exclude,E7,"AgentClick is a browser review layer for terminal agents; the abstract reports features and goals only, with no evidence or argument about the review mechanism."
+8379,exclude,E7,AR assistive agent with an evaluation framework and multimodal dataset; the reported claim is that AI-assisted collaboration improves task completion.
+8382,exclude,E2,Human-in-the-loop prompt engineering with GPT-4-Turbo to summarize and categorize student discourse; single-pass generation with no iterative control.
+8383,exclude,E1,"Multi-agent replacement for O-RAN RIC control loops; the loop is network traffic steering, with KPI results on RRC users, throughput, PRB and SINR, not an LLM agent loop."
+8384,exclude,E1,Maritime shared autonomy where the LLM only supplies high-level task specification and the control loop is a behavior-tree Mission Manager for hull-inspection robots.
+8389,exclude,E7,"The AAAA framework scores degree of autonomy; the reported findings relate autonomy to supply-chain tier costs in a beer distribution game, a task outcome."
+8390,exclude,E7,Vision and roadmap for an agentic project-manager multi-agent system with four autonomy modes; no evidence or argument about a loop mechanism is reported.
+8391,exclude,E7,LLM-assisted grading workflow with multi-pass scoring and human verification; claims are a 23% grading-time reduction and agreement with manual grading.
+8396,exclude,E2,"Instructor-controlled bot drafts forum replies that are reviewed and approved before release; single-pass generation inside a human workflow, no iterative agent control."
+8397,exclude,E7,"Qualitative study of a negotiating agent yielding six human-agent alignment dimensions; findings concern user needs and design directions, not a loop mechanism."
+8398,include,I2,"Oversight-by-design: automated readability and fidelity checks escalate to mandatory HITL review before release when thresholds are violated, argued as a design position. Mechanism: verification."
+8399,exclude,E7,InteLiPlan is an LLM planner for domestic robots with human intervention; the reported claim is a 95% success rate on the fetch-me task.
+8401,exclude,E7,"SOC framework mapping five autonomy levels to HITL roles, illustrated by an AI-Avatar cyber-range; claims are reduced alert fatigue and response coordination, not mechanism evidence."
+8404,exclude,E5,"Survey of autonomy-induced security risks in large-model agents, reviewing capabilities, failure modes and defense strategies."
+8406,include,I2,"The agent-score-difference metric measures how well an oversight protocol advantages truth-telling over deception, enabling protocol-to-protocol comparison. Mechanism: verification."
+8407,include,I2,"STARS evaluates, repairs and selects among candidate LLM responses; oversight is ablated (77-94% without, 100% with) and the shift in oversight type reported. Mechanism: retry/repair."
+8408,exclude,E2,Fully binarized LLM trained from scratch via autoregressive distillation; a pretraining method with no runtime agent loop.
+8412,include,I2,Ablations make the tier hierarchy the studied variable: adaptive beats static single-tier by over 3% and removing lower tiers degrades safety most. Mechanism: control topology.
+8413,exclude,E2,Theory of soft grounding as a KL-regularized deformation of the LLM prior over trajectories under incomplete graph evidence; constrained decoding with no iterative control.
+8418,exclude,E3,"An off-the-shelf agentic LLM generates R code while humans review each step; the reported results are the Superfund contaminant analysis, a domain outcome."
+8419,exclude,E5,"Survey of the bidirectional relationship between LLMs and data management, covering DATA4LLM and LLM4DATA."
+8421,exclude,E1,"The verify-rollback loop is a token-level decoding and batching scheduler for deterministic inference, not a language-model agent's control loop."
+8422,exclude,E2,Design principles for LLM-assisted digital-twin modeling; the claims concern hallucination error rates across intermediate-representation choices in one-shot model generation.
+8425,exclude,E4,Proceedings volume of the AREA 2023 workshop collecting 7 full and 5 short papers; not itself a research contribution.
+8427,exclude,E5,"Framework plus a review of all Web of Science social-science papers using LLMs, positioned along interpretive depth and autonomy; a secondary study."
+8432,exclude,E1,"Survey and position on human-in-the-loop reinforcement learning: reward shaping, RLHF and explainability across the agent's training loop, not an LLM agent's control loop."
+8437,include,I2,"Formal framework for communication spaces distinguishing MAS from Centaurian architectures, arguing architectural principles for both configurations. Mechanism: control topology."
+8438,exclude,E7,"Four-layer HITL grading framework; the reported claims are 87% of AI scores validated, a 40% grading-time reduction and student satisfaction."
+8439,exclude,E5,"Perspective reviewing AI and agentic systems for biological literature curation, with recommendations for benchmarks and guidelines."
+8441,exclude,E7,"LLM-ARF is a DevSecOps remediation control plane; the reported evaluation is MTTR reduction, alert fatigue mitigation and toil reduction, i.e. operational outcomes."
+8442,exclude,E5,"Six-mode taxonomy of human-agent interaction (HOOTL, HAM, HIC, HITP, HITL, HOTL) tied to contingency factors; a taxonomy-only overview."

@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+7649,include,I2,Self-referential framework where the agent rewrites its own logic each round; compared against fixed-pipeline and meta-learning agent designs. Mechanism: iteration policy.
+7651,include,I2,MCTS-built critique data lets the agent spot the first bad step and splice a correct path; reports recovery from errors and loop avoidance. Mechanism: retry/repair.
+7654,exclude,E7,"Multi-agent vision/reflection framework for architectural 3D modelling; claims are sketch interpretation and model quality, not the loop."
+7656,exclude,E2,"LLM feedback taxonomy, dataset and generation method for peer counselling; no iterative runtime control, evaluated on feedback generation quality."
+7659,exclude,E5,Survey of LLMs in scientific discovery with a three-level Tool/Analyst/Scientist taxonomy.
+7667,exclude,E1,"Loop is human self-reflection and behaviour change in a 64-participant user study, not a language-model agent's control loop."
+7668,include,I2,"MCTS generates a step then self-evaluates to pick the next branch, forming the reasoning path; search over reasoning states is the contribution. Mechanism: iteration policy."
+7672,include,I2,MARS replaces multi-turn recursive self-improvement loops with a single recurrence cycle and is compared against self-evolving systems on cost. Mechanism: iteration policy.
+7680,include,I2,Multiple model instances debate over rounds; the round-based arrangement is the proposed alternative to self-consistency and verification prompting. Mechanism: control topology.
+7685,exclude,E5,Systematic survey and taxonomy of 58 prompting techniques plus a meta-analysis.
+7687,exclude,E5,"Survey of agentic RL for LLMs, synthesising 500+ works into a twofold taxonomy."
+7688,exclude,E5,Systematic review of instruction tuning / supervised fine-tuning literature.
+7689,include,I2,"Controlled case studies pit a persistent curated knowledge base against agent-centric self-improvement baselines on solve rate, cost and transfer. Mechanism: loop state."
+7691,exclude,E7,"Contribution is a modular AGI prototype; claims are eval-suite scores for generalization, transfer and reasoning accuracy, not about its loop."
+7693,exclude,E1,"Self-governance and self-improvement here are political/social arrangements and human rights, not a language-model agent's control loop."
+7698,exclude,E5,PRISMA systematic review of 26 articles on ChatGPT in higher education.
+7700,exclude,E5,Survey classifying 33 automated agentic-design methods along a four-axis framework.
+7702,include,I2,"Benchmark plus OPT-Agent measuring whether agents keep refining solutions from environment feedback across iterations, over 19 LLMs. Mechanism: iteration policy."
+7703,include,I2,"Benchmark plus OPT-Agent measuring whether agents keep refining solutions from environment feedback across iterations, over 19 LLMs. Mechanism: iteration policy."
+7711,exclude,E2,"Contribution is meta-prompt content (descriptions, context spec, reasoning template) for prompt optimisation; claims are task accuracy on MultiArith/GSM8K."
+7714,include,I2,"ME-ICPO refines in-context using self-assessed rewards with minimum-entropy selection, with theory for the self-reflection process and inference-cost comparison. Mechanism: iteration policy."
+7717,exclude,E2,"Studies iterative post-training self-improvement; the improved model has no runtime loop, and claims concern pass@1, diversity and OOD generalization."
+7720,exclude,E7,Orchestrator-based multi-agent framework benchmarked on HotPotQA and marketing tasks for efficiency and quality; no claim about the loop itself.
+7721,exclude,E5,"Survey of agent memory mechanisms, 2022-2026, with a three-dimensional taxonomy and benchmark review."
+7724,include,I2,Evolver rewrites the task harness across iterations and a thinking-on/off design isolates the contribution of harness evolution; bounds stated and tested on NLE. Mechanism: iteration policy.
+7725,include,I2,"Sufficiency test of a three-step self-correction pipeline in SLMs; reports the 4.4% gain, hint-length correlation and failure to use its own feedback. Mechanism: retry/repair."
+7726,include,I2,World model predicts feedback for candidate actions and the agent reflects on its reliability before acting; analyses track the co-evolving loop over time. Mechanism: verification.
+7728,exclude,E5,Conceptual overview organising the chatbot-to-digital-colleague shift into two taxonomic dimensions; no studied mechanism.
+7729,exclude,E2,Self-synthesises reasoning paths as post-training data; the trained model has no runtime loop and claims are in-domain and OOD accuracy.
+7733,exclude,E5,Survey of human-feedback integration for NLG with a taxonomy of feedback forms.
+7738,include,I2,"Searches the memory-architecture space with reflection-guided proposals and failure-localising diagnosis, beating far larger random searches in few iterations. Mechanism: loop state."
+7746,exclude,E7,"Multi-agent quantitative trading system; reported claims are profitability, action efficiency and risk control in markets."
+7748,include,I2,"Makes skill self-evolution recursive with a slow meta-skill loop, compared against no-skill, static-skill and single-level evolution baselines. Mechanism: iteration policy."
+7750,exclude,E7,Deployed proactive on-call support agent; evaluation is ten months of deployment effectiveness and practicality on a cloud platform.
+7751,exclude,E4,Invited talk abstract arguing for observe/think/verify science paradigms with an mCLM prototype; not a research contribution about loop control.
+7753,include,I2,Reflexion inner loop plus population broadcast of memory with a graduation criterion; broadcast is ablated against Reflexion and no-graduation on CAGE-2. Mechanism: loop state.
+7760,exclude,E5,Survey of LLM applications in finance with categorisation of literature and resources.
+7761,include,I2,"Reasoning module discovered by tree search over code space with reflection-driven mutations, compared against other automatic MAS-design methods. Mechanism: iteration policy."
+7763,exclude,E1,"Agency-theory analysis of AI in firms; the control and monitoring loop is organizational, not a language-model agent's loop."
+7764,exclude,E5,Systematic review of large multimodal agents with a component taxonomy and an evaluation framework.
+7765,exclude,E1,"Quasi-experiment on human self-regulated learning with LLM feedback; the monitoring loop is the learner's, not an agent's."
+7766,include,I2,"Planner, Simulator and Critic embedded in an MCTS loop to give dense reward for step selection; compared against the next-best search framework and on token efficiency. Mechanism: iteration policy."
+7769,include,I2,"Planner, Simulator and Critic embedded in an MCTS loop to give dense reward for step selection; compared against the next-best search framework and on token efficiency. Mechanism: iteration policy."
+7774,exclude,E7,"Generalist multi-agent system with an Orchestrator; reported claims are competitive scores on GAIA, AssistantBench and WebArena."
+7777,exclude,E5,PRISMA-ScR scoping literature review of LLMs in the legal domain.

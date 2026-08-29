@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+1513,exclude,E7,"Runtime-feedback self-refinement framework, but the reported claims are speedups and SOTA runtime efficiency on HumanEval/MBPP/APPS: task outcomes, not evidence about the feedback loop."
+1514,include,I2,"Verification: masking a key condition builds a verification question driving an iterative verify-then-correct loop; gains reported against Self-Correct, an alternative correction mechanism."
+1515,exclude,E7,"Generator/Evaluator/Reflector refinement architecture built by the authors; claims are medical paper quality gains (9.91% with DeepSeek V3, human eval), not loop evidence."
+1517,include,I2,"Retry/repair: traceback-guided self-correcting refinement is the contribution, and accuracy is reported per additional iteration rather than only at the end."
+1518,exclude,E7,LEAP is an iterative fine-tuning pipeline with privileged teacher feedback; claims are ALFWorld/WebShop/Intercode success against ReAct and behavior cloning: task outcomes.
+1519,exclude,E2,"Keyframer is a human-driven animation design tool; iteration is the user re-prompting and direct editing, with no autonomous loop-control mechanism."
+1520,exclude,E2,"Med-PaLM 2 is finetuning plus prompting; ensemble refinement is parallel sampling and aggregation, not iterative control, and claims are MedQA accuracy."
+1521,exclude,E4,"JMIR tutorial walking students through prompting ChatGPT and DALL-E for mnemonics; an implementation guide, not a research contribution."
+1522,exclude,E7,"Cognitive-agentic drone architecture with self-correction loops built by the authors; claims are SAR system capability and operator load, not evidence about the loop."
+1523,exclude,E7,"Multi-agent iterative rewriting is one component of an attack on ID-free recommenders; claims are promotion success and detection, i.e. task outcomes."
+1524,exclude,E7,"Automated adversarial data pipeline with iterative refinement; claims are reduced unsafe LLaMA outputs and robustness, i.e. alignment task outcomes."
+1526,exclude,E2,"Fine-tuned multilingual health chatbot with text-to-speech; single-pass response generation, no iterative loop-control mechanism."
+1527,exclude,E7,"Prompt-Shield is a three-module injection defense; the self-feedback loop is one module and every reported claim is detection precision, recall and accuracy."
+1528,exclude,E2,"LaTRO optimizes reasoning as latent sampling during training; no runtime loop, and claims are GSM8K and ARC-Challenge zero-shot accuracy."
+1529,exclude,E2,"Human experts iteratively refine GPT-4 prompts to co-design NGSS assessments; the refinement is human design work, not an agent loop-control mechanism."
+1530,exclude,E2,Design-based prompt engineering for a tutoring chatbot; researchers iterate system prompts offline and the chatbot itself has no control loop.
+1531,include,I2,"Retry/repair: PIT trains the response-improvement step itself, maximizing quality gap over a reference response, and is compared against prompting-based self-improvement methods."
+1532,exclude,E5,Systematic survey of prompt engineering techniques and applications; secondary study.
+1545,exclude,E2,Steering vectors modulate reasoning behaviors inside a single generation pass; no iterative control loop deciding whether the model goes again.
+1548,include,I2,"Retry/repair: self-correction is the contribution, analysed for its gaps and measured directly as accuracy before (64.1) versus after (65.4) the correction step."
+1551,include,I2,"Retry/repair: spontaneous step-level self-correction during inference is the contribution, detecting and fixing errors mid-trajectory rather than post-hoc."
+1553,include,I2,"Termination: the hierarchical reasoning module learns when to halt its cycles, and the paper measures the resulting non-uniform step allocation across tasks and inputs."
+1554,include,I2,"Retry/repair: perturbations are injected into CoT and the paper measures whether models self-correct them, evidence about the correction step itself."
+1555,include,I2,Verification: CoSC verifies each program output and decides whether to run another correction stage or finalise the answer; the staged loop is the contribution.
+1556,include,I2,"Verification: verifier strength is the studied variable, a strong GPT-4 verifier versus a weak self-verifier for deciding when to correct."
+1557,exclude,E4,"Benchmark of first-order-logic questions over chaotic systems; measures logical accuracy and dialogue coherence, no loop property."
+1558,exclude,E2,Rollout-based process rewards for GRPO post-training; the contribution is credit assignment during training and claims are video benchmark accuracy.
+1563,exclude,E5,Survey organising agentic reasoning into three layers; secondary study.
+1564,include,I2,"Retry/repair: theoretical and empirical analysis of intrinsic self-correction itself, identifying zero temperature and fair prompts as the factors that make it work."
+1566,include,I2,"Retry/repair: decomposes self-correction into detection, localisation and correction and measures each rate across models; the findings are about the mechanism."
+1567,include,I2,"Iteration policy: APR lets the model orchestrate serial and parallel threads via spawn/join, compared against CoT and self-consistency at matched context, compute and latency."
+1573,include,I2,"Retry/repair: a second GRPO layer trained only to correct the first layer's response forms the self-correction loop, and MGRPO is compared against GRPO without it."
+1574,include,I2,Retry/repair: measures moral self-correction across model scales and tests the claim that sub-22B models cannot do it; claims are about the correction step.
+1579,include,I2,Termination: reveals performance convergence over multi-round self-correction and gives a mechanistic account of why the rounds stabilise.
+1581,include,I2,"Verification: a benchmark that measures a loop property, whether correction activates on internal versus external errors, finding a 64.5% blind spot."
+1590,exclude,E5,Survey of efficient reasoning and reasoning economy; secondary study.
+1594,include,I2,"Verification: Step CoT Check trains step-level self-checking, and the checking format is compared against other formats on error-location accuracy."
+1599,include,I2,"Retry/repair: intrinsic self-correction via Partial Answer Masking is the contribution, evaluated as output quality with versus without the correction step."
+1602,include,I2,"Verification: multi-aspect critique and scoring in the feedback component is the studied variable, with intent clarification compared per component for debiasing effect."
+1603,exclude,E4,"Benchmark of topological grid puzzles; the error taxonomy and interventions target constraint extraction from spatial representations, not a loop property."
+1606,include,I2,"Termination: a Convergence Judge decides when correction iterations stop, evaluated by convergence, overshoot and oscillation rates rather than final accuracy alone."
+1607,include,I2,"Retry/repair: behavioural and mechanistic analysis of whether moral self-correction is innate, examining how CoT and external feedback interact in the correction step."
+1609,exclude,E7,"Fine-tuning plus two-stage incremental inference with a predicate-arity verification module; claims are error rates, predicate coverage and reasoning performance."
+1610,include,I2,Retry/repair: systematic comparison of self-correction dynamics and failure modes between open-ended generation and multiple-choice selection.
+1612,exclude,E5,Survey of long chain-of-thought reasoning in large reasoning models; secondary study.

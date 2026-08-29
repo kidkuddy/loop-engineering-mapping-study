@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+2340,include,I2,Argues an institutionally separated planner/executor/verifier topology against shared-substrate self-correction; control topology is the studied design position.
+2343,include,I2,Self-verification verdict plus confidence used as a stopping rule; adaptive termination measured as turns used (2.99) vs fixed ten-turn inference.
+2346,exclude,E5,Systematic survey of 111 papers on LLM code generation for low-resource and domain-specific languages.
+2352,include,I2,Planner-defined verification functions gate subtask passing; analysis of how verification-aware planning drives iterative refinement. Mechanism: verification.
+2354,include,I2,"Empirical negative result on coding-agent self-verification: hollow implementations reported complete, tests written to pass; argues self-verification cannot gate completion."
+2356,include,I2,"Interrupt-execute-resume tool-flow verification compared against reflection- and program-based verification alternatives, with gains by verification complexity. Mechanism: verification."
+2367,exclude,E7,"Multi-agent perception/fusion architecture for driving; claims are nuScenes/Waymo detection accuracy and QA grounding, not the loop mechanism."
+2369,exclude,E2,"Pre-generation query hallucination classifier for rewriting, ranking and routing; no iterative control returns to the model."
+2374,exclude,E2,"Prompt-family battery characterising retrieval hallucination by input format class; single-pass output quality, no loop mechanism."
+2413,exclude,E2,Adversarial bias benchmark (CLEAR-Bias) scoring one-shot model responses with an LLM judge; no agent loop.
+2435,exclude,E4,"Robustness benchmark for PowerPoint task completion; reports API-call task success under perturbations, not a loop property such as retries or termination."
+2484,exclude,E2,LLM-as-judge preference dataset used for SFT/RLAIF fine-tuning of CodeLlama; no runtime loop.
+2525,exclude,E5,Literature review and roadmap on LLM-as-a-Judge for software engineering.
+2526,exclude,E2,Optimisation-based prompt injection attack on one-shot judge selection among candidate responses; no iterative control studied.
+2532,exclude,E2,Translated Indic medical benchmark measuring presupposition robustness of single responses; no loop.
+2540,exclude,E2,Analysis of judge and reward-model evaluation ability across languages and hard prompts; no agent loop.
+2543,exclude,E2,"RL training of a generative judge model to improve evaluation ability; judging is one-shot, no runtime loop control."
+2560,include,I2,Measures how prior-score metadata anchors judgments that gate iterative refinement: anchoring blocks 48% of error corrections. Mechanism: verification and loop state.
+2568,exclude,E2,"Compares retrievers, languages and judge models for code search relevance annotation; no loop."
+2581,exclude,E4,Insurance domain evaluation benchmark scoring 11 models across indicator dimensions; no loop property measured.
+2583,exclude,E2,Compares lexical metrics against a GPT-4 judge for a LoRA-tuned clinical dialogue model; single-pass generation.
+2608,exclude,E2,"MT-Bench and Chatbot Arena judge-agreement study on chat responses; scoring is single-pass, no agent loop."
+2615,exclude,E2,Framework probing bias in human and LLM judges of generated answers; no iterative control.
+2622,exclude,E7,"LLM plus RAG clinical workflow benchmarked on 2000 MIMIC cases; reported claims are diagnosis, triage and referral accuracy."
+2630,exclude,E5,Survey and guideline of 29 trustworthiness sub-categories for evaluating LLM alignment.
+2633,exclude,E2,"Position-bias study of LLM evaluators plus scoring calibration strategies; the judge ranks candidates once, no loop is controlled."
+2673,exclude,E2,Compares open and proprietary models at generating and judging programming feedback; one-shot generation quality.
+2684,exclude,E2,"Classroom report on GPT-4 grading assignments for 1028 students; evaluation is single-pass, no agent loop."
+2689,exclude,E2,"Profile-aware LLM judge for offline podcast recommendation evaluation; pointwise/pairwise judgments, no loop."
+2700,exclude,E5,"Literature review, vision and roadmap for LLM-as-a-Judge in software engineering."
+2761,exclude,E5,"Survey of bias and unfairness issues across data, model and evaluation stages of LLM-based IR."
+2869,exclude,E2,"Critic LLM filters trajectories to fine-tune agents across training iterations; the loop is training, results are API-bank task performance."
+2871,exclude,E2,LLM decomposes session-level feedback into turn-level rewards for RL fine-tuning of dialogue models; no runtime loop control.
+2895,include,I2,"Critic model scoring citation, correctness and fluency drives a feedback loop that iteratively revises responses; the refinement cycle is the contribution. Mechanism: verification."
+2898,exclude,E1,"Reward shaping for conventional RL policies from LLM rankings; the loop is RL environment stepping, not a language-model agent loop."
+2899,exclude,E2,"Chain of Hindsight fine-tunes on feedback-annotated generation sequences; alignment training, no runtime loop."
+2907,exclude,E7,"Explores types of human help in the IGLU grounded task; reported claims are agent task performance improvements, not a loop-control mechanism."
+2910,exclude,E2,"ALT conditions generation on textual feedback for alignment training on toxicity, summarisation and dialogue; no runtime loop."
+2911,exclude,E7,"MemCoder pairs structured memory with self-refinement, but the reported claim is SWE-bench Verified resolved rate (+9.4%), a task outcome."
+2917,include,I2,Actor-critic loop where a trained critic emits actionable revisions; critique feedback quality itself is compared (small critic beats GPT-4). Mechanism: retry/repair.
+2945,exclude,E7,Multi-agent Text2SQL system with execution-feedback RL; claims are benchmark SQL accuracy versus large LLMs.
+2948,exclude,E1,"Language Feedback Models label trajectories for imitation learning of non-LLM grounding policies; the loop is policy training, not an agent loop."
+2973,exclude,E2,Three-stage RLHF training of a patent claim generator using grant status as implicit feedback; no runtime loop.
+3015,exclude,E5,"Perspective plus scoping review of AI-scientist risks, proposing a regulatory framework rather than a studied loop mechanism."
+3016,exclude,E7,Generator-instructor-editor pipeline for personalised summarisation; reported claims are summarisation outputs meeting user expectations.

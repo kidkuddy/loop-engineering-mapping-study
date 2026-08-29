@@ -1,0 +1,50 @@
+[
+ {
+  "paper_id": 10864,
+  "title": "Watch Every Step! LLM Agent Learning via Iterative Step-level Process Refinement.",
+  "year": 2024,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10873,
+  "title": "Athena: Safe Autonomous Agents with Verbal Contrastive Learning.",
+  "year": 2024,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10878,
+  "title": "Training Language Models to Critique With Multi-agent Feedback.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10879,
+  "title": "Aligning Dialogue Agents with Global Feedback via Large Language Model Multimodal Reward Decomposition.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10935,
+  "title": "MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control.",
+  "year": 2026,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10941,
+  "title": "AutoMV: An Autonomous Agent Framework for Real Estate Marketing Video Generation.",
+  "year": 2025,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ }
+]

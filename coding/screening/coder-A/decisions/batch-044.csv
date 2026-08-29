@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5703,exclude,E7,"Bioinformatics platform with orchestrated agents; claims are about capabilities/validation of analysis workflows, not about any loop-control mechanism."
+5704,exclude,E7,"HighwayMAS leader/member agents for digital-twin interaction; evidence is a user study on cognitive workload, task performance and usability."
+5705,exclude,E7,"LatteReview is a review-automation framework of modular agents; abstract reports architecture and features, no evidence about its orchestration mechanism."
+5706,exclude,E7,Hybrid agentic/MAS architecture for prescriptive maintenance; proof-of-concept validated on two industrial datasets by maintenance recommendation quality.
+5707,exclude,E1,"The closed-loop policy decision is statistical Weibull estimation plus numerical optimization; the LLM is confined to explanation, so it is not a language-model agent loop."
+5708,exclude,E7,"FlowXpert generates troubleshooting workflows; RL refines generator/evaluator and claims are STEPScore benchmark quality and deployment support, i.e. task outcomes."
+5709,exclude,E7,"SymAgent is a planner/executor KG-reasoning system; reported claims are QA performance versus strong baselines and KG triple recovery, not the loop itself."
+5710,exclude,E7,TaskWeaver is a code-first agent framework; abstract describes plugin handling and secure execution with no evidence or argument about loop control.
+5711,exclude,E7,"Clinical documentation agents evaluated by MAE, NER F1, edit distance and discharge accuracy - all task outcomes, not claims about the loop."
+5712,exclude,E7,"SolidGPT is a developer assistant tool; abstract reports productivity features and privacy design, no evidence about any loop-control mechanism."
+5714,exclude,E2,Teola optimizes a primitive-level dataflow graph per query for latency; execution is a static pipeline with no iterative control returning on a signal.
+5716,exclude,E7,DataFactory is a TableQA multi-agent system; headline claims are TabFact/WikiTQ/FeTaQA accuracy gains over baselines and single-team variants.
+5724,exclude,E7,"EzyBuyy e-commerce supervisor plus specialized agents; evaluation is user engagement, discovery time and personalization - task outcomes."
+5725,exclude,E5,"Explicitly a review of AI multi-agent frameworks (LangChain, CrewAI, OpenAI Swarm) for financial services, with comparative analysis of architectures."
+5727,exclude,E7,"CellAtria orchestrates scRNA-seq ingestion and analysis; contribution is the pipeline and its accessibility, no claim about loop control."
+5729,exclude,E4,Workshop proposal describing aims and three pillars for enterprise agentic AI; not a research contribution with a method.
+5731,exclude,E7,"Empty abstract; title names a retrieval-augmented agentic decision-support framework for nuclear engineering, a domain system, not a loop mechanism."
+5732,exclude,E5,Vision/roadmap paper analysing existing LLM code-generation studies and proposing a six-layer categorization - a secondary overview.
+5734,exclude,E7,"PhenoAssistant orchestrates a phenotyping toolkit; validation is case studies and evaluation tasks on phenotype extraction, not on the loop."
+5737,exclude,E7,"PipeMind monitors analytics pipelines; reported evidence is execution time, resource use and throughput in a prototype and trading case study."
+5738,exclude,E5,Perspective piece envisioning LLM workflow automation for urban water systems and analysing adoption barriers across six dimensions; no mechanism studied.
+5739,exclude,E5,Empirical taxonomy of 1026 bugs across LangChain/LlamaIndex/Haystack with nine root causes and six symptoms; contributes no loop-control mechanism.
+5740,exclude,E7,DFTAgent orchestrates a DFT toolchain; claims are ATPG fault coverage on ISCAS/ITC benchmarks versus a scripted baseline.
+5741,exclude,E2,"LLM virtual experts do pairwise AHP comparisons aggregated over k=3 runs to damp stochasticity - repeated sampling and voting, not iterative loop control."
+5742,exclude,E5,"Empty abstract; title is a Current Opinion piece on LLM agents as orchestrators in enzyme engineering, naming no loop mechanism as contribution."
+5743,exclude,E7,"Multi-tool fact-checking agent; reported claims are detection accuracy on FakeNewsNet, reasoning quality and robustness to rewriting."
+5744,exclude,E7,TALON's planner/tool/critic loop is used but claims are 7.5% and 12.0% accuracy gains and SOTA on long-table QA benchmarks.
+5746,exclude,E7,Five-agent end-to-end software testing pipeline; abstract asserts complete automation with no evidence or argument about the coordination mechanism.
+5747,exclude,E7,"Agentic compliance-lifecycle blueprint for multinational enterprises; claims concern regulatory exposure and operational resilience, not loop control."
+5750,exclude,E7,Prompt-to-Pill orchestrates drug-discovery and trial-simulation agents; contribution is the pipeline demonstrated on a DPP4 use case.
+5751,exclude,E7,"DeepEye demo of a workflow-centric data agent; showcased by multimodal outputs (dashboards, reports) and execution transparency, not loop-mechanism evidence."
+5752,exclude,E7,"Orchestrator-worker workflow for mobility-trajectory generation; the contribution is a generation pipeline plus taxonomy, with no mechanism evidence."
+5753,exclude,E5,"Revisits the landscape of AI multi-agent frameworks for finance and offers a refined perspective - a secondary overview, not a primary method."
+5754,exclude,E7,"Human-in-the-loop pipeline operating beamline and robotic instruments; evaluates which LLMs orchestrate the workflows, i.e. task capability."
+5755,include,I2,ToolSmith's contribution is the closed-loop verification and repair cycle: NL tests run in a sandbox decide whether the generated tool is regenerated from diagnostic feedback.
+5756,exclude,E3,Off-the-shelf Autogen plus Kafka wired into a complex-event-processing pipeline; results are latency and coherence trade-offs across configurations.
+5757,exclude,E2,Benchmarks six LLMs' evaluative criteria against expert and human ratings in a single structured judgment procedure; no iterative control is studied.
+5758,exclude,E7,"CloudMAS reports 92% compilation, 81% test pass and 84% deployment success against single-agent baselines - end-task outcomes on CloudDevBench."
+5759,exclude,E7,GIS multi-agent framework judged by execution success and semantic correctness on QGIS tasks; self-refinement is noted only as a gain in those task metrics.
+5760,exclude,E7,Human-in-the-loop agents for Chinese-Japanese legal terminology mapping; evidence is precision and consistency of the resulting terminology database.
+5762,exclude,E7,RS-Agent controller plus toolkit for remote sensing; claims are planning accuracy and results across 9 datasets and 18 domain tasks versus MLLMs.
+5767,exclude,E4,"Practitioner overview contrasting chatbots and AI agents in sales support, covering use-case selection and deployment considerations; no method or data."
+5768,exclude,E7,LLM multi-agent workflow for power-electronics controller design; abstract promises flexibility with no evidence or argument about the agent loop.
+5769,exclude,E7,InsightX Agent orchestrates a detector and a reflection tool; the reported claim is 96.54% detection F1 on GDXray+ plus interpretability.
+5770,exclude,E7,"PatExpert meta-agent with critique agents; empirical claims are improvements on patent classification, summarization and analysis tasks."

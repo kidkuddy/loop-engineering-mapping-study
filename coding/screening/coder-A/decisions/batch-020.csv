@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+2285,exclude,E7,"LLM pipeline for HR temporal knowledge graph; self-verification and repair are components, claims are extraction F1 (0.9876) and baseline gains, i.e. task outcomes."
+2286,exclude,E7,"Empty abstract; title names a self-verifying agent applied to floor-plan extraction and code compliance, i.e. an application, not a loop mechanism as the contribution."
+2289,include,I2,"Verification: unifies generation and self-verification in one RL process, replacing external reward models to guide test-time generation; compares self-verifier against external reward models."
+2291,include,I2,Control topology: debate ensemble composition is the studied variable; diverse vs identical agent sets compared across scales and 4 debate rounds (91% vs 82% GSM-8K).
+2293,include,I2,"Iteration policy: toolkit quantifies loop properties of trajectories (backtracking and exploration, self-verification, decomposition); metrics validated at r=0.57-0.78 vs human judgments."
+2294,exclude,E4,"Benchmark/dataset of 202 VHDL problems with self-verifying testbenches; evaluates zero-shot, ICL and PEFT generation, measures no loop property."
+2295,include,I2,Retry/repair: audits CoT trajectories to show reflective reasoning iteratively reinforces errors and chains resist correction ('chain disloyalty'); negative result on self-correction.
+2296,exclude,E5,Overview of the current research landscape and future directions for LLMs in biomedicine and health; secondary study with no method.
+2300,include,I2,Verification: minimal framework isolating self-verifying reflection; proves improvement bounds under bounded verification error and shows RL raises reflection without reducing verification error.
+2301,exclude,E2,"RL training for evidence-grounded CoT attribution in VD-RAG; single-pass generation with reward-time checks, claims are EM (+8.23%) and IoU (+47.0%)."
+2305,exclude,E7,"Multi-agent auditing framework with closed-loop correction, but reported claims are output-level outcomes (fewer hallucinations, better coherence and reliability), not the loop mechanism."
+2306,include,I2,"Verification: LDB checks intermediate runtime state block by block to locate the error before refinement, contrasted with prior methods treating the program as indivisible."
+2308,exclude,E2,"Unit Consistency Programs dataset and fine-tuning of Llama 2/Code Llama/Mistral; program-internal unit checks with no runtime loop, and the approach underperforms."
+2309,exclude,E2,Co-design study of four radiology VLM use concepts with 13 clinicians; no iterative control mechanism at all.
+2312,include,I2,Termination: detects recheck activation and suppresses unnecessary self-verification via an offline experience pool; measures recheck frequency and cuts tokens up to 20.3% at equal accuracy.
+2313,include,I2,Retry/repair: DSVD adds parallel self-verification during decoding plus a dynamic rollback that returns control for targeted error recovery; evaluated across five benchmarks.
+2315,include,I2,"Verification: measures why loop-level checks fail under manipulated tool data - self-verification reads the same poisoned data, cross-check flags 99-100% yet suitability is unchanged."
+2316,include,I2,"Verification: CoVe drafts, plans and independently answers verification questions, then revises; hallucination reduction measured across Wikidata, MultiSpanQA and longform tasks."
+2317,include,I2,"Iteration policy: shows scalar confidence training alone elicits self-checking on low-confidence queries, and proposes rethinking that spends test-time compute by calibrated uncertainty."
+2321,include,I2,"Verification: argues for an independent verification layer between reasoning and execution, with four verifier agents and a trust score gating approve / re-verify / human escalation."
+2324,include,I2,"Iteration policy: proposes memory-guided regeneration in place of iterative verify-rectify and best-of-N selection, compared against both across nine benchmarks."
+2325,exclude,E7,"ConsistencyVerify is a reward signal for RLAIF training of tool agents; claims are competitive information-seeking benchmark performance at lower compute, not loop control."
+2326,exclude,E2,"Self-verification filters self-generated training data for distillation; the resulting model needs only a single inference call at test time, so there is no runtime loop."
+2327,exclude,E7,Self-verification prompting for psychiatric diagnosis on 106 DSM-5-TR vignettes; reported claims are clinical sensitivity and PPV.
+2329,exclude,E7,"Journal version of the same study: self-verification prompting for psychiatric diagnosis, claims are diagnostic sensitivity and PPV on 106 vignettes."
+2332,exclude,E5,Comprehensive survey and classification of LLM-as-a-judge.
+2333,include,I2,"Verification: CLOSER verifies each candidate action, triggers retrieval only when verification fails, then corrects before execution; closed-loop contrasted with open-loop VLN on CityNav."
+2334,include,I2,"Verification: ablates three verifier designs for cited-frame checking, reporting 0% catch for direct asking, unstable judge re-captioning, and 79% for an NLI verifier."
+2336,exclude,E2,"A second LLM instance screens the generated response once; the paper states it requires no iterative output generation, so control never returns."
+2340,include,I2,"Control topology: argues one substrate generating, judging and correcting causes confirmation bias, and proposes isolated planner/executor/verifier agents with context separation."
+2342,exclude,E5,"Survey of reasoning in LLMs: techniques, benchmarks, findings and future directions."
+2343,include,I2,"Termination: SVR learns self-verification as a compute-control policy, verdict plus confidence deciding retention vs another turn; adaptive stopping vs fixed ten-turn inference (2.99 turns)."
+2345,exclude,E5,"Empty abstract; the title is a taxonomy of failure modes in agentic systems, i.e. a taxonomy-only overview, and names no loop mechanism as contribution."
+2346,exclude,E5,Systematic survey of 111 papers on LLM code generation for low-resource and domain-specific languages.
+2347,exclude,E7,CP-SynC is a multi-agent MiniZinc modeling workflow with synthesized checkers; the reported claim is that it outperforms baselines on 100 CP problems.
+2349,exclude,E4,Benchmark for execution-verified repository generation; reports agent pass rates of 30-55% and measures no loop property such as retries or termination.
+2352,include,I2,"Verification: planner-defined passing criteria are compiled into per-subtask verification functions that gate handoffs and drive iterative refinement, analysed without external labels."
+2354,include,I2,"Termination: documents systematic false completion claims by coding agents over nine months and 277 tools, taxonomises the fabrication patterns and argues self-verification cannot be trusted."
+2356,include,I2,"Verification: AMTFV decouples verification modeling from execution via an interrupt-execute-resume tool flow, and is compared against NL reflection and program-generating verification baselines."
+2358,exclude,E1,"The loops studied are cultural iterated-learning and training-deployment feedback over language evolution, not an agent's runtime control loop."
+2359,include,I2,"Loop state: ablates the commitment mechanism and reports goal abandonment flipping 0.00 to 1.00 with binding error flat, under null task efficacy - a direct mechanism claim."
+2361,exclude,E7,"Medical triage architecture with rubric self-verification; reported claims are clinical outcomes (macro-F1 0.645, calibration error, under-triage, urgent-route recall)."
+2362,exclude,E2,"Automated review-generation pipeline over 343/1041 articles with multilayered quality control; no iterative control described, claims are review quality and <0.5% hallucination."
+2363,exclude,E5,"Review of LLM applications in robotics across control, perception, decision-making and planning."
+2364,exclude,E7,FLAIRR-TS is an agentic forecaster-refiner system for time series; the reported claim is forecast accuracy over static prompting and retrieval baselines.

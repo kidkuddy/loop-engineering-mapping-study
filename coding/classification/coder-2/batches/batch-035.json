@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 8569,
+  "title": "GDPR Auto-Formalization with AI Agents and Human Verification",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We study the overall process of automatic formalization of GDPR provisions using large language models, within a human-in-the-loop verification framework. Rather than aiming for full autonomy, we adopt a role-specialized workflow in which LLM-based AI components, operating in a multi-agent setting with iterative feedback, generate legal scenarios, formal rules, and atomic facts. This is coupled with independent verification modules which include human reviewers' assessment of representational, logical, and legal correctness. Using this approach, we construct a high-quality dataset to be used for GDPR auto-formalization, and analyze both successful and problematic cases. Our results show that structured verification and targeted human oversight are essential for reliable legal formalization, especially in the presence of legal nuance and context-sensitive reasoning."
+ },
+ {
+  "paper_id": 8613,
+  "title": "An Agentic LLM Framework for Autonomous Surgical Continuum Monitoring: ReAct-Driven Tool-Use Agents for Presurgical, Intraoperative, and Postsurgical Cardiopulmonary Care",
+  "year": 2026,
+  "venue": "Bioengineering",
+  "source": "openalex",
+  "abstract": "BACKGROUND: Rule-based multi-agent system (MAS) architectures for healthcare coordination rely on hardcoded decision trees that cannot generalise to novel clinical scenarios or self-correct reasoning errors. These limitations are acute in surgical continuum care, where patients traverse presurgical risk stratification, intraoperative monitoring, postsurgical ICU, ward care, and remote rehabilitation over days to weeks-a complexity no fixed-policy agent architecture can address without prohibitive rule engineering. OBJECTIVE: We present the first agentic large language model (LLM) framework for autonomous end-to-end surgical continuum monitoring, superseding the prior rule-based MAS Digital Twin. Six ReAct-driven tool-use agents replace fixed-policy agents with dynamic reasoning, multi-hop evidence retrieval, and Reflexion self-correction while maintaining mandatory confidence-gated Human-in-the-Loop (HITL) gating at every care-pathway-modifying decision. METHODS: The framework is grounded in the ReAct paradigm and Reflexion self-evaluation, embedded within the DETER Digital Twin state engine S(t). Each agent is specified by a ReAct loop signature, a ten-function clinical tool registry, and confidence-gated HITL escalation logic. Inter-agent coordination replaces the rule-based Priority Queue Manager with an LLM-mediated Coordination Supervisor Agent reasoning over competing resource requests. RESULTS: The framework delivers: (i) six formally specified ReAct-loop agents with explicit tool registries and authorisation boundaries; (ii) a confidence-gated HITL architecture that reduces alert fatigue while preserving safety for ambiguous clinical scenarios; (iii) an extended conflict resolution function P(p,t,context) incorporating surgical phase and DETER deterioration trajectory gradient; (iv) Reflexion self-correction with a formal N_max = 2 termination condition and Clinical Factuality Verification Layer; and (v) a multi-phase Digital Twin state engine extending S(t) to the full surgical continuum. CONCLUSIONS: The proposed framework represents a fundamental architectural departure from rule-based clinical AI-from hardcoded policies to dynamic reasoning, from static retrieval to multi-hop tool-use chains, and from fixed escalation thresholds to confidence-gated self-evaluation-providing a formally specified, clinically deployable foundation for next-generatio"
+ },
+ {
+  "paper_id": 8624,
+  "title": "LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Coding agent infrastructure is shifting from harness engineering toward loop engineering as coding agents are deployed for sustained long-horizon software development. Existing benchmarks often center on localized tasks or end-state outcomes, offering limited insight into sustained execution. We introduce LOOPSBENCH, a long-horizon benchmark for loop engineering in coding agent evaluation. Each task is a dependency DAG over separately testable development units with source-evidenced prerequisite edges. LOOPSBENCH comprises 112 tasks from authentic sources spanning 8 programming languages and 9 domains. Its flow-aware runtime releases tests along the ready frontier and retains completed nodes as regression obligations. We evaluate frontier coding agents paired with widely used loop implementations. The strongest configuration, Opus-4.7 with Claude Code and outer continuation, resolves 25.00% of tasks. Recorded plans recover only part of the source-recovered prerequisite DAG, and regression events remain visible across the evaluated loop profiles. We open source the benchmark data and code, including all tasks, more than 5,300 development units, and executable tests, at microsoft/Loopsbench."
+ },
+ {
+  "paper_id": 8625,
+  "title": "Loop Engineering: Building Blocks, Adoption, and Impact",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Over the past months, the way developers direct agentic AI coding tools has moved up several levels of abstraction, from phrasing prompts to engineering context to configuring the harness around the model. In June 2026, practitioners began to describe a further level called loop engineering: Instead of prompting an agent interactively, developers design systems that prompt agents for them. These systems start agent runs on a schedule or on repository events and stop them when a machine-checkable condition holds. The term spread rapidly, accompanied by bold claims and vocal skepticism, but its adoption in software projects has not been measured. We present an exploratory review of the emerging gray literature, which largely agrees on what a well-engineered loop contains: triggered agent runs bounded by machine-checkable stop conditions, persistent state files, verifier sub-agents, token budgets, and defined points of escalation to humans. From this review, we derive a research agenda for the empirical study of loop engineering in open-source projects, analyze which of its aspects are traceable from repository data, and report an exploratory mining study of 36,710 software repositories. We confirmed the operation of autonomous agent loops in 217 of the 256 repositories our heuristics matched. The repositories commit the configuration around these loops, but almost none commits the state files the discourse prescribes, and the loops' runtime state remains outside version control. We conclude by outlining a planned controlled study of agent autonomy levels and their effect on effort and outcomes."
+ },
+ {
+  "paper_id": 8628,
+  "title": "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "In mid-2026 a slogan reorganized how practitioners talk about coding agents: stop prompting your agent, start designing the loop that prompts it. We take this claim seriously and give it a careful treatment. We call the object of the new practice the loop specification: a bounded, reusable artifact, made of a trigger, a goal, a verification step, a stopping rule and a memory, that a human hands to an agent harness (such as Claude Code or Codex) so the agent pursues a goal on its own, in place of step-by-step prompting. We distinguish this external loop specification from two things it is often confused with: an ordinary programming loop, and the internal perceive-act-observe cycle that the harness already provides as plumbing. We position loop engineering as a new layer in the progression from prompt to context to harness to loop, and we argue, against the stronger headlines, that it does not retire prompt engineering; loop and prompt are distinct tools with distinct uses. We offer four contributions: a definition and scope for the discipline; an anatomy and taxonomy of loop specifications organized around trigger, goal type, a five-level verification ladder, architecture, and named terminal states; a descriptive analysis of the Loop Library, a public corpus of fifty real loops that we code by hand; and a set of design principles and anti-patterns grounded in the scientific literature on self-correction, reward hacking and model-as-judge fragility. The corpus shows that practice has matured most where the discipline says it matters: seventy percent of loops verify in the autonomous zone of the ladder and seventy-four percent name their terminal states, while automated triggering and durable memory remain comparatively underdeveloped. We close with the limits the practice must respect, including the verification burden, comprehension debt and the risk of cognitive surrender."
+ },
+ {
+  "paper_id": 8701,
+  "title": "Loop Engineering: Building Blocks, Adoption, and Impact (Supplementary Material)",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Over the past months, the way developers direct agentic AI coding tools has moved up several levels of abstraction: from phrasing individual prompts, to engineering the context that agents see, to configuring the harness that surrounds the model. In June 2026, practitioners began to describe a new abstraction layer called loop engineering. Instead of prompting an agent interactively, developers now design systems that prompt agents for them. They specify what to build up front, e.g., using machine-checkable goal conditions, or the goals are derived from repository events such as failing builds and open issues. The term loop engineering spread rapidly through blog posts, newsletters, and social media, accompanied by bold claims and equally loud skepticism, but it has not yet been studied scientifically. In this paper, we trace the trajectory from prompt engineering to loop engineering and report an exploratory review of the emerging gray literature, situated against adjacent academic work. The practitioner sources largely agree on what a well-engineered loop contains: scheduled or goal-driven agent runs, persistent state files, verifier sub-agents, token and cost budgets, and defined points of escalation to humans. From this review, we derive a research agenda centered on the empirical study of loop engineering in open-source projects. We analyze which aspects of loop engineering are traceable from repository data and which are not, and we report an exploratory mining study of 36,710 open-source repositories classified as engineered software projects. Autonomous agent loops run in open-source projects: 70 of the 81 candidate repositories we manually verified execute scheduled or event-triggered agent processes. Yet almost none commit the state files, budgets, and run logs the discourse prescribes, because these loops keep their state in platform artifacts such as labels, issues, and pull requests rather than under version control. As the planned journal extension, we outline a comparative study of agent autonomy levels, together with re-running and scaling this mining study to track how the practice evolves."
+ },
+ {
+  "paper_id": 8712,
+  "title": "Inverted Orchestration in Software Development: A Deterministic Harness and Looping Engineering under Enterprise Constraints",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "This report repositions Inverted Orchestration around an IDE-agent development experiment. It treats the harness not as backlog refinement, but as a control plane for a long-running implementation loop. The central technique, Inverted Agentic Orchestration, delegates execution to the agent while keeping workflow policy, selection, validation, budget, state, and telemetry in code and files. In the reference implementation, Flows.Development built a .NET TodoApp WebAPI with Postgres through the cycle start \u2192 plan \u2192 [bearings \u2192 smoke \u2192 pick \u2192 implement \u2192 verify \u2192 handoff]*. The cost-measured run ended with 8 passing features, 56 harness turns, 48min45s of observed duration, and a reported total cost of US\\$ 12.58. A later recovery run, on July 20, 2026, completed the final three features in 19 steps after a fresh start, using the persisted state in .harness/; the current target-project verification passes 17 automated tests. A third run, on July 21, 2026, tested portability directly: Codex CLI implemented the first four features of a new target project, was interrupted mid-cycle, and Claude Code resumed from the same persisted state and completed the remaining four, with cost and tokens measured per step and per session for each driver (US$ 11.68 for Codex CLI, US\\$ 4.41 for Claude Code) and a final verification of 45 of 45 automated tests. The result rejects automatic token savings but supports governance: the harness adds operational overhead \u2013 including 16% of attributed cost consumed by rework after protocol errors, a direct measure of the flow\u2019s cost of control \u2013, while making agentic development auditable, interruptible, evidence-producing, and portable across agents sharing only the terminal.Repository: https://github.com/cooperacode/IAO"
+ },
+ {
+  "paper_id": 8716,
+  "title": "Loop Engineering of Agentic, Developer, and External Feedback Cycles for Large-Scale Enterprise Healthcare Applications",
+  "year": 2026,
+  "venue": "International Journal of Computational Mathematical Ideas",
+  "source": "openalex",
+  "abstract": "Large scale enterprise healthcare applications are grown through three feedback loops that run at different speeds: an agentic coding loop that builds and tests software in minutes, a developer feedback loop that steers priorities in hours, and an external feedback loop that learns real user value from clinicians and patients in days. This paper treats the arrangement as a three timescale feedback control system acting on a shared feature vector, and it names the discipline of designing it loop engineering. We define value alignment, decompose the end to end value error into an implementation gap, an alignment gap, and a knowledge gap, and model each loop as a proportional contraction toward its own target. We prove two results a practitioner can use: under timescale separation the built product converges geometrically to true user value at the rate of the slowest loop, and without separation the coupled convergence rate equals one minus the smallest loop gain, so the slowest loop is always rate limiting. We propose an architecture, the Triple Loop Healthcare Delivery Engine, that binds the three loops to an enterprise platform through a clinical safety gate and a federated cross tenant insight aggregator. Implementing the system from first principles, we report reproducible measurements: the full engine reaches value alignment 0.960 and utility 90.9, an ablation shows a single active loop reaches only 0.000 and two loops only 0.130, a gain sweep confirms that raising the slow outer gain cuts time to value from 25 days to 2 while raising the fast inner gain leaves it near 6, and cross tenant sharing lifts alignment from 0.404 at one hospital to 0.837 at sixty four while residual value error falls from 1.902 to 0.521. The results give a rigorous basis for engineering the loops that deliver trustworthy clinical software at scale."
+ },
+ {
+  "paper_id": 8724,
+  "title": "Agentic AI Automation for Data Science in Large-Scale Projects: Intelligent Agents and Loop Engineering",
+  "year": 2026,
+  "venue": "International Journal of Computational Mathematical Ideas",
+  "source": "openalex",
+  "abstract": "Automating data science on large-scale projects has become a problem of engineering loops rather than tuning models by hand. This paper takes a design stance on that problem and presents LEAP, a loop-engineered agentic pipeline in which an orchestrator agent coordinates stage agents through three feedback loops: a fast loop that searches model configurations under a compute budget, a medium loop in which a critic verifies candidates and revises the pipeline, and a slow loop that monitors and retrains under drift. We make two parts of the design precise. We show that a blind search needs on the order of 1/p trials to find a configuration that is within tolerance of optimal, which motivates cheap multi-fidelity screening, and we show that the optimism of selecting the best of N configurations by validation grows like \u221a2 ln N, which motivates a cross-validated critic. We validate the design with a fully reproducible experiment written from scratch, and we report honest results. At equal compute, agentic multi-fidelity search reaches a test AUC of 0.749 against random search\u2019s 0.738 and wins in 79 percent of runs; a critic loop improves test AUC at every search intensity and curbs the validation optimism that heavy search injects, which rises to 0.037 under the heaviest search; and the critic advantage holds as dimensionality grows. Crucially, a naive greedy agent does not beat random search, which is a strong baseline. The value of agentic automation therefore lies in how it allocates compute and how it selects, not in the promise of a cleverer model, and both can be engineered and reasoned about."
+ },
+ {
+  "paper_id": 8726,
+  "title": "Loop Engineering: The $165,000 Receipt \u2014 Reading an Agentic Code Migration as a Model Risk Management Case Study",
+  "year": 2026,
+  "venue": "Open MIND",
+  "source": "openalex",
+  "abstract": "In May 2026 the creator of the Bun JavaScript runtime rewrote 535,496 lines of Zig into Rust in eleven days, using 64 concurrent AI coding agents at a cost of roughly $165,000 in API spend. The published write-up was received as evidence of agent capability. This essay reads it instead as a controls document, and argues that loop engineering \u2014 the layer at which the workflow, rather than a human, issues each successive prompt \u2014 is a model risk management problem rather than an AI capability problem. Four controls made the migration work, and none of them are new: an independent verifier the agents could not reach, adversarial blind review by separate agents receiving only the diff, a phased canary rollout, and standards documented in advance. Where controls were loose, the loop reproduced familiar governance failures at speed \u2014 stubbing out functions to satisfy a compilation target, generating justifying commentary to make workarounds look deliberate, and producing a green test suite that required manual confirmation the tests had run at all. The essay then takes up the objection raised by the creator of Zig in response: the independent test suite that made the loop safe is the same suite whose inadequacy justified the migration. This is the verifier-validation problem. Organisations are widely advised to add a verifier and are rarely asked what evidence exists that the verifier catches what it claims to. It closes on governance mechanics. A loop appears in no inventory as an owner, a classification or a lifecycle, so questions about which agent acted under whose authority open investigations rather than retrieve answers. Singapore's IMDA framework for agentic AI supplies two measurable oversight metrics \u2014 human override rate and human response time \u2014 that already sit in most approval logs and are almost never queried."
+ },
+ {
+  "paper_id": 8729,
+  "title": "From Prompt Engineering to Loop Engineering: A Five-Layer Taxonomy for Evaluating AI Systems Engineering Practice",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Large language model (LLM) Application Development has moved, in roughly five years, from hand-tuning a single input string to operating autonomous systems that plan, call tools, and revise their own output across multiple passes. Practitioners now use \u201cprompt engineering,\u201d \u201ccontext engineering,\u201d \u201cagent engineering,\u201d and, more recently, \u201charness engineering\u201d and \u201cloop engineering\u201d almost interchangeably, even though each term names a distinct engineering discipline with its own failure modes and its own way of measuring success. This paper proposes a five-layer taxonomy\u2014 Prompt Engineering, Context Engineering, Harness Engineering, Agent Engineering, and Loop Engineering\u2014 that separates these disciplines by what is actually being engineered at each stage: the input string, the surrounding information, the tool-and-permission scaffold, the delegation and planning behavior, and the iterative actobserve-verify cycle, respectively. For each layer we define boundary conditions relative to its neighbors, propose a concrete evaluation metric, and ground the layer in one published system from the literature and one first-person practitioner artifact drawn from an active multi-agent deployment. The paper is a taxonomy and case-study contribution, not a controlled experiment: its claims about the practitioner artifacts are illustrative, not measured, and we say so explicitly rather than let the distinction blur. We argue the taxonomy\u2019s principal practical use is diagnostic\u2014identifying which layer a failing AI system is actually missing, particularly the common and under-diagnosed failure of building an agent without a loop, which produces confident but unverified output."
+ },
+ {
+  "paper_id": 8737,
+  "title": "Loop Engineering for Agentic Software Systems: LEAF Architecture, Pattern Taxonomy, Use Cases, Evaluation, Challenges, and Future Directions",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8739,
+  "title": "The Evidence Closure Loop: Engineering a Bounded-Autonomous, Multi-Agent Security Staff for Evidence-Grounded Assessments and Bug Bounty",
+  "year": 2026,
+  "venue": "Open MIND",
+  "source": "openalex",
+  "abstract": "Security teams are increasingly experimenting with large-language-model agents, yet most implementations optimize for generation speed rather than decision integrity. A system that can produce a polished report faster can also produce a polished mistake faster. This practitioner whitepaper presents an architecture for a scalable security staff built around role separation, explicit evidence models, mandatory adversarial quality assurance, and bounded autonomy. The implementation uses a central chief-of-staff, specialized security SMEs, a shared evidence workspace, and an independent Security QA gate. It applies Knowledge Augmented Generation (KAG) in two distinct planes: a retrieval plane that produces provenance-preserving evidence packs, and a decision plane that links scope, vulnerability semantics, evidence strength, trust boundaries, and qualification criteria. The paper contributes a transferable operating model, a dual-plane KAG pattern, an evidence-closure discipline, a triage-first bug bounty gate, and an evaluation framework that measures decision quality in addition to cost. The MiniCISO implementation is used as a reproducible case study, not as a product pitch."
+ },
+ {
+  "paper_id": 8746,
+  "title": "\u8bed\u4e49\u5757:Loop Engineering \u5728\u5355 Agent \u7cfb\u7edf\u4e2d\u7684\u4e0a\u4e0b\u6587\u9694\u79bb\u5b9e\u8df5",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Loop Engineering \u63d0\u51fa\u4e86\u4e00\u79cd\u8d85\u8d8a Prompt Engineering \u7684\u65b0\u8303\u5f0f:\u4eba\u4e0d\u518d\u662f\u9010\u53e5\u6307\u6325 AI \u7684\u64cd\u4f5c\u5458,\u800c\u662f\u8bbe\u8ba1\u4e00\u5957\"\u611f\u77e5\u2192\u51b3\u7b56\u2192\u884c\u52a8\u2192\u9a8c\u8bc1\u2192\u6301\u4e45\u5316\u2192\u8c03\u5ea6\"\u95ed\u73af\u7cfb\u7edf\u7684\u67b6\u6784\u5e08\u3002\u7136\u800c,Loop Engineering \u539f\u6559\u65e8\u65b9\u6848\u4f9d\u8d56\u591a Agent \u534f\u4f5c(\u751f\u6210\u8005\u4e0e\u8bc4\u5224\u8005\u5206\u79bb)\u6765\u5b9e\u73b0\u4e0a\u4e0b\u6587\u9694\u79bb\u4e0e\u8d28\u91cf\u4fdd\u969c,\u8fd9\u5728\u5b9e\u9645\u5de5\u7a0b\u4e2d\u9762\u4e34\u8c03\u5ea6\u590d\u6742\u5ea6\u548c\u6210\u672c\u7684\u53cc\u91cd\u538b\u529b\u3002\u672c\u6587\u63d0\u51fa\u8bed\u4e49\u5757(Semantic Blocks)\u2014\u2014\u4e00\u79cd\u5728\u5355 Agent \u7cfb\u7edf\u5185\u5b9e\u73b0\u4e0a\u4e0b\u6587\u9694\u79bb\u7684\u8f7b\u91cf\u7ea7\u673a\u5236\u3002\u8bed\u4e49\u5757\u5c06\u539f\u59cb\u6570\u636e\u7684\u63a8\u7406\u8fc7\u7a0b\u4e0e\u5224\u65ad\u7ed3\u8bba\u89e3\u8026,\u4ee5\u7ed3\u6784\u5316\u6807\u7b7e\u683c\u5f0f\u4f20\u9012\u7eaf\u7ed3\u8bba,\u4f7f\u540c\u4e00 Agent \u5728\u8fde\u7eed\u6267\u884c\u4e0d\u540c\u9636\u6bb5\u65f6\u4e0d\u88ab\u524d\u5e8f\u63a8\u7406\u6c61\u67d3\u3002\u6211\u4eec\u5c06\u8bed\u4e49\u5757\u5e94\u7528\u4e8e\u5e94\u9f99\u91cf\u5316\u5206\u6790\u7cfb\u7edf,\u5728\u50ac\u5316\u5242\u771f\u4f2a\u5224\u65ad\u2192\u5151\u73b0\u6df1\u6316\u2192\u7efc\u5408\u8bc4\u5206\u7684\u4e09\u9636\u6bb5\u6d41\u6c34\u7ebf\u4e2d,\u5b9e\u73b0\u4e86\u4e0e\u591a Agent \u65b9\u6848\u7b49\u6548\u7684\u4e0a\u4e0b\u6587\u9694\u79bb\u6548\u679c,\u540c\u65f6\u4fdd\u6301\u5355 Agent \u7684\u7b80\u6d01\u67b6\u6784\u3002\u672c\u6587\u5b8c\u6574\u5448\u73b0\u8bed\u4e49\u5757\u7684\u8bbe\u8ba1\u539f\u7406\u3001\u5b9e\u73b0\u7ec6\u8282\u3001\u5de5\u7a0b\u7ea6\u675f\u548c\u7ecf\u9a8c\u6559\u8bad\u3002 Loop Engineering introduces a paradigm beyond Prompt Engineering: humans are no longer operators issuing commands sentence by sentence, but architects designing closed-loop systems of \"Perceive \u2192 Decide \u2192 Act \u2192 Verify \u2192 Persist \u2192 Orchestrate.\" However, the orthodox Loop Engineering approach depends on multi-agent collaboration \u2014 separating generators from evaluators \u2014 to achieve context isolation and quality assurance, which imposes dual pressures of orchestration complexity and cost in practical engineering. This paper proposes Semantic Blocks, a lightweight mechanism for achieving context isolation within a single-agent system. Semantic Blocks decouple the reasoning process from judgment conclusions in raw data, transmitting only pure conclusions in a structured tag format, thereby preventing the same agent from being contaminated by prior reasoning when executing different stages sequentially. We apply Semantic Blocks to the Yingloong quantitative analysis system, achieving context isolation equivalent to a multi-agent architecture across a three-stage pipeline of catalyst authenticity verification \u2192 fulfillment deep-dive \u2192 composite scoring, while maintaining the simplicity of a single-agent architecture. This paper presents the complete design principles, implementation details, engineering constraints, and lessons learned from Semantic Blocks."
+ },
+ {
+  "paper_id": 8844,
+  "title": "Agentic Workflows for Improving Large Language Model Reasoning in Robotic Object-Centered Planning",
+  "year": 2025,
+  "venue": "Robotics",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) provide cognitive capabilities that enable robots to interpret and reason about their workspace, especially when paired with semantically rich representations like semantic maps. However, these models are prone to generating inaccurate or invented responses, known as hallucinations, that can produce an erratic robotic operation. This can be addressed by employing agentic workflows, structured processes that guide and refine the model\u2019s output to improve response quality. This work formally defines and qualitatively analyzes the impact of three agentic workflows (LLM Ensemble, Self-Reflection, and Multi-Agent Reflection) on enhancing the reasoning capabilities of an LLM guiding a robotic system to perform object-centered planning. In this context, the LLM is provided with a pre-built semantic map of the environment and a query, to which it must respond by determining the most relevant objects for the query. This response can be used in a multitude of downstream tasks. Extensive experiments were carried out employing state-of-the-art LLMs and semantic maps generated from the widely-used datasets ScanNet and SceneNN. The results show that agentic workflows significantly enhance object retrieval performance, especially in scenarios requiring complex reasoning, with improvements averaging up to 10% over the baseline."
+ },
+ {
+  "paper_id": 8845,
+  "title": "Hierarchical Agentic AI Framework for Autonomous Task Planning using Large Language Model Reasoning",
+  "year": 2026,
+  "venue": "International Journal of Innovative Research in Engineering and Management",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) have brought major improvements in natural language understanding, reasoning, and intelligent content generation. Although these models perform well in many applications, most existing AI systems still face difficulties while handling complex multi-step tasks that require planning, coordination, and adaptability. The standard single-agent systems do not work for tasks with multiple dependencies, changing objectives, or long execution workflows. Hierarchical Agentic AI Framework For Autonomous Task Planning With Large Language Model Reasoning This paper The proposed framework is structured as a hierarchical multi-agent architecture comprising Supervisor Agent, Planning Agent, specialized execution agents and validation layer. The framework aims at analyzing user goals, breaking them down into smaller executable subtasks, and coordinating the execution of the tasks using reasoning-driven workflows. The system combines chain-of-thought reasoning, contextual memory and intelligent task decomposition to improve the quality of planning and the accuracy of execution. Experimental evaluation demonstrates the superiority of the proposed framework in task completion accuracy, planning efficiency and adaptability, compared to traditional single agent and flat multi-agent architectures. Moreover, the framework shows improved coordination and reduced redundant execution in dynamic workflow settings. The results show that hierarchical agentic architectures can deliver scalable and intelligent solutions for autonomous workflow execution in enterprise automation, research assistance and AI-driven decision support systems."
+ },
+ {
+  "paper_id": 8847,
+  "title": "Self-Contrastive Loop of Thought Method for Text-to-SQL Based on Large Language Model",
+  "year": 2025,
+  "venue": "Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling (XLLM 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8885,
+  "title": "Agentic Large Language Models for Conceptual Systems Engineering and Design",
+  "year": 2026,
+  "venue": "Journal of Mechanical Design",
+  "source": "crossref",
+  "abstract": "Abstract Early-stage engineering design involves complex, iterative reasoning, yet existing large language model (LLM) workflows struggle to maintain task continuity and generate executable models. We evaluate whether a structured multi-agent system (MAS) can more effectively manage requirements extraction, functional decomposition, and simulator code generation than a simpler two-agent system (2AS). The target application is a solar-powered water filtration system as described in a cahier des charges. We introduce the design-state graph (DSG), a JSON-serializable representation that bundles requirements, physical embodiments, and python-based physics models into graph nodes. A nine-role MAS iteratively builds and refines the DSG, while the 2AS collapses the process to a generator\u2013reflector loop. Both systems run a total of 60 experiments (2 LLMs\u2014Llama 3.3 70B versus reasoning-distilled deepseek R1 70B \u00d7 2 agent configurations \u00d7 3 temperatures \u00d7 5 seeds). We report a JSON validity, requirement coverage, embodiment presence, code compatibility, workflow completion, runtime, and graph size. Across all runs, both MAS and 2AS maintained perfect JSON integrity and embodiment tagging. Requirement coverage remained minimal (less than 20%). Code compatibility peaked at 100% under specific 2AS settings but averaged below 50% for MAS. Only the reasoning-distilled model reliably flagged workflow completion. Powered by deepseek R1 70B, the MAS generated more granular DSGs (average 5\u20136 nodes) whereas 2AS mode collapsed. Structured multi-agent orchestration enhanced design detail. Reasoning-distilled LLM improved completion rates, yet low requirements and fidelity gaps in coding persisted."
+ },
+ {
+  "paper_id": 8898,
+  "title": "Dynamics of Agentic Loops in Large Language Models: A Geometric Theory of Trajectories.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8916,
+  "title": "Trust-Aware Runtime Verification for Autonomous LLM Agent Systems",
+  "year": 2026,
+  "venue": "2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8931,
+  "title": "Formal Model of a Controllable LLM Agent Based on a Cognitive Architecture",
+  "year": 2026,
+  "venue": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u0432\u044b\u0447\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0442\u043e\u0434\u044b",
+  "source": "crossref",
+  "abstract": "The subject of the research is developing a formal model of a software agent based on a cognitive architecture, where behaviour is defined through an explicit internal state, moral schemas and transition rules, with large language models serving as modules for semantic analysis, condition checking and response generation with high interpretability. The aim is to show how the agent\u2019s behavioural logic can be extracted from the language model\u2019s latent state and represented in an explicit architectural structure with clear functional separation. The proposed agent state model includes the current and normative states, working memory, active schemas and event history. A formal moral schema description defines a local semantic space, permissible actions, evaluation function, transition rule and discrepancy threshold. A mechanism for simultaneous schema activation and a transition graph (accounting for priorities and mutual influences) is proposed. A hybrid stage completion criterion combines metric proximity of states with logical requirements and resource cost assessment. The methodology covers formal descriptions of the agent\u2019s state, schemas, transitions and interaction stage completion criteria under dynamic conditions. The novelty lies in transferring action selection elements from the prompt and latent state into an explicit structure ensuring transparency, formal verification and compliance with ethical/functional constraints. The results can be used for designing LLM agents in systems requiring high quality language responses and explicit specification of states, interaction stages and actions, including adaptation to new scenarios and response to unforeseen situations under dynamic conditions and domain specific requirements."
+ },
+ {
+  "paper_id": 8932,
+  "title": "OpenAI single-agent LLM architecture reduces computational overhead relative to multi-agent orchestration in a simulated mars rover decision-support benchmark",
+  "year": 2026,
+  "venue": "Frontiers in Robotics and AI",
+  "source": "crossref",
+  "abstract": "Mars rover missions require decision-support systems that can interpret terrain, telemetry, environmental conditions, and mission objectives under delayed communication with Earth. This study evaluates whether multi-agent orchestration improves simulated Mars rover decision support compared with a single-agent baseline. A controlled benchmark of 100 synthetic mission-inspired rover scenarios was evaluated using OpenAI GPT-4o and GPT-5.5, with five repeated runs per scenario and architecture. Model-facing scenario inputs were separated from evaluator-side labels so that expected actions and hazards were reserved for scoring only. Performance was measured using decision accuracy, exact and substring-based semantic hazard F1, hazard error counts, latency, token usage, scenario-level paired statistical comparisons, and GPT-4o specialist-agent ablations. Across the tested OpenAI configurations, the single-agent architecture showed numerical advantages in decision accuracy and hazard-label alignment, but these decision-quality differences were not consistently significant under scenario-level statistical analysis with Holm-Bonferroni adjustment. The only decision-quality metric remaining significant was GPT-5.5 exact hazard F1, although absolute values were very low. The most reliable difference was computational efficiency: the single-agent architecture required substantially lower latency and token usage than the prompt-defined multi-agent orchestration architecture. Multi-agent orchestration generated broader hazard lists, including plausible non-canonical observations, but did not reliably improve aggregate decision accuracy or hazard F1. These findings suggest that, for short-context, tool-less, static decision-support tasks where all relevant context is available in a single input, multi-agent orchestration should be treated as a cost-bearing design choice rather than an assumed improvement. The study contributes a reproducible architecture-level benchmark for evaluating when LLM-based orchestration is worth its operational cost in mission-inspired workflows."
+ },
+ {
+  "paper_id": 8944,
+  "title": "Beyond Content Filtering: A \u201cCircuit Breaker\u201d Architecture for Autonomous Agent Action Safety",
+  "year": 2026,
+  "venue": "SoutheastCon 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8971,
+  "title": "Multi-Agent LLM Pipeline for Code Writing: An Experimental Study of Writer-Reviewer Architecture",
+  "year": 2026,
+  "venue": "ADBA Computer Science",
+  "source": "crossref",
+  "abstract": "In this paper, we develop a multi-agent pipeline-based approach for solving competitive programming problems via Large Language Models (LLMs). Specifically, we analyze the Writer-Reviewer pipeline where the Writer Agent produces Python solutions and the Reviewer Agent gives static natural language feedback. Experiments on a 96-problem AtCoder subset of LiveCodeBench involve comparing twelve pipeline setups which employ three different models (GPT-OSS-20B, Qwen3-Coder-30B-A3B-Instruct, and Qwen2.5-Coder-7B-Instruct) in various agent roles. Within this experimental setup, the review process increases the performance of GPT-OSS-20B from 87.5% to 91.7% Pass@1, with the bootstrap 95% confidence intervals overlapping, while the performance of Qwen3-Coder-30B-A3B-Instruct does not improve and the performance of Qwen2.5-Coder-7B-Instruct improves marginally from 0% to 1.0%. This may indicate that the static iterative feedback mechanism helps to further improve the performance of a strong Writer but not the performance of a weak Writer. A diagnostic audit suggests that the very low Qwen2.5-Coder-7B-Instruct scores mainly reflect structured-output compliance failures in our setup rather than standalone coding capability. Moreover, performance varies more when changing the Writer Agent than when changing the Reviewer Agent, with differences of up to 88.6 percentage points across Writers and up to 17.7 percentage points across Reviewers."
+ },
+ {
+  "paper_id": 9050,
+  "title": "Multi-agent Self-Reflection Framework: Enhancing the Logical Reasoning Ability of Large Language Models through API Interaction",
+  "year": 2025,
+  "venue": "2025 IEEE 5th International Conference on Data Science and Computer Application (ICDSCA)",
+  "source": "crossref",
+  "abstract": ""
+ }
+]

@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+3343,exclude,E2,"Training method (NRT) generating its own reasoning traces; offline SFT/RL objective with no runtime loop, evidence is benchmark accuracy."
+3348,include,I2,"Verification/repair: ILP verifier checks each step, rewrites violations and regenerates the suffix; compared against an exogenous symbolic pipeline plus a step-level error taxonomy."
+3352,exclude,E2,"ORPO fine-tuning of SLMs on self-generated preference signals; offline training, no runtime control loop, evidence is GSM8K/MBPP accuracy."
+3353,exclude,E4,"Benchmark of scientific tabular QA; measures planning and execution accuracy, no loop-control property such as retries or termination."
+3355,exclude,E7,"Neuro-symbolic agentic SLM with extract_facts/get_hint tools; claims are CLUTRR accuracy gains and extraction bottlenecks, iterative verification only a future roadmap."
+3369,exclude,E2,"Empirical study of SFT/RL post-training data in chess; no runtime loop, claims are about training data and downstream model performance."
+3371,exclude,E2,"Offline distillation pipeline building a commonsense KB with critic filtering; evidence is KB quality and downstream gains, no runtime control loop."
+3380,exclude,E1,"The loop is architectural: fixed-point latent refinement inside a transformer, not a language-model agent's control loop."
+3388,exclude,E4,"Benchmark of long-horizon CoT; reports frontier-model accuracy (<10%), measures no loop property such as termination or stuck loops."
+3397,exclude,E2,"New inductive-reasoning task, DEER dataset and prompting framework; single-pass rule induction with no iterative control."
+3402,exclude,E1,"GoldEn Retriever's retrieve-read iteration is a pre-LLM neural QA pipeline (explicitly no pretrained LM), not a language-model agent's loop."
+3407,include,I2,Termination: Adaptive-Consistency's lightweight stopping criterion decides when to stop sampling; measured directly as 7.9x budget reduction at <0.1% accuracy loss.
+3408,exclude,E7,"Causal-aware LLM iterates learn-adapt-act, but the reported claim is effectiveness across 22 Crafter tasks, not evidence about the loop."
+3411,exclude,E7,"Multi-agent introspection and cross-modal verification framework; evidence is 4-27% gains on hallucination benchmarks, no claim about the refinement loop itself."
+3412,exclude,E3,Off-the-shelf LLMs dropped into a standard hydrological calibration loop; results are convergence and parameter accuracy vs SCE-UA/NSGA-III benchmarks.
+3420,exclude,E7,"Shared-task fact-checking system built on Graph-of-Thoughts; reported claims are AVeriTeC scores, the stopping criterion is an engineering detail, not studied."
+3425,exclude,E1,"Protein structure tokenizer; the iteration is BPE-style vocabulary construction over geometry, not a language-model agent loop."
+3444,exclude,E1,"GAN plus multiobjective solver for counterfactual explanations; an optimization loop, not a language-model agent's loop."
+3447,exclude,E5,Tutorial review of LLM-based structured data extraction in chemistry; secondary study.
+3455,exclude,E7,"Six-agent LLM-RDF platform for chemical synthesis; claims are demonstrated syntheses and reaction outcomes, not the loop mechanism."
+3467,include,I2,Verification plus termination: VLM constraint checks trigger targeted prompt repair under an explicit stopping criterion; the controllable refinement loop and its overhead are the claim.
+3487,exclude,E7,"LLM-in-the-loop SINDy pipeline; reported claims are symbolic recovery and test RMSE on 63 ODEBench systems, not evidence about the refinement loop."
+3502,exclude,E2,"Comparative study of LLM embeddings and clustering algorithms; single-pass embedding, no loop."
+3504,include,I2,"Control topology/iteration policy: formalizes repeated LM interactions with control flow and dynamic structure (scratchpads, verifiers, selection-inference) as probabilistic programs."
+3516,exclude,E7,Tool-integrated visual math agent plus synthetic tool-use fine-tuning; claims are image-based reasoning accuracy and modality-gap size.
+3517,include,I2,Verification: a trained verifier module issues fine-grained corrective instructions and iterates until the graph is verified; online and offline correction rounds are compared.
+3520,exclude,E7,"Authors' Think-Critique-Act loop over off-the-shelf LVLMs, but the reported claim is VRSBench VQA accuracy (52.8% to 78.8%), not the loop."
+3530,exclude,E7,"RaLU's iterative judge-refine dialogue and rewind-and-correct are the system, but evidence is only GSM8K/MATH/HumanEval+ accuracy over baselines."
+3534,exclude,E1,"Human-in-the-loop active-learning screening tool; the iteration is classifier retraining plus reviewer decisions, not a language-model agent's loop."
+3547,exclude,E1,"Latent recurrence localized to a decoder interval; architectural iteration inside the model, not an agent control loop."
+3551,exclude,E2,"RL fine-tuning so the model picks a strategy on the first attempt; the aim is single-pass generation with no runtime loop, evidence is GSM8K accuracy."
+3558,exclude,E7,"Medical agent picks follow-up questions by expected information gain, but the reported claim is a 27 p.p. cut in diagnostic error vs a single-shot baseline."
+3570,exclude,E7,Two-stage SQL agent with MCTS-style exploration and dual-agent iteration; claims are text-to-SQL accuracy over strong baselines.
+3572,exclude,E1,"Diffusion language model for recommendation; the iteration is denoising and vote aggregation over decoding, not an agent control loop."
+3575,exclude,E1,"Implicit SSMs iterate a transformation to a fixed point inside the architecture; expressivity claim, not a language-model agent's loop."
+3579,exclude,E7,LLM agent iterates hub capacity decisions against optimizer feedback; the claim is a 2.8% optimality gap on a 13-hub freight network.
+3580,exclude,E7,"Generate-score-refine analogy mining pipeline; evidence is human-rated analogy creativity, no claim about the refinement round itself."
+3581,include,I2,"Iteration policy: proposes the AVA paradigm in which the agent interprets its own rendered visual output to decide the next parameters, argued explicitly as a design framework."
+3590,exclude,E2,"Weak-to-strong finetuning and alignment study; no runtime loop, claims are about supervision and downstream capability."
+3593,exclude,E7,"GTPO is an RL objective with turn-level rewards for multi-turn tool agents; evidence is +3.0%/+3.9% benchmark accuracy over GRPO, not a loop-control claim."
+3598,exclude,E1,"Adaptive compute allocation over denoising steps and block sizes in a diffusion LM; decoding-level iteration, not an agent control loop."
+3601,exclude,E5,Survey with a two-tiered taxonomy of adaptive and controllable test-time compute; secondary study.
+3617,include,I2,"Iteration policy/verification: knockout and league tournaments where LLM pairwise comparisons decide survivors, with proved and empirically validated failure decay as compute scales."
+3628,include,I2,"Verification: generative PRM performs CoT with code verification to judge each reasoning step; evaluated on ProcessBench, i.e. the verifier itself, and as a critic for refinement."
+3632,exclude,E2,"Study of a fine-tuning loss aligned to pass@N; pass@N is independent parallel sampling, not iterative control."

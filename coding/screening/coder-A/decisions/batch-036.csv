@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+4674,exclude,E1,"Fog nodes as game-theoretic policy agents; abstract states LLM reasoning is not applicable here. Potential-game convergence and latency, not a language-model agent loop."
+4675,exclude,E5,"Self-described comprehensive survey synthesising data-centric foundations of agentic AI; secondary study, no method."
+4676,exclude,E7,"HORMA is a hierarchical memory system; reported claims are ALFWorld/LoCoMo/LongMemEval task performance and token usage, not evidence about loop control."
+4680,exclude,E2,"Defines Agent Manufacturing as a paradigm for coordinative cognition; argues about which work layer agents take over, no iterative loop-control mechanism as contribution."
+4684,include,I2,"logos gates promotion of every learned prompt, memory, skill or tool behind fail-closed verification and held-out execution evidence; explicit design argument on verification closing the loop."
+4685,exclude,E5,Comprehensive survey of agent skills organised around a four-stage lifecycle taxonomy; secondary study.
+4686,include,I2,"E-P-R framework measures where retrieved memory changes an action, whether the error propagates and whether the agent recovers; MemTrapBench isolates the phases. Loop state."
+4687,include,I2,"Position paper arguing the orchestration loop, verification and governance layer are the object of design, with a research agenda for benchmarks measuring trajectory quality and verification cost."
+4690,exclude,E7,"Qualitative case of an enterprise agentic rollout; seven governance lessons about permissions, data access and staged updates, not evidence about a loop mechanism."
+4691,exclude,E7,"SkillOps maintains skill libraries; claims are 79.5% ALFWorld task success and plug-in point gains, i.e. task outcomes, not loop control."
+4693,exclude,E5,"Systematization-of-Knowledge paper: taxonomy, architectural decomposition and evaluation review of Agentic RAG. Secondary study."
+4695,exclude,E5,Comprehensive survey of agentic AI evaluation metrics and benchmarks with an eleven-dimensional taxonomy.
+4697,include,I2,"MemEvoBench measures behavioural drift across multi-round interaction under adversarial and biased memory updates, attributing failures to memory evolution itself. Loop state."
+4701,exclude,E7,"ZifaMem is a structured memory system for companions; endpoints are emotional-intelligence scores, persona grounding and preference, i.e. output quality."
+4702,exclude,E7,"PersonaVLM is a personalisation framework; claims are Persona-MME and PERSONAMEM benchmark gains over GPT-4o, task outcomes."
+4703,exclude,E7,"FlashMem distils latent memory via KV reuse; reported claims are matching baseline performance at 5x lower inference latency, not evidence about the loop."
+4704,include,I2,"PoisonedEvolution studies the skill-promotion gate itself: inclusion, attribution and realisation, with SER across two evolvers and ablations on what makes promotion fire. Verification."
+4709,exclude,E5,Comprehensive survey of LLM-agent self-security and agent-empowered cybersecurity with a threat taxonomy.
+4711,exclude,E5,Survey of self-evolving coding agents with a target-centred taxonomy of what evolves; secondary study.
+4712,exclude,E7,GenericAgent is a self-evolving agent system; claims are outperforming leading agent systems on task completion and web browsing with fewer tokens.
+4713,exclude,E5,Position paper whose substance is a two-axis taxonomy and reporting standards over the existing interactive-benchmark landscape; no loop mechanism contributed.
+4714,include,I2,Pask's IntentFlow decides when a proactive run should start from streaming context; evaluated on LatentNeeds-Bench under latency constraints. Triggering/scheduling.
+4715,exclude,E7,"TerraLingua is a multi-agent ecology platform; claims are emergent norms, division of labour and artifact lineages, not loop control."
+4719,include,I2,"Argus admits memories, skills and verifiers only after role-owned review and task-native verification, reporting 34 verifier recoveries and 22 review-loop rescues. Verification."
+4721,exclude,E5,"Review of over 2,000 papers with a unified three-axis taxonomy of spatial agentic capabilities; secondary study."
+4725,exclude,E5,Survey of narrative-theory-driven LLM methods for story generation and understanding.
+4731,exclude,E5,Survey categorising LLM-based trajectory prediction work into five directions.
+4742,include,I2,"AgentSwing expands parallel context-managed branches at each trigger point and uses lookahead routing to pick the continuation, beating static strategies with 3x fewer turns. Iteration policy."
+4746,include,I2,"CAT makes context maintenance a callable tool the agent invokes at milestones, compared against ReAct agents and static compression baselines on SWE-Bench-Verified. Loop state."
+4770,exclude,E5,Comprehensive review of trajectory data management and mining from deep learning to LLMs; secondary study.
+4774,exclude,E7,"Contribution is a trajectory corpus, structural filter and post-training recipe; claims are agentic success rate lifting from 18.0% to 42.7% on ShoppingBench."
+4777,exclude,E7,AgentFold's folding operation is reported only through BrowseComp scores against larger models and o4-mini; no comparison or ablation against alternative context mechanisms.
+4783,exclude,E7,MemGUI-Agent reports best open-data 8B success on MemGUI-Bench and MobileWorld generalisation; claims are GUI task outcomes from a trained model plus dataset.
+4795,exclude,E7,EvoDS is a self-evolving data-science agent; headline claim is a 28.9% average gain over state-of-the-art data-science agents across four benchmarks.
+4816,include,I2,"MOSS maintains the Python context, local-variable isolation and runtime integrity across multi-turn interactions, argued through case studies about the mechanism itself. Loop state."
+4822,include,I2,"AgentProg reframes interaction history as a program with control flow to decide what is retained, and is compared against compression baselines that degrade on long horizons. Loop state."
+4830,include,I2,Measures its own context mechanism: 6x smaller initial prompt and 10-25x lower context growth rate versus a conventional baseline agent at equal task performance. Loop state.
+4833,include,I2,"VISTA surfaces block size, recency and remaining budget so the agent makes keep-or-archive decisions; ablations show the dashboard matters beyond archive and recovery tools. Loop state."
+4836,include,I2,"Scroll makes session state a programmable environment with an event log and recoverable eviction landmarks, compared against the best published memory system and long-horizon agent. Loop state."
+4850,exclude,E7,"CoMaPOI is a purpose-built three-agent framework for next-POI prediction; claims are 5-10% metric gains over SOTA baselines on NYC, TKY and CA."
+4856,include,I2,"Compares stateless agents against first- and second-order concern dynamics, showing escalation cliffs versus smooth anticipatory trajectories; the carried state is the studied variable. Loop state."
+4860,exclude,E7,TP-RAG plus EvoRAG report spatiotemporal compliance and commonsense-violation rates for travel plans; domain task metrics.
+4861,include,I2,"Systematic comparison of observation masking against LLM summarisation within SWE-agent across five configurations, plus a hybrid; cost and solve rate of the mechanisms themselves. Loop state."
+4886,include,I2,"BACM formulates context management as a budget-constrained sequential decision, and BACM-RL is compared against prior context-management methods across shrinking budgets. Loop state."
+4892,exclude,E7,TrajAgent is an LLM-agent framework for trajectory modelling; claims are 2.38-69.91% improvements over baselines on five trajectory tasks.

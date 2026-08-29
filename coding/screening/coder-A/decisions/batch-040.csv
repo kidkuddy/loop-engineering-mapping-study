@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5174,exclude,E7,"Multi-agent BDaaS lifecycle pipeline; claims are predictive performance and lifecycle reliability on tabular benchmarks, not about the orchestration loop."
+5175,exclude,E7,"Multi-agent collaboration framework shown via Auto-GPT/BabyAGI case studies; looping issues listed as a limitation, never studied as a mechanism."
+5180,exclude,E1,Deep RL / MARL research-portfolio overview; agent loops are RL environment stepping with no language-model policy.
+5181,include,I2,GUARDIAN models collaboration as a temporal graph to detect and cut hallucination/error propagation; detection precision of the check itself is measured. Mechanism: verification.
+5184,include,I2,"LEMON learns an executable orchestration spec (roles, capacity, dependencies) with counterfactual edits to those fields, compared against other orchestration methods. Mechanism: control topology."
+5185,include,I2,"Mean-field entropy model of the orchestrator fitted to trajectories; quantifies stability and the ""Reasoning Trap"" collapse of orchestration. Mechanism: control topology."
+5189,include,I2,"Semantic entropy/density gate verification, reprompting and extra deliberation; ablated on thresholds and compared with uncertainty-unaware coordination. Mechanism: verification."
+5190,exclude,E7,"Eight-agent product-concept evaluation system; reported claim is that rankings match senior experts, a domain outcome."
+5191,include,I2,AdaptOrch routes tasks among four topologies and reports 12-23% gain over static single-topology baselines with identical models. Mechanism: control topology.
+5192,exclude,E7,MARCO orchestration system reports 94.5%/92.7% task-execution accuracy plus latency and cost on restaurant and retail datasets; claims are task outcomes.
+5193,exclude,E7,DiMo four-agent debate framework; reported claim is accuracy over single-model and debate baselines on six benchmarks.
+5196,include,I2,"Benchmark and evaluation of deliberative vs centralized joint decision making; diagnoses deliberation, reflection and error correction as loop properties. Mechanism: control topology."
+5198,exclude,E7,TalkHier communication protocol plus hierarchical refinement; evidence is only that it surpasses SoTA baselines across QA and ad-text tasks.
+5200,exclude,E7,ACC-Collab trains an actor-critic agent pair; the only reported claim is outperforming SotA multi-agent techniques on benchmarks.
+5202,include,I2,"MPDF learns a decentralized policy over Persist/Refine/Concede meta-actions, compared against six heuristic and learned multi-agent protocols. Mechanism: iteration policy."
+5207,exclude,E7,"Role-orchestrated behavioral-health dialogue simulator; proxy metrics on structural quality, diversity and latency vs a single-agent baseline are system outcomes."
+5208,include,I2,LAMaS learns latency-aware execution graphs with critical-path credit assignment plus a runtime controller that drops redundant future agent steps. Mechanism: control topology.
+5212,include,I2,"DAAO generates query-specific workflows from predicted difficulty with a self-adjusting policy updated on workflow success, compared with prior orchestration. Mechanism: iteration policy."
+5214,include,I2,MARS replaces round-table debate with an author/reviewer/meta-reviewer structure; the arrangement is contrasted with MAD at equal accuracy for half the tokens. Mechanism: control topology.
+5216,include,I2,"INFRAMIND conditions planning, per-step model routing and reasoning depth on runtime infra signals, contrasted with infra-blind routers. Mechanism: iteration policy."
+5220,exclude,E5,"Consolidating overview of orchestration architectures, MCP/A2A protocols and enterprise adoption; a synthesis, not a primary study."
+5222,exclude,E2,"KNEXA-FL matches federated peers for PEFT distillation; the loop is decentralized training rounds, the LLM agents have no runtime control loop."
+5224,exclude,E1,"XAMT is a bilevel memory-poisoning attack evaluated on SMAC CTDE MARL and SafeRAG; the loops studied are optimization and MARL stepping, not an agent control loop."
+5225,include,I2,"CausalPlan scores and reweights LLM action proposals from a learned causal graph, and reports reduced invalid actions, a measure of the selection rule. Mechanism: iteration policy."
+5227,exclude,E7,"HearthNet smart-home orchestration prototype demonstrated through three live device scenarios; claims are deployment demonstrations, not loop-mechanism evidence."
+5228,exclude,E7,Agentic Lybic FSM routing with quality gating; the reported claim is a 57.07% OSWorld success rate over existing methods.
+5236,exclude,E2,"Randomized trial of prompt-compression rates on orchestration instructions; the studied variable is input context and cost, with no control decision."
+5237,include,I2,"Preregistered 3x2 experiment crossing visible leader, invisible orchestrator and flat structures; the arrangement is the manipulated variable. Mechanism: control topology."
+5239,exclude,E7,"Kairos schedules and dispatches agent requests across shared LLM instances; the claim is 17.8-28.4% end-to-end latency reduction, a serving outcome."
+5241,include,I2,"MacNet organizes 1000+ agents as DAGs and compares irregular vs regular topologies, deriving a collaborative scaling law. Mechanism: control topology."
+5243,include,I2,"OrchBench simulates orchestration plans in isolation, scoring quality, makespan and token cost, and finds parallelism gains decay as coordination failures accumulate. Mechanism: control topology."
+5246,include,I2,HieraMAS selects inter-node communication structure by graph classification with multi-level reward attribution over topology choices. Mechanism: control topology.
+5248,exclude,E7,Agent4cs code-summarization pipeline; claims are 8% semantic consistency and 38% keyword coverage over prompting baselines.
+5249,include,I2,"Controlled 2x2x2 factorial over 12 collaboration topologies, 520 runs, ranking adversarial, cross-model review and parallel merge variants. Mechanism: control topology."
+5250,exclude,E7,ClimateAgent orchestrates climate data workflows; reported claims are 100% task completion and report-quality scores against Copilot and GPT-5.
+5251,include,I2,"Benchmarks sequential, parallel, hierarchical and reflexive self-correcting architectures on 10k filings with ablations on adaptive retry. Mechanism: control topology."
+5261,exclude,E5,White paper surveying AI/ML across LSST DESC cosmology probes; agentic LLM systems appear only as a prospect.
+5262,exclude,E7,"MAC uses an accept/edit/reject agent network to optimize constitutions; reported claims are PII-tagging accuracy over prompt optimizers, SFT and GRPO."
+5263,exclude,E7,"AutoWorldBuilder worldbuilding system; reported claims are 95% success rate, concepts per world and runtime on 20 generation tasks."
+5264,include,I2,DACS scopes the orchestrator context per steering request and measures steering accuracy and cross-agent contamination vs flat context over 200 trials. Mechanism: loop state.
+5266,exclude,E7,"ClinicalAgents uses MCTS orchestration with backtracking but reports diagnostic accuracy and explainability against baselines, a clinical task outcome."
+5268,exclude,E7,MistyPilot routes natural-language instructions to robot skills; claims are component accuracy and user perceptions for social-robot control.
+5269,exclude,E7,OGR generates reward-curriculum pairs for driving policy learning; claims are CARLA driving performance and generalization.
+5271,include,I2,Work-in-progress RACI framework arguing explicitly for how responsibility and human checkpoints are allocated across an LLM multi-agent SE system. Mechanism: control topology.
+5272,exclude,E7,Fanar-Sadiq Islamic QA architecture with intent routing and verification traces; evaluation is end-to-end effectiveness on QA benchmarks.

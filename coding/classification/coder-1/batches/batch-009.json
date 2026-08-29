@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 1836,
+  "title": "Generating Sequences by Learning to Self-Correct",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Sequence generation applications require satisfying semantic constraints, such as ensuring that programs are correct, using certain keywords, or avoiding undesirable content. Language models, whether fine-tuned or prompted with few-shot demonstrations, frequently violate these constraints, and lack a mechanism to iteratively revise their outputs. Moreover, some powerful language models are of extreme scale or inaccessible, making it inefficient, if not infeasible, to update their parameters for task-specific adaptation. We present Self-Correction, an approach that decouples an imperfect base generator (an off-the-shelf language model or supervised sequence-to-sequence model) from a separate corrector that learns to iteratively correct imperfect generations. To train the corrector, we propose an online training procedure that can use either scalar or natural language feedback on intermediate imperfect generations. We show that Self-Correction improves upon the base generator in three diverse generation tasks - mathematical program synthesis, lexically-constrained generation, and toxicity control - even when the corrector is much smaller than the base generator."
+ },
+ {
+  "paper_id": 1837,
+  "title": "Self-Corrective Task Planning by Inverse Prompting with Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In robot task planning, large language models (LLMs) have shown significant promise in generating complex and long-horizon action sequences. However, it is observed that LLMs often produce responses that sound plausible but are not accurate. To address these problems, existing methods typically employ predefined error sets or external knowledge sources, requiring human efforts and computation resources. Recently, self-correction approaches have emerged, where LLM generates and refines plans, identifying errors by itself. Despite their effectiveness, they are more prone to failures in correction due to insufficient reasoning. In this paper, we introduce InversePrompt, a novel self-corrective task planning approach that leverages inverse prompting to enhance interpretability. Our method incorporates reasoning steps to provide clear, interpretable feedback. It generates inverse actions corresponding to the initially generated actions and verifies whether these inverse actions can restore the system to its original state, explicitly validating the logical coherence of the generated plans. The results on benchmark datasets show an average 16.3% higher success rate over existing LLM-based task planning methods. Our approach offers clearer justifications for feedback in real-world environments, resulting in more successful task completion than existing self-correction approaches across various scenarios."
+ },
+ {
+  "paper_id": 1840,
+  "title": "Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) can correct their self-generated responses, but a decline in accuracy after self-correction is also witnessed.To have a deeper understanding of selfcorrection, we endeavor to decompose, evaluate, and analyze the self-correction behaviors of LLMs.By enumerating and analyzing answer correctness before and after self-correction, we decompose the self-correction capability into confidence (being confident to correct answers) and critique (turning wrong answers to correct) capabilities, and propose two metrics from a probabilistic perspective to measure these 2 capabilities, along with another metric for overall self-correction capability evaluation.Based on our decomposition and evaluation metrics, we conduct extensive experiments and draw some empirical conclusions.For example, we find different models can exhibit distinct behaviors: some models are confident while others are more critical.We also find the trade-off between the two capabilities (i.e.improving one can lead to a decline in the other) when manipulating model self-correction behavior by prompts or in-context learning.Further, we find a simple yet efficient strategy to improve self-correction capability by transforming Supervision Fine-Tuning (SFT) data format, and our strategy outperforms vanilla SFT in both capabilities and achieves much higher accuracy after self-correction.Our code is publicly available on GitHub."
+ },
+ {
+  "paper_id": 1847,
+  "title": "Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Self-correction has achieved impressive results in enhancing the style and security of the generated output from large language models (LLMs). However, recent studies suggest that self-correction might be limited or even counterproductive in reasoning tasks due to LLMs' difficulties in identifying logical mistakes. In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of Thought (CoT) methodology to self-checking tasks, utilizing fine-grained step-level analyses and explanations to assess the correctness of reasoning paths. We propose a specialized checking format called \"Step CoT Check\". Following this format, we construct a checking-correction dataset that includes detailed step-by-step analysis and checking. Then we fine-tune LLMs to enhance their error detection and correction abilities. Our experiments demonstrate that fine-tuning with the \"Step CoT Check\" format significantly improves the self-checking and self-correction abilities of LLMs across multiple benchmarks. This approach outperforms other formats, especially in locating the incorrect position, with greater benefits observed in larger models. For reproducibility, all the datasets and code are provided in https://github.com/bammt/Learn-to-check."
+ },
+ {
+  "paper_id": 1849,
+  "title": "Understanding the Dark Side of LLMs\u2019 Intrinsic Self-Correction",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Qingjie Zhang, Di Wang, Haoting Qian, Yiming Li, Tianwei Zhang, Minlie Huang, Ke Xu, Hewu Li, Liu Yan, Han Qiu. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025."
+ },
+ {
+  "paper_id": 1854,
+  "title": "ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown remarkable capabilities in reasoning, exemplified by the success of OpenAI-o1 and DeepSeek-R1. However, integrating reasoning with external search processes remains challenging, especially for complex multi-hop questions requiring multiple retrieval steps. We propose ReSearch, a novel framework that trains LLMs to Reason with Search via reinforcement learning without using any supervised data on reasoning steps. Our approach treats search operations as integral components of the reasoning chain, where when and how to perform searches is guided by text-based thinking, and search results subsequently influence further reasoning. We train ReSearch on Qwen2.5-7B(-Instruct) and Qwen2.5-32B(-Instruct) models and conduct extensive experiments. Despite being trained on only one dataset, our models demonstrate strong generalizability across various benchmarks. Analysis reveals that ReSearch naturally elicits advanced reasoning capabilities such as reflection and self-correction during the reinforcement learning process."
+ },
+ {
+  "paper_id": 1861,
+  "title": "SETS: Leveraging Self-Verification and Self-Correction for Improved Test-Time Scaling",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have created new opportunities to enhance performance on complex reasoning tasks by leveraging test-time computation. However, existing scaling methods have key limitations: parallel methods like repeated sampling are often inefficient and quickly saturate, while sequential methods like SELF-REFINE struggle to improve after a few rounds. Although combining these approaches shows promise, current methods require fine-tuned reward and revision models. This paper proposes Self-Enhanced Test-Time Scaling (SETS), a simple yet effective approach that overcomes these limitations by strategically combining parallel and sequential techniques and fully leveraging LLMs' self-improvement abilities. SETS exploits the inherent self-verification and self-correction capabilities of LLMs, unifying sampling, verification, and correction within a single framework. This facilitates efficient and scalable test-time computation for enhanced performance on complex tasks without any model training. Our comprehensive experimental results on challenging benchmarks spanning planning, reasoning, math, and coding demonstrate that SETS achieves significant performance improvements and more advantageous test-time scaling behavior than the alternatives."
+ },
+ {
+  "paper_id": 1865,
+  "title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Natural language explanations represent a proxy for evaluating explanation-based and multi-step Natural Language Inference (NLI) models.However, assessing the validity of explanations for NLI is challenging as it typically involves the crowd-sourcing of apposite datasets, a process that is time-consuming and prone to logical errors.To address existing limitations, this paper investigates the verification and refinement of natural language explanations through the integration of Large Language Models (LLMs) and Theorem Provers (TPs).Specifically, we present a neuro-symbolic framework, named Explanation-Refiner, that integrates TPs with LLMs to generate and formalise explanatory sentences and suggest potential inference strategies for NLI.In turn, the TP is employed to provide formal guarantees on the logical validity of the explanations and to generate feedback for subsequent improvements.We demonstrate how Explanation-Refiner can be jointly used to evaluate explanatory reasoning, autoformalisation, and error correction mechanisms of state-of-the-art LLMs as well as to automatically enhance the quality of explanations of variable complexity in different domains. 1"
+ },
+ {
+  "paper_id": 1868,
+  "title": "A Theoretical Understanding of Self-Correction through In-context Alignment",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Going beyond mimicking limited human experiences, recent studies show initial evidence that, like humans, large language models (LLMs) are capable of improving their abilities purely by self-correction, i.e., correcting previous responses through self-examination, in certain circumstances. Nevertheless, little is known about how such capabilities arise. In this work, based on a simplified setup akin to an alignment task, we theoretically analyze self-correction from an in-context learning perspective, showing that when LLMs give relatively accurate self-examinations as rewards, they are capable of refining responses in an in-context way. Notably, going beyond previous theories on over-simplified linear transformers, our theoretical construction underpins the roles of several key designs of realistic transformers for self-correction: softmax attention, multi-head attention, and the MLP block. We validate these findings extensively on synthetic datasets. Inspired by these findings, we also illustrate novel applications of self-correction, such as defending against LLM jailbreaks, where a simple self-correction step does make a large difference. We believe that these findings will inspire further research on understanding, exploiting, and enhancing self-correction for building better foundation models."
+ },
+ {
+  "paper_id": 1870,
+  "title": "LLaVA-SCo: Teach Vision Language Models to Self-Correct",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable progress in self-correction, as seen in models like DeepSeek-R1. However, the current Vision-Language Models (VLMs) often struggle with self-correction in complex question-answering tasks. Furthermore, reinforcement learning (RL)-based approaches, while effective, incur substantial computational costs. In this work, we propose LLaVA-SCo, a novel VLM designed for efficient self-correction without relying on RL. Instead, we introduce a self-correction stage following the sequential reasoning steps of LLaVA-CoT, refining model outputs through a two-turn self-correction mechanism trained with supervised fine-tuning. To support this, we construct a largescale dataset enriched with refined reasoning annotations to enhance correction capabilities. Experiments on multimodal reasoning benchmarks demonstrate that LLaVASCo outperforms its base model by 2.7 %, exhibiting improvements in reasoning capabilities. Additionally, evaluations using GPT-4o indicate that responses after self-correction exhibit clearer structure, improved comprehension, and are preferred by GPT-4o. Furthermore, self-correction performance metrics validate that LLaVA-SCo effectively refines its reasoning, achieving consistent accuracy gains while minimizing reversal errors, confirming its ability to systematically improve responses through self-correction. The code is available at https://github.com/ZixuanLiu4869/LLaVA-Sco."
+ },
+ {
+  "paper_id": 1882,
+  "title": "Fact-Level Confidence Calibration and Self-Correction",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Confidence calibration in LLMs, i.e., aligning their self-assessed confidence with the actual accuracy of their responses, enabling them to self-evaluate the correctness of their outputs. However, current calibration methods for LLMs typically estimate two scalars to represent overall response confidence and correctness, which is inadequate for long-form generation where the response includes multiple atomic facts and may be partially confident and correct. These methods also overlook the relevance of each fact to the query. To address these challenges, we propose a Fact-Level Calibration framework that operates at a finer granularity, calibrating confidence to relevance-weighted correctness at the fact level. Furthermore, comprehensive analysis under the framework inspired the development of Confidence-Guided Fact-level Self-Correction ($\\textbf{ConFix}$), which uses high-confidence facts within a response as additional knowledge to improve low-confidence ones. Extensive experiments across four datasets and six models demonstrate that ConFix effectively mitigates hallucinations without requiring external knowledge sources such as retrieval systems."
+ },
+ {
+  "paper_id": 1883,
+  "title": "CorrectBench: Automatic Testbench Generation with Functional Self-Correction using LLMs for HDL Design",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Functional simulation is an essential step in digital hardware design. Recently, there has been a growing interest in leveraging Large Language Models (LLMs) for hardware testbench generation tasks. However, the inherent instability associated with LLMs often leads to functional errors in the generated testbenches. Previous methods do not incorporate automatic functional correction mechanisms without human intervention and still suffer from low success rates, especially for sequential tasks. To address this issue, we propose CorrectBench, an automatic testbench generation framework with functional self-validation and self-correction. Utilizing only the RTL specification in natural language, the proposed approach can validate the correctness of the generated testbenches with a success rate of 88.85%. Furthermore, the proposed LLM-based corrector employs bug information obtained during the self-validation process to perform functional self-correction on the generated testbenches. The comparative analysis demonstrates that our method achieves a pass ratio of 70.13% across all evaluated tasks, compared with the previous LLM-based testbench generation framework's 52.18% and a direct LLM-based generation method's 33.33%. Specifically in sequential circuits, our work's performance is 62.18% higher than previous work in sequential tasks and almost 5 times the pass ratio of the direct method. The codes and experimental results are open-sourced at the link: https://github.com/AutoBench/CorrectBench"
+ },
+ {
+  "paper_id": 1885,
+  "title": "LLMs cannot find reasoning errors, but can correct them given the error location",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "While self-correction has shown promise in improving LLM outputs in terms of style and quality (e.g.Chen et al., 2023b;Madaan et al., 2023), recent attempts to self-correct logical or reasoning errors often cause correct answers to become incorrect, resulting in worse performances overall (Huang et al., 2023).In this paper, we show that poor self-correction performance stems from LLMs' inability to find logical mistakes, rather than their ability to correct a known mistake.Firstly, we benchmark several state-of-the-art LLMs on their mistake-finding ability and demonstrate that they generally struggle with the task, even in highly objective, unambiguous cases.Secondly, we test the correction abilities of LLMs -separately from mistake finding -using a backtracking setup that feeds ground truth mistake location information to the model.We show that this boosts downstream task performance across our 5 reasoning tasks, indicating that LLMs' correction abilities are robust.Finally, we show that it is possible to obtain mistake location information without ground truth labels or in-domain training data.We train a small classifier with out-of-domain data, which exhibits stronger mistake-finding performance than prompting a large model.We release our dataset of LLM-generated logical mistakes, BIG-Bench Mistake, to enable further research into locating LLM reasoning mistakes."
+ },
+ {
+  "paper_id": 1891,
+  "title": "Instantiation-based Formalization of Logical Reasoning Tasks Using Language Models and Logical Solvers",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Robustness of reasoning remains a significant challenge for large language models, and addressing it is essential for the practical applicability of AI-driven reasoning systems. We introduce Semantic Self-Verification (SSV), a novel approach that addresses the key challenge in combining language models with the rigor of logical solvers: to accurately formulate the reasoning problem from natural language to the formal language of the solver. SSV uses a consistency-based approach to produce strong abstract formalizations of problems using concrete instantiations that are generated by the model and verified by the solver. In addition to significantly advancing the overall reasoning accuracy over the state-of-the-art, a key novelty that this approach presents is a feature of verification that has near-perfect precision over a significant coverage of cases, as we demonstrate on open reasoning benchmarks. We propose such *near-certain reasoning* as a new approach to reduce the need for manual verification in many cases, taking us closer to more dependable and autonomous AI reasoning systems."
+ },
+ {
+  "paper_id": 1892,
+  "title": "Enhancing safety of vision-language reasoning through model-to-model deliberation",
+  "year": 2025,
+  "venue": "Complex & Intelligent Systems",
+  "source": "openalex",
+  "abstract": "Abstract Traditional vision-language models demonstrate strong performance in tasks such as image captioning and visual question answering, but they remain limited by issues such as hallucination, lack of self-correction, and shallow reasoning. These shortcomings compromise the safety, robustness, and consistency of their reasoning, particularly in ambiguous or high-stakes scenarios. In this paper, we propose three complementary frameworks aimed at enabling more trustworthy visual reasoning through structured deliberation. The first is the self-reflective reasoning single-agent framework, which facilitates iterative self-revision without requiring external supervision. The second is the structured debate agent framework, in which turn-based rebuttals between agents promote contrastive, multi-perspective refinement. The third is the progressive two-stage debate agent framework, which enables efficient yet accurate decision-making through model-to-model deliberation between smaller and larger agents. Experiments on the COCO dataset demonstrate that all three frameworks significantly enhance reasoning performance, achieving up to a 5.4% improvement in Intersection over Union (IoU) and over a 40% reduction in localization error compared to a single-pass baseline. Further evaluation across robustness (IoU), safety (self-revision rate, SRR), and consistency (consistency score, CS) confirms the effectiveness of multi-round, self-corrective, and multi-agent reasoning strategies. These results establish a practical path toward safer, more robust, and more interpretable vision-language models through lightweight, deliberative inference frameworks."
+ },
+ {
+  "paper_id": 1894,
+  "title": "Entropy-based Exploration Conduction for Multi-step Reasoning",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Multi-step processes via large language models (LLMs) have proven effective for solving complex reasoning tasks.However, the depth of exploration of the reasoning procedure can significantly affect the task performance.Existing methods to automatically decide the depth often lead to high cost and a lack of flexibility.To address these issues, we propose Entropybased Exploration Depth Conduction (Entroduction), a novel method that dynamically adjusts the exploration depth during multi-step reasoning by monitoring LLM's output entropy and variance entropy.We employ these two features to capture the model's uncertainty of the current step and the fluctuation of uncertainty across consecutive reasoning steps.Based on the observed entropy changes, the LLM selects whether to deepen, expand, or stop exploration according to the probability, which facilitates the trade-off between the reasoning accuracy and exploration effectiveness.Experimental results across four benchmark datasets demonstrate the efficacy of Entro-duction."
+ },
+ {
+  "paper_id": 1895,
+  "title": "Plan-on-Graph: Self-Correcting Adaptive Planning of Large Language Model on Knowledge Graphs",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown remarkable reasoning capabilities on complex tasks, but they still suffer from out-of-date knowledge, hallucinations, and opaque decision-making. In contrast, Knowledge Graphs (KGs) can provide explicit and editable knowledge for LLMs to alleviate these issues. Existing paradigm of KG-augmented LLM manually predefines the breadth of exploration space and requires flawless navigation in KGs. However, this paradigm cannot adaptively explore reasoning paths in KGs based on the question semantics and self-correct erroneous reasoning paths, resulting in a bottleneck in efficiency and effect. To address these limitations, we propose a novel self-correcting adaptive planning paradigm for KG-augmented LLM named Plan-on-Graph (PoG), which first decomposes the question into several sub-objectives and then repeats the process of adaptively exploring reasoning paths, updating memory, and reflecting on the need to self-correct erroneous reasoning paths until arriving at the answer. Specifically, three important mechanisms of Guidance, Memory, and Reflection are designed to work together, to guarantee the adaptive breadth of self-correcting planning for graph reasoning. Finally, extensive experiments on three real-world datasets demonstrate the effectiveness and efficiency of PoG."
+ },
+ {
+  "paper_id": 1902,
+  "title": "Mirror: Multiple-perspective Self-Reflection Method for Knowledge-rich Reasoning",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "While Large language models (LLMs) have the capability to iteratively reflect on their own outputs, recent studies have observed their struggles with knowledge-rich problems without access to external resources.In addition to the inefficiency of LLMs in self-assessment, we also observe that LLMs struggle to revisit their predictions despite receiving explicit negative feedback.Therefore, We propose Mirror, a Multiple-perspective self-reflection method for knowledge-rich reasoning, to avoid getting stuck at a particular reflection iteration.Mirror enables LLMs to reflect from multipleperspective clues, achieved through a heuristic interaction between a Navigator and a Reasoner.It guides agents toward diverse yet plausibly reliable reasoning trajectory without access to ground truth by encouraging (1) diversity of directions generated by Navigator and (2) agreement among strategically induced perturbations in responses generated by the Reasoner.The experiments on five reasoning datasets demonstrate that Mirror's superiority over several contemporary self-reflection approaches.Additionally, the ablation study studies clearly indicate that our strategies alleviate the aforementioned challenges.The code is released at https://github.com/hanqi-qi/Mirror.git."
+ },
+ {
+  "paper_id": 1912,
+  "title": "CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Inductive program synthesis, or programming by example, requires synthesizing functions from input-output examples that generalize to unseen inputs. While large language model agents have shown promise in programming tasks guided by natural language, their ability to perform inductive program synthesis is underexplored. Existing evaluation protocols rely on static sets of examples and held-out tests, offering no feedback when synthesized functions are incorrect and failing to reflect real-world scenarios such as reverse engineering. We propose CodeARC, the Code Abstraction and Reasoning Challenge, a new evaluation framework where agents interact with a hidden target function by querying it with new inputs, synthesizing candidate functions, and iteratively refining their solutions using a differential testing oracle. This interactive setting encourages agents to perform function calls and self-correction based on feedback. We construct the first large-scale benchmark for general-purpose inductive program synthesis, featuring 1114 functions. Among 18 models evaluated, o3-mini performs best with a success rate of 52.7%, highlighting the difficulty of this task. Fine-tuning LLaMA-3.1-8B-Instruct on curated synthesis traces yields up to a 31% relative performance gain. CodeARC provides a more realistic and challenging testbed for evaluating LLM-based program synthesis and inductive reasoning. Our code, data, and models are publicly available at https://github.com/Anjiang-Wei/CodeARC"
+ },
+ {
+  "paper_id": 1914,
+  "title": "Training Language Models to Self-Correct via Reinforcement Learning",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Self-correction is a highly desirable capability of large language models (LLMs), yet it has consistently been found to be largely ineffective in modern LLMs. Current methods for training self-correction typically depend on either multiple models, a more advanced model, or additional forms of supervision. To address these shortcomings, we develop a multi-turn online reinforcement learning (RL) approach, SCoRe, that significantly improves an LLM's self-correction ability using entirely self-generated data. To build SCoRe, we first show that variants of supervised fine-tuning (SFT) on offline model-generated correction traces are often insufficient for instilling self-correction behavior. In particular, we observe that training via SFT falls prey to either a distribution mismatch between mistakes made by the data-collection policy and the model's own responses, or to behavior collapse, where learning implicitly prefers only a certain mode of correction behavior that is often not effective at self-correction on test problems. SCoRe addresses these challenges by training under the model's own distribution of self-generated correction traces and using appropriate regularization to steer the learning process into learning a self-correction behavior that is effective at test time as opposed to fitting high-reward responses for a given prompt. This regularization process includes an initial phase of multi-turn RL on a base model to generate a policy initialization that is less susceptible to collapse, followed by using a reward bonus to amplify self-correction. With Gemini 1.0 Pro and 1.5 Flash models, we find that SCoRe achieves state-of-the-art self-correction performance, improving the base models' self-correction by 15.6% and 9.1% respectively on MATH and HumanEval."
+ },
+ {
+  "paper_id": 1918,
+  "title": "Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Despite the remarkable capabilities of large language models (LLMs) in various reasoning tasks, they still struggle with table reasoning tasks, particularly in maintaining consistency throughout multi-step reasoning processes.While existing approaches have explored various decomposition strategies, they often lack effective mechanisms to identify and correct errors in intermediate reasoning steps, leading to cascading error propagation.To address these issues, we propose Table-Critic, a novel multi-agent framework that facilitates collaborative criticism and iterative refinement of the reasoning process until convergence to correct solutions.Our framework consists of four specialized agents: a Judge for error identification, a Critic for comprehensive critiques, a Refiner for process improvement, and a Curator for pattern distillation.To effectively deal with diverse and unpredictable error types, we introduce a self-evolving template tree that systematically accumulates critique knowledge through experience-driven learning and guides future reflections.Extensive experiments have demonstrated that Table-Critic achieves substantial improvements over existing methods, achieving superior accuracy and error correction rates while maintaining computational efficiency and lower solution degradation rate.The code is available at https: //github.com/"
+ },
+ {
+  "paper_id": 1923,
+  "title": "LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints",
+  "year": 2024,
+  "venue": "EMNLP",
+  "source": "openalex",
+  "abstract": "Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng. Findings of the Association for Computational Linguistics: EMNLP 2024. 2024."
+ },
+ {
+  "paper_id": 1934,
+  "title": "GeneAgent: Self-verification Language Agent for Gene Set Knowledge Discovery using Domain Databases",
+  "year": 2024,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Gene set knowledge discovery is essential for advancing human functional genomics. Recent studies have shown promising performance by harnessing the power of Large Language Models (LLMs) on this task. Nonetheless, their results are subject to several limitations common in LLMs such as hallucinations. In response, we present GeneAgent, a first-of-its-kind language agent featuring self-verification capability. It autonomously interacts with various biological databases and leverages relevant domain knowledge to improve accuracy and reduce hallucination occurrences. Benchmarking on 1,106 gene sets from different sources, GeneAgent consistently outperforms standard GPT-4 by a significant margin. Moreover, a detailed manual review confirms the effectiveness of the self-verification module in minimizing hallucinations and generating more reliable analytical narratives. To demonstrate its practical utility, we apply GeneAgent to seven novel gene sets derived from mouse B2905 melanoma cell lines, with expert evaluations showing that GeneAgent offers novel insights into gene functions and subsequently expedites knowledge discovery."
+ },
+ {
+  "paper_id": 1948,
+  "title": "A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning",
+  "year": 2023,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Logical reasoning has been an ongoing pursuit in the field of AI. Despite significant advancements made by large language models (LLMs), they still struggle with complex logical reasoning problems. To enhance reasoning performance, one promising direction is scalable oversight, which requires LLMs to identify their own errors and then improve by themselves. Various self-verification methods have been proposed in pursuit of this goal. Nevertheless, whether existing models understand their own errors well is still under investigation. In this paper, we take a closer look at the self-verification abilities of LLMs in the context of logical reasoning, focusing on their ability to identify logical fallacies accurately. We introduce a dataset, FALLACIES, containing 232 types of reasoning fallacies categorized in a hierarchical taxonomy. By conducting exhaustive experiments on FALLACIES, we obtain comprehensive and detailed analyses of a series of models on their verification abilities. Our main findings suggest that existing LLMs could struggle to identify fallacious reasoning steps accurately and may fall short of guaranteeing the validity of self-verification methods. Drawing from these observations, we offer suggestions for future research and practical applications of self-verification methods."
+ },
+ {
+  "paper_id": 1986,
+  "title": "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification",
+  "year": 2025,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning with verifiable rewards (RLVR) has advanced the reasoning capabilities of large language models. However, existing methods rely solely on outcome rewards, without explicitly optimizing verification or leveraging reliable signals from realistic environments, leading to unreliable self-verification and limited test-time scaling. To address this, we widen the verification-generation asymmetry by explicitly optimizing self-verification, making it a reliable driver of deeper test-time scaling. We introduce ReVeal, a multi-turn reinforcement learning framework that evolves code generation through self-verification and tool-based evaluation. ReVeal structures long-horizon reasoning as iterative generation-verification turns and incorporates TAPO for turn-level credit assignment, fostering the co-evolution of code and test generation. At inference, this strengthened self-verification enables the model to use self-constructed tests and tool feedback to continuously evolve code for 20+ turns on LiveCodeBench despite training on only three. It also significantly improves Pass@k, indicating stronger exploration that expands the reasoning boundaries of the base model. These findings highlight the promise of ReVeal as a scalable paradigm for RL training and test-time scaling, paving the way for more robust and autonomous AI agents."
+ }
+]

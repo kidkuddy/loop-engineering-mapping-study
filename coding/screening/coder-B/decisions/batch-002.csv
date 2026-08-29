@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+973,include,I1;I2,"Benchmark that measures a loop property: empirical analysis of why agent reflection fails, plus an exploration strategy; mechanism is retry/repair (reflection)."
+989,exclude,E3,"Video-editing tool wiring an off-the-shelf plan-and-execute agent; user study reports editor perceptions and creativity, not the loop."
+990,exclude,E7,"Authors' RAG agent; reported claims are science-QA benchmark accuracy and matching human experts, not the relevance-assessment step."
+1013,exclude,E3,Maintenance decision support built on stock GPT-4 RAG plus tool use; case study reports fault-diagnosis performance only.
+1029,exclude,E7,Hospital simulacrum whose evolved doctor agents are judged by MedQA/USMLE accuracy; the claim is about the system's task outcome.
+1040,include,I1;I2,"Pre-Act's plan is refined after each step and tool output, and is compared head-to-head with ReAct on turn-level action recall; mechanism is iteration policy."
+1053,exclude,E7,"HaluAgent is a detection system; claims are hallucination-detection performance versus GPT-4 on datasets, not about its three-stage loop."
+1056,exclude,E7,"EHRAgent's execution-feedback refinement is reported only as a 29.6% success-rate gain on EHR datasets, a task outcome."
+1067,include,I1;I2,RISE measures self-improvement as a function of turns against single-turn strategies at equal inference compute; mechanism is retry/repair across turns.
+1075,exclude,E7,"TempAgent adds temporal constraints to a ReAct agent but reports only MultiTQ accuracy gains (41.3%, 70.2% hit@1)."
+1103,include,I1;I2,Ablations show hypothesis evaluation and refinement drive performance; the hypotheses carried and reinforced between turns are loop state controlling planning.
+1116,include,I1;I2,ACE is compared against rival context-adaptation mechanisms and reports adaptation latency and rollout cost plus context collapse; mechanism is loop state.
+1331,include,I1;I2,MAF compares multi-module feedback against the single generic feedback source used by prior refinement loops; mechanism is verification driving iterative repair.
+1348,include,I1;I2,CRITIC's tool-based validation of its own output decides the revision; evaluated as external-versus-no feedback for self-correction. Mechanism: verification.
+1350,include,I1;I2,"Measures whether models improve over successive negotiation rounds from critic feedback, and that more rounds raise deal-breaking risk; mechanism is iteration policy."
+1359,exclude,E5,"Comprehensive review and taxonomy of self-correction strategies; secondary study, retained as a snowballing seed."
+1366,include,I1;I2,"Scores the LLM verifier against ground truth, measures self-critiquing's effect on plan generation and feedback granularity; mechanism is verification."
+1367,include,I1;I2,MAGIC's auto-generated self-correction guideline is measured against expert-written ones for correction quality; mechanism is retry/repair.
+1374,exclude,E7,"SCIR's self-correcting refinement module is reported only via NER/RE/EE Micro-F1 and training cost, task outcomes rather than the correction loop."
+1376,include,I1;I2,"CriticBench measures critique and correction ability separately across 17 LLMs, including cross-model critiquing; a benchmark of the verification step."
+1379,exclude,E7,"AIVRIL2's EDA-feedback correction loop is evidenced only by VerilogEval pass rates (77% Verilog, 66% VHDL)."
+1380,exclude,E7,"OpenCodeInterpreter's execution-feedback refinement is reported as HumanEval/MBPP accuracy versus GPT-4, a task outcome."
+1382,include,I1;I2,"Reports refinement success rate (46.08% formula, 25.51% table) for its delta-view fault localization and repair step; mechanism is retry/repair."
+1384,include,I1;I2,"Measures per-iteration gain of the self-refinement loop: +23.1% overall, nearly all from the first refinement, none after; mechanism is retry/repair and termination."
+1434,exclude,E1,"Diffusion model for symbolic music; the iterative refinement steps are latent sampling, not a language-model agent's control loop."
+1446,exclude,E7,TriPosT trains small models to self-revise but reports only end-task gains (up to 7.13% on math and reasoning).
+1452,exclude,E7,"Volcano's self-feedback revision is evidenced by MMHal-Bench/POPE/GAVIE scores and feedback groundedness, i.e. component and task quality."
+1456,include,I1;I2,"MAgICoRe targets excessive and insufficient refinement, routing by difficulty, and beats Self-Refine and Best-of-k at under half the compute; iteration policy and termination."
+1458,include,I1;I2,"Tunable plug-in that chooses the agent's next dialogue act, compared with prompting and verbal-AI-feedback planners and evaluated interactively; mechanism is iteration policy."
+1461,include,I1;I2,"Graph-structured search over thoughts with feedback loops, compared with ToT on quality (+62% sorting) and cost (-31%); mechanism is iteration policy."
+1466,exclude,E7,"EvolutionaryAgent is an agent-population alignment framework judged on norm alignment and general-task proficiency, task outcomes."
+1476,exclude,E2,Evaluates eleven LLMs answering Bulgarian exam problems and surveys teachers; single-pass answering with no iterative control.
+1483,include,I1;I2,"CodeTree's ranking, expansion and termination decisions over a search tree are the contribution, guided by execution and agent feedback; mechanism is iteration policy."
+1485,include,I1;I2,"Investigates self-debugging's limits and contrasts post-execution with in-execution paradigms, showing self-generated-test bias; mechanism is verification and repair."
+1497,exclude,E2,"Critique-then-score reward model used for Best-of-N selection and self-consistency decoding; parallel sampling and scoring, no iteration."
+1499,exclude,E2,"ChatGPT-generated responses in a text adventure for language learning; the iterative refinement is authoring, with no runtime agent loop."
+1506,exclude,E7,"PlotGen's three feedback agents are evidenced by a 4-6% MatPlotBench gain plus user trust and debugging time, task outcomes."
+1510,exclude,E7,"MCQG-SRefine's self-critique loop is judged by expert satisfaction with question quality and difficulty, a task outcome."
+1515,exclude,E7,"FRAME's Generator/Evaluator/Reflector pipeline is evidenced by paper-quality gains (9.91%) and human ratings, not by its feedback loop."
+1518,exclude,E7,"LEAP is an iterative fine-tuning framework evidenced by ALFWorld/WebShop/Intercode success against behavior cloning and ReAct, task outcomes."
+1527,exclude,E7,"Prompt-injection defense pipeline; the self-feedback loop's ablation is scored by detection accuracy, precision and recall on prompts."
+1529,exclude,E2,"Human experts iteratively refine GPT-4-generated science assessments; the iteration is human-driven design work, not agent-controlled."
+1531,include,I1;I2,PIT learns the improvement step from preference data and is compared against prompting-based self-improvement methods; mechanism is retry/repair of a prior response.
+1551,exclude,E7,"S3c-Math's step-level self-correction is evidenced only by GSM8K and MATH accuracy across foundation models, an end-task claim."
+1557,exclude,E2,"Logic and symbolic reasoning benchmark scoring answer accuracy, consistency and dialogue coherence; no agent loop property is measured."

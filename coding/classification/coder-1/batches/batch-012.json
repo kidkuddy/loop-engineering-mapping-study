@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 3163,
+  "title": "Requesting Expert Reasoning: Augmenting LLM Agents with Learned Collaborative Intervention",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Model (LLM) based agents excel at general reasoning but often fail in specialized domains where success hinges on long-tail knowledge absent from their training data. While human experts can provide this missing knowledge, their guidance is often unstructured and unreliable, making its direct integration into an agent's plan problematic. To address this, we introduce AHCE (Active Human-Augmented Challenge Engagement), a framework for on-demand Human-AI collaboration. At its core, the Human Feedback Module (HFM) employs a learned policy to treat the human expert as an interactive reasoning tool. Extensive experiments in Minecraft demonstrate the framework's effectiveness, increasing task success rates by 32% on normal difficulty tasks and nearly 70% on highly difficult tasks, all with minimal human intervention. Our work demonstrates that successfully augmenting agents requires learning how to request expert reasoning, moving beyond simple requests for help."
+ },
+ {
+  "paper_id": 3165,
+  "title": "From Hallucination to Structure Snowballing: The Alignment Tax of Constrained Decoding in LLM Reflection",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Intrinsic self-correction in Large Language Models (LLMs) frequently fails in open-ended reasoning tasks due to ``hallucination snowballing,'' a phenomenon in which models recursively justify early errors during free-text reflection. While structured feedback can mitigate this issue, existing approaches often rely on externally trained critics or symbolic tools, reducing agent autonomy. This study investigates whether enforcing structured reflection purely through Outlines-based constrained decoding can disrupt error propagation without additional training. Evaluating an 8-billion-parameter model (Qwen3-8B), we show that simply imposing structural constraints does not improve self-correction performance. Instead, it triggers a new failure mode termed ``structure snowballing.'' We find that the cognitive load required to satisfy strict formatting rules pushes the model into formatting traps. This observation helps explain why the agent achieves near-perfect superficial syntactic alignment yet fails to detect or resolve deeper semantic errors. These findings expose an ``alignment tax'' inherent to constrained decoding, highlighting a tension between structural granularity and internal model capacity in autonomous workflows. Code and raw logs are available in the GitHub repository: https://github.com/hongxuzhou/agentic_llm_structured_self_critique."
+ },
+ {
+  "paper_id": 3166,
+  "title": "AI Founding Fathers: A Case Study of GIS Search in Multi-Agent Pipelines",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Although Large Language Models (LLMs) show exceptional fluency, efforts persist to extract stronger reasoning capabilities from them. Drawing on search-based interpretations of LLM computation, this paper advances a systematic framework for understanding LLM reasoning and optimization. Namely, that enhancing reasoning is best achieved by structuring a multi-agent pipeline to ensure a traversal of the search space in a gradual, incremental, and sequential (GIS) manner. Stated succinctly, high-quality reasoning is a controlled, incremental search. To test this framework, we investigate the efficacy of recursive refinement (RR)--an iterative process of self-criticism, adversarial stress-testing, and integrating critical feedback--as a practical method for implementing GIS search. We designed an experiment comparing a simple, linear pipeline against a complex, explicitly structured pipeline leveraging a recursive refinement layer. The multi-agent models were constructed to reflect the historical personas of three US Founding Fathers (Hamilton, Jefferson, and Madison) using RAG-powered corpora and were prompted to generate responses to three contemporary political issues. Model performance was evaluated using a two-tiered approach: a quantitative score from an LLM arbiter agent and qualitative human judgment. Our results revealed that the complex model consistently outperformed the simple model across all nine test cases with an average arbiter-outputted score of 88.3 versus 71.7. The complex model's arguments were superior in analytical depth, structural nuance, and strategic framing. We conclude that recursive refinement is a robust architectural feature for enhancing LLM reasoning via GIS search."
+ },
+ {
+  "paper_id": 3187,
+  "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "State-of-the-art large language models (LLMs) exhibit impressive problem-solving capabilities but may struggle with complex reasoning and factual correctness. Existing methods harness the strengths of chain-of-thought and retrieval-augmented generation (RAG) to decompose a complex problem into simpler steps and apply retrieval to improve factual correctness. These methods work well on straightforward reasoning tasks but often falter on challenging tasks such as competitive programming and mathematics, due to frequent reasoning errors and irrelevant knowledge retrieval. To address this, we introduce Critic-guided planning with Retrieval-augmentation, CR-Planner, a novel framework that leverages fine-tuned critic models to guide both reasoning and retrieval processes through planning. CR-Planner solves a problem by iteratively selecting and executing sub-goals. Initially, it identifies the most promising sub-goal from reasoning, query generation, and retrieval, guided by rewards given by a critic model named sub-goal critic. It then executes this sub-goal through sampling and selecting the optimal output based on evaluations from another critic model named execution critic. This iterative process, informed by retrieved information and critic models, enables CR-Planner to effectively navigate the solution space towards the final answer. We employ Monte Carlo Tree Search to collect the data for training the critic models, allowing for a systematic exploration of action sequences and their long-term impacts. We validate CR-Planner on challenging domain-knowledge-intensive and reasoning-heavy tasks, including competitive programming, theorem-driven math reasoning, and complex domain retrieval problems. Our experiments demonstrate that CR-Planner significantly outperforms baselines, highlighting its effectiveness in addressing challenging problems by improving both reasoning and retrieval."
+ },
+ {
+  "paper_id": 3292,
+  "title": "Coherent Multimodal Reasoning with Iterative Self-Evaluation for Vision-Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Despite significant advancements, current large language models (LLMs) and vision-language models (LVLMs) continue to struggle with complex, multi-step, cross-modal common sense reasoning tasks, often exhibiting a lack of \"deliberative thinking.\" They tend to rely on superficial associations rather than deep, chained inference, particularly when integrating visual information with abstract concepts. To address this, we propose the Coherent Multimodal Reasoning Framework (CMRF), a novel approach that enhances LVLMs' common sense reasoning capabilities through an iterative, self-evaluating inference mechanism. CMRF mimics human problem-solving by decomposing complex queries, generating step-by-step inferences, and self-correcting errors. Our framework integrates three key modules: a Reasoning Decomposition Unit (RDU) for breaking down problems into sub-questions, a Contextual Inference Engine (CIE) for contextual inference, and a Coherence Assessment Module (CAM) for evaluating logical consistency and confidence. Coupled with an Adaptive Iterative Refinement strategy, CMRF systematically refines its reasoning paths. Built upon LLaVA-1.6-34B and trained on a novel Multimodal Daily Activity Reasoning (MDAR) dataset, CMRF achieves state-of-the-art performance among open-source LVLMs on challenging benchmarks like VCR, A-OKVQA, and DailyLife-MRC. It attains an average accuracy of 69.4%, surpassing the best open-source baseline by +2.4 percentage points, with particular strength in complex reasoning scenarios. Extensive ablation studies and human evaluations confirm the critical contributions of each module and the effectiveness of iterative refinement in fostering more coherent and accurate reasoning."
+ },
+ {
+  "paper_id": 3297,
+  "title": "Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Iterative human engagement is a common and effective means of leveraging the advanced language processing power of large language models (LLMs). Using well-structured prompts in a conversational manner, human users can effectively influence an LLM to develop more thoughtful and accurate responses. Motivated by this insight, we propose the Iteration of Thought (IoT) framework for enhancing LLM responses by generating \"thought\"-provoking prompts vis a vis an input query and the current iteration of an LLM's response. Unlike static or semi-static approaches, e.g. Chain of Thought (CoT) or Tree of Thoughts (ToT), IoT adapts its reasoning path dynamically, based on evolving context, and without generating alternate explorative thoughts which are ultimately discarded. The three components of the IoT framework are (1) an Inner Dialogue Agent (IDA) responsible for generating instructive, context-specific prompts; (2) an LLM Agent (LLMA) that processes these prompts to refine its responses; and (3) an iterative prompting loop that implements a conversation between the former two components. We introduce two variants of our framework: Autonomous Iteration of Thought (AIoT), where an LLM decides when to stop iterating, and Guided Iteration of Thought (GIoT), which always forces a fixed number iterations. We investigate the performance of IoT across various datasets, spanning complex reasoning tasks from the GPQA dataset, explorative problem-solving in Game of 24, puzzle solving in Mini Crosswords, and multi-hop question answering from the HotpotQA dataset. Our results show that IoT represents a viable paradigm for autonomous response refinement in LLMs, showcasing significant improvements over CoT and thereby enabling more adaptive and efficient reasoning systems that minimize human intervention."
+ },
+ {
+  "paper_id": 3318,
+  "title": "PRIME: Policy-Reinforced Iterative Multi-agent Execution for Algorithmic Reasoning in Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models have demonstrated remarkable capabilities across diverse reasoning tasks, yet their performance on algorithmic reasoning remains limited. To handle this limitation, we propose PRIME (Policy-Reinforced Iterative Multi-agent Execution), a framework comprising three specialized agents, an executor for step-by-step reasoning, a verifier for constraint checking, and a coordinator for backtracking control, optimized through group relative policy optimization. For comprehensive evaluation, we introduce PRIME-Bench, the largest algorithmic reasoning benchmark to date, comprising 86 tasks across 12 categories with 51,600 instances. Tasks span sorting algorithms, graph and tree structures, automata and state machines, symbolic reasoning, and constraint-based puzzles, with execution traces reaching over one million steps. Compared to baseline approach, PRIME improves average accuracy from 26.8% to 93.8%, a 250% relative gain. The largest improvements occur on tasks requiring sustained state tracking, with Turing machine simulation improving from 9% to 92% and long division from 16% to 94%. Ablation studies identify iterative verification as the primary contributor, preventing the error propagation that causes baseline approaches to fail catastrophically. Analysis across model scales (8B-120B parameters) reveals that smaller models benefit disproportionately, achieving accuracy comparable to models 8x larger."
+ },
+ {
+  "paper_id": 3319,
+  "title": "Iterative Refinement Improves Compositional Image Generation",
+  "year": 2026,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Text-to-image (T2I) models have achieved remarkable progress, yet they continue to struggle with complex prompts that require simultaneously handling multiple objects, relations, and attributes. Existing inference-time strategies, such as parallel sampling with verifiers or simply increasing denoising steps, can improve prompt alignment but remain inadequate for richly compositional settings where many constraints must be satisfied. Inspired by the success of chain-of-thought reasoning in large language models, we propose an iterative test-time strategy in which a T2I model progressively refines its generations across multiple steps, guided by feedback from a vision-language model as the critic in the loop. Our approach is simple, requires no external tools or priors, and can be flexibly applied to a wide range of image generators and vision-language models. Empirically, we demonstrate consistent gains on image generation across benchmarks: a 16.9% improvement in all-correct rate on ConceptMix (k=7), a 13.8% improvement on T2I-CompBench (3D-Spatial category) and a 12.5% improvement on Visual Jenga scene decomposition compared to compute-matched parallel sampling. Beyond quantitative gains, iterative refinement produces more faithful generations by decomposing complex prompts into sequential corrections, with human evaluators preferring our method 58.7% of the time over 41.3% for the parallel baseline. Together, these findings highlight iterative self-correction as a broadly applicable principle for compositional image generation. Results and visualizations are available at https://iterative-img-gen.github.io/"
+ },
+ {
+  "paper_id": 3324,
+  "title": "IdealGPT: Iteratively Decomposing Vision and Language Reasoning via Large Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "The field of vision-and-language (VL) understanding has made unprecedented progress with end-to-end large pre-trained VL models (VLMs). However, they still fall short in zero-shot reasoning tasks that require multi-step inferencing. To achieve this goal, previous works resort to a divide-and-conquer pipeline. In this paper, we argue that previous efforts have several inherent shortcomings: 1) They rely on domain-specific sub-question decomposing models. 2) They force models to predict the final answer even if the sub-questions or sub-answers provide insufficient information. We address these limitations via IdealGPT, a framework that iteratively decomposes VL reasoning using large language models (LLMs). Specifically, IdealGPT utilizes an LLM to generate sub-questions, a VLM to provide corresponding sub-answers, and another LLM to reason to achieve the final answer. These three modules perform the divide-and-conquer procedure iteratively until the model is confident about the final answer to the main question. We evaluate IdealGPT on multiple challenging VL reasoning tasks under a zero-shot setting. In particular, our IdealGPT outperforms the best existing GPT-4-like models by an absolute 10% on VCR and 15% on SNLI-VE. Code is available at https://github.com/Hxyou/IdealGPT"
+ },
+ {
+  "paper_id": 3331,
+  "title": "Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox",
+  "year": 2025,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "The rapid adoption of Large Language Models(LLMs) for code generation has transformed software development, yet little attention has been given to how security vulnerabilities evolve through iterative LLM feedback. This paper analyzes security degradation in AI-generated code through a controlled experiment with 400 code samples across 40 rounds of \"improvements\" using four distinct prompting strategies. Our findings show a 37.6% increase in critical vulnerabilities after just five iterations, with distinct vulnerability patterns emerging across different prompting approaches. This evidence challenges the assumption that iterative LLM refinement improves code security and highlights the essential role of human expertise in the loop. We propose practical guidelines for developers to mitigate these risks, emphasizing the need for robust human validation between LLM iterations to prevent the paradoxical introduction of new security issues during supposedly beneficial code \"improvements\"."
+ },
+ {
+  "paper_id": 3348,
+  "title": "Reason Popper-ly: Patching In-Context Reasoning with Inductive Logic Programming",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Chain-of-thought (CoT) prompting enables large language models (LLMs) to tackle multi-step reasoning tasks, yet the generated intermediate steps are not guaranteed to be logically sound. We present Reason Popper-ly, a neurosymbolic framework that uses inductive logic programming (ILP) to learn relation composition rules from reasoning traces and deploys them as an online verifier for step-level correction. Given an LLM-generated trace, the method checks each inferred step against the learned rule table, diagnoses the violation type, rewrites incorrect steps with symbolically derived repairs, and regenerates the remaining suffix so that the model can produce its final answer conditioned on a verified trace. We evaluate on CLUTRR, a multi-hop kinship reasoning benchmark, using five language models over reasoning chains of 2 to 10 hops. Across all models, Reason Popper-ly consistently improves terminal accuracy over standard CoT, with gains of up to 48 percentage points for small models and 15 points for frontier models on the longest chains. Compared with a fully exogenous symbolic pipeline, our method performs better on harder instances by preserving the model's successful grounding while correcting only verifiable reasoning failures. In addition, step-level ILP verification yields a fine-grained error taxonomy that provides diagnostic insight beyond final-answer accuracy."
+ },
+ {
+  "paper_id": 3407,
+  "title": "Let\u2019s Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "A popular approach for improving the correctness of output from large language models (LLMs) is Self-Consistency -poll the LLM multiple times and output the most frequent solution. Existing Self-Consistency techniques always generate a constant number of samples per question, where a better approach will be to non-uniformly distribute the available budget based on the amount of agreement in the samples generated so far. In response, we introduce Adaptive-Consistency, a cost-efficient, model-agnostic technique that dynamically adjusts the number of samples per question using a lightweight stopping criterion. Our experiments over 17 reasoning and code generation datasets and three LLMs demonstrate that Adaptive-Consistency reduces sample budget by up to 7.9 times with an average accuracy drop of less than 0.1%. 1"
+ },
+ {
+  "paper_id": 3467,
+  "title": "CRAFT: Continuous Reasoning and Agentic Feedback Tuning for Multimodal Text-to-Image Generation",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent work has shown that inference-time reasoning and reflection can improve text-to-image generation without retraining. However, existing approaches often rely on implicit, holistic critiques or unconstrained prompt rewrites, making their behavior difficult to interpret, control, or stop reliably. In contrast, large language models have benefited from explicit, structured forms of **thinking** based on verification, targeted correction, and early stopping. We introduce CRAFT (Continuous Reasoning and Agentic Feedback Tuning), a training-free and model-agnostic framework for multimodal image generation. CRAFT transforms a user prompt into a set of explicit, dependency-structured visual constraints, verifies generated images using a vision-language model, and performs targeted prompt updates only when specific constraints are violated. This iterative process includes an explicit stopping criterion, resulting in an interpretable and controllable inference-time refinement loop. Across multiple model families and challenging benchmarks, CRAFT consistently improves compositional accuracy, text rendering, and preference-based evaluations, with particularly strong gains for lightweight generators. Importantly, these improvements incur only a negligible inference-time overhead, allowing smaller or cheaper models to approach the quality of substantially more expensive systems. Our results suggest that explicitly structured, constraint-driven inference-time reasoning is a key ingredient for improving the reliability of multimodal generative models."
+ },
+ {
+  "paper_id": 3504,
+  "title": "Language Model Cascades",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Prompted models have demonstrated impressive few-shot learning abilities. Repeated interactions at test-time with a single model, or the composition of multiple models together, further expands capabilities. These compositions are probabilistic models, and may be expressed in the language of graphical models with random variables whose values are complex data types such as strings. Cases with control flow and dynamic structure require techniques from probabilistic programming, which allow implementing disparate model structures and inference strategies in a unified language. We formalize several existing techniques from this perspective, including scratchpads / chain of thought, verifiers, STaR, selection-inference, and tool use. We refer to the resulting programs as language model cascades."
+ },
+ {
+  "paper_id": 3517,
+  "title": "PiVe: Prompting with Iterative Verification Improving Graph-based Generative Capability of LLMs",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have shown great abilities of solving various natural language tasks in different domains.Due to the training objective of LLMs and their pretraining data, LLMs are not very well equipped for tasks involving structured data generation.We propose a framework, Prompting with Iterative Verification (PiVe), to improve graphbased generative capability of LLMs.We show how a small language model could be trained to act as a verifier module for the output of an LLM (i.e., ChatGPT, GPT-4), and to iteratively improve its performance via fine-grained corrective instructions.We also show how the verifier module could apply iterative corrections offline for a more cost-effective solution to the text-to-graph generation task.Experiments on three graph-based datasets show consistent improvement gained via PiVe.Additionally, we create GenWiki-HIQ and highlight that the verifier module can be used as a data augmentation tool to help improve the quality of automatically generated parallel text-graph datasets.1"
+ },
+ {
+  "paper_id": 3581,
+  "title": "AVA: Towards Autonomous Visualization Agents through Visual Perception\u2010Driven Decision\u2010Making",
+  "year": 2024,
+  "venue": "Computer Graphics Forum",
+  "source": "openalex",
+  "abstract": "Abstract With recent advances in multi\u2010modal foundation models, the previously text\u2010only large language models (LLM) have evolved to incorporate visual input, opening up unprecedented opportunities for various applications in visualization. Compared to existing work on LLM\u2010based visualization works that generate and control visualization with textual input and output only, the proposed approach explores the utilization of the visual processing ability of multi\u2010modal LLMs to develop Autonomous Visualization Agents (AVAs) that can evaluate the generated visualization and iterate on the result to accomplish user\u2010defined objectives defined through natural language. We propose the first framework for the design of AVAs and present several usage scenarios intended to demonstrate the general applicability of the proposed paradigm. Our preliminary exploration and proof\u2010of\u2010concept agents suggest that this approach can be widely applicable whenever the choices of appropriate visualization parameters require the interpretation of previous visual output. Our study indicates that AVAs represent a general paradigm for designing intelligent visualization systems that can achieve high\u2010level visualization goals, which pave the way for developing expert\u2010level visualization agents in the future."
+ },
+ {
+  "paper_id": 3628,
+  "title": "GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have shown that it is promising to utilize Process Reward Models (PRMs) as verifiers to enhance the performance of LLMs. However, current PRMs face three key challenges: (1) limited process supervision and generalization capabilities, (2) dependence on scalar value prediction without leveraging the generative abilities of LLMs, and (3) inability to scale the test-time compute of PRMs. In this work, we introduce GenPRM, a generative process reward model that performs explicit Chain-of-Thought (CoT) reasoning with code verification before providing judgment for each reasoning step. To obtain high-quality process supervision labels and rationale data, we propose Relative Progress Estimation (RPE) and a rationale synthesis framework that incorporates code verification. Experimental results on ProcessBench and several mathematical reasoning tasks show that GenPRM significantly outperforms prior PRMs with only 23K training data from MATH dataset. Through test-time scaling, a 1.5B GenPRM outperforms GPT-4o, and a 7B GenPRM surpasses Qwen2.5-Math-PRM-72B on ProcessBench. Additionally, GenPRM demonstrates strong abilities to serve as a critic model for policy model refinement. This work establishes a new paradigm for process supervision that bridges the gap between PRMs and critic models in LLMs. Our code, model, and data will be available in https://ryanliu112.github.io/GenPRM."
+ },
+ {
+  "paper_id": 3637,
+  "title": "T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Recent studies have demonstrated that test-time compute scaling effectively improves the performance of small language models (sLMs). However, prior research has mainly examined test-time compute scaling with an additional larger model as a verifier, leaving verification by sLMs underexplored. In this work, we investigate whether sLMs can reliably verify the output candidates under test-time scaling. We find that even with knowledge distillation from larger verifiers, sLMs struggle with verification tasks requiring memorization, such as numerical calculations and fact-checking. To address this limitation, we propose Tool-integrated verification (T1), a two-stage framework that first filters candidates with external tools and then uses an sLM for final verification, offloading memorization-heavy steps to tools such as a code interpreter. Within T1, we prove that offloading to external tools reduces the memorization burden on sLMs and improves test-time scaling performance. Experiments on the MATH benchmark demonstrate that, with T1, a Llama-3.2 1B model under test-time scaling outperforms the significantly larger Llama-3.1 8B model. Moreover, T1 improves the verification accuracy of both process reward models (PRMs) and critic models. Our findings highlight the potential of tool integration to substantially improve the verification abilities of sLMs."
+ },
+ {
+  "paper_id": 3640,
+  "title": "Certainty-Guided Reasoning in Large Language Models: A Dynamic Thinking Budget Approach",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large reasoning language models are typically run with fixed inference budgets, which can waste computation or terminate reasoning prematurely. We introduce Certainty-Guided Reasoning (CGR), a model-agnostic adaptive inference procedure that periodically probes whether the current reasoning supports a confident final answer and terminates early once a target certainty threshold is reached, otherwise continuing until the end-of-thinking token or the budget limit. Certainty is estimated from the model's predicted probabilities over the answer tokens, yielding a lightweight stopping criterion. On AIME2025, CGR preserves baseline accuracy while reducing token usage, providing a tunable certainty-efficiency trade-off that can eliminate millions of tokens in aggregate. Across 64 random seeds, CGR exhibits consistent behavior. We also introduce a Grade metric that penalizes incorrect answers and permits abstention, capturing risk-sensitive performance. Results show that CGR improves Grade by abstaining when certainty remains low."
+ },
+ {
+  "paper_id": 3673,
+  "title": "Adaptive Parallel Monte Carlo Tree Search for Efficient Test-time Compute Scaling",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Monte Carlo Tree Search (MCTS) is an effective test-time compute scaling (TTCS) method for improving the reasoning performance of large language models, but its highly variable execution time leads to severe long-tail latency in practice. Existing optimizations such as positive early exit, reduce latency in favorable cases but are less effective when search continues without meaningful progress. We introduce {\\it negative early exit}, which prunes unproductive MCTS trajectories, and an {\\it adaptive boosting mechanism} that reallocates reclaimed computation to reduce resource contention among concurrent searches. Integrated into vLLM, these techniques substantially reduce p99 end-to-end latency while improving throughput and maintaining reasoning accuracy."
+ },
+ {
+  "paper_id": 3686,
+  "title": "Divergent-Convergent Reasoning: Scaling Test-Time Compute through Structured Solution Synthesis",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Test-time compute can substantially improve Large Language Model (LLM) reasoning performance, yet how and when additional compute helps remains poorly understood. We study Divergent-Convergent Reasoning (DCR), a simple two-phase primitive consisting of an exploration phase that generates multiple candidate solutions followed by a convergent reconciliation phase. We present three core results. First, we show that even a single reconciliation step can reliably amplify correct minority reports: across datasets, DCR often recovers the correct answer when correct exploration outputs are in the minority, a regime where majority voting fails. Second, we introduce recursive DCR, an autoregressive reconciliation system that iteratively analyzes disagreements and allocates additional test-time compute. Recursive DCR achieves higher accuracy than fixed-compute baselines-reaching 93.3% on AIME 2024 and 92.0% on AIME 2025-while using roughly 27% less compute on average, demonstrating that attentive resource allocation is superior to uniform scaling. Third, we analyze disagreement among exploration outputs via a simple, training-free dispersion metric. Dispersion reveals a structured relationship between disagreement and test-time gains: in regimes where DCR is effective, higher disagreement among exploration outputs is associated with larger accuracy improvements from reconciliation. Together, these results show that disagreement, often viewed as noise, can be systematically exploited to improve test-time reasoning and reveal emerging scaling laws for agentic LLM systems."
+ },
+ {
+  "paper_id": 3742,
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model."
+ },
+ {
+  "paper_id": 3744,
+  "title": "Not All Turns Are Equally Hard: Adaptive Thinking Budgets For Efficient Multi-Turn Reasoning in Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "As LLM reasoning performance plateaus, improving inference-time compute efficiency is crucial to mitigate overthinking and long thinking traces even for simple queries. Prior approaches including length regularization, adaptive routing, and difficulty-based budget allocation primarily focus on single-turn settings and fail to address the sequential dependencies inherent in multi-turn reasoning. In this work, we formulate multi-turn reasoning as a sequential compute allocation problem and model it as a multi-objective Markov Decision Process. We propose TAB: Turn-Adaptive Budgets, a budget allocation policy trained via Group Relative Policy Optimization (GRPO) that learns to maximize task accuracy while respecting global per-problem token constraints. Consequently, TAB takes as input the conversation history and learns to adaptively allocate smaller budgets to easier turns and save appropriate number of tokens for the crucial harder reasoning steps. Our experiments on diverse agentic benchmarks demonstrate that TAB achieves a superior accuracy-cost tradeoff saving up to 35% tokens and reducing latency up to 30% while maintaining accuracy over static and off-the-shelf LLM budget baselines. Further, for systems where a plan of all turns is available apriori, we propose TAB All-SubQ, a budget allocation policy that budgets tokens based on the conversation history and entire plan saving up to 40% tokens over baselines."
+ },
+ {
+  "paper_id": 3749,
+  "title": "Adaptive Test-Time Compute Allocation via Learned Heuristics over Categorical Structure",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Test-time computation has become a primary driver of progress in large language model (LLM) reasoning, but it is increasingly bottlenecked by expensive verification. In many reasoning systems, a large fraction of verifier calls are spent on redundant or unpromising intermediate hypotheses. We study reasoning under a \\emph{verification-cost-limited} setting and ask how verification effort should be allocated across intermediate states. We propose a state-level selective verification framework that combines (i) deterministic feasibility gating over a structured move interface, (ii) pre-verification ranking using a hybrid of learned state-distance and residual scoring, and (iii) adaptive allocation of verifier calls based on local uncertainty. Unlike solution-level best-of-$N$ or uniform intermediate verification, our method distributes verification where it is most informative. On the \\textsc{MATH} benchmark, our approach achieves higher accuracy than best-of-$N$, majority voting, and beam search while using 44\\% fewer verifier calls."
+ },
+ {
+  "paper_id": 3755,
+  "title": "Scaling Test-Time Compute Without Verification or RL is Suboptimal",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Despite substantial advances in scaling test-time compute, an ongoing debate in the community is how it should be scaled up to enable continued and efficient improvements with scaling. There are largely two approaches: first, distilling successful search or thinking traces; and second, using verification (e.g., 0/1 outcome rewards, reward models, or verifiers) to guide reinforcement learning (RL) and search algorithms. In this paper, we prove that finetuning LLMs with verifier-based (VB) methods based on RL or search is far superior to verifier-free (VF) approaches based on distilling or cloning search traces, given a fixed amount of compute/data budget. Further, we show that as we scale test-time compute (measured as the output token length) and training data, suboptimality of VF methods scales poorly compared to VB when the base pre-trained LLM presents a heterogeneous distribution over correct solution traces (e.g., different lengths, styles, etc.) and admits a non-sharp distribution over rewards on traces sampled from it. We formalize this condition using anti-concentration [Erd\u0151s, 1945]. This implies a stronger result that VB methods scale better asymptotically, with the performance gap between VB and VF methods widening as test-time budget grows. We corroborate our theory empirically on both didactic and math reasoning problems with 3/8/32B-sized pre-trained LLMs, where we find verification is crucial for scaling test-time compute."
+ }
+]

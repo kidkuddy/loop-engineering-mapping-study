@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5002,include,I2,Conceptual framework with retention contracts and a formal context-growth analysis arguing what persistent context may hold between turns: loop state as an explicit design position.
+5003,exclude,E7,"ReAct loop plus a validation agent, but the reported claims are execution accuracy on BIRD (77.84%) and Spider (89.75%); nothing measured about the loop itself."
+5004,exclude,E7,"Contribution is GEM, a four-stage trajectory data-synthesis pipeline plus an SFT synthesizer; claims are BFCL V3 benchmark gains, not anything about loop control."
+5005,exclude,E7,"Open-source training data and QA/trajectory synthesis for a ReAct search agent; claims are BrowseComp and xbench scores, no evidence about the loop mechanism."
+5006,exclude,E7,"HGPO is a stepwise advantage-estimation scheme for agentic RL training; evidence is success rates on ALFWorld and WebShop, not a claim about the runtime loop."
+5007,include,I2,"ReTree traces back to the node introducing a contradicted claim, prunes branches and resumes search; compared against Full-Trajectory ReAct with per-step context measured: loop state."
+5009,exclude,E7,"Solver-Critic-Selector system with confidence-based compute allocation, but the reported claims are SOTA results on HLE, GAIA and XBench; the mechanism itself is never measured."
+5010,include,I2,Proposes interacting with multiple environments per step with cross-trajectory sharing and compares this parallel paradigm against sequential reason-then-act baselines: iteration policy.
+5011,include,I2,"Causal localization over a dependency graph picks the root-cause module for reflection-based repair, beating context-filtering baselines: retry/repair."
+5012,exclude,E7,"OS-Symphony is an authored CUA framework (Orchestrator, reflection-memory, tool agents) whose claims are SOTA benchmark numbers such as 65.84% on OSWorld."
+5014,exclude,E7,"BranPO is a branch-sampling credit-assignment method for agentic RL training; the reported evidence is multi-hop QA benchmark gains, not a claim about loop control."
+5015,exclude,E7,"Studies entropy dynamics of agent RL training and adds the SEAL auxiliary loss; claims are training stability and downstream benchmark performance, not the agent's control loop."
+5017,include,I2,"A meta agent searches harness adaptations (instructions, tools, orchestration loops) from failure trajectories, compared per pair over 21 task-SLM pairs: iteration policy as studied variable."
+5018,exclude,E7,"AgentJet is distributed training infrastructure; the server-client topology is a training deployment concern and the claim is a 6.25x actor-update speedup, not loop control."
+5019,include,I2,"Benchmark auditing the process, not just answers: five reasoning nodes measuring diagnosis updating and contradiction-based self-correction under stressors: verification."
+5022,exclude,E7,CoEvoKG writes verified evidence back into a knowledge graph for self-play training; the reported claims are macro-average QA accuracy gains over base models and RL baselines.
+5023,exclude,E5,Explicitly a review of the LLM landscape and theoretical explanations for generalization capacity; a secondary study with no method.
+5024,include,I2,"25,000 runs decompose scaffold vs base-model variance (1.5% vs 41.4%) and measure refutation-driven belief revision at 26%, evidence ignored in 68% of traces: verification."
+5025,include,I2,"Recursive Tournament Voting and Parallel-Distill-Refine are compared as parallel vs sequential test-time scaling over rollout summaries, framing scaling as selection and reuse: iteration policy."
+5026,include,I2,"ReSum periodically condenses interaction history so exploration can continue past the context limit, and is compared directly against the ReAct loop paradigm (+4.5%): loop state."
+5028,exclude,E5,Self-described survey with a taxonomy of LLM intervention operators in the RL loop; a secondary study retained only as a snowballing seed.
+5029,exclude,E7,"RTPO is a reverse-turn credit-assignment formulation for stabilizing multi-turn RL training; evidence is 21.50% and 10.76% gains over baselines, not a claim about the runtime loop."
+5030,exclude,E4,"Benchmark record of 200 multiple-choice geochemistry questions reporting aggregate accuracy and item retention; no loop property such as stuck loops, termination or retries is measured."
+5031,exclude,E7,"Report on SFT data-synthesis modifications (graph size, tool set, low-step filtering) for a stock ReAct agent; claims are benchmark scores such as 46.0% on BrowseComp."
+5033,exclude,E7,"M-ASK splits search from knowledge management, but the reported claims are answer accuracy on multi-hop QA plus training stability: a multi-agent system beating baselines on a task."
+5034,exclude,E7,SWE-World replaces containerized execution with a learned surrogate for training and evaluation; the claims are SWE-bench Verified scores rising from 6.2% to 68.2%.
+5035,exclude,E7,"Orchard is an environment service plus three training recipes; the reported evidence is SOTA benchmark results (69.7% SWE-bench, 68.4% GUI, 59.6% Claw-Eval)."
+5036,include,I2,"AgentMeter scores LM-CLI pairs on budget sensitivity and zero-reward execution and shows no CLI harness is universally optimal, making the harness the studied variable: termination/budget."
+5037,exclude,E5,Explicitly a survey of the Model Context Protocol architecture and challenges; secondary study with no method.
+5039,include,I2,"Argues harness design is a first-class ML problem, formalizes harness configuration search, and reports a controlled manual-tuning case study against an end-to-end HARBOR run: iteration policy."
+5040,exclude,E7,KernelSkill is a multi-agent framework with dual-level memory whose reported claims are 100% success on KernelBench and speedups over Torch Eager: task outcomes.
+5042,exclude,E7,"The studied variable is the diffusion vs autoregressive backbone inside a fixed agent workflow, with end-to-end speed and accuracy claims; no loop mechanism is contributed."
+5043,include,I2,"Trajectory summarization compresses history into state updates that drive the next decision, measured against baselines by success rate and 58.7% token cut: loop state."
+5044,exclude,E7,"WebGym contributes 300k training tasks, an RL recipe and a fast rollout system; claims are out-of-distribution success rate rising from 26.2% to 42.9%."
+5045,exclude,E5,"Self-described comprehensive survey of MCP architecture, implementations and open challenges; a secondary study."
+5046,exclude,E7,"AgentEvolver's self-questioning, self-navigating and self-attributing are evaluated by exploration efficiency and sample utilization against RL baselines: training efficiency, not loop control."
+5047,include,I2,"Attacks the restriction of retrieval to episode initiation by generating short-term strategy memory on the fly, compared against static-memory baselines across compute levels: loop state."
+5049,exclude,E5,"PRISMA 2020-compliant systematic literature review screening 2,387 records to 60 studies, producing a taxonomy and maturity framework: a secondary study."
+5050,exclude,E7,STRIATUM-CTF is an authored MCP-based agentic framework whose headline evidence is winning a live CTF against 21 human teams: task outcome.
+5051,include,I2,"Source-code study of 13 coding-agent scaffolds finds five composable loop primitives (ReAct, generate-test-repair, plan-execute, retry, tree search): iteration policy."
+5052,exclude,E7,"Self-organizing agent teams evaluated by BioML-Bench leaderboard percentile, training speedups and Spearman correlation: a multi-agent system beating baselines on domain tasks."
+5055,include,I2,"Argues the context-overload vs pruning trade-off comes from centralized memory organization and decouples gist accumulation from the Planner, measuring accuracy against overhead: loop state."
+5056,exclude,E7,"The delegation harness is used to generate SFT trajectories, and the reported claims are BrowseComp 68.1 and BrowseComp-ZH 73.3 for the resulting model: task outcomes."
+5057,exclude,E5,"Self-described survey of terminal agents organizing architecture, competence acquisition and evaluation; retained as a snowballing seed."
+5061,exclude,E7,"ProGPO is a step-level grouping and advantage-estimation method for agentic RL; evidence is gains over matched RL baselines on ALFWorld and WebShop, not the runtime loop."

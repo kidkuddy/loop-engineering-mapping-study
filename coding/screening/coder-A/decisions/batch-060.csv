@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+7779,exclude,E5,"Self-described ""systematic review"" of large multimodal agents with a taxonomy and an evaluation framework; secondary study."
+7787,exclude,E5,"Comprehensive literature review of embodied AI from LLMs to world models, with taxonomy and future directions; secondary study."
+7795,include,I2,"ADAS/Meta Agent Search: the agentic design itself (workflow, arrangement of modules) is the searched variable; compared against hand-designed agents and transfer-tested. Control topology."
+7803,exclude,E5,"Comparative review of LLMs in engineering; synthesises prior work, no method of its own."
+7808,exclude,E7,"TextGrad is a framework for optimising compound AI systems; reported claims are end-task outcomes (GPQA 51->55%, LeetCode, molecules, radiotherapy), not about the feedback loop."
+7810,exclude,E5,"Historical overview positing AI 1.0-4.0 generations; taxonomy-only, no loop-control mechanism studied."
+7816,exclude,E5,Comprehensive survey of LLM self-evolution approaches with conceptual framework and taxonomy; secondary study.
+7817,exclude,E2,"Self-Discover composes reasoning modules into a structure followed during decoding; no feedback returns control, results are benchmark accuracy."
+7818,exclude,E5,"Systematic review of feedback mechanisms in LLM agents, categorising four feedback types; secondary study."
+7822,include,I2,"Position paper: need-driven regulators feed a softmax control system for action selection plus a Protect layer that overrides unsafe behaviour, argued with falsifiable predictions. Iteration policy."
+7825,exclude,E2,"Iterative prompt refinement for gene-relation extraction from ChatGPT; prompt engineering evaluated by F1/precision/recall, no runtime agent loop."
+7833,exclude,E7,"rStar-Math's innovations are data synthesis, PRM training and a self-evolution training recipe; claims are MATH/AIME accuracy, not about the search loop."
+7834,include,I2,"Abstract is bibliographic only; title names reflection-driven self-improvement as the contribution, i.e. a refinement cycle. Retry/repair."
+7863,include,I2,"Gome contrasts gradient-style directed updates against tree search as the MLE agent's search regime, with a crossover measured across 10 models under a closed-world protocol. Iteration policy."
+7879,exclude,E7,"CSTS builds a skill tree and training data, then trains OpenClaw-Skill; claims are agentic benchmark performance, not evidence about the search mechanism."
+7912,exclude,E7,"TreeThink is a library integrating established tree search methods; claims are miniF2F/MATH500 results and an implementation speedup, not a new loop-control mechanism."
+7914,include,I2,"MCTS with a residual energy function acting as path verifier to rank and select reasoning steps at inference, measured against the fine-tuned model. Iteration policy/verification."
+7929,include,I2,"RTSoG: training-free Self-Critic MCTS with reward guidance iteratively retrieves and weights reasoning paths, compared to alternative path-retrieval strategies. Iteration policy."
+7933,include,I2,"PGTS learns a policy that decides expand, branch, backtrack or terminate, replacing hand-set heuristics, with cost reductions reported. Iteration policy and termination."
+7935,exclude,E7,AutoTool is an SFT+RL training pipeline plus a 200k dataset for tool selection; claims are benchmark gains across ten tasks.
+7940,include,I2,"TabTracer enforces step-level verification with typed checks and versioned-snapshot rollback under budget-aware pruning, reporting 59-84% token reduction. Verification and retry/repair."
+7941,include,I2,"Tempest branches conversations breadth-first across turns, re-injecting partial compliance, and is compared to Crescendo/GOAT on queries used. Iteration policy."
+7943,include,I2,"LELMA validates reasoning by autoformalisation and a solver, reporting error-detection accuracy and the effect of self-refinement on correctness. Verification."
+7947,exclude,E1,"MEDAL searches unmasking trajectories during diffusion LM decoding; the loop is token generation, not a language-model agent's control loop."
+7950,exclude,E7,JARVIS is a neuro-symbolic embodied agent framework; reported claims are TEACh success rates (EDH 6.1->15.8%).
+7952,exclude,E2,"An agent produces task instructions for zero-shot reasoning; no feedback returns control, and claims are accuracy on 29 datasets."
+7954,include,I2,"Studies autonomous vs program-driven tree search in LLMs, comparing ATS-BFS to CoT and Tree-of-Thoughts on accuracy and API cost. Iteration policy."
+7955,include,I2,"MZQA makes MCTS over reasoning paths the zero-shot control procedure and measures the search/behavioural-cloning trade-off (10x speed, small loss). Iteration policy."
+7961,include,I2,"GATS pits UCB1 tree search with a layered world model against LATS and ReAct, measuring success, LLM calls per task (0 vs 37) and plan variance. Iteration policy."
+7965,include,I2,"ARTS decouples proposal from decision, repurposing the verifier via flow matching, and shows recovery on the long tail where coupled RL collapses. Verification."
+7969,exclude,E7,Multi-agent debate framework whose reported claims are accuracy gains on MMMU/MMBench/MVBench across VLM backbones; a system result.
+7970,exclude,E7,Tree-GRPO is an RL training algorithm using tree-structured rollouts for advantage estimation; claims are QA task performance over 11 datasets.
+7973,exclude,E7,Stage-MCTS uses search to generate training data for SFT plus a new dataset; claims are text-to-NoSQL execution-match accuracy.
+7974,exclude,E3,"Applies off-the-shelf Language Agent Tree Search to microservice root cause analysis; claims are diagnostic accuracy (91.3% benchmark, 65.1% production)."
+7979,exclude,E7,MCTS is used to generate process supervision data for iterative training; claims are accuracy on two math datasets.
+7985,include,I2,VerifiAgent's meta-verification and adaptive tool-based verification are compared head-to-head with deductive and backward verifiers and with process reward models. Verification.
+7995,include,I2,"SC-MCTS* ablates MCTS components, rebuilds the reward model, and revises UCT selection and backpropagation, reporting per-node speed and component effects. Iteration policy."
+7999,include,I2,"FETCH diagnoses over- and under-exploration in verifier-guided tree search, merges equivalent states and reduces verifier variance, tested across four search algorithms. Iteration policy."
+8005,include,I2,"Empirical-MCTS carries experience across problems via evolving meta-prompts and a memory agent to steer later search, compared against stateless MCTS. Loop state."
+8008,exclude,E7,AgentMath is a tool-augmented agent plus RL training system; claims are AIME/HMMT accuracy and training throughput.
+8012,include,I2,"TOA evolves the multi-agent workflow by MCTS rather than fixing it, and compares multi-agent against single-agent orchestration as inference compute scales. Control topology."
+8016,exclude,E7,"Graph-O1 is an agentic GraphRAG system trained end-to-end with RL; claims are QA accuracy over baselines, not evidence about the loop."
+8029,include,I2,"TS-LLM systematically studies AlphaZero-style tree search with a learned value function guiding LLM decoding, across search depths up to 64 and task types. Iteration policy."
+8034,include,I2,"Read-Gate is a runtime invariant forcing a read after search before finalisation; failures are decomposed over 12,000 trajectories and the gate's effect measured. Termination."
+8035,exclude,E7,"M2A merges task vectors in parameter space; claims are SWE-Bench resolved rate (44.0->51.2%) and reasoning length, not loop control."

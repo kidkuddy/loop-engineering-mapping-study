@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+6397,exclude,E7,"Validation and diagnosis framework for an agentic system; reported claims are AppWorld/WebArena accuracy gains after prompt and code refinement, not about loop control."
+6400,exclude,E7,"Attributes task failures and cost regressions to loaded skills; claims are success rates and efficiency on SkillsBench, not about a loop-control mechanism."
+6407,include,"I1,I2","Contributes retry/repair: counterfactual attribution of failure-inducing steps and minimal validated repairs, compared against heuristic refinement across four benchmarks."
+6459,include,"I1,I2","Contributes retry/repair: SymTrace replay tests whether MAS repair methods causally fix failures; reports 67.97% reproduction, 6.90% repair vs 20.15% symptom-driven."
+6497,include,"I1,I2","Benchmark measuring a loop property: unit-test failure triggers one self-correction, and error-recovery rate is reported separately from reasoning depth (retry/repair)."
+6511,exclude,E7,"MobA is a mobile GUI assistant system; its reflection-based error recovery is a component, but the claims are MobBench and AndroidArena task performance."
+6522,exclude,E5,"Narrative overview of tool-using conversational agents, their recurring patterns, limitations and future directions; no primary method or evaluation."
+6537,exclude,E7,"Tool-use benchmark; claims are claim-level pass rates over 20 models, with premature stopping only one of 11 diagnostic categories rather than a studied loop mechanism."
+6546,exclude,E7,"Multi-agent FEM simulation system; the 50-task ablation varies knowledge-graph retrieval and reports physics and material-fidelity scores, not loop control."
+6552,exclude,E7,"Replication of natural-language versus structured tool calling; claims are tool-calling accuracy, error counts and token use, not about the loop."
+6554,include,"I1,I2","Contributes loop state: selective persistent memory compared against no memory and naive full history (96% vs 79% vs 71%), showing stale traces bias the agent."
+6559,include,"I1,I2","Contributes loop state: context accumulation over long agentic sessions, argued as architectural and measured (entropy -42%, error recurrence 0.34 to 0.09 vs MCP)."
+6563,include,"I1,I2","Contributes iteration policy: XEPV trace encoding exposes an E-to-V verification deficit, and the Governor runtime intervention gives +6.2% success and -44% tokens."
+6575,exclude,E7,"Schema optimization plus reflection-based extraction; the claims are extraction accuracy on SGD and SWDE and error reduction, i.e. task outcomes."
+6581,include,"I1,I2","Contributes verification: execution feedback verifies each parsing step and drives self-correction, and query executability, the check's own signal, is measured on WebQSP/CWQ."
+6600,exclude,E7,Industrial prognostics benchmark; claims are 80.8% pass@1 and an MCP-versus-RAG ablation on domain scenarios rather than a studied loop mechanism.
+6601,exclude,E7,"Platform for developing, sharing and benchmarking domain agent skills; the contribution is infrastructure, with no evidence or argument about loop control."
+6603,include,"I1,I2","Contributes iteration policy: the model completion is itself the orchestrator, so no fixed turn-to-turn transition policy applies; formalized, argued, and run in Spell."
+6604,exclude,E7,Typed-execution-graph runtime for scientific agents; claims are chemistry task quality plus ~80% cost and fourfold time reduction versus their prior architecture.
+6611,exclude,E7,"Web3 on-chain agent system; the ablation reports feasibility of orchestrating multi-step blockchain tasks in a simulated environment, i.e. domain outcomes."
+6626,exclude,E7,"Self-evolving GUI/MCP pipeline; distillation and an experience bank are compared on pass rates (77.8%, +10.0pp), and neither governs whether the loop proceeds."
+6632,exclude,E7,"Spatial proteomics agent; the claims are state-of-the-art SP-Bench results against biomedical agent baselines, i.e. task outcomes."
+6642,exclude,E7,"SessionVerifier and replan verdicts are components of an embodied agent OS, but the reported claims are LIBERO, Calvin and RoboCasa benchmark gains, not verifier evidence."
+6653,exclude,E5,"Practitioner reference catalogue of 14 CRM architecture patterns plus an overview of predictive, generative and agentic AI's effect on the platform; no agent loop studied."
+6658,exclude,E7,"AHA is a red-teaming discovery system; the reported claim is attack success, a frozen concept graph beating the discovery baseline by 14.2pp on Claude Code and Codex."
+6660,exclude,E5,"Analysis of the LLM-agent evaluation ecosystem: deconstructs GAIA, SWE-bench and OSWorld and synthesizes a three-tier failure taxonomy; secondary study."
+6721,exclude,E2,Risk-identification toolkit for governed multi-agent deployments across six failure modes; no mechanism governing whether or how a loop proceeds is proposed or studied.
+6758,exclude,E4,Book chapter presenting an 11-layer failure stack and an awareness-mapping maturity concept for AI governance; not a primary research contribution.
+6801,exclude,E7,"Five-agent exploit-and-detection pipeline; claims are 67.8% L1+ exploitation over 603 CVEs and detection-rule grounding, i.e. task outcomes."
+6818,exclude,E1,"The scheduling studied is GPU and cluster serving of LLM-MAS workloads (KV reservation -67.2%, SLO +23.6pp), not the agent loop that decides the next step."
+6820,include,"I1,I2",Contributes control topology plus recovery: injecting 15 fault types shows iterative closed-loop architectures neutralize over 40% of faults that collapse linear workflows.
+6835,include,"I1,I2",Contributes control topology: collaboration mode and role allocation are chosen per query by a cascaded controller and compared against state-of-the-art MAS routing on cost.
+6865,include,"I1,I2","Contributes loop state: memory placement and retrieval is the studied variable; orchestrator memory drives decomposition and delegation, agent memory execution, on OfficeBench."
+6871,exclude,E2,"Benchmarks LLM causal-reasoning accuracy on pairwise discovery, counterfactual and event-causality tasks; single-pass generation with no iterative control."
+6880,exclude,E5,Reorganizes 16 previously documented failure modes into a four-category taxonomy and reclassifies OWASP Top 10 and MITRE ATLAS; taxonomy-only secondary study.
+6891,exclude,E7,Proposes a multi-agent test-generation architecture with claimed coverage and reliability benefits and no evidence or argument about any loop mechanism.
+6913,exclude,E4,"Explicitly a tutorial: a layered hallucination-mitigation reference architecture and implementation playbook for practitioners, with no evaluation."
+6925,include,"I1,I2","Contributes retry/repair: the reliability control layer detects failures and triggers verified recovery protocols, with simulation reporting 89% of failures handled."
+6928,exclude,E5,"Narrative review of LLM-based clinical research data extraction from PubMed and arXiv searches, with an evaluation framework and governance checklist."
+6936,exclude,E2,"Hybrid knowledge-graph and vector RAG with prompt engineering for manufacturing Q&A; retrieval and single-pass generation, no iterative control."
+6942,exclude,E2,"Studies input-perturbation sensitivity of LLM/VLM robot controllers, reporting 22.2% and 14.6% success drops; no loop mechanism is proposed or studied."
+6945,exclude,E2,"Expert evaluation of single-turn mental-health answers plus an adversarial question set; one-shot answer quality, no iterative control."
+6954,exclude,E5,Systematic literature review of 177 articles on LLM applications in cybersecurity.
+6956,exclude,E5,"Review of five methodological families for detecting shared training data across LLMs, with a proposed auditing taxonomy."
+6963,exclude,E5,"Review of LLM roles, applications and limitations across cybersecurity tasks, with future research directions."

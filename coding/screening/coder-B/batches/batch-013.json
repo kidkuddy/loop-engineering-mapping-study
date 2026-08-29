@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 8609,
+  "title": "The contribution of GenAI to business analytics",
+  "year": 2025,
+  "venue": "Journal of Business Analytics",
+  "source": "openalex",
+  "abstract": "This paper explores the integration of Business Analytics (BA) with Artificial Intelligence (AI) by considering evidence from existing literature through an augmented research process supported by Generative AI (GenAI). GenAI can streamline the process of literature review and synthesis while enriching researchers\u2019 analytical capabilities, e.g. screening literature, finding themes across multiple papers, creating conceptual categories. Therefore, the study seeks to understand the issues and benefits of incorporating GenAI tools into research processes, such as academic writing, based on the authors\u2019 first-hand experiences. The research process involves automatic retrieval of relevant papers from online repositories based on predefined keywords, followed by summarisation of the retrieved documents using language models. The summarised insights are then used to draft the article. The integration of AI with BA requires a gradual approach, leveraging existing analytical capabilities and expertise as a foundation. The study relies on the authors\u2019 experiences and examples to draw conclusions. More comprehensive empirical studies can validate the findings. The paper provides insights for researchers and practitioners interested in leveraging GenAI tools to enhance their work and highlights the potential and challenges of applying these tools in business analytics applications."
+ },
+ {
+  "paper_id": 8621,
+  "title": "A Review of Agentic AI in Cybersecurity: Cognitive Autonomy, Ethical Governance, and Quantum-Resilient Defense",
+  "year": 2025,
+  "venue": "F1000Research",
+  "source": "openalex",
+  "abstract": "Agentic Artificial Intelligence (AAI) refers to autonomous, adaptable, and goal-directed systems capable of proactive decision-making in dynamic environments. These agentic systems extend beyond reactive AI by leveraging cognitive architectures and reinforcement learning to enhance adaptability, resilience, and self-sufficiency in cybersecurity contexts. As cyber threats grow in sophistication and unpredictability, Agentic AI is rapidly becoming a foundational technology for intelligent cyber defense, enabling capabilities such as real-time anomaly detection, predictive threat response, and quantum-resilient protocols. This narrative review synthesizes literature from 2005 to 2025, integrating academic, industry, and policy sources across three thematic pillars: cognitive autonomy, ethical governance, and quantum-resilient defense. The review identifies key advancements in neuromorphic architectures, cross-jurisdictional governance models, and hybrid defense systems that adapt to evolving threat landscapes. It also exposes critical challenges, including dual-use risks, governance interoperability, and preparedness for post-quantum security. This work contributes a multi-dimensional conceptual framework linking governance mechanisms to operational practice, maps resilience strategies across conventional and quantum vectors, and outlines a forward-looking roadmap for secure, ethical, and adaptive deployment of Agentic AI in cybersecurity. The synthesis aims to support policymakers, developers, and security practitioners in navigating the accelerating convergence of autonomy, security, and AI ethics."
+ },
+ {
+  "paper_id": 8625,
+  "title": "Loop Engineering: Building Blocks, Adoption, and Impact",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Over the past months, the way developers direct agentic AI coding tools has moved up several levels of abstraction, from phrasing prompts to engineering context to configuring the harness around the model. In June 2026, practitioners began to describe a further level called loop engineering: Instead of prompting an agent interactively, developers design systems that prompt agents for them. These systems start agent runs on a schedule or on repository events and stop them when a machine-checkable condition holds. The term spread rapidly, accompanied by bold claims and vocal skepticism, but its adoption in software projects has not been measured. We present an exploratory review of the emerging gray literature, which largely agrees on what a well-engineered loop contains: triggered agent runs bounded by machine-checkable stop conditions, persistent state files, verifier sub-agents, token budgets, and defined points of escalation to humans. From this review, we derive a research agenda for the empirical study of loop engineering in open-source projects, analyze which of its aspects are traceable from repository data, and report an exploratory mining study of 36,710 software repositories. We confirmed the operation of autonomous agent loops in 217 of the 256 repositories our heuristics matched. The repositories commit the configuration around these loops, but almost none commits the state files the discourse prescribes, and the loops' runtime state remains outside version control. We conclude by outlining a planned controlled study of agent autonomy levels and their effect on effort and outcomes."
+ },
+ {
+  "paper_id": 8701,
+  "title": "Loop Engineering: Building Blocks, Adoption, and Impact (Supplementary Material)",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Over the past months, the way developers direct agentic AI coding tools has moved up several levels of abstraction: from phrasing individual prompts, to engineering the context that agents see, to configuring the harness that surrounds the model. In June 2026, practitioners began to describe a new abstraction layer called loop engineering. Instead of prompting an agent interactively, developers now design systems that prompt agents for them. They specify what to build up front, e.g., using machine-checkable goal conditions, or the goals are derived from repository events such as failing builds and open issues. The term loop engineering spread rapidly through blog posts, newsletters, and social media, accompanied by bold claims and equally loud skepticism, but it has not yet been studied scientifically. In this paper, we trace the trajectory from prompt engineering to loop engineering and report an exploratory review of the emerging gray literature, situated against adjacent academic work. The practitioner sources largely agree on what a well-engineered loop contains: scheduled or goal-driven agent runs, persistent state files, verifier sub-agents, token and cost budgets, and defined points of escalation to humans. From this review, we derive a research agenda centered on the empirical study of loop engineering in open-source projects. We analyze which aspects of loop engineering are traceable from repository data and which are not, and we report an exploratory mining study of 36,710 open-source repositories classified as engineered software projects. Autonomous agent loops run in open-source projects: 70 of the 81 candidate repositories we manually verified execute scheduled or event-triggered agent processes. Yet almost none commit the state files, budgets, and run logs the discourse prescribes, because these loops keep their state in platform artifacts such as labels, issues, and pull requests rather than under version control. As the planned journal extension, we outline a comparative study of agent autonomy levels, together with re-running and scaling this mining study to track how the practice evolves."
+ },
+ {
+  "paper_id": 8712,
+  "title": "Inverted Orchestration in Software Development: A Deterministic Harness and Looping Engineering under Enterprise Constraints",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "This report repositions Inverted Orchestration around an IDE-agent development experiment. It treats the harness not as backlog refinement, but as a control plane for a long-running implementation loop. The central technique, Inverted Agentic Orchestration, delegates execution to the agent while keeping workflow policy, selection, validation, budget, state, and telemetry in code and files. In the reference implementation, Flows.Development built a .NET TodoApp WebAPI with Postgres through the cycle start \u2192 plan \u2192 [bearings \u2192 smoke \u2192 pick \u2192 implement \u2192 verify \u2192 handoff]*. The cost-measured run ended with 8 passing features, 56 harness turns, 48min45s of observed duration, and a reported total cost of US\\$ 12.58. A later recovery run, on July 20, 2026, completed the final three features in 19 steps after a fresh start, using the persisted state in .harness/; the current target-project verification passes 17 automated tests. A third run, on July 21, 2026, tested portability directly: Codex CLI implemented the first four features of a new target project, was interrupted mid-cycle, and Claude Code resumed from the same persisted state and completed the remaining four, with cost and tokens measured per step and per session for each driver (US$ 11.68 for Codex CLI, US\\$ 4.41 for Claude Code) and a final verification of 45 of 45 automated tests. The result rejects automatic token savings but supports governance: the harness adds operational overhead \u2013 including 16% of attributed cost consumed by rework after protocol errors, a direct measure of the flow\u2019s cost of control \u2013, while making agentic development auditable, interruptible, evidence-producing, and portable across agents sharing only the terminal.Repository: https://github.com/cooperacode/IAO"
+ },
+ {
+  "paper_id": 8729,
+  "title": "From Prompt Engineering to Loop Engineering: A Five-Layer Taxonomy for Evaluating AI Systems Engineering Practice",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Large language model (LLM) Application Development has moved, in roughly five years, from hand-tuning a single input string to operating autonomous systems that plan, call tools, and revise their own output across multiple passes. Practitioners now use \u201cprompt engineering,\u201d \u201ccontext engineering,\u201d \u201cagent engineering,\u201d and, more recently, \u201charness engineering\u201d and \u201cloop engineering\u201d almost interchangeably, even though each term names a distinct engineering discipline with its own failure modes and its own way of measuring success. This paper proposes a five-layer taxonomy\u2014 Prompt Engineering, Context Engineering, Harness Engineering, Agent Engineering, and Loop Engineering\u2014 that separates these disciplines by what is actually being engineered at each stage: the input string, the surrounding information, the tool-and-permission scaffold, the delegation and planning behavior, and the iterative actobserve-verify cycle, respectively. For each layer we define boundary conditions relative to its neighbors, propose a concrete evaluation metric, and ground the layer in one published system from the literature and one first-person practitioner artifact drawn from an active multi-agent deployment. The paper is a taxonomy and case-study contribution, not a controlled experiment: its claims about the practitioner artifacts are illustrative, not measured, and we say so explicitly rather than let the distinction blur. We argue the taxonomy\u2019s principal practical use is diagnostic\u2014identifying which layer a failing AI system is actually missing, particularly the common and under-diagnosed failure of building an agent without a loop, which produces confident but unverified output."
+ },
+ {
+  "paper_id": 8746,
+  "title": "\u8bed\u4e49\u5757:Loop Engineering \u5728\u5355 Agent \u7cfb\u7edf\u4e2d\u7684\u4e0a\u4e0b\u6587\u9694\u79bb\u5b9e\u8df5",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Loop Engineering \u63d0\u51fa\u4e86\u4e00\u79cd\u8d85\u8d8a Prompt Engineering \u7684\u65b0\u8303\u5f0f:\u4eba\u4e0d\u518d\u662f\u9010\u53e5\u6307\u6325 AI \u7684\u64cd\u4f5c\u5458,\u800c\u662f\u8bbe\u8ba1\u4e00\u5957\"\u611f\u77e5\u2192\u51b3\u7b56\u2192\u884c\u52a8\u2192\u9a8c\u8bc1\u2192\u6301\u4e45\u5316\u2192\u8c03\u5ea6\"\u95ed\u73af\u7cfb\u7edf\u7684\u67b6\u6784\u5e08\u3002\u7136\u800c,Loop Engineering \u539f\u6559\u65e8\u65b9\u6848\u4f9d\u8d56\u591a Agent \u534f\u4f5c(\u751f\u6210\u8005\u4e0e\u8bc4\u5224\u8005\u5206\u79bb)\u6765\u5b9e\u73b0\u4e0a\u4e0b\u6587\u9694\u79bb\u4e0e\u8d28\u91cf\u4fdd\u969c,\u8fd9\u5728\u5b9e\u9645\u5de5\u7a0b\u4e2d\u9762\u4e34\u8c03\u5ea6\u590d\u6742\u5ea6\u548c\u6210\u672c\u7684\u53cc\u91cd\u538b\u529b\u3002\u672c\u6587\u63d0\u51fa\u8bed\u4e49\u5757(Semantic Blocks)\u2014\u2014\u4e00\u79cd\u5728\u5355 Agent \u7cfb\u7edf\u5185\u5b9e\u73b0\u4e0a\u4e0b\u6587\u9694\u79bb\u7684\u8f7b\u91cf\u7ea7\u673a\u5236\u3002\u8bed\u4e49\u5757\u5c06\u539f\u59cb\u6570\u636e\u7684\u63a8\u7406\u8fc7\u7a0b\u4e0e\u5224\u65ad\u7ed3\u8bba\u89e3\u8026,\u4ee5\u7ed3\u6784\u5316\u6807\u7b7e\u683c\u5f0f\u4f20\u9012\u7eaf\u7ed3\u8bba,\u4f7f\u540c\u4e00 Agent \u5728\u8fde\u7eed\u6267\u884c\u4e0d\u540c\u9636\u6bb5\u65f6\u4e0d\u88ab\u524d\u5e8f\u63a8\u7406\u6c61\u67d3\u3002\u6211\u4eec\u5c06\u8bed\u4e49\u5757\u5e94\u7528\u4e8e\u5e94\u9f99\u91cf\u5316\u5206\u6790\u7cfb\u7edf,\u5728\u50ac\u5316\u5242\u771f\u4f2a\u5224\u65ad\u2192\u5151\u73b0\u6df1\u6316\u2192\u7efc\u5408\u8bc4\u5206\u7684\u4e09\u9636\u6bb5\u6d41\u6c34\u7ebf\u4e2d,\u5b9e\u73b0\u4e86\u4e0e\u591a Agent \u65b9\u6848\u7b49\u6548\u7684\u4e0a\u4e0b\u6587\u9694\u79bb\u6548\u679c,\u540c\u65f6\u4fdd\u6301\u5355 Agent \u7684\u7b80\u6d01\u67b6\u6784\u3002\u672c\u6587\u5b8c\u6574\u5448\u73b0\u8bed\u4e49\u5757\u7684\u8bbe\u8ba1\u539f\u7406\u3001\u5b9e\u73b0\u7ec6\u8282\u3001\u5de5\u7a0b\u7ea6\u675f\u548c\u7ecf\u9a8c\u6559\u8bad\u3002 Loop Engineering introduces a paradigm beyond Prompt Engineering: humans are no longer operators issuing commands sentence by sentence, but architects designing closed-loop systems of \"Perceive \u2192 Decide \u2192 Act \u2192 Verify \u2192 Persist \u2192 Orchestrate.\" However, the orthodox Loop Engineering approach depends on multi-agent collaboration \u2014 separating generators from evaluators \u2014 to achieve context isolation and quality assurance, which imposes dual pressures of orchestration complexity and cost in practical engineering. This paper proposes Semantic Blocks, a lightweight mechanism for achieving context isolation within a single-agent system. Semantic Blocks decouple the reasoning process from judgment conclusions in raw data, transmitting only pure conclusions in a structured tag format, thereby preventing the same agent from being contaminated by prior reasoning when executing different stages sequentially. We apply Semantic Blocks to the Yingloong quantitative analysis system, achieving context isolation equivalent to a multi-agent architecture across a three-stage pipeline of catalyst authenticity verification \u2192 fulfillment deep-dive \u2192 composite scoring, while maintaining the simplicity of a single-agent architecture. This paper presents the complete design principles, implementation details, engineering constraints, and lessons learned from Semantic Blocks."
+ },
+ {
+  "paper_id": 8806,
+  "title": "Neuroscience-Based Intellectual Productivity: A Ten-Principle Methodology for Knowledge Workers",
+  "year": 2026,
+  "venue": "ScholarsArchive  (Brigham Young University)",
+  "source": "openalex",
+  "abstract": "This paper presents a comprehensive, neuroscience-grounded methodology for enhancing intellectual productivity among knowledge workers\u2014particularly academic faculty and researchers operating under conditions of chronic cognitive overload. Drawing on ten foundational principles derived from contemporary cognitive neuroscience, we argue that substantial gains in research output, creative ideation, and knowledge integration are achievable not by working harder, but by working in deliberate alignment with the brain\u2019s native computational architecture. The ten principles address: strategic activation of the Default Mode Network (DMN) for incubation and creative insight; prefrontal cortex (PFC) energy management through temporal task separation; externalization of cognitive load via AI-assisted working memory extension; dopaminergic reward-loop engineering for sustained generative motivation; neuroplasticity cultivation through cross-disciplinary knowledge synthesis; theta-wave facilitation via rhythmic, low-demand activity; inhibitory control and deep-work protection; amygdala\u2013hippocampal coupling for emotionally encoded, durable memory; sleep-phase memory consolidation; and social cognition activation through dialogic AI engagement. For each principle, we provide the underlying neuroscientific mechanism, supporting empirical literature, and concrete workflow applications\u2014including the use of AI tools such as NotebookLM, Audio Overview, and large language models as cognitive prosthetics. The paper concludes with an integrated daily and weekly workflow model (the BRAIN Cycle) and a critical discussion of limitations, including risks of cognitive offloading dependency and individual variability in neural response patterns."
+ },
+ {
+  "paper_id": 8824,
+  "title": "The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges",
+  "year": 2026,
+  "venue": "Journal of AI Analytics and Applications",
+  "source": "crossref",
+  "abstract": "The rapid evolution of large language models (LLMs) has catalyzed a shift from passive AI systems toward autonomous agentic architectures capable of reasoning, memory, tool use, and multi-agent collaboration. This bibliometric review characterizes the emerging field through 810 publications retrieved from the Web of Science Core Collection for the period 2023\u20132025. Annual output rose sharply over this window\u2014from 4 publications in 2023 to 96 in 2024 and 710 in 2025\u2014accompanied by a parallel rise in citations, indicating rapid mainstream adoption. Author-keyword analysis reveals a landscape dominated by large language models, artificial intelligence, and multi-agent systems, with agentic AI, generative AI, and retrieval-augmented generation (RAG) emerging as core themes. Research output is geographically concentrated, led by China and the United States, and is distributed across a broad range of engineering, applied-science, and domain-specific journals rather than a single specialist venue, reflecting the field's cross-disciplinary uptake. Synthesizing this corpus, we organize the technical landscape around reasoning, memory, tool integration and RAG, and multi-agent orchestration; survey application domains spanning healthcare, scientific discovery, education, and software engineering, with emerging activity in finance and law; and analyze the principal challenges\u2014hallucination, trust and robustness, inter-agent coordination, scalability, and governance. The review provides a structured, evidence-based map of agentic AI research to orient researchers and practitioners navigating this rapidly evolving field."
+ },
+ {
+  "paper_id": 8833,
+  "title": "Automatic building energy model development and debugging using large language models agentic workflow",
+  "year": 2025,
+  "venue": "Energy and Buildings",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8834,
+  "title": "Policy Shocks, Agent Adaptation, and Resilience Reconstruction in Nickel Supply Chains: A Large-Language-Model-Empowered Agent-Based Simulation",
+  "year": 2026,
+  "venue": "Sustainability",
+  "source": "crossref",
+  "abstract": "Nickel has become a strategic mineral for the energy transition, yet its supply chain is increasingly shaped by a compound risk regime involving resource nationalism, processing concentration, geopolitical compliance rules, carbon-footprint requirements, and commodity-market volatility. This study develops NiChain-LLM-ABM, a large-language-model-empowered agent-based model for simulating nickel supply chain resilience under semantically rich policy shocks. The framework uses a policy semantic parsing module to transform official policy texts into structured shock parameters, a multi-agent strategy generation module to represent adaptive decisions by seven agent classes, a calibrated supply chain network module to simulate material, financial, and information flows, and a four-dimensional resilience assessment module. The model is anchored in observed nickel production, price, trade, and technology data from USGS, IEA, UN Comtrade, LME, and official legal sources, and its scenario outputs are generated through 100 Monte Carlo replications over 2025\u20132035. Results show that the baseline Comprehensive Resilience Index (CRI) declines from 0.620 in 2025 to 0.547 in 2035. Indonesian policy tightening causes the sharpest near-term deterioration, with CRI falling to 0.445 in 2028 and the simulated supply deficit reaching 24.5 kt Ni equivalent. A geopolitical compliance shock produces the lowest terminal resilience (CRI = 0.472 in 2035). A green-compliance scenario is disruptive in the short run but exceeds the baseline by 2035, while a coordinated policy portfolio raises the terminal CRI to 0.744, a 36.0% improvement over the baseline. Compared with a conventional rule-based ABM, the LLM-ABM reduces extreme-event backcasting error by 57%, improves policy-response fidelity by 53%, and more than doubles agent heterogeneity differentiation. The results support portfolio-based critical-mineral governance combining strategic reserves, overseas equity investment, recycling, technology substitution, and international cooperation."
+ },
+ {
+  "paper_id": 8844,
+  "title": "Agentic Workflows for Improving Large Language Model Reasoning in Robotic Object-Centered Planning",
+  "year": 2025,
+  "venue": "Robotics",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) provide cognitive capabilities that enable robots to interpret and reason about their workspace, especially when paired with semantically rich representations like semantic maps. However, these models are prone to generating inaccurate or invented responses, known as hallucinations, that can produce an erratic robotic operation. This can be addressed by employing agentic workflows, structured processes that guide and refine the model\u2019s output to improve response quality. This work formally defines and qualitatively analyzes the impact of three agentic workflows (LLM Ensemble, Self-Reflection, and Multi-Agent Reflection) on enhancing the reasoning capabilities of an LLM guiding a robotic system to perform object-centered planning. In this context, the LLM is provided with a pre-built semantic map of the environment and a query, to which it must respond by determining the most relevant objects for the query. This response can be used in a multitude of downstream tasks. Extensive experiments were carried out employing state-of-the-art LLMs and semantic maps generated from the widely-used datasets ScanNet and SceneNN. The results show that agentic workflows significantly enhance object retrieval performance, especially in scenarios requiring complex reasoning, with improvements averaging up to 10% over the baseline."
+ },
+ {
+  "paper_id": 8845,
+  "title": "Hierarchical Agentic AI Framework for Autonomous Task Planning using Large Language Model Reasoning",
+  "year": 2026,
+  "venue": "International Journal of Innovative Research in Engineering and Management",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) have brought major improvements in natural language understanding, reasoning, and intelligent content generation. Although these models perform well in many applications, most existing AI systems still face difficulties while handling complex multi-step tasks that require planning, coordination, and adaptability. The standard single-agent systems do not work for tasks with multiple dependencies, changing objectives, or long execution workflows. Hierarchical Agentic AI Framework For Autonomous Task Planning With Large Language Model Reasoning This paper The proposed framework is structured as a hierarchical multi-agent architecture comprising Supervisor Agent, Planning Agent, specialized execution agents and validation layer. The framework aims at analyzing user goals, breaking them down into smaller executable subtasks, and coordinating the execution of the tasks using reasoning-driven workflows. The system combines chain-of-thought reasoning, contextual memory and intelligent task decomposition to improve the quality of planning and the accuracy of execution. Experimental evaluation demonstrates the superiority of the proposed framework in task completion accuracy, planning efficiency and adaptability, compared to traditional single agent and flat multi-agent architectures. Moreover, the framework shows improved coordination and reduced redundant execution in dynamic workflow settings. The results show that hierarchical agentic architectures can deliver scalable and intelligent solutions for autonomous workflow execution in enterprise automation, research assistance and AI-driven decision support systems."
+ },
+ {
+  "paper_id": 8847,
+  "title": "Self-Contrastive Loop of Thought Method for Text-to-SQL Based on Large Language Model",
+  "year": 2025,
+  "venue": "Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling (XLLM 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8848,
+  "title": "From Data to Physics: An Agentic Large Language Model Solves a Competitive Adsorption Puzzle",
+  "year": 2025,
+  "venue": "Angewandte Chemie",
+  "source": "crossref",
+  "abstract": "Abstract Scientific modeling often requires navigating a trade\u2010off between physical interpretability and empirical accuracy\u2014a task that can take weeks of iteration, especially in systems with partial observability, structural complexity, and experimental errors. Here, we show how an agentic reasoning\u2010and\u2010coding large language model (LLM), OpenAI o3, autonomously solved a modeling challenge in surface chemistry that puzzled us for months: quantifying the competitive adsorption of carboxylic acids on metal\u2010organic layers (MOLs). With experimental data and a concise problem formulation, o3 rapidly formulated a physically grounded adsorption model, derived the mathematical equations, implemented the corresponding codes to fit the experimental data, revised its assumptions, and ultimately derived a competitive adsorption model with three parameters that matched experimental data across more than a dozen tested molecules. The resulting model\u2014simple, mechanistically transparent, and quantitatively robust\u2014incorporates both classical Langmuir competition and structural constraints such as site accessibility. Beyond addressing this particular challenge, our findings highlight a transformative shift in scientific methodology: from manual trial\u2010and\u2010error approaches to AI\u2010driven hypothesis generation and model refinement. This represents a new paradigm in research, wherein language models surpass the traditional roles of machine learning in data analysis and computational support, actively participating in scientific reasoning and hypothesis development."
+ },
+ {
+  "paper_id": 8867,
+  "title": "Agentic, Multimodal Large Language Model (LLM) with behavioural parameters and self-iterative capabilities for conversational architectural design processes",
+  "year": 2025,
+  "venue": "Architectural Science Review",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8896,
+  "title": "LLM-in-the-loop: Leveraging Large Language Model for Thematic Analysis",
+  "year": 2023,
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8898,
+  "title": "Dynamics of Agentic Loops in Large Language Models: A Geometric Theory of Trajectories.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8946,
+  "title": "Multi-Agent LLM Architecture for Systems Engineering Automation",
+  "year": 2026,
+  "venue": "SAE Technical Paper Series",
+  "source": "crossref",
+  "abstract": "&lt;div class=\"section abstract\"&gt;&lt;div class=\"htmlview paragraph\"&gt;The increasing complexity of modern software-intensive systems, particularly in the automotive domain, demands new approaches to bridge the gap between high-level engineering specifications and executable, safety-compliant code. This need is amplified by the rapid transition toward software-defined vehicles, where highly dynamic, updateable software functions significantly enlarge the scope and frequency of engineering activities and require scalable, transparent, and adaptive development processes. While recent advances in Large Language Models have demonstrated strong capabilities in automating tasks such as requirements analysis, code generation, and documentation, their deployment in safety-critical engineering workflows remains challenging due to the need for transparency, traceability, and controlled decision-making.&lt;/div&gt;&lt;div class=\"htmlview paragraph\"&gt;This paper presents a modular multi-agent Large Language Model (LLM) pipeline that automates key steps of the systems engineering lifecycle - from requirement structuring and compliance checking to code and test generation - using specialized LLM agents orchestrated within a unified architecture. A central contribution of this work is the integration of a Human-in-the-Loop subsystem, which introduces configurable review checkpoints at critical stages such as requirements analysis, compliance assessment, code generation, and test creation. The human-in-the-loop module enables engineers to approve, reject, or modify intermediate results, ensuring human oversight, enhancing trustworthiness, and enabling adherence to functional safety standards.&lt;/div&gt;&lt;div class=\"htmlview paragraph\"&gt;The system supports heterogeneous input formats and provides end-to-end traceability through structured outputs and detailed monitoring of performance metrics including model usage, token consumption, and automation efficiency. Initial evaluations indicate that the combination of multi-agent specialization and human-in-the-loop-guided oversight can significantly reduce engineering effort while maintaining the transparency and reliability"
+ },
+ {
+  "paper_id": 8949,
+  "title": "InstructMPC: A Human-LLM-in-the-Loop Framework for Context-Aware Control",
+  "year": 2025,
+  "venue": "2025 IEEE 64th Conference on Decision and Control (CDC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9011,
+  "title": "Automating Head-and-Neck Cancer Intensity Modulated Radiation Therapy Treatment Planning with a ReAct Large Language Model Agent",
+  "year": 2025,
+  "venue": "International Journal of Radiation Oncology*Biology*Physics",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9020,
+  "title": "FGRPO: Fine-grained reasoning preference optimization with iterative stabilization for mathematical reasoning in large language model",
+  "year": 2026,
+  "venue": "Information Sciences",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9076,
+  "title": "KnowPath: leveraging large language model prior reasoning paths for dynamic self-reflective reasoning via knowledge graph subgraph exploration",
+  "year": 2026,
+  "venue": "Expert Systems with Applications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9084,
+  "title": "SIC-Autonomous Ensemble: Large Language Model Hallucination Mitigation Framework using Self Iterative Contradiction and Optimal Ensembling",
+  "year": 2026,
+  "venue": "IEEE Transactions on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9089,
+  "title": "Iterative Semantic Refinement: A Vision Language Model-Driven Approach to Auto-Regressive Image Editing",
+  "year": 2025,
+  "venue": "2025 9th International Symposium on Innovative Approaches in Smart Technologies (ISAS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9090,
+  "title": "Enhancing Ethical Explanations of Large Language Models through Iterative Symbolic Refinement",
+  "year": 2024,
+  "venue": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9096,
+  "title": "DyFIRER: A Dynamic Feedback Iterative Multi-Agent Framework for Open Relation Extraction Based on Large Language Models",
+  "year": 2026,
+  "venue": "Applied Sciences",
+  "source": "crossref",
+  "abstract": "With the rapid evolution of Large Language Models (LLMs) in natural language understanding and generation, Relation Extraction (RE) has achieved substantial milestones in low-resource and open-domain scenarios. However, prevailing LLM-based RE methodologies predominantly rely on one-shot prompting or static workflows, which lack autonomous evaluation and iterative optimization mechanisms. Consequently, these approaches are prone to issues such as missing relations, type confusion, and factual hallucinations when navigating complex relational contexts. To address these limitations, this paper proposes DyFIRER (Dynamic Feedback Iterative Relation Extraction Framework), a multi-agent framework characterized by dynamic feedback. By constructing three functionally complementary agents\u2014Extraction, Verification, and Optimization\u2014the framework models the RE task as a closed-loop iterative process consisting of \u201cextraction-verification-feedback-optimization,\u201d thereby enabling dynamic adjustment and continuous refinement of extraction strategies. Experimental results on the DuIE 2.0 open relation extraction extension subset demonstrate that DyFIRER achieves an F1-score of 80.5%, modestly but statistically significantly outperforms GPT-4 (p = 0.014), a result that holds on both the augmented and non-augmented test sets and mainstream static methods (yielding a 10.3% improvement over Qwen-7B). Ablation studies further substantiate the critical role of the dynamic feedback iterative mechanism and the strategy retrieval module in mitigating complex relation omissions and factual hallucinations. The framework requires no additional annotated data or fine-tuning, suggesting potential applicability to low-resource settings, though this was not directly evaluated in the current study."
+ },
+ {
+  "paper_id": 9099,
+  "title": "Pose-aware Large Language Model Interface for Providing Feedback to Sign Language Learners",
+  "year": 2024,
+  "venue": "The 26th International ACM SIGACCESS Conference on Computers and Accessibility",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9106,
+  "title": "Large Model Fine-tuning for Suicide Risk Detection Using Iterative Dual-LLM Few-Shot Learning with Adaptive Prompt Refinement for Dataset Expansion",
+  "year": 2024,
+  "venue": "2024 IEEE International Conference on Big Data (BigData)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9117,
+  "title": "A closed-loop feedback framework based on large language models for iterative optimization in medical record generation",
+  "year": 2026,
+  "venue": "International Symposium on Robotics and Artificial Intelligence (ISRAI 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9120,
+  "title": "A modular retrieval-generation-feedback framework for large language model recommendation",
+  "year": 2026,
+  "venue": "Expert Systems with Applications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9123,
+  "title": "CPR: Mitigating Large Language Model Hallucinations with Curative Prompt Refinement",
+  "year": 2024,
+  "venue": "2024 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9131,
+  "title": "Iterative Self-Correction for Text-Driven Person Re-Identification with Large Vision-Language Models",
+  "year": 2026,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9135,
+  "title": "Leveraging Self-Refinement in Large Language Models to Suppress Excessive Responses for Virtual Simulated Patients",
+  "year": 2026,
+  "venue": "IEICE Transactions on Information and Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9136,
+  "title": "Self-Polish: Enhance Reasoning in Large Language Models via Problem Refinement",
+  "year": 2023,
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9155,
+  "title": "Generative Adversarial Self-Imitation Learning With Large Language Model Feedback for Robot Control and Navigation",
+  "year": 2026,
+  "venue": "IEEE Transactions on Robotics",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9156,
+  "title": "Online Preference-based Reinforcement Learning with Self-augmented Feedback from Large Language Model",
+  "year": 2025,
+  "venue": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "source": "crossref",
+  "abstract": "Preference-based reinforcement learning (PbRL) provides a powerful paradigm to avoid meticulous reward engineering by learning rewards based on human preferences. However, real-time human feedback is hard to obtain in online tasks. Most work suppose there is a ''scripted teacher'' that utilizes privileged predefined reward to provide preference feedback. In this paper, we propose a RL Self-augmented Large Language Model Feedback (RL-SaLLM-F) technique that does not rely on privileged information for online PbRL. RL-SaLLM-F leverages the reflective and discriminative capabilities of LLM to generate self-augmented trajectories and provide preference labels for reward learning. First, we identify a failure issue in LLM-based preference discrimination, specifically ''query ambiguity'', in online PbRL. Then LLM is employed to provide preference labels and generate self-augmented imagined trajectories that better achieve the task goal, thereby enhancing the quality and efficiency of feedback. Additionally, a double-check mechanism is introduced to mitigate randomness in the preference labels, improving the reliability of LLM feedback. The experiment across multiple tasks in the MetaWorld benchmark demonstrates the specific contributions of each proposed module in RL-SaLLM-F, and shows that self-augmented LLM feedback can effectively replace the impractical ''scripted teacher'' feedback. In summary, RL-SaLLM-F introduces a new direction of feedback acquisition in online PbRL that does not rely on any online privileged information, offering an efficient and lightweight solution with LLM-driven feedback."
+ },
+ {
+  "paper_id": 9157,
+  "title": "Iterative refinement and goal articulation to optimize large language models for clinical information extraction",
+  "year": 2025,
+  "venue": "npj Digital Medicine",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9163,
+  "title": "A Study on Automatic Scoring and Diagnostic Feedback Generation of Vocational College English Application Writing Based on a Large Language Model",
+  "year": 2026,
+  "venue": "Advanced Electromagnetics",
+  "source": "crossref",
+  "abstract": "This paper examines the use of large language models to construct an automatic scoring and diagnostic feedback generation system for vocational college English application writing. First, a corpus of vocational college English application writing texts covering multiple genres is constructed. Based on manual scoring and multidimensional feature annotation, a scoring rubric aligned with vocational college English teaching practice is developed. Second, a finely tuned pre-trained language model is used to implement an automatic scoring module and a diagnostic feedback generation module. The scoring module adopts a BERT-based architecture for discriminative scoring, while the feedback module uses a generative model to produce structured diagnostic comments. Experimental results show that the mean weighted consistency coefficient between automatic and manual scoring reaches 0.87. Diagnostic feedback is positively evaluated in terms of content accuracy, personalization, and teaching usefulness. The system can generate overall evaluations, dimensional diagnoses, and targeted improvement suggestions for applied writing. The study provides an effective intelligent auxiliary tool for English writing instruction in vocational colleges and supports scalable formative assessment."
+ },
+ {
+  "paper_id": 9169,
+  "title": "An Analysis of Large Language Model Reasoning Path Based on Dynamic Search and Self-Correction",
+  "year": 2026,
+  "venue": "ITM Web of Conferences",
+  "source": "crossref",
+  "abstract": "Although large language models have been developing rapidly in recent years, there are still shortcomings in reasoning capacity and path in dealing with complex problems. The reasoning capacity of large language models has been studied in the paper based on the dynamic search and self-correction. By reviewing relevant essays, three kinds of methods, namely thought exploration, self-correction, and reinforcement learning and guided search, are summarized in this article. In addition, this paper summarizes the commonly used datasets and evaluation parameters in this field to verify the effect of advancing the reasoning ability of large language models. Finally, the current challenges and optimization methods in this field are provided at the end of the research. It is found that multi-path collaborative search is conducive to improving the comprehensiveness of dynamic exploration, and self-correction can optimize the reasoning path, but there are also failure scenarios in intrinsic self-correction. This study aims to clarify the importance of synergy between the two ways and provide a reference for subsequent related research."
+ },
+ {
+  "paper_id": 9170,
+  "title": "Multi-Criteria Evaluation of Hierarchical Reasoning, Self-Correction, and Factual Consistency in Large Language Models across Complex Language Tasks",
+  "year": 2026,
+  "venue": "Journal of Innovative Research and Technology",
+  "source": "crossref",
+  "abstract": "The rapid proliferation of large language models has necessitated the development of robust evaluation frameworks that extend beyond simple accuracy metrics. This paper introduces a comprehensive multi-criteria evaluation methodology designed to assess the capabilities of these advanced computational architectures in handling complex language tasks. Specifically, the study focuses on three foundational dimensions: hierarchical reasoning, self-correction mechanisms, and factual consistency. By systematically isolating these dimensions, the research provides a nuanced understanding of how models parse intricate problem structures, dynamically revise their internal states upon detecting errors, and maintain fidelity to established external knowledge bases. The proposed framework employs novel mathematical formulations to quantify these qualitative traits, enabling a rigorous, quantitative benchmarking process. Through extensive empirical analysis across diverse datasets, the findings reveal critical trade-offs between a model's ability to engage in deep hierarchical reasoning and its capacity to remain factually grounded. Furthermore, the evaluation of self-correction capabilities highlights persistent vulnerabilities in unsupervised revision protocols. This study contributes to the broader discourse on artificial intelligence reliability and safety by offering a structured approach to diagnosing model deficiencies, ultimately guiding the design of more resilient and dependable language processing systems"
+ },
+ {
+  "paper_id": 9215,
+  "title": "Stepwise Verification and Remediation of Student Reasoning Errors with Large Language Model Tutors",
+  "year": 2024,
+  "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9275,
+  "title": "Design of a Source Code Vulnerability Patch Verification Agent using an Iterative Self-Verifying Architecture with Large Language Models",
+  "year": 2026,
+  "venue": "The Journal of Korean Institute of Information Technology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9304,
+  "title": "An Intelligent Conversational Agent Using Self-Reflective Retrieval-Augmented Generation for Enhanced Large Language Model Support in National Accounts Learning",
+  "year": 2025,
+  "venue": "Proceedings of The International Conference on Data Science and Official Statistics",
+  "source": "crossref",
+  "abstract": "BPS Statistics Indonesia plays a strategic role in compiling balance sheet statistics as the foundation for national policy analysis. This role requires a deep understanding of the concepts, definitions, and compilation standards outlined in the System of National Accounts (SNA) manual. However, in practice, comprehending such complex technical documents is not always straightforward. To address this challenge, this study proposes the development of an intelligent conversational agent in the form of a chatbot that implements the Self-Multimodal RAG approach. This approach integrates self-reflection mechanisms to generate more accurate and relevant responses. The evaluation was conducted using the LLM-as-a-Judge framework across four metrics: answer correctness, answer relevancy, context relevancy, and context faithfulness. Experimental results demonstrate that the Self-Reflective RAG achieved a score of 80% on the answer correctness metric, with competitive performance in terms of relevancy and faithfulness. From the chatbot implementation perspective, black-box testing confirmed that all functionalities operated as expected, while system usability testing using the CSUQ instrument yielded a score of 74.704%, indicating that the chatbot is well-accepted by users."
+ },
+ {
+  "paper_id": 9426,
+  "title": "Critic-CoT: Boosting the Reasoning Abilities of Large Language Model via Chain-of-Thought Critic",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ }
+]

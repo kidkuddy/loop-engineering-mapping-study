@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+9429,include,I1;I2,"Benchmark evaluating LLM critique quality itself; measures the verification mechanism (critique/feedback used to judge a result), not end-task accuracy."
+9438,exclude,E1,"CRITIC-DEMATEL is an expert-panel multi-criteria weighting method for marketing content; the causal 'loops' are decision weights, not an LLM agent's control loop."
+9464,exclude,E7,"Abstract empty; title decision. Title names a built system discovering retrosynthetic pathways; iterative reasoning is the vehicle, the claim is the chemistry outcome."
+9486,exclude,E1,Abstract empty; title decision. Iterative pseudo-labeling is a semi-supervised ASR training loop with no language-model agent deciding what to do next.
+9616,include,I1;I2,"Contribution is Retrospective Reflection plus Double-Loop Policy Adaptation controlling long-horizon steps; ablation reports Reflection's own effect on drift (SFI, alpha)."
+9652,exclude,E7,"Abstract empty; title decision. Title names a hierarchical planner for multi-robot task allocation; the claim is long-horizon allocation, not a studied loop mechanism."
+9653,exclude,E7,"Multi-agent assistant for reminders and chronic-care tracking; reported claims are 82% task fulfilment and user engagement, i.e. task outcomes, not the loop mechanism."
+9676,exclude,E1,"Dec-POMDP multi-agent RL for UAV trajectory and offloading; the loop is RL environment stepping, the LLM only decomposes regions. Metrics are convergence and completion."
+9679,exclude,E2,"Abstract empty; title decision. Title names risk-aware alignment via long-horizon simulation, an alignment/training contribution, with no runtime loop control named."
+9789,exclude,E2,"Abstract empty; title decision. Title names trajectory forecasting with a vision-language model, a single-pass prediction task with no iterative agent control."
+9837,exclude,E7,"Abstract empty; title decision. Title names LLM-driven trajectory planning for robot assembly; the claim is the assembly application, not a loop mechanism."
+9839,exclude,E7,"Abstract empty; title decision. Title names a multi-agent system applied to network function orchestration; contribution is the networking system, no mechanism studied."
+9843,exclude,E3,"Abstract empty; title decision. Title is usage of an off-the-shelf framework (Semantic Kernel) to orchestrate agents for tasks; the loop is applied, not studied."
+9845,include,I1;I2,"Abstract empty; title decision. Title names a concurrent orchestration method for multi-agent collaboration, i.e. the control topology is itself the contribution."
+9909,exclude,E7,"Abstract empty; title decision. Title names an open-source software prototype for orchestration and routing; the contribution is the tool, not a claim about its loop."
+9922,exclude,E7,Abstract empty; title decision. Title names an agent workflow orchestration framework for collaborative design; contribution is the design-domain system.
+9928,exclude,E7,"Contribution is an agent-based simulation of building users' setpoint behaviour under demand response; claims are behavioural realism, reflection/memory are modules."
+9931,include,I1;I2,"Abstract empty; title decision. Title names a stepwise rollback framework, i.e. retry/repair governing what the agent does after a failed step, as the contribution."
+9949,exclude,E7,"MLLM plus multi-agent framework for PCB disassembly; reported claims are recognition, melting and capture rates on 30 boards, i.e. task outcomes."
+9965,exclude,E7,Abstract empty; title decision. Title names an agentic framework for enterprise cloud-edge workflow orchestration; contribution is the deployed system.
+9969,exclude,E7,"Proposes a multilayer enterprise orchestration architecture; reported claims are shorter cycle times, fewer interface errors and financial outcomes of a clinical rollout."
+10020,exclude,E7,"Multi-agent system for strategic business planning; evidence is one case study reporting efficiency, depth and consistency gains, i.e. task outcomes."
+10035,exclude,E7,Abstract empty; title decision. Title names a shared-task system for persuasion-technique classification; the self-improving agent serves a classification score.
+10041,exclude,E7,"Self-awareness framework for embodied planning; the reported claim is improved task success across nine robot scenarios, not evidence about the delegation mechanism."
+10063,exclude,E7,"Abstract empty; title decision. Title names a retrieval-augmented agent for NFV failure recovery; recovery is of network functions, and the claim is the network outcome."
+10066,exclude,E1,"Abstract empty; title decision. The retry timer is an SCTP signalling-protocol control mechanism in a 5G core, not an LLM agent's loop."
+10095,exclude,E1,"Abstract empty; title decision. The error recovery studied is the student's while programming, a human learning loop, not a language-model agent's control loop."
+10138,exclude,E5,"Self-described survey: a systematic taxonomy and technical review of routing, memory and orchestration strategies for LLM multi-agent systems."
+10205,exclude,E7,Abstract empty; title decision. Title names a corrective-feedback framework delivering iterative essay support to students; the claim is the writing-support application.
+10219,exclude,E7,"Abstract empty; title decision. Title names NL-to-Bash translation using tool feedback; the contribution is translation performance, not the feedback mechanism as such."
+10243,exclude,E1,Abstract empty; title decision. Qualitative study of EFL teachers' attitudes to adopting ChatGPT; no autonomous agent loop is present at all.
+10278,exclude,E2,"Abstract empty; title decision. The self-consuming performative loop is retraining on model-generated data across generations, not runtime control of an agent's steps."
+10371,exclude,E7,"Abstract empty; title decision. Title names an assistive agent combining an LLM, non-monotonic reasoning and human feedback; contribution is the assembled system."
+10380,exclude,E1,"Human-in-the-loop here is organisational oversight of recruitment (validation modules, blockchain dual authorisation); no autonomous agent loop is proposed or studied."
+10414,exclude,E1,"Abstract empty; title decision. The loop is a human annotator assisted by an LLM on subjective labelling, not an autonomous agent's control loop."
+10564,include,I1;I2,"Abstract empty; title decision. Title names the mechanism as the contribution: when a reasoning LLM should abort versus escalate to a human, a termination/escalation rule."
+10652,include,I1;I2,"Abstract empty; title decision. Benchmark measuring a loop property, whether models correct themselves; the studied object is the self-correction repair step."
+10661,exclude,E4,"Abstract empty; title decision. Benchmark of agents on simulated websites; it scores end-task success on web tasks, not a loop property such as termination or retries."
+10720,include,I1;I2,"Abstract empty; title decision. Hop-aware benchmark diagnosing where the multi-step retrieve-and-reason loop fails, so it measures the iteration policy of agentic RAG."
+10735,exclude,E2,"Abstract empty; title decision. Title names a turn-level RL optimisation objective; the contribution is a training algorithm, not a runtime loop-control mechanism."
+10771,exclude,E7,"Abstract empty; title decision. Self-refinement is used to build a multimodal summarisation dataset; the contribution is the dataset, not a claim about refinement."
+10786,exclude,E2,Abstract empty; title decision. Guided decoding with an iterative value model steers token generation within one pass; no agent loop deciding whether to go again.
+10795,exclude,E7,Abstract empty; title decision. Title names an agent for temporal KGQA trained by reverse curriculum RL; the claim is question-answering performance.
+10804,exclude,E7,"Abstract empty; title decision. Title names a general-purpose autonomous agent framework; a system contribution, with no specific loop mechanism named as studied."
+10838,exclude,E7,Abstract empty; title decision. Multi-agentic reflection is used to synthesise training data for harmful-content detection; the claim is the data and detector.

@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+656,exclude,E7,"Authors' own ReAct-based BIM compliance framework; reported claim is weighted-average F1 0.976 on IFC models, a task outcome, not evidence about the loop."
+659,exclude,E7,"Dual-pillar test-time distillation architecture; claims are latency (125 Hz control loop), ARC-AGI plateau and throughput of the system, not evidence about a loop-control mechanism."
+660,include,I2,DSAP pairs generation with post-condition verification plus a three-level recovery hierarchy; the recovery mechanism itself is measured on 99 SWE-Bench Pro arm pairs. Retry/repair.
+661,exclude,E5,"Explicit review article giving a comprehensive analysis of the A2A protocol, use cases and challenges; secondary study."
+662,exclude,E1,"Streaming sensor anomaly detection on industrial pumps (LSTM autoencoders, Kafka/Flink); no language-model agent loop."
+663,exclude,E7,"Contribution is an Inventory-as-Code model-risk-governance framework (DoA score, risk propagation over an agent DAG); claims are risk scoring and drift false-positive rates, not agent loop control."
+666,include,I2,"AWARE replaces MAPE-K's centralized sequential loop with a distributed agent loop, demonstrated by direct comparison against MAPE-K; the arrangement is the studied variable. Control topology."
+667,exclude,E7,"TruthFlow/RMMVe verification pipeline for 4D knowledge graphs; reported claims are verification success rates 70-93% and KG error rates 15% to 2.5%, i.e. task outcomes."
+673,exclude,E1,"LQR feedback controller with an LLM decision layer; the loop studied is a classical control-theory loop, evaluated on tracking accuracy and disturbance robustness."
+674,exclude,E7,"OpenAaaS is a distributed Agent-as-a-Service infrastructure; validation is case-study task quality (4.66/5.0 analysis score) and data sovereignty, not the loop mechanism."
+678,exclude,E7,"Multi-agent closed-loop tuner for vector databases; reported claims are 42% p99 tail-latency reduction and throughput, domain metrics rather than loop-mechanism evidence."
+679,exclude,E5,Comprehensive review synthesising state-of-the-art robotics ML algorithms and frameworks; secondary study.
+686,exclude,E5,Comprehensive overview surveying agent communication protocols and identifying gaps for the Agentic Web; secondary study.
+689,exclude,E5,Review of peer-reviewed literature on ethical dimensions of LLM agents in biomedicine; secondary study.
+690,include,I2,"A contextual-bandit selector plus self-improving RAG picks the next orchestration step; the measured claim is loop convergence, iterations cut over 94% vs baseline LLMs. Iteration policy."
+691,include,I2,"Contribution is the iterative plan-act-reflect-revise self-correction cycle, contrasted with one-shot generation and evaluated on convergence efficiency vs baselines. Retry/repair."
+692,exclude,E1,AMR fleet coordination and cyber-physical warehouse control with path planning and task allocation; no language-model agent loop.
+699,exclude,E5,PRISMA 2020 systematic review of 90 articles on human-centered AI decision support systems; secondary study.
+702,exclude,E5,Comparative overview and taxonomy of LangChain/LangGraph/LangSmith toolchains; secondary study.
+709,include,I2,"Re-enters iterative reasoning cycles at a reasoning impasse, issuing probing queries against a memory pool carried between cycles to steer the next probe. Iteration policy."
+713,exclude,E3,"Greenhouse agent services wired through off-the-shelf n8n/Home Assistant workflows; results are domain metrics (DLI MAE, 95% QA accuracy, emergency-status accuracy)."
+714,include,I2,EDDOps process model and reference architecture argue explicitly for evaluation as a continuous governing function in a closed feedback loop driving runtime adaptation. Verification.
+726,exclude,E5,Comprehensive survey of world-model literature with a categorization and future directions; secondary study.
+731,exclude,E5,Survey synthesising 140 contributions on AI-driven transportation infrastructure and security; secondary study.
+735,exclude,E7,"AGORA embeds an LLM agent in the 5G orchestration loop but reports energy footprint, latency coupling and correct policy execution for UPF traffic steering, i.e. system outcomes."
+737,exclude,E1,"Self-supervised visuo-lingual affordance model learning visuomotor robot policies; the loop is robot control, LLM only splits instructions once into subgoals."
+738,exclude,E1,"Autonomic network management with MAPE control loops, policy hierarchies and FSMs; the loop is network control, with LLMs used as an intent-decomposition component."
+740,exclude,E7,"ModuLoop's closed-loop debugger is the authors' own, but the only reported claims are execution accuracy and autonomy on camera-arm calibration and pick-and-place tasks."
+741,exclude,E2,"Biologically inspired conversational memory architecture (DCM, memory agent, hormonal engine); no iterative runtime control mechanism and no reported evidence."
+742,exclude,E7,"Modular LLM planning architecture for mobile robots; claims compare three LLMs on zero-shot navigation completion with a distance/orientation metric, i.e. task outcomes."
+743,include,I2,"The contribution is interleaving reasoning traces with actions to track and update plans and handle exceptions, evaluated against baselines lacking the reasoning or acting part. Iteration policy."
+746,exclude,E7,"GEM is a graph plus mixture-of-experts DST system using ReAct agents; the claim is 65.19% Joint Goal Accuracy on MultiWOZ 2.2 against SOTA, a task outcome."
+752,include,I2,Sensitivity analysis finds ReAct performance is minimally influenced by interleaving reasoning with action execution; a direct negative measurement of the mechanism. Iteration policy.
+754,exclude,E7,"A3T contributes autonomous trajectory annotation and contrastive self-training; claims are 96% one-shot and near-human success rates on AlfWorld/WebShop, task outcomes."
+797,include,I2,"In-context algorithm where the agent re-attempts the same task, self-correcting after each failure; measured precisely as tasks that failed first attempt and are then solved (2 of 6). Retry/repair."
+823,exclude,E1,"Hierarchical logograph embeddings with treeLSTM for pronunciation prediction and language modelling; recursive network, no language-model agent loop."
+825,include,I2,"PRAct learns action principles governing action choice via a reflector-optimizer loop, with Reward-RPO vs Self-RPO and RPO-Traj vs RPO-Batch compared as mechanism variants. Iteration policy."
+826,include,I2,"Measures a loop property: once a ReAct agent's thought names a tool it seldom re-evaluates, raising later execution; proposes and tests a per-step reflection check. Verification."
+834,exclude,E2,"Modular chemical language model tokenising molecules into building blocks; contribution is representation and generation quality, no runtime agent loop."
+836,exclude,E7,"Onboard multi-agent VLM system with a Megamind orchestrator; claims are viability, cost efficiency and inspection accuracy across five warehouse task categories."
+838,exclude,E7,"PEvo iteratively refines agent personas, but the reported claim is behavioural realism, 84% reduction in distributional divergence versus expert benchmarks, a task outcome."
+840,exclude,E5,"PRISMA 2020 systematic literature survey screening 2,341 publications and coding a corpus of 88; secondary study."
+845,exclude,E3,"Applies off-the-shelf ReAct prompting to task-oriented dialogue and reports success rate in simulation and user satisfaction, domain results."
+847,exclude,E5,Survey organising code-as-agent-harness literature across three layers with representative methods and open challenges; secondary study.
+851,include,I2,Models feedback-driven solving as a calibrated stopped process with false-admission risk and a stopping certificate; ablations tie each mechanism to its certificate quantity. Termination.

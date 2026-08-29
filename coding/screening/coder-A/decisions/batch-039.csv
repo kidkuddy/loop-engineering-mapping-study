@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5064,include,I2,"Memory framework compared against alternative memory mechanisms (raw trajectories, success-only routines) for what the agent carries into later tasks; mechanism: loop state."
+5065,exclude,E7,"Contribution is an RL post-training objective; reported claims are AIME/WebShop/ALFWorld/SWE-Bench scores, not evidence about the runtime loop."
+5066,exclude,E7,"3SPO is a step-level RL training algorithm; claims are ALFWorld/WebShop gains over GRPO and convergence speed, not the agent's runtime loop control."
+5067,exclude,E5,"Systematic review screening 1,418 records and synthesising 168 studies on LLM/agentic security; secondary study."
+5069,include,I2,PEEK's context map is a programmable cache policy governing what the agent carries across invocations; measured vs ACE at 93-145 fewer iterations. Mechanism: loop state.
+5073,include,I2,DREvo decides which historical evidence stays valid and where the harness evolves next; reports smoother evolution trajectories under a fixed budget. Mechanism: iteration policy.
+5074,exclude,E7,"Contribution is a GUI world model; claims are next-UI prediction fidelity and +9.5% AndroidWorld navigation success, i.e. task outcomes."
+5079,exclude,E2,"Privacy-preserving LLM training/curation framework (differential privacy, RL training); no agent runtime loop at all."
+5081,include,I2,"Bandit controller decides use/summarize/abstain/ask-feedback per step, measured by replay success, 0% false-positive rate and decision latency. Mechanism: loop state."
+5082,exclude,E7,"Kosmos is an AI-scientist system; claims are discovery counts and 79.4% statement accuracy, i.e. task outcomes rather than the loop mechanism."
+5084,exclude,E7,"Authors 'deliberately isolate the retrieval layer, assessed by retrieval quality'; the claim is about retrieval, not about what the loop does next."
+5088,exclude,E7,"SciSciGPT is a domain research-assistant system demonstrated by case studies; claims are workflow automation, not the loop mechanism."
+5092,include,I2,"Systematic sweep of observation masking over backbones and retrievers, with a regime map and a token-for-turn account of when it helps. Mechanism: loop state."
+5093,include,I2,"The five context operations (Skip/Compress/Rollback/Snippet/Delete) are the contribution, with expressiveness and efficiency guarantees proved. Mechanism: loop state."
+5095,include,I2,ContextCurator is an RL-trained context-management policy decoupled from execution; 7B curator matched against GPT-4o on context management itself. Mechanism: loop state.
+5096,exclude,E5,Survey synthesising over 1000 papers on vibe coding into a taxonomy of five development models; secondary study.
+5098,exclude,E5,Comprehensive survey of edge deployment of LLMs and autonomous agents; secondary study.
+5100,exclude,E7,"COMPASS is a three-component agentic framework; reported claims are up to 20% accuracy on GAIA/BrowseComp/HLE, i.e. task outcomes."
+5101,include,I2,"Dependency-graph memory compared against sliding-window and compression context management, reporting fewer reasoning steps and tokens. Mechanism: loop state."
+5103,include,I2,Identifies premature termination under extensive context and measures its rate against context length across seven context-management methods. Mechanism: termination.
+5104,include,I2,"ARC's addressable compaction is the contribution, compared against discard/summarize/retrieve compaction baselines on retention and serving cost. Mechanism: loop state."
+5106,include,I2,Measures how compaction drops in-context governance constraints (0% to 30-59% violations) and restores 0% by pinning them. Mechanism: loop state.
+5110,include,I2,Argues the save/load choice is consequential; programmatic memory compared against existing harness context management at 4.2-5.8x fewer tokens. Mechanism: loop state.
+5111,include,I2,IDSS keeps an explicit situation state that updates action executability; ablations attribute gains to fact persistence and constraint modeling. Mechanism: loop state.
+5126,exclude,E7,"OSC adds a collaborator-knowledge layer to a multi-agent system; claims are task performance on reasoning benchmarks, not the arrangement as studied variable."
+5128,include,I2,Learns transferable topology priors that initialise collaboration graphs and tests them across topology-evolution backbones; topology is the studied variable. Mechanism: control topology.
+5129,include,I2,"RL-trained orchestrator sequences agents; analysis attributes the gains to emergent compact, cyclic reasoning structures. Mechanism: control topology."
+5134,exclude,E7,"MAGRPO is a MARL fine-tuning algorithm; claims are response quality on writing and coding collaboration, not about runtime loop control."
+5138,exclude,E7,Multi-agent system beating a single-agent baseline on incident-response recommendation quality; the claims are domain decision-quality outcomes.
+5140,exclude,E7,MACF is an agentic recommender; claims are recommendation results on three domains against agentic recommendation baselines.
+5143,include,I2,"OrchRM scores orchestration artifacts to guide orchestrator training and MAS test-time selection, evaluated at the orchestration level. Mechanism: verification."
+5144,exclude,E7,"Gradientsys is evaluated by GAIA success rate, latency and API cost against a MinionS-style baseline; its retry-and-replan mechanism is never measured."
+5151,include,I2,Benchmark of 110 scenarios over 10 orchestration topologies measuring how models compose sub-agent orchestration prompts and leak information. Mechanism: control topology.
+5152,exclude,E7,"LLM orchestrator applied to federated-learning runtime decisions; claims are CIFAR-10 accuracy and wasted round energy, i.e. domain outcomes."
+5155,exclude,E7,CompanionCast is a multi-agent companion system; claims are perceived social presence and emotional sharing in sports viewing.
+5156,exclude,E7,CoBel-World adds belief modeling to a multi-agent system; claims are communication cost and task completion on TDW-MAT and C-WAH.
+5158,exclude,E7,"Multi-agent framework for math question generation; claims are question quality criteria (relevance, clarity, difficulty matching)."
+5159,exclude,E7,OrchVis is an orchestration and visualisation system for human oversight; no evidence or explicit argument about the loop mechanism is reported.
+5161,exclude,E7,"Position paper proposing a multi-agent shared workspace; the argument is about interpretive labor, provenance and authorship, not loop control."
+5163,include,I2,"Ablates whether agents see authorship and ongoing votes, reporting herding, faster convergence and premature consensus in the vote loop. Mechanism: termination."
+5165,include,I2,MACA learns a task- and budget-conditioned structural prior over agent participation and interactions; analysis shows redundant interactions suppressed. Mechanism: control topology.
+5167,exclude,E7,"Compares centralised and decentralised critics for MARL fine-tuning; claims are performance across writing, coding and game-playing domains."
+5168,exclude,E7,AdaSTORM applies graph partitioning plus a multi-agent architecture to dynamic-graph reasoning; claims are accuracy on graph benchmarks.
+5169,exclude,E7,Orchestrating LLM decomposes vague problems and assigns sub-agents; no evaluation or explicit argument about the loop mechanism is reported.
+5171,exclude,E5,Reviews an 84-entry curated paper pool with a 32-record exclusion log to taxonomise RL for orchestration; secondary study.

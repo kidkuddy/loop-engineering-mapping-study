@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+2900,exclude,E2,"RLAIF alignment study: SFT vs RL fine-tuning pipelines; no runtime agent loop, contribution is about training-time feedback."
+2907,exclude,E7,"IGLU MineCraft-like collaborative agent given player help; reported claim is task performance improvement, not the help/ask mechanism as such."
+2910,exclude,E2,"ALT conditions generation on textual feedback for alignment (toxicity, summarisation); training-time method with no runtime control loop."
+2911,exclude,E7,"MemCoder code agent with memory plus self-refinement, but the reported claim is SWE-bench resolved rate (+9.4%), a task outcome."
+2917,include,I2,Critique-Guided Improvement actor/critic refinement is the contribution and critic feedback quality is measured directly; mechanism: verification.
+2920,exclude,E2,"ALLM judges build preference pairs for DPO of a text-to-audio model; training-time feedback, no runtime loop."
+2925,exclude,E7,AMD multi-agent query-expansion pipeline with a reflective feedback agent; claims are BEIR/TREC retrieval outcomes.
+2935,include,I2,"AdaPlanner closed-loop in-plan/out-of-plan replanning from environment feedback is the contribution, compared against greedy and static-plan alternatives; mechanism: iteration policy."
+2937,exclude,E7,AI-Press multi-agent news drafting and feedback-simulation system; claims are news-generation quality and simulation effectiveness.
+2945,exclude,E7,MATS multi-agent Text2SQL for small LMs; reported claim is benchmark SQL accuracy at fewer parameters.
+2948,exclude,E2,"Language Feedback Models label desirable behaviour for imitation learning; the contribution is training data selection, not a runtime loop."
+2952,exclude,E2,"Compares four constitutions used by a critic to improve medical-interview generations, framed as an AI-feedback reward signal; no runtime agent loop."
+2953,exclude,E2,"A unimodal LLM gives preference feedback to tune a VLM; contribution is model adaptation, not control of a runtime loop."
+2958,exclude,E2,"Data-efficiency study of fine-tuning on natural-language critiques and revisions; the claim is about feedback modelling with 1000 records, not loop control."
+2971,include,I2,"RL4F trains a critique generator whose critiques drive revision of a frozen model, compared against other learned and prompted critique generators; mechanism: retry/repair."
+2973,exclude,E2,"InstructPatentGPT applies three-stage RLHF to patent claim drafting; training-time feedback in a domain, no agent loop."
+2986,exclude,E1,"Preference-based RL on MetaWorld with LLM-generated preference labels; the loop is RL reward learning over a control policy, not a language-model agent loop."
+2987,include,I2,The recommender/user-agent feedback loop is the studied variable and is ablated against each single agent (+11.5%/+21.1%) plus bias checks; mechanism: control topology.
+2989,exclude,E1,"ONI learns intrinsic rewards from LLM annotations for an RL policy on NetHack; the loop is RL environment stepping, not an LLM agent loop."
+2990,exclude,E1,AdaRefiner adapts an LM from RL-agent feedback in Crafter; the acting policy is an RL agent and the loop is RL training.
+3005,exclude,E2,UltraFeedback is a scaled AI-feedback dataset used for best-of-n and RL alignment; training data contribution with no runtime loop.
+3011,exclude,E5,"Perspective on AI-scientist risks built on a scoping review of existing works; secondary study proposing a safeguarding framework, not a loop mechanism."
+3014,exclude,E2,Dissects PPO and reward modelling for RLHF training stability; training-algorithm contribution with no agent runtime loop.
+3015,exclude,E5,arXiv version of the AI-scientist risks perspective; scoping review of existing works plus a regulation framework.
+3016,exclude,E7,Generator/instructor/editor pipeline for personalised summarisation; claims are summarisation quality on two datasets.
+3019,include,I2,"RAG-Critic makes the error-critic and its error-driven self-correction flow the contribution, trained on a mined RAG error hierarchy; mechanism: verification."
+3021,exclude,E5,PRISMA-compliant systematic literature review and bibliometric mapping of adversarial threats to agentic AI; secondary study.
+3022,exclude,E2,"RLHF-trained critics that help humans catch code bugs; critiques feed human evaluation and training data, not an agent loop deciding what happens next."
+3027,exclude,E2,"PRefLexOR is a preference-optimisation training paradigm with thinking tokens; recursion is demonstrated through materials-science case studies, not studied as loop control."
+3028,exclude,E2,"A critic LM supplies dense token/span-level rewards for RL training of a policy LM; training-time signal, no runtime loop."
+3030,exclude,E7,STACKFEED is a multi-actor KB-editing framework; reported claims are KB quality and downstream RAG performance.
+3031,exclude,E2,"REINFORCE++ is a critic-free RLHF optimisation algorithm about advantage normalisation; the critic is a value network, not loop control."
+3032,exclude,E5,"Manifesto systematising existing moral-alignment approaches on a continuum with case studies; taxonomy-style overview, and the subject is morality not loop control."
+3040,include,I2,"GenPRM is a step verifier with code-check reasoning, measured as a verifier on ProcessBench and used to guide test-time selection and policy refinement; mechanism: verification."
+3043,exclude,E5,Review of LLM-based evaluation metrics for healthcare chatbots and a proposed metric set; secondary study with no loop mechanism.
+3050,exclude,E2,DeepSeek-V3 pretraining and post-training technical report; model-building contribution with no agent control loop.
+3057,exclude,E2,"SIaM uses a code-based critic for data construction and quality control plus alignment algorithms; training paradigm, no runtime loop."
+3058,include,I2,CR-Planner iteratively selects sub-goals under a sub-goal critic and an execution critic with MCTS over action sequences; mechanism: iteration policy (search over steps).
+3070,exclude,E2,"PhyCritic is a multimodal judge trained via RLVR for open-ended evaluation and preference alignment, measured on judge benchmarks; no loop it governs."
+3076,include,I2,"Generator-validator critique loop drives regeneration, and ablations attribute gains to the critic feedback loop rather than model size; mechanism: retry/repair."
+3084,exclude,E5,"Survey of knowledge distillation for LLMs across algorithm, skill and verticalization."
+3085,exclude,E2,"HybridFlow is an RLHF dataflow execution framework; claims are training throughput, not agent loop control."
+3090,exclude,E1,"The iterative cycle here is a human codebook-development workflow for qualitative content analysis; the LLM does single-pass categorisation, not an agent loop."
+3091,include,I2,"GAIA trains an action critic that judges a GUI agent intended action before execution and selects higher-success operations, measured across recycling rounds; mechanism: verification."
+3096,exclude,E7,"ECHO co-evolves critic and policy in critique-guided RL, but reported claims are training stability and long-horizon task success."

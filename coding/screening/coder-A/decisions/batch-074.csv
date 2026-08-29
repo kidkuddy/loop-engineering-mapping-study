@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+10662,exclude,E1,No abstract; title is model-based exploration in a virtual zebrafish predicting brain dynamics - not a language-model agent's control loop.
+10668,exclude,E7,"No abstract; title offers a multi-agent system for collaborative tasks under information asymmetry, claims about task outcomes, not the loop."
+10680,exclude,E7,"No abstract; title offers an agentic system for ML library development; self-improvement is a means, the claim is domain task outcome."
+10694,exclude,E7,"No abstract; title applies an agentic workflow to language-object re-alignment; contribution is the vision pipeline, not its loop control."
+10696,include,I2,No abstract; title makes modularized agentic workflow automation the contribution - the arrangement of steps/agents is the studied variable (control topology).
+10698,exclude,E4,"No abstract; title is a benchmark for workflow generation quality; it does not measure a loop property such as termination, retries or stuck loops."
+10699,include,I2,No abstract; title makes automated search over agentic workflow structures the contribution - workflow arrangement as studied variable (control topology).
+10702,exclude,E2,"No abstract; title uses tree-search self-play to train instruction-following; contribution is a training pipeline, no runtime loop mechanism studied."
+10705,exclude,E2,"No abstract; title is a decoding-time contrastive method on noisy instructions; single-pass generation, control never returns."
+10707,exclude,E2,"No abstract; title's contribution is thought-template distillation into small models; training method, not a runtime loop-control mechanism."
+10712,include,I2,No abstract; title makes automatic reward modeling plus planning the contribution - a learned check scoring steps to choose the next action (verification).
+10713,exclude,E4,"No abstract; title is a benchmarking environment for Android agents; measures task success, not a loop property."
+10714,exclude,E4,"No abstract; title is a web environment for building agents; an evaluation environment, not a loop-control mechanism or loop-property measurement."
+10716,exclude,E7,"No abstract; title scaffolds theory of mind into an agent for multi-agent tasks; claim is task performance, not the loop mechanism."
+10720,exclude,E4,"No abstract; title is a hop-aware benchmark diagnosing retrieval reasoning in agentic RAG; measures retrieval accuracy per hop, not loop control."
+10721,exclude,E2,"No abstract; title is cold-start optimization of agentic trajectories for visual grounding; training-time contribution, no runtime loop mechanism."
+10726,exclude,E7,No abstract; title offers a schema-conditioned agentic reasoning system for enterprise knowledge graphs; claims are domain QA outcomes.
+10732,exclude,E7,"No abstract; title offers an agentic framework for vision-guided long-horizon tool use; the contribution is the system, claims are task outcomes."
+10735,exclude,E7,"No abstract; title's contribution is a turn-level RL objective for tool-integrated agents; claims are benchmark outcomes, not the loop mechanism."
+10736,exclude,E4,"No abstract; title is a benchmark for scaffold-aware instruction following in agentic coding; measures task compliance, not a loop property."
+10738,exclude,E7,"No abstract; title applies agentic learning to speaker-diarization refinement; claims are diarization metrics, not loop control."
+10742,exclude,E4,"No abstract; title is a benchmark and study of long-horizon agentic CLI programming; measures task completion, not a loop-control property."
+10746,exclude,E7,No abstract; title's process critic is an RL reward signal for training agentic reasoning; claims are reasoning benchmark outcomes.
+10749,exclude,E7,"No abstract; title offers agentic training for multi-turn text-to-SQL; contribution is a domain system, claims are SQL task outcomes."
+10761,include,I2,No abstract; title makes self-refinement of parallel reasoning the contribution - the refinement cycle over candidates is the studied object (retry/repair).
+10764,exclude,E2,"No abstract; title uses a self-refinement curriculum to bootstrap models for low-resource languages; training-time, no runtime loop studied."
+10768,exclude,E7,"No abstract; title applies MCTS self-refinement to rumor detection; the built system's claims are detection outcomes, not the loop mechanism."
+10769,include,I2,No abstract; title makes an information-theoretic self-reflection criterion the contribution and claims it elicits better refinement (verification).
+10770,include,I2,No abstract; title makes a divide-verify-refine cycle the contribution and asks whether it enables self-alignment (verification and retry/repair).
+10771,exclude,E7,"No abstract; title's output is a multimodal summarization dataset produced by a self-refining pipeline; claims are about the dataset, not the loop."
+10772,exclude,E7,No abstract; title adds pair-wise self-refinement to an event-argument-extraction system; claims are extraction outcomes.
+10773,include,I2,No abstract; title claims self-correction is what enables task-agnostic nonmonotonic reasoning - an explicit claim about the repair step (retry/repair).
+10775,include,I2,No abstract; title is a benchmark measuring feedback-driven iterative self-correction across rounds - a loop property (retry/repair).
+10777,exclude,E1,"No abstract; title's self-correction is over sequential weight edits in model editing, not a language-model agent's control loop."
+10779,include,I2,"No abstract; title decomposes self-correction capability into confidence and critique - an analysis of the mechanism itself (verification, retry/repair)."
+10781,include,I2,No abstract; title studies failure modes of intrinsic self-correction - a claim about the repair step as such (retry/repair).
+10782,include,I2,"No abstract; title is a human evaluation of ChatGPT self-correction, measuring the correction step's effect on its outputs (retry/repair)."
+10785,include,I2,No abstract; title makes offline evaluation and iterative refinement of multi-agent workflows the contribution - the workflow arrangement is the studied variable (control topology).
+10786,include,I2,No abstract; title makes iterative value refinement guiding decoding the contribution - the value signal chooses the next step (iteration policy).
+10795,exclude,E7,"No abstract; title offers an RL-trained agent for temporal KGQA; contribution is a domain system, claims are QA outcomes."
+10798,exclude,E4,"No abstract; title is a benchmark of autonomous agents in long-context real-world tasks; measures task success, not a loop property."
+10800,exclude,E4,"No abstract; title is a benchmark for long-term memory utilization; measures memory use quality, not what the loop does next."
+10801,exclude,E4,"No abstract; title is an evaluation suite for scientific navigation and information integration; measures task outcomes, not a loop property."
+10804,exclude,E7,"No abstract; title offers an infinite-horizon framework for general-purpose agents; the contribution is the system, claims are task outcomes."
+10805,include,I2,No abstract; title makes memory curation an action of the agent - what is carried between turns is decided in order to control the loop (loop state).

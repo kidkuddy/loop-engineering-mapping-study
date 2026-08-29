@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+4511,exclude,E5,"Survey of graph-based agent memory: taxonomy, life-cycle techniques, libraries and open directions; secondary study, no primary method."
+4517,exclude,E7,"LightMem is a memory system for agents; reported claims are LoCoMo F1 (+2.5 over A-MEM) and latency, i.e. retrieval and task outcomes, not loop control."
+4580,exclude,E7,"RoMeRL is a learned memory-utility system; claims are ALFWorld/LifelongAgentBench task performance and memory-store efficiency, not how the loop proceeds."
+4591,exclude,E7,"SF-AMS forgetting/importance scoring evaluated by LoCoMo and LongMemEval-s F1 gains over LightMem, MemO, A-Mem: retrieval quality, not loop control."
+4592,exclude,E7,"AMA is a multi-agent memory system; its Judge triggers re-retrieval, but reported claims are long-context benchmark gains and ~80% token savings."
+4611,exclude,E5,Position/overview paper: taxonomizes the multi-agent security threat landscape and proposes a research agenda; no primary contribution.
+4615,exclude,E7,"Feedback-to-memory continual learning; claims are tau-bench single-trial success (1.6x, 2.6x baseline) and cross-model transfer, i.e. task outcomes."
+4617,include,"I1,I2",Budget-based metabolism makes persistence normative and asynchronous processes drive runs; reports a shift from reactive to spontaneous activity (triggering/scheduling).
+4661,exclude,E7,"Reference architecture for retail agent networks with orchestration and guardrails; claims are deployment patterns, reliability/cost SLOs in three case studies."
+4669,exclude,E4,"TANGLE is a 541-instance benchmark for memory conflict handling (perception, calibration, clarification, faithfulness); measures no loop-control property."
+4673,include,"I1,I2","Measures agent-harness self-evolution updates, comparing ACE, TF-GRPO and AHE: frequent updates fail on held-out data, snapshots collapse (iteration policy of the update loop)."
+4693,exclude,E5,"SoK: taxonomy, architectural decomposition and research roadmap for agentic RAG; secondary study, retained as a snowballing seed."
+4695,exclude,E5,"Survey of agentic-AI evaluation with an eleven-dimensional taxonomy of metrics, benchmarks and gaps; secondary study."
+4697,exclude,E4,"MemEvoBench is a safety benchmark of memory misevolution across 7 domains and 36 risk types; measures behavioural safety degradation, not a loop-control property."
+4701,exclude,E7,"ZifaMem structured memory judged by emotional-intelligence scores, persona grounding and preference endpoints: output quality, not loop control."
+4702,exclude,E7,PersonaVLM is a personalized multimodal agent plus Persona-MME benchmark; claims are 22.4%/9.8% benchmark gains over baselines and GPT-4o.
+4770,exclude,E5,"Survey of trajectory data management and mining from deep learning to LLMs, with datasets and toolkits; secondary study and no agent loop."
+4783,exclude,E7,"MemGUI-Agent's Context-as-Action is trained via MemGUI-3K, but reported claims are MemGUI-Bench and MobileWorld GUI task performance."
+4833,include,"I1,I2",Surfaces recency and remaining budget so the agent makes keep-or-archive decisions; ablations show the dashboard matters beyond archive/recovery tools (loop state).
+4856,include,"I1,I2","Integrates a memoryless risk encoder over time into an escalation signal; stateless agents show sharp cliffs, second-order dynamics smooth ones (loop state driving escalation)."
+4959,exclude,E7,"TokenPilot compaction and eviction framework; claims are 56-87% cost reduction with competitive task performance, i.e. system outcomes, not loop control."
+4961,exclude,E4,Hands-on tutorial introducing multi-turn RL fine-tuning for LLM agents on Amazon SageMaker AI; not a research contribution.
+4966,exclude,E7,"Tree Training is a training pipeline for tree-structured trajectories (DFS serialization, partitioning); the claim is up to 6.2x training speedup."
+4970,exclude,E7,"PACEvolve's backtracking and sampling policy govern an evolutionary search, but reported claims are SOTA on LLM-SR and KernelBench and a Modded NanoGPT record."
+4972,exclude,E7,ERA is a two-stage prior-learning plus online RL framework; claims are EB-ALFRED +8.4% and EB-Manipulation +19.4% over GPT-4o.
+4974,include,"I1,I2","Lean4 verification of agent workflows plus LeanEvolve repair; verification-passing workflows beat failing ones by 11.94%, a claim about the verifier (verification, repair)."
+4985,exclude,E7,"MiniMax-M2 model series report: data pipelines, an RL system and checkpoints, claimed by frontier-tier performance on agentic coding, search and reasoning benchmarks."
+5001,exclude,E7,Agent World Model is a synthetic environment pipeline for agentic RL; claims are out-of-distribution generalization across three benchmarks.
+5010,exclude,E7,"DPEPO adds parallel exploration plus SFT/RL with diversity rewards, but reported claims are SOTA success rates on ALFWorld and ScienceWorld."
+5023,exclude,E5,Review of the LLM landscape and theoretical explanations for generalization capacity; secondary study with no agent loop.
+5024,include,"I1,I2","25,000 runs: scaffold explains 1.5% of variance vs 41.4% for the base model, evidence ignored in 68% of traces, belief revision in 26% (negative result on self-correction)."
+5029,exclude,E7,"RTPO is a multi-turn RL training algorithm (reverse trees, turn-level credit); reported claims are 21.50% and 10.76% gains over trajectory- and turn-level baselines."
+5031,exclude,E7,"OpenSeeker-v2 is an SFT data recipe for search agents; claims are BrowseComp, HLE and xbench scores against Tongyi DeepResearch."
+5034,exclude,E7,SWE-World replaces containers with a learned surrogate for training and test-time selection; claims are SWE-bench Verified scores from 6.2% to 68.2%.
+5043,exclude,E7,M2 dual-tier memory for web agents; claims are up to 19.6% success-rate gain and 58.7% token reduction on WebVoyager and OnlineMind2Web.
+5082,exclude,E7,"Kosmos is an AI-scientist system; reported claims are 79.4% statement accuracy, seven discoveries and researcher-time equivalence, not evidence about its cycle control."
+5103,include,"I1,I2","Identifies premature termination, shows its rate rises with context length at fixed difficulty, and analyses seven context-management methods that lower it (termination)."
+5104,exclude,E7,"ARC compaction is evaluated by Needle-in-a-Haystack exact-answer accuracy (99.40% vs 88.12%), LongBench-v2 accuracy and serving cost: retrieval quality, not loop control."
+5151,exclude,E4,"PerspectiveGap is a 110-scenario benchmark scoring 33 models on writing orchestration prompts (pass and leakage rates); model capability, not a loop property."
+5155,exclude,E7,CompanionCast orchestrates companion agents for shared sports viewing; pilot claims are perceived social presence and emotional sharing versus solitary viewing.
+5171,exclude,E5,"Secondary study over an 84-entry curated pool with an exclusion log, mapping RL reward, credit and orchestration axes; retained as a snowballing seed."
+5180,exclude,E1,"Overview of a deep and multi-agent RL research portfolio (policy coordination, communication, intrinsic motivation); no language-model agent loop."
+5181,include,"I1,I2","Models collaboration as a temporal graph to detect and mitigate hallucination and error propagation, with accuracy reported for the detector (verification of intermediate results)."
+5184,include,"I1,I2","Learns the orchestration spec with counterfactual rewards on edited role, capacity and dependency spans, versus other orchestration methods (control topology as studied variable)."
+5193,exclude,E7,DiMo is a four-agent debate framework; claims are accuracy gains over single-model and debate baselines on six benchmarks plus interpretability.

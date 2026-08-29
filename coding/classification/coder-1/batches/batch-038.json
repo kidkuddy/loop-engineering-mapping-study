@@ -1,0 +1,186 @@
+[
+ {
+  "paper_id": 10564,
+  "title": "Fail Fast, or Ask: Mitigating the Deficiencies of Reasoning LLMs with Human-in-the-Loop Systems Engineering.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10565,
+  "title": "Feedback Loops and Code Perturbations in LLM-based Software Engineering: A Case Study on a C-to-Rust Translation System.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10647,
+  "title": "Towards Self-Refinement of Vision-Language Models with Triangular Consistency.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10652,
+  "title": "Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10696,
+  "title": "Flow: Modularized Agentic Workflow Automation.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10699,
+  "title": "AFlow: Automating Agentic Workflow Generation.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10712,
+  "title": "Scaling Autonomous Agents via Automatic Reward Modeling And Planning.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10720,
+  "title": "AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10761,
+  "title": "Learning to Refine: Self-Refinement of Parallel Reasoning in LLMs.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10769,
+  "title": "Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10770,
+  "title": "Divide-Verify-Refine: Can LLMs Self-align with Complex Instructions?",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10773,
+  "title": "LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10775,
+  "title": "Meeseeks: A Feedback-Driven, Iterative Self-Correction Benchmark evaluating LLMs&apos; Instruction Following Capability.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10779,
+  "title": "Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10781,
+  "title": "Understanding the Dark Side of LLMs&apos; Intrinsic Self-Correction.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10782,
+  "title": "Two-Pronged Human Evaluation of ChatGPT Self-Correction in Radiology Report Simplification.",
+  "year": 2024,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10785,
+  "title": "PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10786,
+  "title": "Evolutionary Guided Decoding: Iterative Value Refinement for LLMs.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10805,
+  "title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10848,
+  "title": "Towards Enforcing Company Policy Adherence in Agentic Workflows.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10855,
+  "title": "Democratizing LLMs: An Exploration of Cost-Performance Trade-offs in Self-Refined Open-Source Models.",
+  "year": 2023,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10858,
+  "title": "A Probabilistic Inference Scaling Theory for LLM Self-Correction.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10913,
+  "title": "A\u00b2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators.",
+  "year": 2026,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ }
+]

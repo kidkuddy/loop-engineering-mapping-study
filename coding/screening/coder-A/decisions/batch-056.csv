@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+7057,exclude,E5,Survey organizing tool-use literature into three paradigms and reviewing the evaluation landscape; no primary method.
+7071,exclude,E7,"Built spatial tool-use agent with scene/agent memory; claims are benchmark gains for VLMs on spatial reasoning, not about the loop."
+7074,exclude,E7,EXIF skill-discovery framework with an explorer-trainer feedback cycle; reported claims are skill acquisition and task performance on Webshop/Crafter.
+7076,exclude,E5,"Survey with a unified taxonomy of tool use, planning and feedback-learning agent frameworks."
+7081,exclude,E7,Training pipeline (RL plus data flywheels) for small agentic models; claims are benchmark scores and industrial task performance.
+7085,exclude,E4,"WebArena benchmark environment; measures end-to-end task success rate, not any loop property."
+7092,exclude,E4,"DataEnvGym testbed of teacher environments; reported outcome is student model improvement, not a measured loop-control property."
+7113,exclude,E7,"SENTINEL turns rollout failures into RL training tasks; evidence is Pass^1/Pass^k on Tau2-Bench Retail, i.e. task outcome."
+7116,exclude,E5,"Synthesis of 27 benchmark, taxonomy and audit papers into a taxonomy of agent failure modes."
+7117,exclude,E7,OpenWebVoyager self-improvement framework; claims are web-agent performance across test sets after each training iteration.
+7118,exclude,E7,Iterative LLM feedback trains a tool retriever; reported claims are in-domain and out-of-domain retrieval performance.
+7127,exclude,E4,"ToolHop dataset for multi-hop tool use; evaluates model accuracy, no loop property measured."
+7129,exclude,E7,MidTool mid-training corpus pipeline; evidence is downstream BFCL/tau2-Bench/MCP Universe scores.
+7137,include,I2,"Contributes iteration policy and termination: mixed tool-use agents refine in rounds and halt on sufficient confidence, measured at 49% of inference cost; diversity effect analysed."
+7139,exclude,E5,"Survey of agentic environment modeling, synthesis, evaluation and application."
+7141,exclude,E7,ART tool-injection framework for VLA models; claim is a 20% higher task success rate on simulation and real robot tasks.
+7144,exclude,E7,"Proposes UA^2 alignment principles and an agent benchmarked on retrofitted WebShop; claims are baseline-comparative task results, not loop control."
+7146,exclude,E5,Review of multi-tool orchestration literature across six dimensions.
+7148,exclude,E2,"RLHF/DPO alignment theory and training algorithms; no runtime agent loop, iteration is over training rounds."
+7151,include,I2,Contributes an iteration policy: feedback-driven cycle where a reward agent's evaluation steers the Instructor's refinement of system instructions; refinement process validated against baselines.
+7153,exclude,E7,ART framework auto-selects reasoning-plus-tool programs; reported claims are BigBench and MMLU accuracy over few-shot and auto-CoT.
+7158,exclude,E7,SayCan grounds LLM action proposals in skill value functions; claims are completion of long-horizon real robot tasks.
+7163,exclude,E7,SKILL is an authored multi-agent logic-synthesis system; reported claims are 12.4% PDA improvement and 86.3% success on EDA benchmarks.
+7169,include,I2,"Explicit design argument for iteration policy and termination: prompt refinement as feedback control on an error term, iterating until output criteria are met; controllers analysed."
+7171,exclude,E7,"MATRIX trajectory synthesis and preference tuning of a VLM controller; claims are Agent-X, GTA and GAIA benchmark wins."
+7173,exclude,E2,"RLHF fine-tuning perspective merging reward model and policy; no runtime agent loop, didactic training experiments only."
+7174,exclude,E7,"MUA-RL adds simulated users to RL training; reported evidence is TAU2, BFCL-V3 and ACEBench scores."
+7181,include,I2,"Contributes retry/repair: MCTS-built revision data teaches on-the-fly reflection, and the paper measures error-correction timeliness and loop avoidance, not just task score."
+7182,exclude,E4,"Crab cross-environment agent benchmark; reports task completion ratio, no loop property measured."
+7185,exclude,E7,TARL turn-level judged RL plus sandbox for multimodal tool use; claim is a 6% pass-rate gain on tau-bench.
+7186,include,I2,Contributes retry/repair: a retrospective model summarizes root causes of failed attempts and rewrites the agent prompt; compared against verbal-feedback refinement without gradients.
+7197,include,I2,"Contributes verification: inference restructured as plan, check, then act-or-refuse with refusal a first-class action; measured by refusal and harmful-behavior rates under injection."
+7198,exclude,E4,MCPVerse benchmark with 550 real tools; outcome-based accuracy evaluation only.
+7199,exclude,E7,LTC feedback buffer and training pipeline; evidence is 3.6-12% gains over instruction-tuning baselines on four datasets.
+7203,exclude,E4,"FunctionChat-Bench evaluation set for Korean tool-use dialogs; scores model output types, no loop property."
+7208,exclude,E7,"Planner-Caller-Generator SLM architecture for Korean tool use; claims are tool-use accuracy, tokens and latency, not a studied topology comparison."
+7211,include,I2,"Contributes iteration policy: entropy-reduction reward designs govern when tool calls are issued, measured directly as a 72.07% reduction in tool calls versus baselines."
+7214,exclude,E7,AURA speech-native assistant pipeline; claims are VoiceBench scores and 90% human-rated task success.
+7221,exclude,E4,"E-Bench synthetic benchmark for multi-step tool use; grades outcomes by database-state diffs, no loop property."
+7222,include,I2,"Contributes retry/repair: a diagnose-then-refine loop over injection failures, and the abstract reports gains attributable to iterative refinement over static and adaptive baselines."
+7233,exclude,E7,TL-Training token weighting and reward-shaped SFT/PPO; claims are tool-use performance on four test sets.
+7234,exclude,E7,"Studies verbalized calibration by tool type and RL-tunes for it; claims are calibration and accuracy, not what the loop does next."
+7236,include,I2,"Contributes iteration policy: measures whether the agent's next experiment depends on feedback, with a permuted-feedback control ablation that removes the +53.4% gain."
+7238,exclude,E2,SuperHF alignment training replacing PPO with filtered supervised sampling; no runtime agent loop.
+7239,include,I2,"Contributes retry/repair: benchmarks how effectively LLMs exploit compiler feedback across iterations on 180 ABAP tasks, reporting ~75% success after several repair rounds."

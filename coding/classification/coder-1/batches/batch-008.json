@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 1573,
+  "title": "Multi-Layer GRPO: Enhancing Reasoning and Self-Correction in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "The Group Relative Policy Optimization (GRPO) algorithm has demonstrated considerable success in enhancing the reasoning capabilities of large language models (LLMs), as evidenced by DeepSeek-R1. However, the absence of intermediate supervision in GRPO frequently leads to inefficient exploration dynamics. A single error in a complex reasoning chain can invalidate the entire solution, resulting in abrupt reward vanishing and compromising training stability.To address these challenges, we propose MGRPO (Multi-layer GRPO). MGRPO operates in two layers: the first layer employs standard GRPO to generate an initial response. This response, along with the original query, is then fed into a second-layer GRPO process. This second layer is specifically trained to identify and correct errors in the initial response, effectively creating a self-correction loop. This mechanism provides implicit process-level supervision by rewarding successful error correction, without requiring an explicit, densely-annotated reward model. Experimental results on several mathematical reasoning benchmarks demonstrate that MGRPO significantly outperforms standard GRPO, achieving superior performance by fostering both reasoning and self-correction abilities."
+ },
+ {
+  "paper_id": 1574,
+  "title": "Smaller Large Language Models Can Do Moral Self-Correction",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Self-correction is one of the most amazing emerging capabilities of Large Language Models (LLMs), enabling LLMs to self-modify an inappropriate output given a natural language feedback which describes the problems of that output. Moral self-correction is a post-hoc approach correcting unethical generations without requiring a gradient update, making it both computationally lightweight and capable of preserving the language modeling ability. Previous works have shown that LLMs can self-debias, and it has been reported that small models, i.e., those with less than 22B parameters, are not capable of moral self-correction. However, there is no direct proof as to why such smaller models fall short of moral self-correction, though previous research hypothesizes that larger models are skilled in following instructions and understanding abstract social norms. In this paper, we empirically validate this hypothesis in the context of social stereotyping, through meticulous prompting. Our experimental results indicate that (i) surprisingly, 3.8B LLMs with proper safety alignment fine-tuning can achieve very good moral self-correction performance, highlighting the significant effects of safety alignment; and (ii) small LLMs are indeed weaker than larger-scale models in terms of comprehending social norms and self-explanation through CoT, but all scales of LLMs show bad self-correction performance given unethical instructions."
+ },
+ {
+  "paper_id": 1579,
+  "title": "On the Convergence of Moral Self-Correction in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) are able to improve their responses when instructed to do so, a capability known as self-correction. When instructions provide only a general and abstract goal without specific details about potential issues in the response, LLMs must rely on their internal knowledge to improve response quality, a process referred to as intrinsic self-correction. The empirical success of intrinsic self-correction is evident in various applications, but how and why it is effective remains unknown. Focusing on moral self-correction in LLMs, we reveal a key characteristic of intrinsic self-correction: performance convergence through multi-round interactions; and provide a mechanistic analysis of this convergence behavior. Based on our experimental results and analysis, we uncover the underlying mechanism of convergence: consistently injected self-correction instructions activate moral concepts that reduce model uncertainty, leading to converged performance as the activated moral concepts stabilize over successive rounds. This paper demonstrates the strong potential of moral self-correction by showing that it exhibits a desirable property of converged performance."
+ },
+ {
+  "paper_id": 1581,
+  "title": "Self-Correction Bench: Uncovering and Addressing the Self-Correction Blind Spot in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Although large language models (LLMs) have transformed AI, they still make errors and follow unproductive reasoning paths. Self-correction is vital for safety-critical applications, but studying it requires disentangling activation failure from knowledge deficiency: when a model fails to correct an error, is it because it cannot, or because it does not? We introduce Self-Correction Bench, a controlled evaluation framework that isolates this distinction by injecting the same error as either an external (user-attributed) or internal (model-attributed) error, keeping all other context identical. Testing 14 open-source non-reasoning models reveals a 64.5% Self-Correction Blind Spot: models correct external errors but fail on identical internal ones, proving the capability exists but is not activated. On models' own naturally generated errors, a measurable share of what a model fails to catch in its own output is caught when the identical error is presented externally. We trace the cause to post-training data composition: supervised fine-tuning datasets lack error-correction sequences, and fine-tuning with as few as 5,306 such traces already reduces the blind spot by 76.0%. Mechanistically, we identify a transferable conversational-role direction in representation space that causally gates self-correction. Appending \"Wait\" requires no training yet reduces the blind spot by 89.3%, and operates through a nearly independent pathway, indicating that correction activation is not reducible to this single mechanism."
+ },
+ {
+  "paper_id": 1594,
+  "title": "Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Self-correction has achieved impressive results in enhancing the style and security of the generated output from large language models (LLMs). However, recent studies suggest that self-correction might be limited or even counterproductive in reasoning tasks due to LLMs' difficulties in identifying logical mistakes.   In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of Thought (CoT) methodology to self-checking tasks, utilizing fine-grained step-level analyses and explanations to assess the correctness of reasoning paths. We propose a specialized checking format called \"Step CoT Check\". Following this format, we construct a checking-correction dataset that includes detailed step-by-step analysis and checking. Then we fine-tune LLMs to enhance their error detection and correction abilities.   Our experiments demonstrate that fine-tuning with the \"Step CoT Check\" format significantly improves the self-checking and self-correction abilities of LLMs across multiple benchmarks. This approach outperforms other formats, especially in locating the incorrect position, with greater benefits observed in larger models.   For reproducibility, all the datasets and code are provided in https://github.com/bammt/Learn-to-check."
+ },
+ {
+  "paper_id": 1599,
+  "title": "Small Language Model Can Self-correct",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Generative Language Models (LMs) such as ChatGPT have exhibited remarkable performance across various downstream tasks. Nevertheless, one of their most prominent drawbacks is generating inaccurate or false information with a confident tone. Previous studies have devised sophisticated pipelines and prompts to induce large LMs to exhibit the capability for self-correction. However, large LMs are explicitly prompted to verify and modify its answers separately rather than completing all steps spontaneously like humans. Moreover, these complex prompts are extremely challenging for small LMs to follow. In this paper, we introduce the \\underline{I}ntrinsic \\underline{S}elf-\\underline{C}orrection (ISC) in generative language models, aiming to correct the initial output of LMs in a self-triggered manner, even for those small LMs with 6 billion parameters. Specifically, we devise a pipeline for constructing self-correction data and propose Partial Answer Masking (PAM), aiming to endow the model with the capability for intrinsic self-correction through fine-tuning. We conduct experiments using LMs with parameters sizes ranging from 6 billion to 13 billion in two tasks, including commonsense reasoning and factual knowledge reasoning. Our experiments demonstrate that the outputs generated using ISC outperform those generated without self-correction. We believe that the output quality of even small LMs can be further improved by empowering them with the ability to intrinsic self-correct."
+ },
+ {
+  "paper_id": 1602,
+  "title": "Intent-Aware Self-Correction for Mitigating Social Biases in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Self-Correction based on feedback improves the output quality of Large Language Models (LLMs). Moreover, as Self-Correction functions like the slow and conscious System-2 thinking from cognitive psychology's perspective, it can potentially reduce LLMs' social biases. LLMs are sensitive to contextual ambiguities and inconsistencies; therefore, explicitly communicating their intentions during interactions when applying Self-Correction for debiasing is crucial. In this study, we demonstrate that clarifying intentions is essential for effectively reducing biases in LLMs through Self-Correction. We divide the components needed for Self-Correction into three parts: instruction, response, and feedback, and clarify intentions at each component. We incorporate an explicit debiasing prompt to convey the intention of bias mitigation from the instruction for response generation. In the response, we use Chain-of-Thought (CoT) to clarify the reasoning process. In the feedback, we define evaluation aspects necessary for debiasing and propose clear feedback through multi-aspect critiques and scoring. Through experiments, we demonstrate that self-correcting CoT responses obtained from a debiasing prompt based on multi-aspect feedback can reduce biased responses more robustly and consistently than the baselines. We also find the variation in debiasing efficacy when using models with different bias levels or separating models for response and feedback generation."
+ },
+ {
+  "paper_id": 1606,
+  "title": "CyberCorrect: A Cybernetic Framework for Closed-Loop Self-Correction in Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large language model (LLM) self-correction -- the ability to detect and fix errors in generated outputs -- remains largely ad hoc, relying on generic prompts such as \"please reconsider your answer\" without systematic error analysis or convergence guarantees. We propose CyberCorrect, a framework that formalizes LLM self-correction as a closed-loop control system grounded in cybernetic theory. The framework models the LLM generator as the plant and introduces a tri-modal Error Detector (combining self-consistency, verbalized confidence, and logic-chain verification) as the sensor. A type-directed Correction Controller generates targeted repair instructions based on diagnosed error categories, while a Convergence Judge determines iteration termination using stability criteria adapted from control theory. We further introduce three control-theoretic evaluation metrics -- convergence rate, overshoot rate, and oscillation rate -- that capture correction dynamics beyond final accuracy. Experiments on our constructed CyberCorrect-Bench (440 reasoning tasks with annotated error types and correction paths) show that CyberCorrect achieves 79.8% final accuracy, improving upon the best existing self-correction method by 6.2 percentage points, while reducing overshoot (erroneous over-correction) by 41% through its convergence control mechanism."
+ },
+ {
+  "paper_id": 1607,
+  "title": "Self-correction is Not An Innate Capability in Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Although there has been growing interest in the self-correction capability of Large Language Models (LLMs), there are varying conclusions about its effectiveness. Prior research has largely concentrated on intrinsic self-correction, extrinsic self-correction, particularly the interplay between internal knowledge and external feedback, remains underexplored. In this paper, we aim to comprehensively investigate the underlying mechanism of moral self-correction by addressing a fundamental question: is moral self-correction an innate capability of LLMs? Specifically, we conduct: (1) a behavioral analysis of LLMs' moral sensitivity based on a self-distinguishing task; and (2) a mechanistic analysis of the hidden states to examine how key components of self-correction, such as Chain-of-Thought (CoT) and external feedback, interact to facilitate moral self-correction. Drawing on empirical evidence from both behavioral and mechanistic analyses, we demonstrate that moral self-correction is not an inherent capability of LLMs, as they are neither morally sensitive nor able to effectively incorporate external feedback during the self-correction process."
+ },
+ {
+  "paper_id": 1610,
+  "title": "Self-Correcting Large Language Models: Generation vs. Multiple Choice",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models have recently demonstrated remarkable abilities to self-correct their responses through iterative refinement, often referred to as self-consistency or self-reflection. However, the dynamics of this self-correction mechanism may differ substantially depending on whether the model is tasked with open-ended text generation or with selecting the most appropriate response from multiple predefined options. In this paper, we conduct a systematic investigation of these two paradigms by comparing performance trends and error-correction behaviors across various natural language understanding and reasoning tasks, covering language models of different scales and families. Our experimental results reveal distinct patterns of improvement and failure modes:   \\textit{While open-ended generation often benefits from the flexibility of re-interpretation and compositional refinement, multiple-choice selection can leverage clearer solution boundaries but may be limited by the provided options}. This contrast also reflects the dual demands faced by emerging agentic LLM applications: effective agents must not only generate and refine open-ended plans or explanations, but also make reliable discrete choices when operating within constrained action spaces. Our findings, therefore, highlight that the design of self-correction mechanisms should take into account the interaction between task structure and output space, with implications for both knowledge-intensive reasoning and decision-oriented applications of LLMs."
+ },
+ {
+  "paper_id": 1615,
+  "title": "Confidence Matters: Revisiting Intrinsic Self-Correction Capabilities of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The recent success of Large Language Models (LLMs) has catalyzed an increasing interest in their self-correction capabilities. This paper presents a comprehensive investigation into the intrinsic self-correction of LLMs, attempting to address the ongoing debate about its feasibility. Our research has identified an important latent factor - the \"confidence\" of LLMs - during the self-correction process. Overlooking this factor may cause the models to over-criticize themselves, resulting in unreliable conclusions regarding the efficacy of self-correction. We have experimentally observed that LLMs possess the capability to understand the \"confidence\" in their own responses. It motivates us to develop an \"If-or-Else\" (IoE) prompting framework, designed to guide LLMs in assessing their own \"confidence\", facilitating intrinsic self-corrections. We conduct extensive experiments and demonstrate that our IoE-based Prompt can achieve a consistent improvement regarding the accuracy of self-corrected responses over the initial answers. Our study not only sheds light on the underlying factors affecting self-correction in LLMs, but also introduces a practical framework that utilizes the IoE prompting principle to efficiently improve self-correction capabilities with \"confidence\". The code is available at https://github.com/MBZUAI-CLeaR/IoE-Prompting.git."
+ },
+ {
+  "paper_id": 1618,
+  "title": "Self-Taught Self-Correction for Small Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Although large language models (LLMs) have achieved remarkable performance across various tasks, they remain prone to errors. A key challenge is enabling them to self-correct. While prior research has relied on external tools or large proprietary models, this work explores self-correction in small language models (SLMs) through iterative fine-tuning using solely self-generated data. We introduce the Self-Taught Self-Correction (STaSC) algorithm, which incorporates multiple algorithmic design choices. Experimental results on a question-answering task demonstrate that STaSC effectively learns self-correction, leading to significant performance improvements. Our analysis further provides insights into the mechanisms of self-correction and the impact of different design choices on learning dynamics and overall performance. To support future research, we release our user-friendly codebase and lightweight models."
+ },
+ {
+  "paper_id": 1636,
+  "title": "ESC: Emotional Self-Correction for Reliable Vision-Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost. In this work, we revisit this challenge through the lens of emotional cues, asking whether they can activate latent self-correction behaviors in VLMs without additional training. \\textbf{We find that emotional signals serve as an effective trigger for self-correction, encouraging more cautious and reflective reasoning}. Motivated by this finding, we propose \\escabstract (\\textbf{\\underline{E}}motional \\textbf{\\underline{S}}elf-\\textbf{\\underline{C}}orrection), a training-free self-correction framework. ESC introduces an external verifier that detects potentially incorrect initial responses and injects emotional feedback to encourage model to reflect, and produce a better revised response without additional training. Extensive experiments across safety, hallucination, vision-centric perception, and multimodal reasoning benchmarks show that ESC consistently improves reliability while preserving overall model utility. These results suggest that emotion can function not only as an ability to be recognized, but also as a practical control signal for scalable self-correction in VLMs. \\textbf{We therefore believe that ESC provides a strong foundation for a new reliable human-like, emotion-integrated research direction.} Our project is publicly available at \\textcolor{red}{https://genai4e.github.io/ESC/}."
+ },
+ {
+  "paper_id": 1654,
+  "title": "Self-Correcting Code Generation Using Small Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Self-correction has demonstrated potential in code generation by allowing language models to revise and improve their outputs through successive refinement. Recent studies have explored prompting-based strategies that incorporate verification or feedback loops using proprietary models, as well as training-based methods that leverage their strong reasoning capabilities. However, whether smaller models possess the capacity to effectively guide their outputs through self-reflection remains unexplored. Our findings reveal that smaller models struggle to exhibit reflective revision behavior across both self-correction paradigms. In response, we introduce CoCoS, an approach designed to enhance the ability of small language models for multi-turn code correction. Specifically, we propose an online reinforcement learning objective that trains the model to confidently maintain correct outputs while progressively correcting incorrect outputs as turns proceed. Our approach features an accumulated reward function that aggregates rewards across the entire trajectory and a fine-grained reward better suited to multi-turn correction scenarios. This facilitates the model in enhancing initial response quality while achieving substantial improvements through self-correction. With 1B-scale models, CoCoS achieves improvements of 35.8% on the MBPP and 27.7% on HumanEval compared to the baselines."
+ },
+ {
+  "paper_id": 1673,
+  "title": "Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Achieving effective self-correction, where models verify and correct their own mistakes, remains a fundamental challenge for large language models (LLMs). In this work, we propose Self-Fix Step-DPO (SFS-DPO), a reinforcement learning based, two-stage framework for step-level self-verification and self-correction. The first stage strengthens step-level reasoning via step-level preference optimization, while the second stage explicitly trains models to self-verify and self-correct. We further introduce a teacher-assisted variant, SFS-DPO-R, which incorporates explanatory rationales for error verification to provide stronger corrective signals. Comprehensive in-domain and out-of-domain evaluations across multiple LLMs demonstrate that SFS-DPO and SFS-DPO-R consistently outperform prior step-level training baselines. Our analysis further reveals improvements in self-correction frequency and effectiveness, highlighting the importance of strengthening step-level reasoning for robust performance."
+ },
+ {
+  "paper_id": 1687,
+  "title": "Evolutionary Prompt Optimization Discovers Emergent Multimodal Reasoning Strategies in Vision-Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We present a framework for optimizing prompts in vision-language models to elicit multimodal reasoning without model retraining. Using an evolutionary algorithm to guide prompt updates downstream of visual tasks, our approach improves upon baseline prompt-updating algorithms, which lack evolution-style \"survival of the fittest\" iteration. Crucially, we find this approach enables the language model to independently discover progressive problem-solving techniques across several evolution generations. For example, the model reasons that to \"break down\" visually complex spatial tasks, making a tool call to a Python interpreter to perform tasks (such as cropping, image segmentation, or saturation changes) would improve performance significantly. Our experimentation shows that explicitly evoking this \"tool calling\" call, via system-level XML $...\\texttt{<tool>} ... \\texttt{</tool>}...$ tags, can effectively flag Python interpreter access for the same language model to generate relevant programs, generating advanced multimodal functionality. This functionality can be crystallized into a system-level prompt that induces improved performance at inference time, and our experimentation suggests up to $\\approx 50\\%$ relative improvement across select visual tasks. Downstream performance is trained and evaluated across subtasks from MathVista, M3CoT, and GeoBench-VLM datasets. Importantly, our approach shows that evolutionary prompt optimization guides language models towards self-reasoning discoveries, which result in improved zero-shot generalization across tasks."
+ },
+ {
+  "paper_id": 1696,
+  "title": "Synthetic Error Injection Fails to Elicit Self-Correction In Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning has become the dominant paradigm for eliciting reasoning and self-correction capabilities in large language models, but its computational expense motivates exploration of alternatives. Inspired by techniques from autonomous driving and robotics, we investigate whether supervised learning with synthetic error injection can induce self-correction abilities in language models. Our approach inserts artificial errors into reasoning chains, masks them, and supervises the model to recognize and correct these mistakes. Despite the intuitive appeal of this method, we find that it fails to significantly improve performance even on simple synthetic tasks across multiple models. Moreover, even when the model catches its own error, it often parrots the original mistake. We find that the distribution shift of synthetic errors to on-policy errors significantly degrades the error-correction capabilities of the fine-tuned model, even with good synthetic coverage of on-policy errors. Our results help explain why on-policy reinforcement learning methods have proven uniquely effective for eliciting self-correction."
+ },
+ {
+  "paper_id": 1723,
+  "title": "Monitor-Generate-Verify (MGV): Formalising Metacognitive Theory for Language Model Reasoning",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Test-time reasoning architectures such as those following the Generate-Verify paradigm, where a model iteratively refines or verifies its own generated outputs, prioritise generation and verification but exclude the monitoring processes that determine when and how reasoning should begin. This omission may contribute to the prefix dominance trap, in which models commit early to suboptimal reasoning paths and seldom recover, yielding roughly 20% accuracy loss. We address this architectural gap by proposing the Monitor-Generate-Verify (MGV) framework, a computational translation of Flavell's and Nelson and Narens' metacognitive theories that preserves their psychological detail. MGV extends the Generate-Verify paradigm by adding explicit monitoring that captures metacognitive experiences (from difficulty assessments to confidence judgements) before generation begins and refines future monitoring through verification feedback. Though we present no empirical validation, MGV provides a vocabulary for diagnosing component-level failures in reasoning systems, suggests specific architectural interventions for future designs, and identifies connections to resource-rational analysis that may ground its mechanisms in normative principles."
+ },
+ {
+  "paper_id": 1755,
+  "title": "Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent advancements in large language models have showcased their remarkable generalizability across various domains. However, their reasoning abilities still have significant room for improvement, especially when confronted with scenarios requiring multi-step reasoning. Although large language models possess extensive knowledge, their reasoning often fails to effectively utilize this knowledge to establish a coherent thinking paradigm. These models sometimes show hallucinations as their reasoning procedures are unconstrained by logical principles. Aiming at improving the zero-shot chain-of-thought reasoning ability of large language models, we propose LoT (Logical Thoughts), a self-improvement prompting framework that leverages principles rooted in symbolic logic, particularly Reductio ad Absurdum, to systematically verify and rectify the reasoning processes step by step. Experimental evaluations conducted on language tasks in diverse domains, including arithmetic, commonsense, symbolic, causal inference, and social problems, demonstrate the efficacy of enhanced reasoning by logic. The implementation code for LoT can be accessed at: https://github.com/xf-zhao/LoT."
+ },
+ {
+  "paper_id": 1762,
+  "title": "Can ChatGPT Defend its Belief in Truth? Evaluating LLM Reasoning via Debate",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) such as Chat-GPT and GPT-4 have shown impressive performance in complex reasoning tasks. However, it is difficult to know whether the models are reasoning based on deep understandings of truth and logic, or leveraging their memorized patterns in a relatively superficial way. In this work, we explore testing LLMs' reasoning by engaging with them in a debate-like conversation, where given a question, the LLM and the user need to discuss to make the correct decision starting from opposing arguments. Upon mitigating the Clever Hans effect, our task requires the LLM to not only achieve the correct answer on its own, but also be able to hold and defend its belief instead of blindly believing or getting misled by the user's (invalid) arguments and critiques, thus testing in greater depth whether the LLM grasps the essence of the reasoning required to solve the problem. Across a range of complex reasoning benchmarks spanning math, commonsense, logic and BIG-Bench tasks, we find that despite their impressive performance as reported in existing work on generating correct step-by-step solutions in the beginning, LLMs like ChatGPT cannot maintain their beliefs in truth for a significant portion of examples when challenged by oftentimes absurdly invalid arguments. Our work points to danger zones of model alignment, and also suggests more careful treatments and interpretations of the recent findings that LLMs can improve their responses based on feedback. 1"
+ },
+ {
+  "paper_id": 1792,
+  "title": "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There has been considerable divergence of opinion on the reasoning abilities of Large Language Models (LLMs). While the initial optimism that reasoning might emerge automatically with scale has been tempered thanks to a slew of counterexamples--ranging from multiplication to simple planning--there persists a wide spread belief that LLMs can self-critique and improve their own solutions in an iterative fashion. This belief seemingly rests on the assumption that verification of correctness should be easier than generation--a rather classical argument from computational complexity--which should be irrelevant to LLMs to the extent that what they are doing is approximate retrieval. In this paper, we set out to systematically investigate the effectiveness of iterative prompting in the context of reasoning and planning. We present a principled empirical study of the performance of GPT-4 in three domains: Game of 24, Graph Coloring, and STRIPS planning. We experiment both with the model critiquing its own answers and with an external correct reasoner verifying proposed solutions. In each case, we analyze whether the content of criticisms actually affects bottom line performance, and whether we can ablate elements of the augmented system without losing performance. We observe significant performance collapse with self-critique and significant performance gains with sound external verification. We also note that merely re-prompting with a sound verifier maintains most of the benefits of more involved setups."
+ },
+ {
+  "paper_id": 1793,
+  "title": "Iterative Self-Questioning Supervision with Semantic Calibration for Stable Reasoning Chains in Large Language Models",
+  "year": 2026,
+  "venue": "Preprints.org",
+  "source": "openalex",
+  "abstract": "This study addresses the inconsistency, semantic drift, and logical breaks that large language models often exhibit in complex reasoning tasks and proposes a unified cyclic self-questioning supervision framework that integrates information flow from questioning to reflection and renewed reasoning. The framework includes four core components, namely questioning generation, reflection modeling, semantic calibration, and renewed reasoning, and forms an iterative reasoning chain that allows the model to identify potential uncertainties and adjust its reasoning path based on internal feedback in each round. The method first uses the questioning module to produce structured queries about the initial reasoning result and to extract possible logical weaknesses from the generated content. The reflection module then interprets the questioning content, locates errors, and produces internal feedback signals that guide reasoning improvement. The semantic calibration mechanism converts the reflection output into intermediate states that influence the reasoning space and provide a more stable foundation for renewed reasoning. Through multiple iterations, the framework increases the internal consistency of the reasoning chain. Systematic experiments conducted on open reasoning datasets show significant gains in accuracy, explanation consistency, semantic alignment, and self-consistency, which confirms the importance of internal reflection and semantic calibration in improving reasoning quality. Sensitivity studies on learning rate, reflection length, reasoning temperature, and parallelism further reveal how the cyclic system depends on internal feedback absorption and semantic stability. The unified framework provides an extensible path for enhancing the structural quality of reasoning chains in large models and offers an interpretable foundation for high-reliability reasoning scenarios."
+ },
+ {
+  "paper_id": 1805,
+  "title": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Heterogeneous Catalyst Discovery",
+  "year": 2026,
+  "venue": "npj Computational Materials",
+  "source": "openalex",
+  "abstract": "Artificial intelligence is reshaping scientific exploration, but most methods automate procedural tasks without engaging in scientific reasoning, limiting autonomy in discovery. We demonstrate that hierarchical agentic large language model reasoning can efficiently drive simulation and scientific exploration. Across two chemical applications, CO adsorption on Cu surface transition metal adatoms and on M\u2013N\u2013C catalysts, reasoning-guided exploration reduces required atomistic simulations by up to 90% relative to heuristic or random selection. Comparisons across single-agent, multi-agent, and stochastic baselines show that hierarchical strategies yield more coherent and information-efficient search trajectories. Reasoning traces reveal chemically grounded decisions that cannot be explained by semantic bias or stochastic sampling. We realize these agentic reasoning strategies in Materials Agents for Simulation and Theory in Electronic-structure Reasoning (MASTER), a multimodal system that translates natural language into density functional theory workflows. Altogether, multi-agent collaboration accelerates heterogeneous catalyst discovery and marks a step toward more autonomous, reasoning-guided scientific exploration."
+ },
+ {
+  "paper_id": 1821,
+  "title": "Self-Correction Makes LLMs Better Parsers",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have achieved remarkable success across various natural language processing (NLP) tasks.However, recent studies suggest that they still face challenges in performing fundamental NLP tasks essential for deep language understanding, particularly syntactic parsing.In this paper, we conduct an in-depth analysis of LLM parsing capabilities, delving into the underlying causes of why LLMs struggle with this task and the specific shortcomings they exhibit.We find that LLMs may be limited in their ability to fully leverage grammar rules from existing treebanks, restricting their capability to generate syntactic structures.To help LLMs acquire knowledge without additional training, we propose a selfcorrection method that leverages grammar rules from existing treebanks to guide LLMs in correcting previous errors.Specifically, we automatically detect potential errors and dynamically search for relevant rules, offering hints and examples to guide LLMs in making corrections themselves.Experimental results on three datasets using various LLMs demonstrate that our method significantly improves performance in both in-domain and cross-domain settings."
+ },
+ {
+  "paper_id": 1835,
+  "title": "LR\u00b2Bench: Evaluating Long-chain Reflective Reasoning Capabilities of Large Language Models via Constraint Satisfaction Problems",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent progress in Large Reasoning Models (LRMs) has significantly enhanced the reasoning abilities of Large Language Models (LLMs), empowering them to tackle increasingly complex tasks through reflection capabilities, such as making assumptions, backtracking, and self-refinement.However, effectively evaluating such reflection capabilities remains challenging due to the lack of appropriate benchmarks.To bridge this gap, we introduce LR 2 Bench, a novel benchmark designed to evaluate the Long-chain Reflective Reasoning capabilities of LLMs.LR 2 Bench comprises 850 samples across six Constraint Satisfaction Problems (CSPs) where reflective reasoning is crucial for deriving solutions that meet all given constraints.Each type of task focuses on distinct constraint patterns, such as knowledge-based, logical, and spatial constraints, providing a comprehensive evaluation of diverse problem-solving scenarios.Our extensive evaluation on both conventional LLMs and LRMs reveals that even the most advanced LRMs, such as DeepSeek-R1 and OpenAI o1-preview, struggle with tasks in LR 2 Bench, achieving an average Exact Match score of only 20.0% and 23.6%, respectively.These findings underscore the significant room for improvement in the reflective reasoning capabilities of current LLMs."
+ }
+]

@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+5357,include,I2,"Topology generation with diverse interaction modes is the studied variable, compared against spatio-temporal interaction paradigms; mechanism: control topology."
+5360,exclude,E7,"Driving MAS with reflection and shared-memory modules; reported claims are driving decision quality and generalization, not the loop mechanism."
+5365,exclude,E7,"Framework for microservice root-cause analysis; voting and step limits serve the domain, claims are RCA accuracy and resolution quality."
+5366,exclude,E1,"Overview of AI in 6G networks; the loops are network resource allocation and control, not a language-model agent loop."
+5368,include,I2,"Deterministic EMA-guided routing is the contribution, compared with non-routed ensembles and measured for run-to-run stability; mechanism: iteration policy."
+5372,exclude,E2,"Vision for LLM multi-agent network-slicing MANO; intent translation and lifecycle mapping, no iterative control mechanism described."
+5376,exclude,E5,Review of large language models and autonomous agents in chemistry.
+5380,exclude,E5,Review of generative AI applications and limitations in cybersecurity.
+5381,exclude,E7,Five-stage multi-agent debate applied to misinformation detection; claims are fake-news detection gains over baselines.
+5383,include,I2,"Runtime workflow refinement over an AOV graph, with subtask reallocation from historical performance as the studied variable; mechanism: iteration policy."
+5385,exclude,E5,Survey of large models and foundation models in the low-altitude economy.
+5386,exclude,E7,Multi-agent conceptual-design system; claims are design novelty and originality metrics plus user-study outcomes.
+5391,exclude,E7,"Platform packaging existing MAS optimizers (TextGrad, AFlow, MIPRO); claims are benchmark gains on HotPotQA, MBPP, MATH and GAIA."
+5392,exclude,E5,"Architectural survey of LLM multi-agent routing, memory and resource optimization."
+5396,exclude,E5,Survey of orchestration architectures and safety mechanisms in agentic AI.
+5397,exclude,E5,"Holistic review unifying tool learning, model collaboration and agents under a Big Loop framework."
+5398,exclude,E7,Multi-agent materials-discovery pipeline; claims are candidate identification and benchmark performance at lower cost.
+5399,exclude,E5,Decision-oriented survey of multi-agent collaboration.
+5401,exclude,E7,"Graph-centric orchestration framework with Vibe Graphing; claims are benchmark reproduction consistency of a tool, no studied loop mechanism."
+5405,exclude,E5,Research roadmap organizing agentic-services literature through a lifecycle view.
+5406,exclude,E1,"Survey of edge-cloud computing, model compression and network resource management; no language-model agent loop."
+5407,exclude,E3,CFD agent wiring GPT-4o/o1 with RAG and an off-the-shelf iterative correction loop; claims are CFD case-setup and translation success.
+5408,exclude,E7,"Graph-centric orchestration framework with Vibe Graphing; claims are benchmark reproduction consistency of a tool, no studied loop mechanism."
+5409,include,I2,"PSO-inspired population search jointly refining agent functionality and coordination, compared against ADAS and other generators; mechanism: control topology."
+5420,include,I2,"Publish-subscribe coordination with reactive subscription and Bayesian reputation is the studied variable, tested for adaptivity and robustness; mechanism: control topology."
+5421,exclude,E2,"Vision for an agent-centric data fabric (caching, prefetching, serving); contributes data infrastructure, not a loop-control mechanism."
+5423,exclude,E2,Evaluates six LLMs on architectural knowledge and lists enhancement pathways; single-pass assessment with no iterative control.
+5426,exclude,E5,Comprehensive review of generative AI in threat intelligence and security operations.
+5429,exclude,E7,"Orchestrator plus knowledge, modelling and coding agents for water-network calibration and pump optimization; claims are hydraulic task accuracy."
+5430,exclude,E7,"Agentic digital-twin framework for city infrastructure; ablation is reported through detection latency and mitigation success rate, i.e. task outcomes."
+5432,include,I2,Inference-time topology adaptation with bounded structural updates is the contribution and is compared against fixed-topology MAS; mechanism: control topology.
+5433,exclude,E5,Comprehensive review of large language models for energy systems.
+5434,exclude,E5,"Narrative review of 183 studies on digital cardiovascular twins, sensors and agents."
+5440,exclude,E7,"Pen-testing platform on Agent Zero with recursive memory and RAG; reported claims are end-to-end detection, exploitation and attack-completion performance."
+5441,exclude,E4,"Studio whitepaper with press one-pager, executive summary and deployment playbook; no research method."
+5444,exclude,E5,Systematic literature review of LLMs in cybersecurity over 185 papers.
+5445,include,I2,"Shapley-based peer assessment builds a per-round DAG regulating message flow, compared with fixed topologies and graph generators; mechanism: control topology."
+5449,include,I2,"Evolutionary search over MAS configurations with feedback-conditioned mutation is the studied variable, compared against other automatic generators; mechanism: control topology."
+5454,include,I2,"Trajectory-feedback optimizer with dual-track memory, assessed for sustained improvement over long optimization horizons against evolutionary methods; mechanism: iteration policy."
+5455,exclude,E1,"Survey of edge machine learning optimization, compression and MLOps; no language-model agent loop."
+5456,include,I2,"Decentralized coordination via shared verified context and a task queue, compared against centralized orchestration bottleneck; mechanism: control topology."
+5461,exclude,E7,Planner-guided constrained-topology framework for feature-engineering code; claims are the domain evaluation metric and cycle-time reduction.
+5462,include,I2,"Agents chosen by ILP and interaction topology by RL under explicit budgets, with the cost-performance trade-off as the studied variable; mechanism: control topology."
+5464,include,I2,"Controlled empirical comparison of single-agent, subagent and agent-team structures under fixed time budgets; mechanism: control topology."
+5465,include,I2,"Vision paper arguing for joint topology/model/engine optimization of agentic pipelines, with a 10-agent experiment showing 153x cost variance; mechanism: control topology."

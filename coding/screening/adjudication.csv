@@ -1,0 +1,55 @@
+paper_id,screener_A,screener_B,adjudicated,criteria,rationale
+307,include,exclude,exclude,E7,"B: the contribution is a requirements-reuse system and the numbers (coverage, violation rate, F1) are domain outputs; the validator is never isolated or compared."
+401,include,exclude,include,I2,"A: the rule for which model runs each step under time and cost budgets is the whole contribution, set against one-shot query-level cascade routing."
+498,exclude,include,exclude,E7,"A: the contribution is a graph index and its retrieval; ablations are of retrieval components and claims are benchmark wins - retrieval quality, not loop control."
+572,include,exclude,exclude,E7,"B: four coupled subsystems (MAPE-K, immune detection, gossip, federated learning) with only aggregate resilience versus baselines; nothing isolates the control loop."
+597,exclude,include,include,I2,B: the guide keeps position papers arguing explicitly about loop control; this argues the retrieve-then-prompt loop has no feedback from reasoning and no decay in carried state.
+1384,exclude,include,include,I2,"B: reports per-iteration gain (+23.1%, nearly all on the first refinement, none after), a measurement of the refine loop itself rather than CAD success alone."
+1446,include,exclude,exclude,E7,B: the contribution is a training algorithm and the reported claim is a 7.13% end-task gain; the self-revision loop is never measured as such.
+1452,include,exclude,include,I2,A: the guide lists the Self-Refine/CRITIC family as includes; the feedback-then-revise cycle is the contribution and the feedback itself is examined.
+1551,include,exclude,exclude,E7,"B: data construction plus training, evidenced only by GSM8K and MATH accuracy; no measurement of the step-level correction as such."
+2053,exclude,include,include,I2,"B: analyses report self-verification frequency, accuracy and the effect of extra verification compute - evidence about the verifier, not only solve rates."
+2313,include,exclude,include,I2,A: verify-then-rollback is the entire contribution and control returns to regenerate the faulty span; the benchmarks measure what that rollback does.
+3617,include,exclude,exclude,E2,B: candidates are generated once then aggregated by tournament comparison; the guide files sample-k-and-vote as E2 whatever the aggregation rule.
+3856,exclude,include,include,I2,"B: an explicit methodological argument that reasoning-effort budget is an uncontrolled variable is a position on termination and budget, which the guide admits."
+4038,exclude,include,include,I2,"B: step-level routing is set against coarse task-level routers and the cloud-call share (46.3% of steps) is a mechanism-level number, not just success rate."
+4089,exclude,include,include,I2,"B: the runtime monitor is the only contribution and the contrast is the same agents with and without it across 15 skills - the mechanism removed, effect reported."
+4235,include,exclude,include,I2,"A: the content is the rule for choosing the next action (LM likelihood combined with grounded objectives), argued explicitly as probabilistic filtering."
+4360,include,exclude,include,I2,A: everything contributed - planning-mode selection and uncertainty-guided MCTS - governs how the next step is chosen; the guide admits search over states.
+4580,include,exclude,include,I2,"A: reports mechanism-internal quantities (Cold-Q -80%, feedback density 6x) plus theory on the utility state deciding which experience the loop reuses."
+4615,include,exclude,include,I2,"A: verdict-learning, correction-learning and a static-RAG control are compared head to head, so the feedback carried between episodes is the manipulated variable."
+4617,exclude,include,include,I2,"B: budget-based metabolism and asynchronous processes are argued as a design position, and the shift from reactive to spontaneous activity is a triggering claim."
+4669,include,exclude,include,I2,A: it measures whether the agent seeks clarification instead of acting and compares fixed rules against a conflict-aware action policy - a next-action rule.
+4697,include,exclude,exclude,E4,"B: measures behavioural safety drift under contaminated memory, not a loop property such as retries, stalling or termination; the benchmark rule sends it to E4."
+4959,include,exclude,exclude,E7,"B: context compaction judged by token cost and competitive task scores - the guide's case of a memory or context store evaluated on efficiency, not loop control."
+4970,include,exclude,include,I2,"A: the paper is nothing but loop governance - context pruning, momentum backtracking, adaptive sampling - named against three loop failure modes."
+5010,include,exclude,include,I2,"A: the contributed paradigm is interacting with several environments per step with cross-trajectory sharing, set against sequential reason-then-act."
+5043,include,exclude,exclude,E7,"B: dual-tier memory judged by web-task success and token reduction; a memory architecture evaluated on outcomes, which the guide files as E7."
+5104,include,exclude,exclude,E7,B: ARC is evaluated by Needle-in-a-Haystack retrieval accuracy and serving cost - the guide's named example of memory judged on retrieval quality.
+5151,include,exclude,exclude,E4,B: it scores models on writing orchestration prompts across fixed topologies; the arrangement is never the manipulated variable and no loop property is measured.
+5216,include,exclude,include,I2,"A: planning, per-step routing, reasoning depth and queue order are the contribution, set against infra-blind routers; latency and SLO are scheduling numbers."
+5307,exclude,include,include,I2,"B: the contributed object is the rule for when the loop continues autonomously and when it defers to a human, trained and compared against fully autonomous MAS."
+5965,exclude,include,include,I2,"B: the contribution is the failure-detect-and-replan trigger, and the claim is recovery from unforeseen obstacles where non-replanning baselines cannot adapt."
+6537,include,exclude,include,I2,"A: the diagnostic taxonomy measures premature stopping after successful tool calls - a termination property, the condition the guide sets for admitting a benchmark."
+6600,include,exclude,include,I2,"A: trajectory decomposition measures when-to-call planning as a failure class dominating tool-call errors - a loop property, the guide's test for benchmarks."
+6604,include,exclude,exclude,E7,"B: a domain runtime for chemistry workflows; claims are task quality, 80% cost and fourfold time against the authors' prior architecture - system outcomes."
+6626,include,exclude,exclude,E7,B: the contribution is an automated environment-generation and training pipeline; distillation versus an experience bank is compared on pass rates only.
+6642,include,exclude,exclude,E7,"B: an OS bundling scheduling, verification, memory, safety and benchmarking, evidenced by LIBERO/Calvin/RoboCasa gains; the SessionVerifier is never isolated."
+6658,include,exclude,exclude,E7,"B: an agentic red-teaming pipeline whose product is vulnerability knowledge; the 14.2pp claim compares frozen concept graphs on attack success, a task outcome."
+7474,exclude,include,include,I2,"B: the contributed object is the failure-driven improvement loop bolted onto a fixed agent, and 42.3 to 48.9 on OSWorld is that mechanism added and removed."
+7668,include,exclude,exclude,E2,B: MCTS runs offline to synthesise fine-tuning data; the shipped model answers in one pass - the guide's fine-tuning-with-no-runtime-loop case.
+8165,include,exclude,include,I2,A: the contribution is the search policy itself - UCB over states with LLM queries for exploration plus cross-trial learnings - set against Reflexion/CLIN loops.
+8191,include,exclude,include,I2,"A: the changed variables are node expansion and the value signal for selection, measured against the prior MCTS agent, so the search policy is the studied object."
+8326,exclude,include,include,I2,"B: search-space efficiency against A* and RL is a property of the search itself, and the contributed object is how the next node is chosen under human feedback."
+8845,include,exclude,include,I2,A: hierarchical against flat multi-agent and single-agent is the guide's topology-comparison case; the arrangement is the manipulated variable.
+9076,exclude,include,include,I2,"B: no abstract, so the title decides; it names dynamic self-reflective reasoning over prior reasoning paths as the contribution, subgraph exploration as the means."
+9084,exclude,include,exclude,E7,"A: no abstract; the title contributes a hallucination-mitigation framework 'using' self-iterative contradiction - mechanism as means, so the title rule excludes."
+9089,exclude,include,include,I2,"B: no abstract; iterative semantic refinement is the title's head and named contribution, with image editing as the setting it is applied to."
+9090,exclude,include,exclude,E7,"A: no abstract; the title contributes enhanced ethical explanations 'through' iterative symbolic refinement - mechanism as means, which the title rule excludes."
+9131,exclude,include,include,I2,"B: no abstract; the title's head is iterative self-correction, named as the contribution, with person re-identification as the setting."
+9136,exclude,include,exclude,E2,A: no abstract; Self-Polish rewrites the problem statement before solving - prompt-level refinement with no feedback returning control.
+9275,exclude,include,exclude,E7,A: no abstract; the title contributes a patch-verification agent built 'using' an iterative architecture - an application with the mechanism as means.
+9429,exclude,include,include,I2,"B: verification is on the mechanism list and CriticEval measures critique quality itself, the control signal deciding whether a result is revised."
+9969,include,exclude,include,I2,"A: an argued architectural position on multi-agent orchestration - executors decoupled from the orchestrator, explicit autonomy boundaries and escalation."
+10720,exclude,include,include,I2,B: no abstract; the title contributes hop-aware diagnosis of where the multi-step retrieve-and-reason loop fails - the loop property the benchmark rule demands.
+10786,include,exclude,include,I2,"A: no abstract; the title's head names guided decoding by iterative value refinement, a value signal choosing the next step - the iteration policy."

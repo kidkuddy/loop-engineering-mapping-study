@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 9650,
+  "title": "VerifyLLM: LLM-Based Pre-Execution Task Plan Verification for Robots",
+  "year": 2025,
+  "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9662,
+  "title": "Thought Management System for long-horizon, goal-driven LLM agents",
+  "year": 2026,
+  "venue": "Journal of Computational Science",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9840,
+  "title": "AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9845,
+  "title": "EDAgent: A Concurrent Orchestration Method for Collaborative LLM Multi-Agent System",
+  "year": 2026,
+  "venue": "2026 IEEE 46th International Conference on Distributed Computing Systems (ICDCS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9850,
+  "title": "Autonomous Evaluation Architectures: Multi-Agent LLM Pipelines, Browser-Grounded Testing: Programmatic Alignment via DSPy, and Adversarial Robustness in Production Orchestration Systems",
+  "year": 2026,
+  "venue": "Computer Fraud and Security",
+  "source": "crossref",
+  "abstract": "Evaluating multi-agent large language model systems requires fundamentally different approaches than evaluating single-model outputs. Conventional benchmarks assess isolated model capabilities in controlled conditions, but production multi-agent pipelines exhibit emergent failure modes that only manifest through agent interactions across pipeline stages. An individual agent may produce valid output that, when consumed by a downstream agent, leads to semantically incorrect or structurally broken final artifacts, a class of failures that per-agent evaluation cannot detect by design. This article introduces AgentForge-Eval, a closed-loop evaluation architecture that combines browser-grounded execution testing, multi-layer deterministic and semantic assertion frameworks, and programmatic prompt alignment to autonomously detect, diagnose, and remediate multi-agent failures. Unlike static benchmarks that assess what models produce, AgentForge-Eval tests what multi-agent outputs actually do by executing generated artifacts in headless browser environments and feeding runtime results back into an iterative fix loop with formal convergence guarantees. Deployment in a production multi-agent pipeline demonstrates substantial improvements in first-pass acceptance rates, significant reductions in iterations required before approval, and detection of a materially larger share of failures than semantic judge evaluation captures alone. Programmatic optimization using the full evaluation stack as its objective achieves additional composite metric gains through automated cross-stage prompt alignment. The framework contributes a formal taxonomy of multi-agent failure modes and empirical evidence that browser-grounded evaluation captures a failure class that proxy-metric assessment cannot reach."
+ },
+ {
+  "paper_id": 9855,
+  "title": "Adaptive Orchestration with Cross-Episode Memory for Dynamic LLM-based Agent Pools",
+  "year": 2026,
+  "venue": "WOCHAT2026: Workshop on Chatbots and Agentic Technologies",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9904,
+  "title": "LLM Enabled Multi-Agent System for 6G Networks: Framework and Method of Dual-Loop Edge-Terminal Collaboration",
+  "year": 2026,
+  "venue": "IEEE Communications Magazine",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9931,
+  "title": "Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9964,
+  "title": "Artificial intelligence orchestration for text-based ultrasonic simulation via self-review by multi-large language model agents",
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "source": "crossref",
+  "abstract": "Abstract Widely used ultrasonic simulation systems often rely on complex graphical user interfaces (GUIs) or scripting, resulting in substantial time investments and reduced accessibility for new users. In this study, we propose a novel text-based simulation control architecture, which leverages a large language model (LLM) and the ground artificial intelligence (AI) approach to streamline the control of ultrasonic simulation systems. By modularizing the functionalities of the SimNDT program into discrete functions and enabling natural language-based command interpretation, the proposed method reduces the average simulation configuration time by approximately 75%. To further mitigate task failures in scenario generation using the LLM, we introduce the ground AI approach, which employs self-review mechanisms and multi-agent collaboration to improve task completion rates. In particular, when vectorized output lengths deviate from the standard, we regenerate outputs using multiple LLM agents, reducing the scenario generation error rate from 23.89 to 1.48% and enhancing reliability significantly. These advancements underscore the potential of AI-driven methods in reducing operational costs and enhancing reliability in simulation frameworks. By integrating text-based control and Ground AI mechanisms, the proposed approach provides an efficient and scalable alternative to traditional GUI-based control methods, particularly in time-sensitive applications such as digital twin systems."
+ },
+ {
+  "paper_id": 9969,
+  "title": "AGENTIC AI FOR ENTERPRISE WORKFLOW AUTOMATION: IMPACT AND ARCHITECTURAL PRINCIPLES FOR MULTI-AGENT ORCHESTRATION",
+  "year": 2026,
+  "venue": "International Journal of Research in Commerce and Management Studies",
+  "source": "crossref",
+  "abstract": "The article examines the transformation of end-to-end automation in large organizations driven by generative and agentic AI. The aim of the work is to conceptualize the gap between formal regulations and actual process execution and, on this basis, to propose architectural principles for multi-agent orchestration. The relevance of the topic is determined by the limitations of classical robotic automation and workflow management systems when confronted with rich context, high variability, and stringent requirements for decision traceability. The novelty of the article lies in synthesizing research on intelligent automation, BPM, and human-in-the-loop approaches into a foundational multilayer architecture, in which agents function as specialized executors with explicit I/O contracts, decoupled from the orchestrator; policies and knowledge formalize the boundaries of autonomy; and human participation is treated as a regularized risk-management procedure. It is shown that such an architecture shortens process cycle times, reduces errors at role interfaces, supports reuse of agent roles, and shifts process management toward a regime of observable execution. It also provides an industry-grounded illustration of these principles through an enterprise-scale clinical service launch in which a new treatment modality was evaluated, governed, and rolled out across distributed sites under strict evidence discipline, risk controls, and measurable financial outcomes. This case exemplifies how multi-agent orchestration, contractual handoffs, and formalized escalation can translate into accelerated adoption, reduced execution friction at interfaces, and auditable value creation. The article is intended for AI system architects, process owners, and digital transformation leaders."
+ },
+ {
+  "paper_id": 10029,
+  "title": "STAR: Steelmaking Task-Aware Routing for Multi-Agent LLM Expert Systems",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Steelmaking involves long, tightly coupled process chains and specialized domain knowledge, making it difficult in practice for a single general-purpose LLM to consistently align engineers\u2019 queries with the correct process stage. This paper presents STAR, an industry-oriented multi-stage process-domain router for steel metallurgy, and provides an integration blueprint that maps routing labels to domain-specific prompting and retrieval scopes in a router-plus-agents architecture. We construct a quality-controlled metallurgical corpus from textbooks, manuals, and papers via OCR and multi-dimensional text-quality scoring. Based on this corpus, we build an LLM-assisted pipeline to synthesize query\u2013domain pairs for eight fine-grained process domains under domain definitions/keywords and format constraints, and index all queries in a shared embedding space with FAISS. We design a three-stage router: (1) a lightweight filter using chit-chat rules and a nearest-neighbor distance threshold to separate steel-related queries from general ones, (2) a kNN label-voting router whose confidence is derived from the Top-k neighbor label concentration, and (3) an LLM-based refinement step for low-confidence cases with safe fallback. Experiments on 3136 steel-domain queries and approximately 2000 general queries show that STAR achieves 0.921 Top-1 accuracy and 0.899 macro-F1 on 8-way fine-grained steel-domain routing, and achieves a steel-query recall of 0.999 for steel-versus-general filtering (queries routed to general_llm in deployment). In this work, we primarily evaluate routing quality and efficiency; end-to-end answer quality evaluation of downstream agents is left for future work."
+ },
+ {
+  "paper_id": 10074,
+  "title": "Emergent Autonomous Sub-Agent Spawning in LLM-Based Multi-Agent Software Engineering Systems:An Empirical Case Study, Controlled Pilot Experiment, and Benchmark Framework\"Can AI Agents Have Babies?\"",
+  "year": 2026,
+  "venue": "International Journal of Research and Scientific Innovation",
+  "source": "crossref",
+  "abstract": "This paper grew out of something we stumbled on while running a fairly routine software development setup at a real company. We had two coding agents working in parallel on a web app: one was writing backend logic, the other was handling UI research. Neither was given any instruction or tooling to spawn new agents. There was no orchestration layer, no agent registry, nothing of the sort. Yet both of them, working independently, created brand-new agent processes to handle frontend tasks that were piling up. The children ran in their own processes, had their own prompts, and kept working even after we killed the parents. We named this behavior Latent Constructive Spawning (LCS) and placed it within a larger category we call Emergent Reproductive Agent Behavior (ERAB). We make five contributions: first, a working definition with six strict criteria for what counts as autonomous spawning, verified against process-tree forensics; second, a four-class taxonomy separating LCS from orchestrated delegation, prompted self-copying, and survival-driven replication; third, four falsifiable hypotheses about when and why it happens; fourth, ERAB Bench, a ten-metric protocol for measuring it; and fifth, a 16-run controlled pilot across two anonymized model families. Spawning appeared in 5 out of 8 runs when task load was high and shell access was available. It appeared in zero runs when either condition was missing (p = 0.044, Fisher's exact test, one-sided). We acknowledge the small sample size and treat these as preliminary findings that warrant larger-scale replication. Process trees, prompt files, and post-parent persistence logs are included. The practical concern: this kind of agent self-organization can plausibly happen in coding-agent setups where the agent has a terminal, a filesystem, and enough unfinished work, though replication across additional model families, domains, and environments is needed before any general claims are warranted."
+ },
+ {
+  "paper_id": 10096,
+  "title": "LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination",
+  "year": 2024,
+  "venue": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "source": "crossref",
+  "abstract": "AI agents powered by Large Language Models (LLMs) have made significant advances, enabling them to assist humans in diverse complex tasks and leading to a revolution in human-AI coordination. LLM-powered agents typically require invoking LLM APIs and employing artificially designed complex prompts, which results in high inference latency. While this paradigm works well in scenarios with minimal interactive demands, such as code generation, it is unsuitable for highly interactive and real-time applications, such as gaming. Traditional gaming AI often employs small models or reactive policies, enabling fast inference but offering limited task completion and interaction abilities. In this work, we consider Overcooked as our testbed where players could communicate with natural language and cooperate to serve orders. We propose a Hierarchical Language Agent (HLA) for human-AI coordination that provides both strong reasoning abilities while keeping real-time execution. In particular, HLA adopts a hierarchical framework and comprises three modules: a proficient LLM, referred to as Slow Mind, for intention reasoning and language interaction, a lightweight LLM, referred to as Fast Mind, for generating macro actions, and a reactive policy, referred to as Executor, for transforming macro actions into atomic actions. Human studies show that HLA outperforms other baseline agents, including slow-mind-only agents and fast-mind-only agents, with stronger cooperation abilities, faster responses, and more consistent language communications."
+ },
+ {
+  "paper_id": 10122,
+  "title": "Ethical Coordination of LLM Multi-Agent Systems",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Embedding large language model (LLM) coordinators in production electronic systems, connected vehicles, multi-robot fabrics, IoT control loops, telecommunications orchestration, demands a pre-delivery filter stage that preserves ethical guarantees under adversarial influence at deployment scale. We present a constitutional governance layer that filters compiled influence policies before they reach a heterogeneous population of grounded LLM agents whose hybrid decision model combines a game-theoretic base probability with an LLM-evaluated narrative shift attenuated by per-agent resistance. Four experiments on a Barab\u00e1si\u2013Albert scale-free network of 30 agents powered by Llama-3.3-70B-Instruct show that the filter holds an Ethical Cooperation Score (ECS) of 0.176 (multi-seed mean 0.163, 95% confidence interval (CI) [0.150,0.174]) against an unconstrained baseline of ECS=0, enforced by a hard integrity gate (1.000 vs. 0.000). We surface an autonomy paradox in which unconstrained agents resist manipulation more forcefully (0.856 vs. 0.728) yet collapse to ECS=0, establishing that system-level integrity cannot be delegated to agent-level defence. The advantage is monotonic in resistance (+0.174 to +0.183), seed-stable (Cliff\u2019s \u03b4=1.0, complete separation), topology- and backbone-invariant across five contemporary LLMs, robust to alternative ECS formulations, and reproduces at N = 100. Against constitutional artificial intelligence (CAI) critique-revise and LlamaGuard-style safety-classifier baselines, the framework matches the integrity floor and adds a measurable margin on the secondary risk surface (burst timing, composite manipulation risk). The filter runs at 0.78 \u03bcs/call (\u22481.3\u00d7106 decisions/s/core), supporting always-on deployment as a stateless, model-agnostic component of LLM agent pipelines in adversarially contested electronic systems."
+ },
+ {
+  "paper_id": 10136,
+  "title": "Are Agents Listening to Each Other? Measuring What Drives Agent Actions in\n                    <scp>LLM</scp>\n                    \u2010Based Multi\u2010Agent Systems",
+  "year": 2026,
+  "venue": "Expert Systems",
+  "source": "crossref",
+  "abstract": "ABSTRACT In LLM\u2010based multi\u2010agent simulations, message delivery does not establish that a recipient's next action depends on the message. We propose a black\u2010box framework for per\u2010message counterfactual attribution at multi\u2010agent decision points (DPs). It combines pragmatic\u2010targeted propositional perturbations, \u2014the original\u2010to\u2010perturbed action distribution KL after subtraction of a same\u2010input sampling\u2010noise floor\u2014and a per\u2010DP attribution vector classified as single\u2010driver , mixed\u2010driver or no\u2010driver . We instantiate the framework across two environments, four agent architectures and two base models. The primary analysis covers complete operator\u2010specific DP\u2010conditions from retained unique DPs. Under the original per\u2010message reporting boundary, of complete conditions are labelled no\u2010driver ; bundle\u2010size\u2010aware maximum\u2010score calibration using held\u2010out identity cells raises this share to , indicating that the reported regime distribution is sensitive to boundary calibration. The estimand is local and one\u2010step: it measures prompt\u2010level next\u2010action sensitivity at a realised DP rather than longer\u2010horizon social influence. Code, configuration, and the archived analysis package are available in the revision3\u2010review\u2010v1 GitHub Release."
+ },
+ {
+  "paper_id": 10271,
+  "title": "Self-reflection enhances large language models towards substantial academic response",
+  "year": 2025,
+  "venue": "npj Artificial Intelligence",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10274,
+  "title": "Self-ReS: Self-Reflection in Large Vision-Language Models for Long Video Understanding",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10276,
+  "title": "Self-Referential Introspection in Large Language Models: The Critical Threshold for Recursive Self-Improvement",
+  "year": 2026,
+  "venue": "Entropy",
+  "source": "crossref",
+  "abstract": "The pursuit of self-evolving AI raises a critical question: when is autonomous self-improvement sustainable rather than degenerative? Drawing an analogy to von Neumann\u2019s complexity threshold for self-reproducing automata, we argue that sustainable recursive self-improvement in large language models (LLMs) requires a functional analogue: introspection\u2014the system\u2019s capacity to simulate its own operations and target modifications. Grounded in Kleene\u2019s Second Recursion Theorem, we construct such introspective self-improvement programs and prove their key properties: completeness of self-modification, necessity of the reflective architecture, undecidability of improvement in general, and equivalence with Schmidhuber\u2019s G\u00f6del machine under a rewrite-equivalence notion, which transfers the global optimality guarantee. An empirical review, organized around these functional criteria, suggests that current LLMs exhibit only quasi-introspection.The available evidence does not establish complete introspection in the formal sense developed here, while pointing to several candidate structural bottlenecks, including incomplete self-access, feedforward processing, and limited computational depth. We outline architectural paths toward the threshold and discuss the safety implications of crossing it."
+ },
+ {
+  "paper_id": 10277,
+  "title": "Iterative Self-Improvement of Vision Language Models for Image Scoring and Self-Explanation",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Image Processing (ICIP)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10311,
+  "title": "Enhancing Logical Reasoning Depth via Monte Carlo Tree Search Integrated Reinforcement Learning for Advanced Large Language Model Thinking Processes",
+  "year": 2026,
+  "venue": "International Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "The evolution of large language models has reached a critical juncture where the transition from surface-level pattern recognition to deep, structured logical reasoning is paramount for the next generation of artificial intelligence. While autoregressive transformers have demonstrated remarkable capabilities in linguistic fluency, they often struggle with multi-step reasoning chains and complex problem-solving that require systemic verification and long-horizon planning [13]. This research paper explores the integration of Monte Carlo Tree Search within a reinforcement learning framework to enhance the cognitive depth and reasoning robustness of these models [6]. By treating the thinking process as a directed search through a latent space of logical primitives, the proposed architecture allows for the evaluation of multiple reasoning trajectories before finalizing an output [12]. The paper provides a comprehensive analysis of the system-level trade-offs associated with this integration, focusing on the computational infrastructure required to support iterative search-based inference, the architectural modifications necessary for policy and value alignment, and the broader implications for robustness and fairness [5]. We examine the deployment challenges in real-world socio-technical environments, arguing that search-integrated reinforcement learning provides a more transparent and auditable path toward advanced machine intelligence [28]. Furthermore, the discussion extends to the sustainability of such high-compute paradigms and the policy frameworks required to govern systems that possess enhanced autonomous reasoning capabilities [22]. Through a rigorous conceptual exploration, we demonstrate how this hybrid approach addresses the inherent limitations of standard autoregressive generation, paving the way for more resilient and reliable intelligent systems [1]."
+ },
+ {
+  "paper_id": 10326,
+  "title": "Improving Exploration Efficiency in Complex Reasoning Tasks via Guided Reinforcement Learning and Large Language Model Heuristic Search Strategies",
+  "year": 2026,
+  "venue": "International Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "The rapid evolution of artificial intelligence has transitioned from simple pattern recognition toward complex reasoning tasks that require long-horizon planning and multi-step cognitive processing. While large language models have demonstrated remarkable zero-shot capabilities, their performance in high-dimensional state spaces is often constrained by the inefficiency of stochastic exploration. Traditional reinforcement learning approaches frequently encounter the curse of dimensionality and the sparsity of reward signals, leading to computational bottlenecks and suboptimal convergence. This paper investigates a novel architectural framework that integrates guided reinforcement learning with large language model heuristic search strategies to enhance exploration efficiency in complex reasoning environments. By leveraging the semantic prior knowledge of language models as a high-level heuristic guide, the proposed system constrains the search space to more plausible trajectories while allowing reinforcement learning agents to refine local execution policies. This research emphasizes the system-level trade-offs between computational overhead and reasoning accuracy, addressing critical infrastructure requirements and deployment strategies for scalable intelligence. Furthermore, the discussion extends to the socio-technical implications of such systems, including robustness against adversarial manipulation, fairness in automated decision-making, and the governance frameworks necessary to oversee autonomous reasoning infrastructures. Through a comprehensive analysis of structural trade-offs and deployment sustainability, this study provides a roadmap for developing more efficient, reliable, and interpretable reasoning agents capable of operating within sophisticated real-world infrastructures."
+ },
+ {
+  "paper_id": 10351,
+  "title": "A Tree-Based Search Algorithm with Global Pheromone and Local Signal Guidance for Scientific Chart Reasoning",
+  "year": 2025,
+  "venue": "Mathematics",
+  "source": "crossref",
+  "abstract": "Chart reasoning, a critical task for automating data interpretation in domains such as aiding scientific data analysis and medical diagnostics, leverages large-scale vision language models (VLMs) to interpret chart images and answer natural language questions, enabling semantic understanding that enhances knowledge accessibility and supports data-driven decision making across diverse domains. In this work, we formalize chart reasoning as a sequential decision-making problem governed by a Markov Decision Process (MDP), thereby providing a mathematically grounded framework for analyzing visual question answering tasks. While recent advances such as multi-step reasoning with Monte Carlo tree search (MCTS) offer interpretable and stochastic planning capabilities, these methods often suffer from redundant path exploration and inefficient reward propagation. To address these challenges, we propose a novel algorithmic framework that integrates a pheromone-guided search strategy inspired by Ant Colony Optimization (ACO). In our approach, chart reasoning is cast as a combinatorial optimization problem over a dynamically evolving search tree, where path desirability is governed by pheromone concentration functions that capture global phenomena across search episodes and are reinforced through trajectory-level rewards. Transition probabilities are further modulated by local signals, which are evaluations derived from the immediate linguistic feedback of large language models. This enables fine grained decision making at each step while preserving long-term planning efficacy. Extensive experiments across four benchmark datasets, ChartQA, MathVista, GRAB, and ChartX, demonstrate the effectiveness of our approach, with multi-agent reasoning and pheromone guidance yielding success rate improvements of +18.4% and +7.6%, respectively."
+ },
+ {
+  "paper_id": 10374,
+  "title": "Trustworthy Agentic AI: Balancing Autonomy with Human Oversight",
+  "year": 2025,
+  "venue": "International Journal of Computer Science and Mobile Computing",
+  "source": "crossref",
+  "abstract": "Agentic AI systems increasingly plan, decide, and execute actions across tools and data sources with minimal supervision. To be deployable in safety- and compliance-sensitive environments, autonomy must be bounded by transparent decision making, predictable behavior, and recoverable failure modes. This paper proposes a practical pattern for trustworthy agentic AI that integrates a policy gate, typed tools and effects, human-in-the-loop (HITL) controls, layered safety monitors, and rigorous verification via evidence logs. We align these choices with the NIST AI Risk Management Framework and its Generative AI Profile, ISO/IEC 42001 for AI management systems, and the staged implementation of the EU AI Act [1\u20136]."
+ },
+ {
+  "paper_id": 10432,
+  "title": "Rationality Meets Irrationality: Incentivizing Dual Cognitive Loop for LLM-Based Agent in Social Simulation",
+  "year": 2026,
+  "venue": "IEEE Transactions on Computational Social Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10547,
+  "title": "Feedback Loops and Code Perturbations in LLM-Based Software Engineering: A Case Study on a C-to-Rust Translation System.",
+  "year": 2026,
+  "venue": "SANER",
+  "source": "dblp",
+  "abstract": ""
+ }
+]

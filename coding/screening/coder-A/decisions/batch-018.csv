@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+1859,exclude,E2,"DPO training loop with execution-accuracy feedback; no runtime control loop, and the claims are BIRD/Spider execution accuracy."
+1860,exclude,E7,"Clinical extraction pipeline with a retry mechanism; reported claims are precision/recall/F1 on RHC notes, not about the retry itself."
+1861,include,I2,"Unifies sampling, self-verification and self-correction and compares against repeated sampling and SELF-REFINE with scaling behaviour reported - iteration policy."
+1862,exclude,E7,"Domain finetuning plus Selective Tree Exploration; claims are stock/legal task performance and a PROOF explainability score, not the search mechanism."
+1863,exclude,E7,"3D referring-expression system; claims are benchmark SOTA and robot pick-and-place, and self-correction only serves finetuning."
+1865,include,I2,A theorem prover checks each explanation and feeds back for refinement; the paper evaluates that error-correction mechanism itself - verification.
+1867,exclude,E5,Review of 32 hackathon projects applying LLMs across materials science and chemistry - secondary overview.
+1868,include,I2,"Theoretical analysis of self-correction as in-context alignment, validated on synthetic data - an explicit argument about retry/repair."
+1869,exclude,E7,"Step-level self-correction instilled by training, but the evidence is GSM8K/MATH accuracy only; nothing is measured about the correction step."
+1870,include,I2,"Two-turn self-correction VLM reporting self-correction performance metrics and reversal-error rates, not accuracy alone - retry/repair."
+1871,exclude,E7,"Banking RAG chatbot; the semantic firewall is evaluated with standard ranking metrics on public benchmarks, so the claims are task outcomes."
+1873,exclude,E5,Survey of the trustworthiness of LLMs in healthcare.
+1874,exclude,E5,Survey-based blueprint and taxonomy of reasoning language models.
+1875,exclude,E2,Blockchain reputation system for scoring LLMs; no iterative control over an agent's next step.
+1876,exclude,E7,"Tool filtering plus a verification module feeding a self-correction loop, but the only evidence is beating SOTA on tool-use tasks."
+1877,exclude,E1,The loop is 6G channel prediction and beamforming adaptation with an RL edge agent; not a language-model agent's control loop.
+1881,exclude,E7,Autonomous pentest prototype; claims are account compromise in the GOAD testbed and cost versus human testers.
+1882,include,I2,"Fact-level calibration is measured as the signal, then drives ConFix self-correction of low-confidence facts - verification."
+1883,include,I2,Self-validation success rate of 88.85% is measured directly and pass ratio is compared against a framework without correction - verification.
+1885,include,I2,"Benchmarks mistake-finding separately from correction and shows the failure lies in error location - verification, a negative result."
+1886,exclude,E2,Three-stage plan-then-execute prompting over long documents; the plan executes once and control never returns on a signal.
+1887,exclude,E3,Off-the-shelf MEDAGENTS/MDAGENTS and prompting strategies applied to a Spanish licensure exam; claims are exam accuracy by specialty.
+1888,exclude,E2,"Rationale finetuning plus outcome reward-model reranking - sampling and scoring, not iteration; claims are Spider execution accuracy."
+1890,exclude,E2,Preference-tree dataset and reward modelling for finetuning; no runtime loop.
+1891,include,I2,"Semantic Self-Verification: solver-checked instantiations, with verification precision and its coverage reported as the result - verification."
+1892,include,I2,"Compares self-reflection, debate and two-stage debate arrangements and reports self-revision rate and consistency - control topology."
+1894,include,I2,"Output entropy decides whether to deepen, expand or stop exploration, against existing depth-selection methods - iteration policy and termination."
+1895,include,I2,"Adaptive-breadth exploration with reflection deciding when to self-correct a path, against predefined-breadth KG navigation, with efficiency reported - iteration policy."
+1898,exclude,E7,Three-module text-to-SQL framework with a correction step; claims are benchmark accuracy across LLMs.
+1900,exclude,E2,"R1-Zero-style RL training for machine translation; reward design, not a runtime control loop."
+1901,exclude,E2,"Self-training that refines trajectories to build data; the contribution is finetuning and curriculum, with no runtime loop studied."
+1902,include,I2,"Navigator-Reasoner reflection built to avoid stalling at a reflection iteration, with ablations on those strategies - iteration policy."
+1906,exclude,E2,Top-down moral-theory prompting framework; single-pass judgement with no iterative control.
+1911,exclude,E2,Self-reflective critic-and-revise is used only to annotate a finetuning dataset; no runtime loop.
+1912,include,I2,"Benchmark whose studied variable is iterative refinement against a differential-testing oracle, measuring feedback-driven self-correction - verification/retry."
+1914,include,I2,Multi-turn RL for self-correction reporting the self-correction gain (15.6%/9.1%) as the metric and analysing SFT collapse - retry/repair.
+1918,include,I2,"Judge-Critic-Refiner loop iterating to convergence, reporting error-correction rate and solution degradation, not accuracy alone - retry/repair."
+1921,exclude,E3,Comparative clinical evaluation of off-the-shelf models on urology questions; claims are expert scores on the answers.
+1922,exclude,E2,LLM self-correction only generates the finetuning dataset; claims are HVAC fault-diagnosis accuracy.
+1923,include,I2,Abstract field holds only bibliographic data; the title names Decompose-Critique-Refine self-correction as the contribution - retry/repair.
+1924,exclude,E2,Philosophical account of intentionality in generative AI; no loop-control mechanism.
+1925,exclude,E2,Zero-shot stereotype detection with multi-step reasoning prompts; no feedback returning control.
+1926,exclude,E7,"Research-idea agent with reviewing agents; claims are the novelty, clarity and validity of the generated ideas."
+1934,include,I2,"Self-verification module queries biological databases, and a manual review targets that module's effect on hallucinations - verification."
+1948,include,I2,"FALLACIES dataset tests whether LLMs can identify faulty reasoning steps, questioning the validity of self-verification methods - verification."

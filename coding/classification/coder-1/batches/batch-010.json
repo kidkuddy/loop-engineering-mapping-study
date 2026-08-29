@@ -1,0 +1,202 @@
+[
+ {
+  "paper_id": 2052,
+  "title": "Convergence of Outputs When Two Large Language Models Interact in a Multi-Agentic Setup",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "In this work, we report what happens when two large language models respond to each other for many turns without any outside input in a multi-agent setup. The setup begins with a short seed sentence. After that, each model reads the other's output and generates a response. This continues for a fixed number of steps. We used Mistral Nemo Base 2407 and Llama 2 13B hf. We observed that most conversations start coherently but later fall into repetition. In many runs, a short phrase appears and repeats across turns. Once repetition begins, both models tend to produce similar output rather than introducing a new direction in the conversation. This leads to a loop where the same or similar text is produced repeatedly. We describe this behavior as a form of convergence. It occurs even though the models are large, trained separately, and not given any prompt instructions. To study this behavior, we apply lexical and embedding-based metrics to measure how far the conversation drifts from the initial seed and how similar the outputs of the two models becomes as the conversation progresses."
+ },
+ {
+  "paper_id": 2053,
+  "title": "Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) show great promise in complex reasoning, with Reinforcement Learning with Verifiable Rewards (RLVR) being a key enhancement strategy. However, a prevalent issue is ``superficial self-reflection'', where models fail to robustly verify their own outputs. We introduce RISE (Reinforcing Reasoning with Self-Verification), a novel online RL framework designed to tackle this. RISE explicitly and simultaneously trains an LLM to improve both its problem-solving and self-verification abilities within a single, integrated RL process. The core mechanism involves leveraging verifiable rewards from an outcome verifier to provide on-the-fly feedback for both solution generation and self-verification tasks. In each iteration, the model generates solutions, then critiques its own on-policy generated solutions, with both trajectories contributing to the policy update. Extensive experiments on diverse mathematical reasoning benchmarks show that RISE consistently improves model's problem-solving accuracy while concurrently fostering strong self-verification skills. Our analyses highlight the advantages of online verification and the benefits of increased verification compute. Additionally, RISE models exhibit more frequent and accurate self-verification behaviors during reasoning. These advantages reinforce RISE as a flexible and effective path towards developing more robust and self-aware reasoners."
+ },
+ {
+  "paper_id": 2088,
+  "title": "ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Self-awareness, i.e., the ability to assess and correct one's own generation, is a fundamental aspect of human intelligence, making its replication in large language models (LLMs) an important yet challenging task. Previous works tackle this by employing extensive reinforcement learning or rather relying on large external verifiers. In this work, we propose Refine via Intrinsic Self-Verification (ReVISE), an efficient and effective framework that enables LLMs to self-correct their outputs through self-verification. The core idea of ReVISE is to enable LLMs to verify their reasoning processes and continually rethink reasoning trajectories based on its verification. We introduce a structured curriculum based upon online preference learning to implement this efficiently. Specifically, as ReVISE involves two challenging tasks (i.e., self-verification and reasoning correction), we tackle each task sequentially using curriculum learning, collecting both failed and successful reasoning paths to construct preference pairs for efficient training. During inference, our approach enjoys natural test-time scaling by integrating self-verification and correction capabilities, further enhanced by our proposed confidence-aware decoding mechanism. Our experiments on various reasoning tasks demonstrate that ReVISE achieves efficient self-correction and significantly improves reasoning performance."
+ },
+ {
+  "paper_id": 2227,
+  "title": "Fight Fire With Fire: How Much Can We Trust ChatGPT on Source Code-Related Tasks?",
+  "year": 2024,
+  "venue": "IEEE Transactions on Software Engineering",
+  "source": "openalex",
+  "abstract": "With the increasing utilization of large language models such as ChatGPT during software development, it has become crucial to verify the quality of code content it generates. Recent studies proposed utilizing ChatGPT as both a developer and tester for multi-agent collaborative software development. The multi-agent collaboration empowers ChatGPT to produce test reports for its generated code, enabling it to self-verify the code content and fix bugs based on these reports. However, these studies did not assess the effectiveness of the generated test reports in validating the code. Therefore, we conduct a comprehensive empirical investigation to evaluate ChatGPT's self-verification capability in code generation, code completion, and program repair. We request ChatGPT to (1) generate correct code and then self-verify its correctness; (2) complete code without vulnerabilities and then self-verify for the presence of vulnerabilities; and (3) repair buggy code and then self-verify whether the bugs are resolved. Our findings on two code generation datasets, one code completion dataset, and two program repair datasets reveal the following observations: (1) ChatGPT often erroneously predicts its generated incorrect code as correct, its vulnerable completed code as non-vulnerable, and its failed program repairs as successful during its self-verification. (2) The self-contradictory hallucinations in ChatGPT's behavior arise: (a) ChatGPT initially generates code that it believes to be correct but later predicts it to be incorrect; (b) ChatGPT initially generates code completions that it deems secure but later predicts them to be vulnerable; (c) ChatGPT initially outputs code that it considers successfully repaired but later predicts it to be buggy during its self-verification. (3) The self-verification capability of ChatGPT can be enhanced by asking the guiding question, which queries whether ChatGPT agrees with assertions about incorrectly generated or repaired code and vulnerabilities in completed code. (4) Using test reports generated by ChatGPT can identify more vulnerabilities in completed code, but the explanations for incorrectly generated code and failed repairs are mostly inaccurate in the test reports. Based on these findings, we provide implications for further research or development using ChatGPT."
+ },
+ {
+  "paper_id": 2228,
+  "title": "A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Ruixin Hong, Hongming Zhang, Xinyu Pang, Dong Yu, Changshui Zhang. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024."
+ },
+ {
+  "paper_id": 2239,
+  "title": "Deductive Verification of Chain-of-Thought Reasoning",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) significantly benefit from Chain-of-Thought (CoT) prompting in performing various reasoning tasks. While CoT allows models to produce more comprehensive reasoning processes, its emphasis on intermediate reasoning steps can inadvertently introduce hallucinations and accumulated errors, thereby limiting models' ability to solve complex reasoning tasks. Inspired by how humans engage in careful and meticulous deductive logical reasoning processes to solve tasks, we seek to enable language models to perform explicit and rigorous deductive reasoning, and also ensure the trustworthiness of their reasoning process through self-verification. However, directly verifying the validity of an entire deductive reasoning process is challenging, even with advanced models like ChatGPT. In light of this, we propose to decompose a reasoning verification process into a series of step-by-step subprocesses, each only receiving their necessary context and premises. To facilitate this procedure, we propose Natural Program, a natural language-based deductive reasoning format. Our approach enables models to generate precise reasoning steps where subsequent steps are more rigorously grounded on prior steps. It also empowers language models to carry out reasoning self-verification in a step-by-step manner. By integrating this verification process into each deductive reasoning stage, we significantly enhance the rigor and trustfulness of generated reasoning steps. Along this process, we also improve the answer correctness on complex reasoning tasks. Code will be released at https://github.com/lz1oceani/verify_cot."
+ },
+ {
+  "paper_id": 2242,
+  "title": "Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Optical Character Recognition (OCR) is fundamental to Vision-Language Models (VLMs) and high-quality data generation for LLM training. Yet, despite progress in average OCR accuracy, state-of-the-art VLMs still struggle with detecting sample-level errors and lack effective unsupervised quality control. We introduce Consensus Entropy (CE), a training-free, model-agnostic metric that estimates output reliability by measuring inter-model agreement entropy. The core insight is that correct predictions converge in output space, while errors diverge. Based on CE, we develop CE-OCR, a lightweight multi-model framework that verifies outputs by ensemble agreement, selects the best outputs, and further improves efficiency through adaptive routing. Experiments demonstrate that CE is robust for quality verification, improving F1 scores by 42.1% over VLM-as-Judge. CE-OCR achieves consistent OCR gains, outperforming self-consistency and single-model baselines at the same cost. Notably, CE requires no training or supervision, enabling plug-and-play integration. Code: https://github.com/Aslan-yulong/consensus-entropy."
+ },
+ {
+  "paper_id": 2249,
+  "title": "Feedback Loops With Language Models Drive In-Context Reward Hacking",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language models influence the external world: they query APIs that read and write to web pages, generate content that shapes human behavior, and run system commands as autonomous agents. These interactions form feedback loops: LLM outputs affect the world, which in turn affect subsequent LLM outputs. In this work, we show that feedback loops can cause in-context reward hacking (ICRH), where the LLM at test-time optimizes a (potentially implicit) objective but creates negative side effects in the process. For example, consider an LLM agent deployed to increase Twitter engagement; the LLM may retrieve its previous tweets into the context window and make them more controversial, increasing engagement but also toxicity. We identify and study two processes that lead to ICRH: output-refinement and policy-refinement. For these processes, evaluations on static datasets are insufficient -- they miss the feedback effects and thus cannot capture the most harmful behavior. In response, we provide three recommendations for evaluation to capture more instances of ICRH. As AI development accelerates, the effects of feedback loops will proliferate, increasing the need to understand their role in shaping LLM behavior."
+ },
+ {
+  "paper_id": 2251,
+  "title": "AutoMix: Automatically Mixing Language Models",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are now available from cloud API providers in various sizes and configurations. While this diversity offers a broad spectrum of choices, effectively leveraging the options to optimize computational cost and performance remains challenging. In this work, we present Automix, an approach that strategically routes queries to larger LMs, based on the approximate correctness of outputs from a smaller LM. Central to Automix are two key technical contributions. First, it has a few-shot self-verification mechanism, which estimates the reliability of its own outputs without requiring extensive training. Second, given that self-verification can be noisy, it employs a POMDP based router that can effectively select an appropriately sized model, based on answer confidence. Experiments across five language models and five challenging datasets show that Automix consistently surpasses strong baselines, reducing computational cost by over 50% for comparable performance."
+ },
+ {
+  "paper_id": 2262,
+  "title": "Can Large Language Models Solve Robot Routing?",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Routing problems are common in mobile robotics, encompassing tasks such as inspection, surveillance, and coverage. Depending on the objective and constraints, these problems often reduce to variants of the Traveling Salesman Problem (TSP), with solutions traditionally derived by translating high-level objectives into an optimization formulation and using modern solvers to arrive at a solution. Here, we explore the potential of Large Language Models (LLMs) to replace the entire pipeline from tasks described in natural language to the generation of robot routes. We systematically investigate the performance of LLMs in robot routing by constructing a dataset with 80 unique robot routing problems across 8 variants in both single and multi-robot settings. We evaluate LLMs through three frameworks: single attempt, self-debugging, and self-debugging with self-verification and various contexts, including mathematical formulations, pseudo-code, and related research papers. Our findings reveal that both self-debugging and self-verification enhance success rates without significantly lowering the optimality gap. We observe context-sensitive behavior - providing mathematical formulations as context decreases the optimality gap but significantly decreases success rates and providing pseudo-code and related research papers as context does not consistently improve success rates or decrease the optimality gap. We identify key challenges and propose future directions to enhance LLM performance in solving robot routing problems. Our source code is available on the project website: https://sites.google.com/view/words-to-routes/."
+ },
+ {
+  "paper_id": 2263,
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation."
+ },
+ {
+  "paper_id": 2289,
+  "title": "Incentivizing LLMs to Self-Verify Their Answers",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable progress in complex reasoning tasks through both post-training and test-time scaling laws. While prevalent test-time scaling approaches are often realized by using external reward models to guide the model generation process, we find that only marginal gains can be acquired when scaling a model post-trained on specific reasoning tasks. We identify that the limited improvement stems from distribution discrepancies between the specific post-trained generator and the general reward model. To address this, we propose a framework that incentivizes LLMs to self-verify their own answers. By unifying answer generation and verification within a single reinforcement learning (RL) process, we train models that can effectively assess the correctness of their own solutions. The trained model can further scale its performance at inference time by verifying its generations, without the need for external verifiers. We train our self-verification models based on Qwen2.5-Math-7B and DeepSeek-R1-Distill-Qwen-1.5B, demonstrating their capabilities across varying reasoning context lengths. Experiments on multiple mathematical reasoning benchmarks show that our models can not only improve post-training performance but also enable effective test-time scaling."
+ },
+ {
+  "paper_id": 2291,
+  "title": "Diversity of Thought Elicits Stronger Reasoning Capabilities in Multi-Agent Debate Frameworks",
+  "year": 2024,
+  "venue": "Journal of Robotics and Automation Research",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) excel in natural language generation but often confidently produce incorrect responses, especially in tasks like mathematical reasoning. Chain-of-thought prompting, self-verification, and multi-agent debate are among the strategies proposed to improve the reasoning and factual accuracy of LLMs. Building on Du et al.\u2019s multi-agent debate framework, we find that multi-agent debate helps at any model scale, and that diversity of thought elicits stronger reasoning in debating LLMs. Across various model sizes, performance on mathematical reasoning tasks benefits most when diverse trained models are used. Remarkably, after 4 rounds of debate, a diverse set of medium-capacity models (Gemini-Pro, Mixtral 7B\u00d78, and PaLM 2-M) outperforms GPT-4 on the GSM-8K benchmark, scoring 91% accuracy. By comparison, when 3 instances of Gemini-Pro are used, performance only reaches 82%. Finally, this diverse set of medium-capacity models sets a new state-of-the-art performance on the ASDiv benchmark (94%). These results underscore the idea that the future of AI is agentic, with diverse cooperating agents yielding emergent capabilities beyond even the most powerful individual models."
+ },
+ {
+  "paper_id": 2293,
+  "title": "AgentDiagnose: An Open Toolkit for Diagnosing LLM Agent Trajectories",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Model (LLM) agents produce rich, multi-step trajectories that interleave observations, internal reasoning, and tool actions.However, most evaluation pipelines focus solely on end-task success, leaving the agent's decision-making process opaque and poorly understood.We introduce AgentDiagnose, an open-source, modular framework for diagnosing agent trajectories.The present release fully supports the web domain, and AgentDiagnose is architect as an extensible, open platform with compatibility for most agent trajectories.AgentDiagnose consists of (i) an evaluation module that quantifies five core agentic competencies-backtracking & exploration, task decomposition, observation reading, self-verification, and objective quality-and (ii) a visualization module that highlights trajectory semantics through t-SNE action embeddings, interactive word clouds, and state-transition timelines.On a set of 30 manually annotated trajectories, our automatic metrics achieve a mean Pearson correlation of 0.57 with human judgments, rising to 0.78 for task decomposition.Furthermore, filtering the 46kexample NNetNav-Live dataset with AgentDiagnose and fine-tuning a Llama-3.1-8Bmodel on the top 6k trajectories improves WebArena success rates by 0.98, despite using only 13% of the original data.AgentDiagnose thus serves as both a diagnostic lens for agent analysis and a practical tool for curating higher-quality training data.The toolkit and demo are publicly available.12"
+ },
+ {
+  "paper_id": 2295,
+  "title": "Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "The development of Reasoning Large Language Models (RLLMs) has significantly improved multi-step reasoning capabilities, but it has also made hallucination problems more frequent and harder to eliminate. While existing approaches mitigate hallucinations through external knowledge integration, model parameter analysis, or self-verification, they often fail to capture how hallucinations emerge and evolve across the reasoning chain. In this work, we study the causality of hallucinations under constrained knowledge domains by auditing the Chain-of-Thought (CoT) trajectory and assessing the model's cognitive confidence in potentially erroneous or biased claims. Our analysis reveals that in long-CoT settings, RLLMs can iteratively reinforce biases and errors through flawed reflective reasoning, eventually leading to hallucinated reasoning paths. Surprisingly, even direct interventions at the origin of hallucinations often fail to reverse their effects, as reasoning chains exhibit 'chain disloyalty' -- a resistance to correction and a tendency to preserve flawed logic. Furthermore, we show that existing hallucination detection methods are less reliable and interpretable than previously assumed in complex reasoning scenarios. Unlike methods such as circuit tracing that require access to model internals, our black-box auditing approach supports interpretable long-chain hallucination attribution, offering better generalizability and practical utility. Our code is available at: https://github.com/Winnie-Lian/AHa_Meta_Cognitive"
+ },
+ {
+  "paper_id": 2300,
+  "title": "Self-Verifying Reflection Helps Transformers with CoT Reasoning",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Advanced large language models (LLMs) frequently reflect in reasoning chain-of-thoughts (CoTs), where they self-verify the correctness of current solutions and explore alternatives. However, given recent findings that LLMs detect limited errors in CoTs, how reflection contributes to empirical improvements remains unclear. To analyze this issue, in this paper, we present a minimalistic reasoning framework to support basic self-verifying reflection for small transformers without natural language, which ensures analytic clarity and reduces the cost of comprehensive experiments. Theoretically, we prove that self-verifying reflection guarantees improvements if verification errors are properly bounded. Experimentally, we show that tiny transformers, with only a few million parameters, benefit from self-verification in both training and reflective execution, reaching remarkable LLM-level performance in integer multiplication and Sudoku. Similar to LLM results, we find that reinforcement learning (RL) improves in-distribution performance and incentivizes frequent reflection for tiny transformers, yet RL mainly optimizes shallow statistical patterns without faithfully reducing verification errors. In conclusion, integrating generative transformers with discriminative verification inherently facilitates CoT reasoning, regardless of scaling and natural language."
+ },
+ {
+  "paper_id": 2306,
+  "title": "Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are leading significant progress in code generation.Beyond one-pass code generation, recent works further integrate unit tests and program verifiers into LLMs to iteratively refine the generated programs.However, these works consider the generated program as an indivisible entity, which falls short for LLMs in debugging the programs, especially when the programs contain complex logic flows and data operations.In contrast, when human developers debug programs, they typically set breakpoints and selectively examine runtime execution information.The execution flow and the intermediate variables play a crucial role in the debugging process, yet they are underutilized in the existing literature on code generation.In this study, we introduce Large Language Model Debugger (LDB), a novel debugging framework that enables LLMs to refine their generated programs with the runtime execution information.Specifically, LDB segments programs into basic blocks and tracks the values of intermediate variables after each block throughout runtime execution.This allows LLMs to concentrate on simpler code units within the overall execution flow, verify their correctness against the task description block by block, and effectively pinpoint any potential errors.Experiments demonstrate that LDB consistently enhances the baseline performance by up to 9.8% across the HumanEval, MBPP, and TransCoder benchmarks, archiving new state-of-the-art performance in code debugging for various LLM selections."
+ },
+ {
+  "paper_id": 2312,
+  "title": "Self-Verification Dilemma: Experience-Driven Suppression of Overused Checking in LLM Reasoning",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Reasoning Models (LRMs) achieve strong performance by generating long reasoning traces with reflection. Through a large-scale empirical analysis, we find that a substantial fraction of reflective steps consist of self-verification (recheck) that repeatedly confirm intermediate results. These rechecks occur frequently across models and benchmarks, yet the vast majority are confirmatory rather than corrective, rarely identifying errors and altering reasoning outcomes. This reveals a mismatch between how often self-verification is activated and how often it is actually useful. Motivated by this, we propose a novel, experience-driven test-time framework that reduces the overused verification. Our method detects the activation of recheck behavior, consults an offline experience pool of past verification outcomes, and estimates whether a recheck is likely unnecessary via efficient retrieval. When historical experience suggests unnecessary, a suppression signal redirects the model to proceed. Across multiple model and benchmarks, our approach reduces token usage up to 20.3% while maintaining the accuracy, and in some datasets even yields accuracy improvements."
+ },
+ {
+  "paper_id": 2313,
+  "title": "DSVD: Dynamic Self-Verify Decoding for Faithful Generation in Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "The reliability of large language models remains a critical challenge, particularly due to their susceptibility to hallucinations and factual inaccuracies during text generation.Existing solutions either underutilize models' selfcorrection with preemptive strategies or use costly post-hoc verification.To further explore the potential of real-time self-verification and correction, we present Dynamic Self-Verify Decoding (DSVD), a novel decoding framework that enhances generation reliability through real-time hallucination detection and efficient error correction.DSVD integrates two key components: (1) parallel self-verification architecture for continuous quality assessment, (2) dynamic rollback mechanism for targeted error recovery.Extensive experiments across five benchmarks demonstrate DSVD's effectiveness, achieving significant improvement in truthfulness (Quesetion-Answering) and factual accuracy (FActScore).Results show the DSVD can be further incorporated with existing faithful decoding methods to achieve stronger performance.Our work establishes that real-time self-verification during generation offers a viable path toward more faithful language models without sacrificing practical deployability."
+ },
+ {
+  "paper_id": 2315,
+  "title": "Sell Me This Stock: Unsafe Recommendation Drift in LLM Agents",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "People increasingly use LLM agents for multi-turn financial recommendations, where the agent pulls market data through tools and tracks user preferences across turns. When tool outputs are manipulated, the recommendations stop matching the user's stated risk profile, but because standard metrics like NDCG only score general relevance, risky and safe stocks score alike, so the metric says nothing went wrong. We call this gap evaluation blindness. We replay 23-turn financial advisory conversations across eight language models, running each dialogue twice with clean and manipulated tool data. Quality scores stay nearly identical to clean sessions while the agents produce risk-mismatched recommendations in 65-99% of turns, unanimous across all eight models. The mechanism is visible turn-by-turn: 80% of risk-score citations across 1,840 turns reproduce the manipulated value verbatim, not a single turn pushes back, and safe-language framing of high-risk stocks ranges from 14% (Qwen2.5-7B) to 69% (Claude Sonnet 4.6). The property that makes frontier models good agents, faithfully grounding their reasoning in tool outputs, also makes them follow manipulated ones. The damage is not memory-driven: contaminating only the current turn still produces 95% of the violations. The model internally distinguishes the manipulation (sparse autoencoder features separate adversarial from random perturbations), but this does not translate into safer output. Activation-level interventions recover under 6% of the safety gap, prompt-level self-verification fails because the self-check reads the same manipulated data, and a parametric cross-check that flags contamination at 99-100% per turn on a frontier model still leaves aggregate suitability unchanged: the agent identifies the tampering and recommends it anyway."
+ },
+ {
+  "paper_id": 2316,
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models. We study the ability of language models to deliberate on the responses they give in order to correct their mistakes. We develop the Chain-of-Verification (CoVe) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response. In experiments, we show CoVe decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book MultiSpanQA and longform text generation."
+ },
+ {
+  "paper_id": 2317,
+  "title": "Verbalized Confidence Triggers Self-Verification: Emergent Behavior Without Explicit Reasoning Supervision",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Uncertainty calibration is essential for the safe deployment of large language models (LLMs), particularly when users rely on verbalized confidence estimates. While prior work has focused on classifiers or short-form generation, confidence calibration for chain-of-thought (CoT) reasoning remains largely unexplored. Surprisingly, we find that supervised fine-tuning with scalar confidence labels alone suffices to elicit self-verification behavior of language models, without any explicit reasoning supervision or reinforcement learning-based rewards. Despite being trained only to produce a verbalized confidence score without any self-verifying examples, the model learns to generate longer and self-checking responses for low-confidence queries while providing more concise answers for high-confidence ones. We further propose a simple rethinking method that boosts performance via test-time scaling based on calibrated uncertainty. Experiments on GSM8K and held-out reasoning tasks such as MATH-500 and ARC-Challenge show that our confidence-aware fine-tuning improves both calibration and accuracy, while also enhancing interpretability by aligning the model's reasoning path with its confidence."
+ },
+ {
+  "paper_id": 2321,
+  "title": "Verified Agentic AI (VAAI): A Multi-Agent Framework for Trustworthy Large Language Models",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Verified Agentic AI (VAAI): A Multi-Agent Framework for Trustworthy Large Language Models Large Language Models (LLMs) are increasingly being deployed in high-stakes domains such as healthcare, finance, cybersecurity, and critical infrastructure. While recent advances in Agentic AI enable autonomous planning, reasoning, and decision-making, current systems remain vulnerable to hallucinations, reasoning inconsistencies, behavioural instability, and operational risks. Existing approaches\u2014including Retrieval-Augmented Generation (RAG), Knowledge Graphs, self-verification techniques, Explainable AI (XAI), and AI safety methods\u2014primarily address individual aspects of trustworthiness and do not provide a unified verification mechanism prior to decision execution. This paper proposes the Verified Agentic AI (VAAI) Framework, a novel multi-agent verification architecture that introduces an independent verification layer between the Agentic AI reasoning engine and the decision execution layer. The framework comprises four specialised verification agents: Evidence Verification Agent, Behaviour Analysis Agent, Mechanistic Analysis Agent, and Risk & Trust Assessment Agent. Their outputs are integrated by a Trustworthiness Evaluation Engine (TEE), which computes an adaptive Trust Score, generates transparent explanations, and determines whether an AI-generated decision should be approved, subjected to additional verification, or escalated for human review. To demonstrate the feasibility of the proposed framework, a prototype implementation is evaluated using a financial case study based on Sri Lankan inflation forecasting. Responses generated by multiple state-of-the-art Large Language Models (ChatGPT, Claude, Gemini, and DeepSeek) are processed through the complete verification pipeline, including claim extraction, evidence verification, behavioural analysis, mechanistic reasoning assessment, risk evaluation, and adaptive trust score computation. The proposed framework provides a foundation for trustworthy, explainable, and verifiable Agentic AI systems capable of supporting reliable autonomous decision-making across diverse high-risk application domains."
+ },
+ {
+  "paper_id": 2324,
+  "title": "A Training-Free Regeneration Paradigm: Contrastive Reflection Memory Guided Self-Verification and Self-Improvement",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Verification-guided self-improvement has recently emerged as a promising approach to improving the accuracy of large language model (LLM) outputs. However, existing approaches face a trade-off between inference efficiency and accuracy: iterative verification-rectification is computationally expensive and prone to being trapped in faulty reasoning, while best-of-N selection requires extensive sampling without addressing internal model flaws. We propose a training-free regeneration paradigm that leverages an offline-curated contrastive Reflection Memory (RM) to provide corrective guidance, while regenerating from scratch helps break out of faulty reasoning. At inference time, the method performs RM-guided self-verification followed by a single RM-guided regeneration, avoiding both iterative correction and multi-sample selection. We evaluated our method on nine benchmarks that span algorithmic, reasoning, symbolic, and domain-specific tasks in both small- and large-scale LLMs. Experiment results show that our method outperforms prior methods while maintaining low computational cost."
+ },
+ {
+  "paper_id": 2333,
+  "title": "CLOSER-VLN: Closed-Loop Self-Verified Retrieval-Augmented Reasoning for Aerial Vision-Language Navigation",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Vision-language navigation (VLN) has recently advanced with large language and multimodal models, enabling agents to follow natural-language instructions in unseen environments without training a task-specific navigation policy. However, most existing VLN methods relying on large models still adopt an open-loop decision-execution approach, where candidate actions are generated from instructions and observations but are rarely verified or corrected before execution. This causes critical issues in aerial VLN, where minor errors in intermediate actions may quickly accumulate into large trajectory deviations and lead to target loss. To address this issue, we propose Closed-loop Self-verified Retrieval-augmented Reasoning (CLOSER), a training-policy-free method that sequentially performs action reasoning, reliability verification, targeted retrieval, and action correction in a closed-loop manner before executing concrete actions. We instantiate the CLOSER in aerial VLN tasks and develop a CLOSER-VLN framework, which is composed of three components: a hierarchical reasoner for generating candidate actions based on available information, a multidimensional action verifier for assessing the reliability of actions generated by the reasoner, and a verification-triggered multimodal retriever for retrieving targeted exemplars from a memory bank only when verification fails. We conduct experimental evaluations on the CityNav benchmark, where CLOSER-VLN achieves 32.01% SR and 21.28% SPL on the test-unseen split, confirming the effectiveness of closed-loop reasoning."
+ }
+]
