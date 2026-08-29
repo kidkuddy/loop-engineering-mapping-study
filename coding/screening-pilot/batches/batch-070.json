@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 9544,
+  "title": "ORCHES: Orchestrated Test-Time-Compute-based LLM Reasoning on Collaborative GPU-PIM HEterogeneous System",
+  "year": 2025,
+  "venue": "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9553,
+  "title": "Derailer-Rerailer: Adaptive Verification for Efficient and Reliable Language Model Reasoning",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9570,
+  "title": "Real Time Adaptive Teaching Digital Human System Based on Large Language Model",
+  "year": 2026,
+  "venue": "International Scientific Technical  and Economic Research",
+  "source": "crossref",
+  "abstract": "With the diversification and personalization of educational needs, the traditional teaching model is facing many challenges, especially in meeting students' personalized learning needs and providing real-time feedback. This study proposes a real-time adaptive teaching digital human system based on a large language model, which aims to improve the quality of education and student engagement through intelligent technology. The system obtains students' learning status in real time through a variety of data acquisition devices (such as learning behavior tracking, question-answering records, and speech recognition) and uses the large language model to generate personalized teaching content and feedback. The system calculates a comprehensive learning status score by evaluating students' learning progress, answer accuracy, participation, and learning time, thereby dynamically adjusting the teaching content and learning path. Experimental results show that with the system, students' knowledge mastery rate increases by 15%, understanding depth by 17%, and learning interest by 20%. The system's response time is reduced from 5 seconds (in traditional systems) to 1.5 seconds, and its processing capacity is increased by 2.5 times, supporting more concurrent users. The successful implementation of the system provides a new solution for personalized education and has broad application prospects, especially in online education and distance learning."
+ },
+ {
+  "paper_id": 9574,
+  "title": "Integrating Semantic Reasoning and Large Language Models for Real-Time Adaptive User Interfaces in E-Commerce: A Systematic Literature Review",
+  "year": 2025,
+  "venue": "2025 7th International Conference on Interdisciplinary Computer Science and Engineering (ICICSE)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9612,
+  "title": "ReflectiChain: Grounding Long-Horizon LLM Planning against Semantic-Execution Drift",
+  "year": 2026,
+  "venue": "IEEE Signal Processing Letters",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9613,
+  "title": "M.A.K.S: Multidimensional Access Knowledge Scoring for Long-Horizon LLM Agent Memory Management",
+  "year": 2026,
+  "venue": "Iconic Research and Engineering Journals",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9614,
+  "title": "A Modular Multi-Agent Coordination Framework for Persistent Autonomous AI Assistants with Tool Orchestration and Long-Horizon Task Management",
+  "year": 2026,
+  "venue": "International Journal of Innovative Science and Research Technology",
+  "source": "crossref",
+  "abstract": "Autonomous AI assistants are evolving from reactive, single-session language models into persistent, toolintegrated systems that can execute long-horizon tasks. However, most existing assistant architectures rely on either monolithic control loops or loosely structured agent delegation patterns that lack formal coordination protocols, governance safeguards, and dependency-aware orchestration. This study presents a modular multi-agent coordination framework built on an extended OpenClaw autonomous agent substrate designed to support persistent tool-augmented AI assistants operating across heterogeneous workflows. The proposed framework introduces (1) a shared task-ledger coordination protocol, (2) a dependency-aware task graph model, (3) role-isolated specialist agents with synthesis control, and (4) governance layers that incorporate approval gating, prompt-injection defense, and security monitoring. To evaluate the framework, we designed a synthetic benchmark environment to model event-driven automation, parallel advisory councils, knowledge retrieval pipelines, and long-horizon scheduled workflows. Across controlled simulation trials, we analyzed the coordination overhead, task completion rates, conflict resolution latency, token consumption growth, and dependency-coupling sensitivity. The results indicate that structured multiagent coordination improves task throughput under medium coupling regimes while introducing measurable synchronization costs under high interdependency conditions. The findings contribute empirical clarity to the design of persistent AI assistant systems and establish a reproducible evaluation methodology for tool-augmented multiagent orchestration frameworks."
+ },
+ {
+  "paper_id": 9615,
+  "title": "Toward Scalable LLM-Based Multi-Agent Collaboration: A Dynamic Task Graph Approach with Asynchronous Parallel Execution",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Deploying Large Language Models (LLMs) in collaborative multi-agent settings represents a promising frontier for complex AI problem-solving, yet the field lacks systematic mechanisms to manage the inherent coordination overhead and resource contention that arise at scale. Existing LLM-based Multi-Agent System (MAS) frameworks predominantly adopt sequential or loosely coupled execution models, which fail to exploit the parallelism potential of modern computing environments and limit overall system throughput. To bridge this gap, this paper presents DynTaskMAS, a framework that redefines task orchestration in LLM-based MASs through a dynamic task graph abstraction. Rather than treating tasks as static pipelines, DynTaskMAS continuously models task interdependencies at runtime, enabling opportunistic parallel execution while preserving logical correctness. The architecture integrates four synergistic components: a runtime task decomposition module that captures evolving dependencies among subtasks; a scheduling engine that dispatches ready tasks to available agents without centralized bottlenecks; a context propagation layer that maintains shared semantic state across concurrently executing agents; and a self-tuning workflow controller that adapts execution priorities based on observed system load. Together, these components address a core tension in LLM-based MAS design, balancing agent autonomy with coordinated efficiency. Evaluations across tasks of varying complexity confirm that DynTaskMAS delivers substantial gains in execution efficiency (21.3\u201333.0% reduction), resource utilization (from 65% to 88%), and agent scalability (3.47\u00d7 throughput with 16 concurrent agents) compared to sequential baselines. This work offers a generalizable architectural blueprint for next-generation LLM-based Multi-Agent Systems operating under real-world dynamic and resource-constrained conditions."
+ },
+ {
+  "paper_id": 9616,
+  "title": "ReflectiChain: Mitigating Semantic-Execution Drift in Long-Horizon LLM Agents via Retrospective Reflection and Double-Loop Policy Adaptation",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Large Language Model (LLM) agents in long-horizon planning often exhibit Semantic-Execution Drift (SED), where executed actions progressively deviate from original language constraints. To formalize this phenomenon, we model SED as a stochastic drift process, expressed by the recurrence D(t+1) = alpha D(t) + epsilon(t) + beta P(t), and show that policies with an alpha below one induce semantic contraction. We propose ReflectiChain, a framework integrating Retrospective Reflection, a Latent World Model, and Double-Loop Policy Adaptation to preserve semantic consistency during long trajectories. To evaluate SED, we introduce Sema-Sim, a multi-agent supply chain benchmark containing 10 policy constraints, six adversarial perturbations, and 30-step planning horizons. We further propose the Semantic Fidelity Index (SFI) for measuring instruction adherence. Experiments on DeepSeek-V3.2 across seven reasoning strategies show that ReflectiChain achieves the highest SFI (88.7) and stable semantic contraction (alpha = 0.823, below one). The results are consistently validated on Qwen3.5-122B and Qwen2.5-72B. Ablation studies demonstrate that Retrospective Reflection contributes most to performance gains. Additional analyses on scalability, failure modes, and cost efficiency further verify the robustness and practicality of the proposed framework. All code and evaluation resources are publicly released."
+ },
+ {
+  "paper_id": 9618,
+  "title": "CaStL: Constraints as Specifications Through Llm Translation for Long-Horizon Task and Motion Planning",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9619,
+  "title": "Coarse-to-Fine Failure Attribution for Long-Horizon LLM Multi-Agent Systems",
+  "year": 2026,
+  "venue": "2026 2nd International Conference on Mechatronics, Robotics, and Artificial Intelligence (MRAI)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9622,
+  "title": "Dual-LLM Hierarchical Task Planning and Skill Grounding for Mobile Manipulation in Long-Horizon Restroom Cleaning",
+  "year": 2025,
+  "venue": "IEEE Access",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9639,
+  "title": "Multimodal Autonomous Robotic Long-Horizon Task Planning via Embodied Language Model and Behavior Trees",
+  "year": 2025,
+  "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9650,
+  "title": "VerifyLLM: LLM-Based Pre-Execution Task Plan Verification for Robots",
+  "year": 2025,
+  "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9652,
+  "title": "LLM-Driven Hierarchical Planning: Long-horizon Task Allocation for Multi-Robot Systems in Cross-Regional Environments",
+  "year": 2025,
+  "venue": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9653,
+  "title": "Providing Task Execution Capabilities in LLM-Based Conversational Assistants",
+  "year": 2025,
+  "venue": "Anais do XXI Simp\u00f3sio Brasileiro de Sistemas de Informa\u00e7\u00e3o (SBSI 2025)",
+  "source": "crossref",
+  "abstract": "Context: Conversational assistants (CAs) powered by Large Language Models (LLMs) excel in generating coherent responses, but struggle with task execution requiring long-term memory or temporal awareness. This research addresses such limitations, particularly in healthcare applications where task continuity is crucial. Problem: Existing CAs often fail to meet user expectations in scenarios requiring long-term task management, such as scheduling reminders or monitoring chronic health conditions. This lack of temporal reasoning and memory continuity undermines user trust and engagement. Proposed Solution: We propose a multi-agent system integrating LLMs with structured data processing, that enables CAs to recognize, manage, and execute user requests, such as scheduling reminders or tracking tasks over time. The solution bridges the gap between conversational fluency and actionable outcomes. IT Theory: The study draws on theories of Human-Computer Interaction (HCI) and Temporal Awareness in Information Technology for allowing structured task execution. Method: The research combines proof-of-concept implementation with healthcare case studies. Two experimental phases evaluated the solution: a pilot test with 35 users and an expanded trial with 437 participants focusing on chronic disease management. Summarization of Results: Results demonstrated an improvement in task fulfillment and user engagement. The assistant successfully addressed 82% of task requests in simulations, with reduced user frustration and longer interactions during real-world trials. Contributions and Impact on IT: The study enhances the capabilities of conversational assistants by introducing temporal reasoning and structured task execution, making them more effective in managing real-world tasks. These advancements improve the applicability of CAs, particularly in domains like healthcare, where accurate and timely task management is critical."
+ },
+ {
+  "paper_id": 9662,
+  "title": "Thought Management System for long-horizon, goal-driven LLM agents",
+  "year": 2026,
+  "venue": "Journal of Computational Science",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9666,
+  "title": "LLMind: Orchestrating AI and IoT with LLM for Complex Task Execution",
+  "year": 2025,
+  "venue": "IEEE Communications Magazine",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9670,
+  "title": "CRPS: Curriculum Replay via Progressive Suffixes from Successful Trajectories for Long-Horizon LLM Agents",
+  "year": 2026,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9671,
+  "title": "LLM-Based Long-Term Life Task Planning to Reduce Human Uncertainty",
+  "year": 2025,
+  "venue": "ACM SIGIR Forum",
+  "source": "crossref",
+  "abstract": "In long-term life tasks, people often face challenges from uncertainty in tasks and information-seeking, which can create difficulties in decision-making and task completion. Recent advancements in Artificial Intelligence (AI), especially in Large Language Models (LLMs), offer transformative capabilities in domain-specific task planning and problem-solving. Despite these innovations, there is limited understanding of how such technologies can be applied to assist humans in long-term life tasks. This dissertation work seeks to address this gap by exploring how human-AI collaboration, mediated through LLM-based agents, can improve long-term life task planning and uncertainty management. To achieve this, this dissertation first proposes the long-term life task type and investigates how people may use AI tools to assist them in planning long-term life tasks and cope with uncertainty. Secondly, it proposes the Goal Oriented Long-term liFe planning (GOLF) framework that integrates LLMs to emulate human-AI collaboration in diverse long-term life task domains. The framework facilitates task decomposition and iterative planning while evaluating uncertainties throughout the process. Thirdly, the study introduces a GOLF benchmark to evaluate and generalize the effectiveness of LLMs in long-term planning scenarios. This study operates at the intersection of cognitive science, information science, and human-AI interaction, and makes multifaceted contributions. Theoretically, by introducing the concept of long-term life tasks and proposing the GOLF framework, it explores the potential of human-AI collaborations for long-term planning and uncertainty management. Methodologically, through a simulation-based approach and the LLM benchmark, it enables systematic evaluation of LLMs in long-term planning scenarios across domains. This work bridges the gap between human cognitive strategies and AI planning capabilities, providing a robust foundation for future advancements in AI-assisted task management and goal achievement. Awarded by: The University of Oklahoma, Norman, OK, USA on 4 December 2025. Supervised by: Jiqun Liu."
+ },
+ {
+  "paper_id": 9676,
+  "title": "Task Offloading with LLM-Enhanced Multi-Agent Reinforcement Learning in UAV-Assisted Edge Computing",
+  "year": 2024,
+  "venue": "Sensors",
+  "source": "crossref",
+  "abstract": "Unmanned aerial vehicles (UAVs) furnished with computational servers enable user equipment (UE) to offload complex computational tasks, thereby addressing the limitations of edge computing in remote or resource-constrained environments. The application of value decomposition algorithms for UAV trajectory planning has drawn considerable research attention. However, existing value decomposition algorithms commonly encounter obstacles in effectively associating local observations with the global state of UAV clusters, which hinders their task-solving capabilities and gives rise to reduced task completion rates and prolonged convergence times. To address these challenges, this paper introduces an innovative multi-agent deep learning framework that conceptualizes multi-UAV trajectory optimization as a decentralized partially observable Markov decision process (Dec-POMDP). This framework integrates the QTRAN algorithm with a large language model (LLM) for efficient region decomposition and employs graph convolutional networks (GCNs) combined with self-attention mechanisms to adeptly manage inter-subregion relationships. The simulation results demonstrate that the proposed method significantly outperforms existing deep reinforcement learning methods, with improvements in convergence speed and task completion rate exceeding 10%. Overall, this framework significantly advances UAV trajectory optimization and enhances the performance of multi-agent systems within UAV-assisted edge computing environments."
+ },
+ {
+  "paper_id": 9679,
+  "title": "Beyond Reactive Safety: Risk-Aware LLM Alignment via Long-Horizon Simulation",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9683,
+  "title": "CIFLEX: Contextual Instruction Flow for Sub-task Execution in Multi-Turn Interactions with a Single On-Device LLM",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9766,
+  "title": "Model Context Protocol (MCP) or Agent-to-Agent (A2A) \u2014 Defining Right Communication Protocol for Agentic AI in Financial Services Use Cases",
+  "year": 2026,
+  "venue": "International Journal of Innovative Research in Engineering and Management",
+  "source": "crossref",
+  "abstract": "The rapid adoption of large language model (LLM)-based agentic systems in financial services has created an urgent architectural question for enterprise technology leaders: should an institution standardize on the Model Context Protocol (MCP), introduced by Anthropic in November 2024, or the Agent2Agent (A2A) protocol, introduced by Google in April 2025, when designing agentic AI infrastructure? This paper undertakes a structured comparative analysis of both protocols through the lens of financial-services use cases such as fraud detection, credit decisioning, model risk management, regulatory compliance, treasury operations, and agentic commerce and payments. Drawing on protocol specifications, peer-reviewed and preprint literature, and documented industry deployments at institutions including JPMorgan Chase, Goldman Sachs, Commonwealth Bank, Visa, and Mastercard, the study finds that MCP and A2A occupy complementary layers of the agentic AI stack rather than competing for the same role: MCP is a vertical protocol governing how an individual agent accesses tools, data, and enterprise systems, while A2A is a horizontal protocol governing how autonomous agents owned by different teams, vendors, or institutions discover, negotiate with, and delegate tasks to one another. To move beyond a purely narrative comparison, the paper adds a literature-supported case-study table of documented financial-services deployments and a rubric-based comparative scoring exercise across six operational criteria. The results support a decision framework in which mature agentic AI architectures in regulated finance converge toward a layered deployment: MCP grounds individual agents in trusted enterprise data, and A2A orchestrates cross-institutional and cross-vendor collaboration, with emerging payment-layer extensions such as the Agent Payments Protocol (AP2) and x402 bridging agent coordination to settlement. The paper closes by identifying research gaps around protocol security maturity, regulatory liability for autonomous agent transactions, and the absence of controlled empirical benchmarking in the financial-services domain."
+ },
+ {
+  "paper_id": 9767,
+  "title": "In-Context Autonomous Network Incident Response: An End-to-End Large Language Model Agent Approach",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Symposium Series",
+  "source": "crossref",
+  "abstract": "Rapidly evolving cyberattacks demand incident response systems that can autonomously learn and adapt to changing threats. Prior work has extensively explored the reinforcement learning approach, which involves learning response strategies through extensive simulation of the incident. While this approach can be effective, it requires handcrafted modeling of the simulator and suppresses useful semantics from raw system logs and alerts. To address these limitations, we propose to leverage large language models' (LLMs) pre-trained security knowledge and in-context learning to create an end-to-end agentic solution for incident response planning. Specifically, our agent integrates four functionalities, perception, reasoning, planning, and action, into one lightweight LLM (14b model). Through fine-tuning and chain-of-thought reasoning, our LLM agent is capable of processing system logs and inferring the underlying network state (perception), updating its conjecture of attack models (reasoning), simulating consequences under different response strategies (planning), and generating an effective response (action). By comparing LLM-simulated outcomes with actual observations, the LLM agent repeatedly refines its attack conjecture and corresponding response, thereby demonstrating in-context adaptation. Our agentic approach is free of modeling and can run on commodity hardware. When evaluated on incident logs reported in the literature, our agent achieves recovery up to 23% faster than those of frontier LLMs."
+ },
+ {
+  "paper_id": 9771,
+  "title": "A Toolset-First\nParadigm Based on Large Language Model\nand Agent via Model Context Protocol for Intelligent Computation",
+  "year": 2026,
+  "venue": "The Journal of Physical\nChemistry Letters",
+  "source": "crossref",
+  "abstract": "Abstract Large language models (LLMs) and agents have lately propelled advances in artificial intelligence for science (AI4S). In this work, we propose a toolset-first paradigm for intelligent computation that decouples the tools from the agents via the model context protocol (MCP). We construct four MCP servers, HEA-MCP, VASP-MCP, LAMMPS-MCP, and OpenClaw-MCP. HEA-MCP provides theoretical calculations for high-entropy alloys (HEA). VASP-MCP and LAMMPS-MCP provide first-principles calculations and molecular dynamics simulations, respectively. OpenClaw-MCP contains an autonomous agent, OpenClaw, which renders the autonomous agent a callable tool. OpenClaw itself also supports the MCP to form a recursive agent architecture. By packaging the tools as MCP servers and connecting them to a general MCP-compatible agent, domain-specific capabilities can be obtained without building dedicated agents and can be reused across agentic frameworks."
+ },
+ {
+  "paper_id": 9777,
+  "title": "Large Language Model-Informed Geometric Trajectory Embedding for Driving Scenario Retrieval",
+  "year": 2025,
+  "venue": "Proceedings of the 11th International Conference on Vehicle Technology and Intelligent Transport Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9789,
+  "title": "Intention-Guided Airport Surface Trajectory Forecasting Using a Vision Language Model",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9794,
+  "title": "TrajAgent: An LLM-Agent Framework for Trajectory Modeling via Large-and-Small Model Collaboration",
+  "year": 2025,
+  "venue": "Advances in Neural Information Processing Systems 38",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9807,
+  "title": "Sample Trajectory Selection Method Based on Large Language Model in Reinforcement Learning",
+  "year": 2024,
+  "venue": "IEEE Access",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9817,
+  "title": "The Impact of Artificial Intelligence Large Language Models on Health Management Model Innovation in the Context of Digital Healthcare",
+  "year": 2025,
+  "venue": "Journal of Medicine and Health Science",
+  "source": "crossref",
+  "abstract": "This study aims to explore the impact of artificial intelligence large language models (LLMs) on health management model innovation in the context of digital healthcare. The research employs literature analysis and theoretical synthesis to construct a framework illustrating how LLMs influence health management innovation across three dimensions: service model, organizational management, and value chain ecosystem. The findings indicate that LLMs promote personalized and continuous service models through multi-source data integration and intelligent analysis, optimize organizational decision-making and resource allocation, enhance the dynamic capabilities of healthcare institutions, and facilitate cross-institutional collaboration and value co-creation, thereby improving the health management ecosystem. Based on these results, managerial implications are provided, emphasizing the adoption of LLM technologies to drive transformation in health management models. Future research directions include empirical validation, exploration of ethical and data security issues, and analysis of adaptability across different types of healthcare institutions. The study concludes that LLMs not only enhance the intelligence of health management but also provide a theoretical foundation and practical reference for organizational model innovation and health service ecosystem optimization."
+ },
+ {
+  "paper_id": 9820,
+  "title": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation",
+  "year": 2026,
+  "venue": "2026 27th IEEE International Conference on Mobile Data Management (MDM)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9832,
+  "title": "A context aware model for autonomous agent stochastic planning",
+  "year": 2019,
+  "venue": "Robotics and Autonomous Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9837,
+  "title": "Large language model-driven dynamic trajectory planning for human-guided robot assembly",
+  "year": 2025,
+  "venue": "Manufacturing Letters",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9839,
+  "title": "Network Function Orchestration with LLM based Multi-Agent System",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Communications Workshops (ICC Workshops)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9840,
+  "title": "AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9841,
+  "title": "LLM-Based Multi-Agent Orchestration: A Survey of Frameworks, Communication Protocols, and Emerging Patterns",
+  "year": 2026,
+  "venue": "Future Internet",
+  "source": "crossref",
+  "abstract": "The proliferation of large language model (LLM) agents has enabled increasingly complex multi-step automation; however, composing multiple agents into coherent systems introduces significant orchestration challenges that remain poorly documented. This survey examines LLM-based multi-agent orchestration from 2023 through early 2026 (literature cutoff: March 2026), with explicit attention to the evidence hierarchy used to interpret deployment claims. We propose a three-topology, one-adaptivity taxonomy\u2014centralized, decentralized, and hierarchical coordination topologies, each optionally augmented with a dynamic\u2013adaptive control axis\u2014grounded in classical multi-agent systems theory and recent empirical evidence. We compare six leading frameworks (LangGraph, CrewAI, AutoGen/Microsoft Agent Framework, OpenAI Agents SDK, MetaGPT, and DSPy) along axes directly relevant to practitioners: state-management granularity, token-cost structure, failure-recovery options, and design philosophy. The emerging protocol stack is examined in terms of why MCP (agent-to-tool) and A2A (agent-to-agent) occupy complementary layers, how the ACP\u2013A2A merger signals protocol convergence, and where ANP\u2019s decentralized-discovery design fits. Production design considerations\u2014state management, task planning, error handling, scalability, and security\u2014are evaluated with reference to published benchmarks. Vendor-reported figures are marked \u2020 throughout and held to a documented evidence hierarchy, which separates them from peer-reviewed and government-evaluator measurements. We close by identifying eight open challenges and proposing a six-dimension evaluation framework for multi-agent coordination quality. This paper offers practitioners a decision framework covering taxonomy, framework selection, protocol adoption, and early operational pilots."
+ },
+ {
+  "paper_id": 9842,
+  "title": "Privacy-Preserving LLM Infrastructure With Multi-Agent Orchestration And RAG-Driven Retrieval",
+  "year": 2026,
+  "venue": "Journal of International Crisis and Risk Communication Research",
+  "source": "crossref",
+  "abstract": "The rapid integration of large language models (LLMs) into data-intensive and regulated environments has intensified concerns related to privacy, governance, and reliable knowledge use. This study proposes a privacy-preserving LLM infrastructure that integrates multi-agent orchestration with retrieval-augmented generation (RAG) to address these challenges in a systematic manner. The architecture decomposes system intelligence into specialized agents responsible for retrieval, reasoning, privacy enforcement, validation, and orchestration, while dynamically grounding model outputs through policy-aware retrieval from secure knowledge bases. Experimental results demonstrate that the proposed approach significantly improves task accuracy, contextual relevance, and system robustness compared to single-agent and non-RAG baselines, while substantially reducing hallucination rates, data exposure incidents, and access policy violations. The findings further highlight enhanced auditability and governance as direct outcomes of role-based agent isolation and controlled inter-agent communication. Overall, this study establishes that privacy-by-design, when embedded at the architectural level, enables scalable and trustworthy LLM deployments suitable for sensitive and enterprise-grade applications."
+ },
+ {
+  "paper_id": 9843,
+  "title": "SEMANTIC KERNEL USAGE FOR ORCHESTRATION OF MULTI-AGENT LLM-BASED SYSTEMS TO SOLVE THE TASKS WHICH REQUIRE DYNAMIC INVOLVEMENT OF NEW AGENTS",
+  "year": 2026,
+  "venue": "International Scientific Unity",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9845,
+  "title": "EDAgent: A Concurrent Orchestration Method for Collaborative LLM Multi-Agent System",
+  "year": 2026,
+  "venue": "2026 IEEE 46th International Conference on Distributed Computing Systems (ICDCS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9846,
+  "title": "Agentic Orchestration for Adaptive Educational Recommendations: A Multi-Agent LLM Framework for Personalized Learning Pathways",
+  "year": 2026,
+  "venue": "Proceedings of the Nineteenth ACM International Conference on Web Search and Data Mining",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9848,
+  "title": "A Survey on Multi-Agent LLM Frameworks with Semantic Memory Integration and Dynamic DAG Orchestration",
+  "year": 2026,
+  "venue": "2026 7th International Conference on Inventive Research in Computing Applications (ICIRCA)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9850,
+  "title": "Autonomous Evaluation Architectures: Multi-Agent LLM Pipelines, Browser-Grounded Testing: Programmatic Alignment via DSPy, and Adversarial Robustness in Production Orchestration Systems",
+  "year": 2026,
+  "venue": "Computer Fraud and Security",
+  "source": "crossref",
+  "abstract": "Evaluating multi-agent large language model systems requires fundamentally different approaches than evaluating single-model outputs. Conventional benchmarks assess isolated model capabilities in controlled conditions, but production multi-agent pipelines exhibit emergent failure modes that only manifest through agent interactions across pipeline stages. An individual agent may produce valid output that, when consumed by a downstream agent, leads to semantically incorrect or structurally broken final artifacts, a class of failures that per-agent evaluation cannot detect by design. This article introduces AgentForge-Eval, a closed-loop evaluation architecture that combines browser-grounded execution testing, multi-layer deterministic and semantic assertion frameworks, and programmatic prompt alignment to autonomously detect, diagnose, and remediate multi-agent failures. Unlike static benchmarks that assess what models produce, AgentForge-Eval tests what multi-agent outputs actually do by executing generated artifacts in headless browser environments and feeding runtime results back into an iterative fix loop with formal convergence guarantees. Deployment in a production multi-agent pipeline demonstrates substantial improvements in first-pass acceptance rates, significant reductions in iterations required before approval, and detection of a materially larger share of failures than semantic judge evaluation captures alone. Programmatic optimization using the full evaluation stack as its objective achieves additional composite metric gains through automated cross-stage prompt alignment. The framework contributes a formal taxonomy of multi-agent failure modes and empirical evidence that browser-grounded evaluation captures a failure class that proxy-metric assessment cannot reach."
+ },
+ {
+  "paper_id": 9852,
+  "title": "Knowledge Graph-Grounded BDI Architecture for LLM-Based Multi-Agent Orchestration in Enterprise Workflow Automation",
+  "year": 2026,
+  "venue": "2026 2nd International Conference on Smart Mechatronics (ICSMech)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9854,
+  "title": "LLM Collaboration with Multi-Agent Reinforcement Learning",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": "A large amount of work has been done in Multi-Agent Systems (MAS) for modeling and solving problems with multiple interacting agents. However, most LLMs are pretrained independently and not specifically optimized for coordination. Existing LLM fine-tuning frameworks rely on individual rewards, which require complex reward designs for each agent to encourage collaboration. To address these challenges, we model LLM collaboration as a cooperative Multi-Agent Reinforcement Learning (MARL) problem. We develop a multi-agent, multi-turn algorithm, Multi-Agent Group Relative Policy Optimization (MAGRPO), to solve it, building on current RL approaches for LLMs as well as MARL techniques. Our experiments on LLM writing and coding collaboration demonstrate that fine-tuning MAS with MAGRPO enables agents to generate high-quality responses efficiently through effective cooperation. Our approach opens the door to using MARL methods for LLM collaboration and highlights the associated challenges."
+ }
+]

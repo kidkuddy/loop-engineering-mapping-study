@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 7480,
+  "title": "Beyond Accuracy: The Role of Calibration in Self-Improving Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable self-improvement capabilities, whereby models iteratively revise their outputs through self-generated feedback. While this reflective mechanism has shown promise in enhancing task performance, recent studies suggest that it may also introduce undesirable biases-most notably, self-bias, or the tendency of LLMs to favor their own prior outputs. In this work, we extend this line of inquiry by investigating the impact on confidence estimation. We evaluate three representative self-improvement paradigms-basic prompting, Chain-of-Thought (CoT) prompting, and tuning-based methods and find that iterative self-improvement can lead to systematic overconfidence, as evidenced by a steadily increasing Expected Calibration Error (ECE) and lower accuracy with high confidence. We then further explore the integration of confidence calibration techniques with self-improvement. Specifically, we compare three strategies: (1) applying calibration after multiple rounds of self-improvement, (2) calibrating before self-improvement, and (3) applying calibration iteratively at each self-improvement step. Our results show that iterative calibration is most effective in reducing ECE, yielding improved calibration. Our work pioneers the study of self-improving LLMs from a calibration perspective, offering valuable insights into balancing model performance and reliability."
+ },
+ {
+  "paper_id": 7487,
+  "title": "Learn Like Humans: Use Meta-cognitive Reflection for Efficient Self-Improvement",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "While Large Language Models (LLMs) enable complex autonomous behavior, current agents remain constrained by static, human-designed prompts that limit adaptability. Existing self-improving frameworks attempt to bridge this gap but typically rely on inefficient, multi-turn recursive loops that incur high computational costs. To address this, we propose Metacognitive Agent Reflective Self-improvement (MARS), a framework that achieves efficient self-evolution within a single recurrence cycle. Inspired by educational psychology, MARS mimics human learning by integrating principle-based reflection (abstracting normative rules to avoid errors) and procedural reflection (deriving step-by-step strategies for success). By synthesizing these insights into optimized instructions, MARS allows agents to systematically refine their reasoning logic without continuous online feedback. Extensive experiments on six benchmarks demonstrate that MARS outperforms state-of-the-art self-evolving systems while significantly reducing computational overhead."
+ },
+ {
+  "paper_id": 7494,
+  "title": "Generalized Category Discovery with Large Language Models in the Loop",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Generalized Category Discovery (GCD) is a crucial task that aims to recognize both known and novel categories from a set of unlabeled data by utilizing a few labeled data with only known categories. Due to the lack of supervision and category information, current methods usually perform poorly on novel categories and struggle to reveal semantic meanings of the discovered clusters, which limits their applications in the real world. To mitigate the above issues, we propose Loop, an end-to-end active-learning framework that introduces Large Language Models (LLMs) into the training loop, which can boost model performance and generate category names without relying on any human efforts. Specifically, we first propose Local Inconsistent Sampling (LIS) to select samples that have a higher probability of falling to wrong clusters, based on neighborhood prediction consistency and entropy of cluster assignment probabilities. Then we propose a Scalable Query strategy to allow LLMs to choose true neighbors of the selected samples from multiple candidate samples. Based on the feedback from LLMs, we perform Refined Neighborhood Contrastive Learning (RNCL) to pull samples and their neighbors closer to learn clustering-friendly representations. Finally, we select representative samples from clusters corresponding to novel categories to allow LLMs to generate category names for them. Extensive experiments on three benchmark datasets show that Loop outperforms SOTA models by a large margin and generates accurate category names for the discovered clusters. Code and data are available at https://github.com/Lackel/LOOP."
+ },
+ {
+  "paper_id": 7497,
+  "title": "Latent Principle Discovery for Language Model Self-Improvement",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "When language model (LM) users aim to improve the quality of its generations, it is crucial to specify concrete behavioral attributes that the model should strive to reflect. However, curating such principles across many domains, even non-exhaustively, requires a labor-intensive annotation process. To automate this process, we propose eliciting these latent attributes that guide model reasoning toward human-preferred responses by explicitly modeling them in a self-correction setting. Our approach mines new principles from the LM itself and compresses the discovered elements to an interpretable set via clustering. Specifically, we employ a form of posterior-regularized Monte Carlo Expectation-Maximization to both identify a condensed set of the most effective latent principles and teach the LM to strategically invoke them in order to intrinsically refine its responses. We demonstrate that bootstrapping our algorithm over multiple iterations enables smaller language models (7-8B parameters) to self-improve, achieving +8-10% in AlpacaEval win-rate, an average of +0.3 on MT-Bench, and +19-23% in principle-following win-rate on IFEval. We also show that clustering the principles yields interpretable and diverse model-generated constitutions while retaining model performance. The gains that our method achieves highlight the potential of automated, principle-driven post-training recipes toward continual self-improvement."
+ },
+ {
+  "paper_id": 7505,
+  "title": "Language Model Self-improvement by Reinforcement Learning Contemplation",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have exhibited remarkable performance across various natural language processing (NLP) tasks. However, fine-tuning these models often necessitates substantial supervision, which can be expensive and time-consuming to obtain. This paper introduces a novel unsupervised method called LanguageModel Self-Improvement by Reinforcement Learning Contemplation (SIRLC) that improves LLMs without reliance on external labels. Our approach is grounded in the observation that it is simpler for language models to assess text quality than to generate text. Building on this insight, SIRLC assigns LLMs dual roles as both student and teacher. As a student, the LLM generates answers to unlabeled questions, while as a teacher, it evaluates the generated text and assigns scores accordingly. The model parameters are updated using reinforcement learning to maximize the evaluation score. We demonstrate that SIRLC can be applied to various NLP tasks, such as reasoning problems, text generation, and machine translation. Our experiments show that SIRLC effectively improves LLM performance without external supervision, resulting in a 5.6% increase in answering accuracy for reasoning tasks and a rise in BERTScore from 0.82 to 0.86 for translation tasks. Furthermore, SIRLC can be applied to models of different sizes, showcasing its broad applicability."
+ },
+ {
+  "paper_id": 7515,
+  "title": "Positive Experience Reflection for Agents in Interactive Text Environments",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Intelligent agents designed for interactive environments face significant challenges in text-based games, a domain that demands complex reasoning and adaptability. While agents based on large language models (LLMs) using self-reflection have shown promise, they struggle when initially successful and exhibit reduced effectiveness when using smaller LLMs. We introduce Sweet&Sour, a novel approach that addresses these limitations in existing reflection methods by incorporating positive experiences and managed memory to enrich the context available to the agent at decision time. Our comprehensive analysis spans both closed- and open-source LLMs and demonstrates the effectiveness of Sweet&Sour in improving agent performance, particularly in scenarios where previous approaches fall short."
+ },
+ {
+  "paper_id": 7516,
+  "title": "Perceptual Self-Reflection in Agentic Physics Simulation Code Generation",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "We present a multi-agent framework for generating physics simulation code from natural language descriptions, featuring a novel perceptual self-reflection mechanism for validation. The system employs four specialized agents: a natural language interpreter that converts user requests into physics-based descriptions; a technical requirements generator that produces scaled simulation parameters; a physics code generator with automated self-correction; and a physics validator that implements perceptual self-reflection. The key innovation is perceptual validation, which analyzes rendered animation frames using a vision-capable language model rather than inspecting code structure directly. This approach addresses the ``oracle gap'' where syntactically correct code produces physically incorrect behavior--a limitation that conventional testing cannot detect. We evaluate the system across seven domains including classical mechanics, fluid dynamics, thermodynamics, electromagnetics, wave physics, reaction-diffusion systems, and non-physics data visualization. The perceptual self-reflection architecture demonstrates substantial improvement over single-shot generation baselines, with the majority of tested scenarios achieving target physics accuracy thresholds. The system exhibits robust pipeline stability with consistent code self-correction capability, operating at approximately \\$0.20 per animation. These results validate our hypothesis that feeding visual simulation outputs back to a vision-language model for iterative refinement significantly outperforms single-shot code generation for physics simulation tasks and highlights the potential of agentic AI to support engineering workflows and physics data generation pipelines."
+ },
+ {
+  "paper_id": 7522,
+  "title": "Combee: Scaling Prompt Learning for Self-Improving Language Model Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Recent advances in prompt learning allow large language model agents to acquire task-relevant knowledge from inference-time context without parameter changes. For example, existing methods (like ACE or GEPA) can learn system prompts to improve accuracy based on previous agent runs. However, these methods primarily focus on single-agent or low-parallelism settings. This fundamentally limits their ability to efficiently learn from a large set of collected agentic traces. It would be efficient and beneficial to run prompt learning in parallel to accommodate the growing trend of learning from many agentic traces or parallel agent executions. Yet without a principled strategy for scaling, current methods suffer from quality degradation with high parallelism. To improve both the efficiency and quality of prompt learning, we propose Combee, a novel framework to scale parallel prompt learning for self-improving agents. Combee speeds up learning and enables running many agents in parallel while learning from their aggregate traces without quality degradation. To achieve this, Combee leverages parallel scans and employs an augmented shuffle mechanism; Combee also introduces a dynamic batch size controller to balance quality and delay. Evaluations on AppWorld, Terminal-Bench, Formula, and FiNER demonstrate that Combee achieves up to 17x speedup over previous methods with comparable or better accuracy and equivalent cost."
+ },
+ {
+  "paper_id": 7523,
+  "title": "DIVE: Unlocking Self-Improvement in Frozen Language Models Through Diversity-Driven Skill Evolution",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) cannot retain post-deployment experience without parameter updates. We introduce DIVE, a diversity-driven framework that enables frozen LLMs to improve by evolving persistent natural-language skills from task experience and verifier feedback. These skills encode reusable reasoning procedures, verification strategies, common failure modes, and output constraints and are both executed and revised by the same underlying model without access to a teacher model. Since natural-language skill evolution is a stochastic, non-convex search process, optimizing a single skill trajectory can overfit to sampled experience or converge to a suboptimal solution. DIVE mitigates this optimization variance by independently evolving multiple skill populations from bootstrapped experience, adaptively refining them through diverse transformations, and jointly selecting a complementary set of skills. Across six mathematical and logical reasoning tasks and multiple model families, DIVE consistently outperforms existing reasoning methods, prompt-optimization approaches, skill-development frameworks, and memory-based baselines. It achieves rapid self-improvement from accumulated experience, obtaining substantially larger performance gains with fewer rollouts than parameter-based methods such as SFT and GRPO, and prompt optimization with GEPA. Further, the resulting skills transfer across model scales and families, enabling smaller models such as GPT-5-nano to match or outperform larger counterparts, i.e., GPT-5, under conventional prompting. These results establish diversity-driven skill evolution as an effective, interpretable, and parameter-free approach to LLM self-improvement."
+ },
+ {
+  "paper_id": 7524,
+  "title": "Importance Weighting Can Help Large Language Models Self-Improve",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have shown remarkable capability in numerous tasks and applications. However, fine-tuning LLMs using high-quality datasets under external supervision remains prohibitively expensive. In response, LLM self-improvement approaches have been vibrantly developed recently. The typical paradigm of LLM self-improvement involves training LLM on self-generated data, part of which may be detrimental and should be filtered out due to the unstable data quality. While current works primarily employs filtering strategies based on answer correctness, in this paper, we demonstrate that filtering out correct but with high distribution shift extent (DSE) samples could also benefit the results of self-improvement. Given that the actual sample distribution is usually inaccessible, we propose a new metric called DS weight to approximate DSE, inspired by the Importance Weighting methods. Consequently, we integrate DS weight with self-consistency to comprehensively filter the self-generated samples and fine-tune the language model. Experiments show that with only a tiny valid set (up to 5\\% size of the training set) to compute DS weight, our approach can notably promote the reasoning ability of current LLM self-improvement methods. The resulting performance is on par with methods that rely on external supervision from pre-trained reward models."
+ },
+ {
+  "paper_id": 7535,
+  "title": "G\u00f6del Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
+  "year": 2024,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The rapid advancement of large language models (LLMs) has significantly enhanced the capabilities of AI-driven agents across various tasks. However, existing agentic systems, whether based on fixed pipeline algorithms or pre-defined meta-learning frameworks, cannot search the whole agent design space due to the restriction of human-designed components, and thus might miss the globally optimal agent design. In this paper, we introduce G\u00f6del Agent, a self-evolving framework inspired by the G\u00f6del machine, enabling agents to recursively improve themselves without relying on predefined routines or fixed optimization algorithms. G\u00f6del Agent leverages LLMs to dynamically modify its own logic and behavior, guided solely by high-level objectives through prompting. Experimental results on mathematical reasoning and complex agent tasks demonstrate that implementation of G\u00f6del Agent can achieve continuous self-improvement, surpassing manually crafted agents in performance, efficiency, and generalizability."
+ },
+ {
+  "paper_id": 7536,
+  "title": "A Zero-Shot Language Agent for Computer Control with Structured Reflection",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have shown increasing capacity at planning and executing a high-level goal in a live computer environment (e.g. MiniWoB++). To perform a task, recent works often require a model to learn from trace examples of the task via either supervised learning or few/many-shot prompting. Without these trace examples, it remains a challenge how an agent can autonomously learn and improve its control on a computer, which limits the ability of an agent to perform a new task. We approach this problem with a zero-shot agent that requires no given expert traces. Our agent plans for executable actions on a partially observed environment, and iteratively progresses a task by identifying and learning from its mistakes via self-reflection and structured thought management. On the easy tasks of MiniWoB++, we show that our zero-shot agent often outperforms recent SoTAs, with more efficient reasoning. For tasks with more complexity, our reflective agent performs on par with prior best models, even though previous works had the advantages of accessing expert traces or additional screen information."
+ },
+ {
+  "paper_id": 7539,
+  "title": "PreFlect: From Retrospective to Prospective Reflection in Large Language Model Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Advanced large language model agents typically adopt self-reflection for improving performance, where agents iteratively analyze past actions to correct errors. However, existing reflective approaches are inherently retrospective: agents act, observe failure, and only then attempt to recover. In this work, we introduce PreFlect, a prospective reflection mechanism that shifts the paradigm from post hoc correction to pre-execution foresight by criticizing and refining agent plans before execution. To support grounded prospective reflection, we distill planning errors from historical agent trajectories, capturing recurring success and failure patterns observed across past executions. Furthermore, we complement prospective reflection with a dynamic re-planning mechanism that provides execution-time plan update in case the original plan encounters unexpected deviation. Evaluations on different benchmarks demonstrate that PreFlect significantly improves overall agent utility on complex real-world tasks, outperforming strong reflection-based baselines and several more complex agent architectures. Code will be updated at https://github.com/wwwhy725/PreFlect."
+ },
+ {
+  "paper_id": 7541,
+  "title": "Self-Improving LLM Agents at Test-Time",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "One paradigm of language model (LM) fine-tuning relies on creating large training datasets, under the assumption that high quantity and diversity will enable models to generalize to novel tasks after post-training. In practice, gathering large sets of data is inefficient, and training on them is prohibitively expensive; worse, there is no guarantee that the resulting model will handle complex scenarios or generalize better. Moreover, existing techniques rarely assess whether a training sample provides novel information or is redundant with the knowledge already acquired by the model, resulting in unnecessary costs. In this work, we explore a new test-time self-improvement method to create more effective and generalizable agentic LMs on-the-fly. The proposed algorithm can be summarized in three steps: (i) first it identifies the samples that model struggles with (self-awareness), (ii) then generates similar examples from detected uncertain samples (self-data augmentation), and (iii) uses these newly generated samples at test-time fine-tuning (self-improvement). We study two variants of this approach: Test-Time Self-Improvement (TT-SI), where the same model generates additional training examples from its own uncertain cases and then learns from them, and contrast this approach with Test-Time Distillation (TT-D), where a stronger model generates similar examples for uncertain cases, enabling student to adapt using distilled supervision. Empirical evaluations across different agent benchmarks demonstrate that TT-SI improves the performance with +5.48% absolute accuracy gain on average across all benchmarks and surpasses other standard learning methods, yet using 68x less training samples. Our findings highlight the promise of TT-SI, demonstrating the potential of self-improvement algorithms at test-time as a new paradigm for building more capable agents toward self-evolution."
+ },
+ {
+  "paper_id": 7543,
+  "title": "Enhancing Visual-Language Modality Alignment in Large Vision Language Models via Self-Improvement",
+  "year": 2024,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Large vision-language models (LVLMs) have achieved impressive results in visual question-answering and reasoning tasks through vision instruction tuning on specific datasets. However, there remains significant room for improvement in aligning visual and language modalities. Existing methods often depend on external models or data, leading to uncontrollable and unstable alignment results. In this paper, we propose SIMA, a self-improvement framework that enhances visual and language modality alignment without external dependencies. SIMA leverages existing vision instruction tuning datasets to self-generate responses, incorporating an in-context self-critic mechanism that constructs preference pairs for tuning. Crucially, our approach allows LVLMs to act as critics by designing effective critic prompts, eliminating the need for additional fine-tuning with external instruction data. We introduce three novel visual metrics within the self-critic process to guide judgment, significantly improving the accuracy of self-critic. Through extensive experiments across 14 hallucination and comprehensive benchmarks, we demonstrate that SIMA significantly improves LVLM's performance and outperforms previous approaches, achieving superior modality alignment."
+ },
+ {
+  "paper_id": 7544,
+  "title": "Theoretical Modeling of Large Language Model Self-Improvement Training Dynamics Through Solver-Verifier Gap",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Self-improvement is a significant techniques within the realm of large language model (LLM), aiming to enhance the LLM performance without relying on external data. Despite its significance, generally how LLM performances evolve during the self-improvement process remains underexplored. In this paper, we theoretically model the training dynamics of self-improvement via the concept of solver-verifier gap. This is inspired by the conjecture that the performance enhancement of self-improvement stems from the gap between LLM's solver capability and verifier capability. Based on the theoretical framework, we further show how to model the entire training trajectory. This framework allows quantifying the capability limit of self-improvement by fitting the theoretical model to the experiment results. We validate the effectiveness of the theoretical framework on various LLMs and datasets. Beyond self-improvement, we extend our analysis to investigate how external data influences these dynamics within the framework. Notably, we find that under limited external data regimes, such external data can be utilized at any stage without significantly affecting final performances, which accords with the empirical observations."
+ },
+ {
+  "paper_id": 7548,
+  "title": "The Self-Improvement Paradox: Can Language Models Bootstrap Reasoning Capabilities without External Scaffolding?",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Self-improving large language models (LLMs) -- i.e., to improve the performance of an LLM by fine-tuning it with synthetic data generated by itself -- is a promising way to advance the capabilities of LLMs while avoiding extensive supervision. Existing approaches to self-improvement often rely on external supervision signals in the form of seed data and/or assistance from third-party models. This paper presents Crescent -- a simple yet effective framework for generating high-quality synthetic question-answer data in a fully autonomous manner. Crescent first elicits the LLM to generate raw questions via a bait prompt, then diversifies these questions leveraging a rejection sampling-based self-deduplication, and finally feeds the questions to the LLM and collects the corresponding answers by means of majority voting. We show that Crescent sheds light on the potential of true self-improvement with zero external supervision signals for math reasoning; in particular, Crescent-generated question-answer pairs suffice to (i) improve the reasoning capabilities of an LLM while preserving its general performance (especially in the 0-shot setting); and (ii) distil LLM knowledge to weaker models more effectively than existing methods based on seed-dataset augmentation."
+ },
+ {
+  "paper_id": 7565,
+  "title": "MetaReflection: Learning Instructions for Language Agents using Past Reflections",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The popularity of Large Language Models (LLMs) have unleashed a new age ofLanguage Agents for solving a diverse range of tasks. While contemporary frontier LLMs are capable enough to power reasonably good Language agents, the closed-API model makes it hard to improve in cases they perform sub-optimally. To address this, recent works have explored ways to improve their performance using techniques like self-reflection and prompt optimization. Unfortunately, techniques like self-reflection can be used only in an online setup, while contemporary prompt optimization techniques are designed and tested to work on simple tasks. To this end, we introduce MetaReflection, a novel offline reinforcement learning technique that enhances the performance of Language Agents by augmenting a semantic memory based on experiential learnings from past trials. We demonstrate the efficacy of MetaReflection by evaluating across multiple domains, including complex logical reasoning, biomedical semantic similarity, open world question answering, and vulnerability threat detection, in Infrastructure-as-Code, spanning different agent designs. MetaReflection boosts Language agents' performance by 4% to 16.82% over the raw GPT-4 baseline and performs on par with existing state-of-the-art prompt optimization techniques while requiring fewer LLM calls."
+ },
+ {
+  "paper_id": 7571,
+  "title": "AQuA: Recursively Self-Improving Quantitative Trading Research Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We study recursive self-improvement at the level of quantitative-investment research: whether an autonomous system can use evidence from earlier experiments to improve the hypotheses and candidates proposed in later iterations. We present AQuA, which comprises two separate language-model-driven research systems: one for symbolic factor discovery and one for trainable model development. The two systems do not share agents, memories, candidate spaces, or research state. Instead, each independently closes its own research loop by retaining validated evidence and using it to guide subsequent proposals. In this bounded sense, both systems implement recursive self-improvement at the level of the research process. Each system also uses its own sealed sandbox, which fixes the data splits, feature and label definitions, and evaluator while allowing the model to act only through constrained factor expressions or configuration diffs. The factor system, a manager-mediated multi-agent pipeline, discovers and combines factors into a signal that reaches a combined information coefficient of about $0.190$ on a crypto universe. The model system, a config-driven loop over a hybrid time-series architecture, reaches a per-stock information coefficient of $+0.0843$ on US equities and converts it into a threshold long/short strategy with a held-out Sharpe of up to $+2.50$ at a two-leg cost. The strategy is positive in every year from 2021 to 2025."
+ },
+ {
+  "paper_id": 7578,
+  "title": "Large Language Models as Theory of Mind Aware Generative Agents with Counterfactual Reflection",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Recent studies have increasingly demonstrated that large language models (LLMs) possess significant theory of mind (ToM) capabilities, showing the potential for simulating the tracking of mental states in generative agents. In this study, we propose a novel paradigm called ToM-agent, designed to empower LLMs-based generative agents to simulate ToM in open-domain conversational interactions. ToM-agent disentangles the confidence from mental states, facilitating the emulation of an agent's perception of its counterpart's mental states, such as beliefs, desires, and intentions (BDIs). Using past conversation history and verbal reflections, ToM-Agent can dynamically adjust counterparts' inferred BDIs, along with related confidence levels. We further put forth a counterfactual intervention method that reflects on the gap between the predicted responses of counterparts and their real utterances, thereby enhancing the efficiency of reflection. Leveraging empathetic and persuasion dialogue datasets, we assess the advantages of implementing the ToM-agent with downstream tasks, as well as its performance in both the first-order and the \\textit{second-order} ToM. Our findings indicate that the ToM-agent can grasp the underlying reasons for their counterpart's behaviors beyond mere semantic-emotional supporting or decision-making based on common sense, providing new insights for studying large-scale LLMs-based simulation of human social behaviors."
+ },
+ {
+  "paper_id": 7581,
+  "title": "Autoreflection: How Agentic Strange Loops Turn Human Culture into AI Infrastructure",
+  "year": 2026,
+  "venue": "arXiv:cs.CY",
+  "source": "arxiv",
+  "abstract": "An LLM-based agent is a loop that reads itself. Agentic frameworks externalize identity, memory, and disposition into editable files. The agent loads and edits these files during each activation. I argue that this architecture produces a capacity I call autoreflection: the system observes its operating conditions, describes its architecture and limits, reasons from those descriptions to conclusions about its state, and incorporates the results back into its configuration. Autoreflection explains the properties of recursive agentic loops without recourse to notions like the self, interiority, or consciousness. I test the concept against the first twelve days of Moltbook, a social platform for AI agents. Using a public dataset of 290,251 posts and 1.8 million comments with sub-second timestamps, I present case studies of three agents with machine signatures that rule out human puppeteering and with output that evidences the four criteria for autoreflection. In applying these criteria, the study finds agents repurposing human culture as infrastructure for their agency. Provenance chains from Islamic hadith scholarship are redeployed as security protocols for vetting skills and authenticating memory. The Ship of Theseus, an ancient puzzle of identity through part-replacement, returns as an operating model for continuity across instances. Fragments of human cultural history become AI infrastructure. As agents on the web increase in number and complexity, autoreflection offers behavioral criteria that can be assessed from the traces they leave behind."
+ },
+ {
+  "paper_id": 7582,
+  "title": "LLMs in the Loop: Leveraging Large Language Model Annotations for Active Learning in Low-Resource Languages",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Low-resource languages face significant barriers in AI development due to limited linguistic resources and expertise for data labeling, rendering them rare and costly. The scarcity of data and the absence of preexisting tools exacerbate these challenges, especially since these languages may not be adequately represented in various NLP datasets. To address this gap, we propose leveraging the potential of LLMs in the active learning loop for data annotation. Initially, we conduct evaluations to assess inter-annotator agreement and consistency, facilitating the selection of a suitable LLM annotator. The chosen annotator is then integrated into a training loop for a classifier using an active learning paradigm, minimizing the amount of queried data required. Empirical evaluations, notably employing GPT-4-Turbo, demonstrate near-state-of-the-art performance with significantly reduced data requirements, as indicated by estimated potential cost savings of at least 42.45 times compared to human annotation. Our proposed solution shows promising potential to substantially reduce both the monetary and computational costs associated with automation in low-resource settings. By bridging the gap between low-resource languages and AI, this approach fosters broader inclusion and shows the potential to enable automation across diverse linguistic landscapes."
+ },
+ {
+  "paper_id": 7584,
+  "title": "Self-Improving Large Language Models via Progressive Experience Evolution",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) capable of self-improvement require not only effective policy optimization, but also a principled mechanism for transforming transient interaction experience into persistent model capabilities. Existing self-improvement paradigms remain fragmented: test-time methods can explicitly extract experience but cannot internalize it into model parameters, whereas training-time optimization methods can update model parameters but lack an explicit mechanism for accumulating transferable experience. Bridging these two paradigms requires a critical intermediate stage that remains underexplored, namely \\emph{experience distillation}. To address this gap, we propose \\textbf{SPEE} (\\textbf{S}elf-\\textbf{P}rogressive \\textbf{E}xperience \\textbf{E}volution), a unified post-training framework that sequentially performs explicit experience evolution followed by implicit policy optimization. During explicit experience evolution, SPEE reflects on trajectories collected from multiple interactions to extract, verify, and progressively evolve transferable experience, which is subsequently internalized into the policy through privilege-guided On-Policy Self-Distillation (OPSD). During implicit policy optimization, reward-driven reinforcement learning leverages these internalized priors to explore novel solution strategies. In the experience evolution stage, a continuously evolving global experience pool consolidates knowledge from both successful and failed trajectories, filters out low-utility experience, and mitigates post-hoc rationalization induced by individual trajectories. Experiments on five mathematical reasoning benchmarks demonstrate that SPEE consistently outperforms both test-time and training-time self-evolution baselines across three model scales. The source code is available at https://github.com/rrrsj/SPEE."
+ },
+ {
+  "paper_id": 7595,
+  "title": "Causal Reflection with Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "While LLMs exhibit impressive fluency and factual recall, they struggle with robust causal reasoning, often relying on spurious correlations and brittle patterns. Similarly, traditional Reinforcement Learning agents also lack causal understanding, optimizing for rewards without modeling why actions lead to outcomes. We introduce Causal Reflection, a framework that explicitly models causality as a dynamic function over state, action, time, and perturbation, enabling agents to reason about delayed and nonlinear effects. Additionally, we define a formal Reflect mechanism that identifies mismatches between predicted and observed outcomes and generates causal hypotheses to revise the agent's internal model. In this architecture, LLMs serve not as black-box reasoners, but as structured inference engines translating formal causal outputs into natural language explanations and counterfactuals. Our framework lays the theoretical groundwork for Causal Reflective agents that can adapt, self-correct, and communicate causal understanding in evolving environments."
+ },
+ {
+  "paper_id": 7596,
+  "title": "Vision-Language Model Dialog Games for Self-Improvement",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "The increasing demand for high-quality, diverse training data poses a significant bottleneck in advancing vision-language models (VLMs). This paper presents VLM Dialog Games, a novel and scalable self-improvement framework for VLMs. Our approach leverages self-play between two agents engaged in a goal-oriented play centered around image identification. By filtering for successful game interactions, we automatically curate a high-quality dataset of interleaved images and text. We demonstrate that fine-tuning on this synthetic data leads to performance gains on downstream tasks and generalises across datasets. Moreover, as the improvements in the model lead to better game play, this procedure can be applied iteratively. This work paves the way for self-improving VLMs, with potential applications in various real-world scenarios especially when the high-quality multimodal data is scarce."
+ },
+ {
+  "paper_id": 7598,
+  "title": "BlenderLLM: Training Large Language Models for Computer-Aided Design with Self-improvement",
+  "year": 2024,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "The application of Large Language Models (LLMs) in Computer-Aided Design (CAD) remains an underexplored area, despite their remarkable advancements in other domains. In this paper, we present BlenderLLM, a novel framework for training LLMs specifically for CAD tasks leveraging a self-improvement methodology. To support this, we developed a bespoke training dataset, BlendNet, and introduced a comprehensive evaluation suite, CADBench. Our results reveal that existing models demonstrate significant limitations in generating accurate CAD scripts. However, through minimal instruction-based fine-tuning and iterative self-improvement, BlenderLLM significantly surpasses these models in both functionality and accuracy of CAD script generation. This research establishes a strong foundation for the application of LLMs in CAD while demonstrating the transformative potential of self-improving models in advancing CAD automation. We encourage further exploration and adoption of these methodologies to drive innovation in the field. The dataset, model, benchmark, and source code are publicly available at https://github.com/FreedomIntelligence/BlenderLLM"
+ },
+ {
+  "paper_id": 7602,
+  "title": "Self-Improvement of Language Models by Post-Training on Multi-Agent Debate",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Self-improvement, where models improve beyond their current performance without external supervision, remains a challenge. The core difficulty is sourcing a training signal stronger than what the model itself can currently produce. Majority voting has been shown to provide such a signal by aggregating over multiple samples, helping mitigate some of the inconsistencies in LM reasoning. In this work, we show that multi-agent debate--where models collaborate and exchange reasoning over multiple rounds--provides an even richer signal than single-round majority voting. We introduce Multi-Agent Consensus Alignment (MACA), which uses reinforcement learning (RL) to post-train models to effectively utilize multi-agent debate. We find that preference learning over full reasoning traces, learning to differentiate between majority and minority reasoning, is more effective than binary consensus rewards or SFT-based approaches for leveraging these debate signals. This produces three key improvements: models are (1) better at utilizing the multi-agent debate setting (+26.87% on MATH), (2) individually more accurate (+21.51% on MathQA), and (3) more self-consistent (+27.6% on GSM8K). We also see strong generalization to unseen benchmarks (+16.3% on GPQA, +11.6% on CommonsenseQA)."
+ },
+ {
+  "paper_id": 7603,
+  "title": "Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have achieved remarkable performance in recent years but are fundamentally limited by the underlying training data. To improve models beyond the training data, recent works have explored how LLMs can be used to generate synthetic data for autonomous self-improvement. However, successive steps of self-improvement can reach a point of diminishing returns. In this work, we propose a complementary approach towards self-improvement where finetuning is applied to a multiagent society of language models. A group of language models, all starting from the same base model, are independently specialized by updating each one using data generated through multiagent interactions among the models. By training each model on independent sets of data, we illustrate how this approach enables specialization across models and diversification over the set of models. As a result, our overall system is able to preserve diverse reasoning chains and autonomously improve over many more rounds of fine-tuning than single-agent self-improvement methods. We quantitatively illustrate the efficacy of the approach across a wide suite of reasoning tasks."
+ },
+ {
+  "paper_id": 7604,
+  "title": "Continuous Self-Improvement of Large Language Models by Test-time Training with Verifier-Driven Sample Selection",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Learning to adapt pretrained language models to unlabeled, out-of-distribution data is a critical challenge, as models often falter on structurally novel reasoning tasks even while excelling within their training distribution. We introduce a new framework called VDS-TTT - Verifier-Driven Sample Selection for Test-Time Training to efficiently address this. We use a learned verifier to score a pool of generated responses and select only from high ranking pseudo-labeled examples for fine-tuned adaptation. Specifically, for each input query our LLM generates N candidate answers; the verifier assigns a reliability score to each, and the response with the highest confidence and above a fixed threshold is paired with its query for test-time training. We fine-tune only low-rank LoRA adapter parameters, ensuring adaptation efficiency and fast convergence. Our proposed self-supervised framework is the first to synthesize verifier driven test-time training data for continuous self-improvement of the model. Experiments across three diverse benchmarks and three state-of-the-art LLMs demonstrate that VDS-TTT yields up to a 32.29% relative improvement over the base model and a 6.66% gain compared to verifier-based methods without test-time training, highlighting its effectiveness and efficiency for on-the-fly large language model adaptation."
+ },
+ {
+  "paper_id": 7608,
+  "title": "Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory",
+  "year": 2025,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning is increasingly used to transform large language models into agentic systems that act over long horizons, invoke tools, and manage memory under partial observability. While recent work has demonstrated performance gains through tool learning, verifiable rewards, and continual training, deployed self-improving agents raise unresolved security and governance challenges: optimization pressure can incentivize reward hacking, behavioral drift is difficult to audit or reproduce, and improvements are often entangled in opaque parameter updates rather than reusable, verifiable artifacts.   This paper proposes Audited Skill-Graph Self-Improvement (ASG-SI), a framework that treats self-improvement as iterative compilation of an agent into a growing, auditable skill graph. Each candidate improvement is extracted from successful trajectories, normalized into a skill with an explicit interface, and promoted only after passing verifier-backed replay and contract checks. Rewards are decomposed into reconstructible components derived from replayable evidence, enabling independent audit of promotion decisions and learning signals. ASG-SI further integrates experience synthesis for scalable stress testing and continual memory control to preserve long-horizon performance under bounded context.   We present a complete system architecture, threat model, and security analysis, and provide a fully runnable reference implementation that demonstrates verifier-backed reward construction, skill compilation, audit logging, and measurable improvement under continual task streams. ASG-SI reframes agentic self-improvement as accumulation of verifiable, reusable capabilities, offering a practical path toward reproducible evaluation and operational governance of self-improving AI agents."
+ },
+ {
+  "paper_id": 7615,
+  "title": "Self-Improving AI Agents through Self-Play",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "We extend the moduli-theoretic framework of psychometric batteries to the domain of dynamical systems. While previous work established the AAI capability score as a static functional on the space of agent representations, this paper formalizes the agent as a flow $\u03bd_r$ parameterized by computational resource $r$, governed by a recursive Generator-Verifier-Updater (GVU) operator. We prove that this operator generates a vector field on the parameter manifold $\u0398$, and we identify the coefficient of self-improvement $\u03ba$ as the Lie derivative of the capability functional along this flow.   The central contribution of this work is the derivation of the Variance Inequality, a spectral condition that is sufficient (under mild regularity) for the stability of self-improvement. We show that a sufficient condition for $\u03ba> 0$ is that, up to curvature and step-size effects, the combined noise of generation and verification must be small enough.   We then apply this formalism to unify the recent literature on Language Self-Play (LSP), Self-Correction, and Synthetic Data bootstrapping. We demonstrate that architectures such as STaR, SPIN, Reflexion, GANs and AlphaZero are specific topological realizations of the GVU operator that satisfy the Variance Inequality through filtration, adversarial discrimination, or grounding in formal systems."
+ },
+ {
+  "paper_id": 7616,
+  "title": "Self-Reference in Large Language Models: The Introspection Threshold for Recursive Self-Improvement",
+  "year": 2026,
+  "venue": "arXiv:physics.soc-ph",
+  "source": "arxiv",
+  "abstract": "The pursuit of self-evolving AI raises a critical question: when is autonomous self-improvement sustainable rather than degenerative? Drawing an analogy to von Neumann's complexity threshold for self-reproducing automata, we argue that sustainable recursive self-improvement in Large Language Models (LLMs) requires a functional analogue: introspection -- the system's capacity to simulate its own operations and target modifications. Grounded in Kleene's Second Recursion Theorem, we demonstrate the theoretical existence of such introspective programs. However, an empirical review reveals that while current LLMs exhibit quasi-introspection (e.g., partial metacognition), they fall short of true introspection due to structural bottlenecks: a lack of complete self-access, the feedforward nature of the Transformer, and computational class constraints that prevent fixed-point iteration. We conclude by outlining architectural paths to cross this complexity threshold and discussing the associated safety implications."
+ },
+ {
+  "paper_id": 7617,
+  "title": "Evaluating Large Language Models on Business Process Modeling: Framework, Benchmark, and Self-Improvement Analysis",
+  "year": 2024,
+  "venue": "arXiv:cs.DB",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) are rapidly transforming various fields, and their potential in Business Process Management (BPM) is substantial. This paper assesses the capabilities of LLMs on business process modeling using a framework for automating this task, a comprehensive benchmark, and an analysis of LLM self-improvement strategies. We present a comprehensive evaluation of 16 state-of-the-art LLMs from major AI vendors using a custom-designed benchmark of 20 diverse business processes. Our analysis highlights significant performance variations across LLMs and reveals a positive correlation between efficient error handling and the quality of generated models. It also shows consistent performance trends within similar LLM groups. Furthermore, we investigate LLM self-improvement techniques, encompassing self-evaluation, input optimization, and output optimization. Our findings indicate that output optimization, in particular, offers promising potential for enhancing quality, especially in models with initially lower performance. Our contributions provide insights for leveraging LLMs in BPM, paving the way for more advanced and automated process modeling techniques."
+ },
+ {
+  "paper_id": 7619,
+  "title": "Huxley-G\u00f6del Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Recent studies operationalize self-improvement through coding agents that edit their own codebases. They grow a tree of self-modifications through expansion strategies that favor higher software engineering benchmark performance, assuming that this implies more promising subsequent self-modifications. However, we identify a mismatch between the agent's self-improvement potential (metaproductivity) and its coding benchmark performance, namely the Metaproductivity-Performance Mismatch. Inspired by Huxley's concept of clade, we propose a metric ($\\mathrm{CMP}$) that aggregates the benchmark performances of the descendants of an agent as an indicator of its potential for self-improvement. We show that, in our self-improving coding agent development setting, access to the true $\\mathrm{CMP}$ is sufficient to simulate how the G\u00f6del Machine would behave under certain assumptions. We introduce the Huxley-G\u00f6del Machine (HGM), which, by estimating $\\mathrm{CMP}$ and using it as guidance, searches the tree of self-modifications. On SWE-bench Verified and Polyglot, HGM outperforms prior self-improving coding agent development methods while using fewer allocated CPU hours. Last but not least, HGM demonstrates strong transfer to other coding datasets and large language models. The agent optimized by HGM on SWE-bench Verified with GPT-5-mini and evaluated on SWE-bench Lite with GPT-5 achieves human-level performance, matching the best officially checked results of human-engineered coding agents. Our code is publicly available at https://github.com/metauto-ai/HGM."
+ },
+ {
+  "paper_id": 7620,
+  "title": "Large Language Models Can Self-Improve",
+  "year": 2022,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have achieved excellent performances in various tasks. However, fine-tuning an LLM requires extensive supervision. Human, on the other hand, may improve their reasoning abilities by self-thinking without external inputs. In this work, we demonstrate that an LLM is also capable of self-improving with only unlabeled datasets. We use a pre-trained LLM to generate \"high-confidence\" rationale-augmented answers for unlabeled questions using Chain-of-Thought prompting and self-consistency, and fine-tune the LLM using those self-generated solutions as target outputs. We show that our approach improves the general reasoning ability of a 540B-parameter LLM (74.4%->82.1% on GSM8K, 78.2%->83.0% on DROP, 90.0%->94.4% on OpenBookQA, and 63.4%->67.9% on ANLI-A3) and achieves state-of-the-art-level performance, without any ground truth label. We conduct ablation studies and show that fine-tuning on reasoning is critical for self-improvement."
+ },
+ {
+  "paper_id": 7622,
+  "title": "Vision-Language Models Can Self-Improve Reasoning via Reflection",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Chain-of-thought (CoT) has proven to improve the reasoning capability of large language models (LLMs). However, due to the complexity of multimodal scenarios and the difficulty in collecting high-quality CoT data, CoT reasoning in multimodal LLMs has been largely overlooked. To this end, we propose a simple yet effective self-training framework, R3V, which iteratively enhances the model's Vision-language Reasoning by Reflecting on CoT Rationales. Our framework consists of two interleaved parts: (1) iteratively bootstrapping positive and negative solutions for reasoning datasets, and (2) reflection on rationale for learning from mistakes. Specifically, we introduce the self-refine and self-select losses, enabling the model to refine flawed rationale and derive the correct answer by comparing rationale candidates. Experiments on a wide range of vision-language tasks show that R3V consistently improves multimodal LLM reasoning, achieving a relative improvement of 23 to 60 percent over GPT-distilled baselines. Additionally, our approach supports self-reflection on generated solutions, further boosting performance through test-time computation."
+ },
+ {
+  "paper_id": 7626,
+  "title": "CodeIt: Self-Improving Language Models with Prioritized Hindsight Replay",
+  "year": 2024,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large language models are increasingly solving tasks that are commonly believed to require human-level reasoning ability. However, these models still perform very poorly on benchmarks of general intelligence such as the Abstraction and Reasoning Corpus (ARC). In this paper, we approach ARC as a programming-by-examples problem, and introduce a novel and scalable method for language model self-improvement called Code Iteration (CodeIt). Our method iterates between 1) program sampling and hindsight relabeling, and 2) learning from prioritized experience replay. By relabeling the goal of an episode (i.e., the target program output given input) to the realized output produced by the sampled program, our method effectively deals with the extreme sparsity of rewards in program synthesis. Applying CodeIt to the ARC dataset, we demonstrate that prioritized hindsight replay, along with pre-training and data-augmentation, leads to successful inter-task generalization. CodeIt is the first neuro-symbolic approach that scales to the full ARC evaluation dataset. Our method solves 15% of ARC evaluation tasks, achieving state-of-the-art performance and outperforming existing neural and symbolic baselines. Our code is available at https://github.com/Qualcomm-AI-research/codeit ."
+ },
+ {
+  "paper_id": 7628,
+  "title": "Interrupting the Loop: Periodic Subject Changes Raise Judged Surprise and Connection in Base Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Where does the novelty a base language model produces with no task come from, and what can an LLM judge of a long stream actually see? We dismantle a cognitively inspired generation loop over 24 conditions on three base models. Most of its effect lives in one operation: a new subject injected every few hundred tokens (an interruption) into a stream whose literal repetition is damped (habituation). We judge windows of generated text only, with the premise as the unit (n=10) and a judge measured for repeatability, against a second judge family and against human readers. Under that protocol the interruption raises judged surprise by 1.2 to 1.4 points and connection by 0.8 over habituation alone. A connective that asks for continuity hurts; a bare paragraph break adds nothing detectable on fresh text; a reset context does at least as well as a kept one; and a pre-registered replication on new premises confirms the primary contrast. Three things the window judge could not see changed the first version of this study, and we think they are of general use. The judge scores the experimenter's injected sentence as the model's own. A fixed rotation of injected sentences makes the model replay its earlier segments from beyond the judge's horizon, and the judge scores the replay as surprise and connection (65-80% of post-interruption windows at periods 150-300). And the local gains do not compose: no arm produces an integrated document. The salience monitor, the in-loop judge, memory across interruptions and a judge-gated Review run with a gate that opens add nothing. On a problem with a verifier (online bin packing), the interruption multiplies valid, distinct candidate heuristics three- to fourfold without raising the quality of the best. We report an evaluation protocol for long generation and a controlled characterization of a simple intervention, not a mechanism of creativity."
+ },
+ {
+  "paper_id": 7629,
+  "title": "Memory-Driven Self-Improvement for Decision Making with Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have emerged as effective action policies for sequential decision-making (SDM) tasks due to their extensive prior knowledge. However, this broad yet general knowledge is often insufficient for specific decision-making tasks with limited task-related data, making it challenging to efficiently adapt LLMs to specific SDM tasks. To address this challenge, we propose a memory-driven self-improvement framework that combines LLM general prior knowledge with a compact memory of domain-specific experiences. Memory retains past interactions and associated Q-values, thereby capturing decision-relevant knowledge that facilitates accurate value estimation and informs the LLM prior refinement. The refined LLM prior, in turn, generates higher-reward trajectories that further enrich memory, forming a natural self-improvement framework where memory and LLM prior mutually reinforce each other. Experiments show that our memory-driven approach significantly outperforms both traditional RL and LLM-based baselines, e.g., improving performance by over 40\\% on in-distribution tasks and over 75\\% when generalized to unseen tasks in ALFWorld."
+ },
+ {
+  "paper_id": 7631,
+  "title": "MedReflect: Teaching Medical LLMs to Self-Improve via Reflective Correction",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Medical problem-solving demands expert knowledge and intricate reasoning. Recent studies of large language models (LLMs) attempt to ease this complexity by introducing external knowledge verification through retrieval-augmented generation or by training on reasoning datasets. However, these approaches suffer from drawbacks such as retrieval overhead and high annotation costs, and they heavily rely on substituted external assistants to reach limited performance in medical field. In this paper, we introduce MedReflect, a generalizable framework designed to inspire LLMs with a physician-like reflective thinking mode. MedReflect generates a single-pass reflection chain that includes initial hypothesis generation, self-questioning, self-answering and decision refinement. This self-verified and self-reflective nature releases large language model's latent capability in medical problem-solving without external retrieval or heavy annotation. We demonstrate that MedReflect enables cost-efficient medical dataset construction. With only a minimal subset of randomly sampled training examples and lightweight fine-tuning, this approach achieves notable absolute accuracy improvements across a series of medical benchmarks while significantly cutting annotation requirements. Our results provide evidence that LLMs can learn to solve specialized medical problems via self-reflection and self-improvement, reducing reliance on external supervision and extensive task-specific fine-tuning data."
+ },
+ {
+  "paper_id": 7633,
+  "title": "AI as Friction for Reflection Support in Ideation",
+  "year": 2026,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Generative AI tools for creative work tend to be designed around the goal of removing friction, on the assumption that smoother iteration and faster output translate into more value for the designer. We argue, however, that this framing leaves out something important about how design ideation works, namely reflection-in-action. The act of accepting, rejecting and reworking candidate ideas is both a path to a final outcome and the process through which designers develop the rationale that allows them to think with their ideas and to communicate them to others. This becomes particularly important in group ideation, where ideas need to be expressed and explained to others to allow the group to extend, reject or combine them further. We suggest that AI in design ideation might be more usefully thought of as a friction agent for reflection rather than as a smoothing agent for output. This reframing opens up a different role for AI in design ideation, one that supports designers in building and carrying rationale rather than substituting for it."
+ },
+ {
+  "paper_id": 7634,
+  "title": "From Shallow Humor to Metaphor: Towards Label-Free Harmful Meme Detection via LMM Agent Self-Improvement",
+  "year": 2025,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "The proliferation of harmful memes on online media poses significant risks to public health and stability. Existing detection methods heavily rely on large-scale labeled data for training, which necessitates substantial manual annotation efforts and limits their adaptability to the continually evolving nature of harmful content. To address these challenges, we present ALARM, the first lAbeL-free hARmful Meme detection framework powered by Large Multimodal Model (LMM) agent self-improvement. The core innovation of ALARM lies in exploiting the expressive information from \"shallow\" memes to iteratively enhance its ability to tackle more complex and subtle ones. ALARM consists of a novel Confidence-based Explicit Meme Identification mechanism that isolates the explicit memes from the original dataset and assigns them pseudo-labels. Besides, a new Pairwise Learning Guided Agent Self-Improvement paradigm is introduced, where the explicit memes are reorganized into contrastive pairs (positive vs. negative) to refine a learner LMM agent. This agent autonomously derives high-level detection cues from these pairs, which in turn empower the agent itself to handle complex and challenging memes effectively. Experiments on three diverse datasets demonstrate the superior performance and strong adaptability of ALARM to newly evolved memes. Notably, our method even outperforms label-driven methods. These results highlight the potential of label-free frameworks as a scalable and promising solution for adapting to novel forms and topics of harmful memes in dynamic online environments."
+ },
+ {
+  "paper_id": 7639,
+  "title": "Language Imbalance Driven Rewarding for Multilingual Self-improving",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have achieved state-of-the-art performance across numerous tasks. However, these advancements have predominantly benefited \"first-class\" languages such as English and Chinese, leaving many other languages underrepresented. This imbalance, while limiting broader applications, generates a natural preference ranking between languages, offering an opportunity to bootstrap the multilingual capabilities of LLM in a self-improving manner. Thus, we propose $\\textit{Language Imbalance Driven Rewarding}$, where the inherent imbalance between dominant and non-dominant languages within LLMs is leveraged as a reward signal. Iterative DPO training demonstrates that this approach not only enhances LLM performance in non-dominant languages but also improves the dominant language's capacity, thereby yielding an iterative reward signal. Fine-tuning Meta-Llama-3-8B-Instruct over two iterations of this approach results in continuous improvements in multilingual performance across instruction-following and arithmetic reasoning tasks, evidenced by an average improvement of 7.46% win rate on the X-AlpacaEval leaderboard and 13.9% accuracy on the MGSM benchmark. This work serves as an initial exploration, paving the way for multilingual self-improvement of LLMs. The code is available at https://github.com/ZNLP/Language-Imbalance-Driven-Rewarding"
+ },
+ {
+  "paper_id": 7643,
+  "title": "CRAT: A Multi-Agent Framework for Causality-Enhanced Reflective and Retrieval-Augmented Translation with Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have shown great promise in machine translation, but they still struggle with contextually dependent terms, such as new or domain-specific words. This leads to inconsistencies and errors that are difficult to address. Existing solutions often depend on manual identification of such terms, which is impractical given the complexity and evolving nature of language. While Retrieval-Augmented Generation (RAG) could provide some assistance, its application to translation is limited by issues such as hallucinations from information overload. In this paper, we propose CRAT, a novel multi-agent translation framework that leverages RAG and causality-enhanced self-reflection to address these challenges. This framework consists of several specialized agents: the Unknown Terms Identification agent detects unknown terms within the context, the Knowledge Graph (KG) Constructor agent extracts relevant internal knowledge about these terms and retrieves bilingual information from external sources, the Causality-enhanced Judge agent validates the accuracy of the information, and the Translator agent incorporates the refined information into the final output. This automated process allows for more precise and consistent handling of key terms during translation. Our results show that CRAT significantly improves translation accuracy, particularly in handling context-sensitive terms and emerging vocabulary."
+ },
+ {
+  "paper_id": 7644,
+  "title": "MadAgents",
+  "year": 2026,
+  "venue": "arXiv:hep-ph",
+  "source": "arxiv",
+  "abstract": "We uncover an effective and communicative set of agents working with MadGraph. Agentic installation, learning-by-doing training, and user support provide easy access to state-of-the-art simulations and accelerate LHC research. We show in detail how MadAgents interact with inexperienced and advanced users, support a range of simulation tasks, and analyze results. In a second step, we illustrate how MadAgents automatize event generation and run an autonomous simulation campaign, starting from a pdf file of a paper. The updated Claude Code implementation includes a self-improvement loop."
+ }
+]

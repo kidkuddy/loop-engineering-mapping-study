@@ -219,7 +219,7 @@
   "paper_id": 1353,
   "title": "Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement",
   "year": 2024,
-  "venue": "",
+  "venue": "ACL",
   "source": "openalex",
   "abstract": "Recent studies show that large language models (LLMs) improve their performance through self-feedback on certain tasks while degrade on others.We discovered that such a contrary is due to LLM's bias in evaluating their own output.In this paper, we formally define LLM's self-bias -the tendency to favor its own generation -using two statistics.We analyze six LLMs (GPT-4, GPT-3.5, Gemini, LLaMA2, Mixtral and DeepSeek) on translation, constrained text generation, and mathematical reasoning tasks.We find that self-bias is prevalent in all examined LLMs across multiple languages and tasks.Our analysis reveals that while the self-refine pipeline improves the fluency and understandability of model outputs, it further amplifies self-bias.To mitigate such biases, we discover that larger model size and external feedback with accurate assessment can significantly reduce bias in the self-refine pipeline, leading to actual performance improvement in downstream tasks.The code and data are released at https://github. com/xu1998hz/llm_self_bias."
  },
@@ -235,7 +235,7 @@
   "paper_id": 1355,
   "title": "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback",
   "year": 2024,
-  "venue": "",
+  "venue": "ACL",
   "source": "openalex",
   "abstract": "Large Language Models (LLMs) have shown remarkable progress in automated code generation.Yet, LLM-generated code may contain errors in API usage, class, data structure, or missing project-specific information.As much of this project-specific context cannot fit into the prompts of LLMs, we must find ways to allow the model to explore the project-level code context.We present COCOGEN, a new code generation approach that uses compiler feedback to improve the LLM-generated code.COCOGEN first leverages static analysis to identify mismatches between the generated code and the project's context.It then iteratively aligns and fixes the identified errors using information extracted from the code repository.We integrate COCOGEN with two representative LLMs, i.e., GPT-3.5-Turbo and Code Llama (13B), and apply it to Python code generation.Experimental results show that COCOGEN significantly improves the vanilla LLMs by over 80% in generating code dependent on the project context and consistently outperforms the existing retrieval-based code generation baselines."
  },
@@ -315,7 +315,7 @@
   "paper_id": 1370,
   "title": "SimpleDoc: Multi\u2010Modal Document Understanding with Dual\u2010Cue Page Retrieval and Iterative Refinement",
   "year": 2025,
-  "venue": "",
+  "venue": "EMNLP",
   "source": "openalex",
   "abstract": "Document Visual Question Answering (DocVQA) is a practical yet challenging task, which is to ask questions based on documents while referring to multiple pages and different modalities of information, e.g., images and tables.To handle multi-modality, recent methods follow a similar Retrieval Augmented Generation (RAG) pipeline, but utilize Visual Language Models (VLMs) based embedding model to embed and retrieve relevant pages as images, and generate answers with VLMs that can accept an image as input.In this paper, we introduce SimpleDoc, a lightweight yet powerful retrieval-augmented framework for DocVQA.It boosts evidence page gathering by first retrieving candidates through embedding similarity and then filtering and re-ranking these candidates based on page summaries.A single VLM-based reasoner agent repeatedly invokes this dual-cue retriever, iteratively pulling fresh pages into a working memory until the question is confidently answered.SimpleDoc outperforms previous baselines by 3.2% on average on 4 DocVQA datasets with much fewer pages retrieved."
  },

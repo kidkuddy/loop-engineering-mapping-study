@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 1961,
+  "title": "Large Language Models are Better Reasoners with Self-Verification",
+  "year": 2022,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Recently, with the chain of thought (CoT) prompting, large language models (LLMs), e.g., GPT-3, have shown strong reasoning ability in several natural language processing tasks such as arithmetic, commonsense, and logical reasoning. However, LLMs with CoT require multi-step prompting and multi-token prediction, which is highly sensitive to individual mistakes and vulnerable to error accumulation. The above issues make the LLMs need the ability to verify the answers. In fact, after inferring conclusions in some thinking decision tasks, people often check them by re-verifying steps to avoid some mistakes. In this paper, we propose and prove that LLMs also have similar self-verification abilities. We take the conclusion obtained by CoT as one of the conditions for solving the original problem. By performing a backward verification of the answers that LLM deduced for itself, we can obtain interpretable answer validation scores to select the candidate answer with the highest score. Experimental results demonstrate that the proposed method can improve the reasoning performance on various arithmetic, commonsense, and logical reasoning datasets. Our code is publicly available at: https://github.com/WENGSYX/Self-Verification."
+ },
+ {
+  "paper_id": 1986,
+  "title": "ReVeal: Self-Evolving Code Agents via Reliable Self-Verification",
+  "year": 2025,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning with verifiable rewards (RLVR) has advanced the reasoning capabilities of large language models. However, existing methods rely solely on outcome rewards, without explicitly optimizing verification or leveraging reliable signals from realistic environments, leading to unreliable self-verification and limited test-time scaling. To address this, we widen the verification-generation asymmetry by explicitly optimizing self-verification, making it a reliable driver of deeper test-time scaling. We introduce ReVeal, a multi-turn reinforcement learning framework that evolves code generation through self-verification and tool-based evaluation. ReVeal structures long-horizon reasoning as iterative generation-verification turns and incorporates TAPO for turn-level credit assignment, fostering the co-evolution of code and test generation. At inference, this strengthened self-verification enables the model to use self-constructed tests and tool feedback to continuously evolve code for 20+ turns on LiveCodeBench despite training on only three. It also significantly improves Pass@k, indicating stronger exploration that expands the reasoning boundaries of the base model. These findings highlight the promise of ReVeal as a scalable paradigm for RL training and test-time scaling, paving the way for more robust and autonomous AI agents."
+ },
+ {
+  "paper_id": 1989,
+  "title": "\"We Need Structured Output\": Towards User-centered Constraints on Large Language Model Output",
+  "year": 2024,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Large language models can produce creative and diverse responses. However, to integrate them into current developer workflows, it is essential to constrain their outputs to follow specific formats or standards. In this work, we surveyed 51 experienced industry professionals to understand the range of scenarios and motivations driving the need for output constraints from a user-centered perspective. We identified 134 concrete use cases for constraints at two levels: low-level, which ensures the output adhere to a structured format and an appropriate length, and high-level, which requires the output to follow semantic and stylistic guidelines without hallucination. Critically, applying output constraints could not only streamline the currently repetitive process of developing, testing, and integrating LLM prompts for developers, but also enhance the user experience of LLM-powered features and applications. We conclude with a discussion on user preferences and needs towards articulating intended constraints for LLMs, alongside an initial design for a constraint prototyping tool."
+ },
+ {
+  "paper_id": 2011,
+  "title": "When Should a Language Model Trust Itself? Same-Model Self-Verification as a Conditional Confidence Signal",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Same-model self-verification, prompting a model to audit its own predicted answer, is a plausible confidence signal for selective prediction, but its practical value remains unclear once strong likelihood-based baselines are taken seriously. We evaluate self-verification against two such baselines, LL-AVG and LL-SUM, on ARC-Challenge and TruthfulQA-MC across multiple model families, scales, and prompt variants. We measure not only correctness ranking, but also abstention quality through AURC and operating-point analyses. The results are sharply task- and model-dependent. On ARC-Challenge, self-verification substantially improves over LL-AVG for Phi-2 and the Qwen models, with the largest gains appearing in Qwen-7B. On TruthfulQA-MC, however, the signal is less reliable: smaller models can become prompt-sensitive, DeepSeek-R1-Distill-8B degrades relative to LL-AVG, and LL-SUM often remains the stronger practical baseline. We therefore do not treat self-verification as a general-purpose uncertainty estimator. In this setting, it is better understood as a conditional confidence signal whose value depends on task type, model family, prompt formulation, and, crucially, the baseline it must beat."
+ },
+ {
+  "paper_id": 2030,
+  "title": "FineVerify: Scaling Test-Time Compute with Fine-Grained Self-Verification for Agentic Search",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Agentic search requires language model agents to explore many sources and answer complex information-seeking questions. Scaling test-time compute is a promising way to improve these agents, but current approaches can fail, because correct answers are often sparse and score-based selection depends on model calibration. We propose FineVerify, a fine-grained self-verification framework that decomposes each question into checkable sub-questions, verifies sampled candidates against each sub-question, and selects the candidate with the highest aggregated score. This per-check structure turns selection into simpler local judgments and produces scores under the same explicit criteria. Across four agentic search benchmarks and two models, FineVerify consistently outperforms standard scaling baselines. With only four sampled trajectories, it improves GPT-5-mini by 8.2 accuracy points and Gemini-3-flash by 5.6% on average. With 12 samples, FineVerify enables GPT-5-mini to surpass frontier GPT-5 on BrowseComp-Plus. Beyond accuracy, FineVerify produces interpretable verification traces that help audit benchmark errors, suggesting broader applications for inspecting agentic search systems. Code and data are available at https://github.com/XuZhao0/fineverify"
+ },
+ {
+  "paper_id": 2052,
+  "title": "Convergence of Outputs When Two Large Language Models Interact in a Multi-Agentic Setup",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "In this work, we report what happens when two large language models respond to each other for many turns without any outside input in a multi-agent setup. The setup begins with a short seed sentence. After that, each model reads the other's output and generates a response. This continues for a fixed number of steps. We used Mistral Nemo Base 2407 and Llama 2 13B hf. We observed that most conversations start coherently but later fall into repetition. In many runs, a short phrase appears and repeats across turns. Once repetition begins, both models tend to produce similar output rather than introducing a new direction in the conversation. This leads to a loop where the same or similar text is produced repeatedly. We describe this behavior as a form of convergence. It occurs even though the models are large, trained separately, and not given any prompt instructions. To study this behavior, we apply lexical and embedding-based metrics to measure how far the conversation drifts from the initial seed and how similar the outputs of the two models becomes as the conversation progresses."
+ },
+ {
+  "paper_id": 2053,
+  "title": "Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) show great promise in complex reasoning, with Reinforcement Learning with Verifiable Rewards (RLVR) being a key enhancement strategy. However, a prevalent issue is ``superficial self-reflection'', where models fail to robustly verify their own outputs. We introduce RISE (Reinforcing Reasoning with Self-Verification), a novel online RL framework designed to tackle this. RISE explicitly and simultaneously trains an LLM to improve both its problem-solving and self-verification abilities within a single, integrated RL process. The core mechanism involves leveraging verifiable rewards from an outcome verifier to provide on-the-fly feedback for both solution generation and self-verification tasks. In each iteration, the model generates solutions, then critiques its own on-policy generated solutions, with both trajectories contributing to the policy update. Extensive experiments on diverse mathematical reasoning benchmarks show that RISE consistently improves model's problem-solving accuracy while concurrently fostering strong self-verification skills. Our analyses highlight the advantages of online verification and the benefits of increased verification compute. Additionally, RISE models exhibit more frequent and accurate self-verification behaviors during reasoning. These advantages reinforce RISE as a flexible and effective path towards developing more robust and self-aware reasoners."
+ },
+ {
+  "paper_id": 2058,
+  "title": "PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows",
+  "year": 2025,
+  "venue": "arXiv:cs.DC",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) and other foundation models are increasingly used as the core of AI agents. In agentic workflows, these agents plan tasks, interact with humans and peers, and influence scientific outcomes across federated and heterogeneous environments. However, agents can hallucinate or reason incorrectly, propagating errors when one agent's output becomes another's input. Thus, assuring that agents' actions are transparent, traceable, reproducible, and reliable is critical to assess hallucination risks and mitigate their workflow impacts. While provenance techniques have long supported these principles, existing methods fail to capture and relate agent-centric metadata such as prompts, responses, and decisions with the broader workflow context and downstream outcomes. In this paper, we introduce PROV-AGENT, a provenance model that extends W3C PROV and leverages the Model Context Protocol (MCP) and data observability to integrate agent interactions into end-to-end workflow provenance. Our contributions include: (1) a provenance model tailored for agentic workflows, (2) a near real-time, open-source system for capturing agentic provenance, and (3) a cross-facility evaluation spanning edge, cloud, and HPC environments, demonstrating support for critical provenance queries and agent reliability analysis."
+ },
+ {
+  "paper_id": 2065,
+  "title": "SLOT: Structuring the Output of Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Structured outputs are essential for large language models (LLMs) in critical applications like agents and information extraction. Despite their capabilities, LLMs often generate outputs that deviate from predefined schemas, significantly hampering reliable application development. We present SLOT (Structured LLM Output Transformer), a model-agnostic approach that transforms unstructured LLM outputs into precise structured formats. While existing solutions predominantly rely on constrained decoding techniques or are tightly coupled with specific models, SLOT employs a fine-tuned lightweight language model as a post-processing layer, achieving flexibility across various LLMs and schema specifications. We introduce a systematic pipeline for data curation and synthesis alongside a formal evaluation methodology that quantifies both schema accuracy and content fidelity. Our results demonstrate that fine-tuned Mistral-7B model with constrained decoding achieves near perfect schema accuracy (99.5%) and content similarity (94.0%), outperforming Claude-3.5-Sonnet by substantial margins (+25 and +20 percentage points, respectively). Notably, even compact models like Llama-3.2-1B can match or exceed the structured output capabilities of much larger proprietary models when equipped with SLOT, enabling reliable structured generation in resource-constrained environments."
+ },
+ {
+  "paper_id": 2088,
+  "title": "ReVISE: Learning to Refine at Test-Time via Intrinsic Self-Verification",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Self-awareness, i.e., the ability to assess and correct one's own generation, is a fundamental aspect of human intelligence, making its replication in large language models (LLMs) an important yet challenging task. Previous works tackle this by employing extensive reinforcement learning or rather relying on large external verifiers. In this work, we propose Refine via Intrinsic Self-Verification (ReVISE), an efficient and effective framework that enables LLMs to self-correct their outputs through self-verification. The core idea of ReVISE is to enable LLMs to verify their reasoning processes and continually rethink reasoning trajectories based on its verification. We introduce a structured curriculum based upon online preference learning to implement this efficiently. Specifically, as ReVISE involves two challenging tasks (i.e., self-verification and reasoning correction), we tackle each task sequentially using curriculum learning, collecting both failed and successful reasoning paths to construct preference pairs for efficient training. During inference, our approach enjoys natural test-time scaling by integrating self-verification and correction capabilities, further enhanced by our proposed confidence-aware decoding mechanism. Our experiments on various reasoning tasks demonstrate that ReVISE achieves efficient self-correction and significantly improves reasoning performance."
+ },
+ {
+  "paper_id": 2089,
+  "title": "Learning Game-Playing Agents with Generative Code Optimization",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "We present a generative optimization approach for learning game-playing agents, where policies are represented as Python programs and refined using large language models (LLMs). Our method treats decision-making policies as self-evolving code, with current observation as input and an in-game action as output, enabling agents to self-improve through execution traces and natural language feedback with minimal human intervention. Applied to Atari games, our game-playing Python program achieves performance competitive with deep reinforcement learning (RL) baselines while using significantly less training time and much fewer environment interactions. This work highlights the promise of programmatic policy representations for building efficient, adaptable agents capable of complex, long-horizon reasoning."
+ },
+ {
+  "paper_id": 2098,
+  "title": "FABSVer: Faster Training and Better Self-Verification for LLM Mathematical Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "While large language models have made significant progress in mathematical reasoning, they remain unreliable at judging the correctness of their own solutions. Existing approaches that equip models with self-verification typically treat solution generation and verification as two separate tasks, leading to substantially increased training time. In this paper, we propose FABSVer, which fuses these two tasks into a single generation pass, dramatically reducing training overhead while jointly optimizing both capabilities. We further identify a convergence bottleneck both theoretically and empirically: as training progresses, the reward reaches a plateau because the policy is constrained by a fixed reference model. To overcome this, we introduce Dynamic Reference Model Update (DRMU), which raises the reward ceiling and enables sustained reward growth. Extensive experiments on math benchmarks demonstrate that FABSVer achieves superior self-verification and reasoning performance across three model scales, while requiring only 51%--71% of the training time of existing methods. Analysis further reveals distinct learning phases in how models acquire self-verification, and that the gap between verify and answer rewards shrinks noticeably as model size increases."
+ },
+ {
+  "paper_id": 2107,
+  "title": "Chatbots Output Meaningful (but Problematic) Language",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Are utterances by AI chatbots meaningful? Concretely, if a user asks, say, Anthropic's agent Claude, \"What is the capital of Spain?\" and Claude answers, \"Madrid is the capital of Spain,\" does that sentence have its ordinary meaning -- and does it express a true proposition? Most ordinary users, as well as AI engineers, take the answer to be trivially \"yes.\" However, many cognitive scientists, linguists, and philosophers of language argue that dominant intentionalist accounts of language and meaning deliver the opposite conclusion.   Theorists more sympathetic to ordinary users' intuitions have therefore advocated a radical \"de-anthropomorphization\" of language, revising our understanding of mental states, intentions, and semantic content to capture the intuition that the outputs of LLMs are meaningful. We take a different approach. While we, too, argue that LLM outputs are meaningful, we contend that a proper theory of human language already applies, as is, to current chatbots. Meaning is a low bar: claiming that LLM outputs are meaningful does not require positing mental states, intentions, rationality, or the cognitive capacities requisite for communication in LLMs -- or, indeed, making any other anthropomorphic assumptions. People do have communicative intentions (typically successful ones), but nevertheless, even in humans, language production can depart from what the speaker has in mind.   Our view has important consequences for how we should theorize about -- and critically engage with -- both human linguistic output and synthetically generated text. In particular, to say that chatbots produce meaningful text is not by any means to endorse what they output, or to assume that the technology is (or is not) good, powerful, appropriate, or useful."
+ },
+ {
+  "paper_id": 2224,
+  "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
+  "year": 2025,
+  "venue": "Nature Methods",
+  "source": "openalex",
+  "abstract": "Gene-set analysis seeks to identify the biological mechanisms underlying groups of genes with shared functions. Large language models (LLMs) have recently shown promise in generating functional descriptions for input gene sets but may produce factually incorrect statements, commonly referred to as hallucinations in LLMs. Here we present GeneAgent, an LLM-based AI agent for gene-set analysis that reduces hallucinations by autonomously interacting with biological databases to verify its own output. Evaluation of 1,106 gene sets collected from different sources demonstrates that GeneAgent is consistently more accurate than GPT-4 by a significant margin. We further applied GeneAgent to seven novel gene sets derived from mouse B2905 melanoma cell lines. Expert review confirmed that GeneAgent produces more relevant and comprehensive functional descriptions than GPT-4, providing valuable insights into gene functions and expediting knowledge discovery."
+ },
+ {
+  "paper_id": 2225,
+  "title": "Large Language Models are Better Reasoners with Self-Verification",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recently, with the chain of thought (CoT) prompting, large language models (LLMs), e.g., GPT-3, have shown strong reasoning ability in several natural language processing tasks such as arithmetic, commonsense, and logical reasoning. However, LLMs with CoT require multi-step prompting and multi-token prediction, which is highly sensitive to individual mistakes and vulnerable to error accumulation. The above issues make the LLMs need the ability to verify the answers. In fact, after inferring conclusions in some thinking decision tasks, people often check them by re-verifying steps to avoid some mistakes. In this paper, we propose and prove that LLMs also have similar self-verification abilities. We take the conclusion obtained by CoT as one of the conditions for solving the original problem. By performing a backward verification of the answers that LLM deduced for itself, we can obtain interpretable answer validation scores to select the candidate answer with the highest score. Experimental results demonstrate that the proposed method can improve the reasoning performance on various arithmetic, commonsense, and logical reasoning datasets. Our code is publicly available at: https://github.com/WENGSYX/"
+ },
+ {
+  "paper_id": 2227,
+  "title": "Fight Fire With Fire: How Much Can We Trust ChatGPT on Source Code-Related Tasks?",
+  "year": 2024,
+  "venue": "IEEE Transactions on Software Engineering",
+  "source": "openalex",
+  "abstract": "With the increasing utilization of large language models such as ChatGPT during software development, it has become crucial to verify the quality of code content it generates. Recent studies proposed utilizing ChatGPT as both a developer and tester for multi-agent collaborative software development. The multi-agent collaboration empowers ChatGPT to produce test reports for its generated code, enabling it to self-verify the code content and fix bugs based on these reports. However, these studies did not assess the effectiveness of the generated test reports in validating the code. Therefore, we conduct a comprehensive empirical investigation to evaluate ChatGPT's self-verification capability in code generation, code completion, and program repair. We request ChatGPT to (1) generate correct code and then self-verify its correctness; (2) complete code without vulnerabilities and then self-verify for the presence of vulnerabilities; and (3) repair buggy code and then self-verify whether the bugs are resolved. Our findings on two code generation datasets, one code completion dataset, and two program repair datasets reveal the following observations: (1) ChatGPT often erroneously predicts its generated incorrect code as correct, its vulnerable completed code as non-vulnerable, and its failed program repairs as successful during its self-verification. (2) The self-contradictory hallucinations in ChatGPT's behavior arise: (a) ChatGPT initially generates code that it believes to be correct but later predicts it to be incorrect; (b) ChatGPT initially generates code completions that it deems secure but later predicts them to be vulnerable; (c) ChatGPT initially outputs code that it considers successfully repaired but later predicts it to be buggy during its self-verification. (3) The self-verification capability of ChatGPT can be enhanced by asking the guiding question, which queries whether ChatGPT agrees with assertions about incorrectly generated or repaired code and vulnerabilities in completed code. (4) Using test reports generated by ChatGPT can identify more vulnerabilities in completed code, but the explanations for incorrectly generated code and failed repairs are"
+ },
+ {
+  "paper_id": 2228,
+  "title": "A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Ruixin Hong, Hongming Zhang, Xinyu Pang, Dong Yu, Changshui Zhang. Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024."
+ },
+ {
+  "paper_id": 2230,
+  "title": "TOOLVERIFIER: Generalization to New Tools via Self-Verification",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Teaching language models to use tools is an important milestone towards building general assistants, but remains an open problem.While there has been significant progress on learning to use specific tools via fine-tuning, language models still struggle with learning how to robustly use new tools from only a few demonstrations.In this work we introduce a self-verification method which distinguishes between close candidates by self-asking contrastive questions during (1) tool selection; and(2) parameter generation.We construct synthetic, high-quality, self-generated data for this goal using Llama-2 70B, which we intend to release publicly.Extensive experiments on 4 tasks from the ToolBench benchmark, consisting of 17 unseen tools, demonstrate an average improvement of 22% over few-shot baselines, even in scenarios where the distinctions between candidate tools are finely nuanced."
+ },
+ {
+  "paper_id": 2234,
+  "title": "ToolUniverse: An open platform for democratizing AI scientists",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "AI scientists are emerging computational systems that serve as collaborative partners in discovery. These systems remain difficult to build because they are bespoke, tied to rigid workflows, and lack shared environments that unify tools, data, and analyses into a common ecosystem. We present ToolUniverse, an open platform for building AI scientists from any language or reasoning model across open- and closed-weight models. ToolUniverse standardizes how AI scientists identify and call tools through an AI-tool interaction standard, in which every tool declares its purpose in natural language, a typed schema for its inputs and outputs, and a backend-agnostic invocation format, and applies that standard to more than 2,700 scientific tools and over 130 research skills spanning machine learning models, datasets, APIs, and scientific packages for data analysis, knowledge retrieval, and experimental design. It automatically refines tool interfaces for correct use by AI scientists, generates new tools from natural language descriptions, iteratively optimizes tool specifications, and composes tools into agentic workflows. In case studies, ToolUniverse was used to create AI scientists that carried out end-to-end analyses in target assessment, chemical strategy, and clinical-trial safety. The open-source ToolUniverse is available at https://aiscientist.tools."
+ },
+ {
+  "paper_id": 2237,
+  "title": "From Illusion to Insight: A Taxonomic Survey of Hallucination Mitigation Techniques in LLMs",
+  "year": 2025,
+  "venue": "Preprints.org",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) exhibit remarkable generative capabilities but remain susceptible to hallucinations\u2014outputs that are fluent yet inaccurate, ungrounded, or in-consistent with source material. This paper presents a method-oriented taxonomy of hallucination mitigation strategies in text-based Large Language Models (LLMs), encompassing six categories: Training and Learning Approaches, Architectural Modifications, Input / Prompt Optimization, Post-Generation Quality Control, Interpretability and Diagnostic Methods, and Agent-Based Orchestration. By synthesizing over 300 studies, we identify persistent challenges including the lack of standardized evaluation benchmarks, attribution difficulties in multi-method frameworks, computational trade-offs between accuracy and latency, and the vulnerability of retrieval-based methods to noisy or outdated sources. We highlight underexplored research directions such as knowledge-grounded fine-tuning strategies balancing factuality with creative utility; and hybrid retrieval\u2013generation pipelines integrated with self-reflective reasoning agents. This taxonomy offers both a synthesis of current knowledge and a roadmap for advancing reliable, con-text-sensitive mitigation in high-stakes domains such as healthcare, law, and defense."
+ },
+ {
+  "paper_id": 2239,
+  "title": "Deductive Verification of Chain-of-Thought Reasoning",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) significantly benefit from Chain-of-Thought (CoT) prompting in performing various reasoning tasks. While CoT allows models to produce more comprehensive reasoning processes, its emphasis on intermediate reasoning steps can inadvertently introduce hallucinations and accumulated errors, thereby limiting models' ability to solve complex reasoning tasks. Inspired by how humans engage in careful and meticulous deductive logical reasoning processes to solve tasks, we seek to enable language models to perform explicit and rigorous deductive reasoning, and also ensure the trustworthiness of their reasoning process through self-verification. However, directly verifying the validity of an entire deductive reasoning process is challenging, even with advanced models like ChatGPT. In light of this, we propose to decompose a reasoning verification process into a series of step-by-step subprocesses, each only receiving their necessary context and premises. To facilitate this procedure, we propose Natural Program, a natural language-based deductive reasoning format. Our approach enables models to generate precise reasoning steps where subsequent steps are more rigorously grounded on prior steps. It also empowers language models to carry out reasoning self-verification in a step-by-step manner. By integrating this verification process into each deductive reasoning stage, we significantly enhance the rigor and trustfulness of generated reasoning steps. Along this process, we also improve the answer correctness on complex reasoning tasks. Code will be released at https://github.com/lz1oceani/verify_cot."
+ },
+ {
+  "paper_id": 2242,
+  "title": "Consensus Entropy: Harnessing Multi-VLM Agreement for Self-Verifying and Self-Improving OCR",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Optical Character Recognition (OCR) is fundamental to Vision-Language Models (VLMs) and high-quality data generation for LLM training. Yet, despite progress in average OCR accuracy, state-of-the-art VLMs still struggle with detecting sample-level errors and lack effective unsupervised quality control. We introduce Consensus Entropy (CE), a training-free, model-agnostic metric that estimates output reliability by measuring inter-model agreement entropy. The core insight is that correct predictions converge in output space, while errors diverge. Based on CE, we develop CE-OCR, a lightweight multi-model framework that verifies outputs by ensemble agreement, selects the best outputs, and further improves efficiency through adaptive routing. Experiments demonstrate that CE is robust for quality verification, improving F1 scores by 42.1% over VLM-as-Judge. CE-OCR achieves consistent OCR gains, outperforming self-consistency and single-model baselines at the same cost. Notably, CE requires no training or supervision, enabling plug-and-play integration. Code: https://github.com/Aslan-yulong/consensus-entropy."
+ },
+ {
+  "paper_id": 2245,
+  "title": "CROSSAGENTIE: Cross-Type and Cross-Task Multi-Agent LLM Collaboration for Zero-Shot Information Extraction",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) excel in generating unstructured text.However, they struggle with producing structured output while maintaining accuracy in zero-shot information extraction (IE), such as named entity recognition (NER) and relation extraction (RE).To address these challenges, we propose CROSSAGEN-TIE, a multi-agent framework that enhances zero-shot IE through multi-agent LLM collaboration.CROSSAGENTIE refines LLM predictions iteratively through two mechanisms: intra-group cross-type debate, which resolves entity-label conflicts through context-based evidence and confidence aggregation, and intergroup cross-task debate, where NER and RE mutually refine outputs via bidirectional feedback.Furthermore, we introduce template finetuning, distilling high-confidence multi-agent outputs into a single model, significantly reducing inference costs while preserving accuracy.Experiments across five NER and five RE datasets show that CROSSAGENTIE significantly outperforms state-of-the-art zero-shot baselines by a large margin.CROSSAGEN-TIE effectively addresses LLM limitations in structured prediction with an effective and efficient approach for zero-shot information extraction.Our GitHub can be found at https://github.com/Luca/CorssAgentIE.Sentence: \"Reagan sounded positive notes reminiscent of earlier speeches throughout his political career _ the pre-eminent position of \" We the People \"in ...."
+ },
+ {
+  "paper_id": 2246,
+  "title": "Is There No Such Thing as a Bad Question? H4R: HalluciBot For Ratiocination, Rewriting, Ranking, and Routing",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Hallucination continues to be one of the most critical challenges in the institutional adoption journey of Large Language Models (LLMs). While prior studies have primarily focused on the post-generation analysis and refinement of outputs, this paper centers on the effectiveness of queries in eliciting accurate responses from LLMs. We present HalluciBot, a model that estimates the query's propensity to hallucinate before generation, without invoking any LLMs during inference. HalluciBot can serve as a proxy reward model for query rewriting, offering a general framework to estimate query quality based on accuracy and consensus. In essence, HalluciBot investigates how poorly constructed queries can lead to erroneous outputs - moreover, by employing query rewriting guided by HalluciBot's empirical estimates, we demonstrate that 95.7% output accuracy can be achieved for Multiple Choice questions. The training procedure for HalluciBot consists of perturbing 369,837 queries n times, employing n+1 independent LLM agents, sampling an output from each query, conducting a Multi-Agent Monte Carlo simulation on the sampled outputs, and training an encoder classifier. The idea of perturbation is the outcome of our ablation studies that measures the increase in output diversity (+12.5 agreement spread) by perturbing a query in lexically different but semantically similar ways. Therefore, HalluciBot paves the way to ratiocinate (76.0% test F1 score, 46.6% in saved computation on hallucinatory queries), rewrite (+30.2% positive class transition from hallucinatory to non-hallucinatory), rank (+50.6% positive class transition from hallucinatory to non-hallucinatory), and route queries to effective pipelines."
+ },
+ {
+  "paper_id": 2247,
+  "title": "Octopus: Embodied Vision-Language Programmer from Environmental Feedback",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large vision-language models (VLMs) have achieved substantial progress in multimodal perception and reasoning. When integrated into an embodied agent, existing embodied VLM works either output detailed action sequences at the manipulation level or only provide plans at an abstract level, leaving a gap between high-level planning and real-world manipulation. To bridge this gap, we introduce Octopus, an embodied vision-language programmer that uses executable code generation as a medium to connect planning and manipulation. Octopus is designed to 1) proficiently comprehend an agent's visual and textual task objectives, 2) formulate intricate action sequences, and 3) generate executable code. To facilitate Octopus model development, we introduce OctoVerse: a suite of environments tailored for benchmarking vision-based code generators on a wide spectrum of tasks, ranging from mundane daily chores in simulators to sophisticated interactions in complex video games such as Grand Theft Auto (GTA) and Minecraft. To train Octopus, we leverage GPT-4 to control an explorative agent that generates training data, i.e., action blueprints and corresponding executable code. We also collect feedback that enables an enhanced training scheme called Reinforcement Learning with Environmental Feedback (RLEF). Through a series of experiments, we demonstrate Octopus's functionality and present compelling results, showing that the proposed RLEF refines the agent's decision-making. By open-sourcing our simulation environments, dataset, and model architecture, we aspire to ignite further innovation and foster collaborative applications within the broader embodied AI community."
+ },
+ {
+  "paper_id": 2249,
+  "title": "Feedback Loops With Language Models Drive In-Context Reward Hacking",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language models influence the external world: they query APIs that read and write to web pages, generate content that shapes human behavior, and run system commands as autonomous agents. These interactions form feedback loops: LLM outputs affect the world, which in turn affect subsequent LLM outputs. In this work, we show that feedback loops can cause in-context reward hacking (ICRH), where the LLM at test-time optimizes a (potentially implicit) objective but creates negative side effects in the process. For example, consider an LLM agent deployed to increase Twitter engagement; the LLM may retrieve its previous tweets into the context window and make them more controversial, increasing engagement but also toxicity. We identify and study two processes that lead to ICRH: output-refinement and policy-refinement. For these processes, evaluations on static datasets are insufficient -- they miss the feedback effects and thus cannot capture the most harmful behavior. In response, we provide three recommendations for evaluation to capture more instances of ICRH. As AI development accelerates, the effects of feedback loops will proliferate, increasing the need to understand their role in shaping LLM behavior."
+ },
+ {
+  "paper_id": 2250,
+  "title": "Planning in Strawberry Fields: Evaluating and Improving the Planning and Scheduling Capabilities of LRM o1",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The ability to plan a course of action that achieves a desired state of affairs has long been considered a core competence of intelligent agents and has been an integral part of AI research since its inception. With the advent of large language models (LLMs), there has been considerable interest in the question of whether or not they possess such planning abilities, but -- despite the slew of new private and open source LLMs since GPT3 -- progress has remained slow. OpenAI claims that their recent o1 (Strawberry) model has been specifically constructed and trained to escape the normal limitations of autoregressive LLMs -- making it a new kind of model: a Large Reasoning Model (LRM). In this paper, we evaluate the planning capabilities of two LRMs (o1-preview and o1-mini) on both planning and scheduling benchmarks. We see that while o1 does seem to offer significant improvements over autoregressive LLMs, this comes at a steep inference cost, while still failing to provide any guarantees over what it generates. We also show that combining o1 models with external verifiers -- in a so-called LRM-Modulo system -- guarantees the correctness of the combined system's output while further improving performance."
+ },
+ {
+  "paper_id": 2251,
+  "title": "AutoMix: Automatically Mixing Language Models",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are now available from cloud API providers in various sizes and configurations. While this diversity offers a broad spectrum of choices, effectively leveraging the options to optimize computational cost and performance remains challenging. In this work, we present Automix, an approach that strategically routes queries to larger LMs, based on the approximate correctness of outputs from a smaller LM. Central to Automix are two key technical contributions. First, it has a few-shot self-verification mechanism, which estimates the reliability of its own outputs without requiring extensive training. Second, given that self-verification can be noisy, it employs a POMDP based router that can effectively select an appropriately sized model, based on answer confidence. Experiments across five language models and five challenging datasets show that Automix consistently surpasses strong baselines, reducing computational cost by over 50% for comparable performance."
+ },
+ {
+  "paper_id": 2253,
+  "title": "Consensus-Driven Multi-Agent Cognitive Reasoning for Enhancing the Emotional Intelligence of Large Language Models",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated strong performance in various NLP tasks but remain limited in emotional intelligence (EI). Benchmarks such as EmoBench attribute this gap to deficiencies in cognitively demanding tasks that require inferring others\u2019 latent mental states, intentions, and emotions in nuanced social contexts. To address this, we propose MACRo, a Multi-Agent Cognitive Reasoning framework that generates a structured Cognitive Chain of Thought comprising Situation, Clue, Thought, Action, and Emotion. Each component is generated by a specialized agent, enabling modular, interpretable multi-step reasoning. To ensure coherence and mitigate hallucinations, a coordinator agent verifies outputs, and a consensus game mechanism enforces alignment across reasoning steps. Extensive Experiments on EmoBench show that MACRo significantly enhances both emotional understanding and application across LLMs. Further evaluations confirm its generalizability to real-world social applications such as emotional support conversations."
+ },
+ {
+  "paper_id": 2257,
+  "title": "Towards Reasoning in Large Language Models: A Survey",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Reasoning is a fundamental aspect of human intelligence that plays a crucial role in activities such as problem solving, decision making, and critical thinking. In recent years, large language models (LLMs) have made significant progress in natural language processing, and there is observation that these models may exhibit reasoning abilities when they are sufficiently large. However, it is not yet clear to what extent LLMs are capable of reasoning. This paper provides a comprehensive overview of the current state of knowledge on reasoning in LLMs, including techniques for improving and eliciting reasoning in these models, methods and benchmarks for evaluating reasoning abilities, findings and implications of previous research in this field, and suggestions on future directions. Our aim is to provide a detailed and up-to-date review of this topic and stimulate meaningful discussion and future work. 1"
+ },
+ {
+  "paper_id": 2259,
+  "title": "KodCode: A Diverse, Challenging, and Verifiable Synthetic Dataset for Coding",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "We introduce KODCODE, a synthetic dataset that addresses the persistent challenge of acquiring high-quality, verifiable training data across diverse difficulties and domains for training Large Language Models for coding.Existing code-focused resources typically fail to ensure either the breadth of coverage (e.g., spanning simple coding tasks to advanced algorithmic problems) or verifiable correctness (e.g., unit tests).In contrast, KODCODE comprises question-solution-test triplets that are systematically validated via a self-verification procedure.Our pipeline begins by synthesizing a broad range of coding questions, then generates solutions and test cases with additional attempts allocated to challenging problems.Finally, posttraining data synthesis is done by rewriting questions into diverse formats and generating responses under a test-based reject sampling procedure from a reasoning model (DeepSeek R1).This pipeline yields a large-scale, robust and diverse coding dataset.KODCODE is suitable for supervised fine-tuning and the paired unit tests also provide great potential for RL tuning.Fine-tuning experiments on coding benchmarks (HumanEval(+), MBPP(+), Big-CodeBench, and LiveCodeBench) demonstrate that KODCODE-tuned models achieve state-ofthe-art performance, surpassing models like Qwen2.5-Coder-32B-Instruct and DeepSeek-R1-Distill-Llama-70B. * Work done during internship at Microsoft GenAI."
+ },
+ {
+  "paper_id": 2261,
+  "title": "Enriching Location Representation with Detailed Semantic Information",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Cyber-physical systems (CPS) are critical to modern infrastructure, but are vulnerable to faults and anomalies that threaten their operational safety. In this work, we evaluate the use of open-source Large Language Models (LLMs), such as Mistral 7B, Llama3.1:8b-instruct-fp16, and others to detect anomalies in two distinct datasets: battery management and powertrain systems. Our methodology utilises retrieval-augmented generation (RAG) techniques, incorporating a novel two-step process where LLMs first infer operational rules from normal behavior before applying these rules for fault detection. During the experiments, we found that the original prompt design yielded strong results for the battery dataset but required modification for the powertrain dataset to improve performance. The adjusted prompt, which emphasises rule inference, significantly improved anomaly detection for the powertrain dataset. Experimental results show that models like Mistral 7B achieved F1-scores up to 0.99, while Llama3.1:8b-instruct-fp16 and Gemma 2 reached perfect F1-scores of 1.0 in complex scenarios. These findings demonstrate the impact of effective prompt design and rule inference in improving LLM-based fault detection for CPS, contributing to increased operational resilience."
+ },
+ {
+  "paper_id": 2262,
+  "title": "Can Large Language Models Solve Robot Routing?",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Routing problems are common in mobile robotics, encompassing tasks such as inspection, surveillance, and coverage. Depending on the objective and constraints, these problems often reduce to variants of the Traveling Salesman Problem (TSP), with solutions traditionally derived by translating high-level objectives into an optimization formulation and using modern solvers to arrive at a solution. Here, we explore the potential of Large Language Models (LLMs) to replace the entire pipeline from tasks described in natural language to the generation of robot routes. We systematically investigate the performance of LLMs in robot routing by constructing a dataset with 80 unique robot routing problems across 8 variants in both single and multi-robot settings. We evaluate LLMs through three frameworks: single attempt, self-debugging, and self-debugging with self-verification and various contexts, including mathematical formulations, pseudo-code, and related research papers. Our findings reveal that both self-debugging and self-verification enhance success rates without significantly lowering the optimality gap. We observe context-sensitive behavior - providing mathematical formulations as context decreases the optimality gap but significantly decreases success rates and providing pseudo-code and related research papers as context does not consistently improve success rates or decrease the optimality gap. We identify key challenges and propose future directions to enhance LLM performance in solving robot routing problems. Our source code is available on the project website: https://sites.google.com/view/words-to-routes/."
+ },
+ {
+  "paper_id": 2263,
+  "title": "Chain-of-Verification Reduces Hallucination in Large Language Models",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Generation of plausible yet incorrect factual information, termed hallucination, is an unsolved issue in large language models.We study the ability of language models to deliberate on the responses they give in order to correct their mistakes.We develop the Chain-of-Verification (COVE) method whereby the model first (i) drafts an initial response; then (ii) plans verification questions to fact-check its draft; (iii) answers those questions independently so the answers are not biased by other responses; and (iv) generates its final verified response.In experiments, we show COVE decreases hallucinations across a variety of tasks, from list-based questions from Wikidata, closed book Multi-SpanQA and longform text generation."
+ },
+ {
+  "paper_id": 2265,
+  "title": "Large Language Models Are Involuntary Truth-Tellers: Exploiting Fallacy Failure for Jailbreak Attacks",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "We find that language models have difficulties generating fallacious and deceptive reasoning.When asked to generate deceptive outputs, language models tend to leak honest counterparts but believe them to be false.Exploiting this deficiency, we propose a jailbreak attack method that elicits an aligned language model for malicious output.Specifically, we query the model to generate a fallacious yet deceptively real procedure for the harmful behavior.Since a fallacious procedure is generally considered fake and thus harmless by LLMs, it helps bypass the safeguard mechanism.Yet the output is factually harmful since the LLM cannot fabricate fallacious solutions but proposes truthful ones.We evaluate our approach over five safetyaligned large language models, comparing four previous jailbreak methods, and show that our approach achieves competitive performance with more harmful outputs.We believe the findings could be extended beyond model safety, such as self-verification and hallucination."
+ },
+ {
+  "paper_id": 2269,
+  "title": "Multi-OphthaLingua: A Multilingual Benchmark for Assessing and Debiasing LLM Ophthalmological QA in LMICs",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Current ophthalmology clinical workflows are plagued by over-referrals, long waits, and complex and heterogeneous medical records. Large language models (LLMs) present a promising solution to automate various procedures such as triaging, preliminary tests like visual acuity assessment, and report summaries. However, LLMs have demonstrated significantly varied performance across different languages in natural language question-answering tasks, potentially exacerbating healthcare disparities in Low and Middle-Income Countries (LMICs). This study introduces the first multilingual ophthalmological question-answering benchmark with manually curated questions parallel across languages, allowing for direct cross-lingual comparisons. Our evaluation of 6 popular LLMs across 7 different languages reveals substantial bias across different languages, highlighting risks for clinical deployment of LLMs in LMICs. Existing debiasing methods such as Translation Chain-of-Thought or Retrieval-augmented generation (RAG) by themselves fall short of closing this performance gap, often failing to improve performance across all languages and lacking specificity for the medical domain. To address this issue, We propose CLARA (Cross-Lingual Reflective Agentic system), a novel inference time de-biasing method leveraging retrieval augmented generation and self-verification. Our approach not only improves performance across all languages but also significantly reduces the multilingual bias gap, facilitating equitable LLM application across the globe."
+ },
+ {
+  "paper_id": 2273,
+  "title": "Comparing Self-Verification, Multi-Agent Verification and External Retrieval",
+  "year": 2026,
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Large language models increasingly produce answers together with confidence estimates, critiques, citations, and even the outputs of dedicated verifier agents, yet a central reliability question remains unresolved: when a model makes a factual error, how often can the surrounding AI system detect that error before it reaches a user or downstream action? Comparing three broad verification paradigms using evidence from factuality benchmarks, hallucination-detection studies, retrieval-augmented generation research, multi-agent debate, and system-level evaluations through August 2026, we distinguish generation quality from verification quality and argue that the decisive variable is not the number of reasoning steps or agents, but evidence independence: a verifier is most useful when it can access information that is conditionally independent of the generator's original mistake. While self-verification is inexpensive and can expose inconsistency through independent sampling, Chain-of-Verification, and semantic uncertainty, intrinsic correction remains vulnerable to shared blind spots; similarly, multi-agent systems can improve factuality through critique and cross-examination, yet correlated models can converge on the same false premise and manufacture consensus. External retrieval provides the strongest path to falsification for externally checkable claims, though it introduces its own failure modes in retrieval coverage, source quality, evidence interpretation, and prompt injection. We synthesize these findings into a verification-independence framework, a deployment-oriented comparison matrix, and a tiered reference architecture that escalates from cheap internal checks to authoritative external evidence according to claim risk, arriving at a conditional central conclusion: AI can catch many of its own hallucinations, but reliability rises sharply when verification is designed as an evidence system rather than another act of generation."
+ },
+ {
+  "paper_id": 2275,
+  "title": "DeScAI: the convergence of decentralized science and artificial intelligence",
+  "year": 2025,
+  "venue": "Frontiers in Blockchain",
+  "source": "openalex",
+  "abstract": "Scientific knowledge production is undergoing a dual transformation. On one front, Decentralized Science (DeSci) leverages blockchain-based infrastructures to reconfigure how research is funded, verified, and governed, disintermediating legacy gatekeepers through tokenized incentives and distributed provenance. On the other, Artificial Intelligence (AI) is automating core dimensions of science, from hypothesis generation to experimental execution and model validation. This paper introduces DeScAI, a theoretical framework that unifies these domains into a recursive, self-verifying epistemic system governed by autonomous agents operating within decentralized, trust-minimized networks. We present a five-stratum architecture for DeScAI, hypothesizing that its integration enables epistemic acceleration, pluralistic inquiry, and cryptographically auditable trust. Methods include a structured literature synthesis (2018\u20132025), conceptual modeling, and descriptive analysis of 14 projects. Three hypothetical trajectories for future empirical investigation are proposed concerning cycle-time compression, epistemic pluralism, and reproducibility amplification. We conclude that DeScAI is not speculative: its core components are already deployed. What remains is orchestration, stitching together decentralized ledgers, incentive protocols, self-sovereign scientific agents (SSA), and cryptographic infrastructures into a single, recursive system. If successful, DeScAI could radically reduce the latency between hypothesis and verification, reconfigure scientific legitimacy as a live, contestable signal, and transform the incentive structure of research itself."
+ },
+ {
+  "paper_id": 2276,
+  "title": "Language Without Propositions: Why Large Language Models Hallucinate",
+  "year": 2026,
+  "venue": "Preprints.org",
+  "source": "openalex",
+  "abstract": "This paper defends the thesis that LLM hallucinations are best explained as a truth representation problem: Current models lack an internal representation of propositions as truth-bearers, so truth and falsity cannot constrain generation in the way factual discourse requires. It begins by surveying leading explanations\u2014computational limits on self-verification, deficiencies in training data as truth sources, and architectural factors\u2014and argues that they converge on the same underlying representational deficit. Next, it reconstructs the philosophical background of current LLM design, showing how optimization for fluent continuation aligns with coherence-style evaluation and with a broadly structuralist, relational semantics, before turning to David Chalmers\u2019s recent attempt to secure propositional interpretability by drawing on Davidson/Lewis-style radical interpretation and by locating propositional content in \u201cmiddle-layer\u201d structures; it argues that this approach downplays the ubiquity of hallucination and inherits instability from post-training edits. Finally, the paper offers a positive proposal: Atomic propositions should be represented in the basic vector layer, reviving a logical-atomist program as a principled route to reducing hallucination."
+ },
+ {
+  "paper_id": 2278,
+  "title": "Latent Reward: LLM-Empowered Credit Assignment in Episodic Reinforcement Learning",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Reinforcement learning (RL) often encounters delayed and sparse feedback in real-world applications, even with only episodic rewards. Previous approaches have made some progress in reward redistribution for credit assignment but still face challenges, including training difficulties due to redundancy and ambiguous attributions stemming from overlooking the multifaceted nature of mission performance evaluation. Hopefully, Large Language Model (LLM) encompasses fruitful decision-making knowledge and provides a plausible tool for reward redistribution. Even so, deploying LLM in this case is non-trivial due to the misalignment between linguistic knowledge and the symbolic form requirement, together with inherent randomness and hallucinations in inference. To tackle these issues, we introduce LaRe, a novel LLM-empowered symbolic-based decision-making framework, to improve credit assignment. Key to LaRe is the concept of the Latent Reward, which works as a multi-dimensional performance evaluation, enabling more interpretable goal attainment from various perspectives and facilitating more effective reward redistribution. We examine that semantically generated code from LLM can bridge linguistic knowledge and symbolic latent rewards, as it is executable for symbolic objects. Meanwhile, we design latent reward self-verification to increase the stability and reliability of LLM inference. Theoretically, reward-irrelevant redundancy elimination in the latent reward benefits RL performance from more accurate reward estimation. Extensive experimental results witness that LaRe (i) achieves superior temporal credit assignment to SOTA methods, (ii) excels in allocating contributions among multiple agents, and (iii) outperforms policies trained with ground truth rewards for certain tasks."
+ },
+ {
+  "paper_id": 2279,
+  "title": "MACI: Multi-Agent Collaborative Intelligence for Adaptive Reasoning and Temporal Planning",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Artificial intelligence requires deliberate reasoning, temporal awareness, and effective constraint management, capabilities traditional LLMs often lack due to their reliance on pattern matching, limited self-verification, and inconsistent constraint handling. We introduce Multi-Agent Collaborative Intelligence (MACI), a framework comprising three key components: 1) a meta-planner (MP) that identifies, formulates, and refines all roles and constraints of a task (e.g., wedding planning) while generating a dependency graph, with common-sense augmentation to ensure realistic and practical constraints; 2) a collection of agents to facilitate planning and address task-specific requirements; and 3) a run-time monitor that manages plan adjustments as needed. By decoupling planning from validation, maintaining minimal agent context, and integrating common-sense reasoning, MACI overcomes the aforementioned limitations and demonstrates robust performance in two scheduling problems."
+ },
+ {
+  "paper_id": 2281,
+  "title": "Pareto Optimal Learning for Estimating Large Language Model Errors",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown impressive abilities in many applications.When a concrete and precise answer is desired, it is important to have a quantitative estimation of the potential error rate.However, this can be challenging due to the text-in-text-out nature of generative models.We present a method based on Pareto optimization that generates a risk score to estimate the probability of error in an LLM response by integrating multiple sources of information.We prove theoretically that the error estimator optimized in our framework aligns with the LLM and the information sources in an Pareto optimal manner.Experimental results show that the risk scores estimated by our method are well correlated with the true LLM error rate, thus facilitating error correction.By dynamically combining with prompting strategies such as self-verification and information retrieval, we demonstrate the proposed method can be utilized to increase the performance of an LLM, surpassing state-ofthe-art task specific models."
+ },
+ {
+  "paper_id": 2282,
+  "title": "Large Language Models Can Solve Real-World Planning Rigorously with Formal Verification Tools",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) struggle to directly generate correct plans for complex multi-constraint planning problems, even with self-verification and self-critique. For example, a U.S. domestic travel planning benchmark TravelPlanner was proposed in Xie et al. (2024), where the best LLM OpenAI o1-preview can only find viable travel plans with a 10% success rate given all needed information. In this work, we tackle this by proposing an LLM-based planning framework that formalizes and solves complex multi-constraint planning problems as constrained satisfiability problems, which are further consumed by sound and complete satisfiability solvers. We start with TravelPlanner as the primary use case and show that our framework achieves a success rate of 93.9% and is effective with diverse paraphrased prompts. More importantly, our framework has strong zero-shot generalizability, successfully handling unseen constraints in our newly created unseen international travel dataset and generalizing well to new fundamentally different domains. Moreover, when user input queries are infeasible, our framework can identify the unsatisfiable core, provide failure reasons, and offers personalized modification suggestions. We show that our framework can modify and solve for an average of 81.6% and 91.7% unsatisfiable queries from two datasets and prove with ablations that all key components of our framework are effective and necessary. Project page: https://sites.google.com/view/llm-rwplanning."
+ },
+ {
+  "paper_id": 2283,
+  "title": "A Multiagent Summarization and Auto-Evaluation Framework for Medical Text: Development and Evaluation Study",
+  "year": 2025,
+  "venue": "JMIR AI",
+  "source": "openalex",
+  "abstract": "Background: Although large language models (LLMs) show great promise in processing medical text, they are prone to generating incorrect information, commonly referred to as hallucinations. These inaccuracies present a significant risk for clinical applications where precision is critical. Additionally, relying on human experts to review LLM-generated content to ensure accuracy is costly and time-consuming, which sets a barrier against large-scale deployment of LLMs in health care settings. Objective: The primary objective of this study was to develop an automatic artificial intelligence (AI) system capable of extracting structured information from unstructured medical data and using advanced reasoning techniques to support reliable clinical decision making. A key aspect of this objective is ensuring that the system incorporates self-verification mechanisms, enabling it to assess the accuracy and reliability of its own outputs. By integrating such mechanisms, we aim to enhance the system's robustness, reduce reliance on human intervention, and improve the overall trustworthiness of AI-driven medical summarization and evaluation. Methods: The proposed framework comprises 2 layers: a summarization layer and an evaluation layer. The summarization layer uses Llama2-70B (Meta AI) and Mistral-7B (Mistral AI) models to generate concise summaries from unstructured medical data, focusing on tasks such as consumer health question summarization, biomedical answer summarization, and dialog summarization. The evaluation layer uses GPT-4-turbo (OpenAI) as a judge, leveraging pairwise comparison strategies and different prompt strategies to evaluate summaries across 4 dimensions: coherence, consistency, fluency, and relevance. To validate the framework, we compare the judgments generated by the LLM assistants in the evaluation layer with those provided by medical experts, offering valuable insights into the alignment and reliability of AI-driven evaluations within the medical domain. We also explore a way to handle disagreement among human experts and discuss our methodology in addressing diversity in human perspectives. Results: The study found variability in expert consensus,"
+ },
+ {
+  "paper_id": 2284,
+  "title": "Pareto Optimal Learning for Estimating Large Language Model Errors",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown impressive abilities in many applications. When a concrete and precise answer is desired, it is important to have a quantitative estimation of the potential error rate. However, this can be challenging due to the text-in-text-out nature of generative models. We present a method based on Pareto optimization that generates a risk score to estimate the probability of error in an LLM response by integrating multiple sources of information. We prove theoretically that the error estimator optimized in our framework aligns with the LLM and the information sources in an Pareto optimal manner. Experimental results show that the risk scores estimated by our method are well correlated with the true LLM error rate, thus facilitating error correction. By dynamically combining with prompting strategies such as self-verification and information retrieval, we demonstrate the proposed method can be utilized to increase the performance of an LLM, surpassing state-of-the-art task specific models."
+ }
+]

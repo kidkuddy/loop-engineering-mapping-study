@@ -1,0 +1,226 @@
+[
+ {
+  "paper_id": 10808,
+  "title": "AI2Agent: An End-to-End Framework for Deploying AI Projects as Autonomous Agents.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10810,
+  "title": "AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10811,
+  "title": "Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent.",
+  "year": 2024,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10823,
+  "title": "Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10834,
+  "title": "AgentDrug: Utilizing Large Language Models in an Agentic Workflow for Zero-Shot Molecular Optimization.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10838,
+  "title": "GRAID: Synthetic Data Generation with Geometric Constraints and Multi-Agentic Reflection for Harmful Content Detection.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10848,
+  "title": "Towards Enforcing Company Policy Adherence in Agentic Workflows.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10852,
+  "title": "Improving Preference Alignment of LLM with Inference-Free Self-Refinement.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10855,
+  "title": "Democratizing LLMs: An Exploration of Cost-Performance Trade-offs in Self-Refined Open-Source Models.",
+  "year": 2023,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10858,
+  "title": "A Probabilistic Inference Scaling Theory for LLM Self-Correction.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10863,
+  "title": "MERLIN: Multimodal Embedding Refinement via LLM-based Iterative Navigation for Text-Video Retrieval-Rerank Pipeline.",
+  "year": 2024,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10864,
+  "title": "Watch Every Step! LLM Agent Learning via Iterative Step-level Process Refinement.",
+  "year": 2024,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10873,
+  "title": "Athena: Safe Autonomous Agents with Verbal Contrastive Learning.",
+  "year": 2024,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10878,
+  "title": "Training Language Models to Critique With Multi-agent Feedback.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10879,
+  "title": "Aligning Dialogue Agents with Global Feedback via Large Language Model Multimodal Reward Decomposition.",
+  "year": 2025,
+  "venue": "EMNLP",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10897,
+  "title": "CorrectAD: A Self-Correcting Agentic System to Improve End-to-end Planning in Autonomous Driving.",
+  "year": 2026,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10913,
+  "title": "A\u00b2Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators.",
+  "year": 2026,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10919,
+  "title": "Mitigating Low-Quality Reasoning in MLLMs: Self-Driven Refined Multimodal CoT with Selective Thinking and Step-wise Visual Enhancement.",
+  "year": 2026,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10935,
+  "title": "MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control.",
+  "year": 2026,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10941,
+  "title": "AutoMV: An Autonomous Agent Framework for Real Estate Marketing Video Generation.",
+  "year": 2025,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10942,
+  "title": "Autonomous Agents: An Advanced Course on AI Integration and Deployment.",
+  "year": 2023,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10943,
+  "title": "Artificial Intelligence and Machine Learning for Autonomous Agents that Learn to Plan and Operate in Unpredictable Dynamic Environments.",
+  "year": 2021,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10944,
+  "title": "Open-World Learning for Radically Autonomous Agents.",
+  "year": 2020,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10947,
+  "title": "Engineering Pro-Sociality With Autonomous Agents.",
+  "year": 2018,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10956,
+  "title": "DMT-RoleBench: A Dynamic Multi-Turn Dialogue Based Benchmark for Role-Playing Evaluation of Large Language Model and Agent.",
+  "year": 2025,
+  "venue": "AAAI",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10959,
+  "title": "LLMPort: Cross-file Patch Porting via Task Decomposition and Self-correction.",
+  "year": 2025,
+  "venue": "ASE",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10960,
+  "title": "Autonomous Agents for Accessibility: Simulating Visual Impairments in Web Interfaces.",
+  "year": 2025,
+  "venue": "ASE",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10961,
+  "title": "Software Engineering Using Autonomous Agents: Are We There Yet?",
+  "year": 2023,
+  "venue": "ASE",
+  "source": "dblp-venue",
+  "abstract": ""
+ }
+]

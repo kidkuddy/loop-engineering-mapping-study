@@ -1,0 +1,482 @@
+[
+ {
+  "venue": "NeurIPS",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 27,
+  "dblp_total": 27,
+  "new": 25
+ },
+ {
+  "venue": "NeurIPS",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 7,
+  "dblp_total": 7,
+  "new": 5
+ },
+ {
+  "venue": "NeurIPS",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 3,
+  "dblp_total": 3,
+  "new": 2
+ },
+ {
+  "venue": "NeurIPS",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 6,
+  "dblp_total": 6,
+  "new": 4
+ },
+ {
+  "venue": "NeurIPS",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 14,
+  "dblp_total": 14,
+  "new": 13
+ },
+ {
+  "venue": "NeurIPS",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 8,
+  "dblp_total": 8,
+  "new": 5
+ },
+ {
+  "venue": "ICML",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 7,
+  "dblp_total": 7,
+  "new": 7
+ },
+ {
+  "venue": "ICML",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 2,
+  "dblp_total": 2,
+  "new": 1
+ },
+ {
+  "venue": "ICML",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 1,
+  "new": 0
+ },
+ {
+  "venue": "ICML",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 4,
+  "dblp_total": 4,
+  "new": 2
+ },
+ {
+  "venue": "ICML",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 5,
+  "dblp_total": 5,
+  "new": 5
+ },
+ {
+  "venue": "ICML",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 3,
+  "dblp_total": 3,
+  "new": 2
+ },
+ {
+  "venue": "ICLR",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 9,
+  "dblp_total": 9,
+  "new": 9
+ },
+ {
+  "venue": "ICLR",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 5,
+  "dblp_total": 5,
+  "new": 5
+ },
+ {
+  "venue": "ICLR",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 2,
+  "dblp_total": 2,
+  "new": 2
+ },
+ {
+  "venue": "ICLR",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 4,
+  "dblp_total": 4,
+  "new": 3
+ },
+ {
+  "venue": "ICLR",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 3,
+  "dblp_total": 3,
+  "new": 3
+ },
+ {
+  "venue": "ICLR",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 3,
+  "dblp_total": 3,
+  "new": 3
+ },
+ {
+  "venue": "ACL",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 50,
+  "dblp_total": 150,
+  "new": 43
+ },
+ {
+  "venue": "ACL",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 15,
+  "dblp_total": 15,
+  "new": 12
+ },
+ {
+  "venue": "ACL",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 14,
+  "dblp_total": 14,
+  "new": 10
+ },
+ {
+  "venue": "ACL",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 10,
+  "dblp_total": 10,
+  "new": 9
+ },
+ {
+  "venue": "ACL",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 26,
+  "dblp_total": 26,
+  "new": 20
+ },
+ {
+  "venue": "ACL",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 17,
+  "dblp_total": 17,
+  "new": 13
+ },
+ {
+  "venue": "EMNLP",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 29,
+  "dblp_total": 29,
+  "new": 25
+ },
+ {
+  "venue": "EMNLP",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 12,
+  "dblp_total": 12,
+  "new": 7
+ },
+ {
+  "venue": "EMNLP",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 7,
+  "dblp_total": 7,
+  "new": 4
+ },
+ {
+  "venue": "EMNLP",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 12,
+  "dblp_total": 12,
+  "new": 7
+ },
+ {
+  "venue": "EMNLP",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 10,
+  "dblp_total": 10,
+  "new": 8
+ },
+ {
+  "venue": "EMNLP",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 17,
+  "dblp_total": 17,
+  "new": 11
+ },
+ {
+  "venue": "AAAI",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 28,
+  "dblp_total": 28,
+  "new": 28
+ },
+ {
+  "venue": "AAAI",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 10,
+  "dblp_total": 10,
+  "new": 10
+ },
+ {
+  "venue": "AAAI",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 6,
+  "dblp_total": 6,
+  "new": 4
+ },
+ {
+  "venue": "AAAI",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 7,
+  "dblp_total": 7,
+  "new": 6
+ },
+ {
+  "venue": "AAAI",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 17,
+  "dblp_total": 27,
+  "new": 13
+ },
+ {
+  "venue": "AAAI",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 12,
+  "dblp_total": 12,
+  "new": 9
+ },
+ {
+  "venue": "ICSE",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ICSE",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ICSE",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ICSE",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ICSE",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 1,
+  "dblp_total": 1,
+  "new": 0
+ },
+ {
+  "venue": "ICSE",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "FSE",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "FSE",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "FSE",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "FSE",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "FSE",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "FSE",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ASE",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 2,
+  "dblp_total": 2,
+  "new": 2
+ },
+ {
+  "venue": "ASE",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ASE",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 1,
+  "dblp_total": 1,
+  "new": 1
+ },
+ {
+  "venue": "ASE",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "ASE",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 4,
+  "dblp_total": 4,
+  "new": 2
+ },
+ {
+  "venue": "ASE",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "TSE",
+  "term": "agentic",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "TSE",
+  "term": "self-correction",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "TSE",
+  "term": "iterative refinement",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "TSE",
+  "term": "autonomous agent",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "TSE",
+  "term": "multi-agent language model",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ },
+ {
+  "venue": "TSE",
+  "term": "self-refine",
+  "attempted": true,
+  "hits_in_range": 0,
+  "dblp_total": 0,
+  "new": 0
+ }
+]

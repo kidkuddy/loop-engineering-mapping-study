@@ -315,7 +315,7 @@
   "paper_id": 1923,
   "title": "LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints",
   "year": 2024,
-  "venue": "",
+  "venue": "EMNLP",
   "source": "openalex",
   "abstract": "Thomas Palmeira Ferraz, Kartik Mehta, Yu-Hsiang Lin, Haw-Shiuan Chang, Shereen Oraby, Sijia Liu, Vivek Subramanian, Tagyoung Chung, Mohit Bansal, Nanyun Peng. Findings of the Association for Computational Linguistics: EMNLP 2024. 2024."
  },

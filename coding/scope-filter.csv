@@ -3327,6 +3327,86 @@ and Agent via Model Context Protocol for Intelligent Computation",True,True,True
 10551,Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design.,True,True,True
 10564,"Fail Fast, or Ask: Mitigating the Deficiencies of Reasoning LLMs with Human-in-the-Loop Systems Engineering.",True,True,True
 10565,Feedback Loops and Code Perturbations in LLM-based Software Engineering: A Case Study on a C-to-Rust Translation System.,True,True,True
+10622,T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning.,True,True,True
+10635,APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay.,True,True,True
+10646,Aligning Audio-Visual Joint Representations with an Agentic Workflow.,True,True,True
+10647,Towards Self-Refinement of Vision-Language Models with Triangular Consistency.,True,True,True
+10648,Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization.,True,True,True
+10652,Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs.,True,True,True
+10661,REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites.,True,True,True
+10662,Intrinsic Goals for Autonomous Agents: Model-Based Exploration in Virtual Zebrafish Predicts Ethological Behavior and Whole-Brain Dynamics.,True,True,True
+10668,Autonomous Agents for Collaborative Task under Information Asymmetry.,True,True,True
+10680,Adaptive Self-improvement LLM Agentic System for ML Library Development.,True,True,True
+10694,Re-Aligning Language to Visual Objects with an Agentic Workflow.,True,True,True
+10696,Flow: Modularized Agentic Workflow Automation.,True,True,True
+10698,Benchmarking Agentic Workflow Generation.,True,True,True
+10699,AFlow: Automating Agentic Workflow Generation.,True,True,True
+10702,SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models.,True,True,True
+10705,Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions.,True,True,True
+10707,SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction.,True,True,True
+10712,Scaling Autonomous Agents via Automatic Reward Modeling And Planning.,True,True,True
+10713,AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents.,True,True,True
+10714,WebArena: A Realistic Web Environment for Building Autonomous Agents.,True,True,True
+10716,Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models.,True,True,True
+10720,AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG.,True,True,True
+10721,Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectories for Grounded Visual Perception.,True,True,True
+10726,SCAIR: Schema-Conditioned Agentic Iterative Reasoning for Enterprise Knowledge Graphs.,True,True,True
+10732,ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use.,True,True,True
+10735,Empowering Multi-Turn Tool-Integrated Agentic Reasoning with Group Turn Policy Optimization.,True,True,True
+10736,OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding.,True,True,True
+10738,CBAL: Context-Based Agentic Learning for Speaker Diarization Segmentation Refinement.,True,True,True
+10742,LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces.,True,True,True
+10746,ProCeedRL: Process Critic with Explorative Demonstration Reinforcement Learning for LLM Agentic Reasoning.,True,True,True
+10749,MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training.,True,True,True
+10761,Learning to Refine: Self-Refinement of Parallel Reasoning in LLMs.,True,True,True
+10764,CodeRise: Bootstrapping LLMs for Ultra Low-Resource Programming Languages via Progressive Self-Refinement Curriculum.,True,True,True
+10768,MONTROSE: LLM-driven Monte Carlo Tree Search Self-Refinement for Cross-Domain Rumor Detection.,True,True,True
+10769,Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models.,True,True,True
+10770,Divide-Verify-Refine: Can LLMs Self-align with Complex Instructions?,True,True,True
+10771,REFINESUMM: Self-Refining MLLM for Generating a Multimodal Summarization Dataset.,True,True,True
+10772,ULTRA: Unleash LLMs&apos; Potential for Event Argument Extraction through Hierarchical Modeling and Pair-wise Self-Refinement.,True,True,True
+10773,LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning.,True,True,True
+10775,"Meeseeks: A Feedback-Driven, Iterative Self-Correction Benchmark evaluating LLMs&apos; Instruction Following Capability.",True,True,True
+10777,QueueEDIT: Structural Self-Correction for Sequential Model Editing in LLMs.,True,True,True
+10779,Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs.,True,True,True
+10781,Understanding the Dark Side of LLMs&apos; Intrinsic Self-Correction.,True,True,True
+10782,Two-Pronged Human Evaluation of ChatGPT Self-Correction in Radiology Report Simplification.,True,True,True
+10785,PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows.,True,True,True
+10786,Evolutionary Guided Decoding: Iterative Value Refinement for LLMs.,True,True,True
+10795,Temp-R1: A Unified Autonomous Agent for Complex Temporal KGQA via Reverse Curriculum Reinforcement Learning.,True,True,True
+10798,AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts.,True,True,True
+10800,Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents.,True,True,True
+10801,SciExplore: Evaluating Autonomous Agents from Scientific Navigation to Information Integration.,True,True,True
+10804,InfiAgent: An Infinite-Horizon Framework for General-Purpose Autonomous Agents.,True,True,True
+10805,Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks.,True,True,True
+10808,AI2Agent: An End-to-End Framework for Deploying AI Projects as Autonomous Agents.,True,True,True
+10810,AndroidLab: Training and Systematic Benchmarking of Android Autonomous Agents.,True,True,True
+10811,Rethinking Task-Oriented Dialogue Systems: From Complex Modularity to Zero-Shot Autonomous Agent.,True,True,True
+10823,"Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement.",True,True,True
+10834,AgentDrug: Utilizing Large Language Models in an Agentic Workflow for Zero-Shot Molecular Optimization.,True,True,True
+10838,GRAID: Synthetic Data Generation with Geometric Constraints and Multi-Agentic Reflection for Harmful Content Detection.,True,True,True
+10848,Towards Enforcing Company Policy Adherence in Agentic Workflows.,True,True,True
+10852,Improving Preference Alignment of LLM with Inference-Free Self-Refinement.,True,True,True
+10855,Democratizing LLMs: An Exploration of Cost-Performance Trade-offs in Self-Refined Open-Source Models.,True,True,True
+10858,A Probabilistic Inference Scaling Theory for LLM Self-Correction.,True,True,True
+10863,MERLIN: Multimodal Embedding Refinement via LLM-based Iterative Navigation for Text-Video Retrieval-Rerank Pipeline.,True,True,True
+10864,Watch Every Step! LLM Agent Learning via Iterative Step-level Process Refinement.,True,True,True
+10873,Athena: Safe Autonomous Agents with Verbal Contrastive Learning.,True,True,True
+10878,Training Language Models to Critique With Multi-agent Feedback.,True,True,True
+10879,Aligning Dialogue Agents with Global Feedback via Large Language Model Multimodal Reward Decomposition.,True,True,True
+10897,CorrectAD: A Self-Correcting Agentic System to Improve End-to-end Planning in Autonomous Driving.,True,True,True
+10913,A²Flow: Automating Agentic Workflow Generation via Self-Adaptive Abstraction Operators.,True,True,True
+10919,Mitigating Low-Quality Reasoning in MLLMs: Self-Driven Refined Multimodal CoT with Selective Thinking and Step-wise Visual Enhancement.,True,True,True
+10935,MobileSafetyBench: Evaluating Safety of Autonomous Agents in Mobile Device Control.,True,True,True
+10941,AutoMV: An Autonomous Agent Framework for Real Estate Marketing Video Generation.,True,True,True
+10942,Autonomous Agents: An Advanced Course on AI Integration and Deployment.,True,True,True
+10943,Artificial Intelligence and Machine Learning for Autonomous Agents that Learn to Plan and Operate in Unpredictable Dynamic Environments.,True,True,True
+10944,Open-World Learning for Radically Autonomous Agents.,True,True,True
+10947,Engineering Pro-Sociality With Autonomous Agents.,True,True,True
+10956,DMT-RoleBench: A Dynamic Multi-Turn Dialogue Based Benchmark for Role-Playing Evaluation of Large Language Model and Agent.,True,True,True
+10959,LLMPort: Cross-file Patch Porting via Task Decomposition and Self-correction.,True,True,True
+10960,Autonomous Agents for Accessibility: Simulating Visual Impairments in Web Interfaces.,True,True,True
+10961,Software Engineering Using Autonomous Agents: Are We There Yet?,True,True,True
 4,Demystifying Instruction Mixing for Fine-tuning Large Language Models,True,False,False
 5,WizardLM: Empowering large pre-trained language models to follow complex instructions,True,False,False
 7,PB-LLM: Partially Binarized Large Language Models,True,False,False
@@ -7423,3 +7503,263 @@ and Agent via Model Context Protocol for Intelligent Computation",True,True,True
 10593,"Closing the Feedback Loop Between UX Design, Software Development, Security Engineering, and Operations.",False,True,False
 10594,Closing the loop in engineering educator development: Using theoretical and empirical research to inform curriculum and teaching.,False,True,False
 10595,Co-Engineering-in-the-Loop.,False,True,False
+10623,OWMM-Agent: Open World Mobile Manipulation With Multi-modal Agentic Data Synthesis.,True,False,False
+10624,Among Us: A Sandbox for Measuring and Detecting Agentic Deception.,True,False,False
+10625,Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge.,True,False,False
+10626,LLM Strategic Reasoning: Agentic Study through Behavioral Game Theory.,True,False,False
+10627,TRAP: Targeted Redirecting of Agentic Preferences.,True,False,False
+10628,Ground-Compose-Reinforce: Grounding Language in Agentic Behaviours using Limited Data.,True,False,False
+10629,CAM: A Constructivist View of Agentic Memory for LLM-Based Reading Comprehension.,True,False,False
+10630,Retro-R1: LLM-based Agentic Retrosynthesis.,True,False,False
+10631,IR3D-Bench: Evaluating Vision-Language Model Scene Understanding as Agentic Inverse Rendering.,True,False,False
+10632,Agentic RL Scaling Law: Spontaneous Code Execution for Mathematical Problem Solving.,True,False,False
+10633,LC-Opt: Benchmarking Reinforcement Learning and Agentic AI for End-to-End Liquid Cooling Optimization in Data Centers.,True,False,False
+10634,Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning.,True,False,False
+10636,AGENTIF: Benchmarking Large Language Models Instruction Following Ability in Agentic Scenarios.,True,False,False
+10637,DyFlow: Dynamic Workflow Framework for Agentic Reasoning.,True,False,False
+10638,CoP: Agentic Red-teaming for Large Language Models using Composition of Principles.,True,False,False
+10639,A-Mem: Agentic Memory for LLM Agents.,True,False,False
+10640,PANDA: Towards Generalist Video Anomaly Detection via Agentic AI Engineer.,True,False,False
+10641,Automated Composition of Agents: A Knapsack Approach for Agentic Component Selection.,True,False,False
+10642,Deep Video Discovery: Agentic Search with Tool Use for Long-form Video Understanding.,True,False,False
+10643,Process vs. Outcome Reward: Which is Better for Agentic RAG Reinforcement Learning.,True,False,False
+10644,Establishing Best Practices in Building Rigorous Agentic Benchmarks.,True,False,False
+10645,4KAgent: Agentic Any Image to 4K Super-Resolution.,True,False,False
+10649,Self-Distilled Depth Refinement with Noisy Poisson Fusion.,False,True,False
+10650,"Predict, Refine, Synthesize: Self-Guiding Diffusion Models for Probabilistic Time Series Forecasting.",False,True,False
+10651,A Theory-Driven Self-Labeling Refinement Method for Contrastive Representation Learning.,False,True,False
+10653,A Theoretical Understanding of Self-Correction through In-context Alignment.,False,True,False
+10654,Fast samplers for Inverse Problems in Iterative Refinement models.,False,True,False
+10655,Full-Atom Protein Pocket Design via Iterative Refinement.,False,True,False
+10656,Object Representations as Fixed Points: Training Iterative Refinement Algorithms with Implicit Differentiation.,False,True,False
+10657,GENESIS-V2: Inferring Unordered Object Representations without Iterative Refinement.,False,True,False
+10658,HMARL-CBF - Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems.,False,True,False
+10659,Temporal Logic-Based Multi-Vehicle Backdoor Attacks against Offline RL Agents in End-to-end Autonomous Driving.,False,False,False
+10660,STRATUS: A Multi-agent System for Autonomous Reliability Engineering of Modern Clouds.,False,False,False
+10663,EVAAA: A Virtual Environment Platform for Essential Variables in Autonomous and Adaptive Agents.,False,False,False
+10664,MobileUse: A Hierarchical Reflection-Driven GUI Agent for Autonomous Mobile Operation.,False,True,False
+10665,RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models.,True,False,False
+10666,DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning.,False,False,False
+10667,Reasoning Multi-Agent Behavioral Topology for Interactive Autonomous Driving.,False,False,False
+10669,BehaviorGPT: Smart Agent Simulation for Autonomous Driving with Next-Patch Prediction.,False,False,False
+10670,AVIS: Autonomous Visual Information Seeking with Large Language Model Agent.,True,False,False
+10671,Debate or Vote: Which Yields Better Decisions in Multi-Agent Large Language Models?,True,False,False
+10672,Large Language Models Miss the Multi-agent Mark.,True,False,False
+10673,LLM-DAMVC: A Large Language Model Assisted Dynamic Agent for Multi-View Clustering.,True,False,False
+10674,MASTER: Enhancing Large Language Model via Multi-Agent Simulated Teaching.,True,False,False
+10675,Reflective Multi-Agent Collaboration based on Large Language Models.,True,False,False
+10676,KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search.,True,False,False
+10677,Can Compressed LLMs Truly Act? An Empirical Evaluation of Agentic Capabilities in LLM Compression.,True,False,False
+10678,Automated Hypothesis Validation with Agentic Sequential Falsifications.,True,False,False
+10679,The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models.,True,False,False
+10681,Multi-agent Architecture Search via Agentic Supernet.,True,False,False
+10682,Emergent Agentic Transformer from Chain of Hindsight Experience.,True,False,False
+10683,SelfVC: Voice Conversion With Iterative Refinement using Self Transformations.,False,True,False
+10684,Reward-Guided Iterative Refinement in Diffusion Models at Test-Time with Applications to Protein and DNA Design.,False,True,False
+10685,Federated In-Context Learning: Iterative Refinement for Improved Answer Quality.,False,True,False
+10686,Proposer-Agent-Evaluator (PAE): Autonomous Skill Discovery For Foundation Model Internet Agents.,True,False,False
+10687,RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing.,True,False,False
+10688,SafeArena: Evaluating the Safety of Autonomous Web Agents.,False,False,False
+10689,Aguvis: Unified Pure Vision Agents for Autonomous GUI Interaction.,False,False,False
+10690,"Reason for Future, Act for Now: A Principled Architecture for Autonomous LLM Agents.",True,False,False
+10691,EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents.,True,False,False
+10692,MAGDi: Structured Distillation of Multi-Agent Interaction Graphs Improves Reasoning in Smaller Language Models.,True,False,False
+10693,Agent S: An Open Agentic Framework that Uses Computers Like a Human.,True,False,False
+10695,Automated Design of Agentic Systems.,True,False,False
+10697,BALROG: Benchmarking Agentic LLM and VLM Reasoning On Games.,True,False,False
+10700,Anyprefer: An Agentic Framework for Preference Data Synthesis.,True,False,False
+10701,An Intelligent Agentic System for Complex Image Restoration Problems.,True,False,False
+10703,Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels.,False,True,False
+10704,Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement.,False,True,False
+10706,CASR: Generating Complex Sequences with Autoregressive Self-Boost Refinement.,False,True,False
+10708,Robust Curriculum Learning: from clean label detection to noisy label self-correction.,False,True,False
+10709,SWE-Search: Enhancing Software Agents with Monte Carlo Tree Search and Iterative Refinement.,False,True,False
+10710,Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision.,False,True,False
+10711,Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-design.,False,True,False
+10715,Competing Large Language Models in Multi-Agent Gaming Environments.,True,False,False
+10717,Scaling Large Language Model-based Multi-Agent Collaboration.,True,False,False
+10718,Agentic-R: Learning to Retrieve for Agentic Search.,True,False,False
+10719,AgenticEval: Toward Agentic and Self-Evolving Safety Evaluation of Large Language Models.,True,False,False
+10722,Spatial-Agent: Agentic Geo-spatial Reasoning with Scientific Core Concepts.,True,False,False
+10723,DREAM: Deep Research Evaluation with Agentic Metrics.,True,False,False
+10724,From RAG to Agentic RAG for Faithful Islamic Question Answering.,True,False,False
+10725,Enhancing Agentic Textual Graph Retrieval with Synthetic Stepwise Supervision.,True,False,False
+10727,Cogito: A Cognitive Agentic Framework Driven by Dynamic Graph of Thoughts for Financial Report Generation.,True,False,False
+10728,MemRec: Collaborative Memory-Augmented Agentic Recommender System.,True,False,False
+10729,Apeiron: A Scalable LLM-agentic Framework for Autonomous Full-lifecycle Demand-optimized Application Synthesis.,True,False,False
+10730,Benchmarking Agentic Newswriting via Journalistic Workflows.,True,False,False
+10731,Supplement Generation Training for Enhancing Agentic Task Performance.,True,False,False
+10733,Data-Centric Perspectives on Agentic Retrieval-Augmented Generation: A Survey.,True,False,False
+10734,AlphaQuanter: An End-to-End Tool-Augmented Agentic Reinforcement Learning Framework for Stock Trading.,True,False,False
+10737,LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology.,True,False,False
+10739,Towards General Agentic Intelligence via Environment Scaling.,True,False,False
+10740,SPARKLE: A Structured and Plug-and-play Agentic Retrieval Policy for Adaptive RAG Models.,True,False,False
+10741,Trust Within? Seek Beyond? Knowledge Boundary Aware Policy Optimization for Agentic Search.,True,False,False
+10743,PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning.,True,False,False
+10744,Is Agentic RAG worth it? An experimental comparison of RAG approaches.,True,False,False
+10745,Android Coach: Improve Online Agentic Training Efficiency with Single State Multiple Actions.,True,False,False
+10747,rosaOS: Agentic Operating System for Embodied LLMs.,True,False,False
+10748,Failures are Treasures: Constructing a Pedagogical Bridge for Agentic Strategy Distillation.,True,False,False
+10750,Learning Optimal Message Representations for Agentic Communication.,True,False,False
+10751,mPresenter: An Agentic Framework for Generating Multilingual Presentation Videos from Scientific Papers.,True,False,False
+10752,"DRPG (Decompose, Retrieve, Plan, Generate): An Agentic Framework for Academic Rebuttal.",True,False,False
+10753,Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search.,True,False,False
+10754,LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning.,True,False,False
+10755,Dialogue is the Plan: From Interface to Joint Action in Agentic AI.,True,False,False
+10756,IDP Accelerator: Agentic Document Intelligence from Extraction to Compliance Validation.,True,False,False
+10757,OpenPhone: Mobile Agentic Foundation Models.,True,False,False
+10758,SlideAgent: Hierarchical Agentic Framework for Multi-Page Visual Document Understanding.,True,False,False
+10759,Beneficial Reasoning Behaviors in Agentic Search and Effective Training Methods to Obtain Them.,True,False,False
+10760,Compartmentalised Agentic Reasoning for Clinical NLI.,True,False,False
+10762,Self-Correcting Text-to-Video Generation with Misalignment Detection and Localized Refinement.,False,True,False
+10763,Which bird does not have wings: Negative-constrained KGQA with Schema-guided Semantic Matching and Self-directed Refinement.,False,True,False
+10765,SCMAPR: Self-Correcting Multi-Agent Prompt Refinement for Complex-Scenario Text-to-Video Generation.,False,True,False
+10766,Can Multi-turn Self-refined Single Agent LMs with Retrieval Solve Hard Coding Problems?,False,True,False
+10767,LTRAG: Enhancing Autoformalization and Self-refinement for Logical Reasoning with Thought-Guided RAG.,False,True,False
+10774,Metacognitive Self-Correction for Multi-Agent System via Prototype-Guided Next-Execution Reconstruction.,False,True,False
+10776,Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction for Training-Free NL2SQL.,False,True,False
+10778,Don&apos;t Act Blindly: Robust GUI Automation via Action-Effect Verification and Self-Correction.,False,True,False
+10780,Open-World Attribute Mining for E-Commerce Products with Multimodal Self-Correction Instruction Tuning.,False,True,False
+10783,From Selection to Refinement: Iterative Optimization for Instruction Data.,False,True,False
+10784,SAIR-Comb : A Structure-Aware Iterative Refinement Framework for Combinatorics Autoformalization.,False,True,False
+10787,Beyond Query Bias: Candidate-Aware Iterative Refinement for Zero-Shot Composed Image Retrieval.,False,True,False
+10788,Reviving Iterative Refinement in Diffusion-based NER with an Initializer-Restorer Approach.,False,True,False
+10789,Iterative Knowledge Graph Refinement and Integration for Medical Question Answering.,False,True,False
+10790,An Empirical Study of Iterative Refinements for Non-autoregressive Translation.,False,True,False
+10791,MR-P: A Parallel Decoding Algorithm for Iterative Refinement Non-Autoregressive Translation.,False,True,False
+10792,MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive and MCP-Augmented Environments.,False,False,False
+10793,ToolDNA: Autonomous Evolution of Tool Metadata for Robust Dialogue Agents.,False,False,False
+10794,RExBench: Can coding agents autonomously implement AI research extensions?,False,False,False
+10796,ParaCodex: A Profiling-Guided Autonomous Coding Agent for Reliable Parallel Code Generation and Translation.,False,False,False
+10797,WindowsWorld: A Process-Centric Benchmark of Autonomous GUI Agents in Professional Cross-Application Environments.,False,False,False
+10799,Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning.,False,False,False
+10802,ClimAgent: LLM as Agents for Autonomous Open-ended Climate Science Analysis.,True,False,False
+10803,InferPilot: Autonomous Inference Attacks Against ML Services With LLM-Based Agents.,True,False,False
+10806,MA²P: A Meta-Cognitive Autonomous Intelligent Agents Framework for Complex Persuasion.,False,False,False
+10807,MegaAgent: A Large-Scale Autonomous LLM-based Multi-Agent System Without Predefined SOPs.,True,False,False
+10809,GUI-explorer: Autonomous Exploration and Mining of Transition-aware Knowledge for GUI Agent.,False,False,False
+10812,DIXITWORLD: Evaluating Multimodal Abductive Reasoning in Vision-Language Models with Multi-Agent Dixit Gameplay.,True,False,False
+10813,"LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations.",True,False,False
+10814,CRAB: Cross-environment Agent Benchmark for Multimodal Language Model Agents.,True,False,False
+10815,Experience-Driven Multi-Agent Optimization for Black-Box Jailbreak Attacks on Large Language Models.,True,False,False
+10816,MALLM-GAN: Multi-Agent Large Language Model as Generative Adversarial Network for Synthesizing Tabular Data.,True,False,False
+10817,Agentic Context Strategies for Multi-Format Document Understanding: When Should Language Models Use Tools?,True,False,False
+10818,"Towards Effective and Efficient Multi-Agent Language Model Systems: Foundations, Prospects, and Applications.",True,False,False
+10819,CORBA: Contagious Recursive Blocking Attacks on Multi-Agent Systems Based on Large Language Models.,True,False,False
+10820,FACT-AUDIT: An Adaptive Multi-Agent Framework for Dynamic Fact-Checking Evaluation of Large Language Models.,True,False,False
+10821,7 Points to Tsinghua but 10 Points to ? Assessing Large Language Models in Agentic Multilingual National Bias.,True,False,False
+10822,Debt Collection Negotiations with Large Language Models: An Evaluation System and Optimizing Decision Making with Multi-Agent.,True,False,False
+10824,LLMArena: Assessing Capabilities of Large Language Models in Dynamic Multi-Agent Environments.,True,False,False
+10825,Agentic-ToM: Cognition-Inspired Agentic Processing For Enhancing Theory of Mind Reasoning.,True,False,False
+10826,SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks.,True,False,False
+10827,UrduFactCheck: An Agentic Fact-Checking Framework for Urdu with Evidence Boosting and Benchmarking.,True,False,False
+10828,Agentic-R1: Distilled Dual-Strategy Reasoning.,True,False,False
+10829,GRAFT: A Graph-based Flow-aware Agentic Framework for Document-level Machine Translation.,True,False,False
+10830,Tool Preferences in Agentic LLMs are Unreliable.,True,False,False
+10831,CAIR: Counterfactual-based Agent Influence Ranker for Agentic AI Workflows.,True,False,False
+10832,No Black Boxes: Interpretable and Interactable Predictive Healthcare with Knowledge-Enhanced Agentic Causal Discovery.,True,False,False
+10833,AttributeForge: An Agentic LLM Framework for Automated Product Schema Modeling.,True,False,False
+10835,Journalism-Guided Agentic In-context Learning for News Stance Detection.,True,False,False
+10836,DecEx-RAG: Boosting Agentic Retrieval-Augmented Generation with Decision and Execution Optimization via Process Supervision.,True,False,False
+10837,Search-o1: Agentic Search-Enhanced Large Reasoning Models.,True,False,False
+10839,Agentic Medical Knowledge Graphs Enhance Medical Question Answering: Bridging the Gap Between LLMs and Evolving Medical Knowledge.,True,False,False
+10840,AutoSpec: An Agentic Framework for Automatically Drafting Patent Specification.,True,False,False
+10841,DocAgent: An Agentic Framework for Multi-Modal Long-Context Document Understanding.,True,False,False
+10842,AMANDA: Agentic Medical Knowledge Augmentation for Data-Efficient Medical Visual Question Answering.,True,False,False
+10843,Beyond Inherent Cognition Biases in LLM-Based Event Forecasting: A Multi-Cognition Agentic Framework.,True,False,False
+10844,Search Wisely: Mitigating Sub-optimal Agentic Searches By Reducing Uncertainty.,True,False,False
+10845,PreGenie: An Agentic Framework for High-quality Visual Presentation Generation.,True,False,False
+10846,GraphAgent: Agentic Graph Language Assistant.,True,False,False
+10847,STA-CoT: Structured Target-Centric Agentic Chain-of-Thought for Consistent Multi-Image Geological Reasoning.,True,False,False
+10849,QuBE: Question-based Belief Enhancement for Agentic LLM Reasoning.,True,False,False
+10850,Mitigating Attention Localization in Small Scale: Self-Attention Refinement via One-step Belief Propagation.,False,True,False
+10851,Logic: Long-form Outline Generation via Imitative and Critical Self-refinement.,False,True,False
+10853,Visual Self-Refinement for Autoregressive Models.,False,True,False
+10854,TS-SQL: Test-driven Self-refinement for Text-to-SQL.,False,True,False
+10856,A Self-Refinement Strategy for Noise Reduction in Grammatical Error Correction.,False,True,False
+10857,Discourse Heuristics For Paradoxically Moral Self-Correction.,False,True,False
+10859,Intrinsic Self-correction for Enhanced Morality: An Analysis of Internal Mechanisms and the Superficial Hypothesis.,False,True,False
+10860,Self-Supervised Curriculum Learning for Spelling Error Correction.,False,False,False
+10861,"MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning.",False,True,False
+10862,DiscoSG: Towards Discourse-Level Text Scene Graph Parsing through Iterative Graph Refinement.,False,True,False
+10865,IBADR: an Iterative Bias-Aware Dataset Refinement Framework for Debiasing NLU models.,False,True,False
+10866,Iterative Refinement in the Continuous Space for Non-Autoregressive Neural Machine Translation.,False,True,False
+10867,Deterministic Non-Autoregressive Neural Sequence Modeling by Iterative Refinement.,False,True,False
+10868,Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification.,True,False,False
+10869,The Dangers of Indirect Prompt Injection Attacks on LLM-based Autonomous Web Navigation Agents: A Demonstration.,True,False,False
+10870,AgentThink: A Unified Framework for Tool-Augmented Chain-of-Thought Reasoning in Vision-Language Models for Autonomous Driving.,True,False,False
+10871,"Multi-Agent Autonomous Driving Systems with Large Language Models: A Survey of Recent Advances, Resources, and Future Directions.",True,False,False
+10872,LaMDAgent: An Autonomous Framework for Post-Training Pipeline Optimization via LLM Agents.,True,False,False
+10874,CodeAgent: Autonomous Communicative Agents for Code Review.,False,False,False
+10875,DOROTHIE: Spoken Dialogue for Handling Unexpected Situations in Interactive Autonomous Driving Agents.,False,False,False
+10876,MALLM: Multi-Agent Large Language Models Framework.,True,False,False
+10877,Beyond Self-Reports: Multi-Observer Agents for Personality Assessment in Large Language Models.,True,False,False
+10880,DrAgent: Empowering Large Language Models as Medical Agents for Multi-hop Medical Reasoning.,True,False,False
+10881,KELE: A Multi-Agent Framework for Structured Socratic Teaching with Large Language Models.,True,False,False
+10882,Tree of Agents: Improving Long-Context Capabilities of Large Language Models through Multi-Perspective Reasoning.,True,False,False
+10883,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate.,True,False,False
+10884,TriageAgent: Towards Better Multi-Agents Collaborations for Large Language Model-Based Clinical Triage.,True,False,False
+10885,ExpertEase: A Multi-Agent Framework for Grade-Specific Document Simplification with Large Language Models.,True,False,False
+10886,Can Large Language Models Grasp Legal Theories? Enhance Legal Reasoning with Insights from Multi-Agent Collaboration.,True,False,False
+10887,Patho-AgenticRAG: Towards Multimodal Agentic Retrieval-Augmented Generation for Pathology VLMs via Reinforcement Learning.,True,False,False
+10888,AgroAskAI: A Multi-Agentic AI Framework for Supporting Smallholder Farmers&apos; Enquiries Globally.,True,False,False
+10889,PASS: Probabilistic Agentic Supernet Sampling for Interpretable and Adaptive Chest X-Ray Reasoning.,True,False,False
+10890,Scaling Human-Centric Trustworthy Foundation Model via Advanced Reasoning and Agentic Frameworks.,True,False,False
+10891,Unintended Misalignment from Agentic Fine-Tuning: Risks and Mitigation.,True,False,False
+10892,Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System.,True,False,False
+10893,BayesAgent: Bayesian Agentic Reasoning Under Uncertainty via Verbalized Probabilistic Graphical Modeling.,True,False,False
+10894,Towards Autonomous UAV Visual Object Search in City Space: Benchmark and Agentic Methodology.,True,False,False
+10895,HARK: Hierarchical Agentic Retrieval with Keyframing for Video Understanding (Student Abstract).,True,False,False
+10896,Connecting the Dots: Training-Free Visual Grounding via Agentic Reasoning.,True,False,False
+10898,Agentic Design Review System.,True,False,False
+10899,"Policy Search, Retrieval, and Composition via Task Similarity in Collaborative Agentic Systems.",True,False,False
+10900,KnowThyself: An Agentic Assistant for LLM Interpretability.,True,False,False
+10901,Wikatoni: An Agentic AI System for Energy Engineering Workflows.,True,False,False
+10902,CausalPulse: Agentic Copilot for Root Cause Analysis in Smart Manufacturing.,True,False,False
+10903,Value-Driven Memory-Augmented Generation for Agentic LLMs: Towards Structured and Adaptive Knowledge Utilization.,True,False,False
+10904,Agentic Solutions for IT Financial Operations.,True,False,False
+10905,AdaptJobRec: Enhancing Conversational Career Recommendation Through an LLM-Powered Agentic System.,True,False,False
+10906,AgentSeer: Visualizing and Evaluating Temporal Actions in Agentic AI Systems.,True,False,False
+10907,AgentGraph: Trace-to-Graph Platform for Interactive Analysis and Robustness Testing in Agentic AI Systems.,True,False,False
+10908,DeepPhy: Benchmarking Agentic VLMs on Physical Reasoning.,True,False,False
+10909,PortfolioPilot: An Agentic Platform for Financial Portfolio Management Algorithm Development and Evaluation.,True,False,False
+10910,Multimodal DeepResearcher: Generating Text-Chart Interleaved Reports from Scratch with Agentic Framework.,True,False,False
+10911,Learning to Deliberate: Meta-policy Collaboration for Agentic LLMs with Multi-agent Reinforcement Learning.,True,False,False
+10912,Value-Aligned Prompt Moderation via Zero-Shot Agentic Rewriting for Safe Image Generation.,True,False,False
+10914,Agentic AI for Digital Twin.,True,False,False
+10915,SCIR: A Self-Correcting Iterative Refinement Framework for Enhanced Information Extraction Based on Schema.,False,True,False
+10916,Self-Supervised One-Step Diffusion Refinement for Snapshot Compressive Imaging.,False,True,False
+10917,Spatially-Guided Self-Attention Refinement for Zero-Shot Hair Segmentation (Student Abstract).,False,True,False
+10918,Self-Improving Sparse Retrieval Through Heuristic Representation Refinement and Representation-Focused Learning.,False,True,False
+10920,Self-supervised Trusted Contrastive Multi-view Clustering with Uncertainty Refined.,False,True,False
+10921,Non-exemplar Online Class-Incremental Continual Learning via Dual-Prototype Self-Augment and Refinement.,False,True,False
+10922,From Toxic to Trustworthy: Using Self-Distillation and Semi-supervised Methods to Refine Neural Networks.,False,True,False
+10923,Cycle Self-Refinement for Multi-Source Domain Adaptation.,False,True,False
+10924,SECRET: Self-Consistent Pseudo Label Refinement for Unsupervised Domain Adaptive Person Re-identification.,False,True,False
+10925,CEC-Zero: Zero-Supervision Character Error Correction with Self-Generated Rewards.,False,False,False
+10926,CorrectNav: Self-Correction Flywheel Empowers Vision-Language-Action Navigation Model.,False,True,False
+10927,Self-Correction Distillation for Structured Data Question Answering.,False,True,False
+10928,Learning from Mistakes: Self-correct Adversarial Training for Chinese Unnatural Text Correction.,False,True,False
+10929,ToolACE-R: Model-aware Iterative Training and Adaptive Refinement for Tool learning.,False,True,False
+10930,LATTE: Improving Latex Recognition for Tables and Formulae with Iterative Refinement.,False,True,False
+10931,MagicMan: Generative Novel View Synthesis of Humans with 3D-Aware Diffusion and Iterative Refinement.,False,True,False
+10932,IteRPrimE: Zero-shot Referring Image Segmentation with Iterative Grad-CAM Refinement and Primary Word Emphasis.,False,True,False
+10933,Iterative Token Evaluation and Refinement for Real-World Super-resolution.,False,True,False
+10934,CFR-ICL: Cascade-Forward Refinement with Iterative Click Loss for Interactive Image Segmentation.,False,True,False
+10936,Physics-Informed Autonomous LLM Agents for Explainable Power Electronics Modulation Design.,True,False,False
+10937,Towards Capable and Secure Autonomous Computer-Use Agents (Student Abstract).,False,False,False
+10938,Autonomous Partner Selection for Cooperative Multi-Agent Reinforcement Learning.,False,False,False
+10939,Co-EPG: A Framework for Co-Evolution of Planning and Grounding in Autonomous GUI Agents.,False,False,False
+10940,Exploring the Efficacy of Multi-Agent Reinforcement Learning for Autonomous Cyber Defence: A CAGE Challenge 4 Perspective.,False,False,False
+10945,Explainability in Autonomous Pedagogical Agents.,False,False,False
+10946,Learning Fast and Slow: Levels of Learning in General Autonomous Intelligent Agents.,False,False,False
+10948,AgentODRL: A Large Language Model-based Multi-agent System for ODRL Generation.,True,False,False
+10949,Mitigating Social Bias in Large Language Models: A Multi-Objective Approach Within a Multi-Agent Framework.,True,False,False
+10950,StoryBox: Collaborative Multi-Agent Simulation for Hybrid Bottom-Up Long-Form Story Generation Using Large Language Models.,True,False,False
+10951,MedLA: A Logic-Driven Multi-Agent Framework for Complex Medical Reasoning with Large Language Models.,True,False,False
+10952,LieCraft: A Multi-Agent Framework for Evaluating Deceptive Capabilities in Language Models.,True,False,False
+10953,Concept-RuleNet: Grounded Multi-Agent Neurosymbolic Reasoning in Vision Language Models.,True,False,False
+10954,AutoSCORE: Enhancing Automated Scoring with Multi-Agent Large Language Models via Structured Component Recognition.,True,False,False
+10955,Knowledge Tagging with Large Language Model Based Multi-Agent System.,True,False,False
+10957,Agentic Specification Generator for Move Programs.,True,False,False
+10958,"Taming Uncertainty via Automation: Observing, Analyzing, and Optimizing Agentic AI Systems.",True,False,False

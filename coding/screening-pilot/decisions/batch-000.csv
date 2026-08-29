@@ -1,0 +1,46 @@
+paper_id,decision,criteria,reason
+1,exclude,E2,Contribution is agent-tuning: adding a prefix/suffix to successful vs unsuccessful trajectories when fine-tuning; no runtime control structure is studied.
+2,include,I1,"Introduces a physical agentic loop with a Watchdog execution-monitoring layer and a bounded policy that finalizes, retries or escalates, guaranteeing finite termination."
+3,include,I2,"Compares a single-agent baseline against three multi-agent reasoning topologies (peer review, triage-ranking, triage-forms) in an active-learning discovery loop."
+6,include,I2,Proposes a multi-agent architecture with eight retrieval agents plus a dedicated verification agent that judges the code its counterparts generate.
+9,exclude,E5,"Self-described survey of LLM agent methodology, applications and challenges with a methodology-centered taxonomy; secondary study, snowballing seed."
+10,include,I2,"Multi-agent framework whose agents extract, synthesize and self-evaluate, with ablation studies validating the effectiveness and synergy of each agent."
+14,include,I1,"Retrospex rescores the LLM agent's action likelihood with an offline RL critic and uses dynamic action rescoring, changing action selection at each interaction step."
+15,exclude,E2,Fine-tunes LLMs and an LVLM with a policy-gradient algorithm and tests reasoning on eight datasets; no iterative control at inference.
+21,exclude,E4,"Self-described tutorial surveying LLM limitations, RAG/PAL/ReAct/LangChain, fine-tuning strategies and transformer architectures; no method contribution."
+22,exclude,E2,"Alignment Fine-Tuning with a constraint alignment loss over ranked chain-of-thought responses; the object is training loss, not runtime control."
+23,include,I1,Replaces single-pass autoregressive generation with iterative resampling of individual variables via LLM conditionals; the iteration policy is the contribution.
+27,exclude,E5,"Essay and literature review of four categories of LLM deception (strategic, imitation, sycophancy, unfaithful reasoning) and their governance implications."
+34,include,I2,"Rubric-based reward models are used to steer agents at interaction time on multi-step reasoning and tool-use tasks without retraining, a test-time control component."
+35,exclude,E5,Self-described critical review giving a comprehensive overview of causal reasoning benchmarks for LLMs and criteria they should satisfy.
+39,include,I1,HELPER retrieves from an external memory of language-program pairs on each dialogue turn or correction and expands that memory during deployment.
+47,exclude,E3,Uses LLM agents as off-the-shelf simulation tools in Trust Games to compare agent trust with human trust behavior; no claim about the agents' control structure.
+50,exclude,E5,"Self-described comprehensive survey of the agent skills landscape organized along four axes, identifying seven open challenges; secondary study."
+51,exclude,E2,"AgentGen synthesizes environments and planning tasks for instruction tuning; the contribution is agent training data, not a runtime loop."
+54,include,I1,"Agent-Driver replaces the perception-prediction-planning pipeline with a tool library, cognitive memory and a reasoning engine doing chain-of-thought and self-reflection."
+57,exclude,E5,"Systematic review of RL across the LLM lifecycle, collating datasets, benchmarks and open-source training frameworks; secondary study, snowballing seed."
+59,exclude,E2,"CROP is automatic prompt optimization that regularizes response length via textual feedback; prompt engineering, not runtime control return."
+61,include,I1,"BALAR is a task-agnostic outer-loop algorithm maintaining a belief state, selecting the next clarifying question by expected mutual information and expanding its state."
+72,exclude,E2,Adds a length-difference positional encoding and fine-tunes so responses terminate at a target token length; no iterative control at inference.
+77,include,I2,Controlled study of four agentic issue-resolution frameworks finding framework architecture is the primary driver of energy and that energy is spent on unproductive reasoning loops.
+79,exclude,E5,"Comprehensive survey of LLM-brained GUI agents covering frameworks, data, action models and benchmarks; secondary study, snowballing seed."
+83,include,I1,Husky iterates between generating the next action over a unified action space and executing it while updating the solution state.
+85,include,I1,Learning to Plan iteratively updates a task plan with new solutions and behavioral instructions derived by prompting LLMs on error feedback.
+86,exclude,E2,"WKVQuant is a post-training quantization framework for weights and the KV cache; about deployment memory cost, not any agent control structure."
+87,exclude,E2,"Binary classification of tutor praise responses plus LLM-facilitated named entity recognition for feedback; single-pass classification, no loop."
+90,include,I1,"Maintains an external VAD state across a 25-turn dialogue, injects it back into generation, and compares stateless, first-order and second-order dynamics."
+91,exclude,E2,"The three stated contributions are a tool environment, data curation and a cascaded SFT-then-RL training recipe for STAgent; the object is the trained policy."
+92,include,I2,"Natural language dialogue between agents enabling collaborative analysis refinement is named the system's key feature, not an off-the-shelf loop."
+93,exclude,E2,"Benchmarks five LLMs on 166 ICPC problems for correctness, resource use and calibration; measures one-shot solving, not any loop property."
+94,include,I2,"SOPBench measures whether language agents' tool calls follow SOPs and constraints across 24k trajectories, including how easily they are jailbroken into ignoring them."
+97,exclude,E2,"Compares base, custom and fine-tuned GPT models on classification accuracy against human coding of 88 and 238 ESG papers; single-pass classification."
+107,include,I2,"Lang-PINN's Feedback Agent executes generated PINN code and diagnoses errors for iterative refinement, a designed execute-diagnose-repair cycle."
+109,exclude,E2,"Retrieve-then-generate RAG over Quranic surah descriptions, scoring 13 models on context relevance and faithfulness; one pass, no re-query on a failed check."
+113,exclude,E2,"Trial-and-demonstration framework trains a language model from scratch with teacher demonstrations and a reward; a training loop, not inference-time control."
+116,include,I2,"Attributes agent failures to long-horizon context management and hallucination about task state, then adds explicit belief state representations to mitigate them."
+122,exclude,E2,Zero-shot chain-of-thought classifier scores class membership relations from entity and class descriptions; single-pass classification with no feedback.
+123,exclude,E2,Tests proprietary and fine-tuned open-source LLMs as one-shot evaluators of palliative care conversation scripts for understanding and empathy.
+124,include,I1,"Causal Agent is built from tool, memory and reasoning modules, where the reasoning module performs multiple iterations with the tools and memory holds causal graphs."
+128,exclude,E2,Self-generated cross-modal alignment data (DeSTA-AQA5M) for training an audio language model; the contribution is a data construction pipeline for training.
+129,exclude,E2,Three-step learning algorithm that generates refinements from language feedback and then finetunes GPT-3 on the chosen refinement; refinement is distilled into weights.
+135,exclude,E1,Explains the behavior of robot and deep-network agents from observed states and actions; the agent being explained is not a language-model agent with a control loop.

@@ -302,5 +302,61 @@
   "venue": "CoRR",
   "source": "dblp",
   "abstract": ""
+ },
+ {
+  "paper_id": 10622,
+  "title": "T1: A Tool-Oriented Conversational Dataset for Multi-Turn Agentic Planning.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10635,
+  "title": "APIGen-MT: Agentic Pipeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10646,
+  "title": "Aligning Audio-Visual Joint Representations with an Agentic Workflow.",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10647,
+  "title": "Towards Self-Refinement of Vision-Language Models with Triangular Consistency.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10648,
+  "title": "Self-alignment of Large Video Language Models with Refined Regularized Preference Optimization.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10652,
+  "title": "Can LLMs Correct Themselves? A Benchmark of Self-Correction in LLMs.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10661,
+  "title": "REAL: Benchmarking Autonomous Agents on Deterministic Simulations of Real Websites.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
  }
 ]

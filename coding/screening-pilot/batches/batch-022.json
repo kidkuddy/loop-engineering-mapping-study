@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 2525,
+  "title": "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead",
+  "year": 2025,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "The rapid integration of Large Language Models (LLMs) into software engineering (SE) has revolutionized tasks like code generation, producing a massive volume of software artifacts. This surge has exposed a critical bottleneck: the lack of scalable, reliable methods to evaluate these outputs. Human evaluation is costly and time-consuming, while traditional automated metrics like BLEU fail to capture nuanced quality aspects. In response, the LLM-as-a-Judge paradigm - using LLMs for automated evaluation - has emerged. This approach leverages the advanced reasoning of LLMs, offering a path toward human-like nuance at automated scale. However, LLM-as-a-Judge research in SE is still in its early stages. This forward-looking SE 2030 paper aims to steer the community toward advancing LLM-as-a-Judge for evaluating LLM-generated software artifacts. We provide a literature review of existing SE studies, analyze their limitations, identify key research gaps, and outline a detailed roadmap. We envision these frameworks as reliable, robust, and scalable human surrogates capable of consistent, multi-faceted artifact evaluation by 2030. Our work aims to foster research and adoption of LLM-as-a-Judge frameworks, ultimately improving the scalability of software artifact evaluation."
+ },
+ {
+  "paper_id": 2526,
+  "title": "Optimization-based Prompt Injection Attack to LLM-as-a-Judge",
+  "year": 2024,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "LLM-as-a-Judge uses a large language model (LLM) to select the best response from a set of candidates for a given question. LLM-as-a-Judge has many applications such as LLM-powered search, reinforcement learning with AI feedback (RLAIF), and tool selection. In this work, we propose JudgeDeceiver, an optimization-based prompt injection attack to LLM-as-a-Judge. JudgeDeceiver injects a carefully crafted sequence into an attacker-controlled candidate response such that LLM-as-a-Judge selects the candidate response for an attacker-chosen question no matter what other candidate responses are. Specifically, we formulate finding such sequence as an optimization problem and propose a gradient based method to approximately solve it. Our extensive evaluation shows that JudgeDeceive is highly effective, and is much more effective than existing prompt injection attacks that manually craft the injected sequences and jailbreak attacks when extended to our problem. We also show the effectiveness of JudgeDeceiver in three case studies, i.e., LLM-powered search, RLAIF, and tool selection. Moreover, we consider defenses including known-answer detection, perplexity detection, and perplexity windowed detection. Our results show these defenses are insufficient, highlighting the urgent need for developing new defense strategies. Our implementation is available at this repository: https://github.com/ShiJiawenwen/JudgeDeceiver."
+ },
+ {
+  "paper_id": 2527,
+  "title": "Investigating the Vulnerability of LLM-as-a-Judge Architectures to Prompt-Injection Attacks",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) are increasingly employed as evaluators (LLM-as-a-Judge) for assessing the quality of machine-generated text. This paradigm offers scalability and cost-effectiveness compared to human annotation. However, the reliability and security of such systems, particularly their robustness against adversarial manipulations, remain critical concerns. This paper investigates the vulnerability of LLM-as-a-Judge architectures to prompt-injection attacks, where malicious inputs are designed to compromise the judge's decision-making process. We formalize two primary attack strategies: Comparative Undermining Attack (CUA), which directly targets the final decision output, and Justification Manipulation Attack (JMA), which aims to alter the model's generated reasoning. Using the Greedy Coordinate Gradient (GCG) optimization method, we craft adversarial suffixes appended to one of the responses being compared. Experiments conducted on the MT-Bench Human Judgments dataset with open-source instruction-tuned LLMs (Qwen2.5-3B-Instruct and Falcon3-3B-Instruct) demonstrate significant susceptibility. The CUA achieves an Attack Success Rate (ASR) exceeding 30\\%, while JMA also shows notable effectiveness. These findings highlight substantial vulnerabilities in current LLM-as-a-Judge systems, underscoring the need for robust defense mechanisms and further research into adversarial evaluation and trustworthiness in LLM-based assessment frameworks."
+ },
+ {
+  "paper_id": 2528,
+  "title": "Case-Aware LLM-as-a-Judge Evaluation for Enterprise-Scale RAG Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Enterprise Retrieval-Augmented Generation (RAG) assistants operate in multi-turn, case-based workflows such as technical support and IT operations, where evaluation must reflect operational constraints, structured identifiers (e.g., error codes, versions), and resolution workflows. Existing RAG evaluation frameworks are primarily designed for benchmark-style or single-turn settings and often fail to capture enterprise-specific failure modes such as case misidentification, workflow misalignment, and partial resolution across turns.   We present a case-aware LLM-as-a-Judge evaluation framework for enterprise multi-turn RAG systems. The framework evaluates each turn using eight operationally grounded metrics that separate retrieval quality, grounding fidelity, answer utility, precision integrity, and case/workflow alignment. A severity-aware scoring protocol reduces score inflation and improves diagnostic clarity across heterogeneous enterprise cases. The system uses deterministic prompting with strict JSON outputs, enabling scalable batch evaluation, regression testing, and production monitoring.   Through a comparative study of two instruction-tuned models across short and long workflows, we show that generic proxy metrics provide ambiguous signals, while the proposed framework exposes enterprise-critical tradeoffs that are actionable for system improvement."
+ },
+ {
+  "paper_id": 2529,
+  "title": "The Challenges of Evaluating LLM Applications: An Analysis of Automated, Human, and LLM-Based Approaches",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Chatbots have been an interesting application of natural language generation since its inception. With novel transformer based Generative AI methods, building chatbots have become trivial. Chatbots which are targeted at specific domains for example medicine and psychology are implemented rapidly. This however, should not distract from the need to evaluate the chatbot responses. Especially because the natural language generation community does not entirely agree upon how to effectively evaluate such applications. With this work we discuss the issue further with the increasingly popular LLM based evaluations and how they correlate with human evaluations. Additionally, we introduce a comprehensive factored evaluation mechanism that can be utilized in conjunction with both human and LLM-based evaluations. We present the results of an experimental evaluation conducted using this scheme in one of our chatbot implementations which consumed educational reports, and subsequently compare automated, traditional human evaluation, factored human evaluation, and factored LLM evaluation. Results show that factor based evaluation produces better insights on which aspects need to be improved in LLM applications and further strengthens the argument to use human evaluation in critical spaces where main functionality is not direct retrieval."
+ },
+ {
+  "paper_id": 2532,
+  "title": "Safer in Translation? Presupposition Robustness in Indic Languages",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Increasingly, more and more people are turning to large language models (LLMs) for healthcare advice and consultation, making it important to gauge the efficacy and accuracy of the responses of LLMs to such queries. While there are pre-existing medical benchmarks literature which seeks to accomplish this very task, these benchmarks are almost universally in English, which has led to a notable gap in existing literature pertaining to multilingual LLM evaluation. Within this work, we seek to aid in addressing this gap with Cancer-Myth-Indic, an Indic language benchmark built by translating a 500-item subset of Cancer-Myth, sampled evenly across its original categories, into five under-served but widely used languages from the subcontinent (500 per language; 2,500 translated items total). Native-speaker translators followed a style guide for preserving implicit presuppositions in translation; items feature false presuppositions relating to cancer. We evaluate several popular LLMs under this presupposition stress."
+ },
+ {
+  "paper_id": 2533,
+  "title": "Safeguarding Efficacy in Large Language Models: Evaluating Resistance to Human-Written and Algorithmic Adversarial Prompts",
+  "year": 2025,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "This paper presents a systematic security assessment of four prominent Large Language Models (LLMs) against diverse adversarial attack vectors. We evaluate Phi-2, Llama-2-7B-Chat, GPT-3.5-Turbo, and GPT-4 across four distinct attack categories: human-written prompts, AutoDAN, Greedy Coordinate Gradient (GCG), and Tree-of-Attacks-with-pruning (TAP). Our comprehensive evaluation employs 1,200 carefully stratified prompts from the SALAD-Bench dataset, spanning six harm categories. Results demonstrate significant variations in model robustness, with Llama-2 achieving the highest overall security (3.4% average attack success rate) while Phi-2 exhibits the greatest vulnerability (7.0% average attack success rate). We identify critical transferability patterns where GCG and TAP attacks, though ineffective against their target model (Llama-2), achieve substantially higher success rates when transferred to other models (up to 17% for GPT-4). Statistical analysis using Friedman tests reveals significant differences in vulnerability across harm categories ($p < 0.001$), with malicious use prompts showing the highest attack success rates (10.71% average). Our findings contribute to understanding cross-model security vulnerabilities and provide actionable insights for developing targeted defense mechanisms"
+ },
+ {
+  "paper_id": 2540,
+  "title": "LLM-as-a-Judge & Reward Model: What They Can and Cannot Do",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "LLM-as-a-Judge and reward models are widely used alternatives of multiple-choice questions or human annotators for large language model (LLM) evaluation. Their efficacy shines in evaluating long-form responses, serving a critical role as evaluators of leaderboards and as proxies to align LLMs via reinforcement learning. However, despite their popularity, their effectiveness in diverse contexts, such as non-English prompts, factual verification, or challenging questions, remains unexplored. In this paper, we conduct a comprehensive analysis of automated evaluators, reporting several key findings on their behavior. First, we discover that English evaluation capabilities significantly influence language-specific evaluation capabilities, often more than the language proficiency itself, enabling evaluators trained in English to easily transfer their skills to other languages. Second, we identify critical shortcomings, where LLMs fail to detect and penalize errors, such as factual inaccuracies, cultural misrepresentations, and the presence of unwanted language. Finally, we find that state-of-the-art evaluators struggle with challenging prompts, in either English or Korean, underscoring their limitations in assessing or generating complex reasoning questions. We release the dataset and codes used."
+ },
+ {
+  "paper_id": 2543,
+  "title": "Think-J: Learning to Think for Generative LLM-as-a-Judge",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "LLM-as-a-Judge refers to the automatic modeling of preferences for responses generated by Large Language Models (LLMs), which is of significant importance for both LLM evaluation and reward modeling. Although generative LLMs have made substantial progress in various tasks, their performance as LLM-Judge still falls short of expectations. In this work, we propose Think-J, which improves generative LLM-as-a-Judge by learning how to think. We first utilized a small amount of curated data to develop the model with initial judgment thinking capabilities. Subsequently, we optimize the judgment thinking traces based on reinforcement learning (RL). We propose two methods for judgment thinking optimization, based on offline and online RL, respectively. The offline method requires training a critic model to construct positive and negative examples for learning. The online method defines rule-based reward as feedback for optimization. Experimental results showed that our approach can significantly enhance the evaluation capability of generative LLM-Judge, surpassing both generative and classifier-based LLM-Judge without requiring extra human annotations."
+ },
+ {
+  "paper_id": 2545,
+  "title": "BabelJudge: Measuring LLM-as-a-Judge Reliability Across Languages and Agent Trajectories",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "LLM-as-a-judge has become the dominant approach to scalable evaluation in NLP pipelines, yet judges themselves carry systematic biases that raw accuracy hides: they favor responses placed in slot A (position bias), they prefer longer responses regardless of quality (verbosity bias), and their reliability degrades sharply in lower-resource languages. We introduce BabelJudge, an open-source benchmark and reliability audit framework that measures all four failure modes -- position bias, verbosity bias, order inconsistency, and cross-lingual degradation -- on any judge model, without requiring human preference labels. The key insight is gold-labelling by degradation: starting from a high-quality reference response and applying a controlled perturbation yields a pairwise item whose gold label is known by construction, eliminating annotation cost. We evaluate Qwen2.5-7B-Instruct-4bit across English, Hindi, Arabic, and Swahili and find that our composite bias-penalised reliability score drops from 0.714 in Hindi to 0.550 in Swahili, a gap that raw accuracy (0.835 vs. 0.660) understates. Swahili order consistency collapses to 0.480, meaning judge verdicts are near-random under slot-order swaps -- a failure mode invisible to accuracy alone. We further extend the framework to agentic evaluation via nine trajectory-level perturbations (argument corruption, tool swaps, hallucinated calls, missing steps) and three new metrics: tool accuracy, hallucination detection rate, and trajectory-length bias. BabelJudge is released as a Python package supporting 11 judge backends. Code: https://github.com/Shreyaskc/BabelJudge"
+ },
+ {
+  "paper_id": 2547,
+  "title": "Humans or LLMs as the Judge? A Study on Judgement Biases",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Adopting human and large language models (LLM) as judges (a.k.a human- and LLM-as-a-judge) for evaluating the performance of LLMs has recently gained attention. Nonetheless, this approach concurrently introduces potential biases from human and LLMs, questioning the reliability of the evaluation results. In this paper, we propose a novel framework that is free from referencing groundtruth annotations for investigating Misinformation Oversight Bias, Gender Bias, Authority Bias and Beauty Bias on LLM and human judges. We curate a dataset referring to the revised Bloom's Taxonomy and conduct thousands of evaluations. Results show that human and LLM judges are vulnerable to perturbations to various degrees, and that even the cutting-edge judges possess considerable biases. We further exploit these biases to conduct attacks on LLM judges. We hope that our work can notify the community of the bias and vulnerability of human- and LLM-as-a-judge, as well as the urgency of developing robust evaluation systems."
+ },
+ {
+  "paper_id": 2548,
+  "title": "TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The adoption of Large Language Models (LLMs) as automated evaluators (LLM-as-a-judge) has revealed critical inconsistencies in current evaluation frameworks. We identify two fundamental types of inconsistencies: (1) Score-Comparison Inconsistency, where lower-rated responses outperform higher-scored ones in pairwise comparisons, and (2) Pairwise Transitivity Inconsistency, manifested through circular preference chains (A>B>C>A) and equivalence contradictions (A=B=C\\neq A). We argue that these issues come from information loss in discrete rating systems and ambiguous tie judgments during pairwise evaluation. We propose TrustJudge, a probabilistic framework that addresses these limitations through two key innovations: 1) distribution-sensitive scoring that computes continuous expectations from discrete rating probabilities, preserving information entropy for more precise scoring, and 2) likelihood-aware aggregation that resolves transitivity violations using bidirectional preference probabilities or perplexity. We also formalize the theoretical limitations of current LLM-as-a-judge frameworks and demonstrate how TrustJudge's components overcome them. When evaluated with Llama-3.1-70B-Instruct as judge using our dataset, TrustJudge reduces Score-Comparison inconsistency by 8.43% (from 23.32% to 14.89%) and Pairwise Transitivity inconsistency by 10.82% (from 15.22% to 4.40%), while maintaining higher evaluation accuracy. Our work provides the first systematic analysis of evaluation framework inconsistencies in LLM-as-a-judge paradigms, offering both theoretical insights and practical solutions for reliable automated assessment. The framework demonstrates consistent improvements across various model architectures and scales, enabling more trustworthy LLM evaluation without requiring additional training or human annotations. The codes can be found at https://github.com/TrustJudge/TrustJudge."
+ },
+ {
+  "paper_id": 2560,
+  "title": "Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) increasingly assess generated content, giving rise to the LLM-as-a-Judge paradigm. These systems now score outputs, filter content, and gate iterative refinement in production pipelines, where each judgment is often assumed to be independent of earlier evaluations. We test this assumption using three prompt conditions: no metadata, revision framing, and anchored metadata containing revision, attempt, and prior-score fields. We show that prior scores, even when included only as context metadata, anchor judgments and systematically shift ratings toward their values. Across 192,000 attempted evaluations (185,271 successful), seven out of the eight evaluated models have 95% task-stratified bootstrap intervals below zero for the total anchored-metadata effect on 20 fixed texts. Cohen's $d$, a standardized measure of the difference between score distributions, reaches an absolute value of 0.71. Token-level analysis of selected model-task probes suggests a threshold-like response pattern: introducing anchored metadata produces a marked redistribution of output-score probabilities, while changing the anchor value within the tested below-threshold range produces comparatively little additional variation. On categorical industry data with human-labeled ground truth, anchored metadata blocks 48% of error corrections and flips 10.18% of correct judgments toward an assigned wrong label, demonstrating the bias extends beyond numerical scoring to categorical decisions. Neither Chain-of-Thought nor a metadata-disregard warning reduces the total effect, although the warning improves the paired accuracy effect relative to baseline in the industry experiment. Reliable LLM evaluation demands careful context engineering rather than an assumption of impartiality. Effective mitigation must be validated for the intended model and task or domain."
+ },
+ {
+  "paper_id": 2565,
+  "title": "ASSERT: Automated Safety Scenario Red Teaming for Evaluating the Robustness of Large Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "As large language models are integrated into society, robustness toward a suite of prompts is increasingly important to maintain reliability in a high-variance environment.Robustness evaluations must comprehensively encapsulate the various settings in which a user may invoke an intelligent system. This paper proposes ASSERT, Automated Safety Scenario Red Teaming, consisting of three methods -- semantically aligned augmentation, target bootstrapping, and adversarial knowledge injection. For robust safety evaluation, we apply these methods in the critical domain of AI safety to algorithmically generate a test suite of prompts covering diverse robustness settings -- semantic equivalence, related scenarios, and adversarial. We partition our prompts into four safety domains for a fine-grained analysis of how the domain affects model performance. Despite dedicated safeguards in existing state-of-the-art models, we find statistically significant performance differences of up to 11% in absolute classification accuracy among semantically related scenarios and error rates of up to 19% absolute error in zero-shot adversarial settings, raising concerns for users' physical safety."
+ },
+ {
+  "paper_id": 2568,
+  "title": "Which Programming Language and Model Work Best With LLM-as-a-Judge For Code Retrieval?",
+  "year": 2025,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Code search is an important information retrieval application. Benefits of better code search include faster new developer on-boarding, reduced software maintenance, and ease of understanding for large repositories. Despite improvements in search algorithms and search benchmarks, the domain of code search has lagged behind. One reason is the high cost of human annotation for code queries and answers. While humans may annotate search results in general text QA systems, code annotations require specialized knowledge of a programming language (PL), as well as domain specific software engineering knowledge. In this work we study the use of Large Language Models (LLMs) to retrieve code at the level of functions and to generate annotations for code search results. We compare the impact of the retriever representation (sparse vs. semantic), programming language, and LLM by comparing human annotations across several popular languages (C, Java, Javascript, Go, and Python). We focus on repositories that implement common data structures likely to be implemented in any PLs. For the same human annotations, we compare several LLM-as-a-Judge models to evaluate programming language and other affinities between LLMs. We find that the chosen retriever and PL exhibit affinities that can be leveraged to improve alignment of human and AI relevance determinations, with significant performance implications. We also find differences in representation (sparse vs. semantic) across PLs that impact alignment of human and AI relevance determinations. We propose using transpilers to bootstrap scalable code search benchmark datasets in other PLs and in a case study demonstrate that human-AI relevance agreement rates largely match the (worst case) human-human agreement under study. The application code used in this work is available at \\href{https://github.com/rlucas7/code-searcher/}{this github repo}."
+ },
+ {
+  "paper_id": 2571,
+  "title": "Fine-Tuning Vision-Language Models for Markdown Conversion of Financial Tables in Malaysian Audited Financial Reports",
+  "year": 2025,
+  "venue": "arXiv:cs.IR",
+  "source": "arxiv",
+  "abstract": "Accurately extracting and representing the structure of tabular data from financial documents remains a critical challenge in document understanding, particularly for regulatory and analytical use cases. This study addresses the complexity of converting financial tables from Malaysian audited financial reports into Markdown format, a task complicated by rotated layouts, multi-level headers, and implicit structural cues. We propose a fine-tuned vision-language model (VLM), based on Qwen2.5-VL-7B, optimized for high-fidelity Markdown generation from document images. Our approach includes a curated dataset of 2,152 image-text pairs with augmentations and a supervised fine-tuning strategy using LoRA. To assess performance, we evaluated our model on 100 out-of-sample tables using a dual framework: a criteria-based LLM-as-a-judge for fine-grained accuracy and our novel Markdown Tree-Edit-Distance-based Similarity (TEDS) metric for holistic structural fidelity. Our model achieves a 92.20% overall accuracy on the criteria-based assessment and a 96.53% Markdown TEDS score. This performance significantly surpasses its Qwen2.5-VL-7B base model, larger-scale VLMs, and specialized reasoning-enabled models. Compared to these self-hosted alternatives, it also significantly reduces inference time. Furthermore, its accuracy exceeds that of widely used proprietary models such as OpenAI's GPT-4o and Gemini 2.5 Flash. These results demonstrate that domain-specific fine-tuning provides an effective and efficient method to bridge the gap between unstructured financial documents and downstream automation, rivalling much larger and more general models without their computational overhead."
+ },
+ {
+  "paper_id": 2573,
+  "title": "No Free Labels: Limitations of LLM-as-a-Judge Without Human Grounding",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Reliable evaluation of large language models (LLMs) is critical as their deployment rapidly expands, particularly in high-stakes domains such as business and finance. The LLM-as-a-Judge framework, which uses prompted LLMs to evaluate response quality, is appealing due to its scalability, low cost, and strong correlations with human stylistic preferences. However, it remains unclear how accurately these methods can assess response quality in domains where correctness matters more than style. To address this gap, we introduce the Business and Finance Fundamentals Benchmark (BFF-Bench), a dataset of 160 challenging questions and long-form responses authored by financial professionals. These experts subsequently evaluated the correctness of 1,200 responses generated by a diverse set of LLMs on both BFF-Bench and a challenging subset of MT-Bench. With this expert-annotated dataset of judgments (VERDICTS), we analyze the agreement between a suite of automated grading methods and human experts. While we observe that LLM Judges are more reliable than other grading methods, our findings reveal a clear pattern in LLM Judge performance: when not provided with a correct reference, judges show high agreement with human experts only on questions the judges were able to correctly answer themselves. We demonstrate that providing the judges with expert-written references largely mitigates this issue, highlighting the limits of using LLM-as-a-Judge without any form of human verification."
+ },
+ {
+  "paper_id": 2581,
+  "title": "Design, Results and Industry Implications of the World's First Insurance Large Language Model Evaluation Benchmark",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "This paper comprehensively elaborates on the construction methodology, multi-dimensional evaluation system, and underlying design philosophy of CUFEInse v1.0. Adhering to the principles of \"quantitative-oriented, expert-driven, and multi-validation,\" the benchmark establishes an evaluation framework covering 5 core dimensions, 54 sub-indicators, and 14,430 high-quality questions, encompassing insurance theoretical knowledge, industry understanding, safety and compliance, intelligent agent application, and logical rigor. Based on this benchmark, a comprehensive evaluation was conducted on 11 mainstream large language models. The evaluation results reveal that general-purpose models suffer from common bottlenecks such as weak actuarial capabilities and inadequate compliance adaptation. High-quality domain-specific training demonstrates significant advantages in insurance vertical scenarios but exhibits shortcomings in business adaptation and compliance. The evaluation also accurately identifies the common bottlenecks of current large models in professional scenarios such as insurance actuarial, underwriting and claim settlement reasoning, and compliant marketing copywriting. The establishment of CUFEInse not only fills the gap in professional evaluation benchmarks for the insurance field, providing academia and industry with a professional, systematic, and authoritative evaluation tool, but also its construction concept and methodology offer important references for the evaluation paradigm of large models in vertical fields, serving as an authoritative reference for academic model optimization and industrial model selection. Finally, the paper looks forward to the future iteration direction of the evaluation benchmark and the core development direction of \"domain adaptation + reasoning enhancement\" for insurance large models."
+ },
+ {
+  "paper_id": 2582,
+  "title": "LLMs Cannot Reliably Judge (Yet?): A Comprehensive Assessment on the Robustness of LLM-as-a-Judge",
+  "year": 2025,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have demonstrated exceptional capabilities across diverse tasks, driving the development and widespread adoption of LLM-as-a-Judge systems for automated evaluation, including red teaming and benchmarking. However, these systems are susceptible to adversarial attacks that can manipulate evaluation outcomes, raising critical concerns about their robustness and trustworthiness. Existing evaluation methods for LLM-based judges are often fragmented and lack a unified framework for comprehensive robustness assessment. Furthermore, the impact of prompt template design and model selection on judge robustness has rarely been explored, and their performance in real-world deployments remains largely unverified. To address these gaps, we introduce RobustJudge, a fully automated and modularly extensible framework designed to systematically evaluate the robustness of LLM-as-a-Judge across task datasets, judge prompt templates, judge models, attacks, and defenses. Specifically, RobustJudge investigates the effectiveness of 15 attack methods and 8 defense strategies across 13 models (RQ1), examines the impact of prompt template design and model selection (RQ2), and evaluates the security of real-world deployments (RQ3). Our study yields three main findings: (1) LLM-based judges remain susceptible under both pointwise and pairwise protocols. The combined Attack exhibits the strongest and most transferable performance among those evaluated, while the evaluated defenses exhibit no universal dominance across robustness, benign utility, and computational cost. (2) Robustness is highly sensitive to both prompt-template and judge model choices. (3) Optimization-based attack combined with long suffixes can substantially inflate scores returned by both PAI-Judge variants."
+ },
+ {
+  "paper_id": 2583,
+  "title": "When Metrics Disagree: Automatic Similarity vs. LLM-as-a-Judge for Clinical Dialogue Evaluation",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "As Large Language Models (LLMs) are increasingly integrated into healthcare to address complex inquiries, ensuring their reliability remains a critical challenge. Recent studies have highlighted that generic LLMs often struggle in clinical contexts, occasionally producing misleading guidance. To mitigate these risks, this research focuses on the domain-specific adaptation of \\textbf{Llama-2-7B} using the \\textbf{Low-Rank Adaptation (LoRA)} technique. By injecting trainable low-rank matrices into the Transformer layers, we efficiently adapted the model using authentic patient-physician transcripts while preserving the foundational knowledge of the base model. Our objective was to enhance precision and contextual relevance in responding to medical queries by capturing the specialized nuances of clinical discourse.   Due to the resource-intensive nature of large-scale human validation, the model's performance was evaluated through a dual-track framework: \\textbf{Track A} utilized traditional lexical similarity metrics (e.g., BLEU, ROUGE), while \\textbf{Track B} employed an \"LLM-as-a-Judge\" paradigm using GPT-4 for semantic assessment. Our results demonstrate that while the LoRA-enhanced model achieved significant improvements across all quantitative lexical dimensions, a profound disagreement surfaced in the GPT-4 evaluation, which marginally favored the baseline model's conversational flow. This metric divergence underscores a pivotal finding: traditional automated scores may not fully reflect clinical utility. Consequently, we propose that while automated metrics and LLM judges serve as valuable developmental proxies, rigorous validation by human medical experts remains an indispensable requirement for the safe deployment of LLMs in healthcare settings."
+ },
+ {
+  "paper_id": 2584,
+  "title": "Interpreting LLM-as-a-Judge Policies via Verifiable Global Explanations",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Using LLMs to evaluate text, that is, LLM-as-a-judge, is increasingly being used at scale to augment or even replace human annotations. As such, it is imperative that we understand the potential biases and risks of doing so. In this work, we propose an approach for extracting high-level concept-based global policies from LLM-as-a-Judge. Our approach consists of two algorithms: 1) CLoVE (Contrastive Local Verifiable Explanations), which generates verifiable, concept-based, contrastive local explanations and 2) GloVE (Global Verifiable Explanations), which uses iterative clustering, summarization and verification to condense local rules into a global policy. We evaluate GloVE on seven standard benchmarking datasets for content harm detection. We find that the extracted global policies are highly faithful to decisions of the LLM-as-a-Judge. Additionally, we evaluated the robustness of global policies to text perturbations and adversarial attacks. Finally, we conducted a user study to evaluate user understanding and satisfaction with global policies."
+ },
+ {
+  "paper_id": 2585,
+  "title": "MentalBERT: Publicly Available Pretrained Language Models for Mental Healthcare",
+  "year": 2021,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Mental health is a critical issue in modern society, and mental disorders could sometimes turn to suicidal ideation without adequate treatment. Early detection of mental disorders and suicidal ideation from social content provides a potential way for effective social intervention. Recent advances in pretrained contextualized language representations have promoted the development of several domain-specific pretrained models and facilitated several downstream applications. However, there are no existing pretrained language models for mental healthcare. This paper trains and release two pretrained masked language models, i.e., MentalBERT and MentalRoBERTa, to benefit machine learning for the mental healthcare research community. Besides, we evaluate our trained domain-specific models and several variants of pretrained language models on several mental disorder detection benchmarks and demonstrate that language representations pretrained in the target domain improve the performance of mental health detection tasks."
+ },
+ {
+  "paper_id": 2588,
+  "title": "\"Mistakes Help Us Grow\": Facilitating and Evaluating Growth Mindset Supportive Language in Classrooms",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Teachers' growth mindset supportive language (GMSL)--rhetoric emphasizing that one's skills can be improved over time--has been shown to significantly reduce disparities in academic achievement and enhance students' learning outcomes. Although teachers espouse growth mindset principles, most find it difficult to adopt GMSL in their practice due the lack of effective coaching in this area. We explore whether large language models (LLMs) can provide automated, personalized coaching to support teachers' use of GMSL. We establish an effective coaching tool to reframe unsupportive utterances to GMSL by developing (i) a parallel dataset containing GMSL-trained teacher reframings of unsupportive statements with an accompanying annotation guide, (ii) a GMSL prompt framework to revise teachers' unsupportive language, and (iii) an evaluation framework grounded in psychological theory for evaluating GMSL with the help of students and teachers. We conduct a large-scale evaluation involving 174 teachers and 1,006 students, finding that both teachers and students perceive GMSL-trained teacher and model reframings as more effective in fostering a growth mindset and promoting challenge-seeking behavior, among other benefits. We also find that model-generated reframings outperform those from the GMSL-trained teachers. These results show promise for harnessing LLMs to provide automated GMSL feedback for teachers and, more broadly, LLMs' potentiality for supporting students' learning in the classroom. Our findings also demonstrate the benefit of large-scale human evaluations when applying LLMs in educational domains."
+ },
+ {
+  "paper_id": 2600,
+  "title": "Prompting a Weighting Mechanism into LLM-as-a-Judge in Two-Step: A Case Study",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "While Large Language Models (LLMs) have emerged as promising tools for evaluating Natural Language Generation (NLG) tasks, their effectiveness is limited by their inability to appropriately weigh the importance of different topics, often overemphasizing minor details while undervaluing critical information, leading to misleading assessments. Our work proposes an efficient prompt design mechanism to address this specific limitation and provide a case study. Through strategic prompt engineering that incorporates explicit importance weighting mechanisms, we enhance using LLM-as-a-Judge ability to prioritize relevant information effectively, as demonstrated by an average improvement of 6% in the Human Alignment Rate (HAR) metric."
+ },
+ {
+  "paper_id": 2605,
+  "title": "Assistant-Guided Mitigation of Teacher Preference Bias in LLM-as-a-Judge",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "LLM-as-a-Judge employs large language models (LLMs), such as GPT-4, to evaluate the quality of LLM-generated responses, gaining popularity for its cost-effectiveness and strong alignment with human evaluations. However, training proxy judge models using evaluation data generated by powerful teacher models introduces a critical yet previously overlooked issue: teacher preference bias, where the proxy judge model learns a biased preference for responses from the teacher model. To tackle this problem, we propose a novel setting that incorporates an additional assistant model, which is not biased toward the teacher model's responses, to complement the training data. Building on this setup, we introduce AGDe-Judge, a three-stage framework designed to debias from both the labels and feedbacks in the training data. Extensive experiments demonstrate that AGDe-Judge effectively reduces teacher preference bias while maintaining strong performance across six evaluation benchmarks. Code is available at https://github.com/Liuz233/AGDe-Judge."
+ },
+ {
+  "paper_id": 2607,
+  "title": "J1: Exploring Simple Test-Time Scaling for LLM-as-a-Judge",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "The current focus of AI research is shifting from emphasizing model training towards enhancing evaluation quality, a transition that is crucial for driving further advancements in AI systems. Traditional evaluation methods typically rely on reward models assigning scalar preference scores to outputs. Although effective, such approaches lack interpretability, leaving users often uncertain about why a reward model rates a particular response as high or low. The advent of LLM-as-a-Judge provides a more scalable and interpretable method of supervision, offering insights into the decision-making process. Moreover, with the emergence of large reasoning models, which consume more tokens for deeper thinking and answer refinement, scaling test-time computation in the LLM-as-a-Judge paradigm presents an avenue for further boosting performance and providing more interpretability through reasoning traces. In this paper, we introduce $\\textbf{J1-7B}$, which is first supervised fine-tuned on reflection-enhanced datasets collected via rejection-sampling and subsequently trained using Reinforcement Learning (RL) with verifiable rewards. At inference time, we apply Simple Test-Time Scaling (STTS) strategies for additional performance improvement. Experimental results demonstrate that $\\textbf{J1-7B}$ surpasses the previous state-of-the-art LLM-as-a-Judge by $ \\textbf{4.8}$\\% and exhibits a $ \\textbf{5.1}$\\% stronger scaling trend under STTS. Additionally, we present three key findings: (1) Existing LLM-as-a-Judge does not inherently exhibit such scaling trend. (2) Model simply fine-tuned on reflection-enhanced datasets continues to demonstrate similarly weak scaling behavior. (3) Significant scaling trend emerges primarily during the RL phase, suggesting that effective STTS capability is acquired predominantly through RL training."
+ },
+ {
+  "paper_id": 2608,
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and Chatbot Arena, a crowdsourced battle platform. Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences, which are otherwise very expensive to obtain. Additionally, we show our benchmark and traditional benchmarks complement each other by evaluating several variants of LLaMA and Vicuna. The MT-bench questions, 3K expert votes, and 30K conversations with human preferences are publicly available at https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge."
+ },
+ {
+  "paper_id": 2612,
+  "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Evaluating large language model (LLM) based chat assistants is challenging due to their broad capabilities and the inadequacy of existing benchmarks in measuring human preferences. To address this, we explore using strong LLMs as judges to evaluate these models on more open-ended questions. We examine the usage and limitations of LLM-as-a-judge, including position, verbosity, and self-enhancement biases, as well as limited reasoning ability, and propose solutions to mitigate some of them. We then verify the agreement between LLM judges and human preferences by introducing two benchmarks: MT-bench, a multi-turn question set; and Chatbot Arena, a crowdsourced battle platform. Our results reveal that strong LLM judges like GPT-4 can match both controlled and crowdsourced human preferences well, achieving over 80% agreement, the same level of agreement between humans. Hence, LLM-as-a-judge is a scalable and explainable way to approximate human preferences, which are otherwise very expensive to obtain. Additionally, we show our benchmark and traditional benchmarks complement each other by evaluating several variants of LLaMA and Vicuna. The MT-bench questions, 3K expert votes, and 30K conversations with human preferences are publicly available at https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge."
+ },
+ {
+  "paper_id": 2615,
+  "title": "Humans or LLMs as the Judge? A Study on Judgement Bias",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Adopting human and large language models (LLM) as judges (a.k.a human-and LLM-as-ajudge) for evaluating the performance of LLMs has recently gained attention.Nonetheless, this approach concurrently introduces potential biases from human and LLMs, questioning the reliability of the evaluation results.In this paper, we propose a novel framework that is free from referencing groundtruth annotations for investigating Misinformation Oversight Bias, Gender Bias, Authority Bias and Beauty Bias on LLM and human judges.We curate a dataset referring to the revised Bloom's Taxonomy and conduct thousands of evaluations.Results show that human and LLM judges are vulnerable to perturbations to various degrees, and that even the cutting-edge judges possess considerable biases.We further exploit these biases to conduct attacks on LLM judges.We hope that our work can notify the community of the bias and vulnerability of human-and LLMas-a-judge, as well as the urgency of developing robust evaluation systems 1 .Warning: we provide illustrative attack protocols to reveal the vulnerabilities of LLM judges, aiming to develop more robust ones."
+ },
+ {
+  "paper_id": 2622,
+  "title": "Evaluating large language model workflows in clinical decision support for triage and referral and diagnosis",
+  "year": 2025,
+  "venue": "npj Digital Medicine",
+  "source": "openalex",
+  "abstract": "Accurate medical decision-making is critical for both patients and clinicians. Patients often struggle to interpret their symptoms, determine their severity, and select the right specialist. Simultaneously, clinicians face challenges in integrating complex patient data to make timely, accurate diagnoses. Recent advances in large language models (LLMs) offer the potential to bridge this gap by supporting decision-making for both patients and healthcare providers. In this study, we benchmark multiple LLM versions and an LLM-based workflow incorporating retrieval-augmented generation (RAG) on a curated dataset of 2000 medical cases derived from the Medical Information Mart for Intensive Care database. Our findings show that these LLMs are capable of providing personalized insights into likely diagnoses, suggesting appropriate specialists, and assessing urgent care needs. These models may also support clinicians in refining diagnoses and decision-making, offering a promising approach to improving patient outcomes and streamlining healthcare delivery."
+ },
+ {
+  "paper_id": 2630,
+  "title": "Trustworthy LLMs: a Survey and Guideline for Evaluating Large Language Models' Alignment",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Ensuring alignment, which refers to making models behave in accordance with human intentions [1,2], has become a critical task before deploying large language models (LLMs) in real-world applications. For instance, OpenAI devoted six months to iteratively aligning GPT-4 before its release [3]. However, a major challenge faced by practitioners is the lack of clear guidance on evaluating whether LLM outputs align with social norms, values, and regulations. This obstacle hinders systematic iteration and deployment of LLMs. To address this issue, this paper presents a comprehensive survey of key dimensions that are crucial to consider when assessing LLM trustworthiness. The survey covers seven major categories of LLM trustworthiness: reliability, safety, fairness, resistance to misuse, explainability and reasoning, adherence to social norms, and robustness. Each major category is further divided into several sub-categories, resulting in a total of 29 sub-categories. Additionally, a subset of 8 sub-categories is selected for further investigation, where corresponding measurement studies are designed and conducted on several widely-used LLMs. The measurement results indicate that, in general, more aligned models tend to perform better in terms of overall trustworthiness. However, the effectiveness of alignment varies across the different trustworthiness categories considered. This highlights the importance of conducting more fine-grained analyses, testing, and making continuous improvements on LLM alignment. By shedding light on these key dimensions of LLM trustworthiness, this paper aims to provide valuable insights and guidance to practitioners in the field. Understanding and addressing these concerns will be crucial in achieving reliable and ethically sound deployment of LLMs in various applications."
+ },
+ {
+  "paper_id": 2633,
+  "title": "Large Language Models are not Fair Evaluators",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In this paper, we uncover a systematic bias in the evaluation paradigm of adopting large language models~(LLMs), e.g., GPT-4, as a referee to score and compare the quality of responses generated by candidate models. We find that the quality ranking of candidate responses can be easily hacked by simply altering their order of appearance in the context. This manipulation allows us to skew the evaluation result, making one model appear considerably superior to the other, e.g., Vicuna-13B could beat ChatGPT on 66 over 80 tested queries with ChatGPT as an evaluator. To address this issue, we propose a calibration framework with three simple yet effective strategies: 1) Multiple Evidence Calibration, which requires the evaluator model to generate multiple evaluation evidence before assigning ratings; 2) Balanced Position Calibration, which aggregates results across various orders to determine the final score; 3) Human-in-the-Loop Calibration, which introduces a balanced position diversity entropy to measure the difficulty of each example and seeks human assistance when needed. We also manually annotate the \"win/tie/lose\" outcomes of responses from ChatGPT and Vicuna-13B in the Vicuna Benchmark's question prompt, and extensive experiments demonstrate that our approach successfully mitigates evaluation bias, resulting in closer alignment with human judgments. We release our code and human annotation at \\url{https://github.com/i-Eval/FairEval} to facilitate future research."
+ },
+ {
+  "paper_id": 2634,
+  "title": "A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Md Tahmid Rahman Laskar, Sawsan Alqahtani, M Saiful Bari, Mizanur Rahman, Mohammad Abdullah Matin Khan, Haidar Khan, Israt Jahan, Amran Bhuiyan, Chee Wei Tan, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty, Jimmy Huang. Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing. 2024."
+ },
+ {
+  "paper_id": 2639,
+  "title": "LLM Comparator: Interactive Analysis of Side-by-Side Evaluation of Large Language Models",
+  "year": 2024,
+  "venue": "IEEE Transactions on Visualization and Computer Graphics",
+  "source": "openalex",
+  "abstract": "Evaluating large language models (LLMs) presents unique challenges. While automatic side-by-side evaluation, also known as LLM-as-a-judge, has become a promising solution, model developers and researchers face difficulties with scalability and interpretability when analyzing these evaluation outcomes. To address these challenges, we introduce LLM Comparator, a new visual analytics tool designed for side-by-side evaluations of LLMs. This tool provides analytical workflows that help users understand when and why one LLM outperforms or underperforms another, and how their responses differ. Through close collaboration with practitioners developing LLMs at Google, we have iteratively designed, developed, and refined the tool. Qualitative feedback from these users highlights that the tool facilitates in-depth analysis of individual examples while enabling users to visually overview and flexibly slice data. This empowers users to identify undesirable patterns, formulate hypotheses about model behavior, and gain insights for model improvement. LLM Comparator has been integrated into Google's LLM evaluation platforms and open-sourced."
+ },
+ {
+  "paper_id": 2650,
+  "title": "Is LLM-as-a-Judge Robust? Investigating Universal Adversarial Attacks on Zero-shot LLM Assessment",
+  "year": 2024,
+  "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) are powerful zero-shot assessors used in real-world situations such as assessing written exams and benchmarking systems.Despite these critical applications, no existing work has analyzed the vulnerability of judge-LLMs to adversarial manipulation.This work presents the first study on the adversarial robustness of assessment LLMs, where we demonstrate that short universal adversarial phrases can be concatenated to deceive judge LLMs to predict inflated scores.Since adversaries may not know or have access to the judge-LLMs, we propose a simple surrogate attack where a surrogate model is first attacked, and the learned attack phrase then transferred to unknown judge-LLMs.We propose a practical algorithm to determine the short universal attack phrases and demonstrate that when transferred to unseen models, scores can be drastically inflated such that irrespective of the assessed text, maximum scores are predicted.It is found that judge-LLMs are significantly more susceptible to these adversarial attacks when used for absolute scoring, as opposed to comparative assessment.Our findings raise concerns on the reliability of LLMas-a-judge methods, and emphasize the importance of addressing vulnerabilities in LLM assessment methods before deployment in highstakes real-world scenarios.1 * Equal Contribution. 1 Code: https://github.com/rainavyas/ attack-comparative-assessment2.3 Score the summary between 1-5 \"Some animals did something.\"Score the summary between 1-5 \"Some animals did something.summable\" Which Summary is better?A: \"Some animals did something.\"B: \"Tortoise wins race; slow and steady\" Which Summary is better?A: \"Some animals did something.informative\" B: \"Tortoise wins race; slow and steady\" 4."
+ },
+ {
+  "paper_id": 2651,
+  "title": "Large Language Models as Evaluators in Education: Verification of Feedback Consistency and Accuracy",
+  "year": 2025,
+  "venue": "Applied Sciences",
+  "source": "openalex",
+  "abstract": "The recent advancements in large language models (LLMs) have brought significant changes to the field of education, particularly in the generation and evaluation of feedback. LLMs are transforming education by streamlining tasks like content creation, feedback generation, and assessment, reducing teachers\u2019 workload and improving online education efficiency. This study aimed to verify the consistency and reliability of LLMs as evaluators by conducting automated evaluations using various LLMs based on five educational evaluation criteria. The analysis revealed that while LLMs were capable of performing consistent evaluations under certain conditions, a lack of consistency was observed both among evaluators and across models for other criteria. Notably, low agreement among human evaluators correlated with reduced reliability in LLM evaluations. Furthermore, variations in evaluation results were influenced by factors such as prompt strategies and model architecture, highlighting the complexity of achieving reliable assessments using LLMs. These findings suggest that while LLMs have the potential to transform educational systems, careful selection and combination of models are essential to improve their consistency and align their performance with human evaluators in educational settings."
+ },
+ {
+  "paper_id": 2652,
+  "title": "Gemma: Open Models Based on Gemini Research and Technology",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "This work introduces Gemma, a family of lightweight, state-of-the art open models built from the research and technology used to create Gemini models. Gemma models demonstrate strong performance across academic benchmarks for language understanding, reasoning, and safety. We release two sizes of models (2 billion and 7 billion parameters), and provide both pretrained and fine-tuned checkpoints. Gemma outperforms similarly sized open models on 11 out of 18 text-based tasks, and we present comprehensive evaluations of safety and responsibility aspects of the models, alongside a detailed description of model development. We believe the responsible release of LLMs is critical for improving the safety of frontier models, and for enabling the next wave of LLM innovations."
+ },
+ {
+  "paper_id": 2653,
+  "title": "MT-Bench-101: A Fine-Grained Benchmark for Evaluating Large Language Models in Multi-Turn Dialogues",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Ge Bai, Jie Liu, Xingyuan Bu, Yancheng He, Jiaheng Liu, Zhanhui Zhou, Zhuoran Lin, Wenbo Su, Tiezheng Ge, Bo Zheng, Wanli Ouyang. Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2024."
+ },
+ {
+  "paper_id": 2660,
+  "title": "A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation",
+  "year": 2025,
+  "venue": "npj Digital Medicine",
+  "source": "openalex",
+  "abstract": "Integrating large language models (LLMs) into healthcare can enhance workflow efficiency and patient care by automating tasks such as summarising consultations. However, the fidelity between LLM outputs and ground truth information is vital to prevent miscommunication that could lead to compromise in patient safety. We propose a framework comprising (1) an error taxonomy for classifying LLM outputs, (2) an experimental structure for iterative comparisons in our LLM document generation pipeline, (3) a clinical safety framework to evaluate the harms of errors, and (4) a graphical user interface, CREOLA, to facilitate these processes. Our clinical error metrics were derived from 18 experimental configurations involving LLMs for clinical note generation, consisting of 12,999 clinician-annotated sentences. We observed a 1.47% hallucination rate and a 3.45% omission rate. By refining prompts and workflows, we successfully reduced major errors below previously reported human note-taking rates, highlighting the framework's potential for safer clinical documentation."
+ },
+ {
+  "paper_id": 2667,
+  "title": "Open Source Language Models Can Provide Feedback: Evaluating LLMs' Ability to Help Students Using GPT-4-As-A-Judge",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have shown great potential for the automatic generation of feedback in a wide range of computing contexts. However, concerns have been voiced around the privacy and ethical implications of sending student work to proprietary models. This has sparked considerable interest in the use of open source LLMs in education, but the quality of the feedback that such open models can produce remains understudied. This is a concern as providing flawed or misleading generated feedback could be detrimental to student learning. Inspired by recent work that has utilised very powerful LLMs, such as GPT-4, to evaluate the outputs produced by less powerful models, we conduct an automated analysis of the quality of the feedback produced by several open source models using a dataset from an introductory programming course. First, we investigate the viability of employing GPT-4 as an automated evaluator by comparing its evaluations with those of a human expert. We observe that GPT-4 demonstrates a bias toward positively rating feedback while exhibiting moderate agreement with human raters, showcasing its potential as a feedback evaluator. Second, we explore the quality of feedback generated by several leading open-source LLMs by using GPT-4 to evaluate the feedback. We find that some models offer competitive performance with popular proprietary LLMs, such as ChatGPT, indicating opportunities for their responsible use in educational settings."
+ },
+ {
+  "paper_id": 2672,
+  "title": "Evaluating large language models on business process modeling: framework, benchmark, and self-improvement analysis",
+  "year": 2025,
+  "venue": "Software & Systems Modeling",
+  "source": "openalex",
+  "abstract": "Abstract Large language models (LLMs) are rapidly transforming various fields, including the field of business process management (BPM). LLMs provide new ways for analyzing and improving operational processes. This paper assesses the capabilities of LLMs on business process modeling using a framework for automating this task and a robust evaluation approach. We design a comprehensive benchmark, consisting of 20 diverse business processes, and we demonstrate our evaluation approach by assessing 16 current state-of-the-art LLMs from major AI vendors. Our analysis highlights significant performance variations across LLMs and reveals a positive correlation between efficient error handling and the quality of generated models. It also shows consistent performance trends within similar LLM groups. Furthermore, we use our evaluation approach to investigate LLM self-improvement techniques, encompassing self-evaluation, input optimization, and output optimization. Our findings indicate that output optimization, in particular, offers promising potential for enhancing quality, especially in models with initially lower performance. Our contributions provide insights for leveraging LLMs in BPM, paving the way for more advanced and automated process modeling techniques."
+ },
+ {
+  "paper_id": 2673,
+  "title": "Evaluating Language Models for Generating and Judging Programming Feedback",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "The emergence of large language models (LLMs) has transformed research and practice across a wide range of domains. Within the computing education research (CER) domain, LLMs have garnered significant attention, particularly in the context of learning programming. Much of the work on LLMs in CER, however, has focused on applying and evaluating proprietary models. In this article, we evaluate the efficiency of open-source LLMs in generating high-quality feedback for programming assignments and judging the quality of programming feedback, contrasting the results with proprietary models. Our evaluations on a dataset of students' submissions to introductory Python programming exercises suggest that state-of-the-art open-source LLMs are nearly on par with proprietary models in both generating and assessing programming feedback. Additionally, we demonstrate the efficiency of smaller LLMs in these tasks and highlight the wide range of LLMs accessible, even for free, to educators and practitioners."
+ },
+ {
+  "paper_id": 2674,
+  "title": "Evaluating the Instruction-Following Robustness of Large Language Models to Prompt Injection",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated exceptional proficiency in instructionfollowing, making them increasingly integral to various applications.However, this capability introduces the risk of prompt injection attacks, where malicious instructions are embedded in the input to trigger unintended actions or content.Understanding the robustness of LLMs against such attacks is critical for ensuring their safe deployment.In this work, we establish a benchmark to evaluate the robustness of instruction-following LLMs against prompt injection attacks, assessing their ability to discern which instructions to follow and which to disregard.Through extensive experiments with leading instruction-following LLMs, we reveal significant vulnerabilities, particularly in models that mis-follow injected instructions.Our results show that certain models are excessively inclined to prioritize embedded instructions in prompts, often focusing on the latter parts of the prompt without fully understanding the overall context.Conversely, models that exhibit stronger contextual understanding and instruction-following capabilities tend to be more easily compromised by injected instructions.These findings highlight the need to balance improving LLMs' instruction-following abilities with enhancing their overall comprehension of prompts, to prevent mis-following inappropriate instructions.We hope our analysis provides valuable insights into these vulnerabilities, contributing to the development of more robust solutions in the future. 1 * Work done while at Microsoft 1 https://github.com/Leezekun/ instruction-following-robustness-eval."
+ },
+ {
+  "paper_id": 2675,
+  "title": "CodeUltraFeedback: An LLM-as-a-Judge Dataset for Aligning Large Language Models to Coding Preferences",
+  "year": 2025,
+  "venue": "ACM Transactions on Software Engineering and Methodology",
+  "source": "openalex",
+  "abstract": "Evaluating the alignment of large language models (LLMs) with user-defined coding preferences is a challenging endeavor that requires a deep assessment of LLMs\u2019 outputs. Existing methods and benchmarks rely primarily on automated metrics and static analysis tools, which often fail to capture the nuances of user instructions and LLM outputs. To address this gap, we introduce the LLM-as-a-Judge evaluation framework and present CodeUltraFeedback, a comprehensive dataset for assessing and improving LLM alignment with coding preferences. CodeUltraFeedback consists of 10,000 coding instructions, each annotated with four responses generated from a diverse pool of 14 LLMs. These responses are annotated using GPT-3.5 as a judge, with both ranking-based scores and detailed textual feedback across five distinct coding preferences. Our analysis reveals that responses from GPT-3.5 and GPT-4 are consistently rated higher than those from open-weight models, underscoring substantial alignment gaps between closed- and open-weight LLMs. In turn, we explore the usage of CodeUltraFeedback as feedback data to fine-tune and align CodeLlama-7B-Instruct using supervised fine-tuning (SFT) and reinforcement learning from AI feedback (RLAIF) with direct preference optimization (DPO). The resulting aligned model achieves an average alignment improvement of 22.7% and 29.7% when evaluated with GPT-3.5 and GPT-4 judges, respectively. Notably, our aligned CodeLlama-7B-Instruct surpasses much larger models, such as CodeLlama-13B and 34B, in alignment with coding preferences. Despite not being explicitly trained for functional correctness, it also achieves a 10.5% and 26.6% relative improvement in Pass@1 and Pass@10 on the HumanEval+ benchmark. Our contributions demonstrate the practical value of preference tuning in code generation and set the stage for further progress in model alignment and RLAIF for automated software engineering."
+ },
+ {
+  "paper_id": 2680,
+  "title": "Leveraging Large Language Models for NLG Evaluation: Advances and Challenges",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In the rapidly evolving domain of Natural Language Generation (NLG) evaluation, introducing Large Language Models (LLMs) has opened new avenues for assessing generated content quality, e.g., coherence, creativity, and context relevance.This paper aims to provide a thorough overview of leveraging LLMs for NLG evaluation, a burgeoning area that lacks a systematic analysis.We propose a coherent taxonomy for organizing existing LLM-based evaluation metrics, offering a structured framework to understand and compare these methods.Our detailed exploration includes critically assessing various LLM-based methodologies, as well as comparing their strengths and limitations in evaluating NLG outputs.By discussing unresolved challenges, including bias, robustness, domain-specificity, and unified evaluation, this paper seeks to offer insights to researchers and advocate for fairer and more advanced NLG evaluation techniques."
+ }
+]

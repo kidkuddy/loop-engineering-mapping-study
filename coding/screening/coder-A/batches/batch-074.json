@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 10662,
+  "title": "Intrinsic Goals for Autonomous Agents: Model-Based Exploration in Virtual Zebrafish Predicts Ethological Behavior and Whole-Brain Dynamics.",
+  "year": 2025,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10668,
+  "title": "Autonomous Agents for Collaborative Task under Information Asymmetry.",
+  "year": 2024,
+  "venue": "NeurIPS",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10680,
+  "title": "Adaptive Self-improvement LLM Agentic System for ML Library Development.",
+  "year": 2025,
+  "venue": "ICML",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10694,
+  "title": "Re-Aligning Language to Visual Objects with an Agentic Workflow.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10696,
+  "title": "Flow: Modularized Agentic Workflow Automation.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10698,
+  "title": "Benchmarking Agentic Workflow Generation.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10699,
+  "title": "AFlow: Automating Agentic Workflow Generation.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10702,
+  "title": "SPaR: Self-Play with Tree-Search Refinement to Improve Instruction-Following in Large Language Models.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10705,
+  "title": "Instructive Decoding: Instruction-Tuned Large Language Models are Self-Refiner from Noisy Instructions.",
+  "year": 2024,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10707,
+  "title": "SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10712,
+  "title": "Scaling Autonomous Agents via Automatic Reward Modeling And Planning.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10713,
+  "title": "AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10714,
+  "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents.",
+  "year": 2024,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10716,
+  "title": "Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models.",
+  "year": 2025,
+  "venue": "ICLR",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10720,
+  "title": "AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi-Step Retrieval Reasoning in Agentic RAG.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10721,
+  "title": "Waking Up Blind: Cold-Start Optimization of Supervision-Free Agentic Trajectories for Grounded Visual Perception.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10726,
+  "title": "SCAIR: Schema-Conditioned Agentic Iterative Reasoning for Enterprise Knowledge Graphs.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10732,
+  "title": "ToolScope: An Agentic Framework for Vision-Guided and Long-Horizon Tool Use.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10735,
+  "title": "Empowering Multi-Turn Tool-Integrated Agentic Reasoning with Group Turn Policy Optimization.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10736,
+  "title": "OctoBench: Benchmarking Scaffold-Aware Instruction Following in Repository-Grounded Agentic Coding.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10738,
+  "title": "CBAL: Context-Based Agentic Learning for Speaker Diarization Segmentation Refinement.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10742,
+  "title": "LongCLI-Bench: A Preliminary Benchmark and Study for Long-horizon Agentic Programming in Command-Line Interfaces.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10746,
+  "title": "ProCeedRL: Process Critic with Explorative Demonstration Reinforcement Learning for LLM Agentic Reasoning.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10749,
+  "title": "MTSQL-R1: Towards Long-Horizon Multi-Turn Text-to-SQL via Agentic Training.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10761,
+  "title": "Learning to Refine: Self-Refinement of Parallel Reasoning in LLMs.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10764,
+  "title": "CodeRise: Bootstrapping LLMs for Ultra Low-Resource Programming Languages via Progressive Self-Refinement Curriculum.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10768,
+  "title": "MONTROSE: LLM-driven Monte Carlo Tree Search Self-Refinement for Cross-Domain Rumor Detection.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10769,
+  "title": "Entrospect: Information-Theoretic Self-Reflection Elicits Better Response Refinement of Small Language Models.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10770,
+  "title": "Divide-Verify-Refine: Can LLMs Self-align with Complex Instructions?",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10771,
+  "title": "REFINESUMM: Self-Refining MLLM for Generating a Multimodal Summarization Dataset.",
+  "year": 2024,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10772,
+  "title": "ULTRA: Unleash LLMs&apos; Potential for Event Argument Extraction through Hierarchical Modeling and Pair-wise Self-Refinement.",
+  "year": 2024,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10773,
+  "title": "LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10775,
+  "title": "Meeseeks: A Feedback-Driven, Iterative Self-Correction Benchmark evaluating LLMs&apos; Instruction Following Capability.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10777,
+  "title": "QueueEDIT: Structural Self-Correction for Sequential Model Editing in LLMs.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10779,
+  "title": "Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10781,
+  "title": "Understanding the Dark Side of LLMs&apos; Intrinsic Self-Correction.",
+  "year": 2025,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10782,
+  "title": "Two-Pronged Human Evaluation of ChatGPT Self-Correction in Radiology Report Simplification.",
+  "year": 2024,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10785,
+  "title": "PROTEA: Offline Evaluation and Iterative Refinement for Multi-Agent LLM Workflows.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10786,
+  "title": "Evolutionary Guided Decoding: Iterative Value Refinement for LLMs.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10795,
+  "title": "Temp-R1: A Unified Autonomous Agent for Complex Temporal KGQA via Reverse Curriculum Reinforcement Learning.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10798,
+  "title": "AgencyBench: Benchmarking the Frontiers of Autonomous Agents in 1M-Token Real-World Contexts.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10800,
+  "title": "Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10801,
+  "title": "SciExplore: Evaluating Autonomous Agents from Scientific Navigation to Information Integration.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10804,
+  "title": "InfiAgent: An Infinite-Horizon Framework for General-Purpose Autonomous Agents.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10805,
+  "title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks.",
+  "year": 2026,
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ }
+]

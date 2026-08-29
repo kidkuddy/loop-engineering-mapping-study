@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 8195,
+  "title": "Synergistic AI Agents",
+  "year": 2025,
+  "venue": "Open Conference Proceedings",
+  "source": "openalex",
+  "abstract": "Agentic AI is and emerging field of artificial intelligence and it has great impact on scholarly research. Agentic AI helps to handle large volume of information from vast corpora. Currently the Agentic AI systems depends on Large Language Models (LLM) for the tasks of information retrieval and reasoning. LLMs are very effective at Natural Language Understanding and the iterative reasoning. However, there exist some inherent limitations for LLMs, which pose challenges for Agentic AI. Provenance tracking, reasoning challenges, temporal staleness and context dilution are some examples. Incorporating Knowledge Graphs (KG) along with LLMs can mitigate these challenges, and can support deeps search in Agentic AI. In this work, we are exploring the aspects of how KG is well suited for addressing these challenges, and how KG can complement LLMs in Agentic AI for scholarly research. Furthermore, we investigate the problem of frequency bias inherent in LLMs. Frequency bias distorts the outputs in LLMs by biasing towards the most frequent inputs. We examine how a KG integration can counteract this problem. Overall, through this work we aim to highlight the potential of Knowledge Graphs for Agentic AI in scholarly communication."
+ },
+ {
+  "paper_id": 8196,
+  "title": "Responsible Agentic Reasoning and AI Agents: A Critical Survey",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Information fusion for trustworthy AI is entering a pivotal stage, where Large Language Model (LLM)-based agents excel at integrating multi-source knowledge into coherent reasoning chains. However, these agents remain opaque and difficult to audit in the absence of embedded, in-loop safety mechanisms. Existing surveys treat reasoning, agentic behavior, and safety in isolation, leaving a gap in how to integrate them into practical, trustworthy agents. To address this, we present a survey at the intersection of these domains and introduce Responsible Reasoning AI Agents (R 2 A 2 ), a class of agentic LLM systems that generate explicit reasoning traces while enforcing fairness, privacy, transparency, accountability, and auditability throughout the decision loop. We synthesize recent advances in chain-of-thought prompting, ReAct, tree/graph-of-thought structures, tool use, memory, retrieval, and agentic browsing, and integrate these with responsible AI principles into a unified evaluation framework. Furthermore, we propose an evaluation methodology for agentic reasoning with embedded safety mechanisms and outline a five-stage reproducible protocol: Curate, Unify, Probe, Benchmark, Analyze, to operationalize responsibility metrics. Overall, this taxonomy, metric suite, and framework advance the development of safe, transparent, and governable LLM-based agents. The project repository is available on GitHub https://github.com/shainarazavi/Responsible-reasoning-agents ."
+ },
+ {
+  "paper_id": 8197,
+  "title": "Autonomous agents modelling other agents: A comprehensive survey and open problems",
+  "year": 2018,
+  "venue": "Artificial Intelligence",
+  "source": "openalex",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8199,
+  "title": "A Survey of Process Reward Models: From Outcome Signals to Process Supervisions for Large Language Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Although Large Language Models (LLMs) exhibit advanced reasoning ability, conventional alignment remains largely dominated by outcome reward models (ORMs) that judge only final answers. Process Reward Models(PRMs) address this gap by evaluating and guiding reasoning at the step or trajectory level. This survey provides a systematic overview of PRMs through the full loop: how to generate process data, build PRMs, and use PRMs for test-time scaling and reinforcement learning. We summarize applications across math, code, text, multimodal reasoning, robotics, and agents, and review emerging benchmarks. Our goal is to clarify design spaces, reveal open challenges, and guide future research toward fine-grained, robust reasoning alignment."
+ },
+ {
+  "paper_id": 8200,
+  "title": "Empirical Research on Utilizing LLM-based Agents for Automated Bug Fixing via LangGraph",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "This paper presents a novel framework for automated code generation and debugging, designed to improve accuracy, efficiency, and scalability in software development. The proposed system integrates three core components\u2014LangGraph, GLM-4-Flash, and ChromaDB\u2014within a four-step iterative workflow to deliver robust performance and seamless functionality. LangGraph serves as a graph-based library for orchestrating tasks, providing precise control and execution while maintaining a unified state object for dynamic updates and consistency. It supports multi-agent, hierarchical, and sequential processes, making it highly adaptable to complex software engineering workflows. GLM-4-Flash, a large language model, leverages its advanced capabilities in natural language understanding, contextual reasoning, and multilingual support to generate accurate code snippets based on user prompts. ChromaDB acts as a vector database for semantic search and contextual memory storage, enabling the identification of patterns and the generation of context-aware bug fixes based on historical data. The system operates through a structured four-step process: (1) Code Generation, which translates natural language descriptions into executable code; (2) Code Execution, which validates the code by identifying runtime errors and inconsistencies; (3) Code Repair, which iteratively refines buggy code using ChromaDB\u2019s memory capabilities and LangGraph\u2019s state tracking; and (4) Code Update, which ensures the code meets functional and performance requirements through iterative modifications. By combining advanced task orchestration, semantic reasoning, and memory-driven insights, the system achieves precise and iterative debugging, significantly enhancing software development workflows. This work represents a substantial advancement in automated software engineering, addressing critical challenges in code reliability and runtime error resolution."
+ },
+ {
+  "paper_id": 8201,
+  "title": "The need for verification in artificial intelligence-driven scientific discovery",
+  "year": 2026,
+  "venue": "Philosophical Transactions of the Royal Society A Mathematical Physical and Engineering Sciences",
+  "source": "openalex",
+  "abstract": "Artificial intelligence (AI) is transforming the practice of science. Machine learning (ML) and large language models (LLMs) can generate hypotheses at a scale and speed far exceeding traditional methods, offering the potential to accelerate discovery across diverse fields. However, the abundance of hypotheses introduces a critical challenge; without scalable and reliable mechanisms for verification, scientific progress risks being hindered rather than advanced. In this article, we trace the historical development of scientific discovery, examine how AI is reshaping established practices for discovery and review the principal approaches, ranging from data-driven methods and knowledge-aware neural architectures to symbolic reasoning frameworks and LLM agents. While these systems can uncover patterns and propose candidate laws, their scientific value ultimately depends on rigorous and transparent verification, which we argue must be the cornerstone of AI-assisted discovery. This article is part of the discussion meeting issue 'Symbolic regression in the physical sciences'."
+ },
+ {
+  "paper_id": 8203,
+  "title": "A Study on Training and Developing Large Language Models for Behavior Tree Generation",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "This paper presents an innovative exploration of the application potential of large language models (LLM) in addressing the challenging task of automatically generating behavior trees (BTs) for complex tasks. The conventional manual BT generation method is inefficient and heavily reliant on domain expertise. On the other hand, existing automatic BT generation technologies encounter bottlenecks related to task complexity, model adaptability, and reliability. In order to overcome these challenges, we propose a novel methodology that leverages the robust representation and reasoning abilities of LLMs. The core contribution of this paper lies in the design of a BT generation framework based on LLM, which encompasses the entire process, from data synthesis and model training to application developing and data verification. Synthetic data is introduced to train the BT generation model (BTGen model), enhancing its understanding and adaptability to various complex tasks, thereby significantly improving its overall performance. In order to ensure the effectiveness and executability of the generated BTs, we emphasize the importance of data verification and introduce a multilevel verification strategy. Additionally, we explore a range of agent design and development schemes with LLM as the central element. We hope that the work in this paper may provide a reference for the researchers who are interested in BT generation based on LLMs."
+ },
+ {
+  "paper_id": 8204,
+  "title": "Mulberry: Empowering MLLM with o1-like Reasoning and Reflection via Collective Monte Carlo Tree Search",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In this work, we aim to develop an MLLM that understands and solves questions by learning to create each intermediate step of the reasoning involved till the final answer. To this end, we propose Collective Monte Carlo Tree Search (CoMCTS), a new learning-to-reason method for MLLMs, which introduces the concept of collective learning into ``tree search'' for effective and efficient reasoning-path searching and learning. The core idea of CoMCTS is to leverage collective knowledge from multiple models to collaboratively conjecture, search and identify effective reasoning paths toward correct answers via four iterative operations including Expansion, Simulation and Error Positioning, Backpropagation, and Selection. Using CoMCTS, we construct Mulberry-260k, a multimodal dataset with a tree of rich, explicit and well-defined reasoning nodes for each question. With Mulberry-260k, we perform collective SFT to train our model, Mulberry, a series of MLLMs with o1-like step-by-step Reasoning and Reflection capabilities. Extensive experiments demonstrate the superiority of our proposed methods on various benchmarks. Code will be available at https://github.com/HJYao00/Mulberry"
+ },
+ {
+  "paper_id": 8205,
+  "title": "Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "This paper introduce a novel thought prompting approach called \"Everything of Thoughts\" (XOT) for Large Language Models (LLMs) to defy the law of \"Penrose triangle \" of existing thought paradigms, to achieve three key perspectives in thought generation simultaneously: performance, efficiency, and flexibility.XOT leverages pretrained reinforcement learning and Monte Carlo Tree Search (MCTS) to incorporate external domain knowledge and planning capability into thoughts, thereby enhancing LLMs' decision-making capabilities.Through the MCTS-LLM collaborative thought revision framework, XOT autonomously produces high-quality comprehensive cognitive mappings with minimal LLM interactions.Additionally, XOT empowers LLMs to utilize flexible cognitive mappings for solving problems with multiple solutions.We evaluate XOT on several challenging problem-solving tasks, including Game of 24, 8-Puzzle, and Pocket Cube.Our results demonstrate that XOT significantly outperforms existing approaches in various dimensions, showcasing its remarkable proficiency in addressing complex problems across diverse domains."
+ },
+ {
+  "paper_id": 8208,
+  "title": "ATLAS: Agent Tuning via Learning Critical Steps",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Model (LLM) agents have demonstrated remarkable generalization capabilities across multi-domain tasks.Existing agent tuning approaches typically employ supervised finetuning on entire expert trajectories.However, behavior-cloning of full trajectories can introduce expert bias and weaken generalization to states not covered by the expert data.Additionally, critical steps-such as planning, complex reasoning for intermediate subtasks, and strategic decision-making-are essential to success in agent tasks, so learning these steps is the key to improving LLM agents.For more effective and efficient agent tuning, we propose ATLAS that identifies the critical steps in expert trajectories and finetunes LLMs solely on these steps with reduced costs.By steering the training's focus to a few critical steps, our method mitigates the risk of overfitting entire trajectories and promotes generalization across different environments and tasks.In extensive experiments, an LLM finetuned on only \u223c30% critical steps selected by ATLAS outperforms the LLM finetuned on all steps and recent open-source LLM agents.ATLAS maintains and improves base LLM skills as generalist agents interacting with diverse environments."
+ },
+ {
+  "paper_id": 8210,
+  "title": "MT-Mol:Multi Agent System with Tool-based Reasoning for Molecular Optimization",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have large potential for molecular optimization, as they can gather external chemistry tools and enable collaborative interactions to iteratively refine molecular candidates. However, this potential remains underexplored, particularly in the context of structured reasoning, interpretability, and comprehensive tool-grounded molecular optimization. To address this gap, we introduce MT-Mol, a multi-agent framework for molecular optimization that leverages tool-guided reasoning and role-specialized LLM agents. Our system incorporates comprehensive RDKit tools, categorized into five distinct domains: structural descriptors, electronic and topological features, fragment-based functional groups, molecular representations, and miscellaneous chemical properties. Each category is managed by an expert analyst agent, responsible for extracting task-relevant tools and enabling interpretable, chemically grounded feedback. MT-Mol produces molecules with tool-aligned and stepwise reasoning through the interaction between the analyst agents, a molecule-generating scientist, a reasoning-output verifier, and a reviewer agent. As a result, we show that our framework shows the state-of-the-art performance of the PMO-1K benchmark on 17 out of 23 tasks."
+ },
+ {
+  "paper_id": 8211,
+  "title": "Economics Arena for Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have been extensively used as the backbones for general-purpose agents, and some economics literature suggest that LLMs are capable of playing various types of economics games. Following these works, to overcome the limitation of evaluating LLMs using static benchmarks, we propose to explore competitive games as an evaluation for LLMs to incorporate multi-players and dynamicise the environment. By varying the game history revealed to LLMs-based players, we find that most of LLMs are rational in that they play strategies that can increase their payoffs, but not as rational as indicated by Nash Equilibria (NEs). Moreover, when game history are available, certain types of LLMs, such as GPT-4, can converge faster to the NE strategies, which suggests higher rationality level in comparison to other models. In the meantime, certain types of LLMs can win more often when game history are available, and we argue that the winning rate reflects the reasoning ability with respect to the strategies of other players. Throughout all our experiments, we observe that the ability to strictly follow the game rules described by natural languages also vary among the LLMs we tested. In this work, we provide an economics arena for the LLMs research community as a dynamic simulation to test the above-mentioned abilities of LLMs, i.e. rationality, strategic reasoning ability, and instruction-following capability."
+ },
+ {
+  "paper_id": 8212,
+  "title": "General Agentic Planning Through Simulative Reasoning with World Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "What does it mean to plan? Current agentic systems, whether scaffolded workflows or end-to-end policies, rely on reactive decision-making: selecting the next action via a fixed procedure with at most undifferentiated adaptive computation (e.g., chain-of-thought) lacking explicit modeling of future outcomes. This limits generalizability, as each new task demands re-engineering rather than transfer of shared reasoning capacity. Humans, by contrast, plan by mentally simulating consequences of candidate actions within an internal world model, a capacity known as simulative reasoning (System II) that supports flexible, goal-directed behavior across diverse contexts. We argue that simulative reasoning through a world model provides a general-purpose planning mechanism for agentic systems, improving upon reactive policies (System I) by grounding decisions in predicted future states rather than pattern-matched responses. To verify this, we introduce SiRA (Simulative Reasoning Architecture), a goal-oriented architecture instantiating simulative reasoning using an LLM-based world model with natural-language belief states, while remaining model-agnostic. We evaluate across three qualitatively distinct task categories: constrained navigation, multi-hop information aggregation, and general instruction following, in a web-browser environment. Across all categories, simulative reasoning achieves up to 124% higher task completion rates than a matched reactive baseline, and increases constrained navigation success from 0% to 32.2% compared to a representative open-web agent. The persistent advantage across distinct task types suggests the benefit stems from generalizable counterfactual evaluation rather than task-specific tuning."
+ },
+ {
+  "paper_id": 8217,
+  "title": "Probing the Multi-turn Planning Capabilities of LLMs via 20 Question Games",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are effective at answering questions that are clearly asked. However, when faced with ambiguous queries they can act unpredictably and produce incorrect outputs. This underscores the need for the development of intelligent agents capable of asking clarification questions to resolve ambiguities effectively. This capability requires complex understanding, state tracking, reasoning and planning over multiple conversational turns. However, directly measuring this can be challenging. In this paper, we offer a surrogate problem which assesses an LLMs's capability to deduce an entity unknown to itself, but revealed to a judge, by asking the judge a series of queries. This \\textit{entity-deducing game} can serve as an evaluation framework to probe the conversational reasoning and planning capabilities of language models. We systematically evaluate various LLMs and discover significant differences in their performance on this task. We find that strong LLMs like GPT-4 outperform human players by a large margin. We further employ Behavior Cloning (BC) to examine whether a weaker model is capable of imitating a stronger model and generalizing to data or domains, using only the demonstrations from a stronger model. We finally propose to use Reinforcement Learning to enhance reasoning and planning capacity of Vicuna models through episodes of game playing, which lead to significant performance improvement. We hope that this problem offers insights into how autonomous agents could be trained to behave more intelligently in ambiguous circumstances."
+ },
+ {
+  "paper_id": 8220,
+  "title": "LLM-Powered Multi-Agent Collaboration for Intelligent Industrial On-Call Automation",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In large-scale enterprises, on-call engineers (OCEs) are critical for ensuring service availability and reliability. However, as incidents grow in volume and complexity, traditional manual on-call processes are becoming increasingly inadequate. Recent advances in large language models (LLMs) have demonstrated remarkable capabilities in reasoning and multi-agent collaboration, presenting new opportunities for automation. We propose OncallX, an end-to-end automated on-call system designed for real-world industrial scenarios that integrates LLMs with multi-agent cooperation to enable intelligent and efficient incident management. OncallX first enhances user queries by leveraging external knowledge bases and multi-turn dialogue interactions. Subsequently, multiple expert agents collaborate through tree-search-based mechanisms to generate effective responses and solutions. When incidents cannot be resolved automatically, OncallX accurately assigns them to the most appropriate teams. Comprehensive experiments conducted in the real-world production environment of a top-tier global online video service provider demonstrate that OncallX efficiently responds to incidents and accurately triages tickets, significantly outperforming existing methods in both automated metrics and human evaluations. Furthermore, OncallX has been successfully deployed in production for two months, during which it has substantially enhanced on-call efficiency, reducing average incident response time to just 21 seconds and average triage time to 4 seconds\u2014representing a transformative improvement in operational excellence."
+ },
+ {
+  "paper_id": 8221,
+  "title": "CoPS: Empowering LLM Agents with Provable Cross-Task Experience Sharing",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Sequential reasoning in agent systems has been significantly advanced by large language models (LLMs), yet existing approaches face limitations. Reflection-driven reasoning relies solely on knowledge in pretrained models, limiting performance in novel scenarios, while experience-assisted reasoning often depends on external experiences and lacks clear principles for selecting representative experiences. We address these limitations by proposing CoPS (Cross-Task Experience Sharing), a generalizable algorithm that enhances sequential reasoning by cross-task experience sharing and selection. In detail, CoPS leverages agents' experiences on previous tasks, selecting distribution-matched experiences via a provable pessimism-based strategy to maximize utility while minimizing risks from distribution shifts. Extensive experimental results on benchmarks like Alfworld, Webshop, and HotPotQA demonstrate that CoPS consistently outperforms state-of-the-art baselines, with superior sample efficiency suitable for resource-constrained scenarios. Theoretically, we show that the performance of our algorithm depends on both the quality of the pretrained LLM and the matching between the agent's task-dependent trial distribution and that generated by the LLM. Our work bridges the gap between existing sequential reasoning paradigms and validates the effectiveness of leveraging cross-task experiences, shedding light on the potential to improve agents' generalization and adaptability across diverse tasks. Our codes are available at $\\href{https://github.com/uclaml/COPS}{\\text{https://github.com/uclaml/COPS}}$."
+ },
+ {
+  "paper_id": 8222,
+  "title": "MCTS-SQL: Light-Weight LLMs can Master the Text-to-SQL through Monte Carlo Tree Search",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Text-to-SQL is a fundamental yet challenging task in the NLP area, aiming at translating natural language questions into SQL queries. While recent advances in large language models have greatly improved performance, most existing approaches depend on models with tens of billions of parameters or costly APIs, limiting their applicability in resource-constrained environments. For real world, especially on edge devices, it is crucial for Text-to-SQL to ensure cost-effectiveness. Therefore, enabling the light-weight models for Text-to-SQL is of great practical significance. However, smaller LLMs often struggle with complicated user instruction, redundant schema linking or syntax correctness. To address these challenges, we propose MCTS-SQL, a novel framework that uses Monte Carlo Tree Search to guide SQL generation through multi-step refinement. Since the light-weight models' weak performance of single-shot prediction, we generate better results through several trials with feedback. However, directly applying MCTS-based methods inevitably leads to significant time and computational overhead. Driven by this issue, we propose a token-level prefix-cache mechanism that stores prior information during iterations, effectively improved the execution speed. Experiments results on the SPIDER and BIRD benchmarks demonstrate the effectiveness of our approach. Using a small open-source Qwen2.5-Coder-1.5B, our method outperforms ChatGPT-3.5. When leveraging a more powerful model Gemini 2.5 to explore the performance upper bound, we achieved results competitive with the SOTA. Our findings demonstrate that even small models can be effectively deployed in practical Text-to-SQL systems with the right strategy."
+ },
+ {
+  "paper_id": 8223,
+  "title": "MCTS-SQL: Light-Weight LLMs Can Master the Text-to-SQL Through Monte Carlo Tree Search",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Text-to-SQL is a fundamental yet challenging task in the NLP area, aiming at translating natural language questions into SQL queries. While recent advances in large language models have greatly improved performance, most existing approaches depend on models with tens of billions of parameters or costly APIs, limiting their applicability in resource-constrained environments. For real world, especially on edge devices, it is crucial for Text-to-SQL to ensure cost-effectiveness. Therefore, enabling the light-weight models for Text-to-SQL is of great practical significance. However, smaller LLMs often struggle with complicated user instruction, redundant schema linking or syntax correctness. To address these challenges, we propose MCTS-SQL, a novel framework that uses Monte Carlo Tree Search to guide SQL generation through multi-step refinement. Since the light-weight models' weak performance of single-shot prediction, we generate better results through several trials with feedback. However, directly applying MCTS-based methods inevitably leads to significant time and computational overhead. Driven by this issue, we propose a token-level prefix-cache mechanism that stores prior information during iterations, effectively improved the execution speed. Experiments results on the SPIDER and BIRD benchmarks demonstrate the effectiveness of our approach. Using a small open-source Qwen2.5-Coder-1.5B, our method outperforms ChatGPT-3.5. When leveraging a more powerful model Gemini 2.5 to explore the performance upper bound, we achieved results competitive with the SOTA. Our findings demonstrate that even small models can be effectively deployed in practical Text-to-SQL systems with the right strategy."
+ },
+ {
+  "paper_id": 8227,
+  "title": "Automated Red Teaming with GOAT: the Generative Offensive Agent Tester",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Red teaming assesses how large language models (LLMs) can produce content that violates norms, policies, and rules set during their safety training. However, most existing automated methods in the literature are not representative of the way humans tend to interact with AI models. Common users of AI models may not have advanced knowledge of adversarial machine learning methods or access to model internals, and they do not spend a lot of time crafting a single highly effective adversarial prompt. Instead, they are likely to make use of techniques commonly shared online and exploit the multiturn conversational nature of LLMs. While manual testing addresses this gap, it is an inefficient and often expensive process. To address these limitations, we introduce the Generative Offensive Agent Tester (GOAT), an automated agentic red teaming system that simulates plain language adversarial conversations while leveraging multiple adversarial prompting techniques to identify vulnerabilities in LLMs. We instantiate GOAT with 7 red teaming attacks by prompting a general-purpose model in a way that encourages reasoning through the choices of methods available, the current target model's response, and the next steps. Our approach is designed to be extensible and efficient, allowing human testers to focus on exploring new areas of risk while automation covers the scaled adversarial stress-testing of known risk territory. We present the design and evaluation of GOAT, demonstrating its effectiveness in identifying vulnerabilities in state-of-the-art LLMs, with an ASR@10 of 97% against Llama 3.1 and 88% against GPT-4 on the JailbreakBench dataset."
+ },
+ {
+  "paper_id": 8229,
+  "title": "Emotion-Aware and Human-Like Autonomous Agents",
+  "year": 2019,
+  "venue": "UWSpace (University of Waterloo)",
+  "source": "openalex",
+  "abstract": "In human-computer interaction (HCI), one of the technological goals is to build human-like artificial agents that can think, decide and behave like humans during the interaction. A prime example is a dialogue system, where the agent should converse fluently and coherently with a user and connect with them emotionally. Humanness and emotion-awareness of interactive artificial agents have been shown to improve user experience and help attain application-specific goals more quickly. However, achieving human-likeness in HCI systems is contingent on addressing several philosophical and scientific challenges. In this thesis, I address two such challenges: replicating the human ability to 1) correctly perceive and adopt emotions, and 2) communicate effectively through language. \\nSeveral research studies in neuroscience, economics, psychology and sociology show that both language and emotional reasoning are essential to the human cognitive deliberation process. These studies establish that any human-like AI should necessarily be equipped with adequate emotional and linguistic cognizance. To this end, I explore the following research directions. \\n- I study how agents can reason emotionally in various human-interactive settings for decision-making. I use Bayesian Affect Control Theory, a probabilistic model of human-human affective interactions, to build a decision-theoretic reasoning algorithm about affect. This approach is validated on several applications: two-person social dilemma games, an assistive healthcare device, and robot navigation. \\n- I develop several techniques to understand and generate emotions/affect in language. The proposed methods include affect-based feature augmentation of neural conversational models, training regularization using affective objectives, and affectively diverse sequential inference. \\n- I devise an active learning technique that elicits user feedback during a conversation. This enables the agent to learn in real time, and to produce natural and coherent language during the interaction. \\n- I explore incremental domain adaptation in language classification and generation models. The proposed method seeks to replicate the human abil"
+ },
+ {
+  "paper_id": 8230,
+  "title": "PreAct: Prediction Enhances Agent's Planning Ability",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Addressing the disparity between forecasts and actual results can enable individuals to expand their thought processes and stimulate self-reflection, thus promoting accurate planning. In this research, we present **PreAct**, an agent framework that integrates **pre**diction, **rea**soning, and **act**ion. By utilizing the information derived from predictions, the large language model (LLM) agent can provide a wider range and more strategically focused reasoning. This leads to more efficient actions that aid the agent in accomplishing intricate tasks. Our experimental results show that PreAct surpasses the ReAct method in completing complex tasks and that PreAct's performance can be further improved when paired with other memory or selection strategy techniques. We presented the model with varying quantities of historical predictions and discovered that these predictions consistently enhance LLM planning.The variances in single-step reasoning between PreAct and ReAct indicate that PreAct indeed has benefits in terms of diversity and strategic orientation over ReAct."
+ },
+ {
+  "paper_id": 8233,
+  "title": "A Decoupled Human-in-the-Loop System for Controlled Autonomy in Agentic Workflows",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "AI agents are increasingly deployed to execute tasks and make decisions within agentic workflows, introducing new requirements for safe and controlled autonomy. Prior work has established the importance of human oversight for ensuring transparency, accountability, and trustworthiness in such systems. However, existing implementations of Human-in-the-Loop (HITL) mechanisms are typically embedded within application logic, limiting reuse, consistency, and scalability across multi-agent environments.   This paper presents a decoupled HITL system architecture that treats human oversight as an independent system component within the agent operating environment. The proposed design separates human interaction management from application workflows through explicit interfaces and a structured execution model. In addition, a design framework is introduced to formalize HITL integration along four dimensions: intervention conditions, role resolution, interaction semantics, and communication channel. This framework enables selective and context-aware human involvement while maintaining system-level consistency.   The approach supports alignment with emerging agent communication protocols, allowing HITL to be implemented as a protocol-level concern. By externalizing HITL and structuring its integration, the system provides a foundation for scalable governance and progressive autonomy in agentic workflows."
+ },
+ {
+  "paper_id": 8239,
+  "title": "Oversight Structures for Agentic AI in Public-Sector Organizations",
+  "year": 2025,
+  "venue": "arXiv:cs.CY",
+  "source": "arxiv",
+  "abstract": "This paper finds that the introduction of agentic AI systems intensifies existing challenges to traditional public sector oversight mechanisms -- which rely on siloed compliance units and episodic approvals rather than continuous, integrated supervision. We identify five governance dimensions essential for responsible agent deployment: cross-departmental implementation, comprehensive evaluation, enhanced security protocols, operational visibility, and systematic auditing. We evaluate the capacity of existing oversight structures to meet these challenges, via a mixed-methods approach consisting of a literature review and interviews with civil servants in AI-related roles. We find that agent oversight poses intensified versions of three existing governance challenges: continuous oversight, deeper integration of governance and operational capabilities, and interdepartmental coordination. We propose approaches that both adapt institutional structures and design agent oversight compatible with public sector constraints."
+ },
+ {
+  "paper_id": 8243,
+  "title": "Vital Insight: Assisting Experts' Context-Driven Sensemaking of Multi-modal Personal Tracking Data Using Visualization and Human-In-The-Loop LLM",
+  "year": 2024,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Passive tracking methods, such as phone and wearable sensing, have become dominant in monitoring human behaviors in modern ubiquitous computing studies. While there have been significant advances in machine-learning approaches to translate periods of raw sensor data to model momentary behaviors, (e.g., physical activity recognition), there still remains a significant gap in the translation of these sensing streams into meaningful, high-level, context-aware insights that are required for various applications (e.g., summarizing an individual's daily routine). To bridge this gap, experts often need to employ a context-driven sensemaking process in real-world studies to derive insights. This process often requires manual effort and can be challenging even for experienced researchers due to the complexity of human behaviors.   We conducted three rounds of user studies with 21 experts to explore solutions to address challenges with sensemaking. We follow a human-centered design process to identify needs and design, iterate, build, and evaluate Vital Insight (VI), a novel, LLM-assisted, prototype system to enable human-in-the-loop inference (sensemaking) and visualizations of multi-modal passive sensing data from smartphones and wearables. Using the prototype as a technology probe, we observe experts' interactions with it and develop an expert sensemaking model that explains how experts move between direct data representations and AI-supported inferences to explore, question, and validate insights. Through this iterative process, we also synthesize and discuss a list of design implications for the design of future AI-augmented visualization systems to better assist experts' sensemaking processes in multi-modal health sensing data."
+ },
+ {
+  "paper_id": 8246,
+  "title": "Adobe Summit Concierge Evaluation with Human in the Loop",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Generative AI assistants offer significant potential to enhance productivity, streamline information access, and improve user experience in enterprise contexts. In this work, we present Summit Concierge, a domain-specific AI assistant developed for Adobe Summit. The assistant handles a wide range of event-related queries and operates under real-world constraints such as data sparsity, quality assurance, and rapid deployment. To address these challenges, we adopt a human-in-the-loop development workflow that combines prompt engineering, retrieval grounding, and lightweight human validation. We describe the system architecture, development process, and real-world deployment outcomes. Our experience shows that agile, feedback-driven development enables scalable and reliable AI assistants, even in cold-start scenarios."
+ },
+ {
+  "paper_id": 8249,
+  "title": "Grading the Graders: Verification Autonomy Levels (L0-L5) for LLM Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) are increasingly paired with verifiers (step checkers, self-consistency filters, tool-based fact checkers, formal proof assistants) that claim to detect the model's errors. Yet the verification literature uses the word \"level\" to mean at least five different things: verification granularity, concept abstraction, risk tier, system-stack layer, and the epistemic source of the ground truth. We propose Verification Autonomy Levels (VAL), a meta-standard that classifies any verification scheme along a single axis: where does the verification spec come from, and what does the verdict guarantee? VAL ranges from L0 (LLM self-declaration; no deterministic anchor) through L2 (objective ground truth; correctness only) to L3/L4 (decidable systems with single-property or domain-level completeness), with L5 impossible in the unrestricted case. Central to VAL is the completeness blind spot: substitution- and sampling-based verifiers can confirm that proposed candidates hold, but cannot prove that no candidate was missed. We further identify a dichotomy the literature has not stated: completeness is reachable only for formally specifiable properties, whereas empirical open-world verification (fact-checking, diagnosis) caps at anchored correctness (L2). We document this gap empirically across four domains (symbolic mathematics, behavior monitoring, medical diagnosis, and code generation, the last a reverse validation with predictions stated before evidence) and in the strongest formal-verification baseline in our survey, whose authors note the verifier focuses on the correctness of each step. We show the levels of granularity, concept hierarchy, risk, and system stack are orthogonal to VAL, resolving a systematic conflation across 17 surveyed papers. Code and full assessment are released as supplementary material."
+ },
+ {
+  "paper_id": 8250,
+  "title": "HiLSVA: Design and Evaluation of a Human-in-the-Loop Agentic System for Scientific Visualization",
+  "year": 2026,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Large language model (LLM) agents enable natural language interaction for scientific visualization (SciVis). Still, prior systems have essentially prioritized autonomy over human analytical control, thereby limiting transparency and human oversight. We present HiLSVA, a human-in-the-loop agentic system that supports mixed-initiative SciVis workflows. HiLSVA integrates a plan-first multi-agent architecture with explicit human oversight, stepwise provenance tracking, and learn-at-test-time adaptation from user feedback. The system supports fluid handoff between humans and agents through both natural language and direct manipulation of visualizations, while sandboxed execution ensures safe, reproducible workflows. In doing so, HiLSVA reframes agentic SciVis as a collaborative process that augments, rather than replaces, human analytical reasoning. We evaluate HiLSVA through representative case studies and a controlled user study with twelve participants of varying expertise across multiple autonomy settings. Results show that mixed-initiative interaction improves task completion, user control, and workflow transparency across different levels of user expertise, while revealing a tradeoff between execution efficiency and human oversight. These findings highlight the importance of human-centered design in agentic SciVis and guide the development of future collaborative visualization systems. We encourage readers to explore our demo video, case studies, and source code at https://hilsva.github.io/."
+ },
+ {
+  "paper_id": 8255,
+  "title": "Optimizing Agent Planning for Security and Autonomy",
+  "year": 2026,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Indirect prompt injection attacks threaten AI agents that execute consequential actions, motivating deterministic system-level defenses. Such defenses can provably block unsafe actions by enforcing confidentiality and integrity policies, but currently appear costly: they reduce task completion rates and increase token usage compared to probabilistic defenses. We argue that existing evaluations miss a key benefit of system-level defenses: reduced reliance on human oversight. We introduce autonomy metrics to quantify this benefit: the fraction of consequential actions an agent can execute without human-in-the-loop (HITL) approval while preserving security. To increase autonomy, we design a security-aware agent that (i) introduces richer HITL interactions, and (ii) explicitly plans for both task progress and policy compliance. We implement this agent design atop an existing information-flow control defense against prompt injection and evaluate it on the AgentDojo and WASP benchmarks. Experiments show that this approach yields higher autonomy without sacrificing utility."
+ },
+ {
+  "paper_id": 8257,
+  "title": "Molecular LLM Agents: From Architectural Design to Scientific Autonomy",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Molecular science represents an important frontier for LLM-based agents. Unlike general agents that mainly operate over natural language, code, or web environments, molecular LLM agents must perceive, reason about, and act upon chemical objects across symbolic strings, molecular graphs, 3D conformations, spectra, simulations, and wet-lab measurements. Their capabilities depend on chemically faithful molecular perception, an LLM-centered agent framework, domain-specific tool grounding, and computational or experimental feedback, in addition to planning and tool use. This work develops a conceptual framework for molecular LLM agents from two complementary perspectives. First, we introduce an architectural view of molecular-agent design, covering molecular representation and perception, the agent framework, domain-specific toolboxes, and learning and optimization. Second, we propose a scientific autonomy ladder inspired by staged autonomy in engineering systems, categorizing agents into four levels: L1 assistive or fixed workflows, L2 adaptive computational agents, L3 feedback-aware physical experiment agents, and L4 scientific-agenda agents. Together, these two perspectives establish a comprehensive framework for comparing existing molecular LLM agents, identifying missing capabilities and deployment risks, and guiding the design, evaluation, and deployment of future agents in molecular discovery workflows."
+ },
+ {
+  "paper_id": 8260,
+  "title": "A Mini-Review on Mobile Manipulators with Variable Autonomy",
+  "year": 2024,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "This paper presents a mini-review of the current state of research in mobile manipulators with variable levels of autonomy, emphasizing their associated challenges and application environments. The need for mobile manipulators in different environments is evident due to the unique challenges and risks each presents. Many systems deployed in these environments are not fully autonomous, requiring human-robot teaming to ensure safe and reliable operations under uncertainties. Through this analysis, we identify gaps and challenges in the literature on Variable Autonomy, including cognitive workload and communication delays, and propose future directions, including whole-body Variable Autonomy for mobile manipulators, virtual reality frameworks, and large language models to reduce operators' complexity and cognitive load in some challenging and uncertain scenarios."
+ },
+ {
+  "paper_id": 8262,
+  "title": "Calibration Is Not Control: Why LLM-Agent Oversight Needs Intervention",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Runtime oversight for LLM agents is commonly framed as scalar risk prediction: estimate failure likelihood, confidence, or uncertainty, then intervene once the score crosses a threshold. We argue that this framing targets the wrong object for control. The relevant question is not how likely the agent is to fail if it continues, but whether an available intervention would improve the outcome. Two trajectory prefixes can have the same risk estimate while requiring different actions, because one remains recoverable and the other does not. We formalize this mismatch as target error and identify intervention advantage, the expected utility gain from intervening rather than continuing, as the decision object for oversight. To measure this mismatch, we introduce prefix branching, a same-prefix counterfactual protocol that executes candidate actions from identical trajectory states. Across four benchmarks, action-conditioned control yields regime-dependent gains over scalar routing. In a calibration decomposition, recalibrating the same scalar score improves prediction metrics but leaves control regret unchanged, showing that calibration alone does not repair target error. A simple prefix-only action-conditioned controller substantially reduces regret in the strongest interactive regime, from 0.506 to 0.110 on ALFWorld. Gains shrink when interventions are weak or when scalar routing already preserves intervention-relevant information. These results suggest that LLM-agent oversight should move from calibrated risk scoring toward action-conditioned value estimation."
+ },
+ {
+  "paper_id": 8272,
+  "title": "Human oversight of agentic systems in practice: Examining the oversight work, challenges, and heuristics of developers using software agents",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Autonomous software agents hold promise to increase developer productivity but make mistakes and exhibit novel failure modes, making human oversight central to successful human-agent collaboration. Existing research on agent oversight is largely conceptual; normative frameworks exist, but how users actually oversee agents is less known. In this paper, we bridge this gap by providing early empirical anchors for the theoretical discourse on agent oversight. Drawing on interviews with 17 experienced developers, we conduct an exploratory inquiry examining what forms of emergent oversight work developers perform, when, and how. We also document the oversight challenges developers face and the strategies they have started using to address them. We found at least four forms of emergent oversight work: a priori control, co-planning, real-time monitoring, and post hoc review. We show that oversight work is not only reactive and retrospective, as portrayed in existing research, but also preventative and proactive. We describe situated oversight challenges (e.g., difficulty reviewing agent-generated code) and outline heuristics developers adopt to address such challenges (e.g., using test results as guarantees for code correctness). We conclude with high-level takeaways, future research directions, implications for the human-centered design of software agents and for software engineering practice, and limitations of our research."
+ },
+ {
+  "paper_id": 8275,
+  "title": "RecSys Factory: Bounding LLM Agent Autonomy to Decision Points in the Industrial Recommender Lifecycle",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Deploying LLM agents into industrial recommender operations exposes a three-way tension we frame as the autonomy-determinism-efficiency trilemma: general autonomy (interpreting operator intent, generating glue code zero-shot), industrial determinism (schema-conforming feature extraction, non-crashing A/B, zero compliance-path hallucination), and end-to-end efficiency. Any two can be maximized against the third. We present RecSys Factory, an LLM-agent platform deployed for 78 days across three heterogeneous Tencent recommender business lines. The design principle is autonomy at decision points, not over pipelines, made concrete through three deconstructions that each discharge one vertex of the trilemma. Runtime is deconstructed into three host-emitted event sources (Claude Code Stop hooks, corporate-IM webhooks, workflow scheduler APIs): the platform carries no long-running daemon during the wait phase and consumes zero CPU during the 94% of wall-clock spent waiting on Spark or GPU jobs. Capability is deconstructed into a 29-file skill ecosystem (8,971 lines of SKILL.md) whose per-skill pitfall tables mechanically compile into a 400-entry PitfallStore, confining autonomy to bounded typed decision surfaces inside pre-committed pipelines. Deployment spans three business lines with disjoint label semantics, A/B layer topologies, and operator personas; an onboarding-time compression is observed on two of the three and is reported as a case-study observation, not a generalization claim, and not measured against a controlled pre-platform baseline. The human is retained at the diagnostic-versus-execution boundary via a human-in-the-loop card protocol, deployed as an audit-trail primitive (schema-validated, idempotent, replayable) and reported from an 8-day 16-run pilot. Across the 78-day window the platform recorded 1,624 CLI-tool dispatches at a 78.6% aggregate success rate."
+ },
+ {
+  "paper_id": 8281,
+  "title": "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "AI agents powered by large language models are increasingly capable of autonomously completing complex, multi-step tasks using external tools. Yet, they still fall short of human-level performance in most domains including computer use, software development, and research. Their growing autonomy and ability to interact with the outside world, also introduces safety and security risks including potentially misaligned actions and adversarial manipulation. We argue that human-in-the-loop agentic systems offer a promising path forward, combining human oversight and control with AI efficiency to unlock productivity from imperfect systems. We introduce Magentic-UI, an open-source web interface for developing and studying human-agent interaction. Built on a flexible multi-agent architecture, Magentic-UI supports web browsing, code execution, and file manipulation, and can be extended with diverse tools via Model Context Protocol (MCP). Moreover, Magentic-UI presents six interaction mechanisms for enabling effective, low-cost human involvement: co-planning, co-tasking, multi-tasking, action guards, and long-term memory. We evaluate Magentic-UI across four dimensions: autonomous task completion on agentic benchmarks, simulated user testing of its interaction capabilities, qualitative studies with real users, and targeted safety assessments. Our findings highlight Magentic-UI's potential to advance safe and efficient human-agent collaboration."
+ },
+ {
+  "paper_id": 8282,
+  "title": "Measuring AI agent autonomy: Towards a scalable approach with code inspection",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "AI agents are AI systems that can achieve complex goals autonomously. Assessing the level of agent autonomy is crucial for understanding both their potential benefits and risks. Current assessments of autonomy often focus on specific risks and rely on run-time evaluations -- observations of agent actions during operation. We introduce a code-based assessment of autonomy that eliminates the need to run an AI agent to perform specific tasks, thereby reducing the costs and risks associated with run-time evaluations. Using this code-based framework, the orchestration code used to run an AI agent can be scored according to a taxonomy that assesses attributes of autonomy: impact and oversight. We demonstrate this approach with the AutoGen framework and select applications."
+ },
+ {
+  "paper_id": 8284,
+  "title": "Governed AI-Assisted Engineering: Graduated Human Oversight for Agentic Code Generation in Regulated Domains",
+  "year": 2026,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "The adoption of agentic AI coding systems -- where autonomous agents generate, review, test, and deploy code with minimal human intervention -- creates a governance challenge in regulated industries. Existing frameworks address AI-assisted development maturity or the productivity-reliability tension but offer no mechanism for calibrating human oversight intensity to regulatory impact. We present the Governed AI-Assisted Engineering (GAIE) framework, a three-tier graduated human oversight model for agentic code generation in regulated domains. GAIE introduces the Oversight Classification Model (OCM), a deterministic decision function that classifies code generation tasks by regulatory impact, customer proximity, reversibility, and data sensitivity to route them through one of three oversight tiers: human-in-the-loop (strategic functions), human-over-the-loop (customer-impacting), or automated-with-monitoring (internal). Each tier defines required evidence artifacts for compliance auditability. We map GAIE against the Bank of Thailand's 2025 AI risk-management policy and demonstrate cross-jurisdiction applicability to MAS (Singapore), NIST AI RMF, ISO/IEC 42001, and the EU AI Act. Evaluation through regulatory coverage analysis, comparative framework analysis, and analytical productivity modeling suggests that graduated oversight preserves 84--97% of agentic coding velocity (central estimate: 91%) while maintaining compliance evidence coverage for regulated functions. GAIE contributes a framework that explicitly bridges AI-assisted development maturity with regulatory governance through proportionate human oversight."
+ },
+ {
+  "paper_id": 8289,
+  "title": "AURA: An Agent Autonomy Risk Assessment Framework",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "As autonomous agentic AI systems see increasing adoption across organisations, persistent challenges in alignment, governance, and risk management threaten to impede deployment at scale. We present AURA (Agent aUtonomy Risk Assessment), a unified framework designed to detect, quantify, and mitigate risks arising from agentic AI. Building on recent research and practical deployments, AURA introduces a gamma-based risk scoring methodology that balances risk assessment accuracy with computational efficiency and practical considerations. AURA provides an interactive process to score, evaluate and mitigate the risks of running one or multiple AI Agents, synchronously or asynchronously (autonomously). The framework is engineered for Human-in-the-Loop (HITL) oversight and presents Agent-to-Human (A2H) communication mechanisms, allowing for seamless integration with agentic systems for autonomous self-assessment, rendering it interoperable with established protocols (MCP and A2A) and tools. AURA supports a responsible and transparent adoption of agentic AI and provides robust risk detection and mitigation while balancing computational resources, positioning it as a critical enabler for large-scale, governable agentic AI in enterprise environments."
+ },
+ {
+  "paper_id": 8294,
+  "title": "Separating Capability from Permission: A Governance Framework for Agentic AI Autonomy Levels",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "As AI systems increasingly exhibit agentic behavior, discussions of autonomy often conflate what systems are technically capable of doing with what they should be permitted to do in practice. This paper introduces a governance framework that explicitly separates Allowed Autonomy Levels (AAL), which define the degree of autonomy an AI agent is authorized to exercise given risk, oversight, and accountability considerations, from Autonomous Capability Levels (ACL), which characterize an agent's inherent technical abilities. We present a structured set of autonomy levels spanning reactive execution, decision support, supervised action, goal-directed autonomy, and delegated operational authority, and describe how control, reversibility, and accountability change as autonomy increases. To operationalize this framework, we propose a risk-aware decision process for assigning allowed autonomy, analyze how risk and accountability evolve across autonomy levels, and demonstrate its application through a deployed enterprise data engineering agent, illustrating how a system assessed at a high capability level can be deliberately constrained to a lower allowed autonomy based on risk, reversibility, and organizational readiness. By distinguishing authorization from capability, this work provides practical guidance for the design, deployment, and governance of Agentic AI systems."
+ },
+ {
+  "paper_id": 8302,
+  "title": "Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "As LLM agents begin to take real, irreversible actions (shell commands, file edits, deploys), the standard safety pattern is a human-in-the-loop approval gate: risky actions pause and wait for a person. We argue the gate is the easy part; the hard part is the judgment - which actions to stop - which the field evaluates against two false assumptions: that there is a ground-truth notion of \"risky,\" and that the human reviewer is a perfect, infinitely-available oracle. On a hand-labeled set of 125 adversarially-weighted agent actions we show that (i) reviewers only moderately agree on what is risky (Fleiss' kappa = 0.52), so there is no single correct label; (ii) framing the guard as selective classification under asymmetric cost makes its operating limits measurable, and on hard inputs the guard cannot safely auto-decide; and (iii) when the reviewer is modeled as endogenous (fatiguing as escalation load grows), realized safety becomes an inverted-U in the escalation rate: more human oversight can make a system less safe, and the safety-optimal guard escalates below full escalation - a setting a load-aware policy also uses to resist a flooding attack that slips a malicious action past a fatigued reviewer. Agent oversight, framed this way, is not only a classification problem but a resource-allocation one: human attention is finite, and the guard's escalation policy spends it. We claim none of these mechanisms as novel - fatigue-aware learning-to-defer (FALCON), cost-sensitive deferral under workload constraints (DeCCaF), trajectory-level guarding, and reviewer-fatigue/flooding attacks are all prior art we cite. Our contribution is an open-source agent-oversight system that operationalizes and measures them in the LLM-agent action-gating setting, turning \"is my guard good?\" from a guess into a curve. The inverted-U and the flooding attack are modeling results that motivate a human study."
+ },
+ {
+  "paper_id": 8310,
+  "title": "VET Your Agent: Towards Host-Independent Autonomy via Verifiable Execution Traces",
+  "year": 2025,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Recent advances in large language models (LLMs) have enabled a new generation of autonomous agents that operate over sustained periods and manage sensitive resources on behalf of users. Trusted for their ability to act without direct oversight, such agents are increasingly considered in high-stakes domains including financial management, dispute resolution, and governance. Yet in practice, agents execute on infrastructure controlled by a host, who can tamper with models, inputs, or outputs, undermining any meaningful notion of autonomy.   We address this gap by introducing VET (Verifiable Execution Traces), a formal framework that achieves host-independent authentication of agent outputs and takes a step toward host-independent autonomy. Central to VET is the Agent Identity Document (AID), which specifies an agent's configuration together with the proof systems required for verification. VET is compositional: it supports multiple proof mechanisms, including trusted hardware, succinct cryptographic proofs, and notarized TLS transcripts (Web Proofs).   We implement VET for an API-based LLM agent and evaluate our instantiation on realistic workloads. We find that for today's black-box, secret-bearing API calls, Web Proofs appear to be the most practical choice, with overhead typically under 3$\\times$ compared to direct API calls, while for public API calls, a lower-overhead TEE Proxy is often sufficient. As a case study, we deploy a verifiable trading agent that produces proofs for each decision and composes Web Proofs with a TEE Proxy. Our results demonstrate that practical, host-agnostic authentication is already possible with current technology, laying the foundation for future systems that achieve full host-independent autonomy."
+ },
+ {
+  "paper_id": 8312,
+  "title": "Comparing Human Oversight Strategies for Computer-Use Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "LLM-powered computer-use agents (CUAs) are shifting users from direct manipulation to supervisory coordination. Existing oversight mechanisms, however, have largely been studied as isolated interface features, making broader oversight strategies difficult to compare. We conceptualize CUA oversight as a structural coordination problem defined by delegation structure and engagement level, and use this lens to compare four oversight strategies in a mixed-methods study with 48 participants in a live web environment. Our results show that oversight strategy more reliably shaped users' exposure to problematic actions than their ability to correct them once visible. Plan-based strategies were associated with lower rates of agent problematic-action occurrence, but not equally strong gains in runtime intervention success once such actions became visible. On subjective measures, no single strategy was uniformly best, and the clearest context-sensitive differences appeared in trust. Qualitative findings further suggest that intervention depended not only on what controls users retained, but on whether risky moments became legible as requiring judgment during execution. These findings suggest that effective CUA oversight is not achieved by maximizing human involvement alone. Instead, it depends on how supervision is structured to surface decision-critical moments and support their recognition in time for meaningful intervention."
+ },
+ {
+  "paper_id": 8316,
+  "title": "Balancing Performance and Human Autonomy with Implicit Guidance Agent",
+  "year": 2021,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The human-agent team, which is a problem in which humans and autonomous agents collaborate to achieve one task, is typical in human-AI collaboration. For effective collaboration, humans want to have an effective plan, but in realistic situations, they might have difficulty calculating the best plan due to cognitive limitations. In this case, guidance from an agent that has many computational resources may be useful. However, if an agent guides the human behavior explicitly, the human may feel that they have lost autonomy and are being controlled by the agent. We therefore investigated implicit guidance offered by means of an agent's behavior. With this type of guidance, the agent acts in a way that makes it easy for the human to find an effective plan for a collaborative task, and the human can then improve the plan. Since the human improves their plan voluntarily, he or she maintains autonomy. We modeled a collaborative agent with implicit guidance by integrating the Bayesian Theory of Mind into existing collaborative-planning algorithms and demonstrated through a behavioral experiment that implicit guidance is effective for enabling humans to maintain a balance between improving their plans and retaining autonomy."
+ },
+ {
+  "paper_id": 8317,
+  "title": "A Survey of LLM-Based Applications in Programming Education: Balancing Automation and Human Oversight",
+  "year": 2025,
+  "venue": "arXiv:cs.CY",
+  "source": "arxiv",
+  "abstract": "Novice programmers benefit from timely, personalized support that addresses individual learning gaps, yet the availability of instructors and teaching assistants is inherently limited. Large language models (LLMs) present opportunities to scale such support, though their effectiveness depends on how well technical capabilities are aligned with pedagogical goals. This survey synthesizes recent work on LLM applications in programming education across three focal areas: formative code feedback, assessment, and knowledge modeling. We identify recurring design patterns in how these tools are applied and find that interventions are most effective when educator expertise complements model output through human-in-the-loop oversight, scaffolding, and evaluation. Fully automated approaches are often constrained in capturing the pedagogical nuances of programming education, although human-in-the-loop designs and course specific adaptation offer promising directions for future improvement. Future research should focus on improving transparency, strengthening alignment with pedagogy, and developing systems that flexibly adapt to the needs of varied learning contexts."
+ },
+ {
+  "paper_id": 8318,
+  "title": "From Thinker to Society: Security in Hierarchical Autonomy Evolution of AI Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Artificial Intelligence (AI) agents have evolved from passive predictive tools into active entities capable of autonomous decision-making and environmental interaction, driven by the reasoning capabilities of Large Language Models (LLMs). However, this evolution has introduced critical security vulnerabilities that existing frameworks fail to address. The Hierarchical Autonomy Evolution (HAE) framework organizes agent security into three tiers: Cognitive Autonomy (L1) targets internal reasoning integrity; Execution Autonomy (L2) covers tool-mediated environmental interaction; Collective Autonomy (L3) addresses systemic risks in multi-agent ecosystems. We present a taxonomy of threats spanning cognitive manipulation, physical environment disruption, and multi-agent systemic failures, and evaluate existing defenses while identifying key research gaps. The findings aim to guide the development of multilayered, autonomy-aware defense architectures for trustworthy AI agent systems."
+ },
+ {
+  "paper_id": 8325,
+  "title": "Human-In-The-Loop Software Development Agents: Challenges and Future Directions",
+  "year": 2025,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Multi-agent LLM-driven systems for software development are rapidly gaining traction, offering new opportunities to enhance productivity. At Atlassian, we deployed Human-in-the-Loop Software Development Agents to resolve Jira work items and evaluated the generated code quality using functional correctness testing and GPT-based similarity scoring. This paper highlights two major challenges: the high computational costs of unit testing and the variability in LLM-based evaluations. We also propose future research directions to improve evaluation frameworks for Human-In-The-Loop software development tools."
+ }
+]

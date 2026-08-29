@@ -1,0 +1,69 @@
+--- pass 1: 60 pairs pending
+  NeurIPS  agentic                      hits= 27 new=25
+  NeurIPS  self-refine                  hits=  7 new=5
+  NeurIPS  self-correction              hits=  3 new=2
+  NeurIPS  iterative refinement         hits=  6 new=4
+  NeurIPS  autonomous agent             hits= 14 new=13
+  NeurIPS  multi-agent language model   hits=  8 new=5
+  ICML     agentic                      hits=  7 new=7
+  ICML     self-refine                  hits=  2 new=1
+  ICML     self-correction              hits=  0 new=0
+  ICML     iterative refinement         hits=  4 new=2
+  ICML     autonomous agent             hits=  5 new=5
+  ICML     multi-agent language model   hits=  3 new=2
+  ICLR     agentic                      hits=  9 new=9
+  ICLR     self-refine                  hits=  5 new=5
+  ICLR     self-correction              hits=  2 new=2
+  ICLR     iterative refinement         hits=  4 new=3
+  ICLR     autonomous agent             hits=  3 new=3
+  ICLR     multi-agent language model   hits=  3 new=3
+  ACL      agentic                      hits= 50 new=43
+  ACL      self-refine                  hits= 15 new=12
+  ACL      self-correction              hits= 14 new=10
+  ACL      iterative refinement         hits= 10 new=9
+  ACL      autonomous agent             hits= 26 new=20
+  ACL      multi-agent language model   hits= 17 new=13
+  EMNLP    agentic                      hits= 29 new=25
+  EMNLP    self-refine                  hits= 12 new=7
+  EMNLP    self-correction              hits=  7 new=4
+  EMNLP    iterative refinement         hits= 12 new=7
+  EMNLP    autonomous agent             hits= 10 new=8
+  EMNLP    multi-agent language model   hits= 17 new=11
+  AAAI     agentic                      hits= 28 new=28
+  AAAI     self-refine                  hits= 10 new=10
+  AAAI     self-correction              hits=  6 new=4
+  AAAI     iterative refinement         hits=  7 new=6
+  AAAI     autonomous agent             hits= 17 new=13
+  AAAI     multi-agent language model   hits= 12 new=9
+  ICSE     agentic                      hits=  0 new=0
+  ICSE     self-refine                  hits=  0 new=0
+  ICSE     self-correction              hits=  0 new=0
+  ICSE     iterative refinement         hits=  0 new=0
+  ICSE     autonomous agent             hits=  1 new=0
+  ICSE     multi-agent language model   hits=  0 new=0
+  FSE      agentic                      hits=  0 new=0
+  FSE      self-refine                  hits=  0 new=0
+  FSE      self-correction              hits=  0 new=0
+  FSE      iterative refinement         hits=  0 new=0
+  FSE      autonomous agent             hits=  0 new=0
+  FSE      multi-agent language model   hits=  0 new=0
+  ASE      agentic                      hits=  2 new=2
+  ASE      self-refine                  hits=  0 new=0
+  ASE      self-correction              hits=  1 new=1
+  ASE      iterative refinement         hits=  0 new=0
+  ASE      autonomous agent             hits=  4 new=2
+  ASE      multi-agent language model   hits=  0 new=0
+  TSE      agentic                      hits=  0 new=0
+  TSE      self-refine                  CALL FAILED (HTTP Error 500: Internal Server Error) -- will retry
+  TSE      self-correction              hits=  0 new=0
+  TSE      iterative refinement         hits=  0 new=0
+  TSE      autonomous agent             hits=  0 new=0
+  TSE      multi-agent language model   hits=  0 new=0
+    backing off 90s before retrying 1 failed pairs
+--- pass 2: 1 pairs pending
+  TSE      self-refine                  hits=  0 new=0
+
+pairs attempted successfully : 60/60
+pairs never completed        : 0 (reported as not-attempted, not as zero)
+genuinely empty venue/term   : 21
+new records                  : 340

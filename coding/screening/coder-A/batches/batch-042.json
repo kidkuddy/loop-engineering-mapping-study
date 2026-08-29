@@ -99,7 +99,7 @@
   "paper_id": 5391,
   "title": "EvoAgentX: An Automated Framework for Evolving Agentic Workflows",
   "year": 2025,
-  "venue": "",
+  "venue": "EMNLP",
   "source": "openalex",
   "abstract": "Multi-agent systems (MAS) have emerged as a powerful paradigm for orchestrating large language models (LLMs) and specialized tools to collaboratively address complex tasks.However, existing MAS frameworks often require manual workflow configuration and lack native support for dynamic evolution and performance optimization.In addition, many MAS optimization algorithms are not integrated into a unified framework.In this paper, we present EvoA-gentX, an open-source platform that automates the generation, execution, and evolutionary optimization of multi-agent workflows.EvoA-gentX employs a modular architecture consisting of five core layers: the basic components, agent, workflow, evolving, and evaluation layers.Specifically, within the evolving layer, EvoAgentX integrates three MAS optimization algorithms, TextGrad, AFlow, and MIPRO, to iteratively refine agent prompts, tool configurations, and workflow topologies.We evaluate EvoAgentX on HotPotQA, MBPP, and MATH for multi-hop reasoning, code generation, and mathematical problem solving, respectively, and further assess it on real-world tasks using GAIA.Experimental results show that EvoAgentX consistently achieves significant performance improvements, including a 7.44% increase in HotPotQA F1, a 10.00% improvement in MBPP pass@1, a 10.00% gain in MATH solve accuracy, and an overall accuracy improvement of up to 20.00% on GAIA.The source code is available at: https://github. com/EvoAgentX/EvoAgentX."
  },
@@ -187,7 +187,7 @@
   "paper_id": 5409,
   "title": "SwarmAgentic: Towards Fully Automated Agentic System Generation via Swarm Intelligence",
   "year": 2025,
-  "venue": "",
+  "venue": "EMNLP",
   "source": "openalex",
   "abstract": "The rapid progress of Large Language Models has advanced agentic systems in decisionmaking, coordination, and task execution.Yet, existing agentic system generation frameworks lack full autonomy, missing from-scratch agent generation, self-optimizing agent functionality, and collaboration, limiting adaptability and scalability.We propose SwarmAgentic, the first framework that fully automates agentic system generation, optimization, and collaboration, constructing agents from scratch and jointly refining functionality and coordination via language-driven exploration.To enable efficient search over system-level structures, SwarmAgentic maintains a population of candidate systems and evolves them via feedbackguided updates, drawing inspiration from Particle Swarm Optimization (PSO).We evaluate our method on six real-world, open-ended, and exploratory tasks involving high-level planning, system-level coordination, and creative reasoning.Given only a task description and an objective function, SwarmAgentic outperforms all baselines, achieving a +261.8%relative improvement over ADAS on the Trav-elPlanner benchmark, highlighting the effectiveness of full automation in structurally unconstrained tasks.This framework marks a significant step toward scalable and autonomous agentic system design, bridging swarm intelligence with fully automated system multi-agent generation.Our code is publicly released at github.com/SwarmAgentic."
  },

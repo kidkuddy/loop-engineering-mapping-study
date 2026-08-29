@@ -107,7 +107,7 @@
   "paper_id": 1110,
   "title": "KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph",
   "year": 2025,
-  "venue": "",
+  "venue": "ACL",
   "source": "openalex",
   "abstract": "In this paper, we aim to improve the reasoning ability of large language models (LLMs) over knowledge graphs (KGs) to answer complex questions.Inspired by existing methods that design the interaction strategy between LLMs and KG, we propose an autonomous LLM-based agent framework, called KG-Agent, which enables a small LLM to actively make decisions until finishing the reasoning process over KGs.In KG-Agent, we integrate the LLM, multifunctional toolbox, KG-based executor, and knowledge memory, and develop an iteration mechanism that autonomously selects the tool and then updates the memory for reasoning over KG.To guarantee the effectiveness, we leverage program language to formulate the multi-hop reasoning process over the KG and synthesize a code-based instruction dataset to fine-tune the base LLM.Extensive experiments demonstrate that only using 10K samples for tuning LLaMA2-7B can outperform competitive methods using larger LLMs or more data, on both in-domain and out-domain datasets.Our code and data will be publicly released."
  },
@@ -139,7 +139,7 @@
   "paper_id": 1114,
   "title": "ManuSearch: Democratizing Deep Search in Large Language Models with a Transparent and Open Multi-Agent Framework",
   "year": 2025,
-  "venue": "",
+  "venue": "EMNLP",
   "source": "openalex",
   "abstract": "Recent advances in web-augmented large language models (LLMs) have exhibited strong performance in complex reasoning tasks, yet these capabilities are mostly locked in proprietary systems with opaque architectures.In this work, we propose ManuSearch, a transparent and modular multi-agent framework designed to democratize deep search for LLMs.ManuSearch decomposes the search and reasoning process into three collaborative agents:(1) a solution planning agent that iteratively formulates sub-queries, ( 2) an Internet search agent that retrieves relevant documents via real-time web search, and (3) a structured webpage reading agent that extracts key evidence from raw web content.To rigorously evaluate deep reasoning abilities, we introduce ORION, a challenging benchmark focused on open-web reasoning over long-tail entities, covering both English and Chinese.Experimental results show that ManuSearch substantially outperforms prior open-source baselines and even surpasses leading closedsource systems.Our work paves the way for reproducible, extensible research in open deep search systems.We release the data and code in https://github.com/RUCAIBox/ManuSearch."
  },

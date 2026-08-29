@@ -235,7 +235,7 @@
   "paper_id": 1821,
   "title": "Self-Correction Makes LLMs Better Parsers",
   "year": 2025,
-  "venue": "",
+  "venue": "EMNLP",
   "source": "openalex",
   "abstract": "Large language models (LLMs) have achieved remarkable success across various natural language processing (NLP) tasks.However, recent studies suggest that they still face challenges in performing fundamental NLP tasks essential for deep language understanding, particularly syntactic parsing.In this paper, we conduct an in-depth analysis of LLM parsing capabilities, delving into the underlying causes of why LLMs struggle with this task and the specific shortcomings they exhibit.We find that LLMs may be limited in their ability to fully leverage grammar rules from existing treebanks, restricting their capability to generate syntactic structures.To help LLMs acquire knowledge without additional training, we propose a selfcorrection method that leverages grammar rules from existing treebanks to guide LLMs in correcting previous errors.Specifically, we automatically detect potential errors and dynamically search for relevant rules, offering hints and examples to guide LLMs in making corrections themselves.Experimental results on three datasets using various LLMs demonstrate that our method significantly improves performance in both in-domain and cross-domain settings."
  },

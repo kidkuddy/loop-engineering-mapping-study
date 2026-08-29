@@ -3,7 +3,7 @@
   "paper_id": 6566,
   "title": "Neuro-Symbolic Agentic Reinforcement Learning for Long-Term Original Character Companionship and Interaction",
   "year": 2026,
-  "venue": "",
+  "venue": "ACL",
   "source": "openalex",
   "abstract": "As human-agent interaction (HAI) evolves toward long-term social companionship, users expect Original Character (OC) agents to maintain a consistent persona, manage shared memories, and adapt to ever-changing preferences.However, LLM-based agents optimized by prompting or SFT exhibit a generalization gap: they behave as myopic instruction followers, leading to cascading errors in multi-turn interactions.For the agents to learn trajectory-level value functions that enable farsighted decisionmaking, we propose the NSARL framework, which formalizes OC companion agents' interactions as a POMDP and decomposes the agent into three sub-policies (Router, Memory, and Persona), optimized via closed-loop RL from AI feedback (RLAIF) with verifiable rewards in a graph-constrained action space.Our preliminary experiments indicate a trade-off: SFT yields stronger persona generation, while NSARL improves structural logic, through conservative strategies (e.g., over-routing) that increase workflow completeness, advocating for a hybrid deployment strategy."
  },
