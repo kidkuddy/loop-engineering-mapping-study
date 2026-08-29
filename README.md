@@ -33,12 +33,13 @@ publication. Search date 2026-08-29.
 | Records identified | 7,757 |
 | Removed by automated scope rule R1 | 4,354 |
 | Screened on title and abstract | 3,403 |
-| Included in the map | 973 |
+| Included in the map | 972 |
 | Facet axes | 6 (5 borrowed, 1 derived by keywording) |
-| Adjudicated classifications | 5,838 |
+| Adjudicated classifications | 5,832 |
 | Screening $\kappa$ (n=681 double-screened) | 0.802 |
 | Classification $\kappa$ per axis | 0.783 – 0.940 |
-| Full-text validation sample | 60 drawn with seed 20260829 |
+| Full-text validation sample | 60 drawn with seed 20260829, 58 assessed |
+| Full text retrievable for included records | 915 of 972 (94%) |
 
 ## Layout
 
@@ -103,6 +104,18 @@ config so nothing here depends on a private remote.
   Petersen et al. (2015). Stated in the manuscript rather than omitted silently.
 - **Snowballing found citation data for a minority of its start set.** Citation
   indexes cover a literature this recent poorly, and the yield reflects that.
+- **Ninety-three included records arrived without an open PDF**, almost all from
+  the peer-reviewed side that arXiv cannot supply. `scripts/arxiv_recover.py`
+  found an arXiv version for 36 of them by title and
+  `scripts/attach_arxiv_pdfs.py` attached it; the DOI and venue of each record are
+  unchanged, so only the text source moved. The remaining 57 are listed with their
+  DOIs in `coding/no-fulltext.csv` and are genuinely paywalled or withdrawn.
+- **One record was double-counted and removed.** The supplementary material of an
+  included paper entered as a separate record because the title suffix defeated
+  the title/author/year fingerprint. It was excluded under criterion E6 once
+  found, which is why the corpus is 972 and not 973. The per-coder agreement files
+  still carry its labels, so `make agreement` reports n=973 for the classification
+  axes: both coders did code it before it was removed.
 
 ## License
 
