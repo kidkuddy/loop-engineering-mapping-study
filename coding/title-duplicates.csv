@@ -1,0 +1,81 @@
+group,paper_id,year,title
+1,6184,2026,A Closed-Loop Modular Language Agent with Step Verification and Local Correction for Multi-Step Task Solving
+1,9263,2026,A Closed-Loop Modular Language Agent with Step Verification and Local Correction for Multi-Step Task Solving
+2,1948,2023,A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning
+2,2228,2024,A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning
+3,1101,2025,Agentic Large Language Models for Conceptual Systems Engineering and Design
+3,8885,2026,Agentic Large Language Models for Conceptual Systems Engineering and Design
+4,4822,2025,AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management
+4,4978,2026,AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management
+5,7181,2025,Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training
+5,7651,2025,Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training
+6,225,2026,Agent-SAMA: State-Aware Mobile Assistant
+6,6540,2025,Agent-SAMA: State-Aware Mobile Assistant
+7,5475,2025,ALAS: Transactional and Dynamic Multi-Agent LLM Planning
+7,6048,2025,ALAS: Transactional and Dynamic Multi-Agent LLM Planning
+8,482,2026,A Self-Healing Framework for Reliable LLM-Based Autonomous Agents
+8,7039,2026,A Self-Healing Framework for Reliable LLM-Based Autonomous Agents
+9,826,2024,Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In
+9,1043,2025,Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In
+10,3058,2025,Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks
+10,3187,2024,Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks
+11,2263,2024,Chain-of-Verification Reduces Hallucination in Large Language Models
+11,2316,2023,Chain-of-Verification Reduces Hallucination in Large Language Models
+12,1840,2025,Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs
+12,10779,2025,Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs
+13,4746,2025,Context as a Tool: Context Management for Long-Horizon SWE-Agents
+13,4944,2026,Context as a Tool: Context Management for Long-Horizon SWE-Agents
+14,4180,2025,ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration
+14,6189,2025,ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration
+15,1341,2024,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate
+15,1364,2023,Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate
+16,10547,2026,Feedback Loops and Code Perturbations in LLM-Based Software Engineering: A Case Study on a C-to-Rust Translation System.
+16,10565,2025,Feedback Loops and Code Perturbations in LLM-Based Software Engineering: A Case Study on a C-to-Rust Translation System.
+17,5383,2025,Flow: Modularized Agentic Workflow Automation
+17,10696,2025,Flow: Modularized Agentic Workflow Automation
+18,3784,2025,FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration
+18,3836,2025,FutureWeaver: Planning Test-Time Compute for Multi-Agent Systems with Modularized Collaboration
+19,3040,2026,GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning
+19,3628,2025,GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning
+20,1004,2025,HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model
+20,4155,2024,HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model
+21,4209,2023,ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning
+21,9083,2024,ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning
+22,1054,2025,KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents
+22,6078,2024,KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents
+23,1594,2024,Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models
+23,1847,2024,Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models
+24,6156,2026,LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation
+24,6865,2025,LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation
+25,1367,2025,MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL
+25,1417,2024,MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL
+26,236,2024,"MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning"
+26,1456,2025,"MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning"
+27,4182,2025,Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks
+27,10805,2026,Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks
+28,7702,2026,OPT-BENCH: Evaluating the Iterative Self-Optimization of LLM Agents in Large-Scale Search Spaces
+28,7703,2026,OPT-BENCH: Evaluating the Iterative Self-Optimization of LLM Agents in Large-Scale Search Spaces
+29,8361,2026,pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development
+29,8528,2026,pAI-Econ-claude: A Gated Human-in-the-Loop Multi-Agent Architecture for AI-Assisted Economic Theory Development
+30,3997,2025,ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning
+30,4192,2026,ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning
+31,5241,2024,Scaling Large Language Model-based Multi-Agent Collaboration
+31,5316,2024,Scaling Large Language Model-based Multi-Agent Collaboration
+32,3742,2024,Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
+32,3795,2024,Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
+33,1421,2025,Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks
+33,1422,2024,Self-Correction is More than Refinement: A Learning Framework for Visual and Language Reasoning Tasks
+34,1450,2025,Smaller Large Language Models Can Do Moral Self-Correction
+34,1574,2024,Smaller Large Language Models Can Do Moral Self-Correction
+35,7766,2025,SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search
+35,7769,2026,SPIRAL: Symbolic LLM Planning via Grounded and Reflective Search
+36,3637,2025,T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models
+36,3846,2025,T1: Tool-integrated Verification for Test-time Compute Scaling in Small Language Models
+37,4061,2025,The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
+37,4213,2025,The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
+38,4308,2026,Trust-Aware Runtime Verification for Autonomous LLM Agent Systems
+38,8916,2026,Trust-Aware Runtime Verification for Autonomous LLM Agent Systems
+39,2352,2025,Verification-Aware Planning for Multi-Agent Systems
+39,2365,2026,Verification-Aware Planning for Multi-Agent Systems
+40,4090,2024,WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration
+40,8193,2025,WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration
