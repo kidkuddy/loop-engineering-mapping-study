@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 8822,
+  "title": "Enhancing AI Systems with Agentic Workflows Patterns in Large Language Model",
+  "year": 2024,
+  "venue": "2024 IEEE World AI IoT Congress (AIIoT)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8823,
+  "title": "Agentic Orchestration of Small Language Models Match Large Language Models on Boolean Question Answering",
+  "year": 2026,
+  "venue": "SoutheastCon 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8824,
+  "title": "The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges",
+  "year": 2026,
+  "venue": "Journal of AI Analytics and Applications",
+  "source": "crossref",
+  "abstract": "The rapid evolution of large language models (LLMs) has catalyzed a shift from passive AI systems toward autonomous agentic architectures capable of reasoning, memory, tool use, and multi-agent collaboration. This bibliometric review characterizes the emerging field through 810 publications retrieved from the Web of Science Core Collection for the period 2023\u20132025. Annual output rose sharply over this window\u2014from 4 publications in 2023 to 96 in 2024 and 710 in 2025\u2014accompanied by a parallel rise in citations, indicating rapid mainstream adoption. Author-keyword analysis reveals a landscape dominated by large language models, artificial intelligence, and multi-agent systems, with agentic AI, generative AI, and retrieval-augmented generation (RAG) emerging as core themes. Research output is geographically concentrated, led by China and the United States, and is distributed across a broad range of engineering, applied-science, and domain-specific journals rather than a single specialist venue, reflecting the field's cross-disciplinary uptake. Synthesizing this corpus, we organize the technical landscape around reasoning, memory, tool integration and RAG, and multi-agent orchestration; survey application domains spanning healthcare, scientific discovery, education, and software engineering, with emerging activity in finance and law; and analyze the principal challenges\u2014hallucination, trust and robustness, inter-agent coordination, scalability, and governance. The review provides a structured, evidence-based map of agentic AI research to orient researchers and practitioners navigating this rapidly evolving field."
+ },
+ {
+  "paper_id": 8827,
+  "title": "Model context protocol-based agentic react large language model for adaptive traffic signals: Luxembourg case study",
+  "year": 2026,
+  "venue": "Future Generation Computer Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8832,
+  "title": "The Agentic Enterprise: A Strategic Analysis of Advanced Agentic Workflows and Collaborative AI",
+  "year": 2025,
+  "venue": "2025 3rd International Conference on Foundation and Large Language Models (FLLM)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8833,
+  "title": "Automatic building energy model development and debugging using large language models agentic workflow",
+  "year": 2025,
+  "venue": "Energy and Buildings",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8834,
+  "title": "Policy Shocks, Agent Adaptation, and Resilience Reconstruction in Nickel Supply Chains: A Large-Language-Model-Empowered Agent-Based Simulation",
+  "year": 2026,
+  "venue": "Sustainability",
+  "source": "crossref",
+  "abstract": "Nickel has become a strategic mineral for the energy transition, yet its supply chain is increasingly shaped by a compound risk regime involving resource nationalism, processing concentration, geopolitical compliance rules, carbon-footprint requirements, and commodity-market volatility. This study develops NiChain-LLM-ABM, a large-language-model-empowered agent-based model for simulating nickel supply chain resilience under semantically rich policy shocks. The framework uses a policy semantic parsing module to transform official policy texts into structured shock parameters, a multi-agent strategy generation module to represent adaptive decisions by seven agent classes, a calibrated supply chain network module to simulate material, financial, and information flows, and a four-dimensional resilience assessment module. The model is anchored in observed nickel production, price, trade, and technology data from USGS, IEA, UN Comtrade, LME, and official legal sources, and its scenario outputs are generated through 100 Monte Carlo replications over 2025\u20132035. Results show that the baseline Comprehensive Resilience Index (CRI) declines from 0.620 in 2025 to 0.547 in 2035. Indonesian policy tightening causes the sharpest near-term deterioration, with CRI falling to 0.445 in 2028 and the simulated supply deficit reaching 24.5 kt Ni equivalent. A geopolitical compliance shock produces the lowest terminal resilience (CRI = 0.472 in 2035). A green-compliance scenario is disruptive in the short run but exceeds the baseline by 2035, while a coordinated policy portfolio raises the terminal CRI to 0.744, a 36.0% improvement over the baseline. Compared with a conventional rule-based ABM, the LLM-ABM reduces extreme-event backcasting error by 57%, improves policy-response fidelity by 53%, and more than doubles agent heterogeneity differentiation. The results support portfolio-based critical-mineral governance combining strategic reserves, overseas equity investment, recycling, technology substitution, and international cooperation."
+ },
+ {
+  "paper_id": 8836,
+  "title": "DUCTILE: Agentic Large Language Model Orchestration of Engineering Analysis in Product Development Design Practice",
+  "year": 2026,
+  "venue": "Journal of Mechanical Design",
+  "source": "crossref",
+  "abstract": "Abstract Engineering analysis automation in product development relies on rigid interfaces between tools, data formats, and documented processes. When these interfaces change, as they routinely do as the product evolves in the engineering ecosystem, the automation support breaks. This article presents a DUCTILE (delegated, user-supervised coordination of tool- and document-integrated large language model (LLM)-enabled) agentic orchestration, an approach for developing, executing, and evaluating LLM-based agentic automation support of engineering analysis tasks. The approach separates adaptive orchestration, performed by the LLM agent, from deterministic execution, performed by verified engineering tools. The agent interprets documented design practices, inspects input data, and adapts the processing path, while the engineer supervises and exercises final judgment. DUCTILE is demonstrated on a constrained but realistic industrial structural analysis task at an aerospace manufacturer, where the agent handled input deviations in format, units, naming conventions, and methodology that would break traditional scripted pipelines. Evaluation against expert-defined acceptance criteria and deployment with practicing engineers confirm that the approach produces correct, methodologically compliant results across 10 repeated independent runs. The article discusses the paradigm shift and the practical consequences of adopting agentic automation, including unintended effects on the nature of engineering work when removing mundane tasks and creating an exhausting supervisory role."
+ },
+ {
+  "paper_id": 8837,
+  "title": "DxDirector: an agentic large language model driving the full-process clinical diagnosis",
+  "year": 2026,
+  "venue": "Nature Communications",
+  "source": "crossref",
+  "abstract": "Abstract Clinical diagnosis in the real world often begins with ambiguous patient complaints that require iterative reasoning and testing. While large language models (LLMs) increasingly assist with specific medical queries, they currently lack the ability to autonomously drive this entire diagnostic workflow, limiting their potential to significantly alleviate physician workload. Here we present DxDirector-7B, an agentic LLM designed to navigate the full diagnostic process through advanced slow thinking capabilities. Unlike existing assistants, our model autonomously determines optimal diagnostic strategies, requesting physician intervention only for necessary clinical operations. In evaluations spanning rare diseases and complex real-world cases, DxDirector-7B achieves superior diagnostic accuracy compared to state-of-the-art medical and general-purpose LLMs with significantly larger parameters. Crucially, it drastically reduces physician involvement while maintaining a robust safety and accountability framework for high-risk conditions. These results demonstrate a paradigm shift where AI effectively leads clinical reasoning, offering a scalable solution to enhance diagnostic efficiency and accessibility."
+ },
+ {
+  "paper_id": 8839,
+  "title": "A Large Language Model-Powered Agentic Framework for Interactive Coding Assistance and Automated Error Fixing",
+  "year": 2026,
+  "venue": "International Journal of Emerging Research in Engineering and Technology",
+  "source": "crossref",
+  "abstract": "The inefficiencies in software development are still prevailing in modern software development, as developers are taking time in order to find syntax errors, warnings, logic errors, and security bugs in various programming languages. Conventional support systems are unable to offer much feedback, adaptive performance, and the balance between detection and automated correction. To address these issues, this paper proposes an agentic framework based on Large Language Models (LLMs) to provide interactive code assistance and auto error correction, with the implementation based on the MERN stack and multi-model optimization (e.g., Groq, LLaMA) to achieve better accuracy, response time, and token efficiency. The system allows any code written in Python, JavaScript, Java, C#, C++ to be submitted in a secure way, with real-time analysis, highlighting of issues, and proposed context-aware fixes, and making automatic corrections to the code performed by the LLM. Performance evaluation is excellent at detection with different success rates of correction and highest success rates in Python (91.6% success rate) and lower success rates in more complex languages like C++ (80%). Such measures as cyclomatic complexity, fix success ratio, token consumption, and variability of fix time (400ms-7688ms) are saved in MongoDB and displayed on React dashboards. Findings show that the framework has a high level of consistency in error detection and interactive feedback but more work is required to stabilize the correction efficiency and lower the variability of fix times. The significance of this system is in its flexibility in cross-language, real-time debugging, and built-in performance analysis, and has the potential to significantly shorten software development cycles, which is evident as a clear advantage over the old-fashioned tools of the traditional form of the static analysis."
+ },
+ {
+  "paper_id": 8843,
+  "title": "Academic english writing generation-evaluation closed-loop system driven by large language model: adversarial training and cognitive logic verification",
+  "year": 2026,
+  "venue": "Natural Language Processing Journal",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8844,
+  "title": "Agentic Workflows for Improving Large Language Model Reasoning in Robotic Object-Centered Planning",
+  "year": 2025,
+  "venue": "Robotics",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) provide cognitive capabilities that enable robots to interpret and reason about their workspace, especially when paired with semantically rich representations like semantic maps. However, these models are prone to generating inaccurate or invented responses, known as hallucinations, that can produce an erratic robotic operation. This can be addressed by employing agentic workflows, structured processes that guide and refine the model\u2019s output to improve response quality. This work formally defines and qualitatively analyzes the impact of three agentic workflows (LLM Ensemble, Self-Reflection, and Multi-Agent Reflection) on enhancing the reasoning capabilities of an LLM guiding a robotic system to perform object-centered planning. In this context, the LLM is provided with a pre-built semantic map of the environment and a query, to which it must respond by determining the most relevant objects for the query. This response can be used in a multitude of downstream tasks. Extensive experiments were carried out employing state-of-the-art LLMs and semantic maps generated from the widely-used datasets ScanNet and SceneNN. The results show that agentic workflows significantly enhance object retrieval performance, especially in scenarios requiring complex reasoning, with improvements averaging up to 10% over the baseline."
+ },
+ {
+  "paper_id": 8845,
+  "title": "Hierarchical Agentic AI Framework for Autonomous Task Planning using Large Language Model Reasoning",
+  "year": 2026,
+  "venue": "International Journal of Innovative Research in Engineering and Management",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) have brought major improvements in natural language understanding, reasoning, and intelligent content generation. Although these models perform well in many applications, most existing AI systems still face difficulties while handling complex multi-step tasks that require planning, coordination, and adaptability. The standard single-agent systems do not work for tasks with multiple dependencies, changing objectives, or long execution workflows. Hierarchical Agentic AI Framework For Autonomous Task Planning With Large Language Model Reasoning This paper The proposed framework is structured as a hierarchical multi-agent architecture comprising Supervisor Agent, Planning Agent, specialized execution agents and validation layer. The framework aims at analyzing user goals, breaking them down into smaller executable subtasks, and coordinating the execution of the tasks using reasoning-driven workflows. The system combines chain-of-thought reasoning, contextual memory and intelligent task decomposition to improve the quality of planning and the accuracy of execution. Experimental evaluation demonstrates the superiority of the proposed framework in task completion accuracy, planning efficiency and adaptability, compared to traditional single agent and flat multi-agent architectures. Moreover, the framework shows improved coordination and reduced redundant execution in dynamic workflow settings. The results show that hierarchical agentic architectures can deliver scalable and intelligent solutions for autonomous workflow execution in enterprise automation, research assistance and AI-driven decision support systems."
+ },
+ {
+  "paper_id": 8847,
+  "title": "Self-Contrastive Loop of Thought Method for Text-to-SQL Based on Large Language Model",
+  "year": 2025,
+  "venue": "Proceedings of the 1st Joint Workshop on Large Language Models and Structure Modeling (XLLM 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8848,
+  "title": "From Data to Physics: An Agentic Large Language Model Solves a Competitive Adsorption Puzzle",
+  "year": 2025,
+  "venue": "Angewandte Chemie",
+  "source": "crossref",
+  "abstract": "Abstract Scientific modeling often requires navigating a trade\u2010off between physical interpretability and empirical accuracy\u2014a task that can take weeks of iteration, especially in systems with partial observability, structural complexity, and experimental errors. Here, we show how an agentic reasoning\u2010and\u2010coding large language model (LLM), OpenAI o3, autonomously solved a modeling challenge in surface chemistry that puzzled us for months: quantifying the competitive adsorption of carboxylic acids on metal\u2010organic layers (MOLs). With experimental data and a concise problem formulation, o3 rapidly formulated a physically grounded adsorption model, derived the mathematical equations, implemented the corresponding codes to fit the experimental data, revised its assumptions, and ultimately derived a competitive adsorption model with three parameters that matched experimental data across more than a dozen tested molecules. The resulting model\u2014simple, mechanistically transparent, and quantitatively robust\u2014incorporates both classical Langmuir competition and structural constraints such as site accessibility. Beyond addressing this particular challenge, our findings highlight a transformative shift in scientific methodology: from manual trial\u2010and\u2010error approaches to AI\u2010driven hypothesis generation and model refinement. This represents a new paradigm in research, wherein language models surpass the traditional roles of machine learning in data analysis and computational support, actively participating in scientific reasoning and hypothesis development."
+ },
+ {
+  "paper_id": 8852,
+  "title": "Moral Judgment with a Large Language Model-Based Agent",
+  "year": 2025,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "The ethical reasoning capability of large language models (LLMs) directly impacts their societal applicability, and enhancing this capacity is critical for developing trustworthy and secure artificial intelligence (AI) systems. The existing moral judgment methods based on LLMs rely on a single cognitive theory and lack an information aggregation and transmission mechanism, which affects the accuracy and stability of moral judgment. In this paper, we propose MoralAgent, an agentic approach that utilizes LLMs for moral judgment. First, the moral judgment process is planned based on various moral judgment theories. Second, the four dynamic prompt templates and the memory module are designed, and the moral principle is constructed to assist the analysis. Finally, the memory module is coordinated with the dynamic prompt template to optimize data transmission efficiency. This method significantly outperforms three types of traditional methods on the MoralExceptQA dataset. Compared to the two existing categories of methods based on LLMs, the F1 score of the proposed method is at least 4.13% higher, with slightly lower variance. Extensive experiments and evaluation metrics demonstrate the effectiveness of the proposed method, and sample analysis shows how the judgment process works to ensure that the results are reliable."
+ },
+ {
+  "paper_id": 8856,
+  "title": "Supplemental Material for A Large Language Model-Based Self-Learning and Critical Agent Framework for Multimodal Alzheimer\u2019s Disease Diagnosis",
+  "year": 2026,
+  "venue": "Neuropsychology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8861,
+  "title": "Circuit-AI: A Self-Hosted AI-Agent Language Model Framework for Control Loop Implementation and Simulation",
+  "year": 2025,
+  "venue": "2025 IEEE International Communications Energy Conference (INTELEC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8863,
+  "title": "Agent vs. Agent: Automated Data Generation and Red-Teaming for Custom Agentic Workflows",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8865,
+  "title": "Verify-Agent: Large Language Model Multi-Agent for Intelligent Verification",
+  "year": 2024,
+  "venue": "2024 International Conference on Ubiquitous Computing and Communications (IUCC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8867,
+  "title": "Agentic, Multimodal Large Language Model (LLM) with behavioural parameters and self-iterative capabilities for conversational architectural design processes",
+  "year": 2025,
+  "venue": "Architectural Science Review",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8885,
+  "title": "Agentic Large Language Models for Conceptual Systems Engineering and Design",
+  "year": 2026,
+  "venue": "Journal of Mechanical Design",
+  "source": "crossref",
+  "abstract": "Abstract Early-stage engineering design involves complex, iterative reasoning, yet existing large language model (LLM) workflows struggle to maintain task continuity and generate executable models. We evaluate whether a structured multi-agent system (MAS) can more effectively manage requirements extraction, functional decomposition, and simulator code generation than a simpler two-agent system (2AS). The target application is a solar-powered water filtration system as described in a cahier des charges. We introduce the design-state graph (DSG), a JSON-serializable representation that bundles requirements, physical embodiments, and python-based physics models into graph nodes. A nine-role MAS iteratively builds and refines the DSG, while the 2AS collapses the process to a generator\u2013reflector loop. Both systems run a total of 60 experiments (2 LLMs\u2014Llama 3.3 70B versus reasoning-distilled deepseek R1 70B \u00d7 2 agent configurations \u00d7 3 temperatures \u00d7 5 seeds). We report a JSON validity, requirement coverage, embodiment presence, code compatibility, workflow completion, runtime, and graph size. Across all runs, both MAS and 2AS maintained perfect JSON integrity and embodiment tagging. Requirement coverage remained minimal (less than 20%). Code compatibility peaked at 100% under specific 2AS settings but averaged below 50% for MAS. Only the reasoning-distilled model reliably flagged workflow completion. Powered by deepseek R1 70B, the MAS generated more granular DSGs (average 5\u20136 nodes) whereas 2AS mode collapsed. Structured multi-agent orchestration enhanced design detail. Reasoning-distilled LLM improved completion rates, yet low requirements and fidelity gaps in coding persisted."
+ },
+ {
+  "paper_id": 8888,
+  "title": "Intelligent Tunnel Fire Source Characteristic Inversion Technology Based on Large Language Model Multi-Agent Collaboration",
+  "year": 2026,
+  "venue": "Fire",
+  "source": "crossref",
+  "abstract": "The integration of computational fluid dynamics (CFD) with deep learning in tunnel fire research is currently constrained by excessive reliance on manual operations and low overall efficiency. To address these limitations, this study presents a multi-agent collaborative framework driven by large language models, which enables full automation of the fire source characteristic inversion process. This framework reorganizes the conventional research pipeline into four dedicated, specialized agents: physical modeling, data governance, model training, and evaluation analysis. As a typical automated verification task, five deep learning models are systematically benchmarked under 45 experimental configurations to implement multi-task continuous regression inversion, which fully demonstrates the framework\u2019s capability of automated, reproducible and large-scale comparative experiments. The experimental results demonstrated that the CNN-LSTM model outperforms other models in extracting spatiotemporal correlation features from temperature time-series data, enabling high-precision prediction of multiple fire parameters. With a 6 s observation window and 10 m sensor spacing, the average R2 attains 0.942, an improvement of 2% over the baseline LSTM model, and the RMSE decreases by 28.8%. For sparse sensor deployment at 30 m spacing, the average R2 remains at 0.917, confirming the effectiveness of integrating spatial feature extraction with temporal modeling. This study provides an efficient technical pathway for intelligent tunnel fire identification and advances the research paradigm by shifting the traditional manual optimization process to a multi-agent system-based optimization workflow."
+ },
+ {
+  "paper_id": 8896,
+  "title": "LLM-in-the-loop: Leveraging Large Language Model for Thematic Analysis",
+  "year": 2023,
+  "venue": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8897,
+  "title": "Multi-Dimensional Behavioral Evaluation of Agentic Stock Prediction Systems Using Large Language Model Judges with Closed-Loop Reinforcement Learning Feedback.",
+  "year": 2026,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8898,
+  "title": "Dynamics of Agentic Loops in Large Language Models: A Geometric Theory of Trajectories.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8902,
+  "title": "Near-Closed-Loop-Control in PV Manufacturing with Centralized Reasoning Agent: LLM and Semantic Kernel based Implementation",
+  "year": 2025,
+  "venue": "2025 57th North American Power Symposium (NAPS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8904,
+  "title": "Toward Intent-Driven Autonomous UMEC: An LLM-Based Cognitive Agent for Closed-Loop Trajectory Orchestration",
+  "year": 2026,
+  "venue": "IEEE Network",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8906,
+  "title": "Multi-Agent LLM Closed-Loop Optimization for NP-Hard Problems",
+  "year": 2026,
+  "venue": "SoutheastCon 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8907,
+  "title": "Exploring Applicability of LLM-Powered Autonomous Agents to Solve Real-life Problems: Microsoft Entra ID Administration Agent (MEAN)",
+  "year": 2024,
+  "venue": "Proceedings of the 26th International Conference on Enterprise Information Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8908,
+  "title": "Agentic SOC: A Hierarchical Swarm-Orchestrated Multi-Agent LLM Architecture for Autonomous OT Cyber Defense",
+  "year": 2026,
+  "venue": "2026 International Wireless Communications and Mobile Computing (IWCMC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8910,
+  "title": "LLM-Conductor: A Closed-Loop Resource-Adaptive Architecture for Secure LLM Deployment in Industrial Sensor Networks and IIoT Systems",
+  "year": 2026,
+  "venue": "Sensors",
+  "source": "crossref",
+  "abstract": "To address the bottlenecks of missing decision-making closed loop, insufficient experience reuse, and decoupled resource scheduling in industrial LLM deployment, this paper proposes LLM-Conductor, a three-layer collaborative architecture that enables monitoring-feedback autonomous decision-making, structured policy memory, and joint policy-resource optimization.Through ablation studies, horizontal comparisons with ISOLATEGPT and ReAct, and graded resource-reduction experiments across six tiers, the results demonstrate that the security risk incidence rate is reduced from 70.6 percent to 1.3 percent, the multi-application collaborative task completion rate reaches 100 percent, and token utilization improves to 88.9 percent. Under constraints of at least 512 MB memory and at least 0.5 GHz CPU, the core task completion rate remains above 95 percent. By deeply coupling decision-making with resource scheduling, this architecture provides an integrated pathway toward efficient, secure, and reliable LLM deployment in Industrial Internet of Things scenarios. Current validation focuses on software-layer interaction patterns under simulated resource-constrained environments, with physical-layer industrial integration reserved for future work."
+ },
+ {
+  "paper_id": 8913,
+  "title": "A Proposal for an LLM-Based Multi-Agent Architecture for Orchestrating Access to Multiple Data Sources",
+  "year": 2026,
+  "venue": "Proceedings of the 28th International Conference on Enterprise Information Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8915,
+  "title": "CapChain: A Capability-Token Access Control Architecture with Verifiable Provenance for Multi-Agent LLM Systems",
+  "year": 2026,
+  "venue": "Applied Sciences",
+  "source": "crossref",
+  "abstract": "Multi-agent large language model (LLM) systems built on LangGraph-style frameworks share an unencrypted state store with no field-level read access control, so one agent can read another\u2019s private fields. The 2026 OWASP Agentic Top 10 and CVE-2025-67644 show that this layer is already being exploited. We propose CapChain, a replacement for the step that merges each agent\u2019s output into shared state, with three primitives: capability tokens that cryptographically bind which agent may read which field, a tamper-evident provenance log with logarithmic-cost audit, and a capability-aware reducer that decides whether each field may be forwarded, redacting and logging unauthorized merges. We evaluate the reducer\u2019s attribute\u2013purpose gate on the MAGPIE contextual-privacy benchmark, with scoring based on two deterministic tiers: verbatim matching and keyword-and-entity salience. Across 150 conditions (25 scenarios \u00d7 3 open-source models \u00d7 2 instruction modes), the Salient tier triggers the redactor for 4.67% of inter-agent messages. This rate counts the reducer\u2019s gate activations (redaction decisions), not leakage prevented. By relocating enforcement from the language model to the state-transition layer that graph-structured orchestrators expose, CapChain brings cryptographic, capability-based access control and audit-by-construction provenance to a structural locus that prompt-level defenses cannot reach."
+ },
+ {
+  "paper_id": 8916,
+  "title": "Trust-Aware Runtime Verification for Autonomous LLM Agent Systems",
+  "year": 2026,
+  "venue": "2026 International Conference on Artificial Intelligence, Systems, and Emerging Technologies (ICAISET)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8917,
+  "title": "Intelligent Meal Planning: A Generative LLM-Based Autonomous Agent Application",
+  "year": 2025,
+  "venue": "2025 Intermountain Engineering, Technology and Computing (IETC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8918,
+  "title": "MIRA: An LLM-Driven Dual-Loop Architecture for Metacognitive Reward Design",
+  "year": 2025,
+  "venue": "Systems",
+  "source": "crossref",
+  "abstract": "A central obstacle to the practical deployment of Reinforcement Learning (RL) is the prevalence of sparse rewards, which often necessitates task-specific dense signals crafted through costly trial-and-error. Automated reward decomposition and return\u2013redistribution methods can reduce this burden, but they are largely semantically agnostic and may fail to capture the multifaceted nature of task performance, leading to reward hacking or stalled exploration. Recent work uses Large Language Models (LLMs) to generate reward functions from high-level task descriptions, but these specifications are typically static and may encode biases or inaccuracies from the pretrained model, resulting in a priori reward misspecification. To address this, we propose the Metacognitive Introspective Reward Architecture (MIRA), a closed-loop architecture that treats LLM-generated reward code as a dynamic object refined through empirical feedback. An LLM first produces a set of computable reward factors. A dual-loop design then decouples policy learning from reward revision: an inner loop jointly trains the agent\u2019s policy and a reward-synthesis network to align with sparse ground-truth outcomes, while an outer loop monitors learning dynamics via diagnostic metrics and, upon detecting pathological signatures, invokes the LLM to perform targeted structural edits. Experiments on MuJoCo benchmarks show that MIRA corrects flawed initial specifications and improves asymptotic performance and sample efficiency over strong reward-design baselines."
+ },
+ {
+  "paper_id": 8923,
+  "title": "Closed-loop evaluation of LLM agents for embedded software development",
+  "year": 2026,
+  "venue": "Journal of Systems Architecture",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8926,
+  "title": "Human-Out-of-the-Loop: Medical Image Augmentation via Autonomous LLM\u2013GANs",
+  "year": 2026,
+  "venue": "2026 Intelligence in Business and Industry (IBI)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8931,
+  "title": "Formal Model of a Controllable LLM Agent Based on a Cognitive Architecture",
+  "year": 2026,
+  "venue": "\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438 \u0432\u044b\u0447\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0442\u043e\u0434\u044b",
+  "source": "crossref",
+  "abstract": "The subject of the research is developing a formal model of a software agent based on a cognitive architecture, where behaviour is defined through an explicit internal state, moral schemas and transition rules, with large language models serving as modules for semantic analysis, condition checking and response generation with high interpretability. The aim is to show how the agent\u2019s behavioural logic can be extracted from the language model\u2019s latent state and represented in an explicit architectural structure with clear functional separation. The proposed agent state model includes the current and normative states, working memory, active schemas and event history. A formal moral schema description defines a local semantic space, permissible actions, evaluation function, transition rule and discrepancy threshold. A mechanism for simultaneous schema activation and a transition graph (accounting for priorities and mutual influences) is proposed. A hybrid stage completion criterion combines metric proximity of states with logical requirements and resource cost assessment. The methodology covers formal descriptions of the agent\u2019s state, schemas, transitions and interaction stage completion criteria under dynamic conditions. The novelty lies in transferring action selection elements from the prompt and latent state into an explicit structure ensuring transparency, formal verification and compliance with ethical/functional constraints. The results can be used for designing LLM agents in systems requiring high quality language responses and explicit specification of states, interaction stages and actions, including adaptation to new scenarios and response to unforeseen situations under dynamic conditions and domain specific requirements."
+ },
+ {
+  "paper_id": 8932,
+  "title": "OpenAI single-agent LLM architecture reduces computational overhead relative to multi-agent orchestration in a simulated mars rover decision-support benchmark",
+  "year": 2026,
+  "venue": "Frontiers in Robotics and AI",
+  "source": "crossref",
+  "abstract": "Mars rover missions require decision-support systems that can interpret terrain, telemetry, environmental conditions, and mission objectives under delayed communication with Earth. This study evaluates whether multi-agent orchestration improves simulated Mars rover decision support compared with a single-agent baseline. A controlled benchmark of 100 synthetic mission-inspired rover scenarios was evaluated using OpenAI GPT-4o and GPT-5.5, with five repeated runs per scenario and architecture. Model-facing scenario inputs were separated from evaluator-side labels so that expected actions and hazards were reserved for scoring only. Performance was measured using decision accuracy, exact and substring-based semantic hazard F1, hazard error counts, latency, token usage, scenario-level paired statistical comparisons, and GPT-4o specialist-agent ablations. Across the tested OpenAI configurations, the single-agent architecture showed numerical advantages in decision accuracy and hazard-label alignment, but these decision-quality differences were not consistently significant under scenario-level statistical analysis with Holm-Bonferroni adjustment. The only decision-quality metric remaining significant was GPT-5.5 exact hazard F1, although absolute values were very low. The most reliable difference was computational efficiency: the single-agent architecture required substantially lower latency and token usage than the prompt-defined multi-agent orchestration architecture. Multi-agent orchestration generated broader hazard lists, including plausible non-canonical observations, but did not reliably improve aggregate decision accuracy or hazard F1. These findings suggest that, for short-context, tool-less, static decision-support tasks where all relevant context is available in a single input, multi-agent orchestration should be treated as a cost-bearing design choice rather than an assumed improvement. The study contributes a reproducible architecture-level benchmark for evaluating when LLM-based orchestration is worth its operational cost in mission-inspired workflows."
+ },
+ {
+  "paper_id": 8938,
+  "title": "LLM-controller: Dynamic robot control adaptation using large language models",
+  "year": 2025,
+  "venue": "Robotics and Autonomous Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8944,
+  "title": "Beyond Content Filtering: A \u201cCircuit Breaker\u201d Architecture for Autonomous Agent Action Safety",
+  "year": 2026,
+  "venue": "SoutheastCon 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8946,
+  "title": "Multi-Agent LLM Architecture for Systems Engineering Automation",
+  "year": 2026,
+  "venue": "SAE Technical Paper Series",
+  "source": "crossref",
+  "abstract": "&lt;div class=\"section abstract\"&gt;&lt;div class=\"htmlview paragraph\"&gt;The increasing complexity of modern software-intensive systems, particularly in the automotive domain, demands new approaches to bridge the gap between high-level engineering specifications and executable, safety-compliant code. This need is amplified by the rapid transition toward software-defined vehicles, where highly dynamic, updateable software functions significantly enlarge the scope and frequency of engineering activities and require scalable, transparent, and adaptive development processes. While recent advances in Large Language Models have demonstrated strong capabilities in automating tasks such as requirements analysis, code generation, and documentation, their deployment in safety-critical engineering workflows remains challenging due to the need for transparency, traceability, and controlled decision-making.&lt;/div&gt;&lt;div class=\"htmlview paragraph\"&gt;This paper presents a modular multi-agent Large Language Model (LLM) pipeline that automates key steps of the systems engineering lifecycle - from requirement structuring and compliance checking to code and test generation - using specialized LLM agents orchestrated within a unified architecture. A central contribution of this work is the integration of a Human-in-the-Loop subsystem, which introduces configurable review checkpoints at critical stages such as requirements analysis, compliance assessment, code generation, and test creation. The human-in-the-loop module enables engineers to approve, reject, or modify intermediate results, ensuring human oversight, enhancing trustworthiness, and enabling adherence to functional safety standards.&lt;/div&gt;&lt;div class=\"htmlview paragraph\"&gt;The system supports heterogeneous input formats and provides end-to-end traceability through structured outputs and detailed monitoring of performance metrics including model usage, token consumption, and automation efficiency. Initial evaluations indicate that the combination of multi-agent specialization and human-in-the-loop-guided oversight can significantly reduce engineering effort while maintaining the transparency and reliability"
+ },
+ {
+  "paper_id": 8949,
+  "title": "InstructMPC: A Human-LLM-in-the-Loop Framework for Context-Aware Control",
+  "year": 2025,
+  "venue": "2025 IEEE 64th Conference on Decision and Control (CDC)",
+  "source": "crossref",
+  "abstract": ""
+ }
+]

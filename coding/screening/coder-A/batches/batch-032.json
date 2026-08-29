@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 4178,
+  "title": "When Users Change Their Mind: Evaluating Interruptible Agents in Long-Horizon Web Navigation",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "As LLM agents transition from short, static problem solving to executing complex, long-horizon tasks in dynamic environments, the ability to handle user interruptions, such as adding requirement or revising goals, during mid-task execution is becoming a core requirement for realistic deployment. However, existing benchmarks largely assume uninterrupted agent behavior or study interruptions only in short, unconstrained language tasks. In this paper, we present the first systematic study of interruptible agents in long-horizon, environmentally grounded web navigation tasks, where actions induce persistent state changes. We formalize three realistic interruption types, including addition, revision, and retraction, and introduce InterruptBench, a benchmark derived from WebArena-Lite that synthesizes high-quality interruption scenarios under strict semantic constraints. Using a unified interruption simulation framework, we evaluate six strong LLM backbones across single- and multi-turn interruption settings, analyzing both their effectiveness in adapting to updated intents and their efficiency in recovering from mid-task changes. Our results show that handling user interruptions effectively and efficiently during long-horizon agentic tasks remains challenging for powerful large-scale LLMs. Code and dataset are available at https://github.com/HenryPengZou/InterruptBench."
+ },
+ {
+  "paper_id": 4179,
+  "title": "StructAgent: Harness Long-horizon Digital Agents with Unified Causal Structure",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Recent advances in large language models (LLMs) and vision-language models (VLMs) have enabled increasingly capable digital agents for computer use. However, real-world tasks are often long-horizon and involve evolving contexts containing accumulated observations, intermediate edits, failed attempts, and partially completed executions. Existing agents typically operate over raw interaction history, making task progress difficult to interpret, verify, and recover, which ultimately limits reliable long-horizon execution. In this paper, we argue that addressing this challenge requires explicitly structuring both the agent's state and workflow around a unified causal representation of task progress. We present \\textbf{StructAgent}, a state-centered framework that introduces a unified state for maintaining compact, verifiable task progress and a structured workflow that regulates progress through verifier-backed state transitions. Building on this design, StructAgent further enables explicit progress checkpointing, evidence-driven task completion, targeted failure recovery, and tool-supported execution, while ensuring that all progress updates remain grounded in verification. Extensive experiments demonstrate that StructAgent consistently improves a wide range of LLM and VLM backbones on long-horizon computer-use tasks. On OSWorld-Verified, it improves Qwen3.5-9B from 27.0\\% to 46.9\\% success rate and Qwen3.5-27B from 31.6\\% to 62.2\\%, while achieving a new open-source state of the art of 78.9\\% with MiniMax-M3. Moreover, the same framework generalizes beyond desktop environments to Minecraft, demonstrating the generality of our design."
+ },
+ {
+  "paper_id": 4180,
+  "title": "ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) enable intelligent multi-robot collaboration but face fundamental trade-offs: open-loop methods that compile tasks into formal representations for external executors produce sound plans but lack adaptability in partially observable environments, while iterative methods incur prohibitive computational costs that scale poorly with team size and task complexity. In this paper, we propose Efficient Long-Horizon Planning (ELHPlan), a novel framework that introduces Action Chains, sequences of actions explicitly bound to sub-goal intentions, as the fundamental planning primitive. ELHPlan operates via a cyclical process: 1) constructing intention-bound action sequences, 2) proactively validating for conflicts and feasibility, 3) refining issues through targeted mechanisms, and 4) executing validated actions. This design balances adaptability and efficiency by providing intention-bound action sequences with longer lookahead while avoiding expensive full re-planning. We further advocate comprehensive efficiency metrics, including token consumption and planning time, to more holistically evaluate multi-agent collaboration. Our experiments on benchmarks TDW-MAT and C-WAH demonstrate that ELHPlan achieves comparable task success rates while consuming only 30-40% of the tokens required by state-of-the-art methods. Our research establishes a new efficiency-effectiveness frontier for LLM-based multi-agent planning systems."
+ },
+ {
+  "paper_id": 4182,
+  "title": "Memory as Action: Autonomous Context Curation for Long-Horizon Agentic Tasks",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Long-context Large Language Models, despite their expanded capacity, require careful working memory management to mitigate attention dilution during long-horizon tasks. Yet existing approaches rely on external mechanisms that lack awareness of the agent's reasoning state, leading to suboptimal decisions. We propose Memory-as-Action (MemAct), a framework that treats working memory management as learnable policy actions. By formulating context management as in-place editing operations (deletion, insertion), MemAct enables joint optimization of information retention and task performance through end-to-end reinforcement learning. To address the computational challenges of dynamic context updates, we introduce Dynamic Context Policy Optimization, which restores training efficiency without compromising reasoning integrity. Experiments show that MemAct-RL-14B matches the accuracy of models $16\\times$ larger while reducing average context length by 51\\%, with learned strategies that adapt to model capabilities and generalize across task complexities."
+ },
+ {
+  "paper_id": 4183,
+  "title": "StackPilot: Autonomous Function Agents for Scalable and Environment-Free Code Execution",
+  "year": 2025,
+  "venue": "arXiv:cs.PL",
+  "source": "arxiv",
+  "abstract": "Recent advances in large language models (LLMs) have substantially enhanced automated code generation across a wide range of programming languages. Nonetheless, verifying the correctness and executability of LLM-generated code remains a significant challenge, as traditional methods rely on language-specific compilers and environment-dependent runtimes. To overcome these limitations, we introduce StackPilot, an LLM-native, multi-agent framework designed for language-agnostic code verification and execution, which operates independently of conventional toolchains. StackPilot offers three principal innovations: (1) a Function-as-Agents paradigm, in which each function is modeled as an autonomous agent capable of fine-grained reasoning and collaborative verification; (2) an LLM-as-Executor strategy, which enables scalable verification via stack-based scheduling; and (3) a novel snapshot mechanism that preserves complete execution contexts, facilitating deterministic and lossless context switching during verification. Empirical evaluations demonstrate that StackPilot achieves framework reliability rates between 89% and 97%, substantially outperforming baseline approaches. These results indicate that StackPilot can reliably verify and execute a significantly larger proportion of LLM-generated code across diverse programming tasks compared to existing methods."
+ },
+ {
+  "paper_id": 4184,
+  "title": "Continuum Memory Architectures for Long-Horizon LLM Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Retrieval-augmented generation (RAG) has become the default strategy for providing large language model (LLM) agents with contextual knowledge. Yet RAG treats memory as a stateless lookup table: information persists indefinitely, retrieval is read-only, and temporal continuity is absent. We define the \\textit{Continuum Memory Architecture} (CMA), a class of systems that maintain and update internal state across interactions through persistent storage, selective retention, associative routing, temporal chaining, and consolidation into higher-order abstractions. Rather than disclosing implementation specifics, we specify the architectural requirements CMA imposes and show consistent behavioral advantages on tasks that expose RAG's structural inability to accumulate, mutate, or disambiguate memory. The empirical probes (knowledge updates, temporal association, associative recall, contextual disambiguation) demonstrate that CMA is a necessary architectural primitive for long-horizon agents while highlighting open challenges around latency, drift, and interpretability."
+ },
+ {
+  "paper_id": 4185,
+  "title": "Revisable by Design: A Theory of Streaming LLM Agent Execution",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Current LLM agents operate under an implicit but universal assumption: execution is a transaction -- the user submits a request, the agent works in isolation, and only upon completion does the dialogue resume. This forces users into a binary choice: wait for a potentially incorrect output, or interrupt and lose all progress. We reject this assumption and propose the stream paradigm, in which agent execution and user intervention are concurrent, interleaved processes sharing a bidirectional channel. We formalize this paradigm through a reversibility taxonomy that classifies every agent action as Idempotent, Reversible, Compensable, or Irreversible, and arrive at a core conclusion: an agent's flexibility is bounded by its reversibility. We prove that conflicting compensable actions impose unavoidable adaptation costs and that conflicting irreversible actions make full specification satisfaction impossible -- these costs are properties of the action space, not of the algorithm. Guided by this insight, we present the Revision Absorber, a reactive algorithm based on the Earliest-Conflict Rollback rule that is structurally optimal under mild assumptions. Experiments on StreamBench with real LLM agents validate all predictions: the Absorber matches the quality of a brute-force full-restart baseline while wasting an order of magnitude fewer steps of already-completed work, turning mid-execution revisions from a dead-end into a first-class interaction."
+ },
+ {
+  "paper_id": 4186,
+  "title": "El Agente: An autonomous agent for quantum chemistry",
+  "year": 2025,
+  "venue": "Matter",
+  "source": "openalex",
+  "abstract": "Computational chemistry tools are widely used to study the behavior of chemical phenomena. Yet, the complexity of these tools can make them inaccessible to non-specialists and challenging even for experts. In this work, we introduce El Agente Q, an LLM-based multi-agent system that dynamically generates and executes quantum chemistry workflows from natural language user prompts. The system is built on a novel cognitive architecture featuring a hierarchical memory framework that enables flexible task decomposition, adaptive tool selection, post-analysis, and autonomous file handling and submission. El Agente Q is benchmarked on six university-level course exercises and two case studies, demonstrating robust problem-solving performance (averaging > 87% task success) and adaptive error handling through in situ debugging. It also supports longer-term, multi-step task execution for more complex workflows, while maintaining transparency through detailed action trace logs. Together, these capabilities lay the foundation for increasingly autonomous and accessible quantum chemistry."
+ },
+ {
+  "paper_id": 4187,
+  "title": "Programming-by-Demonstration for Long-Horizon Robot Tasks",
+  "year": 2024,
+  "venue": "Proceedings of the ACM on Programming Languages",
+  "source": "openalex",
+  "abstract": "The goal of programmatic Learning from Demonstration (LfD) is to learn a policy in a programming language that can be used to control a robot\u2019s behavior from a set of user demonstrations. This paper presents a new programmatic LfD algorithm that targets long-horizon robot tasks which require synthesizing programs with complex control flow structures, including nested loops with multiple conditionals. Our proposed method first learns a program sketch that captures the target program\u2019s control flow and then completes this sketch using an LLM-guided search procedure that incorporates a novel technique for proving unrealizability of programming-by-demonstration problems. We have implemented our approach in a new tool called prolex and present the results of a comprehensive experimental evaluation on 120 benchmarks involving complex tasks and environments. We show that, given a 120 second time limit, prolex can find a program consistent with the demonstrations in 80% of the cases. Furthermore, for 81% of the tasks for which a solution is returned, prolex is able to find the ground truth program with just one demonstration. In comparison, CVC5, a syntaxguided synthesis tool, is only able to solve 25% of the cases even when given the ground truth program sketch , and an LLM-based approach, GPT-Synth, is unable to solve any of the tasks due to the environment complexity."
+ },
+ {
+  "paper_id": 4188,
+  "title": "CurriculumPT: LLM-Based Multi-Agent Autonomous Penetration Testing with Curriculum-Guided Task Scheduling",
+  "year": 2025,
+  "venue": "Applied Sciences",
+  "source": "openalex",
+  "abstract": "While autonomous driving systems and intelligent transportation infrastructures become increasingly software-defined and network-connected, ensuring their cybersecurity has become a critical component of traffic safety. Large language models (LLMs) have recently shown promise in automating aspects of penetration testing, yet most existing approaches remain limited to simple, single-step exploits. They struggle to handle complex, multi-stage vulnerabilities that demand precise coordination, contextual reasoning, and knowledge reuse. This is particularly problematic in safety-critical domains, such as autonomous vehicles, where subtle software flaws can cascade across interdependent subsystems. In this work, we present CurriculumPT, a novel LLM-based penetration testing framework specifically designed for the security of intelligent systems. CurriculumPT combines curriculum learning and a multi-agent system to enable LLM agents to progressively acquire and apply exploitation skills across common vulnerabilities and exposures-based tasks. Through a structured progression from simple to complex vulnerabilities, agents build and refine an experience knowledge base that supports generalization to new attack surfaces without requiring model fine-tuning. We evaluate CurriculumPT on 15 real-world vulnerabilities scenarios and demonstrate that it outperforms three state-of-the-art baselines by up to 18 percentage points in exploit success rate, while achieving superior efficiency in execution time and resource usage. Our results confirm that CurriculumPT is capable of autonomous, scalable penetration testing and knowledge transfer, laying the groundwork for intelligent security auditing of modern autonomous driving systems and other cyberphysical transportation platforms."
+ },
+ {
+  "paper_id": 4191,
+  "title": "Embodied large language models enable robots to complete complex tasks in unpredictable environments",
+  "year": 2025,
+  "venue": "Nature Machine Intelligence",
+  "source": "openalex",
+  "abstract": "Completing complex tasks in unpredictable settings challenges robotic systems, requiring a step change in machine intelligence. Sensorimotor abilities are considered integral to human intelligence. Thus, biologically inspired machine intelligence might usefully combine artificial intelligence with robotic sensorimotor capabilities. Here we report an embodied large-language-model-enabled robot (ELLMER) framework, utilizing GPT-4 and a retrieval-augmented generation infrastructure, to enable robots to complete long-horizon tasks in unpredictable settings. The method extracts contextually relevant examples from a knowledge base, producing action plans that incorporate force and visual feedback and enabling adaptation to changing conditions. We tested ELLMER on a robot tasked with coffee making and plate decoration; these tasks consist of a sequence of sub-tasks from drawer opening to pouring, each benefiting from distinct feedback types and methods. We show that the ELLMER framework allows the robot to complete the tasks. This demonstration marks progress towards scalable, efficient and 'intelligent robots' able to complete complex tasks in uncertain environments."
+ },
+ {
+  "paper_id": 4192,
+  "title": "ReAcTree: Hierarchical LLM Agent Trees with Control Flow for Long-Horizon Task Planning",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent advancements in large language models (LLMs) have enabled significant progress in decision-making and task planning for embodied autonomous agents. However, most existing methods struggle with complex, long-horizon tasks because they rely on a monolithic trajectory that entangles all past decisions and observations to solve the entire task in a single unified process. To address this limitation, we propose ReAcTree, a hierarchical task-planning method that decomposes a complex goal into manageable subgoals within a dynamically constructed agent tree. Each subgoal is handled by an LLM agent node capable of reasoning, acting, and further expanding the tree, while control flow nodes coordinate the execution strategies of agent nodes. In addition, we integrate two complementary memory systems: each agent node retrieves goal-specific, subgoal-level examples from episodic memory and shares environment-specific observations through working memory. Experiments on the WAH-NL and ALFRED show ReAcTree consistently outperforms strong task-planning baselines such as ReAct across diverse LLMs. Notably, on WAH-NL, ReAcTree achieves a 61% goal success rate with Qwen 2.5 72B, nearly doubling ReAct's 31%. The code is available at https://github.com/Choi-JaeWoo/ReAcTree.git."
+ },
+ {
+  "paper_id": 4194,
+  "title": "RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We explore how iterative revising a chain of thoughts with the help of information retrieval significantly improves large language models' reasoning and generation ability in long-horizon generation tasks, while hugely mitigating hallucination. In particular, the proposed method -- *retrieval-augmented thoughts* (RAT) -- revises each thought step one by one with retrieved information relevant to the task query, the current and the past thought steps, after the initial zero-shot CoT is generated. Applying RAT to GPT-3.5, GPT-4, and CodeLLaMA-7b substantially improves their performances on various long-horizon generation tasks; on average of relatively increasing rating scores by 13.63% on code generation, 16.96% on mathematical reasoning, 19.2% on creative writing, and 42.78% on embodied task planning. The demo page can be found at https://craftjarvis.github.io/RAT"
+ },
+ {
+  "paper_id": 4195,
+  "title": "LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Goal-conditioned policies for robotic navigation can be trained on large, unannotated datasets, providing for good generalization to real-world settings. However, particularly in vision-based settings where specifying goals requires an image, this makes for an unnatural interface. Language provides a more convenient modality for communication with robots, but contemporary methods typically require expensive supervision, in the form of trajectories annotated with language descriptions. We present a system, LM-Nav, for robotic navigation that enjoys the benefits of training on unannotated large datasets of trajectories, while still providing a high-level interface to the user. Instead of utilizing a labeled instruction following dataset, we show that such a system can be constructed entirely out of pre-trained models for navigation (ViNG), image-language association (CLIP), and language modeling (GPT-3), without requiring any fine-tuning or language-annotated robot data. We instantiate LM-Nav on a real-world mobile robot and demonstrate long-horizon navigation through complex, outdoor environments from natural language instructions. For videos of our experiments, code release, and an interactive Colab notebook that runs in your browser, please check out our project page https://sites.google.com/view/lmnav"
+ },
+ {
+  "paper_id": 4199,
+  "title": "Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "This review presents a comprehensive analysis of two emerging paradigms in AI-assisted software development: vibe coding and agentic coding. While both leverage large language models (LLMs), they differ fundamentally in autonomy, architectural design, and the role of the developer. Vibe coding emphasizes intuitive, human-in-the-loop interaction through prompt-based, conversational workflows that support ideation, experimentation, and creative exploration. In contrast, agentic coding enables autonomous software development through goal-driven agents capable of planning, executing, testing, and iterating tasks with minimal human intervention. We propose a detailed taxonomy spanning conceptual foundations, execution models, feedback loops, safety mechanisms, debugging strategies, and real-world tool ecosystems. Through comparative workflow analysis and 20 detailed use cases, we illustrate how vibe systems thrive in early-stage prototyping and education, while agentic systems excel in enterprise-grade automation, codebase refactoring, and CI/CD integration. We further examine emerging trends in hybrid architectures, where natural language interfaces are coupled with autonomous execution pipelines. Finally, we articulate a future roadmap for agentic AI, outlining the infrastructure needed for trustworthy, explainable, and collaborative systems. Our findings suggest that successful AI software engineering will rely not on choosing one paradigm, but on harmonizing their strengths within a unified, human-centered development lifecycle."
+ },
+ {
+  "paper_id": 4200,
+  "title": "PLATO: Planning with LLMs and Affordances for Tool Manipulation",
+  "year": 2026,
+  "venue": "Journal of Intelligent & Robotic Systems",
+  "source": "openalex",
+  "abstract": "Abstract As robotic systems become increasingly integrated into complex real-world environments, there is a growing need for approaches that enable robots to understand and act on natural language instructions without extensive pre-programmed knowledge. This paper presents PLATO, a system that addresses this challenge by leveraging specialized large language model agents to process language inputs, understand the environment, predict tool affordances, and generate executable actions. Unlike traditional systems that depend on hard-coded environmental information, PLATO employs a modular agent-based architecture that operates without any initial knowledge of the environment. These agents identify objects and their locations, generate a high-level plan, translate it into low-level actions, and verify successful execution. The system is tested particularly on challenging tool-use tasks, which involve handling diverse objects and require long-horizon planning. PLATO\u2019s design allows it to adapt to dynamic and unstructured settings, enhancing its flexibility and robustness. By evaluating the system across various complex scenarios, we demonstrate its capability to tackle a diverse range of tasks and offer a novel solution to integrate LLMs with robotic platforms, advancing the state-of-the-art in autonomous robotic task execution. For videos and access to our code base, please see our project website: https://sites.google.com/view/plato-anonymous ."
+ },
+ {
+  "paper_id": 4201,
+  "title": "Reinforcement Learning for Long-Horizon Interactive LLM Agents",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Interactive digital agents (IDAs) leverage APIs of stateful digital environments to perform tasks in response to user requests. While IDAs powered by instruction-tuned large language models (LLMs) can react to feedback from interface invocations in multi-step exchanges, they have not been trained in their respective digital environments. Prior methods accomplish less than half of tasks in sophisticated benchmarks such as AppWorld. We present a reinforcement learning (RL) approach that trains IDAs directly in their target environments. We formalize this training as a partially observable Markov decision process and derive LOOP, a data- and memory-efficient variant of proximal policy optimization. LOOP uses no value network and maintains exactly one copy of the underlying LLM in memory, making its implementation straightforward and as memory-efficient as fine-tuning a single LLM. A 32-billion-parameter agent trained with LOOP in the AppWorld environment outperforms the much larger OpenAI o1 agent by 9 percentage points (15% relative). To our knowledge, this is the first reported application of RL to IDAs that interact with a stateful, multi-domain, multi-app environment via direct API calls. Our analysis sheds light on the effectiveness of RL in this area, showing that the agent learns to consult the API documentation, avoid unwarranted assumptions, minimize confabulation, and recover from setbacks."
+ },
+ {
+  "paper_id": 4202,
+  "title": "Instruction-Augmented Long-Horizon Planning: Embedding Grounding Mechanisms in Embodied Mobile Manipulation",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Enabling humanoid robots to perform long-horizon mobile manipulation planning in real-world environments based on embodied perception and comprehension abilities has been a longstanding challenge. With the recent rise of large language models (LLMs), there has been a notable increase in the development of LLM-based planners. These approaches either utilize human-provided textual representations of the real world or heavily depend on prompt engineering to extract such representations, lacking the capability to quantitatively understand the environment, such as determining the feasibility of manipulating objects. To address these limitations, we present the Instruction-Augmented Long-Horizon Planning (IALP) system, a novel framework that employs LLMs to generate feasible and optimal actions based on real-time sensor feedback, including grounded knowledge of the environment, in a closed-loop interaction. Distinct from prior works, our approach augments user instructions into PDDL problems by leveraging both the abstract reasoning capabilities of LLMs and grounding mechanisms. By conducting various real-world long-horizon tasks, each consisting of seven distinct manipulatory skills, our results demonstrate that the IALP system can efficiently solve these tasks with an average success rate exceeding 80%. Our proposed method can operate as a high-level planner, equipping robots with substantial autonomy in unstructured environments through the utilization of multi-modal sensor inputs."
+ },
+ {
+  "paper_id": 4203,
+  "title": "Generative AI in Embodied Systems: System-Level Analysis of Performance, Efficiency and Scalability",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Embodied systems, where generative autonomous agents engage with the physical world through integrated perception, cognition, action, and advanced reasoning powered by large language models (LLMs), hold immense potential for addressing complex, long-horizon, multi-objective tasks in realworld environments. However, deploying these systems remains challenging due to prolonged runtime latency, limited scalability, and heightened sensitivity, leading to significant system inefficiencies. In this paper, we aim to understand the workload characteristics of embodied agent systems and explore optimization solutions. We systematically categorize these systems into four paradigms and conduct benchmarking studies to evaluate their task performance and system efficiency across various modules, agent scales, and embodied tasks. Our benchmarking studies uncover critical challenges, such as prolonged planning and communication latency, redundant agent interactions, complex low-level control mechanisms, memory inconsistencies, exploding prompt lengths, sensitivity to self-correction and execution, sharp declines in success rates, and reduced collaboration efficiency as agent numbers increase. Leveraging these profiling insights, we suggest system optimization strategies to improve the performance, efficiency, and scalability of embodied agents across different paradigms. This paper presents the first system-level analysis of embodied AI agents, and explores opportunities for advancing future embodied system design."
+ },
+ {
+  "paper_id": 4205,
+  "title": "Electromagnetic metamaterial agent",
+  "year": 2025,
+  "venue": "Light Science & Applications",
+  "source": "openalex",
+  "abstract": "Metamaterials have revolutionized wave control; in the last two decades, they evolved from passive devices via programmable devices to sensor-endowed self-adaptive devices realizing a user-specified functionality. Although deep-learning techniques play an increasingly important role in metamaterial inverse design, measurement post-processing and end-to-end optimization, their role is ultimately still limited to approximating specific mathematical relations; the metamaterial is still limited to serving as proxy of a human operator, realizing a predefined functionality. Here, we propose and experimentally prototype a paradigm shift toward a metamaterial agent (coined metaAgent) endowed with reasoning and cognitive capabilities enabling the autonomous planning and successful execution of diverse long-horizon tasks, including electromagnetic (EM) field manipulations and interactions with robots and humans. Leveraging recently released foundation models, metaAgent reasons in high-level natural language, acting upon diverse prompts from an evolving complex environment. Specifically, metaAgent's cerebrum performs high-level task planning in natural language via a multi-agent discussion mechanism, where agents are domain experts in sensing, planning, grounding, and coding. In response to live environmental feedback within a real-world setting emulating an ambient-assisted living context (including human requests in natural language), our metaAgent prototype self-organizes a hierarchy of EM manipulation tasks in conjunction with commanding a robot. metaAgent masters foundational EM manipulation skills related to wireless communications and sensing, and it memorizes and learns from past experience based on human feedback."
+ },
+ {
+  "paper_id": 4206,
+  "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Tool-augmented large language model (LLM) agents promise to unify scientific reasoning with computation, yet their deployment in high-stakes domains like drug discovery is bottlenecked by two critical barriers: unconstrained tool-use governance and poor long-horizon reliability. In dependency-heavy pharmaceutical pipelines, autonomous agents often drift into irreproducible trajectories, where early-stage hallucinations multiplicatively compound into downstream failures. To overcome this, we present Mozi, a dual-layer architecture that bridges the flexibility of generative AI with the deterministic rigor of computational biology. Layer A (Control Plane) establishes a governed supervisor--worker hierarchy that enforces role-based tool isolation, limits execution to constrained action spaces, and drives reflection-based replanning. Layer B (Workflow Plane) operationalizes canonical drug discovery stages -- from Target Identification to Lead Optimization -- as stateful, composable skill graphs. This layer integrates strict data contracts and strategic human-in-the-loop (HITL) checkpoints to safeguard scientific validity at high-uncertainty decision boundaries. Operating on the design principle of ``free-form reasoning for safe tasks, structured execution for long-horizon pipelines,'' Mozi provides built-in robustness mechanisms and trace-level audibility to completely mitigate error accumulation. We evaluate Mozi on PharmaBench, a curated benchmark for biomedical agents, demonstrating superior orchestration accuracy over existing baselines. Furthermore, through end-to-end therapeutic case studies, we demonstrate Mozi's ability to navigate massive chemical spaces, enforce stringent toxicity filters, and generate highly competitive in silico candidates, effectively transforming the LLM from a fragile conversationalist into a reliable, governed co-scientist."
+ },
+ {
+  "paper_id": 4208,
+  "title": "EmbodiedGPT: Vision-Language Pre-Training via Embodied Chain of Thought",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Embodied AI is a crucial frontier in robotics, capable of planning and executing action sequences for robots to accomplish long-horizon tasks in physical environments. In this work, we introduce EmbodiedGPT, an end-to-end multi-modal foundation model for embodied AI, empowering embodied agents with multi-modal understanding and execution capabilities. To achieve this, we have made the following efforts: (i) We craft a large-scale embodied planning dataset, termed EgoCOT. The dataset consists of carefully selected videos from the Ego4D dataset, along with corresponding high-quality language instructions. Specifically, we generate a sequence of sub-goals with the \"Chain of Thoughts\" mode for effective embodied planning. (ii) We introduce an efficient training approach to EmbodiedGPT for high-quality plan generation, by adapting a 7B large language model (LLM) to the EgoCOT dataset via prefix tuning. (iii) We introduce a paradigm for extracting task-related features from LLM-generated planning queries to form a closed loop between high-level planning and low-level control. Extensive experiments show the effectiveness of EmbodiedGPT on embodied tasks, including embodied planning, embodied control, visual captioning, and visual question answering. Notably, EmbodiedGPT significantly enhances the success rate of the embodied control task by extracting more effective features. It has achieved a remarkable 1.6 times increase in success rate on the Franka Kitchen benchmark and a 1.3 times increase on the Meta-World benchmark, compared to the BLIP-2 baseline fine-tuned with the Ego4D dataset."
+ },
+ {
+  "paper_id": 4209,
+  "title": "ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Motivated by the substantial achievements observed in Large Language Models (LLMs) in the field of natural language processing, recent research has commenced investigations into the application of LLMs for complex, long-horizon sequential task planning challenges in robotics. LLMs are advantageous in offering the potential to enhance the generalizability as task-agnostic planners and facilitate flexible interaction between human instructors and planning systems. However, task plans generated by LLMs often lack feasibility and correctness. To address this challenge, we introduce ISR-LLM, a novel framework that improves LLM-based planning through an iterative self-refinement process. The framework operates through three sequential steps: preprocessing, planning, and iterative self-refinement. During preprocessing, an LLM translator is employed to convert natural language input into a Planning Domain Definition Language (PDDL) formulation. In the planning phase, an LLM planner formulates an initial plan, which is then assessed and refined in the iterative self-refinement step by using a validator. We examine the performance of ISR-LLM across three distinct planning domains. The results show that ISR-LLM is able to achieve markedly higher success rates in task accomplishments compared to state-of-the-art LLM-based planners. Moreover, it also preserves the broad applicability and generalizability of working with natural language instructions."
+ },
+ {
+  "paper_id": 4210,
+  "title": "Human-Object Interaction from Human-level Instructions",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Intelligent agents must autonomously interact with the environments to perform daily tasks based on human-level instructions. They need a foundational understanding of the world to accurately interpret these instructions, along with precise low-level movement and interaction skills to execute the derived actions. In this work, we propose the first complete system for synthesizing physically plausible, long-horizon human-object interactions for object manipulation in contextual environments, driven by human-level instructions. We leverage large language models (LLMs) to interpret the input instructions into detailed execution plans. Unlike prior work, our system is capable of generating detailed finger-object interactions, in seamless coordination with full-body movements. We also train a policy to track generated motions in physics simulation via reinforcement learning (RL) to ensure physical plausibility of the motion. Our experiments demonstrate the effectiveness of our system in synthesizing realistic interactions with diverse objects in complex environments, highlighting its potential for real-world applications."
+ },
+ {
+  "paper_id": 4211,
+  "title": "LLMs augmented hierarchical reinforcement learning with action primitives for long-horizon manipulation tasks",
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "source": "openalex",
+  "abstract": "Deep reinforcement learning methods have shown promising results in learning specific tasks, but struggle to cope with the challenges of long horizon manipulation tasks. As task complexity increases, the large state space and sparse reward make it difficult to collect effective samples through random exploration. Hierarchical reinforcement learning decomposes complex tasks into subtasks, which can reduce the difficulty of skill learning, but still suffers from limitations such as inefficient training and poor transferability. Recently, large language models (LLMs) have demonstrated the ability to encode vast amounts of knowledge about the world and to excel in context-based learning and reasoning tasks. However, applying LLMs to real-world tasks remains challenging due to their lack of grounding in specific task contexts. In this paper, we leverage the planning capabilities of LLMs alongside reinforcement learning (RL) to facilitate learning from the environment. The proposed approach yields a hierarchical agent that combines LLMs with parameterized action primitives (LARAP) to address long-horizon manipulation tasks. Rather than relying solely on LLMs, the agent uses them to guide a high-level policy, improving sample efficiency during training. Experimental results show that LARAP significantly outperforms baseline methods across various simulated manipulation tasks. The source code is available at: https://github.com/ningzhang-buaa/LARAP-code."
+ },
+ {
+  "paper_id": 4212,
+  "title": "Towards Robust Multi-Modal Reasoning via Model Selection",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The reasoning capabilities of LLM (Large Language Model) are widely acknowledged in recent research, inspiring studies on tool learning and autonomous agents. LLM serves as the \"brain\" of the agent, orchestrating multiple tools for collaborative multi-step task solving. Unlike methods invoking tools like calculators or weather APIs for straightforward tasks, multi-modal agents excel by integrating diverse AI models for complex challenges. However, current multi-modal agents neglect the significance of model selection: they primarily focus on the planning and execution phases, and will only invoke predefined task-specific models for each subtask, making the execution fragile. Meanwhile, other traditional model selection methods are either incompatible with or suboptimal for the multi-modal agent scenarios, due to ignorance of dependencies among subtasks arising by multi-step reasoning. To this end, we identify the key challenges therein and propose the $\\textit{M}^3$ framework as a plug-in with negligible runtime overhead at test-time. This framework improves model selection and bolsters the robustness of multi-modal agents in multi-step reasoning. In the absence of suitable benchmarks, we create MS-GQA, a new dataset specifically designed to investigate the model selection challenge in multi-modal agents. Our experiments reveal that our framework enables dynamic model selection, considering both user inputs and subtask dependencies, thereby robustifying the overall reasoning process. Our code and benchmark: https://github.com/LINs-lab/M3."
+ },
+ {
+  "paper_id": 4213,
+  "title": "The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Does continued scaling of large language models (LLMs) yield diminishing returns? In this work, we show that short-task benchmarks may give an illusion of slowing progress, as even marginal gains in single-step accuracy can compound into exponential improvements in the length of tasks a model can successfully complete. Then, we argue that failures of LLMs when simple tasks are made longer arise from mistakes in execution, rather than an inability to reason. So, we propose isolating execution capability, by explicitly providing the knowledge and plan needed to solve a long-horizon task. First, we find that larger models can correctly execute significantly more turns even when small models have near-perfect single-turn accuracy. We then observe that the per-step accuracy of models degrades as the number of steps increases. This is not just due to long-context limitations -- curiously, we observe a self-conditioning effect -- models become more likely to make mistakes when the context contains their errors from prior turns. Self-conditioning does not reduce by just scaling the model size. But, we find that thinking mitigates self-conditioning, and also enables execution of much longer tasks in a single turn. We conclude by benchmarking frontier thinking models on the length of tasks they can execute in a single turn. Overall, by focusing on the ability to execute, we hope to reconcile debates on how LLMs can solve complex reasoning problems yet fail at simple tasks when made longer, and highlight the massive benefits of scaling model size and sequential test-time compute for long-horizon tasks."
+ },
+ {
+  "paper_id": 4215,
+  "title": "LLM-State: Open World State Representation for Long-horizon Task Planning with Large Language Model",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "This work addresses the problem of long-horizon task planning with the Large Language Model (LLM) in an open-world household environment. Existing works fail to explicitly track key objects and attributes, leading to erroneous decisions in long-horizon tasks, or rely on highly engineered state features and feedback, which is not generalizable. We propose an open state representation that provides continuous expansion and updating of object attributes from the LLM's inherent capabilities for context understanding and historical action reasoning. Our proposed representation maintains a comprehensive record of an object's attributes and changes, enabling robust retrospective summary of the sequence of actions leading to the current state. This allows continuously updating world model to enhance context understanding for decision-making in task planning. We validate our model through experiments across simulated and real-world task planning scenarios, demonstrating significant improvements over baseline methods in a variety of tasks requiring long-horizon state tracking and reasoning. (Video\\footnote{Video demonstration: \\url{https://youtu.be/QkN-8pxV3Mo}.})"
+ },
+ {
+  "paper_id": 4216,
+  "title": "Text2Motion: From Natural Language Instructions to Feasible Plans",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We propose Text2Motion, a language-based planning framework enabling robots to solve sequential manipulation tasks that require long-horizon reasoning. Given a natural language instruction, our framework constructs both a task- and motion-level plan that is verified to reach inferred symbolic goals. Text2Motion uses feasibility heuristics encoded in Q-functions of a library of skills to guide task planning with Large Language Models. Whereas previous language-based planners only consider the feasibility of individual skills, Text2Motion actively resolves geometric dependencies spanning skill sequences by performing geometric feasibility planning during its search. We evaluate our method on a suite of problems that require long-horizon reasoning, interpretation of abstract goals, and handling of partial affordance perception. Our experiments show that Text2Motion can solve these challenging problems with a success rate of 82%, while prior state-of-the-art language-based planning methods only achieve 13%. Text2Motion thus provides promising generalization characteristics to semantically diverse sequential manipulation tasks with geometric dependencies between skills."
+ },
+ {
+  "paper_id": 4217,
+  "title": "HeroBench: A Benchmark for Long-Horizon Planning and Structured Reasoning in Virtual Worlds",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) perform well on step-by-step reasoning benchmarks such as mathematics and code generation, yet their ability to carry out robust long-horizon planning under realistic constraints remains insufficiently evaluated. Existing planning benchmarks often rely on abstract domains or interactive feedback, obscuring end-to-end planning failures and feasibility errors. We introduce HeroBench, a benchmark for evaluating long-horizon, hierarchical planning and structured reasoning in a complex RPG-inspired virtual world. Tasks require models to select numerically feasible equipment, reason over multi-level crafting and resource dependencies, and execute hundreds to thousands of actions as a single end-to-end plan. HeroBench integrates symbolic planning, numeric combat simulation, spatial reasoning, and resource management, while supporting scalable difficulty and adversarial distractors. HeroBench evaluates executable plans through simulation, enabling both success-based and fine-grained progress metrics, as well as detailed failure mode analysis. An evaluation of 25 state-of-the-art LLMs reveals large performance disparities rarely observed in conventional reasoning benchmarks. While reasoning models perform substantially better, no model reliably solves the hardest tasks, highlighting persistent challenges in long-horizon autonomous planning."
+ },
+ {
+  "paper_id": 4218,
+  "title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We propose BOSS, an approach that automatically learns to solve new long-horizon, complex, and meaningful tasks by growing a learned skill library with minimal supervision. Prior work in reinforcement learning require expert supervision, in the form of demonstrations or rich reward functions, to learn long-horizon tasks. Instead, our approach BOSS (BOotStrapping your own Skills) learns to accomplish new tasks by performing \"skill bootstrapping,\" where an agent with a set of primitive skills interacts with the environment to practice new skills without receiving reward feedback for tasks outside of the initial skill set. This bootstrapping phase is guided by large language models (LLMs) that inform the agent of meaningful skills to chain together. Through this process, BOSS builds a wide range of complex and useful behaviors from a basic set of primitive skills. We demonstrate through experiments in realistic household environments that agents trained with our LLM-guided bootstrapping procedure outperform those trained with naive bootstrapping as well as prior unsupervised skill acquisition methods on zero-shot execution of unseen, long-horizon tasks in new environments. Website at clvrai.com/boss."
+ },
+ {
+  "paper_id": 4221,
+  "title": "Mobile-Agent-RAG: Driving Smart Multi-Agent Coordination with Contextual Knowledge Empowerment for Long-Horizon Mobile Automation",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Mobile agents show immense potential, yet current state-of-the-art (SoTA) agents exhibit inadequate success rates on real-world, long-horizon, cross-application tasks. We attribute this bottleneck to the agents' excessive reliance on static, internal knowledge within MLLMs, which leads to two critical failure points: 1) strategic hallucinations in high-level planning and 2) operational errors during low-level execution on user interfaces (UI). The core insight of this paper is that high-level planning and low-level UI operations require fundamentally distinct types of knowledge. Planning demands high-level, strategy-oriented experiences, whereas operations necessitate low-level, precise instructions closely tied to specific app UIs. Motivated by these insights, we propose Mobile-Agent-RAG, a novel hierarchical multi-agent framework that innovatively integrates dual-level retrieval augmentation. At the planning stage, we introduce Manager-RAG to reduce strategic hallucinations by retrieving human-validated comprehensive task plans that provide high-level guidance. At the execution stage, we develop Operator-RAG to improve execution accuracy by retrieving the most precise low-level guidance for accurate atomic actions, aligned with the current app and subtask. To accurately deliver these knowledge types, we construct two specialized retrieval-oriented knowledge bases. Furthermore, we introduce Mobile-Eval-RAG, a challenging benchmark for evaluating such agents on realistic multi-app, long-horizon tasks. Extensive experiments demonstrate that Mobile-Agent-RAG significantly outperforms SoTA baselines, improving task completion rate by 11.0% and step efficiency by 10.2%, establishing a robust paradigm for context-aware, reliable multi-agent mobile automation."
+ },
+ {
+  "paper_id": 4222,
+  "title": "SheetAgent: Towards a Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Spreadsheets are ubiquitous across the World Wide Web, playing a critical role in enhancing work efficiency across various domains. Large language model (LLM) has been recently attempted for automatic spreadsheet manipulation but has not yet been investigated in complicated and realistic tasks where reasoning challenges exist (e.g., long horizon manipulation with multi-step reasoning and ambiguous requirements). To bridge the gap with the real-world requirements, we introduce SheetRM, a benchmark featuring long-horizon and multi-category tasks with reasoning-dependent manipulation caused by real-life challenges. To mitigate the above challenges, we further propose SheetAgent, a novel autonomous agent that utilizes the power of LLMs. SheetAgent consists of three collaborative modules: Planner, Informer, and Retriever, achieving both advanced reasoning and accurate manipulation over spreadsheets without human interaction through iterative task reasoning and reflection. Extensive experiments demonstrate that SheetAgent delivers 20--40% pass rate improvements on multiple benchmarks over baselines, achieving enhanced precision in spreadsheet manipulation and demonstrating superior table reasoning abilities. More details and visualizations are available at the https://sheetagent.github.io/. The datasets and source code are available at https://anonymous.4open.science/r/SheetAgent."
+ },
+ {
+  "paper_id": 4223,
+  "title": "Advancing Agentic AI through Communication Protocols",
+  "year": 2025,
+  "venue": "International Journal of Scientific Research in Science and Technology",
+  "source": "openalex",
+  "abstract": "Autonomous agents powered by Large Language Models (LLMs) require reliable and standardized frameworks to connect tools, exchange contextual information, and synchronize tasks across diverse systems. Despite growing interest in such agents, current integration with external tools remains disjointed. Developers often have to manually create interfaces, handle authentication protocols, and navigate incompatible function-calling standards across platforms. To overcome these limitations and promote the evolution of agentic AI, it is critical to establish standardized communication protocols that ensure interoperability\u2014enabling agents and systems to seamlessly discover each other\u2019s capabilities, share data, and coordinate operations. This paper explores a structured overview of emerging communication standards for agents, focusing on the Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent-to-Agent Protocol (A2A), and Agent Network Protocol (ANP). MCP utilizes a JSON-RPC based client-server architecture to enable secure execution of tools and well-typed data transfer. ACP introduces a REST-compliant message structure with support for asynchronous streaming and multipart formats, facilitating rich, multimodal agent outputs.A2A enables agents to delegate tasks peer-to-peer using capability-rich Agent Cards, enabling scalable and distributed workflows across organizations. ANP facilitates agent discovery and secure collaboration in open networks, leveraging decentralized identifiers (DIDs) and semantic graphs based on JSON-LD."
+ },
+ {
+  "paper_id": 4226,
+  "title": "INTERPRET: Interactive Predicate Learning from Language Feedback for Generalizable Task Planning",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Learning abstract state representations and knowledge is crucial for long-horizon robot planning.We present Inter-PreT, an Large Language Model (LLM)-powered framework for robots to learn symbolic predicates from language feedback of human non-experts during embodied interaction.The learned predicates provide relational abstractions of the environment state, facilitating the learning of symbolic operators that capture action preconditions and effects.By compiling the learned predicates and operators into a Planning Domain Definition Language (PDDL) domain on-the-fly, InterPreT allows effective planning toward arbitrary in-domain goals using a PDDL planner.In both simulated and real-world robot manipulation domains, we demonstrate that InterPreT reliably uncovers the key predicates and operators governing the environment dynamics.Although learned from simple training tasks, these predicates and operators exhibit strong generalization to novel tasks with significantly higher complexity.In the most challenging generalization setting, InterPreT attains success rates of 73% in simulation and 40% in the real world, substantially outperforming baseline methods."
+ },
+ {
+  "paper_id": 4228,
+  "title": "VestaBench: An Embodied Benchmark for Safe Long-Horizon Planning Under Multi-Constraint and Adversarial Settings",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are applied to reasoning and (automated) planning across diverse domains, from travel itineraries to embodied AI tasks.However, concerns have been raised about their suitability for long-horizon tasks involving multiple constraints, as they are prone to hallucinations, particularly in adversarial scenarios.Safety reasoning also becomes critical for embodied AI agents, which interact with their physical environments to complete tasks on behalf of humans.However, existing (safety) benchmarks fail to represent a diverse range of multi-constraint tasks that require long-horizon planning with a focus on safety.To address this, we propose VESTABENCH 1 , a benchmark curated using VirtualHome (Puig et al., 2018) and BEHAVIOR-100 (Srivastava et al., 2021).Our VESTABENCH includes (1) tasks that can be achieved safely under adversarial and multi-constraint settings, as well as (2) adversarial instructions that the agent must avoid.Our experiments with state-of-the-art LLM-based baselines reveal that they perform poorly against our tasks, not only achieving low success rates but also suffering significantly compromised safety outcomes.This observation reinforces the limitations of LLMs in generating safe plans when faced with adversarial settings or instructions.Finally, we believe that our findings benefit the research and industry communities."
+ },
+ {
+  "paper_id": 4232,
+  "title": "Prompter: Utilizing Large Language Model Prompting for a Data Efficient Embodied Instruction Following",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Embodied Instruction Following (EIF) studies how autonomous mobile manipulation robots should be controlled to accomplish long-horizon tasks described by natural language instructions. While much research on EIF is conducted in simulators, the ultimate goal of the field is to deploy the agents in real life. This is one of the reasons why recent methods have moved away from training models end-to-end and take modular approaches, which do not need the costly expert operation data. However, as it is still in the early days of importing modular ideas to EIF, a search for modules effective in the EIF task is still far from a conclusion. In this paper, we propose to extend the modular design using knowledge obtained from two external sources. First, we show that embedding the physical constraints of the deployed robots into the module design is highly effective. Our design also allows the same modular system to work across robots of different configurations with minimal modifications. Second, we show that the landmark-based object search, previously implemented by a trained model requiring a dedicated set of data, can be replaced by an implementation that prompts pretrained large language models for landmark-object relationships, eliminating the need for collecting dedicated training data. Our proposed Prompter achieves 41.53\\% and 45.32\\% on the ALFRED benchmark with high-level instructions only and step-by-step instructions, respectively, significantly outperforming the previous state of the art by 5.46\\% and 9.91\\%."
+ },
+ {
+  "paper_id": 4233,
+  "title": "LaMMA-P: Generalizable Multi-Agent Long-Horizon Task Allocation and Planning with LM-Driven PDDL Planner",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language models (LMs) possess a strong capability to comprehend natural language, making them effective in translating human instructions into detailed plans for simple robot tasks. Nevertheless, it remains a significant challenge to handle long-horizon tasks, especially in subtask identification and allocation for cooperative heterogeneous robot teams. To address this issue, we propose a Language Model-Driven Multi-Agent PDDL Planner (LaMMA-P), a novel multi-agent task planning framework that achieves state-of-the-art performance on long-horizon tasks. LaMMA-P integrates the strengths of the LMs' reasoning capability and the traditional heuristic search planner to achieve a high success rate and efficiency while demonstrating strong generalization across tasks. Additionally, we create MAT-THOR, a comprehensive benchmark that features household tasks with two different levels of complexity based on the AI2-THOR environment. The experimental results demonstrate that LaMMA-P achieves a 105% higher success rate and 36% higher efficiency than existing LM-based multiagent planners. The experimental videos, code, datasets, and detailed prompts used in each module can be found on the project website: https://lamma-p.github.io."
+ },
+ {
+  "paper_id": 4234,
+  "title": "VLM See, Robot Do: Human Demo Video to Robot Action Plan via Vision Language Model",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Vision Language Models (VLMs) have recently been adopted in robotics for their capability in common sense reasoning and generalizability. Existing work has applied VLMs to generate task and motion planning from natural language instructions and simulate training data for robot learning. In this work, we explore using VLM to interpret human demonstration videos and generate robot task planning. Our method integrates keyframe selection, visual perception, and VLM reasoning into a pipeline. We named it SeeDo because it enables the VLM to ''see'' human demonstrations and explain the corresponding plans to the robot for it to ''do''. To validate our approach, we collected a set of long-horizon human videos demonstrating pick-and-place tasks in three diverse categories and designed a set of metrics to comprehensively benchmark SeeDo against several baselines, including state-of-the-art video-input VLMs. The experiments demonstrate SeeDo's superior performance. We further deployed the generated task plans in both a simulation environment and on a real robot arm."
+ },
+ {
+  "paper_id": 4235,
+  "title": "Grounded Decoding: Guiding Text Generation with Grounded Models for Embodied Agents",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent progress in large language models (LLMs) has demonstrated the ability to learn and leverage Internet-scale knowledge through pre-training with autoregressive models. Unfortunately, applying such models to settings with embodied agents, such as robots, is challenging due to their lack of experience with the physical world, inability to parse non-language observations, and ignorance of rewards or safety constraints that robots may require. On the other hand, language-conditioned robotic policies that learn from interaction data can provide the necessary grounding that allows the agent to be correctly situated in the real world, but such policies are limited by the lack of high-level semantic understanding due to the limited breadth of the interaction data available for training them. Thus, if we want to make use of the semantic knowledge in a language model while still situating it in an embodied setting, we must construct an action sequence that is both likely according to the language model and also realizable according to grounded models of the environment. We frame this as a problem similar to probabilistic filtering: decode a sequence that both has high probability under the language model and high probability under a set of grounded model objectives. We demonstrate how such grounded models can be obtained across three simulation and real-world domains, and that the proposed decoding strategy is able to solve complex, long-horizon embodiment tasks in a robotic setting by leveraging the knowledge of both models. The project's website can be found at grounded-decoding.github.io."
+ },
+ {
+  "paper_id": 4237,
+  "title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We present a framework for robot skill acquisition, which 1) efficiently scale up data generation of language-labelled robot data and 2) effectively distills this data down into a robust multi-task language-conditioned visuo-motor policy. For (1), we use a large language model (LLM) to guide high-level planning, and sampling-based robot planners (e.g. motion or grasp samplers) for generating diverse and rich manipulation trajectories. To robustify this data-collection process, the LLM also infers a code-snippet for the success condition of each task, simultaneously enabling the data-collection process to detect failure and retry as well as the automatic labeling of trajectories with success/failure. For (2), we extend the diffusion policy single-task behavior-cloning approach to multi-task settings with language conditioning. Finally, we propose a new multi-task benchmark with 18 tasks across five domains to test long-horizon behavior, common-sense reasoning, tool-use, and intuitive physics. We find that our distilled policy successfully learned the robust retrying behavior in its data collection procedure, while improving absolute success rates by 33.2% on average across five domains. Code, data, and additional qualitative results are available on https://www.cs.columbia.edu/~huy/scalingup/."
+ },
+ {
+  "paper_id": 4239,
+  "title": "Video Language Planning",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We are interested in enabling visual planning for complex long-horizon tasks in the space of generated videos and language, leveraging recent advances in large generative models pretrained on Internet-scale data. To this end, we present video language planning (VLP), an algorithm that consists of a tree search procedure, where we train (i) vision-language models to serve as both policies and value functions, and (ii) text-to-video models as dynamics models. VLP takes as input a long-horizon task instruction and current image observation, and outputs a long video plan that provides detailed multimodal (video and language) specifications that describe how to complete the final task. VLP scales with increasing computation budget where more computation time results in improved video plans, and is able to synthesize long-horizon video plans across different robotics domains: from multi-object rearrangement, to multi-camera bi-arm dexterous manipulation. Generated video plans can be translated into real robot actions via goal-conditioned policies, conditioned on each intermediate frame of the generated video. Experiments show that VLP substantially improves long-horizon task success rates compared to prior methods on both simulated and real robots (across 3 hardware platforms)."
+ },
+ {
+  "paper_id": 4240,
+  "title": "Statler: State-Maintaining Language Models for Embodied Reasoning",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There has been a significant research interest in employing large language models to empower intelligent robots with complex reasoning. Existing work focuses on harnessing their abilities to reason about the histories of their actions and observations. In this paper, we explore a new dimension in which large language models may benefit robotics planning. In particular, we propose Statler, a framework in which large language models are prompted to maintain an estimate of the world state, which are often unobservable, and track its transition as new actions are taken. Our framework then conditions each action on the estimate of the current world state. Despite being conceptually simple, our Statler framework significantly outperforms strong competing methods (e.g., Code-as-Policies) on several robot planning tasks. Additionally, it has the potential advantage of scaling up to more challenging long-horizon planning tasks."
+ },
+ {
+  "paper_id": 4242,
+  "title": "AutoTAMP: Autoregressive Task and Motion Planning with LLMs as Translators and Checkers",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "For effective human-robot interaction, robots need to understand, plan, and execute complex, long-horizon tasks described by natural language. Recent advances in large language models (LLMs) have shown promise for translating natural language into robot action sequences for complex tasks. However, existing approaches either translate the natural language directly into robot trajectories or factor the inference process by decomposing language into task sub-goals and relying on a motion planner to execute each sub-goal. When complex environmental and temporal constraints are involved, inference over planning tasks must be performed jointly with motion plans using traditional task-and-motion planning (TAMP) algorithms, making factorization into subgoals untenable. Rather than using LLMs to directly plan task sub-goals, we instead perform few-shot translation from natural language task descriptions to an intermediate task representation that can then be consumed by a TAMP algorithm to jointly solve the task and motion plan. To improve translation, we automatically detect and correct both syntactic and semantic errors via autoregressive re-prompting, resulting in significant improvements in task completion. We show that our approach outperforms several methods using LLMs as planners in complex task domains. See our project website https://yongchao98.github.io/MIT-REALM-AutoTAMP/ for prompts, videos, and code."
+ },
+ {
+  "paper_id": 4243,
+  "title": "Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods",
+  "year": 2024,
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+  "source": "openalex",
+  "abstract": "With extensive pretrained knowledge and high-level general capabilities, large language models (LLMs) emerge as a promising avenue to augment reinforcement learning (RL) in aspects, such as multitask learning, sample efficiency, and high-level task planning. In this survey, we provide a comprehensive review of the existing literature in LLM-enhanced RL and summarize its characteristics compared with conventional RL methods, aiming to clarify the research scope and directions for future studies. Utilizing the classical agent-environment interaction paradigm, we propose a structured taxonomy to systematically categorize LLMs' functionalities in RL, including four roles: information processor, reward designer, decision-maker, and generator. For each role, we summarize the methodologies, analyze the specific RL challenges that are mitigated and provide insights into future directions. Finally, the comparative analysis of each role, potential applications, prospective opportunities, and challenges of the LLM-enhanced RL are discussed. By proposing this taxonomy, we aim to provide a framework for researchers to effectively leverage LLMs in the RL field, potentially accelerating RL applications in complex applications, such as robotics, autonomous driving, and energy systems."
+ }
+]

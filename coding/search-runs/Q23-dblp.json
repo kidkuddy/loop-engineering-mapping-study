@@ -1,0 +1,13 @@
+{
+ "query": "\"loop engineering\"",
+ "stored": 54,
+ "providers": [
+  {
+   "provider": "dblp",
+   "found": 60,
+   "matched": 104,
+   "truncated": true,
+   "stored": 54
+  }
+ ]
+}

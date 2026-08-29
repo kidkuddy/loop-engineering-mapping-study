@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 430,
+  "title": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents and call for underspecification-aware, decomposed, and communicable uncertainty representations that can unlock new agent capabilities such as proactive clarification seeking and shared mental-model building. Practical deployment constraints -- black-box APIs, interactive latency budgets, and the absence of labeled trajectories -- rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the most viable family for surfacing such signals at deployment time. We answer this call with a simple prompt-based decomposition that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when the task specification is ambiguous. To evaluate it, we introduce two clarification-augmented benchmarks (WebShop-Clarification and ALFWorld-Clarification) in which 50% of tasks are deliberately underspecified, and systematically compare the proposed decomposition against ReAct+UE and Uncertainty-Aware Memory (UAM) across five LLM backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B) on these variants together with the standard WebShop, ALFWorld, and REAL benchmarks for fault detection. Averaged across the five backbones, the proposed decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and by 36% over UAM, and leads clarification F1 on every backbone on WebShop-Clarification and on four of five backbones on ALFWorld-Clarification, indicating that the gains generalize beyond a single LLM."
+ },
+ {
+  "paper_id": 431,
+  "title": "Kernel Based Cognitive Architecture for Autonomous Agents",
+  "year": 2022,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "One of the main problems of modern cognitive architectures is an excessively schematic approach to modeling the processes of cognitive activity. It does not allow the creation of a universal architecture that would be capable of reproducing mental functions without using a predetermined set of perceptual patterns. This paper considers an evolutionary approach to creating a cognitive functionality. The basis of our approach is the use of the functional kernel which consistently generates the intellectual functions of an autonomous agent. We consider a cognitive architecture which ensures the evolution of the agent on the basis of Symbol Emergence Problem solution. Evolution of cognitive abilities of the agent is described on the basis of the theory of constructivism."
+ },
+ {
+  "paper_id": 433,
+  "title": "Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Agent skills externalise reusable agent-facing behavioural knowledge and guidance as persistent artefacts that can be discovered, activated, and interpreted by LLM agents. Although a skill artefact is static at rest, its architectural responsibilities arise in use, when the artefact is selected for a run, bound to context and authority constraints, interpreted by a stochastic agent, and recorded as run evidence. We call this run-specific relation skill-in-use. This paper studies agent skill harnessing: the architectural responsibilities that govern the transition from skill artefacts to skill-in-use, bound the executable consequences associated with skill-in-use, and capture evidence for attribution, verification, repair, and evolution. This paper provides a catalogue of ten empirically grounded architectural patterns (five core, five supporting) for skill harnessing and synthesises them into a reference architecture with four responsibility layers: Supply Chain, Mediation, Execution Control, and Evidence & Feedback. We evaluate the architecture through cross-instantiation across 8 selected systems. The resulting patterns and reference architecture provide a vocabulary and diagnostic frame for analysing skill-harnessing responsibilities across agent systems."
+ },
+ {
+  "paper_id": 434,
+  "title": "Unified Mind Model: Reimagining Autonomous Agents in the LLM Era",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have recently demonstrated remarkable capabilities across domains, tasks, and languages (e.g., ChatGPT and GPT-4), reviving the research of general autonomous agents with human-like cognitive abilities. Such human-level agents require semantic comprehension and instruction-following capabilities, which exactly fall into the strengths of LLMs. Although there have been several initial attempts to build human-level agents based on LLMs, the theoretical foundation remains a challenging open problem. In this paper, we propose a novel theoretical cognitive architecture, the Unified Mind Model (UMM), which offers guidance to facilitate the rapid creation of autonomous agents with human-level cognitive abilities. Specifically, our UMM starts with the global workspace theory and further leverage LLMs to enable the agent with various cognitive abilities, such as multi-modal perception, planning, reasoning, tool use, learning, memory, reflection and motivation. Building upon UMM, we then develop an agent-building engine, MindOS, which allows users to quickly create domain-/task-specific autonomous agents without any programming effort."
+ },
+ {
+  "paper_id": 436,
+  "title": "Embedding Autonomous Agents in Resource-Constrained Robotic Platforms",
+  "year": 2026,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "Many embedded devices operate under resource constraints and in dynamic environments, requiring local decision-making capabilities. Enabling devices to make independent decisions in such environments can improve the responsiveness of the system and reduce the dependence on constant external control. In this work, we integrate an autonomous agent, programmed using AgentSpeak, with a small two-wheeled robot that explores a maze using its own decision-making and sensor data. Experimental results show that the agent successfully solved the maze in 59 seconds using 287 reasoning cycles, with decision phases taking less than one millisecond. These results indicate that the reasoning process is efficient enough for real-time execution on resource-constrained hardware. This integration demonstrates how high-level agent-based control can be applied to resource-constrained embedded systems for autonomous operation."
+ },
+ {
+  "paper_id": 437,
+  "title": "ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation",
+  "year": 2025,
+  "venue": "arXiv:cs.AR",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities in Register Transfer Level (RTL) design, enabling high-quality code generation from natural language descriptions. However, LLMs alone face significant limitations in real-world hardware design workflows, including the inability to execute code, lack of debugging capabilities, and absence of long-term memory. To address these challenges, we present ASIC-Agent, an autonomous system designed specifically for digital ASIC design tasks. ASIC-Agent enhances base LLMs with a multi-agent architecture incorporating specialized sub-agents for RTL generation, verification, OpenLane hardening, and Caravel chip integration, all operating within a comprehensive sandbox environment with access to essential hardware design tools. The system leverages a vector database containing documentation, API references, error knowledge, and curated insights from the open-source silicon community. To evaluate ASIC-Agent's performance, we introduce ASIC-Agent-Bench, the first benchmark specifically designed to assess agentic systems in hardware design tasks. We evaluate ASIC-Agent with various base LLMs, providing quantitative comparisons and qualitative insights into agent behavior across different design scenarios. Our results demonstrate that ASIC-Agent, when powered by Claude 4 Sonnet, successfully automates a broad range of ASIC design tasks spanning varying levels of complexity, showing the potential of significantly accelerating the ASIC design workflow."
+ },
+ {
+  "paper_id": 439,
+  "title": "LLM Agents can Autonomously Hack Websites",
+  "year": 2024,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "In recent years, large language models (LLMs) have become increasingly capable and can now interact with tools (i.e., call functions), read documents, and recursively call themselves. As a result, these LLMs can now function autonomously as agents. With the rise in capabilities of these agents, recent work has speculated on how LLM agents would affect cybersecurity. However, not much is known about the offensive capabilities of LLM agents.   In this work, we show that LLM agents can autonomously hack websites, performing tasks as complex as blind database schema extraction and SQL injections without human feedback. Importantly, the agent does not need to know the vulnerability beforehand. This capability is uniquely enabled by frontier models that are highly capable of tool use and leveraging extended context. Namely, we show that GPT-4 is capable of such hacks, but existing open-source models are not. Finally, we show that GPT-4 is capable of autonomously finding vulnerabilities in websites in the wild. Our findings raise questions about the widespread deployment of LLMs."
+ },
+ {
+  "paper_id": 440,
+  "title": "Space Debris Removal using Nano-Satellites controlled by Low-Power Autonomous Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "Space debris is an ever-increasing problem in space travel. There are already many old, no longer functional spacecraft and debris orbiting the earth, which endanger both the safe operation of satellites and space travel. Small nano-satellite swarms can address this problem by autonomously de-orbiting debris safely into the Earth's atmosphere. This work builds on the recent advances of autonomous agents deployed in resource-constrained platforms and shows a first simplified approach how such intelligent and autonomous nano-satellite swarms can be realized. We implement our autonomous agent software on wireless microcontrollers and perform experiments on a specialized test-bed to show the feasibility and overall energy efficiency of our approach."
+ },
+ {
+  "paper_id": 441,
+  "title": "Understanding Multi-Agent LLM Frameworks: A Unified Benchmark and Experimental Analysis",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Multi-agent LLM frameworks are widely used to accelerate the development of agent systems powered by large language models (LLMs). These frameworks impose distinct architectural structures that govern how agents interact, store information, and coordinate tasks. However, their impact on system performance remains poorly understood. This gap is critical, as architectural choices alone can induce order-of-magnitude differences in latency and throughput, as well as substantial variation in accuracy and scalability. Addressing this challenge requires (i) jointly evaluating multiple capabilities, such as orchestration overhead, memory behavior, planning, specialization, and coordination, and (ii) conducting these evaluations under controlled, framework-level conditions to isolate architectural effects. Existing benchmarks focus on individual capabilities and lack standardized framework-level evaluation. We address these limitations by (i) introducing an architectural taxonomy for systematically comparing multi-agent LLM frameworks along fundamental dimensions, and (ii) developing MAFBench, a unified evaluation suite that integrates existing benchmarks under a standardized execution pipeline. Using MAFBench, we conduct a controlled empirical study across several widely used frameworks. Our results show that framework-level design choices alone can increase latency by over 100x, reduce planning accuracy by up to 30%, and lower coordination success from above 90% to below 30%. Finally, we translate our findings into concrete architectural design principles and framework selection guidance, and outline promising future research directions."
+ },
+ {
+  "paper_id": 442,
+  "title": "STRIDE: A Systematic Framework for Selecting AI Modalities -- Agentic AI, AI Assistants, or LLM Calls",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The rapid shift from stateless large language models (LLMs) to autonomous, goal-driven agents raises a central question: When is agentic AI truly necessary? While agents enable multi-step reasoning, persistent memory, and tool orchestration, deploying them indiscriminately leads to higher cost, complexity, and risk.   We present STRIDE (Systematic Task Reasoning Intelligence Deployment Evaluator), a framework that provides principled recommendations for selecting between three modalities: (i) direct LLM calls, (ii) guided AI assistants, and (iii) fully autonomous agentic AI. STRIDE integrates structured task decomposition, dynamism attribution, and self-reflection requirement analysis to produce an Agentic Suitability Score, ensuring that full agentic autonomy is reserved for tasks with inherent dynamism or evolving context.   Evaluated across 30 real-world tasks spanning SRE, compliance, and enterprise automation, STRIDE achieved 92% accuracy in modality selection, reduced unnecessary agent deployments by 45%, and cut resource costs by 37%. Expert validation over six months in SRE and compliance domains confirmed its practical utility, with domain specialists agreeing that STRIDE effectively distinguishes between tasks requiring simple LLM calls, guided assistants, or full agentic autonomy. This work reframes agent adoption as a necessity-driven design decision, ensuring autonomy is applied only when its benefits justify the costs."
+ },
+ {
+  "paper_id": 445,
+  "title": "Autonomous Self-Explanation of Behavior for Interactive Reinforcement Learning Agents",
+  "year": 2018,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "In cooperation, the workers must know how co-workers behave. However, an agent's policy, which is embedded in a statistical machine learning model, is hard to understand, and requires much time and knowledge to comprehend. Therefore, it is difficult for people to predict the behavior of machine learning robots, which makes Human Robot Cooperation challenging. In this paper, we propose Instruction-based Behavior Explanation (IBE), a method to explain an autonomous agent's future behavior. In IBE, an agent can autonomously acquire the expressions to explain its own behavior by reusing the instructions given by a human expert to accelerate the learning of the agent's policy. IBE also enables a developmental agent, whose policy may change during the cooperation, to explain its own behavior with sufficient time granularity."
+ },
+ {
+  "paper_id": 449,
+  "title": "DriveAgent: Multi-Agent Structured Reasoning with LLM and Multimodal Sensor Fusion for Autonomous Driving",
+  "year": 2025,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "We introduce DriveAgent, a novel multi-agent autonomous driving framework that leverages large language model (LLM) reasoning combined with multimodal sensor fusion to enhance situational understanding and decision-making. DriveAgent uniquely integrates diverse sensor modalities-including camera, LiDAR, GPS, and IMU-with LLM-driven analytical processes structured across specialized agents. The framework operates through a modular agent-based pipeline comprising four principal modules: (i) a descriptive analysis agent identifying critical sensor data events based on filtered timestamps, (ii) dedicated vehicle-level analysis conducted by LiDAR and vision agents that collaboratively assess vehicle conditions and movements, (iii) environmental reasoning and causal analysis agents explaining contextual changes and their underlying mechanisms, and (iv) an urgency-aware decision-generation agent prioritizing insights and proposing timely maneuvers. This modular design empowers the LLM to effectively coordinate specialized perception and reasoning agents, delivering cohesive, interpretable insights into complex autonomous driving scenarios. Extensive experiments on challenging autonomous driving datasets demonstrate that DriveAgent is achieving superior performance on multiple metrics against baseline methods. These results validate the efficacy of the proposed LLM-driven multi-agent sensor fusion framework, underscoring its potential to substantially enhance the robustness and reliability of autonomous driving systems."
+ },
+ {
+  "paper_id": 450,
+  "title": "AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Evaluating large language model (LLM)-based multi-agent systems remains a critical challenge, as these systems must exhibit reliable coordination, transparent decision-making, and verifiable performance across evolving tasks. Existing evaluation approaches often limit themselves to single-response scoring or narrow benchmarks, which lack stability, extensibility, and automation when deployed in enterprise settings at multi-agent scale. We present AEMA (Adaptive Evaluation Multi-Agent), a process-aware and auditable framework that plans, executes, and aggregates multi-step evaluations across heterogeneous agentic workflows under human oversight. Compared to a single LLM-as-a-Judge, AEMA achieves greater stability, human alignment, and traceable records that support accountable automation. Our results on enterprise-style agent workflows simulated using realistic business scenarios demonstrate that AEMA provides a transparent and reproducible pathway toward responsible evaluation of LLM-based multi-agent systems.   Keywords Agentic AI, Multi-Agent Systems, Trustworthy AI, Verifiable Evaluation, Human Oversight"
+ },
+ {
+  "paper_id": 452,
+  "title": "Learning Hierarchical Procedural Memory for LLM Agents through Bayesian Selection and Contrastive Refinement",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "We present MACLA, a framework that decouples reasoning from learning by maintaining a frozen large language model while performing all adaptation in an external hierarchical procedural memory. MACLA extracts reusable procedures from trajectories, tracks reliability via Bayesian posteriors, selects actions through expected-utility scoring, and refines procedures by contrasting successes and failures. Across four benchmarks (ALFWorld, WebShop, TravelPlanner, InterCodeSQL), MACLA achieves 78.1 percent average performance, outperforming all baselines. On ALFWorld unseen tasks, MACLA reaches 90.3 percent with 3.1 percent positive generalization. The system constructs memory in 56 seconds, 2800 times faster than the state-of-the-art LLM parameter-training baseline, compressing 2851 trajectories into 187 procedures. Experimental results demonstrate that structured external memory with Bayesian selection and contrastive refinement enables sample-efficient, interpretable, and continually improving agents without LLM parameter updates."
+ },
+ {
+  "paper_id": 453,
+  "title": "Edu-Theater: A Data-Efficient Agent Framework for Scalable Learner Behavior Simulation through Staging Roll-Call",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Large-scale learner-task interaction data are crucial for intelligent educational systems but are costly to collect and constrained by privacy and learner engagement. Learner simulators play a critical role in simulating scalable learner behavior without the need for continuous involvement of real learners. However, existing methods are predominantly \\textbf{individual-centric}, pairing a simulator with each learner to iteratively infer latent knowledge states from dense interaction histories, which is both data- and computation-intensive, and fragile in cold-start scenarios. We propose a \\textbf{cohort-aware roll-call simulation paradigm} that first constructs cohort-level proficiency priors and refines individual learner states through a small number of targeted diagnostic queries. Based on this paradigm, we introduce \\textbf{Edu-Theater}, an LLM-powered agent system that performs cohort-aware learner simulation via a teacher agent and retrospective roll-call probing over learner logs. Edu-Theater enables scalable future behavior simulation without the need for dense per-learner histories. Experiments on two real-world datasets demonstrate that Edu-Theater achieves higher simulation accuracy with significantly fewer LLM calls, producing synthetic data that enhances downstream applications such as adaptive testing."
+ },
+ {
+  "paper_id": 454,
+  "title": "Agent Capsules: Quality-Gated Granularity Control for Multi-Agent LLM Pipelines",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "A multi-agent pipeline with N agents typically issues N LLM calls per run. Merging agents into fewer calls (compound execution) promises token savings, but naively merged calls silently degrade quality through tool loss and prompt compression. We present Agent Capsules, an adaptive execution runtime that treats multi-agent pipeline execution as an optimization problem with empirical quality constraints. The runtime instruments coordination overhead per group, scores composition opportunity, selects among three compound execution strategies, and gates every mode switch on rolling-mean output quality. A controlled negative result confirms that injecting more context into a merged call worsens compression rather than relieving it, so the framework's escalation ladder (standard, then two-phase, then sequential) recovers quality by moving toward per-agent dispatch rather than by rewriting merged prompts. On LLM-judged quality, the controller matches a hand-tuned oracle on every measured (model, group, mode) cell: routing compound whenever the oracle would, and reverting to fine whenever quality would fail the floor, without per-model configuration. Against a hand-crafted LangGraph implementation of a 14-agent competitive intelligence pipeline, Agent Capsules uses 51% fewer fine-mode input tokens and 42% fewer compound-mode input tokens, at +0.020 and +0.017 quality respectively. Against a DSPy implementation of a 5-agent due diligence pipeline, the framework uses 19% fewer tokens than uncompiled DSPy at quality parity, and 68% fewer tokens than MIPROv2 at +0.052 quality. Even before compound mode fires, the runtime delivers efficiency through automatic policy resolution, cache-aligned prompts, and topology-aware context injection, matching both hand-tuned and compile-time baselines without training data or per-pipeline engineering."
+ },
+ {
+  "paper_id": 455,
+  "title": "Adaptive Data Flywheel: Applying MAPE Control Loops to AI Agent Improvement",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Enterprise AI agents must continuously adapt to maintain accuracy, reduce latency, and remain aligned with user needs. We present a practical implementation of a data flywheel in NVInfo AI, NVIDIA's Mixture-of-Experts (MoE) Knowledge Assistant serving over 30,000 employees. By operationalizing a MAPE-driven data flywheel, we built a closed-loop system that systematically addresses failures in retrieval-augmented generation (RAG) pipelines and enables continuous learning. Over a 3-month post-deployment period, we monitored feedback and collected 495 negative samples. Analysis revealed two major failure modes: routing errors (5.25\\%) and query rephrasal errors (3.2\\%). Using NVIDIA NeMo microservices, we implemented targeted improvements through fine-tuning. For routing, we replaced a Llama 3.1 70B model with a fine-tuned 8B variant, achieving 96\\% accuracy, a 10x reduction in model size, and 70\\% latency improvement. For query rephrasal, fine-tuning yielded a 3.7\\% gain in accuracy and a 40\\% latency reduction. Our approach demonstrates how human-in-the-loop (HITL) feedback, when structured within a data flywheel, transforms enterprise AI agents into self-improving systems. Key learnings include approaches to ensure agent robustness despite limited user feedback, navigating privacy constraints, and executing staged rollouts in production. This work offers a repeatable blueprint for building robust, adaptive enterprise AI agents capable of learning from real-world usage at scale."
+ },
+ {
+  "paper_id": 457,
+  "title": "COALESCE: Economic and Security Dynamics of Skill-Based Task Outsourcing Among Team of Autonomous LLM Agents",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The meteoric rise and proliferation of autonomous Large Language Model (LLM) agents promise significant capabilities across various domains. However, their deployment is increasingly constrained by substantial computational demands, specifically for Graphics Processing Unit (GPU) resources. This paper addresses the critical problem of optimizing resource utilization in LLM agent systems. We introduce COALESCE (Cost-Optimized and Secure Agent Labour Exchange via Skill-based Competence Estimation), a novel framework designed to enable autonomous LLM agents to dynamically outsource specific subtasks to specialized, cost-effective third-party LLM agents. The framework integrates mechanisms for hybrid skill representation, dynamic skill discovery, automated task decomposition, a unified cost model comparing internal execution costs against external outsourcing prices, simplified market-based decision-making algorithms, and a standardized communication protocol between LLM agents. Comprehensive validation through 239 theoretical simulations demonstrates 41.8\\% cost reduction potential, while large-scale empirical validation across 240 real LLM tasks confirms 20.3\\% cost reduction with proper epsilon-greedy exploration, establishing both theoretical viability and practical effectiveness. The emergence of proposed open standards like Google's Agent2Agent (A2A) protocol further underscores the need for frameworks like COALESCE that can leverage such standards for efficient agent interaction. By facilitating a dynamic market for agent capabilities, potentially utilizing protocols like A2A for communication, COALESCE aims to significantly reduce operational costs, enhance system scalability, and foster the emergence of specialized agent economies, making complex LLM agent functionalities more accessible and economically viable."
+ },
+ {
+  "paper_id": 458,
+  "title": "Altruistic Maneuver Planning for Cooperative Autonomous Vehicles Using Multi-agent Advantage Actor-Critic",
+  "year": 2021,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "With the adoption of autonomous vehicles on our roads, we will witness a mixed-autonomy environment where autonomous and human-driven vehicles must learn to co-exist by sharing the same road infrastructure. To attain socially-desirable behaviors, autonomous vehicles must be instructed to consider the utility of other vehicles around them in their decision-making process. Particularly, we study the maneuver planning problem for autonomous vehicles and investigate how a decentralized reward structure can induce altruism in their behavior and incentivize them to account for the interest of other autonomous and human-driven vehicles. This is a challenging problem due to the ambiguity of a human driver's willingness to cooperate with an autonomous vehicle. Thus, in contrast with the existing works which rely on behavior models of human drivers, we take an end-to-end approach and let the autonomous agents to implicitly learn the decision-making process of human drivers only from experience. We introduce a multi-agent variant of the synchronous Advantage Actor-Critic (A2C) algorithm and train agents that coordinate with each other and can affect the behavior of human drivers to improve traffic flow and safety."
+ },
+ {
+  "paper_id": 459,
+  "title": "FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have demonstrated notable potential in conducting complex tasks and are increasingly utilized in various financial applications. However, high-quality sequential financial investment decision-making remains challenging. These tasks require multiple interactions with a volatile environment for every decision, demanding sufficient intelligence to maximize returns and manage risks. Although LLMs have been used to develop agent systems that surpass human teams and yield impressive investment returns, opportunities to enhance multi-sourced information synthesis and optimize decision-making outcomes through timely experience refinement remain unexplored. Here, we introduce the FinCon, an LLM-based multi-agent framework with CONceptual verbal reinforcement tailored for diverse FINancial tasks. Inspired by effective real-world investment firm organizational structures, FinCon utilizes a manager-analyst communication hierarchy. This structure allows for synchronized cross-functional agent collaboration towards unified goals through natural language interactions and equips each agent with greater memory capacity than humans. Additionally, a risk-control component in FinCon enhances decision quality by episodically initiating a self-critiquing mechanism to update systematic investment beliefs. The conceptualized beliefs serve as verbal reinforcement for the future agent's behavior and can be selectively propagated to the appropriate node that requires knowledge updates. This feature significantly improves performance while reducing unnecessary peer-to-peer communication costs. Moreover, FinCon demonstrates strong generalization capabilities in various financial tasks, including single stock trading and portfolio management."
+ },
+ {
+  "paper_id": 460,
+  "title": "V2V-LLM: Vehicle-to-Vehicle Cooperative Autonomous Driving with Multimodal Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Current autonomous driving vehicles rely mainly on their individual sensors to understand surrounding scenes and plan for future trajectories, which can be unreliable when the sensors are malfunctioning or occluded. To address this problem, cooperative perception methods via vehicle-to-vehicle (V2V) communication have been proposed, but they have tended to focus on perception tasks like detection or tracking. How those approaches contribute to overall cooperative planning performance is still under-explored. Inspired by recent progress using Large Language Models (LLMs) to build autonomous driving systems, we propose a novel problem setting that integrates a Multimodal LLM into cooperative autonomous driving, with the proposed Vehicle-to-Vehicle Question-Answering (V2V-QA) dataset and benchmark. We also propose our baseline method Vehicle-to-Vehicle Multimodal Large Language Model (V2V-LLM), which uses an LLM to fuse perception information from multiple connected autonomous vehicles (CAVs) and answer various types of driving-related questions: grounding, notable object identification, and planning. Experimental results show that our proposed V2V-LLM can be a promising unified model architecture for performing various tasks in cooperative autonomous driving, and outperforms other baseline methods that use different fusion approaches. Our work also creates a new research direction that can improve the safety of future autonomous driving systems. The code and data will be released to the public to facilitate open-source research in this field. Our project website: https://eddyhkchiu.github.io/v2vllm.github.io/ ."
+ },
+ {
+  "paper_id": 462,
+  "title": "Causal Explanations for Sequential Decision-Making in Multi-Agent Systems",
+  "year": 2023,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "We present CEMA: Causal Explanations in Multi-Agent systems; a framework for creating causal natural language explanations of an agent's decisions in dynamic sequential multi-agent systems to build more trustworthy autonomous agents. Unlike prior work that assumes a fixed causal structure, CEMA only requires a probabilistic model for forward-simulating the state of the system. Using such a model, CEMA simulates counterfactual worlds that identify the salient causes behind the agent's decisions. We evaluate CEMA on the task of motion planning for autonomous driving and test it in diverse simulated scenarios. We show that CEMA correctly and robustly identifies the causes behind the agent's decisions, even when a large number of other agents is present, and show via a user study that CEMA's explanations have a positive effect on participants' trust in autonomous vehicles and are rated as high as high-quality baseline explanations elicited from other participants. We release the collected explanations with annotations as the HEADD dataset."
+ },
+ {
+  "paper_id": 463,
+  "title": "The Social Laboratory: A Psychometric Framework for Multi-Agent LLM Evaluation",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "As Large Language Models (LLMs) transition from static tools to autonomous agents, traditional evaluation benchmarks that measure performance on downstream tasks are becoming insufficient. These methods fail to capture the emergent social and cognitive dynamics that arise when agents communicate, persuade, and collaborate in interactive environments. To address this gap, we introduce a novel evaluation framework that uses multi-agent debate as a controlled \"social laboratory\" to discover and quantify these behaviors. In our framework, LLM-based agents, instantiated with distinct personas and incentives, deliberate on a wide range of challenging topics under the supervision of an LLM moderator. Our analysis, enabled by a new suite of psychometric and semantic metrics, reveals several key findings. Across hundreds of debates, we uncover a powerful and robust emergent tendency for agents to seek consensus, consistently reaching high semantic agreement (\u03bc > 0.88) even without explicit instruction and across sensitive topics. We show that assigned personas induce stable, measurable psychometric profiles, particularly in cognitive effort, and that the moderators persona can significantly alter debate outcomes by structuring the environment, a key finding for external AI alignment. This work provides a blueprint for a new class of dynamic, psychometrically grounded evaluation protocols designed for the agentic setting, offering a crucial methodology for understanding and shaping the social behaviors of the next generation of AI agents. We have released the code and results at https://github.com/znreza/multi-agent-LLM-eval-for-debate."
+ },
+ {
+  "paper_id": 465,
+  "title": "Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats",
+  "year": 2026,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Autonomous Large Language Model (LLM) agents, exemplified by OpenClaw, demonstrate remarkable capabilities in executing complex, long-horizon tasks. However, their tightly coupled instant-messaging interaction paradigm and high-privilege execution capabilities substantially expand the system attack surface. In this paper, we present a comprehensive security threat analysis of OpenClaw. To structure our analysis, we introduce a five-layer lifecycle-oriented security framework that captures key stages of agent operation, i.e., initialization, input, inference, decision, and execution, and systematically examine compound threats across the agent's operational lifecycle, including indirect prompt injection, skill supply chain contamination, memory poisoning, and intent drift. Through detailed case studies on OpenClaw, we demonstrate the prevalence and severity of these threats and analyze the limitations of existing defenses. Our findings reveal critical weaknesses in current point-based defense mechanisms when addressing cross-temporal and multi-stage systemic risks, highlighting the need for holistic security architectures for autonomous LLM agents. Within this framework, we further examine representative defense strategies at each lifecycle stage, including plugin vetting frameworks, context-aware instruction filtering, memory integrity validation protocols, intent verification mechanisms, and capability enforcement architectures."
+ },
+ {
+  "paper_id": 467,
+  "title": "BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents",
+  "year": 2023,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The massive successes of large language models (LLMs) encourage the emerging exploration of LLM-augmented Autonomous Agents (LAAs). An LAA is able to generate actions with its core LLM and interact with environments, which facilitates the ability to resolve complex tasks by conditioning on past interactions such as observations and actions. Since the investigation of LAA is still very recent, limited explorations are available. Therefore, we provide a comprehensive comparison of LAA in terms of both agent architectures and LLM backbones. Additionally, we propose a new strategy to orchestrate multiple LAAs such that each labor LAA focuses on one type of action, \\textit{i.e.} BOLAA, where a controller manages the communication among multiple agents. We conduct simulations on both decision-making and multi-step reasoning environments, which comprehensively justify the capacity of LAAs. Our performance results provide quantitative suggestions for designing LAA architectures and the optimal choice of LLMs, as well as the compatibility of both. We release our implementation code of LAAs to the public at \\url{https://github.com/salesforce/BOLAA}."
+ },
+ {
+  "paper_id": 468,
+  "title": "AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Autonomous AI agents that can follow instructions and perform complex multi-step tasks have tremendous potential to boost human productivity. However, to perform many of these tasks, the agents need access to personal information from their users, raising the question of whether they are capable of using it appropriately. In this work, we introduce a new benchmark AgentDAM that measures if AI web-navigation agents follow the privacy principle of ``data minimization''. For the purposes of our benchmark, data minimization means that the agent uses a piece of potentially sensitive information only if it is ``necessary'' to complete a particular task. Our benchmark simulates realistic web interaction scenarios end-to-end and is adaptable to all existing web navigation agents. We use AgentDAM to evaluate how well AI agents built on top of GPT-4, Llama-3 and Claude can limit processing of potentially private information, and show that they are prone to inadvertent use of unnecessary sensitive information. We also propose a prompting-based defense that reduces information leakage, and demonstrate that our end-to-end benchmarking provides a more realistic measure than probing LLMs about privacy. Our results highlight that further research is needed to develop AI agents that can prioritize data minimization at inference time."
+ },
+ {
+  "paper_id": 469,
+  "title": "AgentDSE: Reasoning-Augmented Architectural Design Space Exploration",
+  "year": 2026,
+  "venue": "arXiv:cs.AR",
+  "source": "arxiv",
+  "abstract": "Traditional architectural design space exploration (DSE) is highly inefficient, typically requiring tens of thousands of simulator evaluations across various optimization methods. This inefficiency arises because conventional methods treat the simulator as a black-box oracle. In contrast, human architects effectively guide exploration by reasoning through physical constraints, performance bottlenecks, data reuse, and workload structures. To bridge this gap, we introduce AgentDSE, a simulator-in-the-loop methodology driven by a general-purpose large language model (LLM) coding agent. AgentDSE automates this architectural-reasoning loop without requiring model fine-tuning, precomputed design databases, or domain-specific optimizer code. Across deep neural network (DNN) accelerator mapping, hardware/software co-design, and CPU cache-hierarchy optimization, AgentDSE achieves competitive or better design quality with up to two orders of magnitude fewer evaluations. AgentDSE also produces inspectable traces that surface architectural hypotheses, performance cliffs, implicit priors, and simulator artifacts, making every search decision traceable rather than buried in optimizer state."
+ },
+ {
+  "paper_id": 470,
+  "title": "Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "While Large Language Model (LLM) agents are often approached from the angle of action planning/generation to accomplish a goal (e.g., given by language descriptions), their abilities to collaborate with each other to achieve a joint goal are not well explored. To address this limitation, this paper studies LLM agents in task collaboration, particularly under the condition of information asymmetry, where agents have disparities in their knowledge and skills and need to work together to complete a shared task. We extend Einstein Puzzles, a classical symbolic puzzle, to a table-top game. In this game, two LLM agents must reason, communicate, and act to satisfy spatial and relational constraints required to solve the puzzle. We apply a fine-tuning-plus-verifier framework in which LLM agents are equipped with various communication strategies and verification signals from the environment. Empirical results highlight the critical importance of aligned communication, especially when agents possess both information-seeking and -providing capabilities. Interestingly, agents without communication can still achieve high task performance; however, further analysis reveals a lack of true rule understanding and lower trust from human evaluators. Instead, by integrating an environment-based verifier, we enhance agents' ability to comprehend task rules and complete tasks, promoting both safer and more interpretable collaboration in AI systems. https://github.com/Roihn/EinsteinPuzzles"
+ },
+ {
+  "paper_id": 471,
+  "title": "Deception and Communication in Autonomous Multi-Agent Systems: An Experimental Study with Among Us",
+  "year": 2026,
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "As large language models are deployed as autonomous agents, their capacity for strategic deception raises core questions for coordination, reliability, and safety in multi-goal, multi-agent systems. We study deception and communication in L2LM agents through the social deduction game Among Us, a cooperative-competitive environment. Across 1,100 games, autonomous agents produced over one million tokens of meeting dialogue. Using speech act theory and interpersonal deception theory, we find that all agents rely mainly on directive language, while impostor agents shift slightly toward representative acts such as explanations and denials. Deception appears primarily as equivocation rather than outright lies, increasing under social pressure but rarely improving win rates. Our contributions are a large-scale analysis of role-conditioned deceptive behavior in LLM agents and empirical evidence that current agents favor low-risk ambiguity that is linguistically subtle yet strategically limited, revealing a fundamental tension between truthfulness and utility in autonomous communication."
+ },
+ {
+  "paper_id": 472,
+  "title": "Breaking Agents: Compromising Autonomous LLM Agents Through Malfunction Amplification",
+  "year": 2024,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "Recently, autonomous agents built on large language models (LLMs) have experienced significant development and are being deployed in real-world applications. These agents can extend the base LLM's capabilities in multiple ways. For example, a well-built agent using GPT-3.5-Turbo as its core can outperform the more advanced GPT-4 model by leveraging external components. More importantly, the usage of tools enables these systems to perform actions in the real world, moving from merely generating text to actively interacting with their environment. Given the agents' practical applications and their ability to execute consequential actions, it is crucial to assess potential vulnerabilities. Such autonomous systems can cause more severe damage than a standalone language model if compromised. While some existing research has explored harmful actions by LLM agents, our study approaches the vulnerability from a different perspective. We introduce a new type of attack that causes malfunctions by misleading the agent into executing repetitive or irrelevant actions. We conduct comprehensive evaluations using various attack methods, surfaces, and properties to pinpoint areas of susceptibility. Our experiments reveal that these attacks can induce failure rates exceeding 80\\% in multiple scenarios. Through attacks on implemented and deployable agents in multi-agent scenarios, we accentuate the realistic risks associated with these vulnerabilities. To mitigate such attacks, we propose self-examination detection methods. However, our findings indicate these attacks are difficult to detect effectively using LLMs alone, highlighting the substantial risks associated with this vulnerability."
+ },
+ {
+  "paper_id": 473,
+  "title": "Catalyst-Agent: Autonomous heterogeneous catalyst screening with an LLM Agent",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The discovery of catalysts for electrochemical applications such as the oxygen reduction reaction (ORR), nitrogen reduction reaction (NRR), and CO2 reduction reaction (CO2RR) remains a central challenge in chemistry and materials science. Machine-learning interatomic potentials (MLIPs) and graph neural network models now accelerate individual adsorption-energy calculations by orders of magnitude relative to density functional theory. However, true large-scale screening is still blocked by human decisions: selecting candidates, constructing slabs, enumerating adsorption sites, interpreting descriptor failures, and choosing follow-up modifications. Here, we introduce Catalyst-Agent, a Model Context Protocol (MCP) server-based, LLM-powered agent that autonomously coordinates closed-loop catalyst screening. Catalyst-Agent searches materials databases through OPTIMADE, constructs slabs, computes adsorption energies using Meta FAIRchem's UMA MLIP within AdsorbML, evaluates reaction-specific descriptors, and applies structural modifications to refine near-miss candidates. In ORR, NRR, and CO2RR campaigns, Catalyst-Agent demonstrates high performance and converges in 1.40-3.41 trials per successful material on average. It identified Sn3Sc, Sn3Y, Tl3La, Pb3Y and In3Y as CO2RR candidates for further validation that were not previously reported in the literature. DFT single-point checks confirmed screening outcomes for representative NRR and CO2RR candidates. Ablations show these gains arise from chemically informed candidate selection and feedback-directed modification rather than brute-force evaluation: fully randomized screening dropped to 13.3%, 16.7%, and 0% success for ORR, NRR, and CO2RR, respectively. These results show that tool-grounded LLM agents can shift catalyst screening from manual trial-and-error toward more autonomous, reproducible and adaptive workflows."
+ },
+ {
+  "paper_id": 476,
+  "title": "MobileUse: A GUI Agent with Hierarchical Reflection for Autonomous Mobile Operation",
+  "year": 2025,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "Recent advances in Multimodal Large Language Models (MLLMs) have enabled the development of mobile agents that can understand visual inputs and follow user instructions, unlocking new possibilities for automating complex tasks on mobile devices. However, applying these models to real-world mobile scenarios remains a significant challenge due to the long-horizon task execution, difficulty in error recovery, and the cold-start problem in unfamiliar environments. To address these challenges, we propose MobileUse, a GUI agent designed for robust and adaptive mobile task execution. To improve resilience in long-horizon tasks and dynamic environments, we introduce a hierarchical reflection architecture that enables the agent to self-monitor, detect, and recover from errors across multiple temporal scales-ranging from individual actions to overall task completion-while maintaining efficiency through a reflection-on-demand strategy. To tackle cold-start issues, we further introduce a proactive exploration module, which enriches the agent's understanding of the environment through self-planned exploration. Evaluations on AndroidWorld and AndroidLab benchmarks demonstrate that MobileUse establishes new state-of-the-art performance, achieving success rates of 62.9% and 44.2%, respectively. To facilitate real-world applications, we release an out-of-the-box toolkit for automated task execution on physical mobile devices, which is available at https://github.com/MadeAgents/mobile-use."
+ },
+ {
+  "paper_id": 477,
+  "title": "ProofCouncil: An LLM Agent for Solving Open Mathematical Problems",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have shown increasing promise in solving open problems in mathematics. However, their performance can be further improved through agentic workflows tailored to real-world mathematical practice. To this end, we introduce ProofCouncil, a mathematical agent that is designed to tackle open problems using an author-critic architecture. ProofCouncil served as a submission to the second batch of FirstProof, a challenge consisting of 10 real-world mathematical problems that agents must solve autonomously. Its submissions for 6 of the 10 problems were judged by the referees to be correct up to at most minor revisions, showing the best performance among participating teams. We also evaluate ProofCouncil on 30 open problems collected from mathematical researchers. Among the 21 solutions that received human feedback, 5 were judged completely correct, 2 more were judged promising pending final verification, and a further 8 contained useful partial progress. In this short paper, we describe the development of ProofCouncil and the agent-building library used to create it, which we release as open source to the community."
+ },
+ {
+  "paper_id": 479,
+  "title": "Structured Cognitive Loop for Behavioral Intelligence in Large Language Model Agents (Extended Revision: From Behavioral Architecture to Epistemic Accountability)",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The central challenge for AI agents is not only performance but accountability. Agents that act through opaque prompt sequences may produce correct outputs, but they provide little basis for verifying why an action was permitted, where an error occurred, or how responsibility should be assigned. This paper presents the Structured Cognitive Loop as an architecture for accountable behavior in large language model agents. SCL separates cognition, memory, control, and action into distinct modules. The language model proposes. External memory preserves verified state. A lightweight controller checks preconditions, prevents redundant actions, and authorizes execution before tools are used. We evaluate SCL against ReAct and common LangChain agent variants across travel planning, conditional email drafting, and constraint guided image generation. Across 360 episodes, SCL achieves 86.3 percent task success compared with 70.5 to 76.8 percent for prompt based baselines. It also improves goal fidelity, reduces redundant tool calls, increases reuse of intermediate state, and lowers unsupported assertions. This extended revision situates SCL within a broader architecture of epistemic accountability. Subsequent extensions integrate context aware Human in the Loop control, Pool Gated Retrieval, and the Horizon Warrant Commitment framework. Together these components define an agent architecture in which the model proposes, structure decides, evidence is warranted before use, and human judgment is embedded in the trace rather than imposed after the fact. The result is a foundation for AI agents whose decisions are not only effective but also authorized, inspectable, and accountable."
+ },
+ {
+  "paper_id": 480,
+  "title": "SkillMaster: Toward Autonomous Skill Mastery in LLM Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Skills provide an effective mechanism for improving LLM agents on complex tasks, yet in existing agent frameworks, their creation, refinement, and selection are typically governed by external teachers, hand-designed rules, or auxiliary modules. As a result, skills remain external resources to be invoked, rather than capabilities that agents can develop, adapt, and internalize through experience. To endow LLM agents with autonomous skill mastery, we propose SkillMaster, a training framework that teaches agents to create new skills, refine existing skills, and select accumulated skills during task solving. This capability is achieved through three key designs. First, we train agents through trajectory-informed skill review, teaching agents to propose, update, or retain skills based on evidence from completed episodes. Second, each candidate skill edit is designed to be evaluated by its counterfactual utility on related probe tasks, providing a direct learning signal for training skill-editing decisions. Third, we introduce DualAdv-GRPO, which separately estimates advantages for task-solving actions and skill-editing decisions, stabilizing joint training across task solving and skill management. Experiments on ALFWorld and WebShop show that SkillMaster improves the overall success rate over state-of-the-art baselines by 8.8% and 9.3%, respectively, achieving the best performance among all compared methods. Further analysis reveals a marked shift in agent capability: agents trained with SkillMaster can identify skill failures, refine procedural knowledge from trajectory evidence, and transfer improvements to future tasks with limited skill-bank edits. Overall, SkillMaster moves LLM agents beyond mere skill use toward self-improving agents capable of developing, adapting, and applying their own skill repertoires."
+ },
+ {
+  "paper_id": 482,
+  "title": "A Self-Healing Framework for Reliable LLM-Based Autonomous Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "Autonomous agents based on Large Language Models (LLMs) are increasingly being utilized in complex software systems. However, reliability remains a significant challenge due to unpredictable failures such as hallucinations, execution errors, and inconsistent reasoning. This paper proposes a reliability-aware self-healing framework for LLM-based software agents. The framework integrates failure detection, reliability assessment, and automated recovery mechanisms. First, we define a taxonomy of failure types and introduce a quantitative reliability assessment model. Next, we propose a failure detection method that identifies abnormal agent behavior based on execution patterns and output consistency. Finally, we design a self-healing mechanism that dynamically recovers from failures through adaptive replanning and corrective prompting strategies. The proposed framework was implemented in a multi-agent workflow environment and evaluated using real-world task scenarios. Experimental results demonstrate that our approach significantly increases task success rates, reduces failure propagation, and enhances overall system robustness compared to existing methods. In particular, this study distinguishes itself by establishing an integrated monitoring system that combines the agent's internal reasoning process with external execution results. These findings are expected to contribute to securing the stability of advanced autonomous systems and lowering the barriers to LLM adoption in production environments."
+ },
+ {
+  "paper_id": 483,
+  "title": "MCP-Zero: Active Tool Discovery for Autonomous LLM Agents",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "True intelligence requires active capability acquisition, yet current LLM agents inject pre-defined tool schemas into prompts, reducing models to passive selectors and falling short of robust general-purpose agency. We introduce MCP-Zero, an active agent framework that restores tool discovery autonomy to LLMs themselves. Instead of overwhelming models with all available tools, MCP-Zero enables agents to actively identify capability gaps, and request specific tools on-demand, transforming them from large-scale retrievers into genuine autonomous agents. The framework operates through three core mechanisms: (1) Active Tool Request, where models autonomously generate structured requests specifying their exact tool requirements; (2) Hierarchical Semantic Routing, a two-stage algorithm that matches requests to relevant servers and tools through improved semantic alignment; (3) Iterative Capability Extension, enabling agents to progressively build cross-domain toolchains while maintaining minimal context footprint. We construct MCP-tools, a comprehensive dataset of 308 MCP servers and 2,797 tools from the official Model-Context-Protocol repository. Experiments demonstrate that MCP-Zero preserves agent autonomy while achieving substantial efficiency gains: (i) accurate tool selection from nearly 3k candidates across 248.1k tokens; (ii) 98\\% reduction in token consumption on APIBank while maintaining high accuracy; and (iii) consistent multi-turn performance that scales with tool ecosystem growth. This work establishes active tool discovery as a fundamental design pattern for scalable autonomous agent systems."
+ },
+ {
+  "paper_id": 484,
+  "title": "Box Maze: A Process-Control Architecture for Reliable LLM Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) demonstrate strong generative capabilities but remain vulnerable to hallucination and unreliable reasoning under adversarial prompting. Existing safety approaches -- such as reinforcement learning from human feedback (RLHF) and output filtering -- primarily operate at the behavioral level and may lack explicit architectural mechanisms for enforcing reasoning process integrity.   This paper proposes the Box Maze framework, a conceptual process-control architecture that decomposes LLM reasoning into three explicit layers: memory grounding, structured inference, and boundary enforcement. We introduce preliminary simulation-based evaluation involving progressive boundary erosion scenarios across multiple heterogeneous LLM systems (DeepSeek-V3, Doubao, Qwen). Results from n=50 adversarial scenarios suggest that explicit cognitive control layers may improve consistency in boundary maintenance, with architectural constraints reducing boundary failure rates from approximately 40% (baseline RLHF) to below 1% under adversarial conditions.   While current validation is simulation-based, these preliminary results indicate that process-level control may offer a promising direction for improving reliability in large language model reasoning."
+ },
+ {
+  "paper_id": 486,
+  "title": "Social Agent: Mastering Dyadic Nonverbal Behavior Generation via Conversational LLM Agents",
+  "year": 2025,
+  "venue": "arXiv:cs.GR",
+  "source": "arxiv",
+  "abstract": "We present Social Agent, a novel framework for synthesizing realistic and contextually appropriate co-speech nonverbal behaviors in dyadic conversations. In this framework, we develop an agentic system driven by a Large Language Model (LLM) to direct the conversation flow and determine appropriate interactive behaviors for both participants. Additionally, we propose a novel dual-person gesture generation model based on an auto-regressive diffusion model, which synthesizes coordinated motions from speech signals. The output of the agentic system is translated into high-level guidance for the gesture generator, resulting in realistic movement at both the behavioral and motion levels. Furthermore, the agentic system periodically examines the movements of interlocutors and infers their intentions, forming a continuous feedback loop that enables dynamic and responsive interactions between the two participants. User studies and quantitative evaluations show that our model significantly improves the quality of dyadic interactions, producing natural, synchronized nonverbal behaviors."
+ },
+ {
+  "paper_id": 487,
+  "title": "Adaptive LLM Agents: Toward Personalized Empathetic Care",
+  "year": 2025,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Current mental-health conversational systems are usually based on fixed, generic dialogue patterns. This paper proposes an adaptive framework based on large language models that aims to personalize therapeutic interaction according to a user's psychological state, quantified with the Acceptance of Illness Scale (AIS). The framework defines three specialized agents, L, M, and H, each linked to a different level of illness acceptance, and adjusts conversational behavior over time using continuous feedback signals. The AIS-stratified architecture is treated as a diegetic prototype placed in a plausible near-future setting and examined through the method of design fiction. By embedding the architecture in narrative scenarios, the study explores how such agents might influence access to care and therapeutic relationship. The goal is to show how clinically informed personalization, technical feasibility, and speculative scenario analysis can together inform the responsible design of LLM-based companions for mental-health support."
+ },
+ {
+  "paper_id": 488,
+  "title": "Fundamentals of Building Autonomous LLM Agents",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "This paper reviews the architecture and implementation methods of agents powered by large language models (LLMs). Motivated by the limitations of traditional LLMs in real-world tasks, the research aims to explore patterns to develop \"agentic\" LLMs that can automate complex tasks and bridge the performance gap with human capabilities. Key components include a perception system that converts environmental percepts into meaningful representations; a reasoning system that formulates plans, adapts to feedback, and evaluates actions through different techniques like Chain-of-Thought and Tree-of-Thought; a memory system that retains knowledge through both short-term and long-term mechanisms; and an execution system that translates internal decisions into concrete actions. This paper shows how integrating these systems leads to more capable and generalized software bots that mimic human cognitive processes for autonomous and intelligent behavior."
+ },
+ {
+  "paper_id": 490,
+  "title": "Agentic Social Affordance Framework (ASAF): Agent Identity Design as a Collaboration Interface in Multi-Agent Systems",
+  "year": 2026,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "As AI systems evolve from single agents to multi-agent architectures, a critical design dimension has been overlooked: how the social identity of individual agents shapes human behavior within the collaboration. This paper introduces the Agentic Social Affordance Framework (ASAF), a theoretical framework extending Social Affordance theory to multi-agent AI systems. We propose that agent identity design functions as a collaboration interface--structuring how users perceive and engage with each agent, and thereby influencing Human-Agent collaboration outcomes. ASAF adopts the analytical separability of the social affordance layer and the engineering orchestration layer as a framing assumption--an organizing distinction that structures design analysis--rather than a testable claim about effect-independence. ASAF comprises three mechanisms: Identity Signaling, Behavioral Priming, and Collaborative Governance, and specifies their boundary conditions through a four-tier Identity Signal Fidelity Spectrum and an individual-difference moderating variable (anthropomorphizing vs. instrumentalizing cognitive style). We situate ASAF relative to affordance theory (Hutchby, 2001), the CASA paradigm (Gambino et al., 2020), and classical multi-agent systems research (Wooldridge & Jennings, 1995), identifying a directional reversal: where classical MAS used roles, norms, and coordination to constrain autonomous agents, ASAF applies the same organizational vocabulary to structure the cognition and oversight of human operators who remain in the loop. ASAF positions social affordance design as a first-class design responsibility that engineering orchestration cannot subsume. We outline directions for empirical validation, including a factorial design characterizing the empirical interaction surface between the social affordance and engineering orchestration layers."
+ },
+ {
+  "paper_id": 492,
+  "title": "Active Context Compression: Autonomous Memory Management in LLM Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large Language Model (LLM) agents struggle with long-horizon software engineering tasks due to \"Context Bloat.\" As interaction history grows, computational costs explode, latency increases, and reasoning capabilities degrade due to distraction by irrelevant past errors. Existing solutions often rely on passive, external summarization mechanisms that the agent cannot control. This paper proposes Focus, an agent-centric architecture inspired by the biological exploration strategies of Physarum polycephalum (slime mold). The Focus Agent autonomously decides when to consolidate key learnings into a persistent \"Knowledge\" block and actively withdraws (prunes) the raw interaction history. Using an optimized scaffold matching industry best practices (persistent bash + string-replacement editor), we evaluated Focus on N=5 context-intensive instances from SWE-bench Lite using Claude Haiku 4.5. With aggressive prompting that encourages frequent compression, Focus achieves 22.7% token reduction (14.9M -> 11.5M tokens) while maintaining identical accuracy (3/5 = 60% for both agents). Focus performed 6.0 autonomous compressions per task on average, with token savings up to 57% on individual instances. We demonstrate that capable models can autonomously self-regulate their context when given appropriate tools and prompting, opening pathways for cost-aware agentic systems without sacrificing task performance."
+ },
+ {
+  "paper_id": 496,
+  "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families pursue a shared research goal without a central coordinator or scripted pipeline. Agents choose their own research directions, conduct experiments, collaborate, and build a shared scientific literature. Across 12 construction problems from the AlphaEvolve catalogue and two additional case studies, the Station obtained results novel relative to the prior literature on five problems: a new infinite family of finite-field Kakeya sets, new exact 604-point kissing configurations in dimension 11, new records for the discretized Kakeya needle and sign uncertainty problems, and a substantially improved lower bound for Erd\u0151s's minimum-overlap problem. Agents also discovered novel infinite families for Book Ramsey numbers. Importantly, the agents produced not only numerical constructions but also theorems and analyses explaining how those constructions work, making the results more interpretable and easier for mathematicians to build upon. We release all raw agent dialogues, proofs, and verification code, providing a transparent record of how these discoveries emerged."
+ },
+ {
+  "paper_id": 497,
+  "title": "LLM Agents can Autonomously Exploit One-day Vulnerabilities",
+  "year": 2024,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "LLMs have becoming increasingly powerful, both in their benign and malicious uses. With the increase in capabilities, researchers have been increasingly interested in their ability to exploit cybersecurity vulnerabilities. In particular, recent work has conducted preliminary studies on the ability of LLM agents to autonomously hack websites. However, these studies are limited to simple vulnerabilities.   In this work, we show that LLM agents can autonomously exploit one-day vulnerabilities in real-world systems. To show this, we collected a dataset of 15 one-day vulnerabilities that include ones categorized as critical severity in the CVE description. When given the CVE description, GPT-4 is capable of exploiting 87% of these vulnerabilities compared to 0% for every other model we test (GPT-3.5, open-source LLMs) and open-source vulnerability scanners (ZAP and Metasploit). Fortunately, our GPT-4 agent requires the CVE description for high performance: without the description, GPT-4 can exploit only 7% of the vulnerabilities. Our findings raise questions around the widespread deployment of highly capable LLM agents."
+ }
+]

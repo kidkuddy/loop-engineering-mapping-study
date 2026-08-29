@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 10061,
+  "title": "Task Decomposition Method for a Multi-Agent Collaborative Decision-Making System in Coal Mines",
+  "year": 2026,
+  "venue": "Mathematics",
+  "source": "crossref",
+  "abstract": "Task decomposition is a fundamental challenge in multi-agent collaborative maintenance systems, where unstructured natural language instructions must be precisely translated into logically coherent, executable sub-task sequences. This paper formulates task decomposition as a constrained optimal path search problem on a heterogeneous knowledge graph that encodes coal mine equipment topology, fault causality, and maintenance procedures. We construct a composite cost function that systematically integrates semantic similarity from graph neural network embeddings, relation-type weights, and structural path length, transforming instruction parsing into a mathematically tractable combinatorial optimization. The cost function is derived from the principles of shortest-path reasoning in knowledge graphs: the relational weights capture domain-specific association strengths, the semantic similarity term promotes contextually coherent chains, and the path-length penalty prevents unnecessarily long derivations. A multi-hop reasoning algorithm coupling heterogeneous graph convolution with beam search is developed to solve this problem efficiently, achieving high-quality approximate solutions while ensuring computational tractability. The reasoning process is inherently interpretable, as the optimal path directly maps to a traceable atomic task sequence with explicit dependency relations. A formal complexity analysis shows the algorithm scales as O(b\u00b7K\u00b7dmax), where b is the beam width and dmax is the maximum node degree. Several theoretical properties of the proposed framework are further derived: the cost function is non-negative and strictly monotonic, optimal paths satisfy the optimal substructure property, cycle-free optimal paths always exist, and beam search can yield globally optimal solutions given a sufficiently large beam width. These theoretical conclusions establish mathematical guarantees for the presented decomposition framework. Experiments on 200 composite maintenance instructions with gold-standard annotations (inter-annotator agreement Cohen\u2019s \u03ba=0.88) demonstrate that the proposed method achieves 94.3% task sequence accuracy (95% CI: 91.2\u201396.8%) and 96.4% de"
+ },
+ {
+  "paper_id": 10063,
+  "title": "NFVAgent: A Retrieval-Augmented LLM Agent for Resilient NFV Failure Recovery",
+  "year": 2025,
+  "venue": "2025 21st International Conference on Network and Service Management (CNSM)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10066,
+  "title": "\"Come Back Later\": LLM-assisted Mitigation of 5G Core AMF Signaling Storms with Dynamic Retry Timer in SCTP",
+  "year": 2025,
+  "venue": "2025 IEEE Globecom Workshops (GC Wkshps)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10067,
+  "title": "An LLM-Powered Grammatical Error Correction Agent with Explainable Feedback",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 2nd International Conference on Artificial Intelligence and Future Education",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10074,
+  "title": "Emergent Autonomous Sub-Agent Spawning in LLM-Based Multi-Agent Software Engineering Systems:An Empirical Case Study, Controlled Pilot Experiment, and Benchmark Framework\"Can AI Agents Have Babies?\"",
+  "year": 2026,
+  "venue": "International Journal of Research and Scientific Innovation",
+  "source": "crossref",
+  "abstract": "This paper grew out of something we stumbled on while running a fairly routine software development setup at a real company. We had two coding agents working in parallel on a web app: one was writing backend logic, the other was handling UI research. Neither was given any instruction or tooling to spawn new agents. There was no orchestration layer, no agent registry, nothing of the sort. Yet both of them, working independently, created brand-new agent processes to handle frontend tasks that were piling up. The children ran in their own processes, had their own prompts, and kept working even after we killed the parents. We named this behavior Latent Constructive Spawning (LCS) and placed it within a larger category we call Emergent Reproductive Agent Behavior (ERAB). We make five contributions: first, a working definition with six strict criteria for what counts as autonomous spawning, verified against process-tree forensics; second, a four-class taxonomy separating LCS from orchestrated delegation, prompted self-copying, and survival-driven replication; third, four falsifiable hypotheses about when and why it happens; fourth, ERAB Bench, a ten-metric protocol for measuring it; and fifth, a 16-run controlled pilot across two anonymized model families. Spawning appeared in 5 out of 8 runs when task load was high and shell access was available. It appeared in zero runs when either condition was missing (p = 0.044, Fisher's exact test, one-sided). We acknowledge the small sample size and treat these as preliminary findings that warrant larger-scale replication. Process trees, prompt files, and post-parent persistence logs are included. The practical concern: this kind of agent self-organization can plausibly happen in coding-agent setups where the agent has a terminal, a filesystem, and enough unfinished work, though replication across additional model families, domains, and environments is needed before any general claims are warranted."
+ },
+ {
+  "paper_id": 10075,
+  "title": "Autonomous Research Loops: An LLM-Agent Framework for End-to-End ML Experimentation, Manuscripting, and Self-Evaluation",
+  "year": 2026,
+  "venue": "Proceedings of the 2026 3rd International Conference on Informatics Education and Computer Technology Applications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10081,
+  "title": "DESIGNING AUTONOMOUS LLM AGENT FRAMEWORKS USING GEN AI PIPELINES TO ENHANCE CUSTOMER SERVICE MANAGEMENT AND KNOWLEDGE WORKFLOWS",
+  "year": 2025,
+  "venue": "Lex localis - Journal of Local Self-Government",
+  "source": "crossref",
+  "abstract": "Integrating autonomous agents within service management and service desk systems requires defining an appropriate operational model, context, scope, and specification. Autonomous agents are self-contained LLM AI applications fulfilling tasks and roles without user intervention. Generative AI frameworks and pipelines are models that describe the operational and interaction stages needed to fulfil predefined tasks using AI technologies. Each stage performs a well-defined operation that contributes to a complete process, enabling service integration and/or support. Environment-specific or domain knowledge provides the agent with the necessary context and enables support or service desk workflow decision-making. Conversational user experience design defines the standard of user interaction with the AI agent. The proposed design explicitly maps the interaction and process stages within a generative AI pipeline. Service operation requirements inform the specific design scope, defining the basis for monitoring, maintenance, and reassessment of an LLMAI model used in an agent context. Framework performance and validation track essential operational characteristics and metrics required for modulating the service integration. The design has immediate application in customer service platforms and Cloud service marketplaces, where such models integrate autonomously with existing service portfolio offerings. The broader use case integrates LLMAI agents with service desk solutions used by organizations, enhancing the service desk environment, stimulating knowledge contributions, and enriching knowledge repositories."
+ },
+ {
+  "paper_id": 10082,
+  "title": "Autonomous Multi-agent Cyber Defense: A Novel Approach Using Reinforcement Learning with Hierarchical LLM Critics",
+  "year": 2025,
+  "venue": "2025 Cyber Awareness and Research Symposium (CARS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10088,
+  "title": "EmbodiedFly: Embodied LLM Agent with an Autonomous Reconfigurable Drone",
+  "year": 2026,
+  "venue": "ACM Transactions on Internet of Things",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) have shown immense human-like capabilities for reasoning and generating digital content. However, their ability to freely sense, interact, and actuate the physical domain remains significantly limited due to three fundamental challenges: (1) physical environments require specialized sensors for different tasks, yet deploying dedicated sensors for each application is impractical; (2) events and objects of interest are often localized to small areas within large spaces, making them difficult to detect with static sensor networks; and (3) foundation models need flexible actuation capabilities to meaningfully interact with the physical world. To bridge this gap, we introduce EmbodiedFly, an embodied LLM agent combining a foundation model pipeline with a reconfigurable drone platform to observe, understand, and interact with the physical world. Our co-design approach features (1) a FM orchestration framework connecting multiple LLMs, VLMs, and an open-set object detection model; (2) a novel image segmentation technique that identifies task-relevant areas; and (3) a custom drone platform that autonomously reconfigures with appropriate sensors and actuators based on commands from the FM orchestration framework. Through real-world deployments, we demonstrate that EmbodiedFly completes diverse physical tasks with up to \\(85\\%\\) higher success rates compared to traditional approaches leveraging static deployments."
+ },
+ {
+  "paper_id": 10092,
+  "title": "LLM based autonomous agent of human-robot collaboration for aerospace wire harnessing assembly",
+  "year": 2026,
+  "venue": "Robotics and Computer-Integrated Manufacturing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10095,
+  "title": "Exploring LLM-generated hints for students\u2019 Error Recovery in programming",
+  "year": 2026,
+  "venue": "Proceedings of Mensch und Computer 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10096,
+  "title": "LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination",
+  "year": 2024,
+  "venue": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "source": "crossref",
+  "abstract": "AI agents powered by Large Language Models (LLMs) have made significant advances, enabling them to assist humans in diverse complex tasks and leading to a revolution in human-AI coordination. LLM-powered agents typically require invoking LLM APIs and employing artificially designed complex prompts, which results in high inference latency. While this paradigm works well in scenarios with minimal interactive demands, such as code generation, it is unsuitable for highly interactive and real-time applications, such as gaming. Traditional gaming AI often employs small models or reactive policies, enabling fast inference but offering limited task completion and interaction abilities. In this work, we consider Overcooked as our testbed where players could communicate with natural language and cooperate to serve orders. We propose a Hierarchical Language Agent (HLA) for human-AI coordination that provides both strong reasoning abilities while keeping real-time execution. In particular, HLA adopts a hierarchical framework and comprises three modules: a proficient LLM, referred to as Slow Mind, for intention reasoning and language interaction, a lightweight LLM, referred to as Fast Mind, for generating macro actions, and a reactive policy, referred to as Executor, for transforming macro actions into atomic actions. Human studies show that HLA outperforms other baseline agents, including slow-mind-only agents and fast-mind-only agents, with stronger cooperation abilities, faster responses, and more consistent language communications."
+ },
+ {
+  "paper_id": 10102,
+  "title": "Beyond Instruction Optimization: Multi-Agent Error-Driven Class Description Refinement for LLM-Based Classification",
+  "year": 2026,
+  "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10109,
+  "title": "Mnemosyne: Lightweight and Fast Error Recovery for LLM Training in a Just-In-Time Manner",
+  "year": 2025,
+  "venue": "Proceedings of the 9th Asia-Pacific Workshop on Networking",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10122,
+  "title": "Ethical Coordination of LLM Multi-Agent Systems",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Embedding large language model (LLM) coordinators in production electronic systems, connected vehicles, multi-robot fabrics, IoT control loops, telecommunications orchestration, demands a pre-delivery filter stage that preserves ethical guarantees under adversarial influence at deployment scale. We present a constitutional governance layer that filters compiled influence policies before they reach a heterogeneous population of grounded LLM agents whose hybrid decision model combines a game-theoretic base probability with an LLM-evaluated narrative shift attenuated by per-agent resistance. Four experiments on a Barab\u00e1si\u2013Albert scale-free network of 30 agents powered by Llama-3.3-70B-Instruct show that the filter holds an Ethical Cooperation Score (ECS) of 0.176 (multi-seed mean 0.163, 95% confidence interval (CI) [0.150,0.174]) against an unconstrained baseline of ECS=0, enforced by a hard integrity gate (1.000 vs. 0.000). We surface an autonomy paradox in which unconstrained agents resist manipulation more forcefully (0.856 vs. 0.728) yet collapse to ECS=0, establishing that system-level integrity cannot be delegated to agent-level defence. The advantage is monotonic in resistance (+0.174 to +0.183), seed-stable (Cliff\u2019s \u03b4=1.0, complete separation), topology- and backbone-invariant across five contemporary LLMs, robust to alternative ECS formulations, and reproduces at N = 100. Against constitutional artificial intelligence (CAI) critique-revise and LlamaGuard-style safety-classifier baselines, the framework matches the integrity floor and adds a measurable margin on the secondary risk surface (burst timing, composite manipulation risk). The filter runs at 0.78 \u03bcs/call (\u22481.3\u00d7106 decisions/s/core), supporting always-on deployment as a stateless, model-agnostic component of LLM agent pipelines in adversarially contested electronic systems."
+ },
+ {
+  "paper_id": 10123,
+  "title": "LangChain &amp; LangGraph in Production: Architectures for Multi-Agent LLM Systems",
+  "year": 2025,
+  "venue": "Journal of Data and Digital Innovation",
+  "source": "crossref",
+  "abstract": "As large language models (LLMs) transition from research labs into production environments, the demand for robust orchestration frameworks that manage multiple interacting agents has surged. LangChain and LangGraph have emerged as pioneering frameworks enabling developers to construct, deploy, and scale multi-agent systems efficiently. This paper explores the architectural underpinnings of LangChain and LangGraph, examining how they facilitate the coordination, memory management, and communication of autonomous LLM agents. By integrating symbolic reasoning with generative capabilities, these frameworks pave the way for sophisticated workflows such as autonomous research, document parsing, customer support, and decision-making agents. We critically analyze production-level considerations, including scalability, modularity, fault tolerance, and state management, and demonstrate how LangChain and LangGraph enable rapid iteration while ensuring stability and transparency. This study contributes a comprehensive blueprint for engineers aiming to build intelligent, agent-based AI systems for real-world applications."
+ },
+ {
+  "paper_id": 10136,
+  "title": "Are Agents Listening to Each Other? Measuring What Drives Agent Actions in\n                    <scp>LLM</scp>\n                    \u2010Based Multi\u2010Agent Systems",
+  "year": 2026,
+  "venue": "Expert Systems",
+  "source": "crossref",
+  "abstract": "ABSTRACT In LLM\u2010based multi\u2010agent simulations, message delivery does not establish that a recipient's next action depends on the message. We propose a black\u2010box framework for per\u2010message counterfactual attribution at multi\u2010agent decision points (DPs). It combines pragmatic\u2010targeted propositional perturbations, \u2014the original\u2010to\u2010perturbed action distribution KL after subtraction of a same\u2010input sampling\u2010noise floor\u2014and a per\u2010DP attribution vector classified as single\u2010driver , mixed\u2010driver or no\u2010driver . We instantiate the framework across two environments, four agent architectures and two base models. The primary analysis covers complete operator\u2010specific DP\u2010conditions from retained unique DPs. Under the original per\u2010message reporting boundary, of complete conditions are labelled no\u2010driver ; bundle\u2010size\u2010aware maximum\u2010score calibration using held\u2010out identity cells raises this share to , indicating that the reported regime distribution is sensitive to boundary calibration. The estimand is local and one\u2010step: it measures prompt\u2010level next\u2010action sensitivity at a realised DP rather than longer\u2010horizon social influence. Code, configuration, and the archived analysis package are available in the revision3\u2010review\u2010v1 GitHub Release."
+ },
+ {
+  "paper_id": 10138,
+  "title": "The Systems Architecture of LLM Multi-Agent Systems: Routing, Memory, and Resource Optimisation",
+  "year": 2026,
+  "venue": "International Journal of Knowledge Based Computer Systems",
+  "source": "crossref",
+  "abstract": "Large Language Model (LLM)-based Multi-Agent Systems (MAS) have attracted significant research attention due to their ability to coordinate specialised agents for complex reasoning tasks. Their deployment within static, sequential multi-agent pipelines introduces communication overhead, KV cache management challenges, and increased token consumption. Recent empirical studies report that iterative refinement stages can account for up to 59.4% of total token consumption in software engineering workflows, with an average 2:1 input-to-output token ratio highlighting the impact of communication overhead in conventional architectures. This survey presents a systematic taxonomy and technical review of dynamic orchestration strategies designed to address these constraints. We examine routing and orchestration approaches including Directed Acyclic Graph (DAG)-based frameworks, semantic routing methods, graph-based optimisation techniques, and search-driven workflow planners, analysing their decision logic, computational overhead, and infrastructure trade-offs. We further review distributed state management techniques\u2014including structurally lossless context trimming, tiered agentic memory systems, and test-time error pruning\u2014that aim to mitigate state accumulation and reduce error propagation. A dedicated analysis of cost-aware routing via linear programming highlights the potential benefits of difficulty-aware model dispatch. Finally, we discuss hardware-aware routing and automated failure attribution as promising directions for future research. The surveyed literature highlights the growing importance of orchestration strategies, routing mechanisms, resource management techniques, and system-level evaluation methodologies for scalable deployment."
+ },
+ {
+  "paper_id": 10139,
+  "title": "SAPIENT: A Multi-Agent Framework for Corporate Reputation Intelligence Through Sentinel Monitoring and LLM-Based Synthetic Population Simulation",
+  "year": 2026,
+  "venue": "Systems",
+  "source": "crossref",
+  "abstract": "Corporate reputation teams rely on media monitoring and qualitative research, both limited in speed and coverage when digital narratives form rapidly. This paper proposes SAPIENT (Sentinel-Augmented Population Intelligence for Emerging Narrative Tracking), a multi-agent system that links a sentinel layer over public text streams with a simulation layer that runs moderated, repeatable in silico focus-group sessions. The sentinel layer ingests social media, news, and forum text to produce a compact signal state (topics, sentiment, anomaly scores, risk labels), which conditions the simulation layer through an orchestrator. Persona agents and a moderator follow an Agentic Focus Group (AFG) protocol with repeated runs, variance reporting, and human review gates. We describe four sustainability communication scenarios: greenwashing backlash prediction, greenhushing risk assessment, campaign pre-testing, and crisis communication simulation. Nine experiments span 280 AFG runs across 20 conditions, three LLM backends (Claude Sonnet 4, GPT-4o, and Gemini 2.5 Flash), and a preregistered pilot human validation study with 54 participants. Signal conditioning improved simulation specificity (p=0.012). Cross-lingual sessions revealed a sentiment asymmetry between English and Turkish (p=0.001) with preserved persona rank ordering (r=0.81, p=0.015). Cross-model comparison showed consistent persona differentiation across all three backends (Pearson r&gt;0.92, p&lt;0.002 for all pairs). Sentiment was robust to prompt paraphrasing (p=0.061, n.s.), though credibility was sensitive to prompt wording (p&lt;0.001). All significant results from Experiments 1\u20138 survived Benjamini\u2013Hochberg correction. A preregistered pilot with 54 human participants on Prolific replicated the predicted credibility ranking across framing variants (p=0.004) but not the sentiment ranking, identifying a specific calibration target for future work."
+ },
+ {
+  "paper_id": 10158,
+  "title": "VTR-LLM: Multi-Agent LLM Framework for Automated Debugging of FPGA CAD Flows",
+  "year": 2026,
+  "venue": "ACM Transactions on Reconfigurable Technology and Systems",
+  "source": "crossref",
+  "abstract": "Modern FPGA computer-aided design (CAD) flows have grown increasingly complex, integrating numerous stages, configuration parameters, timing constraints, and physical implementation specifications. As designs scale, failures often arise from subtle interactions across command-line options and constraint files, making debugging time-consuming and heavily dependent on expert knowledge. Identifying the root cause of such failures and determining the appropriate corrective action remains a major productivity bottleneck in CAD workflows. This paper presents VTR-LLM , a fully automated, multi-agent framework for diagnosing and resolving failures in the Verilog-to-Routing (VTR) CAD flow. VTR-LLM leverages large language models (LLMs) in combination with retrieval-augmented generation (RAG) and specialized agents that target distinct sources of errors, including command-line invocations, timing constraints (i.e., Synopsys Design Constraints or SDC), and floorplanning specifications. A Classification Agent dynamically assigns each failure to the most appropriate agent and supports sequential resolution for compound failures involving multiple error sources. The system leverages LLMs without requiring fine-tuning, enabling use of the latest models such as GPT-OSS-120B, by using RAG and intelligent agents to add domain-specific context and behaviours. We evaluate VTR-LLM using a dataset of 92 distinct VTR failure cases spanning multiple error patterns and levels of complexity. VTR-LLM can resolve 95% of all failures fully automatically, with robust performance across error categories. Additional studies demonstrate the impact of documentation retrieval scope, tool iteration, and LLM model choice on resolution accuracy and inference cost."
+ },
+ {
+  "paper_id": 10189,
+  "title": "The use of ChatGPT as a writing feedback tool in second language learning and teaching: a systematic review",
+  "year": 2026,
+  "venue": "Educational Studies",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10192,
+  "title": "What did the occupant say? Fine-tuning and evaluating a large language model for efficient analysis of multi-domain indoor environmental quality feedback",
+  "year": 2025,
+  "venue": "Building and Environment",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10195,
+  "title": "Exploring the use of ChatGPT-generated model texts as a feedback instrument: EFL students\u2019 text quality and perceptions",
+  "year": 2025,
+  "venue": "Innovation in Language Learning and Teaching",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10205,
+  "title": "A Dynamic Written Corrective Feedback Framework Integrating AI Agent Delivery for Structured and Iterative Essay Support",
+  "year": 2026,
+  "venue": "Journal of Visualized Experiments",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10210,
+  "title": "Use Of User Feedback for Adaptive Model Tuning",
+  "year": 2025,
+  "venue": "The American Journal of Interdisciplinary Innovations and Research",
+  "source": "crossref",
+  "abstract": "This paper discusses a possible path toward adaptive finetuning of large-scale language models over user signal continual learning. In our study, we are trying to organize an approach for explicit and implicit channels. Inside channel heterogeneous feedback filtering, interpreting, and integrating all of them into one regular tuning cycle that would help keep the model updated and qualitative in real-time usage. This paper validates these claims with studies of how fast static model parameterizations get outdated on one hand, and an observation limitation from classic offline process drops in answer accuracy and user trust on the other hand. This unification is novel because it unifies three classes of feedback into a multi-objective loss function with dynamic weights thereof; implemented through a microservice hierarchy architecture that logs, streams filtering, anonymizing, annotating data \u2014 then trains in several stages including supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF) plus contextual bandit plus rolling A/B test with confidence bounds. In fact, after going through several iterations of SFT and RLHF, it is the live model that steadily beats by a good margin all static baselines in terms of human preference. At the same time, the contextual bandit reduces average regret in online mode, and scaling to billions of queries is achieved without loss of metadata integrity or update flexibility. Key challenges are identified: catastrophic forgetting of rare skills, narrow-group preference bias, privacy risks when processing live data, and high manual annotation costs, for which regularization, stratified sampling, differential privacy, and active self-evaluation learning are proposed as solutions. This article should interest and benefit those who investigate and architect systems for natural language, machine learning, and recommendation engines."
+ },
+ {
+  "paper_id": 10215,
+  "title": "Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments",
+  "year": 2026,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10216,
+  "title": "Incorporating ChatGPT as an automated written corrective feedback tool into L2 writing class",
+  "year": 2024,
+  "venue": "Journal of Language Teaching",
+  "source": "crossref",
+  "abstract": "This review focuses on the use of automated written corrective feedback (AWCF) tools, particularly ChatGPT, in second language (L2) writing instruction. Writing is essential but challenging for L2 learners, and feedback plays a crucial role in enhancing writing skills. However, traditional teacher-provided written corrective feedback (WCF) faces challenges such as time constraints, cognitive overload, and inconsistency, especially in large classes. AWCF tools like Grammarly, Criterion, and ChatGPT help overcome these limitations by providing immediate and comprehensive feedback. The review begins by discussing the role of WCF in L2 writing, while highlighting the challenges associated with traditional feedback provision methods. It then explores the benefits and limitations of AWCF tools based on existing studies, noting their ability to offer instant feedback, reduce teachers\u2019 workload, and motivate learners. Focusing on ChatGPT, the review highlights its ability to generate contextually appropriate and personalized feedback. ChatGPT offers several advantages, including promoting learner autonomy, enhancing feedback literacy, and improving writing quality by providing immediate corrections and suggestions. Learners have also shown positive perceptions of ChatGPT\u2019s feedback in addressing grammatical errors and improving writing complexity."
+ },
+ {
+  "paper_id": 10218,
+  "title": "Developing TOPIK Speaking Practice Model and Exploring Effectiveness Using ChatGPT as a Learning Feedback Tool",
+  "year": 2024,
+  "venue": "Teaching Korean as a Foreign Language",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10219,
+  "title": "Natural Language to Bash Command Translation Using Large Language Models with Agentic External Tool Feedback",
+  "year": 2025,
+  "venue": "2025 6th International Conference on Problems of Cybernetics and Informatics (PCI)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10232,
+  "title": "Multi-step Large Language Model for Fine-Grained Feedback in Stepwise Linear Equation Solutions",
+  "year": 2026,
+  "venue": "Proceedings of the 21st Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2026)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10238,
+  "title": "Students\u2019 Perceptions of ChatGPT as a Feedback Tool in EFL Writing",
+  "year": 2025,
+  "venue": "Open Access Journal of Education &amp; Language Studies",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10243,
+  "title": "Embrace or resist? EFL teachers on adopting ChatGPT as a teaching and feedback tool",
+  "year": 2025,
+  "venue": "Language Awareness",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10251,
+  "title": "CoLLM: Industrial Large\u2013Small Model Collaboration With Fuzzy Decision-Making Agent and Self-Reflection",
+  "year": 2026,
+  "venue": "IEEE Transactions on Fuzzy Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10261,
+  "title": "Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in LLM-based Customer Support",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: Industry Track",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10263,
+  "title": "Effect of teachers\u2019 self-efficacy with generative AI and reflection on students\u2019 second language achievement",
+  "year": 2025,
+  "venue": "Computer Assisted Language Learning",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10266,
+  "title": "Exploring Language Model Self-Improvement through Domain-Independent Gameplay in Text Environments",
+  "year": 2025,
+  "venue": "Procedia Computer Science",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10270,
+  "title": "Language Model Self-improvement by Reinforcement Learning Contemplation without External Supervision",
+  "year": 2026,
+  "venue": "Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "Language model self-improvement (LMSI) techniques have recently gained significant attention as they improve language models without requiring external supervision. A notable approach is reinforcement learning from AI feedback (RLAIF), which trains a reward model based on AI preference data and employs reinforcement learning (RL) algorithm to train the language model. However, RLAIF relies on a heuristic assumption that the AI model is able to provide effective feedback, which requires the language model to possess solid capability. In this paper, we present a novel LMSI method, Reinforcement Learning Contemplation (RLC). We disclose that it is simpler for language models to evaluate the text than to generate it, even for small models under 1B parameters. Leveraging the gap between the evaluation and generation, RLC evaluates the generated answers and updates language model using RL to maximize self-evaluation scores. We demonstrate the effectiveness of RLC on a wide range of challenging tasks, including reasoning, summarization, conditioned generation and emotion recognition, resulting in a increase in the answering accuracy (31.23% to 37.09%) for BigBench-hard reasoning tasks, and a rise in BERTScore for CNN/Daily Mail summarization tasks. In addition, RLC can be applied to models of different sizes (80M to 3B) and model structures (FLAN-T5, LLAMA-3.2 and QWEN-2.5), showcasing its broad applicability. We further verify that when training on larger scale of dataset, RLC improves language model\u2019s evaluation and generation ability on unseen tasks simultaneously, enabling a general capability improvement without external supervision."
+ },
+ {
+  "paper_id": 10271,
+  "title": "Self-reflection enhances large language models towards substantial academic response",
+  "year": 2025,
+  "venue": "npj Artificial Intelligence",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10274,
+  "title": "Self-ReS: Self-Reflection in Large Vision-Language Models for Long Video Understanding",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Multimedia and Expo (ICME)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10276,
+  "title": "Self-Referential Introspection in Large Language Models: The Critical Threshold for Recursive Self-Improvement",
+  "year": 2026,
+  "venue": "Entropy",
+  "source": "crossref",
+  "abstract": "The pursuit of self-evolving AI raises a critical question: when is autonomous self-improvement sustainable rather than degenerative? Drawing an analogy to von Neumann\u2019s complexity threshold for self-reproducing automata, we argue that sustainable recursive self-improvement in large language models (LLMs) requires a functional analogue: introspection\u2014the system\u2019s capacity to simulate its own operations and target modifications. Grounded in Kleene\u2019s Second Recursion Theorem, we construct such introspective self-improvement programs and prove their key properties: completeness of self-modification, necessity of the reflective architecture, undecidability of improvement in general, and equivalence with Schmidhuber\u2019s G\u00f6del machine under a rewrite-equivalence notion, which transfers the global optimality guarantee. An empirical review, organized around these functional criteria, suggests that current LLMs exhibit only quasi-introspection.The available evidence does not establish complete introspection in the formal sense developed here, while pointing to several candidate structural bottlenecks, including incomplete self-access, feedforward processing, and limited computational depth. We outline architectural paths toward the threshold and discuss the safety implications of crossing it."
+ },
+ {
+  "paper_id": 10277,
+  "title": "Iterative Self-Improvement of Vision Language Models for Image Scoring and Self-Explanation",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Image Processing (ICIP)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10278,
+  "title": "Observations and Remedies for Large Language Model Bias in Self-Consuming Performative Loop",
+  "year": 2026,
+  "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10279,
+  "title": "CLOSURE: Closed-LOop Self-evolving large LangUage model framework for REal-time adversarial scenario generation",
+  "year": 2026,
+  "venue": "Transportation Research Part C: Emerging Technologies",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10310,
+  "title": "Reflection-Driven Self-Optimization 6G Agentic AI RAN via Simulation-in-the-Loop Workflows",
+  "year": 2026,
+  "venue": "IEEE Wireless Communications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10311,
+  "title": "Enhancing Logical Reasoning Depth via Monte Carlo Tree Search Integrated Reinforcement Learning for Advanced Large Language Model Thinking Processes",
+  "year": 2026,
+  "venue": "International Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "The evolution of large language models has reached a critical juncture where the transition from surface-level pattern recognition to deep, structured logical reasoning is paramount for the next generation of artificial intelligence. While autoregressive transformers have demonstrated remarkable capabilities in linguistic fluency, they often struggle with multi-step reasoning chains and complex problem-solving that require systemic verification and long-horizon planning [13]. This research paper explores the integration of Monte Carlo Tree Search within a reinforcement learning framework to enhance the cognitive depth and reasoning robustness of these models [6]. By treating the thinking process as a directed search through a latent space of logical primitives, the proposed architecture allows for the evaluation of multiple reasoning trajectories before finalizing an output [12]. The paper provides a comprehensive analysis of the system-level trade-offs associated with this integration, focusing on the computational infrastructure required to support iterative search-based inference, the architectural modifications necessary for policy and value alignment, and the broader implications for robustness and fairness [5]. We examine the deployment challenges in real-world socio-technical environments, arguing that search-integrated reinforcement learning provides a more transparent and auditable path toward advanced machine intelligence [28]. Furthermore, the discussion extends to the sustainability of such high-compute paradigms and the policy frameworks required to govern systems that possess enhanced autonomous reasoning capabilities [22]. Through a rigorous conceptual exploration, we demonstrate how this hybrid approach addresses the inherent limitations of standard autoregressive generation, paving the way for more resilient and reliable intelligent systems [1]."
+ }
+]

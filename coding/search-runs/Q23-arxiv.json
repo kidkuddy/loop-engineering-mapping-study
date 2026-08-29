@@ -1,0 +1,30 @@
+{
+  "paper_ids": [
+    8624,
+    8625,
+    8626,
+    8627,
+    8628,
+    8629,
+    6992,
+    8631,
+    8632,
+    6995,
+    8634,
+    8635,
+    6998,
+    8637,
+    8638
+  ],
+  "providers": [
+    {
+      "provider": "arxiv",
+      "found": 15,
+      "matched": 15,
+      "stored": 0
+    }
+  ],
+  "query": "\"loop engineering\"",
+  "stored": 15,
+  "total": 15
+}

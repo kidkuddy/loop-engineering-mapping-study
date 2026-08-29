@@ -1,0 +1,13 @@
+{
+ "query": "\"human-in-the-loop\" LLM agent oversight autonomy",
+ "stored": 71,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 999572,
+   "truncated": true,
+   "stored": 71
+  }
+ ]
+}

@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 1256,
+  "title": "SCIR: A Self-Correcting Iterative Refinement Framework for Enhanced Information Extraction Based on Schema",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Although Large language Model (LLM)-powered information extraction (IE) systems have shown impressive capabilities, current fine-tuning paradigms face two major limitations: high training costs and difficulties in aligning with LLM preferences. To address these issues, we propose a novel universal IE paradigm, the Self-Correcting Iterative Refinement (SCIR) framework, along with a Multi-task Bilingual (Chinese-English) Self-Correcting (MBSC) dataset containing over 100,000 entries. The SCIR framework achieves plug-and-play compatibility with existing LLMs and IE systems through its Dual-Path Self-Correcting module and feedback-driven optimization, thereby significantly reducing training costs. Concurrently, the MBSC dataset tackles the challenge of preference alignment by indirectly distilling GPT-4's capabilities into IE result detection models. Experimental results demonstrate that SCIR outperforms state-of-the-art IE methods across three key tasks: named entity recognition, relation extraction, and event extraction, achieving a 5.27 percent average improvement in span-based Micro-F1 while reducing training costs by 87 percent compared to baseline approaches. These advancements not only enhance the flexibility and accuracy of IE systems but also pave the way for lightweight and efficient IE paradigms."
+ },
+ {
+  "paper_id": 1257,
+  "title": "FAIR-RAG: Faithful Adaptive Iterative Refinement for Retrieval-Augmented Generation",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "While Retrieval-Augmented Generation (RAG) mitigates hallucination and knowledge staleness in Large Language Models (LLMs), existing frameworks often falter on complex, multi-hop queries that require synthesizing information from disparate sources. Current advanced RAG methods, employing iterative or adaptive strategies, lack a robust mechanism to systematically identify and fill evidence gaps, often propagating noise or failing to gather a comprehensive context. We introduce FAIR-RAG, a novel agentic framework that transforms the standard RAG pipeline into a dynamic, evidence-driven reasoning process. At its core is an Iterative Refinement Cycle governed by a module we term Structured Evidence Assessment (SEA). The SEA acts as an analytical gating mechanism: it deconstructs the initial query into a checklist of required findings and audits the aggregated evidence to identify confirmed facts and, critically, explicit informational gaps. These gaps provide a precise signal to an Adaptive Query Refinement agent, which generates new, targeted sub-queries to retrieve missing information. This cycle repeats until the evidence is verified as sufficient, ensuring a comprehensive context for a final, strictly faithful generation. We conducted experiments on challenging multi-hop QA benchmarks, including HotpotQA, 2WikiMultiHopQA, and MusiQue. In a unified experimental setup, FAIR-RAG significantly outperforms strong baselines. On HotpotQA, it achieves an F1-score of 0.453 -- an absolute improvement of 8.3 points over the strongest iterative baseline -- establishing a new state-of-the-art for this class of methods on these benchmarks. Our work demonstrates that a structured, evidence-driven refinement process with explicit gap analysis is crucial for unlocking reliable and accurate reasoning in advanced RAG systems for complex, knowledge-intensive tasks."
+ },
+ {
+  "paper_id": 1262,
+  "title": "Extensive Self-Contrast Enables Feedback-Free Language Model Alignment",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning from human feedback (RLHF) has been a central technique for recent large language model (LLM) alignment. However, its heavy dependence on costly human or LLM-as-Judge preference feedback could stymie its wider applications. In this work, we introduce Self-Contrast, a feedback-free large language model alignment method via exploiting extensive self-generated negatives. With only supervised fine-tuning (SFT) targets, Self-Contrast leverages the LLM itself to generate massive diverse candidates, and harnesses a pre-trained embedding model to filter multiple negatives according to text similarity. Theoretically, we illustrate that in this setting, merely scaling negative responses can still effectively approximate situations with more balanced positive and negative preference annotations. Our experiments with direct preference optimization (DPO) on three datasets show that, Self-Contrast could consistently outperform SFT and standard DPO training by large margins. And as the number of self-generated negatives increases, the performance of Self-Contrast continues to grow. Code and data are available at https://github.com/THUDM/Self-Contrast."
+ },
+ {
+  "paper_id": 1268,
+  "title": "The Role of Feedback Alignment in Self-Distillation",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Conditioning a language model on additional context, such as feedback on a previous attempt, typically improves its response. Self-distillation trains the model to retain this improvement when the context is not present. The method works by matching the model's output distribution under two settings: a student that sees only the question, and a self-teacher that also sees the context. What the model learns therefore depends on what context the self-teacher receives, yet the design of this context remains largely unexplored.   We study context design for self-distillation by training a solver on feedback from a frozen critic. We compare three conditions: (i) a binary reward (GRPO), (ii) the reference solution, and (iii) a step-by-step critique aligned to the solver's reasoning trace.   Step-aligned critique yields the largest gains, outperforming GRPO by 16.11 points and reference-solution-conditioned self-distillation by 5.27 points (Avg@12). Per-token advantage analysis reveals why: step-aligned feedback targets only the tokens where reasoning fails, leaving correct behavior intact. Conditioning on the reference solution, by contrast, pressures the model to change its behavior at every token (even correct steps) because an alternative derivation inevitably differs in phrasing and approach. This suggests that structural alignment between feedback and the solver's reasoning is a key driver of self-distillation effectiveness."
+ },
+ {
+  "paper_id": 1273,
+  "title": "Teaching Large Language Models to Self-Debug",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have achieved impressive performance on code generation. However, for complex programming tasks, generating the correct solution in one go becomes challenging, thus some prior works have designed program repair approaches to improve code generation performance. In this work, we propose Self-Debugging, which teaches a large language model to debug its predicted program via few-shot demonstrations. In particular, we demonstrate that Self-Debugging can teach the large language model to perform rubber duck debugging; i.e., without any human feedback on the code correctness or error messages, the model is able to identify its mistakes by investigating the execution results and explaining the generated code in natural language. Self-Debugging achieves the state-of-the-art performance on several code generation benchmarks, including the Spider dataset for text-to-SQL generation, TransCoder for C++-to-Python translation, and MBPP for text-to-Python generation. On the Spider benchmark where there are no unit tests to verify the correctness of predictions, Self-Debugging with code explanation consistently improves the baseline by 2-3%, and improves the prediction accuracy on problems of the hardest level by 9%. On TransCoder and MBPP where unit tests are available, Self-Debugging improves the baseline accuracy by up to 12%. Meanwhile, by leveraging feedback messages and reusing failed predictions, Self-Debugging notably improves sample efficiency, and can match or outperform baseline models that generate more than 10x candidate programs."
+ },
+ {
+  "paper_id": 1283,
+  "title": "Self-Refinement of Language Models from External Proxy Metrics Feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "It is often desirable for Large Language Models (LLMs) to capture multiple objectives when providing a response. In document-grounded response generation, for example, agent responses are expected to be relevant to a user's query while also being grounded in a given document. In this paper, we introduce Proxy Metric-based Self-Refinement (ProMiSe), which enables an LLM to refine its own initial response along key dimensions of quality guided by external metrics feedback, yielding an overall better final response. ProMiSe leverages feedback on response quality through principle-specific proxy metrics, and iteratively refines its response one principle at a time. We apply ProMiSe to open source language models Flan-T5-XXL and Llama-2-13B-Chat, to evaluate its performance on document-grounded question answering datasets, MultiDoc2Dial and QuAC, demonstrating that self-refinement improves response quality. We further show that fine-tuning Llama-2-13B-Chat on the synthetic dialogue data generated by ProMiSe yields significant performance improvements over the zero-shot baseline as well as a supervised fine-tuned model on human annotated data."
+ },
+ {
+  "paper_id": 1291,
+  "title": "Language Alignment via Nash-learning and Adaptive feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Recent research has shown the potential of Nash Learning via Human Feedback for large language model alignment by incorporating the notion of a preference model in a minimax game setup. We take this idea further by casting the alignment as a mirror descent algorithm against the adaptive feedback of an improved opponent, thereby removing the need for learning a preference model or the existence of an annotated dataset altogether. The resulting algorithm, which we refer to as Language Alignment via Nash-learning and Adaptive feedback (LANA), is capable of self-alignment without the need for a human-annotated preference dataset. We support this statement with various experiments and mathematical discussion."
+ },
+ {
+  "paper_id": 1297,
+  "title": "Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "One core capability of large language models (LLMs) is to follow natural language instructions. However, the issue of automatically constructing high-quality training data to enhance the complex instruction-following abilities of LLMs without manual annotation remains unresolved. In this paper, we introduce AutoIF, the first scalable and reliable method for automatically generating instruction-following training data. AutoIF transforms the validation of instruction-following data quality into code verification, requiring LLMs to generate instructions, the corresponding code to check the correctness of the instruction responses, and unit test samples to verify the code's correctness. Then, execution feedback-based rejection sampling can generate data for Supervised Fine-Tuning (SFT) and Reinforcement Learning from Human Feedback (RLHF) training. AutoIF achieves significant improvements across three training algorithms, SFT, Offline DPO, and Online DPO, when applied to the top open-source LLMs, Qwen2 and LLaMA3, in self-alignment and strong-to-weak distillation settings. Our code is publicly available at https://github.com/QwenLM/AutoIF."
+ },
+ {
+  "paper_id": 1299,
+  "title": "Aligning Large Language Models from Self-Reference AI Feedback with one General Principle",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "In aligning large language models (LLMs), utilizing feedback from existing advanced AI rather than humans is an important method to scale supervisory signals. However, it is highly challenging for AI to understand human intentions and societal values, and provide accurate preference feedback based on these. Current AI feedback methods rely on powerful LLMs, carefully designed specific principles to describe human intentions, and are easily influenced by position bias. To address these issues, we propose a self-reference-based AI feedback framework that enables a 13B Llama2-Chat to provide high-quality feedback under simple and general principles such as ``best for humanity``. Specifically, we allow the AI to first respond to the user's instructions, then generate criticism of other answers based on its own response as a reference, and finally determine which answer better fits human preferences according to the criticism. Additionally, we use a self-consistency method to further reduce the impact of position bias, and employ semantic perplexity to calculate the preference strength differences between different answers. Experimental results show that our method enables 13B and 70B Llama2-Chat annotators to provide high-quality preference feedback, and the policy models trained based on these preference data achieve significant advantages in benchmark datasets through reinforcement learning."
+ },
+ {
+  "paper_id": 1313,
+  "title": "Aplica\u00e7\u00e3o de Large Language Models na An\u00e1lise e S\u00edntese de Documentos Jur\u00eddicos: Uma Revis\u00e3o de Literatura",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have been increasingly used to optimize the analysis and synthesis of legal documents, enabling the automation of tasks such as summarization, classification, and retrieval of legal information. This study aims to conduct a systematic literature review to identify the state of the art in prompt engineering applied to LLMs in the legal context. The results indicate that models such as GPT-4, BERT, Llama 2, and Legal-Pegasus are widely employed in the legal field, and techniques such as Few-shot Learning, Zero-shot Learning, and Chain-of-Thought prompting have proven effective in improving the interpretation of legal texts. However, challenges such as biases in models and hallucinations still hinder their large-scale implementation. It is concluded that, despite the great potential of LLMs for the legal field, there is a need to improve prompt engineering strategies to ensure greater accuracy and reliability in the generated results."
+ },
+ {
+  "paper_id": 1314,
+  "title": "Large language model-powered chatbots for internationalizing student support in higher education",
+  "year": 2024,
+  "venue": "arXiv:cs.CY",
+  "source": "arxiv",
+  "abstract": "This research explores the integration of chatbot technology powered by GPT-3.5 and GPT-4 Turbo into higher education to enhance internationalization and leverage digital transformation. It delves into the design, implementation, and application of Large Language Models (LLMs) for improving student engagement, information access, and support. Utilizing technologies like Python 3, GPT API, LangChain, and Chroma Vector Store, the research emphasizes creating a high-quality, timely, and relevant transcript dataset for chatbot testing. Findings indicate the chatbot's efficacy in providing comprehensive responses, its preference over traditional methods by users, and a low error rate. Highlighting the chatbot's real-time engagement, memory capabilities, and critical data access, the study demonstrates its potential to elevate accessibility, efficiency, and satisfaction. Concluding, the research suggests the chatbot significantly aids higher education internationalization, proposing further investigation into digital technology's role in educational enhancement and strategy development."
+ },
+ {
+  "paper_id": 1316,
+  "title": "Multi-Model Synthetic Training for Mission-Critical Small Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across many domains, yet their application to specialized fields remains constrained by the scarcity and complexity of domain-specific training data. We present a novel approach that achieves a 261x cost reduction for maritime intelligence by using LLMs as one-time teachers rather than using them directly for inference. Our method transforms 3.2 billion Automatic Identification System (AIS) vessel tracking records into 21,543 synthetic question and answer pairs through multi-model generation (GPT-4o and o3-mini), preventing overfitting and ensuring accurate reasoning. The resulting fine-tuned Qwen2.5-7B model achieves 75% accuracy on maritime tasks, while being substantially cheaper than using a larger model for inference. We show that smaller, cheaper models -- when fine tuned properly -- can provide similar accuracy compared to larger models that are prohibitively expensive. Our work contributes to the growing field of synthetic dataset generation for specialized AI applications and presents a highly reproducible framework for domains where manual annotation is infeasible. Beyond expanding research in the growing field of specialized small language models, our approach has immediate applications in maritime safety, security operations, and vessel traffic management systems in various industries."
+ },
+ {
+  "paper_id": 1318,
+  "title": "AdaShield: Safeguarding Multimodal Large Language Models from Structure-based Attack via Adaptive Shield Prompting",
+  "year": 2024,
+  "venue": "arXiv:cs.CR",
+  "source": "arxiv",
+  "abstract": "With the advent and widespread deployment of Multimodal Large Language Models (MLLMs), the imperative to ensure their safety has become increasingly pronounced. However, with the integration of additional modalities, MLLMs are exposed to new vulnerabilities, rendering them prone to structured-based jailbreak attacks, where semantic content (e.g., \"harmful text\") has been injected into the images to mislead MLLMs. In this work, we aim to defend against such threats. Specifically, we propose \\textbf{Ada}ptive \\textbf{Shield} Prompting (\\textbf{AdaShield}), which prepends inputs with defense prompts to defend MLLMs against structure-based jailbreak attacks without fine-tuning MLLMs or training additional modules (e.g., post-stage content detector). Initially, we present a manually designed static defense prompt, which thoroughly examines the image and instruction content step by step and specifies response methods to malicious queries. Furthermore, we introduce an adaptive auto-refinement framework, consisting of a target MLLM and a LLM-based defense prompt generator (Defender). These components collaboratively and iteratively communicate to generate a defense prompt. Extensive experiments on the popular structure-based jailbreak attacks and benign datasets show that our methods can consistently improve MLLMs' robustness against structure-based jailbreak attacks without compromising the model's general capabilities evaluated on standard benign tasks. Our code is available at https://github.com/rain305f/AdaShield."
+ },
+ {
+  "paper_id": 1319,
+  "title": "Are Retrials All You Need? Enhancing Large Language Model Reasoning Without Verbalized Feedback",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Recent advancements in large language models (LLMs) have catalyzed the development of general-purpose autonomous agents, demonstrating remarkable performance in complex reasoning tasks across various domains. This surge has spurred the evolution of a plethora of prompt-based reasoning frameworks. A recent focus has been on iterative reasoning strategies that refine outputs through self-evaluation and verbalized feedback. However, these strategies require additional computational complexity to enable models to recognize and correct their mistakes, leading to a significant increase in their cost. In this work, we introduce the concept of ``retrials without feedback'', an embarrassingly simple yet powerful mechanism for enhancing reasoning frameworks by allowing LLMs to retry problem-solving attempts upon identifying incorrect answers. Unlike conventional iterative refinement methods, our method does not require explicit self-reflection or verbalized feedback, simplifying the refinement process. Our findings indicate that simpler retrial-based approaches often outperform more sophisticated reasoning frameworks, suggesting that the benefits of complex methods may not always justify their computational costs. By challenging the prevailing assumption that more intricate reasoning strategies inherently lead to better performance, our work offers new insights into how simpler, more efficient approaches can achieve optimal results. So, are retrials all you need?"
+ },
+ {
+  "paper_id": 1329,
+  "title": "Gene-associated Disease Discovery Powered by Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:q-bio.QM",
+  "source": "arxiv",
+  "abstract": "The intricate relationship between genetic variation and human diseases has been a focal point of medical research, evidenced by the identification of risk genes regarding specific diseases. The advent of advanced genome sequencing techniques has significantly improved the efficiency and cost-effectiveness of detecting these genetic markers, playing a crucial role in disease diagnosis and forming the basis for clinical decision-making and early risk assessment. To overcome the limitations of existing databases that record disease-gene associations from existing literature, which often lack real-time updates, we propose a novel framework employing Large Language Models (LLMs) for the discovery of diseases associated with specific genes. This framework aims to automate the labor-intensive process of sifting through medical literature for evidence linking genetic variations to diseases, thereby enhancing the efficiency of disease identification. Our approach involves using LLMs to conduct literature searches, summarize relevant findings, and pinpoint diseases related to specific genes. This paper details the development and application of our LLM-powered framework, demonstrating its potential in streamlining the complex process of literature retrieval and summarization to identify diseases associated with specific genetic variations."
+ },
+ {
+  "paper_id": 1331,
+  "title": "MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Language Models (LMs) have shown impressive performance in various natural language tasks. However, when it comes to natural language reasoning, LMs still face challenges such as hallucination, generating incorrect intermediate reasoning steps, and making mathematical errors. Recent research has focused on enhancing LMs through self-improvement using feedback. Nevertheless, existing approaches relying on a single generic feedback source fail to address the diverse error types found in LM-generated reasoning chains. In this work, we propose Multi-Aspect Feedback, an iterative refinement framework that integrates multiple feedback modules, including frozen LMs and external tools, each focusing on a specific error category. Our experimental results demonstrate the efficacy of our approach to addressing several errors in the LM-generated reasoning chain and thus improving the overall performance of an LM in several reasoning tasks. We see a relative improvement of up to 20% in Mathematical Reasoning and up to 18% in Logical Entailment."
+ },
+ {
+  "paper_id": 1335,
+  "title": "VLM-Guided Iterative Refinement for Surgical Image Segmentation with Foundation Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Surgical image segmentation is essential for robot-assisted surgery and intraoperative guidance. However, existing methods are constrained to predefined categories, produce one-shot predictions without adaptive refinement, and lack mechanisms for clinician interaction. We propose IR-SIS, an iterative refinement system for surgical image segmentation that accepts natural language descriptions. IR-SIS leverages a fine-tuned SAM3 for initial segmentation, employs a Vision-Language Model to detect instruments and assess segmentation quality, and applies an agentic workflow that adaptively selects refinement strategies. The system supports clinician-in-the-loop interaction through natural language feedback. We also construct a multi-granularity language-annotated dataset from EndoVis2017 and EndoVis2018 benchmarks. Experiments demonstrate state-of-the-art performance on both in-domain and out-of-distribution data, with clinician interaction providing additional improvements. Our work establishes the first language-based surgical segmentation framework with adaptive self-refinement capabilities."
+ },
+ {
+  "paper_id": 1337,
+  "title": "Large Language Models for Citation Function Classification",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Citation function classification plays a crucial role in understanding the relationships between scientific publications and advancing bibliometric analysis. This study presents one of the first comprehensive evaluations of multiple state-of-the-art (SOTA) large language models (LLMs) for citation function classification, achieving new SOTA results on the ACL-ARC dataset. We systematically compare five models (Mistral 7B, Orca 2-7B, LLaMA 3.1-8B, Falcon 7B, and SciBERT) across zero-shot, few-shot, and fine-tuning approaches. Our fine-tuned Falcon 7B model achieves a 73.3% macro F1 score on ACL-ARC, representing a significant improvement over previous methods. Additionally, we introduce AC3, a novel dataset featuring a seven-category annotation scheme that distinguishes between neutral acknowledgments and explicit evaluative stances (more opinion-oriented citations - criticizing, complimenting, contradicting). The dataset is implemented across four context extraction variants to systematically evaluate the impact of contextual scope on classification performance. We also provide detailed analysis of model performance, experimental configurations, and limitations to guide future research in this domain. To our knowledge, this is one of the first studies dedicated to comprehensive model comparison for citation function classification, addressing a gap identified in recent surveys."
+ },
+ {
+  "paper_id": 1338,
+  "title": "Can Large Language Models Automatically Jailbreak GPT-4V?",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "GPT-4V has attracted considerable attention due to its extraordinary capacity for integrating and processing multimodal information. At the same time, its ability of face recognition raises new safety concerns of privacy leakage. Despite researchers' efforts in safety alignment through RLHF or preprocessing filters, vulnerabilities might still be exploited. In our study, we introduce AutoJailbreak, an innovative automatic jailbreak technique inspired by prompt optimization. We leverage Large Language Models (LLMs) for red-teaming to refine the jailbreak prompt and employ weak-to-strong in-context learning prompts to boost efficiency. Furthermore, we present an effective search method that incorporates early stopping to minimize optimization time and token expenditure. Our experiments demonstrate that AutoJailbreak significantly surpasses conventional methods, achieving an Attack Success Rate (ASR) exceeding 95.3\\%. This research sheds light on strengthening GPT-4V security, underscoring the potential for LLMs to be exploited in compromising GPT-4V integrity."
+ },
+ {
+  "paper_id": 1341,
+  "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Modern large language models (LLMs) like ChatGPT have shown remarkable performance on general language tasks but still struggle on complex reasoning tasks, which drives the research on cognitive behaviors of LLMs to explore human-like problem-solving strategies.Along this direction, one representative strategy is self-reflection, which asks an LLM to refine the solution with the feedback generated by itself iteratively.However, our study shows that such reflection-style methods suffer from the Degeneration-of-Thought (DoT) problem: once the LLM has established confidence in its solutions, it is unable to generate novel thoughts later through reflection even if its initial stance is incorrect.To address the DoT problem, we propose a Multi-Agent Debate (MAD) framework, in which multiple agents express their arguments in the state of \"tit for tat\" and a judge manages the debate process to obtain a final solution.Clearly, our MAD framework encourages divergent thinking in LLMs which would be helpful for tasks that require deep levels of contemplation.Experiment results on two challenging datasets, commonsense machine translation and counterintuitive arithmetic reasoning, demonstrate the effectiveness of our MAD framework.Extensive analyses suggest that the adaptive break of debate and the modest level of \"tit for tat\" state are required for MAD to obtain good performance.Moreover, we find that LLMs might not be a fair judge if different LLMs are used for agents.Code is available at https://github. com/Skytliang/Multi-Agents-Debate."
+ },
+ {
+  "paper_id": 1343,
+  "title": "SummIt: Iterative Text Summarization via ChatGPT",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Text summarization systems have made significant progress in recent years, but typically generate summaries in one single step. However, the one-shot summarization setting is sometimes inadequate, as the generated summary may contain hallucinations or overlook essential details related to the reader's interests. This paper addresses this limitation by proposing SummIt, an iterative text summarization framework based on large language models like Chat-GPT. Our framework enables the model to refine the generated summary iteratively through self-evaluation and feedback, resembling humans' iterative process when drafting and revising summaries. Furthermore, we explore the potential benefits of integrating knowledge and topic extractors into the framework to enhance summary faithfulness and controllability. We automatically evaluate the performance of our framework on three benchmark summarization datasets. We also conduct a human evaluation to validate the effectiveness of the iterative refinements and identify a potential issue of overcorrection. 1"
+ },
+ {
+  "paper_id": 1346,
+  "title": "Self-critiquing models for assisting human evaluators",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We fine-tune large language models to write natural language critiques (natural language critical comments) using behavioral cloning. On a topic-based summarization task, critiques written by our models help humans find flaws in summaries that they would have otherwise missed. Our models help find naturally occurring flaws in both model and human written summaries, and intentional flaws in summaries written by humans to be deliberately misleading. We study scaling properties of critiquing with both topic-based summarization and synthetic tasks. Larger models write more helpful critiques, and on most tasks, are better at self-critiquing, despite having harder-to-critique outputs. Larger models can also integrate their own self-critiques as feedback, refining their own summaries into better ones. Finally, we motivate and introduce a framework for comparing critiquing ability to generation and discrimination ability. Our measurements suggest that even large models may still have relevant knowledge they cannot or do not articulate as critiques. These results are a proof of concept for using AI-assisted human feedback to scale the supervision of machine learning systems to tasks that are difficult for humans to evaluate directly. We release our training datasets, as well as samples from our critique assistance experiments."
+ },
+ {
+  "paper_id": 1347,
+  "title": "RLAIF vs. RLHF: Scaling Reinforcement Learning from Human Feedback with AI Feedback",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Reinforcement learning from human feedback (RLHF) has proven effective in aligning large language models (LLMs) with human preferences, but gathering high-quality preference labels is expensive. RL from AI Feedback (RLAIF), introduced in Bai et al., offers a promising alternative that trains the reward model (RM) on preferences generated by an off-the-shelf LLM. Across the tasks of summarization, helpful dialogue generation, and harmless dialogue generation, we show that RLAIF achieves comparable performance to RLHF. Furthermore, we take a step towards \"self-improvement\" by demonstrating that RLAIF can outperform a supervised fine-tuned baseline even when the AI labeler is the same size as the policy, or even the exact same checkpoint as the initial policy. Finally, we introduce direct-RLAIF (d-RLAIF) - a technique that circumvents RM training by obtaining rewards directly from an off-the-shelf LLM during RL, which achieves superior performance to canonical RLAIF. Our results suggest that RLAIF can achieve performance on-par with using human feedback, offering a potential solution to the scalability limitations of RLHF."
+ },
+ {
+  "paper_id": 1348,
+  "title": "CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent developments in large language models (LLMs) have been impressive. However, these models sometimes show inconsistencies and problematic behavior, such as hallucinating facts, generating flawed code, or creating offensive and toxic content. Unlike these models, humans typically utilize external tools to cross-check and refine their initial content, like using a search engine for fact-checking, or a code interpreter for debugging. Inspired by this observation, we introduce a framework called CRITIC that allows LLMs, which are essentially \"black boxes\" to validate and progressively amend their own outputs in a manner similar to human interaction with tools. More specifically, starting with an initial output, CRITIC interacts with appropriate tools to evaluate certain aspects of the text, and then revises the output based on the feedback obtained during this validation process. Comprehensive evaluations involving free-form question answering, mathematical program synthesis, and toxicity reduction demonstrate that CRITIC consistently enhances the performance of LLMs. Meanwhile, our research highlights the crucial importance of external feedback in promoting the ongoing self-improvement of LLMs."
+ },
+ {
+  "paper_id": 1349,
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field."
+ },
+ {
+  "paper_id": 1350,
+  "title": "Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We study whether multiple large language models (LLMs) can autonomously improve each other in a negotiation game by playing, reflecting, and criticizing. We are interested in this question because if LLMs were able to improve each other, it would imply the possibility of creating strong AI agents with minimal human intervention. We ask two LLMs to negotiate with each other, playing the roles of a buyer and a seller, respectively. They aim to reach a deal with the buyer targeting a lower price and the seller a higher one. A third language model, playing the critic, provides feedback to a player to improve the player's negotiation strategies. We let the two agents play multiple rounds, using previous negotiation history and AI feedback as in-context demonstrations to improve the model's negotiation strategy iteratively. We use different LLMs (GPT and Claude) for different roles and use the deal price as the evaluation metric. Our experiments reveal multiple intriguing findings: (1) Only a subset of the language models we consider can self-play and improve the deal price from AI feedback, weaker models either do not understand the game's rules or cannot incorporate AI feedback for further improvement. (2) Models' abilities to learn from the feedback differ when playing different roles. For example, it is harder for Claude-instant to improve as the buyer than as the seller. (3) When unrolling the game to multiple rounds, stronger agents can consistently improve their performance by meaningfully using previous experiences and iterative AI feedback, yet have a higher risk of breaking the deal. We hope our work provides insightful initial explorations of having models autonomously improve each other with game playing and AI feedback."
+ },
+ {
+  "paper_id": 1351,
+  "title": "TEaR: Improving LLM-based Machine Translation with Systematic Self-Refinement",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have achieved impressive results in Machine Translation (MT).However, human evaluations reveal that LLM-generated translations still contain various errors.Notably, feeding the error information back into the LLMs can facilitate selfrefinement, leading to enhanced translation quality.Motivated by these findings, we introduce TEaR (Translate, Estimate, and Refine), a systematic LLM-based self-refinement framework aimed at bootstrapping translation performance.Our key results show that: 1) TEaR framework enables LLMs to improve their translation quality relying solely on selffeedback, measured by both automatic metrics and Multidimensional Quality Metrics (MQM) scores; 2) TEaR autonomously selects improvements, ensuring a robust translation quality baseline while outperforming both internal refinement and external feedback methods.Error analysis and iterative refinement experiments show its ability to continuously reduce translation errors and enhance overall translation quality.Our code and data are publicly available at https://github.com/fzp0424/self_correct_mt."
+ },
+ {
+  "paper_id": 1353,
+  "title": "Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent studies show that large language models (LLMs) improve their performance through self-feedback on certain tasks while degrade on others.We discovered that such a contrary is due to LLM's bias in evaluating their own output.In this paper, we formally define LLM's self-bias -the tendency to favor its own generation -using two statistics.We analyze six LLMs (GPT-4, GPT-3.5, Gemini, LLaMA2, Mixtral and DeepSeek) on translation, constrained text generation, and mathematical reasoning tasks.We find that self-bias is prevalent in all examined LLMs across multiple languages and tasks.Our analysis reveals that while the self-refine pipeline improves the fluency and understandability of model outputs, it further amplifies self-bias.To mitigate such biases, we discover that larger model size and external feedback with accurate assessment can significantly reduce bias in the self-refine pipeline, leading to actual performance improvement in downstream tasks.The code and data are released at https://github. com/xu1998hz/llm_self_bias."
+ },
+ {
+  "paper_id": 1354,
+  "title": "The Impact of Prompt Engineering and a Generative AI-Driven Tool on Autonomous Learning: A Case Study",
+  "year": 2025,
+  "venue": "Education Sciences",
+  "source": "openalex",
+  "abstract": "This study evaluates \u201cI Learn with Prompt Engineering\u201d, a self-paced, self-regulated elective course designed to equip university students with skills in prompt engineering to effectively utilize large language models (LLMs), foster self-directed learning, and enhance academic English proficiency through generative AI applications. By integrating prompt engineering concepts with generative AI tools, the course supports autonomous learning and addresses critical skill gaps in language proficiency and market-ready capabilities. The study also examines EnSmart, an AI-driven tool powered by GPT-4 and integrated into Canvas LMS, which automates academic test content generation and grading and delivers real-time, human-like feedback. Performance evaluation, structured questionnaires, and surveys were used to evaluate the course\u2019s impact on prompting skills, academic English proficiency, and overall learning experiences. Results demonstrated significant improvements in prompt engineering skills, with accessible patterns like \u201cPersona\u201d proving highly effective, while advanced patterns such as \u201cFlipped Interaction\u201d posed challenges. Gains in academic English were most notable among students with lower initial proficiency, though engagement and practice time varied. Students valued EnSmart\u2019s intuitive integration and grading accuracy but identified limitations in question diversity and adaptability. The high final success rate demonstrated that proper course design (taking into consideration Panadero\u2019s four dimensions of self-regulated learning) can facilitate successful autonomous learning. The findings highlight generative AI\u2019s potential to enhance autonomous learning and task automation, emphasizing the necessity of human oversight for ethical and effective implementation in education."
+ },
+ {
+  "paper_id": 1355,
+  "title": "Iterative Refinement of Project-Level Code Context for Precise Code Generation with Compiler Feedback",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown remarkable progress in automated code generation.Yet, LLM-generated code may contain errors in API usage, class, data structure, or missing project-specific information.As much of this project-specific context cannot fit into the prompts of LLMs, we must find ways to allow the model to explore the project-level code context.We present COCOGEN, a new code generation approach that uses compiler feedback to improve the LLM-generated code.COCOGEN first leverages static analysis to identify mismatches between the generated code and the project's context.It then iteratively aligns and fixes the identified errors using information extracted from the code repository.We integrate COCOGEN with two representative LLMs, i.e., GPT-3.5-Turbo and Code Llama (13B), and apply it to Python code generation.Experimental results show that COCOGEN significantly improves the vanilla LLMs by over 80% in generating code dependent on the project context and consistently outperforms the existing retrieval-based code generation baselines."
+ },
+ {
+  "paper_id": 1357,
+  "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Agentic AI systems use specialized agents to handle tasks within complex workflows, enabling automation and efficiency.However, optimizing these systems often requires laborintensive, manual adjustments to refine roles, tasks, and interactions.This paper introduces a framework for autonomously optimizing Agentic AI solutions across industries, such as NLGdriven enterprise applications.The system employs agents for Refinement, Execution, Evaluation, Modification, and Documentation, leveraging iterative feedback loops powered by an LLM (Llama 3.2-3B).The framework achieves optimal performance without human input by autonomously generating and testing hypotheses to improve system configurations.This approach enhances scalability and adaptability, offering a robust solution for real-world applications in dynamic environments.Case studies across diverse domains illustrate the transformative impact of this framework, showcasing significant improvements in output quality, relevance, and actionability.All data for these case studies, including original and evolved agent codes, along with their outputs, are here: anonymous.4open.science/r/evolver-1D11/"
+ },
+ {
+  "paper_id": 1359,
+  "title": "Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have demonstrated remarkable performance across a wide array of NLP tasks. However, their efficacy is undermined by undesired and inconsistent behaviors, including hallucination, unfaithful reasoning, and toxic content. A promising approach to rectify these flaws is self-correction, where the LLM itself is prompted or guided to fix problems in its own output. Techniques leveraging automated feedback -- either produced by the LLM itself or some external system -- are of particular interest as they are a promising way to make LLM-based solutions more practical and deployable with minimal human feedback. This paper presents a comprehensive review of this emerging class of techniques. We analyze and taxonomize a wide array of recent work utilizing these strategies, including training-time, generation-time, and post-hoc correction. We also summarize the major applications of this strategy and conclude by discussing future directions and challenges."
+ },
+ {
+  "paper_id": 1360,
+  "title": "Hallucination Reduction and Optimization for Large Language Model-Based Autonomous Driving",
+  "year": 2024,
+  "venue": "Symmetry",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) are widely integrated into autonomous driving systems to enhance their operational intelligence and responsiveness and improve self-driving vehicles\u2019 overall performance. Despite these advances, LLMs still struggle between hallucinations\u2014when models either misinterpret the environment or generate imaginary parts for downstream use cases\u2014and taxing computational overhead that relegates their performance to strictly non-real-time operations. These are essential problems to solve to make autonomous driving as safe and efficient as possible. This work is thus focused on symmetrical trade-offs between the reduction of hallucination and optimization, leading to a framework for these two combined and at least specifically motivated by these limitations. This framework intends to generate a symmetry of mapping between real and virtual worlds. It helps in minimizing hallucinations and optimizing computational resource consumption reasonably. In autonomous driving tasks, we use multimodal LLMs that combine an image-encoding Visual Transformer (ViT) and a decoding GPT-2 with responses generated by the powerful new sequence generator from OpenAI known as GPT4. Our hallucination reduction and optimization framework leverages iterative refinement loops, RLHF\u2014reinforcement learning from human feedback (RLHF)\u2014along with symmetric performance metrics, e.g., BLEU, ROUGE, and CIDEr similarity scores between machine-generated answers specific to other human reference answers. This ensures that improvements in model accuracy are not overused to the detriment of increased computational overhead. Experimental results show a twofold improvement in decision-maker error rate and processing efficiency, resulting in an overall decrease of 30% for the model and a 25% improvement in processing efficiency across diverse driving scenarios. Not only does this symmetrical approach reduce hallucination, but it also better aligns the virtual and real-world representations."
+ },
+ {
+  "paper_id": 1361,
+  "title": "PRefLexOR: preference-based recursive language modeling for exploratory optimization of reasoning and agentic thinking",
+  "year": 2025,
+  "venue": "npj Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "We introduce PRefLexOR (Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning), a framework that integrates preference optimization with reinforcement learning (RL) concepts for self-improving scientific reasoning. PRefLexOR employs a recursive approach, refining intermediate steps before producing final outputs in training and inference. It optimizes log odds between preferred and non-preferred responses using an in-situ dataset generation algorithm. A dynamic knowledge graph contextualizes reasoning with retrieval-augmented data. Preference optimization enhances performance via rejection sampling, masking reasoning steps to focus on discovery. Recursive optimization, guided by feedback loops, refines reasoning. This process mirrors biological adaptation, enabling real-time learning. We find that even small models (3B parameters) self-teach deeper reasoning, solving open-domain problems effectively. Our method integrates into existing LLMs and demonstrates success in biological materials science, leveraging multi-agent self-improvement for enhanced reasoning depth and cross-domain adaptability, offering flexibility and integration into larger agentic systems."
+ },
+ {
+  "paper_id": 1362,
+  "title": "Synthesizing scientific literature with retrieval-augmented language models",
+  "year": 2026,
+  "venue": "Nature",
+  "source": "openalex",
+  "abstract": "Scientific progress depends on the ability of researchers to synthesize the growing body of literature. Can large language models (LLMs) assist scientists in this task? Here we introduce OpenScholar, a specialized retrieval-augmented language model (LM)1 that answers scientific queries by identifying relevant passages from 45 million open-access papers and synthesizing citation-backed responses. To evaluate OpenScholar, we develop ScholarQABench, the first large-scale multi-domain benchmark for literature search, comprising 2,967 expert-written queries and 208 long-form answers across computer science, physics, neuroscience and biomedicine. Despite being a smaller open model, OpenScholar-8B outperforms GPT-4o by 6.1% and PaperQA2 by 5.5% in correctness on a challenging multi-paper synthesis task from the new ScholarQABench. Although GPT-4o hallucinates citations 78\u201390% of the time, OpenScholar achieves citation accuracy on par with human experts. OpenScholar\u2019s data store, retriever and self-feedback inference loop improve off-the-shelf LMs: for instance, OpenScholar-GPT-4o improves the correctness of GPT-4o by 12%. In human evaluations, experts preferred OpenScholar-8B and OpenScholar-GPT-4o responses over expert-written ones 51% and 70% of the time, respectively, compared with 32% for GPT-4o. We open-source all artefacts, including our code, models, data store, datasets and a public demo. A specialized, open-source, retrieval-augmented language model is introduced for answering scientific queries and synthesizing literature, the responses of which are shown to be preferred by human evaluations over expert-written answers."
+ },
+ {
+  "paper_id": 1364,
+  "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Modern large language models (LLMs) like ChatGPT have shown remarkable performance on general language tasks but still struggle on complex reasoning tasks, which drives the research on cognitive behaviors of LLMs to explore human-like problem-solving strategies. Along this direction, one representative strategy is self-reflection, which asks an LLM to refine the solution with the feedback generated by itself iteratively. However, our study shows that such reflection-style methods suffer from the Degeneration-of-Thought (DoT) problem: once the LLM has established confidence in its solutions, it is unable to generate novel thoughts later through reflection even if its initial stance is incorrect. To address the DoT problem, we propose a Multi-Agent Debate (MAD) framework, in which multiple agents express their arguments in the state of \"tit for tat\" and a judge manages the debate process to obtain a final solution. Clearly, our MAD framework encourages divergent thinking in LLMs which would be helpful for tasks that require deep levels of contemplation. Experiment results on two challenging datasets, commonsense machine translation and counter-intuitive arithmetic reasoning, demonstrate the effectiveness of our MAD framework. Extensive analyses suggest that the adaptive break of debate and the modest level of \"tit for tat\" state are required for MAD to obtain good performance. Moreover, we find that LLMs might not be a fair judge if different LLMs are used for agents. Code is available at https://github.com/Skytliang/Multi-Agents-Debate."
+ },
+ {
+  "paper_id": 1366,
+  "title": "Can Large Language Models Really Improve by Self-critiquing Their Own Plans?",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There have been widespread claims about Large Language Models (LLMs) being able to successfully verify or self-critique their candidate solutions in reasoning problems in an iterative mode. Intrigued by those claims, in this paper we set out to investigate the verification/self-critiquing abilities of large language models in the context of planning. We evaluate a planning system that employs LLMs for both plan generation and verification. We assess the verifier LLM's performance against ground-truth verification, the impact of self-critiquing on plan generation, and the influence of varying feedback levels on system performance. Using GPT-4, a state-of-the-art LLM, for both generation and verification, our findings reveal that self-critiquing appears to diminish plan generation performance, especially when compared to systems with external, sound verifiers and the LLM verifiers in that system produce a notable number of false positives, compromising the system's reliability. Additionally, the nature of feedback, whether binary or detailed, showed minimal impact on plan generation. Collectively, our results cast doubt on the effectiveness of LLMs in a self-critiquing, iterative framework for planning tasks."
+ },
+ {
+  "paper_id": 1367,
+  "title": "MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Self-correction in text-to-SQL is the process of prompting large language model (LLM) to revise its previously incorrectly generated SQL, and commonly relies on manually crafted self-correction guidelines by human experts that are not only labor-intensive to produce but also limited by the human ability in identifying all potential error patterns in LLM responses. We introduce MAGIC, a novel multi-agent method that automates the creation of the self-correction guideline. MAGIC uses three specialized agents: a manager, a correction, and a feedback agent. These agents collaborate on the failures of an LLM-based method on the training set to iteratively generate and refine a self-correction guideline tailored to LLM mistakes, mirroring human processes but without human involvement. Our extensive experiments show that MAGIC's guideline outperforms expert human's created ones. We empirically find out that the guideline produced by MAGIC enhances the interpretability of the corrections made, providing insights in analyzing the reason behind the failures and successes of LLMs in self-correction."
+ },
+ {
+  "paper_id": 1368,
+  "title": "AI and Creativity in Entrepreneurship Education: A Systematic Review of LLM Applications",
+  "year": 2025,
+  "venue": "AI",
+  "source": "openalex",
+  "abstract": "The rapid advancement of artificial intelligence (AI) and digital transformation is reshaping labor markets, emphasizing creativity as a core competency in entrepreneurship education. Large Language Models (LLMs) provide personalized learning experiences through natural language processing (NLP), enhancing real-time feedback and problem-solving skills. However, research on how LLMs foster creativity in entrepreneurship education remains limited. This study analyzed the technical characteristics and educational impact of LLMs, focusing on their applications in entrepreneurship education and their role in fostering creativity-driven learning environments. Specifically, it explores the educational effects of LLMs, their integration into entrepreneurship education, and the ways in which they enhance learners\u2019 creative thinking. A systematic literature review using the PRISMA methodology was conducted to analyze existing studies. Findings suggest that LLMs improve self-efficacy, cognitive engagement, and creative problem-solving, supporting entrepreneurship education in areas such as business model development, market analysis, and multicultural communication. Despite these benefits, concerns remain regarding over-reliance, ethical risks, and the need for critical thinking frameworks. This study proposes a hybrid model integrating LLMs with traditional pedagogies to maximize creativity. Future research should explore long-term effects, cross-cultural applications, and ethical challenges to ensure responsible implementation."
+ },
+ {
+  "paper_id": 1370,
+  "title": "SimpleDoc: Multi\u2010Modal Document Understanding with Dual\u2010Cue Page Retrieval and Iterative Refinement",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Document Visual Question Answering (DocVQA) is a practical yet challenging task, which is to ask questions based on documents while referring to multiple pages and different modalities of information, e.g., images and tables.To handle multi-modality, recent methods follow a similar Retrieval Augmented Generation (RAG) pipeline, but utilize Visual Language Models (VLMs) based embedding model to embed and retrieve relevant pages as images, and generate answers with VLMs that can accept an image as input.In this paper, we introduce SimpleDoc, a lightweight yet powerful retrieval-augmented framework for DocVQA.It boosts evidence page gathering by first retrieving candidates through embedding similarity and then filtering and re-ranking these candidates based on page summaries.A single VLM-based reasoner agent repeatedly invokes this dual-cue retriever, iteratively pulling fresh pages into a working memory until the question is confidently answered.SimpleDoc outperforms previous baselines by 3.2% on average on 4 DocVQA datasets with much fewer pages retrieved."
+ },
+ {
+  "paper_id": 1371,
+  "title": "Jailbreaking Black Box Large Language Models in Twenty Queries",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There is growing interest in ensuring that large language models (LLMs) align with human values. However, the alignment of such models is vulnerable to adversarial jailbreaks, which coax LLMs into overriding their safety guardrails. The identification of these vulnerabilities is therefore instrumental in understanding inherent weaknesses and preventing future misuse. To this end, we propose Prompt Automatic Iterative Refinement (PAIR), an algorithm that generates semantic jailbreaks with only black-box access to an LLM. PAIR -- which is inspired by social engineering attacks -- uses an attacker LLM to automatically generate jailbreaks for a separate targeted LLM without human intervention. In this way, the attacker LLM iteratively queries the target LLM to update and refine a candidate jailbreak. Empirically, PAIR often requires fewer than twenty queries to produce a jailbreak, which is orders of magnitude more efficient than existing algorithms. PAIR also achieves competitive jailbreaking success rates and transferability on open and closed-source LLMs, including GPT-3.5/4, Vicuna, and Gemini."
+ },
+ {
+  "paper_id": 1372,
+  "title": "Self-Criticism: Aligning Large Language Models with their Understanding of Helpfulness, Honesty, and Harmlessness",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recently, there has been a notable surge in the significance of large language models (LLMs) that engage in conversational-style interactions, such as the models behind ChatGPT and Claude, as they contribute significantly to the progress of artificial general intelligence (AGI). Typically, these models undergo a three-phase fine-tuning process: supervised fine-tuning (SFT) and reinforcement learning from human feedback (RLHF). These methods aim to align the LLMs to be helpful, honest, and harmless (HHH). However, RLHF, which incorporates independent reward models trained on highquality human feedback datasets, incurs high costs in terms of hardware resources and human efforts. Therefore, we explore the possibility of aligning LLMs with their own understanding of HHH through IF and in-context learning (ICL). In this study, we propose a novel framework called Self-Criticism, which allows LLMs to align themselves with HHH based on the definition they learned from a largescale text corpus. We begin by employing IF on a given instruction set and learning HHH discrimination through few-shot ICL. Subsequently, the LLMs evaluate their own generated responses and learn to produce \"better\" responses based on self-judgment. Finally, the model is retrained based on the self-generated responses to distill the whole process. By analyzing our proposed method, we also find interesting connections between Self-Criticism and goal-conditioned reinforcement learning, and pseudo-labeling. Experimental results demonstrate that this method achieves nearly identical performance to RLHF in terms of both human evaluation and evaluation by other LLMs, with only a minimal alignment tax."
+ },
+ {
+  "paper_id": 1373,
+  "title": "GLLM: Self-Corrective G-Code Generation using Large Language Models with User Feedback",
+  "year": 2025,
+  "venue": "TUbilio (Technical University of Darmstadt)",
+  "source": "openalex",
+  "abstract": "This paper introduces GLLM, an innovative tool that leverages Large Language Models (LLMs) to automatically generate G-code from natural language instructions for Computer Numerical Control (CNC) machining. GLLM addresses the challenges of manual G-code writing by bridging the gap between human-readable task descriptions and machine-executable code. The system incorporates a fine-tuned StarCoder-3B model, enhanced with domain-specific training data and a Retrieval-Augmented Generation (RAG) mechanism. GLLM employs advanced prompting strategies and a novel self-corrective code generation approach to ensure both syntactic and semantic correctness of the generated G-code. The architecture includes robust validation mechanisms, including syntax checks, G-code-specific verifications, and functional correctness evaluations using Hausdorff distance. By combining these techniques, GLLM aims to democratize CNC programming, making it more accessible to users without extensive programming experience while maintaining high accuracy and reliability in G-code generation."
+ },
+ {
+  "paper_id": 1374,
+  "title": "SCIR: A Self-Correcting Iterative Refinement Framework for Enhanced Information Extraction Based on Schema",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Although Large language Model (LLM)-powered information extraction (IE) systems have shown impressive capabilities, current fine-tuning paradigms face two major limitations: high training costs and difficulties in aligning with LLM preferences. To address these issues, we propose a novel universal IE paradigm\u2014the Self-Correcting Iterative Refinement (SCIR) framework\u2014along with a Multi-task Bilingual (Chinese-English) Self-Correcting (MBSC) dataset containing over 100,000 entries. The SCIR framework achieves plug-and-play compatibility with existing LLMs and IE systems through its Dual-Path Self-Correcting module and feedback-driven optimization, thereby significantly reducing training costs. Concurrently, the MBSC dataset tackles the challenge of preference alignment by indirectly distilling GPT-4's capabilities into IE result detection models. Experimental results demonstrate that SCIR outperforms state-of-the-art IE methods across three key tasks\u2014 named entity recognition, relation extraction, and event extraction\u2014achieving a 5.27 percent average improvement in span-based Micro-F1 while reducing training costs by 87 percent compared to baseline approaches. These advancements not only enhance the flexibility and accuracy of IE systems but also pave the way for lightweight and efficient IE paradigms."
+ },
+ {
+  "paper_id": 1375,
+  "title": "Structure-informed Language Models Are Protein Designers",
+  "year": 2023,
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "source": "openalex",
+  "abstract": "Abstract This paper demonstrates that language models are strong structure-based protein designers. We present LM-D esign , a generic approach to reprogramming sequence-based protein language models ( p LMs), that have learned massive sequential evolutionary knowledge from the universe of natural protein sequences, to acquire an immediate capability to design preferable protein sequences for given folds. We conduct a structural surgery on p LMs, where a lightweight structural adapter is implanted into p LMs and endows it with structural awareness. During inference, iterative refinement is performed to effectively optimize the generated protein sequences. Experiments show that LM-D esign improves the state-of-the-art results by a large margin, leading to 4% to 12% accuracy gains in sequence recovery ( e . g ., 55.65%/56.63% on CATH 4.2/4.3 single-chain benchmarks, and > 60% when designing protein complexes). We provide extensive and in-depth analyses, which verify that LM-D esign can (1) indeed leverage both structural and sequential knowledge to accurately handle structurally non-deterministic regions, (2) benefit from scaling data and model size, and (3) generalize to other proteins ( e . g ., antibodies and de novo proteins)."
+ }
+]

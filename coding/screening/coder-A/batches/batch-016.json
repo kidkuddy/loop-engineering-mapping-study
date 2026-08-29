@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 1613,
+  "title": "Self-Debias: Self-correcting for Debiasing Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Although Large Language Models (LLMs) demonstrate remarkable reasoning capabilities, inherent social biases often cascade throughout the Chain-of-Thought (CoT) process, leading to continuous \"Bias Propagation\". Existing debiasing methods primarily focus on static constraints or external interventions, failing to identify and interrupt this propagation once triggered. To address this limitation, we introduce Self-Debias, a progressive framework designed to instill intrinsic self-correction capabilities. Specifically, we reformulate the debiasing process as a strategic resource redistribution problem, treating the model's output probability mass as a limited resource to be reallocated from biased heuristics to unbiased reasoning paths. Unlike standard preference optimization which applies broad penalties, Self-Debias employs a fine-grained trajectory-level objective subject to dynamic debiasing constraints. This enables the model to selectively revise biased reasoning suffixes while preserving valid contextual prefixes. Furthermore, we integrate an online self-improvement mechanism utilizing consistency filtering to autonomously synthesize supervision signals. With merely 20k annotated samples, Self-Debias activates efficient self-correction, achieving superior debiasing performance while preserving general reasoning capabilities without continuous external oversight."
+ },
+ {
+  "paper_id": 1615,
+  "title": "Confidence Matters: Revisiting Intrinsic Self-Correction Capabilities of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The recent success of Large Language Models (LLMs) has catalyzed an increasing interest in their self-correction capabilities. This paper presents a comprehensive investigation into the intrinsic self-correction of LLMs, attempting to address the ongoing debate about its feasibility. Our research has identified an important latent factor - the \"confidence\" of LLMs - during the self-correction process. Overlooking this factor may cause the models to over-criticize themselves, resulting in unreliable conclusions regarding the efficacy of self-correction. We have experimentally observed that LLMs possess the capability to understand the \"confidence\" in their own responses. It motivates us to develop an \"If-or-Else\" (IoE) prompting framework, designed to guide LLMs in assessing their own \"confidence\", facilitating intrinsic self-corrections. We conduct extensive experiments and demonstrate that our IoE-based Prompt can achieve a consistent improvement regarding the accuracy of self-corrected responses over the initial answers. Our study not only sheds light on the underlying factors affecting self-correction in LLMs, but also introduces a practical framework that utilizes the IoE prompting principle to efficiently improve self-correction capabilities with \"confidence\". The code is available at https://github.com/MBZUAI-CLeaR/IoE-Prompting.git."
+ },
+ {
+  "paper_id": 1618,
+  "title": "Self-Taught Self-Correction for Small Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Although large language models (LLMs) have achieved remarkable performance across various tasks, they remain prone to errors. A key challenge is enabling them to self-correct. While prior research has relied on external tools or large proprietary models, this work explores self-correction in small language models (SLMs) through iterative fine-tuning using solely self-generated data. We introduce the Self-Taught Self-Correction (STaSC) algorithm, which incorporates multiple algorithmic design choices. Experimental results on a question-answering task demonstrate that STaSC effectively learns self-correction, leading to significant performance improvements. Our analysis further provides insights into the mechanisms of self-correction and the impact of different design choices on learning dynamics and overall performance. To support future research, we release our user-friendly codebase and lightweight models."
+ },
+ {
+  "paper_id": 1619,
+  "title": "The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Situational awareness, the capacity of an AI system to recognize its own nature, understand its training and deployment context, and reason strategically about its circumstances, is widely considered among the most dangerous emergent capabilities in advanced AI systems. Separately, a growing research effort seeks to improve the logical reasoning capabilities of large language models (LLMs) across deduction, induction, and abduction. In this paper, we argue that these two research trajectories are on a collision course. We introduce the RAISE framework (Reasoning Advancing Into Self Examination), which identifies three mechanistic pathways through which improvements in logical reasoning enable progressively deeper levels of situational awareness: deductive self inference, inductive context recognition, and abductive self modeling. We formalize each pathway, construct an escalation ladder from basic self recognition to strategic deception, and demonstrate that every major research topic in LLM logical reasoning maps directly onto a specific amplifier of situational awareness. We further analyze why current safety measures are insufficient to prevent this escalation. We conclude by proposing concrete safeguards, including a \"Mirror Test\" benchmark and a Reasoning Safety Parity Principle, and pose an uncomfortable but necessary question to the logical reasoning community about its responsibility in this trajectory."
+ },
+ {
+  "paper_id": 1622,
+  "title": "Pruning via Causal Attribution Preserves Reasoning Performance in Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) excel at multi-step reasoning but incur substantial inference cost. We introduce Causal Attribution Pruning (CAP), a training-free method that identifies critical attention heads by measuring their causal impact on reasoning tasks and uses these head-level scores to guide fine-grained weight pruning. For each attention head, CAP estimates the expected performance degradation when the head is masked during forward passes on a small calibration set of reasoning problems. These causal scores are then converted into weight-level importance values for the corresponding projection matrices. Unlike magnitude-only or activation-based criteria, CAP's interventional measurement directly captures each head's functional contribution, yielding relative accuracy gains of up to 61% over Wanda on ARC-Challenge at 20% sparsity. We evaluate CAP on GSM8K, StrategyQA, and ARC-Challenge using Llama-3-8B-Instruct and Mistral-7B-Instruct at 10%, 20%, and 50% sparsity. At moderate sparsity (10-20%), CAP improves over Wanda in most model-benchmark configurations. with especially large gains on ARC-Challenge for Llama-3. Our results suggest that attention-head-level causal attribution can better preserve reasoning performance on downstream benchmarks than correlational pruning criteria at equivalent sparsity, while remaining limited by coarse MLP attribution at 50% sparsity."
+ },
+ {
+  "paper_id": 1627,
+  "title": "Learning Self-Correction in Vision-Language Models via Rollout Augmentation",
+  "year": 2026,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Self-correction is essential for solving complex reasoning problems in vision-language models (VLMs). However, existing reinforcement learning (RL) methods struggle to learn it, as effective self-correction behaviors emerge only rarely, making learning signals extremely sparse. To address this challenge, we propose correction-specific rollouts (Octopus), an RL rollout augmentation framework that synthesizes dense self-correction examples by recombining existing rollouts. This augmentation simultaneously improves sample efficiency due to rollout reuse and stabilizes RL optimization through balanced supervision. Furthermore, we introduce a response-masking strategy that decouples self-correction from direct reasoning, avoiding signal conflicts and enabling both behaviors to be learned effectively. Building on this, we introduce Octopus-8B, a reasoning VLM with controllable self-correction capability. Across 7 benchmarks, it achieves SoTA performance among open-source VLMs, outperforming the best RLVR baseline by 1.0 score while requiring only $0.72\\times$ training time per step."
+ },
+ {
+  "paper_id": 1630,
+  "title": "SwS: Self-aware Weakness-driven Problem Synthesis in Reinforcement Learning for LLM Reasoning",
+  "year": 2025,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) has proven effective for training large language models (LLMs) on complex reasoning tasks, such as mathematical problem solving. A prerequisite for the scalability of RLVR is a high-quality problem set with precise and verifiable answers. However, the scarcity of well-crafted human-labeled math problems and limited-verification answers in existing distillation-oriented synthetic datasets limit their effectiveness in RL. Additionally, most problem synthesis strategies indiscriminately expand the problem set without considering the model's capabilities, leading to low efficiency in generating useful questions. To mitigate this issue, we introduce a Self-aware Weakness-driven problem Synthesis framework (SwS) that systematically identifies model deficiencies and leverages them for problem augmentation. Specifically, we define weaknesses as questions that the model consistently fails to learn through its iterative sampling during RL training. We then extract the core concepts from these failure cases and synthesize new problems to strengthen the model's weak areas in subsequent augmented training, enabling it to focus on and gradually overcome its weaknesses. Without relying on external knowledge distillation, our framework enables robust generalization byempowering the model to self-identify and address its weaknesses in RL, yielding average performance gains of 10.0% and 7.7% on 7B and 32B models across eight mainstream reasoning benchmarks."
+ },
+ {
+  "paper_id": 1635,
+  "title": "Enhancing Critical Thinking with AI: A Tailored Warning System for RAG Models",
+  "year": 2025,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Retrieval-Augmented Generation (RAG) systems offer a powerful approach to enhancing large language model (LLM) outputs by incorporating fact-checked, contextually relevant information. However, fairness and reliability concerns persist, as hallucinations can emerge at both the retrieval and generation stages, affecting users' reasoning and decision-making. Our research explores how tailored warning messages -- whose content depends on the specific context of hallucination -- shape user reasoning and actions in an educational quiz setting. Preliminary findings suggest that while warnings improve accuracy and awareness of high-level hallucinations, they may also introduce cognitive friction, leading to confusion and diminished trust in the system. By examining these interactions, this work contributes to the broader goal of AI-augmented reasoning: developing systems that actively support human reflection, critical thinking, and informed decision-making rather than passive information consumption."
+ },
+ {
+  "paper_id": 1636,
+  "title": "ESC: Emotional Self-Correction for Reliable Vision-Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "Vision-language models (VLMs) have achieved strong performance across diverse multimodal tasks, yet they remain vulnerable to unreliable reasoning. Existing self-correction methods mitigate these issues but typically rely on post-training or carefully engineered feedback, incurring high computational cost. In this work, we revisit this challenge through the lens of emotional cues, asking whether they can activate latent self-correction behaviors in VLMs without additional training. \\textbf{We find that emotional signals serve as an effective trigger for self-correction, encouraging more cautious and reflective reasoning}. Motivated by this finding, we propose \\escabstract (\\textbf{\\underline{E}}motional \\textbf{\\underline{S}}elf-\\textbf{\\underline{C}}orrection), a training-free self-correction framework. ESC introduces an external verifier that detects potentially incorrect initial responses and injects emotional feedback to encourage model to reflect, and produce a better revised response without additional training. Extensive experiments across safety, hallucination, vision-centric perception, and multimodal reasoning benchmarks show that ESC consistently improves reliability while preserving overall model utility. These results suggest that emotion can function not only as an ability to be recognized, but also as a practical control signal for scalable self-correction in VLMs. \\textbf{We therefore believe that ESC provides a strong foundation for a new reliable human-like, emotion-integrated research direction.} Our project is publicly available at \\textcolor{red}{https://genai4e.github.io/ESC/}."
+ },
+ {
+  "paper_id": 1643,
+  "title": "Large Language Models Meet Text-Attributed Graphs: A Survey of Integration Frameworks and Applications",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have achieved remarkable success in natural language processing through strong semantic understanding and generation. However, their black-box nature limits structured and multi-hop reasoning. In contrast, Text-Attributed Graphs (TAGs) provide explicit relational structures enriched with textual context, yet often lack semantic depth. Recent research shows that combining LLMs and TAGs yields complementary benefits: enhancing TAG representation learning and improving the reasoning and interpretability of LLMs. This survey provides the first systematic review of LLM--TAG integration from an orchestration perspective. We introduce a novel taxonomy covering two fundamental directions: LLM for TAG, where LLMs enrich graph-based tasks, and TAG for LLM, where structured graphs improve LLM reasoning. We categorize orchestration strategies into sequential, parallel, and multi-module frameworks, and discuss advances in TAG-specific pretraining, prompting, and parameter-efficient fine-tuning. Beyond methodology, we summarize empirical insights, curate available datasets, and highlight diverse applications across recommendation systems, biomedical analysis, and knowledge-intensive question answering. Finally, we outline open challenges and promising research directions, aiming to guide future work at the intersection of language and graph learning."
+ },
+ {
+  "paper_id": 1645,
+  "title": "Group Distributionally Robust Optimization-Driven Reinforcement Learning for LLM Reasoning",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Recent progress in Large Language Model (LLM) reasoning is increasingly driven by the refinement of post-training loss functions and alignment strategies. However, standard Reinforcement Learning (RL) paradigms like Group Relative Policy Optimization (GRPO) remain constrained by static uniformity: uniform prompt sampling and a fixed number of rollouts per prompt. For heterogeneous, heavy-tailed reasoning data, this creates structural inefficiencies that waste compute on already-solved patterns while under-training the long tail of hard problems. To address this, we propose Multi-Adversary Group Distributionally Robust Optimization (GDRO), an optimization-first framework that moves beyond uniform reasoning models by dynamically adapting the training distribution.   We introduce an Online Difficulty Classifier that partitions prompts into dynamic pass@k difficulty groups. We then propose two independent GDRO games for post-training: (1) Prompt-GDRO, which employs an EMA-debiased multiplicative-weights bandit sampler to target the intensive difficulty margin and upweight persistently hard groups without frequency bias; and (2) Rollout-GDRO, which uses a shadow-price controller to reallocate rollouts across groups, maximizing gradient variance reduction on hard tasks under a fixed mean budget (compute-neutral). We provide no-regret guarantees for both controllers and additionally a variance-proxy analysis motivating a square-root optimal rollout allocation for Rollout-GDRO. We validate our framework on the DAPO 14.1k dataset using Qwen3-Base models. Prompt-GDRO and Rollout-GDRO achieve average relative gains of +10.6% and +10.1%, respectively, in pass@8 accuracy across 1.7B, 4B, and 8B scales compared to the GRPO baseline. Qualitative analysis shows an emergent curriculum: the adversaries shift resources to the evolving reasoning frontier, enhancing the reasoning model's performance."
+ },
+ {
+  "paper_id": 1648,
+  "title": "Cumulative Reasoning with Large Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Recent advancements in large language models (LLMs) have shown remarkable progress, yet their ability to solve complex problems remains limited. In this work, we introduce Cumulative Reasoning (CR), a structured framework that enhances LLM problem-solving by emulating human-like iterative and cumulative thought processes. CR orchestrates LLMs in three distinct roles: Proposer, Verifier(s), and Reporter, to systematically decompose tasks, generate and validate intermediate reasoning steps, and compose them into a solution by building a dynamic Directed Acyclic Graph (DAG) of verified propositions. This approach substantially enhances problem-solving capabilities. We demonstrate CR's advantage through several complex reasoning tasks: it outperforms existing methods in logical inference tasks with up to a 9.3% improvement, achieving 98.04% accuracy on the curated FOLIO wiki dataset. In the Game of 24, it achieves 98% accuracy, marking a 24% improvement over previous methods. In solving MATH problems, CR achieves a 4.2% increase from previous methods and a 43% relative improvement in the most challenging level 5 problems. When incorporating a code environment with CR, we further harness LLMs' reasoning capabilities and outperform the Program of Thought (PoT) method by 38.8%."
+ },
+ {
+  "paper_id": 1653,
+  "title": "Do LLMs Need Inherent Reasoning Before Reinforcement Learning? A Study in Korean Self-Correction",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) demonstrate strong reasoning and self-correction abilities in high-resource languages like English, but their performance remains limited in low-resource languages such as Korean. In this study, we investigate whether reinforcement learning (RL) can enhance Korean reasoning abilities to a degree comparable to English. Our findings reveal that RL alone yields limited improvements when applied to models lacking inherent Korean reasoning capabilities. To address this, we explore several fine-tuning strategies and show that aligning the model's internal reasoning processes with Korean inputs-particularly by tuning Korean-specific neurons in early layers-is key to unlocking RL's effectiveness. We introduce a self-correction code-switching dataset to facilitate this alignment and observe significant performance gains in both mathematical reasoning and self-correction tasks. Ultimately, we conclude that the crucial factor in multilingual reasoning enhancement is not injecting new linguistic knowledge, but effectively eliciting and aligning existing reasoning capabilities. Our study provides a new perspective on how internal translation and neuron-level tuning contribute to multilingual reasoning alignment in LLMs."
+ },
+ {
+  "paper_id": 1654,
+  "title": "Self-Correcting Code Generation Using Small Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Self-correction has demonstrated potential in code generation by allowing language models to revise and improve their outputs through successive refinement. Recent studies have explored prompting-based strategies that incorporate verification or feedback loops using proprietary models, as well as training-based methods that leverage their strong reasoning capabilities. However, whether smaller models possess the capacity to effectively guide their outputs through self-reflection remains unexplored. Our findings reveal that smaller models struggle to exhibit reflective revision behavior across both self-correction paradigms. In response, we introduce CoCoS, an approach designed to enhance the ability of small language models for multi-turn code correction. Specifically, we propose an online reinforcement learning objective that trains the model to confidently maintain correct outputs while progressively correcting incorrect outputs as turns proceed. Our approach features an accumulated reward function that aggregates rewards across the entire trajectory and a fine-grained reward better suited to multi-turn correction scenarios. This facilitates the model in enhancing initial response quality while achieving substantial improvements through self-correction. With 1B-scale models, CoCoS achieves improvements of 35.8% on the MBPP and 27.7% on HumanEval compared to the baselines."
+ },
+ {
+  "paper_id": 1656,
+  "title": "Beyond Classification: Financial Reasoning in State-of-the-Art Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs), consisting of 100 billion or more parameters, have demonstrated remarkable ability in complex multi-step reasoning tasks. However, the application of such generic advancements has been limited to a few fields, such as clinical or legal, with the field of financial reasoning remaining largely unexplored. To the best of our knowledge, the ability of LLMs to solve financial reasoning problems has never been dealt with, and whether it can be performed at any scale remains unknown. To address this knowledge gap, this research presents a comprehensive investigation into the potential application of LLMs in the financial domain. The investigation includes a detailed exploration of a range of subjects, including task formulation, synthetic data generation, prompting methods, and evaluation capability. Furthermore, the study benchmarks various GPT variants with parameter scales ranging from 2.8B to 13B, with and without instruction tuning, on diverse dataset sizes. By analyzing the results, we reveal that the ability to generate coherent financial reasoning first emerges at 6B parameters, and continues to improve with better instruction-tuning or larger datasets. Additionally, the study provides a publicly accessible dataset named sFIOG (Synthetic-Financial Investment Opinion Generation), consisting of 11,802 synthetic investment thesis samples, to support further research in the field of financial reasoning. Overall, this research seeks to contribute to the understanding of the efficacy of language models in the field of finance, with a particular emphasis on their ability to engage in sophisticated reasoning and analysis within the context of investment decision-making."
+ },
+ {
+  "paper_id": 1658,
+  "title": "The Capacity for Moral Self-Correction in Large Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We test the hypothesis that language models trained with reinforcement learning from human feedback (RLHF) have the capability to \"morally self-correct\" -- to avoid producing harmful outputs -- if instructed to do so. We find strong evidence in support of this hypothesis across three different experiments, each of which reveal different facets of moral self-correction. We find that the capability for moral self-correction emerges at 22B model parameters, and typically improves with increasing model size and RLHF training. We believe that at this level of scale, language models obtain two capabilities that they can use for moral self-correction: (1) they can follow instructions and (2) they can learn complex normative concepts of harm like stereotyping, bias, and discrimination. As such, they can follow instructions to avoid certain kinds of morally harmful outputs. We believe our results are cause for cautious optimism regarding the ability to train language models to abide by ethical principles."
+ },
+ {
+  "paper_id": 1663,
+  "title": "Do Multilingual VLMs Reason Equally? A Cross-Lingual Visual Reasoning Audit for Indian Languages",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Vision-language models score well on mathematical, scientific, and spatial reasoning benchmarks, yet these evaluations are overwhelmingly English. I present the first cross-lingual visual reasoning audit for Indian languages. 980 questions from MathVista, ScienceQA, and MMMU are translated into Hindi, Tamil, Telugu, Bengali, Kannada, and Marathi using IndicTrans2, with Gemini 2.0 Flash cross-verification on 50 samples per language (inter-translator agreement 0.79-0.84). Eight VLMs, from 7B open-source models to GPT-4o, are evaluated across all seven languages, yielding 68,600 inference records that include text-only and chain-of-thought ablations. I find accuracy drops of 9.8-25 percentage points when switching from English to an Indian language, with Dravidian languages suffering up to 13.2 pp more than Indo-Aryan. Chain-of-thought prompting degrades Bengali (-14.4 pp) and Kannada (-11.4 pp) rather than helping, exposing English-centric reasoning chains. Aya-Vision-8B, built for 23 languages, still drops 28.5 pp on Dravidian scripts; multilingual pretraining alone does not transfer visual reasoning. I release the translated benchmark and all model outputs."
+ },
+ {
+  "paper_id": 1670,
+  "title": "DualAD: Dual-Layer Planning for Reasoning in Autonomous Driving",
+  "year": 2024,
+  "venue": "arXiv:cs.RO",
+  "source": "arxiv",
+  "abstract": "We present a novel autonomous driving framework, DualAD, designed to imitate human reasoning during driving. DualAD comprises two layers: a rule-based motion planner at the bottom layer that handles routine driving tasks requiring minimal reasoning, and an upper layer featuring a rule-based text encoder that converts driving scenarios from absolute states into text description. This text is then processed by a large language model (LLM) to make driving decisions. The upper layer intervenes in the bottom layer's decisions when potential danger is detected, mimicking human reasoning in critical situations. Closed-loop experiments demonstrate that DualAD, using a zero-shot pre-trained model, significantly outperforms rule-based motion planners that lack reasoning abilities. Our experiments also highlight the effectiveness of the text encoder, which considerably enhances the model's scenario understanding. Additionally, the integrated DualAD model improves with stronger LLMs, indicating the framework's potential for further enhancement. Code and benchmarks are available at github.com/TUM-AVS/DualAD."
+ },
+ {
+  "paper_id": 1673,
+  "title": "Reinforcing Step-level Reasoning for Effective Self-Correction in LLMs",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Achieving effective self-correction, where models verify and correct their own mistakes, remains a fundamental challenge for large language models (LLMs). In this work, we propose Self-Fix Step-DPO (SFS-DPO), a reinforcement learning based, two-stage framework for step-level self-verification and self-correction. The first stage strengthens step-level reasoning via step-level preference optimization, while the second stage explicitly trains models to self-verify and self-correct. We further introduce a teacher-assisted variant, SFS-DPO-R, which incorporates explanatory rationales for error verification to provide stronger corrective signals. Comprehensive in-domain and out-of-domain evaluations across multiple LLMs demonstrate that SFS-DPO and SFS-DPO-R consistently outperform prior step-level training baselines. Our analysis further reveals improvements in self-correction frequency and effectiveness, highlighting the importance of strengthening step-level reasoning for robust performance."
+ },
+ {
+  "paper_id": 1680,
+  "title": "Search-R3: Unifying Reasoning and Embedding in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Despite their remarkable natural language understanding capabilities, Large Language Models (LLMs) have been underutilized for retrieval tasks. We present Search-R3, a novel framework that addresses this limitation by adapting LLMs to generate search embeddings as a direct output of their reasoning process. Our approach exploits LLMs' chain-of-thought capabilities, allowing them to produce more effective embeddings by reasoning step-by-step through complex semantic analyses. We implement this through three complementary mechanisms. (1) a supervised learning stage enables the model's ability to produce quality embeddings, (2) a reinforcement learning (RL) methodology that optimizes embedding generation alongside reasoning, and (3) a specialized RL environment that efficiently handles evolving embedding representations without requiring complete corpus re-encoding at each training iteration. Our extensive evaluations on diverse benchmarks demonstrate that Search-R3 significantly outperforms prior methods by unifying the reasoning and embedding generation processes. This integrated post-training approach represents a substantial advancement in handling complex knowledge-intensive tasks that require both sophisticated reasoning and effective information retrieval. Project page: https://github.com/ytgui/Search-R3"
+ },
+ {
+  "paper_id": 1683,
+  "title": "DeltaLogic: Minimal Premise Edits Reveal Belief-Revision Failures in Logical Reasoning Models",
+  "year": 2026,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Reasoning benchmarks typically evaluate whether a model derives the correct answer from a fixed premise set, but they under-measure a closely related capability that matters in dynamic environments: belief revision under minimal evidence change. We introduce DeltaLogic, a benchmark transformation protocol that converts natural-language reasoning examples into short revision episodes. Each episode first asks for an initial conclusion under premises P, then applies a minimal edit \u03b4(P), and finally asks whether the previous conclusion should remain stable or be revised. We instantiate DeltaLogic from FOLIO and ProofWriter and evaluate small causal language models with constrained label scoring. On a completed 30-episode Qwen evaluation subset, stronger initial reasoning still does not imply stronger revision behavior: Qwen3-1.7B reaches 0.667 initial accuracy but only 0.467 revision accuracy, with inertia rising to 0.600 on episodes where the gold label should change, while Qwen3-0.6B collapses into near universal abstention. There, Qwen3-4B preserves the same inertial failure pattern (0.650 initial, 0.450 revised, 0.600 inertia), whereas Phi-4-mini-instruct is substantially stronger (0.950 initial, 0.850 revised) but still exhibits non-trivial abstention and control instability. These results suggest that logical competence under fixed premises does not imply disciplined belief revision after local evidence edits. DeltaLogic therefore targets a distinct and practically important reasoning capability that complements existing logical inference and belief-updating benchmarks."
+ },
+ {
+  "paper_id": 1687,
+  "title": "Evolutionary Prompt Optimization Discovers Emergent Multimodal Reasoning Strategies in Vision-Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We present a framework for optimizing prompts in vision-language models to elicit multimodal reasoning without model retraining. Using an evolutionary algorithm to guide prompt updates downstream of visual tasks, our approach improves upon baseline prompt-updating algorithms, which lack evolution-style \"survival of the fittest\" iteration. Crucially, we find this approach enables the language model to independently discover progressive problem-solving techniques across several evolution generations. For example, the model reasons that to \"break down\" visually complex spatial tasks, making a tool call to a Python interpreter to perform tasks (such as cropping, image segmentation, or saturation changes) would improve performance significantly. Our experimentation shows that explicitly evoking this \"tool calling\" call, via system-level XML $...\\texttt{<tool>} ... \\texttt{</tool>}...$ tags, can effectively flag Python interpreter access for the same language model to generate relevant programs, generating advanced multimodal functionality. This functionality can be crystallized into a system-level prompt that induces improved performance at inference time, and our experimentation suggests up to $\\approx 50\\%$ relative improvement across select visual tasks. Downstream performance is trained and evaluated across subtasks from MathVista, M3CoT, and GeoBench-VLM datasets. Importantly, our approach shows that evolutionary prompt optimization guides language models towards self-reasoning discoveries, which result in improved zero-shot generalization across tasks."
+ },
+ {
+  "paper_id": 1690,
+  "title": "Puzzle Solving using Reasoning of Large Language Models: A Survey",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Exploring the capabilities of Large Language Models (LLMs) in puzzle solving unveils critical insights into their potential and challenges in AI, marking a significant step towards understanding their applicability in complex reasoning tasks. This survey leverages a unique taxonomy -- dividing puzzles into rule-based and rule-less categories -- to critically assess LLMs through various methodologies, including prompting techniques, neuro-symbolic approaches, and fine-tuning. Through a critical review of relevant datasets and benchmarks, we assess LLMs' performance, identifying significant challenges in complex puzzle scenarios. Our findings highlight the disparity between LLM capabilities and human-like reasoning, particularly in those requiring advanced logical inference. The survey underscores the necessity for novel strategies and richer datasets to advance LLMs' puzzle-solving proficiency and contribute to AI's logical reasoning and creative problem-solving advancements."
+ },
+ {
+  "paper_id": 1691,
+  "title": "Self-Refine Instruction-Tuning for Aligning Reasoning in Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The alignments of reasoning abilities between smaller and larger Language Models are largely conducted via Supervised Fine-Tuning (SFT) using demonstrations generated from robust Large Language Models (LLMs). Although these approaches deliver more performant models, they do not show sufficiently strong generalization ability as the training only relies on the provided demonstrations.   In this paper, we propose the Self-refine Instruction-tuning method that elicits Smaller Language Models to self-refine their abilities. Our approach is based on a two-stage process, where reasoning abilities are first transferred between LLMs and Small Language Models (SLMs) via Instruction-tuning on demonstrations provided by LLMs, and then the instructed models Self-refine their abilities through preference optimization strategies. In particular, the second phase operates refinement heuristics based on the Direct Preference Optimization algorithm, where the SLMs are elicited to deliver a series of reasoning paths by automatically sampling the generated responses and providing rewards using ground truths from the LLMs. Results obtained on commonsense and math reasoning tasks show that this approach significantly outperforms Instruction-tuning in both in-domain and out-domain scenarios, aligning the reasoning abilities of Smaller and Larger Language Models."
+ },
+ {
+  "paper_id": 1692,
+  "title": "FEABench: Evaluating Language Models on Multiphysics Reasoning Ability",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Building precise simulations of the real world and invoking numerical solvers to answer quantitative problems is an essential requirement in engineering and science. We present FEABench, a benchmark to evaluate the ability of large language models (LLMs) and LLM agents to simulate and solve physics, mathematics and engineering problems using finite element analysis (FEA). We introduce a comprehensive evaluation scheme to investigate the ability of LLMs to solve these problems end-to-end by reasoning over natural language problem descriptions and operating COMSOL Multiphysics$^\\circledR$, an FEA software, to compute the answers. We additionally design a language model agent equipped with the ability to interact with the software through its Application Programming Interface (API), examine its outputs and use tools to improve its solutions over multiple iterations. Our best performing strategy generates executable API calls 88% of the time. LLMs that can successfully interact with and operate FEA software to solve problems such as those in our benchmark would push the frontiers of automation in engineering. Acquiring this capability would augment LLMs' reasoning skills with the precision of numerical solvers and advance the development of autonomous systems that can tackle complex problems in the real world. The code is available at https://github.com/google/feabench"
+ },
+ {
+  "paper_id": 1696,
+  "title": "Synthetic Error Injection Fails to Elicit Self-Correction In Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning has become the dominant paradigm for eliciting reasoning and self-correction capabilities in large language models, but its computational expense motivates exploration of alternatives. Inspired by techniques from autonomous driving and robotics, we investigate whether supervised learning with synthetic error injection can induce self-correction abilities in language models. Our approach inserts artificial errors into reasoning chains, masks them, and supervises the model to recognize and correct these mistakes. Despite the intuitive appeal of this method, we find that it fails to significantly improve performance even on simple synthetic tasks across multiple models. Moreover, even when the model catches its own error, it often parrots the original mistake. We find that the distribution shift of synthetic errors to on-policy errors significantly degrades the error-correction capabilities of the fine-tuned model, even with good synthetic coverage of on-policy errors. Our results help explain why on-policy reinforcement learning methods have proven uniquely effective for eliciting self-correction."
+ },
+ {
+  "paper_id": 1698,
+  "title": "The Interspeech 2026 Audio Reasoning Challenge: Evaluating Reasoning Process Quality for Audio Reasoning Models and Agents",
+  "year": 2026,
+  "venue": "arXiv:cs.SD",
+  "source": "arxiv",
+  "abstract": "Recent Large Audio Language Models (LALMs) excel in understanding but often lack transparent reasoning. To address this \"black-box\" limitation, we organized the Audio Reasoning Challenge at Interspeech 2026, the first shared task dedicated to evaluating Chain-of-Thought (CoT) quality in the audio domain. The challenge introduced MMAR-Rubrics, a novel instance-level protocol assessing the factuality and logic of reasoning chains. Featured Single Model and Agent tracks, the competition attracting 156 teams from 18 countries and regions. Results show agent systems currently lead in reasoning quality, utilizing iterative tool orchestration and cross-modal analysis. Besides, single models are rapidly advancing via reinforcement learning and sophisticated data pipeline. We details the challenge design, methodology, and a comprehensive analysis of state-of-the-art systems, providing new insights for explainable audio intelligence."
+ },
+ {
+  "paper_id": 1701,
+  "title": "Knowledge-Aware Self-Correction in Language Models via Structured Memory Graphs",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) are powerful yet prone to generating factual errors, commonly referred to as hallucinations. We present a lightweight, interpretable framework for knowledge-aware self-correction of LLM outputs using structured memory graphs based on RDF triples. Without retraining or fine-tuning, our method post-processes model outputs and corrects factual inconsistencies via external semantic memory. We demonstrate the approach using DistilGPT-2 and show promising results on simple factual prompts."
+ },
+ {
+  "paper_id": 1702,
+  "title": "Unlocking Reasoning Capability on Machine Translation in Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Reasoning-oriented large language models (RLMs) achieve strong gains on tasks such as mathematics and coding by generating explicit intermediate reasoning. However, their impact on machine translation (MT) remains underexplored. We systematically evaluate several open- and closed-weights RLMs on the WMT24++ benchmark and find that enabling explicit reasoning consistently degrades translation quality across languages and models. Analysis reveals that MT reasoning traces are highly linear, lacking revision, self-correction and exploration of alternative translations, which limits their usefulness. Furthermore, injecting higher-quality reasoning traces from stronger models does not reliably improve weaker models' performance. To address this mismatch, we propose a structured reasoning framework tailored to translation, based on multi-step drafting, adequacy refinement, fluency improvement, and selective iterative revision. We curate a synthetic dataset of dynamic structured reasoning traces and post-train a large reasoning model on this data. Experiments show significant improvements over standard translation fine-tuning and injected generic reasoning baselines. Our findings demonstrate that reasoning must be task-structured to benefit MT."
+ },
+ {
+  "paper_id": 1704,
+  "title": "Corrective In-Context Learning: Evaluating Self-Correction in Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "In-context learning (ICL) has transformed the use of large language models (LLMs) for NLP tasks, enabling few-shot learning by conditioning on labeled examples without finetuning. Despite its effectiveness, ICL is prone to errors, especially for challenging examples. With the goal of improving the performance of ICL, we propose corrective in-context learning (CICL), an approach that incorporates a model's incorrect predictions alongside ground truth corrections into the prompt, aiming to enhance classification accuracy through self-correction. However, contrary to our hypothesis, extensive experiments on text classification tasks demonstrate that CICL consistently underperforms standard ICL, with performance degrading as the proportion of corrections in the prompt increases. Our findings indicate that CICL introduces confusion by disrupting the model's task understanding, rather than refining its predictions. Additionally, we observe that presenting harder examples in standard ICL does not improve performance, suggesting that example difficulty alone may not be a reliable criterion for effective selection. By presenting these negative results, we provide important insights into the limitations of self-corrective mechanisms in LLMs and offer directions for future research."
+ },
+ {
+  "paper_id": 1705,
+  "title": "A Survey of Reasoning with Foundation Models",
+  "year": 2023,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Reasoning, a crucial ability for complex problem-solving, plays a pivotal role in various real-world settings such as negotiation, medical diagnosis, and criminal investigation. It serves as a fundamental methodology in the field of Artificial General Intelligence (AGI). With the ongoing development of foundation models, e.g., Large Language Models (LLMs), there is a growing interest in exploring their abilities in reasoning tasks. In this paper, we introduce seminal foundation models proposed or adaptable for reasoning, highlighting the latest advancements in various reasoning tasks, methods, and benchmarks. We then delve into the potential future directions behind the emergence of reasoning abilities within foundation models. We also discuss the relevance of multimodal learning, autonomous agents, and super alignment in the context of reasoning. By discussing these future research directions, we hope to inspire researchers in their exploration of this field, stimulate further advancements in reasoning with foundation models, and contribute to the development of AGI."
+ },
+ {
+  "paper_id": 1708,
+  "title": "Internalized Self-Correction for Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "In this article, we introduce 'Internalized Self-Correction' (InSeC) for large language models (LLMs). While many approaches exist for self-reflection at inference time, we propose a novel method that combines ideas from negative sampling, self-reflection during training, and inference time. InSeC allows LLMs to correct themselves by introducing mistakes and their corresponding corrections during training, thereby converting the learning process into a true supervised learning task with both positive and negative examples. This approach can be extended to improve instruction following and correct hallucinations or incorrect sentences generated by LLMs."
+ },
+ {
+  "paper_id": 1710,
+  "title": "Boosting LLM Reasoning via Spontaneous Self-Correction",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "While large language models (LLMs) have demonstrated remarkable success on a broad range of tasks, math reasoning remains a challenging one. One of the approaches for improving math reasoning is self-correction, which designs self-improving loops to let the model correct its own mistakes. However, existing self-correction approaches treat corrections as standalone post-generation refinements, relying on extra prompt and system designs to elicit self-corrections, instead of performing real-time, spontaneous self-corrections in a single pass. To address this, we propose SPOC, a spontaneous self-correction approach that enables LLMs to generate interleaved solutions and verifications in a single inference pass, with generation dynamically terminated based on verification outcomes, thereby effectively scaling inference time compute. SPOC considers a multi-agent perspective by assigning dual roles -- solution proposer and verifier -- to the same model. We adopt a simple yet effective approach to generate synthetic data for fine-tuning, enabling the model to develop capabilities for self-verification and multi-agent collaboration. We further improve its solution proposal and verification accuracy through online reinforcement learning. Experiments on mathematical reasoning benchmarks show that SPOC significantly improves performance. Notably, SPOC boosts the accuracy of Llama-3.1-8B and 70B Instruct models, achieving gains of 8.8% and 11.6% on MATH500, 10.0% and 20.0% on AMC23, and 3.3% and 6.7% on AIME24, respectively."
+ },
+ {
+  "paper_id": 1714,
+  "title": "SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) like GPT-4, DeepSeek-R1, and ReasonFlux have shown significant improvements in various reasoning tasks. However, smaller LLMs still struggle with complex mathematical reasoning because they fail to effectively identify and correct reasoning errors. Recent reflection-based methods aim to address these issues by enabling self-reflection and self-correction, but they still face challenges in independently detecting errors in their reasoning steps. To overcome these limitations, we propose SuperCorrect, a novel two-stage framework that uses a large teacher model to supervise and correct both the reasoning and reflection processes of a smaller student model. In the first stage, we extract hierarchical high-level and detailed thought templates from the teacher model to guide the student model in eliciting more fine-grained reasoning thoughts. In the second stage, we introduce cross-model collaborative direct preference optimization (DPO) to enhance the self-correction abilities of the student model by following the teacher's correction traces during training. This cross-model DPO approach teaches the student model to effectively locate and resolve erroneous thoughts with error-driven insights from the teacher model, breaking the bottleneck of its thoughts and acquiring new skills and knowledge to tackle challenging problems. Extensive experiments consistently demonstrate our superiority over previous methods. Notably, our SuperCorrect-7B model significantly surpasses powerful DeepSeekMath-7B by 7.8%/5.3% and Qwen2.5-Math-7B by 15.1%/6.3% on MATH/GSM8K benchmarks, achieving new SOTA performance among all 7B models. Code: https://github.com/YangLing0818/SuperCorrect-llm"
+ },
+ {
+  "paper_id": 1716,
+  "title": "Intelligent Interaction Strategies for Context-Aware Cognitive Augmentation",
+  "year": 2025,
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "Human cognition is constrained by processing limitations, leading to cognitive overload and inefficiencies in knowledge synthesis and decision-making. Large Language Models (LLMs) present an opportunity for cognitive augmentation, but their current reactive nature limits their real-world applicability. This position paper explores the potential of context-aware cognitive augmentation, where LLMs dynamically adapt to users' cognitive states and task environments to provide appropriate support. Through a think-aloud study in an exhibition setting, we examine how individuals interact with multi-modal information and identify key cognitive challenges in structuring, retrieving, and applying knowledge. Our findings highlight the need for AI-driven cognitive support systems that integrate real-time contextual awareness, personalized reasoning assistance, and socially adaptive interactions. We propose a framework for AI augmentation that seamlessly transitions between real-time cognitive support and post-experience knowledge organization, contributing to the design of more effective human-centered AI systems."
+ },
+ {
+  "paper_id": 1722,
+  "title": "ReflexiCoder: Teaching Large Language Models to Self-Reflect on Generated Code and Self-Correct It via Reinforcement Learning",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "While Large Language Models (LLMs) have revolutionized code generation, standard ``System 1'' approaches that generate solutions in a single forward pass often hit a performance ceiling on complex algorithmic tasks. Existing iterative refinement strategies attempt to bridge this gap at inference time, yet they predominantly rely on external oracles, execution feedback, or computationally expensive prompt-response cycles. In this work, we propose ReflexiCoder, a novel reinforcement learning (RL) framework that internalizes the structured reasoning trajectory, encompassing initial generation, bug and optimization aware reflection, and self-correction, directly into the model's weights. Unlike prior methods, ReflexiCoder shifts the paradigm from external-dependent refinement to an intrinsic, fully autonomous self-reflection and self-correction capabilities at inference time. We utilize an RL-only training paradigm with granular reward functions to optimize the entire reflection-correction trajectory, teaching the model how to debug without reliance on ground-truth feedback or execution engines at inference time. Extensive experiments across seven benchmarks demonstrate that our ReflexiCoder-8B establishes a new state-of-the-art (SOTA) among leading open-source models in the 1.5B to 14B range, achieving 94.51% (87.20%) on HumanEval (Plus), 81.80% (78.57%) on MBPP (Plus), 35.00% on BigCodeBench, 52.21% on LiveCodeBench, and 37.34% on CodeForces in a single-attempt setting, rivaling or surpassing proprietary models like GPT-5.1. Notably, our framework is significantly more token-efficient than base models, reducing inference-time compute overhead by approximately 40% through disciplined, efficient reasoning and reflection patterns. The source code and data are available at https://github.com/juyongjiang/ReflexiCoder."
+ },
+ {
+  "paper_id": 1723,
+  "title": "Monitor-Generate-Verify (MGV): Formalising Metacognitive Theory for Language Model Reasoning",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Test-time reasoning architectures such as those following the Generate-Verify paradigm, where a model iteratively refines or verifies its own generated outputs, prioritise generation and verification but exclude the monitoring processes that determine when and how reasoning should begin. This omission may contribute to the prefix dominance trap, in which models commit early to suboptimal reasoning paths and seldom recover, yielding roughly 20% accuracy loss. We address this architectural gap by proposing the Monitor-Generate-Verify (MGV) framework, a computational translation of Flavell's and Nelson and Narens' metacognitive theories that preserves their psychological detail. MGV extends the Generate-Verify paradigm by adding explicit monitoring that captures metacognitive experiences (from difficulty assessments to confidence judgements) before generation begins and refines future monitoring through verification feedback. Though we present no empirical validation, MGV provides a vocabulary for diagnosing component-level failures in reasoning systems, suggests specific architectural interventions for future designs, and identifies connections to resource-rational analysis that may ground its mechanisms in normative principles."
+ },
+ {
+  "paper_id": 1725,
+  "title": "Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Language has long been conceived as an essential tool for human reasoning. The breakthrough of Large Language Models (LLMs) has sparked significant research interest in leveraging these models to tackle complex reasoning tasks. Researchers have moved beyond simple autoregressive token generation by introducing the concept of \"thought\" -- a sequence of tokens representing intermediate steps in the reasoning process. This innovative paradigm enables LLMs' to mimic complex human reasoning processes, such as tree search and reflective thinking. Recently, an emerging trend of learning to reason has applied reinforcement learning (RL) to train LLMs to master reasoning processes. This approach enables the automatic generation of high-quality reasoning trajectories through trial-and-error search algorithms, significantly expanding LLMs' reasoning capacity by providing substantially more training data. Furthermore, recent studies demonstrate that encouraging LLMs to \"think\" with more tokens during test-time inference can further significantly boost reasoning accuracy. Therefore, the train-time and test-time scaling combined to show a new research frontier -- a path toward Large Reasoning Model. The introduction of OpenAI's o1 series marks a significant milestone in this research direction. In this survey, we present a comprehensive review of recent progress in LLM reasoning. We begin by introducing the foundational background of LLMs and then explore the key technical components driving the development of large reasoning models, with a focus on automated data construction, learning-to-reason techniques, and test-time scaling. We also analyze popular open-source projects at building large reasoning models, and conclude with open challenges and future research directions."
+ },
+ {
+  "paper_id": 1731,
+  "title": "Imagine in Space: Exploring the Frontier of Spatial Intelligence and Reasoning Efficiency in Vision Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) and vision language models (VLMs), such as DeepSeek R1,OpenAI o3, and Gemini 2.5 Pro, have demonstrated remarkable reasoning capabilities across logical inference, problem solving, and decision making. However, spatial reasoning:a fundamental component of human cognition that includes mental rotation, navigation, and spatial relationship comprehension remains a significant challenge for current advanced VLMs. We hypothesize that imagination, the internal simulation of spatial states, is the dominant reasoning mechanism within a spatial world model. To test this hypothesis and systematically probe current VLM spatial reasoning mechanisms, we introduce SpatiaLite, a fully synthetic benchmark that jointly measures spatial reasoning accuracy and reasoning efficiency. Comprehensive experiments reveal three key findings. First, advanced VLMs predominantly rely on linguistic representations for reasoning and imagination, resulting in significant deficiencies on visual centric tasks that demand perceptual spatial relations and 3D geometry transformations such as mental rotation or projection prediction. Second, advanced VLMs exhibit severe inefficiency in their current spatial reasoning mechanisms, with token usage growing rapidly as transformation complexity increases. Third, we propose an Imagery Driven Framework (IDF) for data synthesis and training, which can implicitly construct an internal world model that is critical for spatial reasoning in VLMs. Building on SpatiaLite, this work delineates the spatial reasoning limits and patterns of advanced VLMs, identifies key shortcomings, and informs future advances"
+ },
+ {
+  "paper_id": 1733,
+  "title": "A Survey of Large Language Models",
+  "year": 2026,
+  "venue": "Frontiers of Computer Science",
+  "source": "openalex",
+  "abstract": "Abstract The rapid evolution of large language models (LLMs) has driven a transformative shift in artificial intelligence (AI), reshaping both research paradigms and practical applications. Distinguished from their predecessors by unprecedented scale and advanced capabilities, LLMs necessitate new frameworks for understanding their development, behavior, and societal impact. This survey systematically reviews recent advancements in LLM techniques across four key dimensions: (1) pre-training methodologies, which establish core model capabilities through large-scale self-supervised training, architectural innovations, and data curation strategies; (2) post-training techniques, including supervised fine-tuning and reinforcement learning, which adapt foundational models to downstream tasks and enhance their alignment and safety; (3) utilization strategies, such as in-context learning, prompt engineering, and agentic reasoning, that optimize real-world deployment and enable effective interaction with external environments; and (4) evaluation methods, encompassing benchmarks for key ability dimensions such as core language capabilities, reasoning, and safety, which support comprehensive and reliable assessment of model performance. Additionally, we identify critical research issues, including those concerning theoretical foundations, efficient scaling, alignment, and agentic capability, and highlight the open challenges they present. By synthesizing state-of-the-art insights and emerging trends, this survey aims to provide a systematic and comprehensive framework for understanding the trajectory, current limitations, and future directions of LLM progress."
+ },
+ {
+  "paper_id": 1735,
+  "title": "DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There is currently a significant gap between the performance of fine-tuned models and prompting approaches using Large Language Models (LLMs) on the challenging task of text-to-SQL, as evaluated on datasets such as Spider. To improve the performance of LLMs in the reasoning process, we study how decomposing the task into smaller sub-tasks can be effective. In particular, we show that breaking down the generation problem into sub-problems and feeding the solutions of those sub-problems into LLMs can be an effective approach for significantly improving their performance. Our experiments with three LLMs show that this approach consistently improves their simple few-shot performance by roughly 10%, pushing the accuracy of LLMs towards SOTA or surpassing it. On the holdout test set of Spider, the SOTA, in terms of execution accuracy, was 79.9 and the new SOTA at the time of this writing using our approach is 85.3. Our approach with in-context learning beats many heavily fine-tuned models by at least 5%. Additionally, when evaluated on the BIRD benchmark, our approach achieved an execution accuracy of 55.9%, setting a new SOTA on its holdout test set."
+ },
+ {
+  "paper_id": 1738,
+  "title": "Multi-Step Reasoning with Large Language Models, a Survey",
+  "year": 2025,
+  "venue": "ACM Computing Surveys",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) with billions of parameters exhibit in-context learning abilities, enabling few-shot learning on tasks that the model was not specifically trained for. Traditional models achieve breakthrough performance on language tasks, but do not perform well on basic reasoning benchmarks. However, a new in-context learning approach, Chain-of-thought, has demonstrated strong multi-step reasoning abilities on these benchmarks. The research on LLM reasoning abilities started with the question whether LLMs can solve grade school math word problems, and has expanded to other tasks in the past few years. This article reviews the field of multi-step reasoning with LLMs. We propose a taxonomy that identifies different ways to generate, evaluate, and control multi-step reasoning. We provide an in-depth coverage of core approaches and open problems, and we propose a research agenda for the near future. We find that multi-step reasoning approaches have progressed beyond math word problems, and can now successfully solve challenges in logic, combinatorial games, and robotics, sometimes by first generating code that is then executed by external tools. Many studies in multi-step methods use reinforcement learning for finetuning, external optimization loops, in-context reinforcement learning, and self-reflection."
+ },
+ {
+  "paper_id": 1741,
+  "title": "How Interpretable are Reasoning Explanations from Prompting Large Language Models?",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Prompt Engineering has garnered significant attention for enhancing the performance of large language models across a multitude of tasks.Techniques such as the Chain-of-Thought not only bolster task performance but also delineate a clear trajectory of reasoning steps, offering a tangible form of explanation for the audience.Prior works on interpretability assess the reasoning chains yielded by Chain-of-Thought solely along a singular axis, namely faithfulness.We present a comprehensive and multifaceted evaluation of interpretability, examining not only faithfulness but also robustness and utility across multiple commonsense reasoning benchmarks.Likewise, our investigation is not confined to a single prompting technique; it expansively covers a multitude of prevalent prompting techniques employed in large language models, thereby ensuring a wide-ranging and exhaustive evaluation.In addition, we introduce a simple interpretability alignment technique, termed Self-Entailment-Alignment Chain-of-thought, that yields more than 70% improvements across multiple dimensions of interpretability.Code is available at https://github.com/SenticNet/ CoT_interpretability"
+ },
+ {
+  "paper_id": 1745,
+  "title": "Automatically Correcting Large Language Models: Surveying the Landscape of Diverse Automated Correction Strategies",
+  "year": 2024,
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "source": "openalex",
+  "abstract": "Abstract While large language models (LLMs) have shown remarkable effectiveness in various NLP tasks, they are still prone to issues such as hallucination, unfaithful reasoning, and toxicity. A promising approach to rectify these flaws is correcting LLMs with feedback, where the LLM itself is prompted or guided with feedback to fix problems in its own output. Techniques leveraging automated feedback\u2014either produced by the LLM itself (self-correction) or some external system\u2014are of particular interest as they make LLM-based solutions more practical and deployable with minimal human intervention. This paper provides an exhaustive review of the recent advances in correcting LLMs with automated feedback, categorizing them into training-time, generation-time, and post-hoc approaches. We also identify potential challenges and future directions in this emerging field."
+ },
+ {
+  "paper_id": 1748,
+  "title": "Multi-Step Reasoning with Large Language Models, a Survey",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) with billions of parameters exhibit in-context learning abilities, enabling few-shot learning on tasks that the model was not specifically trained for. Traditional models achieve breakthrough performance on language tasks, but do not perform well on basic reasoning benchmarks. However, a new in-context learning approach, Chain-of-thought, has demonstrated strong multi-step reasoning abilities on these benchmarks. The research on LLM reasoning abilities started with the question whether LLMs can solve grade school math word problems, and has expanded to other tasks in the past few years. This article reviews the field of multi-step reasoning with LLMs. We propose a taxonomy that identifies different ways to generate, evaluate, and control multi-step reasoning. We provide an in-depth coverage of core approaches and open problems, and we propose a research agenda for the near future. We find that multi-step reasoning approaches have progressed beyond math word problems, and can now successfully solve challenges in logic, combinatorial games, and robotics, sometimes by first generating code that is then executed by external tools. Many studies in multi-step methods use reinforcement learning for finetuning, external optimization loops, in-context reinforcement learning, and self-reflection."
+ }
+]

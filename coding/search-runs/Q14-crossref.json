@@ -1,0 +1,13 @@
+{
+ "query": "\"multi-agent\" LLM orchestration topology collaboration",
+ "stored": 77,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 867128,
+   "truncated": true,
+   "stored": 77
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "query": "\"self-improvement\" reflection language model agent loop",
+ "stored": 62,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 2598957,
+   "truncated": true,
+   "stored": 62
+  }
+ ]
+}

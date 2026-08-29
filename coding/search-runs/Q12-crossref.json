@@ -1,0 +1,13 @@
+{
+ "query": "\"agent memory\" language model persistence episodes",
+ "stored": 77,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 2051691,
+   "truncated": true,
+   "stored": 77
+  }
+ ]
+}

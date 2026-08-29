@@ -1,0 +1,13 @@
+{
+ "query": "\"agentic loop\" large language model agent",
+ "stored": 89,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 2191490,
+   "truncated": true,
+   "stored": 89
+  }
+ ]
+}

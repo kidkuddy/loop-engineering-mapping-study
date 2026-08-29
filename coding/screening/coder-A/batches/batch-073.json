@@ -1,0 +1,306 @@
+[
+ {
+  "paper_id": 10319,
+  "title": "ToC: Tree-of-Claims Search with Multi-Agent Language Models",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": "Optimizing patent claims is a critical yet challenging task, demanding careful balance between maximizing novelty and preserving legal scope. Manual claim drafting is labor-intensive, costly, and inherently inconsistent, while conventional Large Language Models (LLMs) often lack the structured, iterative reasoning essential for precise claim refinement. To address these challenges, we introduce Tree of Claims (ToC), an innovative framework that redefines claim editing as a guided search problem. ToC synergistically integrates Monte Carlo Tree Search (MCTS) with a collaborative multi-agent system, comprising an LLM-based EditorAgent that proposes contextually grounded edits, and an ExaminerAgent that mimics patent examiner critiques through structured, chain-of-thought analyses of novelty and prior art disclosure. Driven by a carefully designed multi-objective reward function, ToC jointly optimizes novelty, scope retention, and semantic coherence. Experimental evaluation on a benchmark of 1145 claims demonstrates that ToC significantly outperforms standard LLMs in zero-shot and few-shot scenarios, achieving an average composite score improvement of 8%, and up to 9% in certain cases. Extensive experiments, including detailed ablation studies, validate ToC\u2019s efficacy in generating superior, legally robust claim revisions. Overall, ToC establishes a transparent, controllable, and interpretable methodology that effectively bridges advanced LLM reasoning capabilities with strategic MCTS planning for structured patent claim optimization."
+ },
+ {
+  "paper_id": 10322,
+  "title": "Tree-of-AdEditor:  Heuristic Tree Reasoning for Automated Video Advertisement Editing with Large Language Model",
+  "year": 2025,
+  "venue": "Proceedings of the Thirty-Fourth International Joint Conference on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": "Video advertising has become a popular marketing strategy on e-commerce platforms, requiring high-level semantic reasoning like selling point discovery, narrative organization. Previous rule-based methods struggle with these complex tasks, and learning-based approaches demand large datasets and high training costs. Recently, Large Language Models have opened incredible opportunities for advancing intelligent video advertisement editing. However, Input-output (IO) prompting and Chain-of-Thought (CoT) struggle to adapt to the nonlinear thinking hierarchy of video editing, where editors iteratively select shots or revert them to explore potential editing solutions. While Tree-of-Thought (ToT) offers a conceptual structure that mirrors this hierarchy, it falls short in aligning with effective video advertising strategies and lacks robust fact-checking mechanisms. To address these, we propose a novel framework, Tree-of-AdEditor (ToAE), which constructs a reasoning tree to mimic human editors, and incorporates domain-specific theories and heuristic fact-checking to identify optimal editing solutions. Specifically, motivated by effective advertisement principles, we develop a \"local-global\" mechanism to guide LLM in both the shot level and sequence level decision-making. We introduce a visual incoherence pruning module to provide external heuristic fact-checking, ensuring visual attractiveness and reducing computation costs. Quantitative experiments and expert evaluation demonstrate the superiority of our method compared to baselines."
+ },
+ {
+  "paper_id": 10323,
+  "title": "Tree-of-AdEditor:  Heuristic Tree Reasoning for Automated Video Advertisement Editing with Large Language Model",
+  "year": 2024,
+  "venue": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": "Video advertising has become a popular marketing strategy on e-commerce platforms, requiring high-level semantic reasoning like selling point discovery, narrative organization. Previous rule-based methods struggle with these complex tasks, and learning-based approaches demand large datasets and high training costs. Recently, Large Language Models have opened incredible opportunities for advancing intelligent video advertisement editing. However, Input-output (IO) prompting and Chain-of-Thought (CoT) struggle to adapt to the nonlinear thinking hierarchy of video editing, where editors iteratively select shots or revert them to explore potential editing solutions. While Tree-of-Thought (ToT) offers a conceptual structure that mirrors this hierarchy, it falls short in aligning with effective video advertising strategies and lacks robust fact-checking mechanisms. To address these, we propose a novel framework, Tree-of-AdEditor (ToAE), which constructs a reasoning tree to mimic human editors, and incorporates domain-specific theories and heuristic fact-checking to identify optimal editing solutions. Specifically, motivated by effective advertisement principles, we develop a \"local-global\" mechanism to guide LLM in both the shot level and sequence level decision-making. We introduce a visual incoherence pruning module to provide external heuristic fact-checking, ensuring visual attractiveness and reducing computation costs. Quantitative experiments and expert evaluation demonstrate the superiority of our method compared to baselines."
+ },
+ {
+  "paper_id": 10326,
+  "title": "Improving Exploration Efficiency in Complex Reasoning Tasks via Guided Reinforcement Learning and Large Language Model Heuristic Search Strategies",
+  "year": 2026,
+  "venue": "International Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "The rapid evolution of artificial intelligence has transitioned from simple pattern recognition toward complex reasoning tasks that require long-horizon planning and multi-step cognitive processing. While large language models have demonstrated remarkable zero-shot capabilities, their performance in high-dimensional state spaces is often constrained by the inefficiency of stochastic exploration. Traditional reinforcement learning approaches frequently encounter the curse of dimensionality and the sparsity of reward signals, leading to computational bottlenecks and suboptimal convergence. This paper investigates a novel architectural framework that integrates guided reinforcement learning with large language model heuristic search strategies to enhance exploration efficiency in complex reasoning environments. By leveraging the semantic prior knowledge of language models as a high-level heuristic guide, the proposed system constrains the search space to more plausible trajectories while allowing reinforcement learning agents to refine local execution policies. This research emphasizes the system-level trade-offs between computational overhead and reasoning accuracy, addressing critical infrastructure requirements and deployment strategies for scalable intelligence. Furthermore, the discussion extends to the socio-technical implications of such systems, including robustness against adversarial manipulation, fairness in automated decision-making, and the governance frameworks necessary to oversee autonomous reasoning infrastructures. Through a comprehensive analysis of structural trade-offs and deployment sustainability, this study provides a roadmap for developing more efficient, reliable, and interpretable reasoning agents capable of operating within sophisticated real-world infrastructures."
+ },
+ {
+  "paper_id": 10351,
+  "title": "A Tree-Based Search Algorithm with Global Pheromone and Local Signal Guidance for Scientific Chart Reasoning",
+  "year": 2025,
+  "venue": "Mathematics",
+  "source": "crossref",
+  "abstract": "Chart reasoning, a critical task for automating data interpretation in domains such as aiding scientific data analysis and medical diagnostics, leverages large-scale vision language models (VLMs) to interpret chart images and answer natural language questions, enabling semantic understanding that enhances knowledge accessibility and supports data-driven decision making across diverse domains. In this work, we formalize chart reasoning as a sequential decision-making problem governed by a Markov Decision Process (MDP), thereby providing a mathematically grounded framework for analyzing visual question answering tasks. While recent advances such as multi-step reasoning with Monte Carlo tree search (MCTS) offer interpretable and stochastic planning capabilities, these methods often suffer from redundant path exploration and inefficient reward propagation. To address these challenges, we propose a novel algorithmic framework that integrates a pheromone-guided search strategy inspired by Ant Colony Optimization (ACO). In our approach, chart reasoning is cast as a combinatorial optimization problem over a dynamically evolving search tree, where path desirability is governed by pheromone concentration functions that capture global phenomena across search episodes and are reinforced through trajectory-level rewards. Transition probabilities are further modulated by local signals, which are evaluations derived from the immediate linguistic feedback of large language models. This enables fine grained decision making at each step while preserving long-term planning efficacy. Extensive experiments across four benchmark datasets, ChartQA, MathVista, GRAB, and ChartX, demonstrate the effectiveness of our approach, with multi-agent reasoning and pheromone guidance yielding success rate improvements of +18.4% and +7.6%, respectively."
+ },
+ {
+  "paper_id": 10355,
+  "title": "SRA-MCTS: Self-driven Reasoning Augmentation with Monte Carlo Tree Search for Code Generation",
+  "year": 2024,
+  "venue": "Proceedings of the Thirty-ThirdInternational Joint Conference on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": "Large language models exhibit remarkable performance in simple code generation tasks. However, they encounter significant challenges when addressing complex problems that require reasoning and question decomposition. To tackle this, we propose a self-driven reasoning augmentation process, SRA-MCTS, which incorporates Monte Carlo Tree Search (MCTS) for reasoning data generation. SRA-MCTS enables LLMs to self-generate intermediate reasoning steps and perform iterative self-evaluation, facilitating self-improvement. Specifically, it utilizes MCTS to produce diverse intermediate reasoning steps. During each iteration, MCTS generates a step and employs self-evaluation to guide the selection of subsequent branches, ultimately forming a sufficiently diverse reasoning path referred to as \u201cthinking\u201d. This thinking guides the model in generating corresponding code, and both are combined as training data for supervised fine-tuning. Experimental results demonstrate that SRA-MCTS achieves consistent performance improvements across three model scales without additional supervisory assistance. Applied to the Meta-Llama-3.1-8B-Instruct model, it delivers an 11-point improvement on the MBPP-Complex dataset, underscoring the significant potential for model self-improvement. The code and data are available at https://github.com/DIRECT-BIT/SRA-MCTS."
+ },
+ {
+  "paper_id": 10371,
+  "title": "Combining LLM, Non-Monotonic Logical Reasoning, and Human-In-the-loop Feedback in an Assistive AI Agent",
+  "year": 2025,
+  "venue": "2025 34th IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10373,
+  "title": "InsightSwarm: A Multi-Agent Adversarial Framework for Automated Fact-Checking with Real-Time Source Verification, Human-in-the-Loop Oversight, and Adaptive Confidence Calibration",
+  "year": 2026,
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "source": "crossref",
+  "abstract": "he rapid spread of misinformation on social and digital media demands automated fact-checking systems that are accurate, calibrated, and transparent. Existing approaches \u2014 single large-language-model (LLM) classifiers and rule-based systems \u2014 suffer from source hallucination rates of 15 to 30 percent and provide no visibility into their reasoning process. We present InsightSwarm, a production-grade multi-agent fact-checking system built on five concrete contributions: (1) adversarial debate between role-locked ProAgent and ConAgent, each backed by real-time web source retrieval; (2) a multi-layer FactChecker pipeline that independently fetches and validates every cited URL, reducing source hallucination to below 3 percent; (3) Human-in-the-Loop (HITL) intervention via LangGraph interrupt semantics enabling mid-pipeline human source correction through a live React panel; (4) adaptive confidence calibration using geometric-mean source trust scoring to correct systematic underconfidence; and (5) claim complexity estimation that dynamically adjusts debate depth and resource allocation. Evaluated on a 100-claim FEVER-derived benchmark, InsightSwarm achieves an F1 score of 0.81 versus 0.68 for a zero-shot LLM baseline and 0.56 for a keyword baseline. The full system is open-source and available at https://github.com/AyushDevadiga1/Insight-Swarm."
+ },
+ {
+  "paper_id": 10374,
+  "title": "Trustworthy Agentic AI: Balancing Autonomy with Human Oversight",
+  "year": 2025,
+  "venue": "International Journal of Computer Science and Mobile Computing",
+  "source": "crossref",
+  "abstract": "Agentic AI systems increasingly plan, decide, and execute actions across tools and data sources with minimal supervision. To be deployable in safety- and compliance-sensitive environments, autonomy must be bounded by transparent decision making, predictable behavior, and recoverable failure modes. This paper proposes a practical pattern for trustworthy agentic AI that integrates a policy gate, typed tools and effects, human-in-the-loop (HITL) controls, layered safety monitors, and rigorous verification via evidence logs. We align these choices with the NIST AI Risk Management Framework and its Generative AI Profile, ISO/IEC 42001 for AI management systems, and the staged implementation of the EU AI Act [1\u20136]."
+ },
+ {
+  "paper_id": 10376,
+  "title": "A Human-in-the-Loop LLM Agent Framework with LoRA Domain Adaptation for DO-330 TQL-1 Tool Qualification",
+  "year": 2026,
+  "venue": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10380,
+  "title": "Humanizing ATS-Based Recruitment Using LLMs and Human-in-the-Loop Oversight",
+  "year": 2026,
+  "venue": "Systems",
+  "source": "crossref",
+  "abstract": "Application Tracking Systems (ATSs) have evolved significantly since their inception in 1996, transitioning from simple resum\u00e9repositories to AI-driven tools with advanced capabilities. While these developments have improved recruitment efficiency, they have also raised important ethical, organizational, and human-rights-related concerns. Bias in machine learning (ML) training data, opaque decision criteria, and excessive reliance on automated judgment may contribute to unfair treatment, reduced transparency, and limited human oversight in hiring processes. This study addresses these challenges by proposing a human-centered approach to ATS-supported recruitment based on a set of Humanization Services. Using a Design Science Research approach, three main artifacts were developed: a Job Requirements Validation Module, a Bias Trigger Removal Module, and a blockchain-supported dual-authorization mechanism for vacancy approval, which requires digital signatures from qualified professionals to approve job postings, ensuring that there are humans that assume responsibility. These components are intended to improve job posting quality, reduce bias-conducive information in applicant data, and strengthen accountability in recruitment workflows. The evaluation provides initial empirical support for the operational feasibility of the proposed approach under the tested conditions. The study therefore contributes a practical and theoretically grounded step toward more transparent, accountable, and human-centered AI-supported recruitment."
+ },
+ {
+  "paper_id": 10387,
+  "title": "Human-in-the-Loop Evaluation Pipelines for Production LLM Systems",
+  "year": 2025,
+  "venue": "2025 International Conference on Computational Intelligence, Security, and Artificial Intelligence (IntelliSecAI)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10388,
+  "title": "Dial-In LLM: Human-Aligned LLM-in-the-loop Intent Clustering for Customer Service Dialogues",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10394,
+  "title": "Between autonomy and oversight: Trust calibration and human controllability in agentic AI systems",
+  "year": 2026,
+  "venue": "Global Journal of Engineering and Technology Advances",
+  "source": "crossref",
+  "abstract": "The deployment of agentic AI systems, meaning large language model-based agents capable of autonomous planning, tool use and sequential decision-making with real-world consequences, has surfaced a governance challenge that practitioners and researchers are still working to understand; how much decision-making authority should these systems hold and what mechanisms ensure humans remain meaningfully in control? This paper argues that the answer is neither simple nor uniform. Drawing on a focused review of 34 empirical, technical and regulatory sources published between 2019 and 2026, we examine how trust forms and miscalibrates in human-agent interaction, analyze the design space for human-in-the-loop oversight and identify persistent gaps between regulatory intent and technical implementation. Our primary contribution is the Tiered Controllability Framework (TCF), a four-tier model that maps oversight requirements to task risk, action reversibility and agent autonomy scope. We validate the TCF against three documented enterprise deployment cases and conduct a structured regulatory gap analysis covering the EU Artificial Intelligence Act and the NIST AI Risk Management Framework. Our findings indicate that trust miscalibration, encompassing both over-reliance and under-reliance, constitutes the most prevalent failure mode in deployed agentic systems and that current transparency tools remain inadequate for supporting informed human oversight at operational scale."
+ },
+ {
+  "paper_id": 10404,
+  "title": "When may LLM outputs influence software requirements? A human-in-the-loop governance framework",
+  "year": 2026,
+  "venue": "Advances in Engineering Innovation",
+  "source": "crossref",
+  "abstract": "Large language models are increasingly used to review, clarify, rewrite, and trace software requirements. These applications create a governance problem that output-quality assessment alone cannot resolve: a fluent proposal may rely on inadmissible evidence, alter stakeholder intent, introduce unsupported specificity, or imply an organizational commitment that the model has no authority to make. Existing work on retrieval-augmented generation, controlled natural language, formal verification, human oversight, and AI governance supplies relevant controls, but it does not specify the procedural status of an individual LLM proposal relative to a controlled requirements artifact. This article develops an artifact-centered, human-in-the-loop framework in which the permitted influence of a proposal is the primary object of governance. The framework combines five governance functions\u2014governed evidence, bounded context construction, controlled LLM analysis, pre-commit verification, and accountable human approval\u2014with four artifact-influence states: A0 advisory observation, A1 evidence-linked candidate, A2 verified recommendation, and A3 approved and committed change. Its central theoretical claim is that output quality, evidential legitimacy, verification status, and authority to commit a change are distinct properties and should not be collapsed into a single confidence judgment. Seven falsifiable hypotheses translate the model into measurable comparisons involving source admissibility, context leakage, unsupported specificity, semantic drift, reviewer agreement, unreviewed changes, governance cost, and organizational maturity. Human review is treated as both a necessary decision boundary and a potential source of automation bias, anchoring, and fatigue. The framework is conceptual rather than empirically validated and provides a basis for controlled experiments, field studies, and longitudinal evaluation."
+ },
+ {
+  "paper_id": 10406,
+  "title": "Improving Hebrew offensive language classification using LLM-assisted human-in-the-loop annotation!!",
+  "year": 2026,
+  "venue": "Lodz Papers in Pragmatics",
+  "source": "crossref",
+  "abstract": "Abstract This study explores the challenges and opportunities of using large language models (LLMs) for automatic annotation of offensive language in Hebrew. The analysis is based on a six-level taxonomy of offensive discourse \u2013 covering offensiveness, target, target presence, vulgarity, offense strength, and specific aspects \u2013 enabling systematic examination of nuanced Hebrew patterns. Several prompting strategies were tested, including few-shot, role-based prompting, chain-of-thought, and LLM-as-judge, and their outputs were compared to human annotations using standard evaluation metrics and inter-annotator reliability. Findings reveal that salient categories such as explicit threats show strong interpretive stability, while ambiguous ones, such as discrediting attacks, require higher precision. The study also introduces a two-step classification method: first identifying the two most plausible categories, then selecting the more accurate one. This approach reduces the model\u2019s bias toward general categories and improves fine-grained classification. Overall, the study contributes by (1) offering a methodological framework to assess LLMs\u2019 interpretive limits compared to humans, and (2) laying groundwork for building more refined datasets to advance Hebrew offensive language research."
+ },
+ {
+  "paper_id": 10414,
+  "title": "Just Put a Human in the Loop? Investigating LLM-Assisted Annotation for Subjective Tasks",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10415,
+  "title": "Human-in-the-Loop Governance for LLM-Generated Code:  An Engineering Control, Accountability, and Verification Model  in AI-Augmented Software Development",
+  "year": 2026,
+  "venue": "EJSMT",
+  "source": "crossref",
+  "abstract": "The rapid adoption of large language model (LLM) based code generation tools in commercial software development has created a governance gap between code production speed and code quality assurance. This paper examines how human-in-the-loop (HITL) governance structures can address that gap by embedding engineering accountability, automated verification gates, and structured review protocols into AI-augmented development workflows. Drawing on a systematic review of 20 peer-reviewed and industry-authoritative sources, the study maps the principal failure modes of LLM-generated code, evaluates existing oversight frameworks, and proposes an original five-phase Engineering Control and Verification Model (ECVM) that assigns explicit responsibility to both automated toolchains and human engineers at each lifecycle stage. Empirical evidence shows that developers complete repetitive coding tasks up to 55 % faster with AI assistance, yet acceptance of AI suggestions without review correlates with measurable increases in security defects and logical errors. The proposed model offers software engineering teams a structured path to realizing productivity gains while preserving code integrity. The findings are relevant to software engineering practitioners, technical leads, and organizations designing AI-augmented development processes."
+ },
+ {
+  "paper_id": 10416,
+  "title": "When Even Experts Disagree: Human-in-the-Loop Evaluation of LLM-Generated Hypotheses for Learning Analytics",
+  "year": 2026,
+  "venue": "IEEE Access",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10417,
+  "title": "LLM-Enabled Human-in-the-Loop Control of Multi-UAV Teams under Communication Constraints",
+  "year": 2026,
+  "venue": "2026 International Conference on Unmanned Aircraft Systems (ICUAS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10424,
+  "title": "Can We Responsively Code Qualitative Data with an LLM Aide? A Human-In-The-Loop Approach",
+  "year": 2026,
+  "venue": "Technical Communication Quarterly",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10426,
+  "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+  "source": "crossref",
+  "abstract": "Despite bias in artificial intelligence (AI) being a risk of their use in hiring systems, there is no large-scale empirical investigation of the impacts of these biases on hiring decisions made collaboratively between people and AI systems. It is also unknown whether AI literacy, people's own biases, and behavioral interventions intended to reduce discrimination affect these human-in-the-loop AI teaming (AI-HITL) outcomes. In this study, we conduct a resume-screening experiment (N=528) where people collaborate with simulated AI models exhibiting race-based preferences (bias) to evaluate candidates for 16 high and low status occupations. Simulated AI bias approximates factual and counterfactual estimates of racial bias in real-world AI systems. We investigate people's preferences for White, Black, Hispanic, and Asian candidates (represented through names and affinity groups on quality-controlled resumes) across 1,526 scenarios and measure their unconscious associations between race and status using implicit association tests (IATs), which predict discriminatory hiring decisions but have not been investigated in human-AI collaboration. This evaluation framework can generalize to other groups, models, and domains. When making decisions without AI or with AI that exhibits no race-based preferences, people select all candidates at equal rates. However, when interacting with AI favoring a particular group, people also favor those candidates up to 90\\% of the time, indicating a significant behavioral shift. The likelihood of selecting candidates whose identities do not align with common race-status stereotypes can increase by 13\\% if people complete an IAT before conducting resume screening. Finally, even if people think AI recommendations are low quality or not important, their decisions are still vulnerable to AI bias under certain circumstances. This work has implications for people's autonomy in AI-HITL scenarios, AI and work, design and evaluation of AI hiring systems, and strategies for mitigating bias in collaborative decision-making tasks. In particular, organizational and regulatory policy should acknowledge the complex nature of AI-HITL decision making when i"
+ },
+ {
+  "paper_id": 10427,
+  "title": "S848\u2003Evaluating a Multi-Agent LLM Pipeline With Human-in-the-Loop for Drafting Patient Education Handouts From Eosinophilic Esophagitis Guidelines",
+  "year": 2025,
+  "venue": "American Journal of Gastroenterology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10428,
+  "title": "From Automation to Autonomy: A Digital Twin Framework for Transparent Agent and Human Collaboration in Industrial Multi-Agent Systems",
+  "year": 2026,
+  "venue": "Systems",
+  "source": "crossref",
+  "abstract": "With the advancement of digitization in the era of Industry 4.0 (I4.0), highly automated, semi-autonomous, and fully autonomous systems are emerging. Within this context, multi-agent systems (MAS) offer a promising approach for automating tasks and processes based on autonomous agents that work together in an overall system to increase the degree of system autonomy stepwise in a modular and flexible way. A critical research challenge is determining how these agents can collaboratively engage with both other agents and human operators to facilitate the gradual transition from automated to fully autonomous industrial systems. To close transparency and connectivity gaps, this study contributes with a framework for the collaboration of agents and humans in increasingly autonomous MAS based on a Digital Twin (DT). The framework specifies a standards-based data model for MAS representation and proposes to introduce a DT infrastructure as a service layer for system coordination, supervision, and interaction. To demonstrate the feasibility and assess the quality of the framework, it is implemented and evaluated in a case study in a real-world industrial scenario. Although additional long-term evaluations across different contexts are needed, the assessment of functional completeness and selected quality attributes show that the proposed framework provides a solid technical foundation that facilitates a transparent and seamless collaboration between agents and humans within increasingly autonomous industrial MAS."
+ },
+ {
+  "paper_id": 10431,
+  "title": "Constrained LLM-Guided Refactoring of JavaScript: A Smell-Targeted Transformation Framework with Human-in-the-Loop Validation",
+  "year": 2026,
+  "venue": "Computers, Materials &amp; Continua",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10432,
+  "title": "Rationality Meets Irrationality: Incentivizing Dual Cognitive Loop for LLM-Based Agent in Social Simulation",
+  "year": 2026,
+  "venue": "IEEE Transactions on Computational Social Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10433,
+  "title": "VidCog: Empowering LLM with Long Video Understanding via Human-like Temporal Cognitive Loop",
+  "year": 2025,
+  "venue": "Proceedings of the 7th ACM International Conference on Multimedia in Asia",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10439,
+  "title": "Human-LLM collaborative domain modeling: a human-in-the-loop framework and empirical assessment",
+  "year": 2026,
+  "venue": "Software and Systems Modeling",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10440,
+  "title": "LLM-based Agentic Workflow on Verbal and Non-verbal Audiovisual Perceptions and Actions for Proactive Situated Human-Robot Interactions",
+  "year": 2025,
+  "venue": "Proceedings of the 13th International Conference on Human-Agent Interaction",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10441,
+  "title": "LLM-Based Automated Grading with Human-in-the-Loop",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Teaching, Assessment, and Learning for Engineering (TALE)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10503,
+  "title": "Augmenting Intelligent Process Automation through Generative AI for Human-in-the-Loop Decision Systems",
+  "year": 2026,
+  "venue": "Digital Engineering",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10545,
+  "title": "Evaluating LLMs for Requirements Engineering: The Case for Keeping Stakeholders in the Loop.",
+  "year": 2026,
+  "venue": "Softwaretechnik-Trends",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10546,
+  "title": "Enhancing Ontology Engineering with Large Language Models: A Stage-Wise Human-in-the-Loop Study.",
+  "year": 2026,
+  "venue": "MIE",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10547,
+  "title": "Feedback Loops and Code Perturbations in LLM-Based Software Engineering: A Case Study on a C-to-Rust Translation System.",
+  "year": 2026,
+  "venue": "SANER",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10550,
+  "title": "Bias in the Loop: Auditing LLM-as-a-Judge for Software Engineering.",
+  "year": 2026,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10551,
+  "title": "Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design.",
+  "year": 2026,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10564,
+  "title": "Fail Fast, or Ask: Mitigating the Deficiencies of Reasoning LLMs with Human-in-the-Loop Systems Engineering.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10565,
+  "title": "Feedback Loops and Code Perturbations in LLM-based Software Engineering: A Case Study on a C-to-Rust Translation System.",
+  "year": 2025,
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ }
+]

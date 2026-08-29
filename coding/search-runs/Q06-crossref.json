@@ -1,0 +1,13 @@
+{
+ "query": "\"self-verification\" language model agent output",
+ "stored": 74,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 2438932,
+   "truncated": true,
+   "stored": 74
+  }
+ ]
+}

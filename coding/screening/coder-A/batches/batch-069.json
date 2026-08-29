@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 9190,
+  "title": "Verification of Reasoning Ability using BDI Logic and Large Language Model in AIWolf",
+  "year": 2024,
+  "venue": "Proceedings of the 2nd International AIWolfDial Workshop",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9197,
+  "title": "Refining Reasoning Chains through Self Correcting Reinforcement Learning Architectures for Mitigating Logical Hallucinations in Large Language Models",
+  "year": 2026,
+  "venue": "International Journal of Artificial Intelligence Research",
+  "source": "crossref",
+  "abstract": "The rapid proliferation of large language models (LLMs) across critical socio-technical infrastructures has necessitated a paradigm shift from mere generative fluency to rigorous logical reliability. Despite advancements in scale, LLMs remain susceptible to logical hallucinations\u2014instances where a model produces structurally coherent but substantively invalid reasoning chains. These failures present significant risks in domains such as legal adjudication, medical diagnostics, and engineering design, where the internal consistency of an argument is as vital as the final output. This paper proposes a systems-level architectural framework for refining reasoning chains through self-correcting reinforcement learning (RL). By integrating modular refiner policies with adaptive solver hierarchies, we transition the alignment burden from static fine-tuning to dynamic, inference-time optimization. We analyze the structural trade-offs between computational overhead and logical robustness, emphasizing the role of verifiable reward signals in stabilizing the iterative refinement process. Our discussion extends to the governance implications of deploying these architectures in public-facing systems, addressing the socio-technical challenges of transparency, fairness, and the prevention of reward hacking. Through a multi-dimensional analysis of infrastructure and policy, we argue that the future of resilient AI lies in the convergence of generative potential and autonomous corrective feedback loops, ensuring that reasoning remains grounded in verifiable logic rather than stochastic approximation."
+ },
+ {
+  "paper_id": 9198,
+  "title": "Improving medical reasoning through retrieval and self-reflection with retrieval-augmented large language models",
+  "year": 2024,
+  "venue": "Bioinformatics",
+  "source": "crossref",
+  "abstract": "Abstract Summary Recent proprietary large language models (LLMs), such as GPT-4, have achieved a milestone in tackling diverse challenges in the biomedical domain, ranging from multiple-choice questions to long-form generations. To address challenges that still cannot be handled with the encoded knowledge of LLMs, various retrieval-augmented generation (RAG) methods have been developed by searching documents from the knowledge corpus and appending them unconditionally or selectively to the input of LLMs for generation. However, when applying existing methods to different domain-specific problems, poor generalization becomes apparent, leading to fetching incorrect documents or making inaccurate judgments. In this paper, we introduce Self-BioRAG, a framework reliable for biomedical text that specializes in generating explanations, retrieving domain-specific documents, and self-reflecting generated responses. We utilize 84k filtered biomedical instruction sets to train Self-BioRAG that can assess its generated explanations with customized reflective tokens. Our work proves that domain-specific components, such as a retriever, domain-related document corpus, and instruction sets are necessary for adhering to domain-related instructions. Using three major medical question-answering benchmark datasets, experimental results of Self-BioRAG demonstrate significant performance gains by achieving a 7.2% absolute improvement on average over the state-of-the-art open-foundation model with a parameter size of 7B or less. Similarly, Self-BioRAG outperforms RAG by 8% Rouge-1 score in generating more proficient answers on two long-form question-answering benchmarks on average. Overall, we analyze that Self-BioRAG finds the clues in the question, retrieves relevant documents if needed, and understands how to answer with information from retrieved documents and encoded knowledge as a medical expert does. We release our data and code for training our framework components and model weights (7B and 13B) to enhance capabilities in biomedical and clinical domains. Availability and implementation Self-BioRAG is available at https://github.com/dmis-lab/self-biorag."
+ },
+ {
+  "paper_id": 9214,
+  "title": "GraphReason: Enhancing Reasoning Capabilities of Large Language Models through A Graph-Based Verification Approach",
+  "year": 2024,
+  "venue": "Proceedings of the 2nd Workshop on Natural Language Reasoning and Structured Explanations (@ACL 2024)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9215,
+  "title": "Stepwise Verification and Remediation of Student Reasoning Errors with Large Language Model Tutors",
+  "year": 2024,
+  "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9221,
+  "title": "From Verifiable Rewards to Autonomous Evolution: Reinforcement Learning-Driven Large Language Model Reasoning Abilities",
+  "year": 2026,
+  "venue": "Mathematical Modeling and Algorithm Application",
+  "source": "crossref",
+  "abstract": "This paper attempts to outline the evolution of LLMs from classic methods of supervised finetuning models with static human-annotated datasets, to a more dynamic and evolutionary reinforcement learning based autonomous models. Along with the systematic evolution of reasoning capabilities, this is one of the most prominent focal points in the field of AI. This paper attempt to outline the most current advancements in reasoning and reinforcement learning, and classify the occurrences into the applicable areas of criteria, such as: choice of architecture, choice of reward assignments, and choice of evaluation metrics. This paper explore reasoning improvements as a result of self-reflective and exploratory processes within the bounds of the RL with Verifiable Rewards (RLVR) framework. By systematically studying the aforementioned criteria across multiple works and the respective variations in algorithmic efficiency, control of reward signal bias, and performance metrics, this paper want to outline the positive role of reinforcement learning in fostering autonomous self-correction in models and complex thought chain processes. The aim of this paper is to describe the potential autonomous advancements the next generations of large language models may evolve and want to offer some suggestions as a theoretical and a technical framework."
+ },
+ {
+  "paper_id": 9222,
+  "title": "Large language model performance in clinical cardiology multiple choice questions; has reasoning improved performance?",
+  "year": 2026,
+  "venue": "European Heart Journal - Digital Health",
+  "source": "crossref",
+  "abstract": "Abstract Introduction Large language models (LLMs) have garnered significant attention in applications throughout medicine, however, many have struggled with more nuanced clinical challenges. Reasoning models such as GPT-o1 and DeepSeek R1 leverage reinforcement learning and chain-of-thought methodologies which potentially improve performance in complex cognitive tasks. It is challenging to benchmark these models however and whilst the underlying reasoning is often displayed, the reasoning process used to provide an answer is not always clear. Purpose This study aims to compare the ability of Chat GPT-4o, GPT-4.5, GPT-o1, DeepSeek, and DeepSeek R1 to accurately respond to cardiology multiple choice questions (MCQs) from a commonly used UK cardiology textbook. Methods This study is a cross-sectional in-silico benchmarking study. A question corpus of 236 text-only questions and 26 image based questions were employed from a popular UK based, board level cardiology textbook. Video questions were excluded. Image-based queries were excluded for DeepSeek models due to the lack of image interpretation capabilities. Each model was presented with identical zero-shot prompts. Responses were scored against textbook answers. Additionally, two UK consultant cardiologists reviewed questions answered incorrectly by the majority of models to examine performance deficits. To ensure consistency, reviewed questions were deemed to be accepted (in line with accepted guidance and evidence) or not accepted and removed from the evaluation. Revised Bloom\u2019s Taxonomy was applied to classify all questions. Results All models completed 236 text MCQs with answers A-E. An additional 26 image MCQs were tested with GPT models. Due to updated evidence since source publication, 5 text and 1 image question was removed. Text-only accuracy ranged from 77.5% (GPT-4o) to 82.3% (GPT-o1). Image-based MCQ accuracy ranged from 38% (GPT-4.5) to 53% (GPT-4o). When divided by Bloom\u2019s Taxonomy, performance across all models in knowledge recall (90.0%) was significantly higher than in understanding (68.6%), application (76.2%), analysis (78.9%) and evaluation (75.9%). Due to the nature of MCQs none related to c"
+ },
+ {
+  "paper_id": 9226,
+  "title": "Language-Specific Differences in Large Language Model Diagnostic Reasoning: A Translation-Controlled Clinical Vignette Study",
+  "year": 2026,
+  "venue": "Journal of Clinical Medicine",
+  "source": "crossref",
+  "abstract": "Background: Large language models (LLMs) are increasingly being evaluated for clinically relevant diagnostic tasks, yet their performance may vary across languages. We aimed to determine whether input language influences LLM diagnostic reasoning in vignette-based clinical tasks and to inform multilingual predeployment evaluation for non-English healthcare systems. Methods: In this translation-controlled in silico study, 30 real-patient\u2019s clinical vignettes were presented in paired English- and Polish-language conditions using back-translated prompts and cases. Six LLMs were evaluated with a structured reflection framework adapted from medical education. The study included 720 rater-level evaluations and 360 unique model\u2013language\u2013vignette responses. Responses were independently scored by 2 physician raters, with major discrepancies adjudicated by a third physician. The primary outcome was total rubric score. Secondary outcomes included differential diagnosis quality, justification, appropriateness of additional examinations, final diagnosis, and triage accuracy. Exploratory analyses assessed the number and cost of recommended examinations. Results: The effect of language differed significantly by model. Qwen2.5, Llama3.3, Meditron3, and OpenBioLLM performed significantly better in English, with the largest gap observed for Qwen2.5. GPT-5 and Bielik showed no statistically detectable English-Polish difference in overall score in this sample. Language-related differences were most evident in differential diagnosis quality, justification, and examination planning rather than in final diagnosis alone. Exploratory economic analyses suggested model- and language-dependent differences in testing burden, with broader suggested workups generally associated with higher diagnostic costs. Language robustness was not a consistent property of clinically evaluated LLMs. Performance differences were concentrated in reasoning and workup domains that are safety-relevant if these systems are used clinically. Conclusions: Multilingual clinical performance of LLMs is strongly model dependent. Language-specific evaluation should be considered before deployment in non-English healthcar"
+ },
+ {
+  "paper_id": 9230,
+  "title": "Data Synthesis for Large Language Model Reasoning: A Review of the Evolution from Surface Imitation to Deep Logic",
+  "year": 2026,
+  "venue": "Advances in Engineering Technology Research",
+  "source": "crossref",
+  "abstract": "Data synthesis is a key technical approach to solving the core challenge that large language models lack high-quality training data. In this paper, the data synthesis methods to improve the reasoning of large language models (LLMs) are sorted out, and a three-layer classification system is constructed, including Self-Synthesis, Self-Evolution and Reasoning-Oriented Synthesis. Taking Self-Instruct, WizardLM, Orca and CoT Prompting as examples, this paper not only traces the evolution of this field from self-generated instruction to process-aware reasoning trajectory, but also analyzes the practical framework of quality assessment and discusses ethical and legal challenges. Moreover, this paper looks forward to emerging directions such as real-time synthesis and multi-agent collaborative generation."
+ },
+ {
+  "paper_id": 9241,
+  "title": "Reasoning-Enhanced Query\u2013Service Matching: A Large Language Model Approach with Adaptive Scoring and Diversity Optimization",
+  "year": 2026,
+  "venue": "Mathematics",
+  "source": "crossref",
+  "abstract": "Query\u2013service matching in customer service systems faces a critical challenge of accurately aligning user queries expressed in colloquial language with formally defined services while balancing business objectives. Traditional keyword-based and embedding approaches fail to capture complex semantic nuances and cannot provide interpretable explanations. We address this problem by proposing a novel reasoning-enhanced framework that leverages large language models (LLMs) for structured multi-criteria evaluation. Our key innovation is a reasoning-first scoring architecture where the model generates detailed explanations before numerical scores, reducing score variance by 18% through conditional mutual information. We introduce a controlled stochastic perturbation mechanism with theoretically derived optimal parameters that balance diversity and relevance, alongside a knowledge distillation pipeline enabling 960\u00d7 model compression (480B\u21920.5B parameters) while retaining 94% performance. Rigorous theoretical analysis establishes Pareto optimality guarantees for multi-criteria evaluation, information-theoretic entropy reduction bounds, and PAC learning guarantees for distillation. Experimental validation on real-world telecommunications data demonstrates 89% Precision@1 (15.3% improvement over baselines), 23% diversity enhancement, and 96\u00d7 latency reduction, with deployment cost decreasing 1200\u00d7 compared to direct LLM inference. This work bridges the gap between LLM capabilities and production deployment requirements through principled mathematical foundations and practical system design."
+ },
+ {
+  "paper_id": 9242,
+  "title": "A cost-effective approach for knowledge graph reasoning path retrieval and enhanced large language model reliability",
+  "year": 2026,
+  "venue": "PeerJ Computer Science",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) often face challenges in performing reliable multi-hop reasoning due to issues such as incomplete evidence chains and hallucinations. Incorporating knowledge graphs (KGs) can mitigate these problems, but existing approaches either suffer from suboptimal accuracy or are computationally expensive. To address these issues, we propose Reasoning Path Retrieval for RAG (RPR-RAG), a novel KG-based retrieval framework that incrementally builds a subgraph from the knowledge graph, extracts explicit reasoning paths, and provides them as structured external evidence to downstream LLMs. The experimental results on WebQuestionsSP (WebQSP) and Complex WebQuestions (CWQ) indicate that RPR-RAG achieves competitive Hit and F1 in multi-hop reasoning tasks, while maintaining runtime, LLM call frequency, and token usage at reasonable levels. Moreover, without additional task-specific training, RPR-RAG also shows strong zero-shot performance on MetaQA. RPR-RAG is built on a lightweight embedding model which can be trained and executed on a single consumer-grade GPU ( e.g ., RTX 3060, 6 GB). Ablation studies reveal that the path validity evaluation and stopping criterion play important roles in retrieval quality and efficiency. RPR-RAG is compatible with a range of backbone LLMs, from smaller 7B models to larger models such as GPT-5, providing a practical and interpretable framework for KG-grounded reasoning tasks. The source code is available at https://doi.org/10.5281/zenodo.19334059 ."
+ },
+ {
+  "paper_id": 9247,
+  "title": "SVllmNER: Self-Verification Large Language Model for Zero-Shot Named Entity Recognition",
+  "year": 2025,
+  "venue": "2025 28th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9248,
+  "title": "Toward Auto-Modeling of Formal Verification for NextG Protocols: A Multimodal Cross- and Self-Attention Large Language Model Approach",
+  "year": 2024,
+  "venue": "IEEE Access",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9252,
+  "title": "A large language model-based self-learning and critical agent framework for multimodal Alzheimer\u2019s disease diagnosis.",
+  "year": 2026,
+  "venue": "Neuropsychology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9260,
+  "title": "Engineering Critical Analysis Software Services: a Graph-Rag and Self-Learning Large Language Model Agent Services Approach",
+  "year": 2025,
+  "venue": "2025 IEEE International Conference on Service-Oriented System Engineering (SOSE)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9263,
+  "title": "A Closed-Loop Modular Language Agent with Step Verification and Local Correction for Multi-Step Task Solving",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Multi-step task solving with large language models in intelligent electronic systems and interactive environments requires stronger process control and execution reliability. To address local error accumulation during multi-step execution, this paper proposes a closed-loop modular language agent framework integrating task planning, action execution, step verification, local regeneration, and replanning. A process-supervision data construction method is further introduced, in which real execution steps are retained as valid samples and invalid samples are automatically synthesized through action substitution, input perturbation, observation replacement, and subgoal mismatch, providing step-level supervision for validity prediction. In the proposed framework, step verification functions as a process-level control signal that supports hierarchical recovery through local regeneration and replanning, rather than as a standalone filtering module. Experiments are conducted on mathematical reasoning and web interaction tasks. On mathematical reasoning tasks, the proposed framework achieves an accuracy of 0.650, compared with 0.317 for Integrated Training, 0.460 for CoT Training, 0.568 for ReFT, and 0.617 for Agent Lumos. On web interaction tasks, the proposed framework achieves a step success rate of 0.424, compared with 0.246 for Integrated Training and 0.310 for Agent Lumos. Among the cases where recovery is triggered, local regrounding succeeds in 85.7% of reground attempts, while replanning succeeds in 53.3% of replanning attempts. These results indicate that the proposed framework improves process stability and recovery capability in multi-step task solving."
+ },
+ {
+  "paper_id": 9264,
+  "title": "Simulation-Based and Formal Verification of Domain-Specific Language Model",
+  "year": 2020,
+  "venue": "AIAA Scitech 2020 Forum",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9269,
+  "title": "Knowledge-Augmented Language Model Verification",
+  "year": 2023,
+  "venue": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9275,
+  "title": "Design of a Source Code Vulnerability Patch Verification Agent using an Iterative Self-Verifying Architecture with Large Language Models",
+  "year": 2026,
+  "venue": "The Journal of Korean Institute of Information Technology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9279,
+  "title": "Reducing Hallucinations in Large Language Models Through Integrated Self-Verification and Retrieval-Augmented Generation",
+  "year": 2025,
+  "venue": "Volume 2B: 45th Computers and Information in Engineering Conference (CIE)",
+  "source": "crossref",
+  "abstract": "Abstract Large Language Models (LLMs) are progressively used for advanced engineering tasks, includes Computer-Aided Design (CAD) documentation, standards compliance verification, and knowledge retrieval. Still, they are prone to produce hallucinations, outputs that seem convincing but aren\u2019t based on context that limit their trustworthiness in high-end engineering applications where precision and compliance are crucial. The paper introduces CoVe-RAG+, a unified framework that integrates Chain-of-Verification (CoVe) with Retrieval-Augmented Generation (RAG) to mitigate hallucinations in the results generated by large language models (LLMs). CoVe-RAG+ supports LLM verification in external sources of authority, such as engineering standards, CAD information, and simulation reports, while applying an iterative self-verification process to validate important claims. CoVe-RAG+ is assessed on engineering activities such as CAD model documentation, standards compliance verification, and the reutilization of historical design data. Experimental findings indicate a 28% improvement in factual accuracy relative to baseline CoVe and RAG methodologies. Moreover, CoVe-RAG+ strengthens user confidence by providing elucidative verification reports and source traceability. The findings indicate that CoVe-RAG+ provides a scalable and reliable option for implementing LLMs in engineering design processes where factual accuracy is critical."
+ },
+ {
+  "paper_id": 9294,
+  "title": "Research on Intelligent Verification of Transformer Carbon Footprint Based on Multi-Agent Large Language Models",
+  "year": 2025,
+  "venue": "2025 International Conference on Artificial Intelligence, Electrical and Electronic Engineering (AI3E)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9304,
+  "title": "An Intelligent Conversational Agent Using Self-Reflective Retrieval-Augmented Generation for Enhanced Large Language Model Support in National Accounts Learning",
+  "year": 2025,
+  "venue": "Proceedings of The International Conference on Data Science and Official Statistics",
+  "source": "crossref",
+  "abstract": "BPS Statistics Indonesia plays a strategic role in compiling balance sheet statistics as the foundation for national policy analysis. This role requires a deep understanding of the concepts, definitions, and compilation standards outlined in the System of National Accounts (SNA) manual. However, in practice, comprehending such complex technical documents is not always straightforward. To address this challenge, this study proposes the development of an intelligent conversational agent in the form of a chatbot that implements the Self-Multimodal RAG approach. This approach integrates self-reflection mechanisms to generate more accurate and relevant responses. The evaluation was conducted using the LLM-as-a-Judge framework across four metrics: answer correctness, answer relevancy, context relevancy, and context faithfulness. Experimental results demonstrate that the Self-Reflective RAG achieved a score of 80% on the answer correctness metric, with competitive performance in terms of relevancy and faithfulness. From the chatbot implementation perspective, black-box testing confirmed that all functionalities operated as expected, while system usability testing using the CSUQ instrument yielded a score of 74.704%, indicating that the chatbot is well-accepted by users."
+ },
+ {
+  "paper_id": 9305,
+  "title": "Warrants Generations using a Language Model and a Multi-Agent System",
+  "year": 2021,
+  "venue": "International Journal on Natural Language Computing",
+  "source": "crossref",
+  "abstract": "Each argument begins with a conclusion, which is followed by one or more premises supporting the conclusion. The warrant is a critical component of Toulmin's argument model; it explains why the premises support the claim. Despite its critical role in establishing the claim's veracity, it is frequently omitted or left implicit, leaving readers to infer. We consider the problem of producing more diverse and high-quality warrants in response to a claim and evidence. To begin, we employ BART [1] as a conditional sequence tosequence language model to guide the output generation process. On the ARCT dataset [2], we fine-tune the BART model. Second, we propose the Multi-Agent Network for Warrant Generation as a model for producing more diverse and high-quality warrants by combining Reinforcement Learning (RL) and Generative Adversarial Networks (GAN) with the mechanism of mutual awareness of agents. In terms of warrant generation, our model generates a greater variety of warrants than other baseline models. The experimental results validate the effectiveness of our proposed hybrid model for generating warrants."
+ },
+ {
+  "paper_id": 9318,
+  "title": "Can Biodiversity Commitments Generate ESG Premiums? Evidence From Multiple Large Language Model Verification",
+  "year": 2026,
+  "venue": "Australian Accounting Review",
+  "source": "crossref",
+  "abstract": "ABSTRACT As the global biodiversity crisis intensifies, corporate biodiversity commitments have emerged as a strategic response, yet their effectiveness lacks sufficient empirical evidence. Drawing on Shanghai and Shenzhen A\u2010share listed firms from 2015 to 2023, this study pairs three frontier large language models with researcher verification to detect biodiversity commitments in corporate sustainability disclosures, and examines how such commitments shape ESG performance. Firms that issue biodiversity commitments subsequently exhibit higher ESG ratings, and the relationship remains stable under alternative rating providers, instrumental variable estimation, Heckman selection correction, lagged\u2010treatment specifications, and an ordinal measure of commitment intensity. Committing firms subsequently report environmental information of higher quality and allocate more resources to environmental investment, with both channels carrying part of the effect. The relationship is more pronounced among heavily polluting firms and firms in provinces with stringent environmental regulation, suggesting that commitments deliver larger legitimacy returns where stakeholder scrutiny is most acute. The findings offer evidence on how firms translate environmental commitments into sustainable development performance and inform policy design for corporate ecological responsibility."
+ },
+ {
+  "paper_id": 9335,
+  "title": "Python Language Teaching Evaluation System Based on LLM large model",
+  "year": 2024,
+  "venue": "International Journal of Computer Science and Information Technology",
+  "source": "crossref",
+  "abstract": "With the rapid development of information technology and artificial intelligence, programming education is very important. However, the traditional Python language teaching evaluation method has some problems, such as strong subjectivity and low efficiency, which is difficult to meet the current situation of contemporary programming education. In order to overcome the limitations of traditional teaching methods and comprehensively evaluate students 'programming ability, the system uses LLM model to analyze code, and combines with the Streamlit framework to build a user interface to achieve convenient interaction and feedback. The experimental results show that the system has high accuracy and reliability, which can effectively evaluate students 'programming level and provide support for personalized teaching. Then it can promote the development of programming education"
+ },
+ {
+  "paper_id": 9342,
+  "title": "Behavioral Transfer via Automated Prompt Optimization and LLM-as-a-Judge Evaluation Loops for Prompt-Based Knowledge Distillation",
+  "year": 2026,
+  "venue": "2026 Systems and Information Engineering Design Symposium (SIEDS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9343,
+  "title": "Intelligent LLM Orchestration: Advanced Mixture of Experts Routing for Large Language Model Systems",
+  "year": 2025,
+  "venue": "International Journal of Science and Research (IJSR)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9344,
+  "title": "How Hypocritical Is Your LLM judge? Listener-Speaker Asymmetries in the Pragmatic Competence of Large Language Models",
+  "year": 2026,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9349,
+  "title": "Human evaluators vs. LLM-as-a-Judge: toward scalable evaluation of GenAI in global health",
+  "year": 2026,
+  "venue": "npj Digital Medicine",
+  "source": "crossref",
+  "abstract": "Abstract Evaluating generative AI output remains a critical bottleneck for safe and scalable deployment of AI in healthcare. Expert clinical judgement is often presented as the gold standard, but human assessment is costly and inconsistent. LLM-as-judge systems, i.e., leveraging AI to evaluate other AI outputs, have been proposed, yet their reliability in global health remains untested. We compared five LLM judges and six human clinicians in evaluating responses to questions posed by Rwandan health workers. The highest-performing LLM-judge (Claude-4.1-Opus) matched human evaluators on only four of eleven evaluation criteria, with other models scoring too leniently (Gemini-2.5-Pro) or too harshly (GPT-5). Constructing LLM-juries to balance model-specific biases improved agreement on only one additional criterion. Notably, performance and cost-effectiveness fell when moving from English to Kinyarwanda. Overall, while LLM-judges show promise, their inability to handle linguistic and cultural context is a critical limitation, underscoring the need for further investment in scalable evaluation solutions."
+ },
+ {
+  "paper_id": 9357,
+  "title": "Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9362,
+  "title": "An Analytical Framework for the Evolution of Large Language Models: From Reasoning to LLM-as-a-Judge",
+  "year": 2026,
+  "venue": "Academic Journal of Research and Scientific Publishing",
+  "source": "crossref",
+  "abstract": "This study aims to develop an integrative computational-analytical framework for explaining the functional evolution of large language models through four interrelated dimensions: Reasoning, Retrieval and Knowledge Grounding, Alignment, and Judging, collectively represented by the RRAJ framework. The study adopts a systematic analytical literature review of research published between 2020 and 2026, drawing on Scopus, Web of Science, and IEEE Xplore, and applying comparative and thematic analysis to trace major technical transformations and functional relationships across the four dimensions. The findings indicate that the evolution of large language models is no longer driven primarily by model scaling, but increasingly by system scaling, in which knowledge, computation, and control are distributed across model parameters, contextual information, external knowledge sources, inference-time computation, and evaluation mechanisms. The analysis further reveals a shift from isolated capabilities toward functional convergence among RRAJ components, with LLM-as-a-Judge emerging as an important transition that enables evaluation to support diagnosis, feedback, and correction. The study concludes that future LLM systems are likely to become more adaptive, verifiable, self-evaluating, and self-correcting. It further recommends improving judge reliability, error traceability, and human oversight in high-risk applications, while exploring judge-governed execution as a future extension for agentic and robotic systems."
+ },
+ {
+  "paper_id": 9411,
+  "title": "Debate, Reflect, and Distill: Multi-Agent Feedback with Tree-Structured Preference Optimization for Efficient Language Model Enhancement",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9416,
+  "title": "Examining the Effects of a Large Language Model\u2013Based Cognitive Feedback Agent on Preservice Teachers' Collaborative Design Learning",
+  "year": 2026,
+  "venue": "2026 8th International Conference on Computer Science and Technologies in Education (CSTE)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9426,
+  "title": "Critic-CoT: Boosting the Reasoning Abilities of Large Language Model via Chain-of-Thought Critic",
+  "year": 2025,
+  "venue": "Findings of the Association for Computational Linguistics: ACL 2025",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9427,
+  "title": "A2C-LLM: An Actor-Critic-Enhanced Large Language Model for UAV Swarm Multi-Target Task Allocation",
+  "year": 2026,
+  "venue": "Drones",
+  "source": "crossref",
+  "abstract": "In UAV swarm adversarial applications, multi-agent task allocation requires high-level reasoning and accurate decision-making in dynamic environments. Although large language models (LLMs) have shown strong performance in zero-shot reasoning, they cannot generate optimal allocation strategies without environmental objective feedback. To address this problem, we present A2C-LLM, an Actor-Critic-enhanced large language model for adversarial UAV swarm task allocation. Unlike traditional methods that adopt sequential tracking, we adopt a single-step decision process for macro allocation to improve the efficiency of immediate allocation. In A2C-LLM, the LLM serves as the Actor network to understand the adversarial environment and generate coordination strategies, while a lightweight neural network serves as the Critic network to estimate expected rewards and calculate TD advantage for fine-tuning. Experimental results demonstrate that A2C-LLM significantly outperforms traditional heuristic algorithms and pure LLM baselines in task completion rate and robustness across various adversarial scenarios, showcasing the potential of integrating reinforcement learning feedback with foundation models for autonomous aerial systems."
+ },
+ {
+  "paper_id": 9429,
+  "title": "CriticEval: Evaluating Large-scale Language Model as Critic",
+  "year": 2024,
+  "venue": "Advances in Neural Information Processing Systems 37",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9430,
+  "title": "PACE: Improving Prompt with Actor-Critic Editing for Large Language Model",
+  "year": 2024,
+  "venue": "Findings of the Association for Computational Linguistics ACL 2024",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9438,
+  "title": "Building smarter digital content: a\u00a0CRITIC \u2013 DEMATEL framework for leveraging large language model optimization in marketing",
+  "year": 2026,
+  "venue": "Journal of Business and Socio-economic Development",
+  "source": "crossref",
+  "abstract": "Purpose The study responds to address the practical problem faced by the digital marketers, content creators and digital business agencies on creating content, which is both human-readable and LLM-compatible. The present study identifies and analyses the key factors influencing content optimization for Large Language Models (LLMs) to develop a strategic framework for Large Language Model Optimization (LLMO) that aligns with modern search paradigms. Design/methodology/approach This research employs a two-phases multi-criteria decision-making (MCDM) approach combining CRITIC (Criteria Importance Through Intercriteria Correlation) to determine factor weights, and DEMATEL (Decision-Making Trial and Evaluation Laboratory) to map causal relationships. A panel of 15 experts across three countries (India, UAE and USA) rated the influence of five identified factors. Findings The study identifies five critical factors for LLMO: Retrieval Augmentation, Readability Enhancement, Content Quality Assurance, Filtering of Unsafe Content and User-Centric Content Design. Retrieval Augmentation and User-Centric Design emerged as key causal factors, while Readability and Content Quality acted as bridges or effects. Although factor weights were relatively balanced, the DEMATEL analysis revealed interdependencies highlighting the dynamic nature of LLMO. Practical implications The results provide actionable guidance to digital marketing experts and agencies, content strategists, marketing heads and developers to structure web content that is both human-readable and LLM-compatible. The study offers insights to organizations on how they can enhance their digital visibility and authority in AI-powered search ecosystems. Originality/value This study fills a critical gap by offering the first integrated CRITIC-DEMATEL framework for LLMO. It distinguishes LLMO from traditional SEO and offers a novel causal model to support the development of holistic, future-ready content strategies."
+ },
+ {
+  "paper_id": 9448,
+  "title": "Feedback Control for Adaptive Language Model Routing Under Non-Stationary Workloads",
+  "year": 2026,
+  "venue": "Journal of Computer Science and Technology Studies",
+  "source": "crossref",
+  "abstract": "Serving a stream of requests across large language models (LLMs) of differing cost and quality is an online allocation problem, usually framed as multi-armed bandits. We frame it as feedback control: a direct-acting Proportional\u2013Integral\u2013Derivative (PID) controller whose setpoint is the running fleet- average performance and whose bounded output adjusts each model\u2019s allocation share, with requests routed by weighted sampling over the allocation vector. This work contributes (i) a stability analysis ofthe closed loop \u2014 bounded-input bounded-output behaviour by anti-windup, exponential convergence of the performance estimates via a Lyapunov function, and a persistent-excitation condition guaranteeing recoverability after a regime change; (ii) a closed-form, analysis-grounded automatic tuning rule requiring no per-dataset search; and (iii) an honest head-to-head against static, round-robin, random, epsilon-greedy, UCB1, Thompson sampling, and the non-stationary bandits Sliding-Window UCB and Discounted UCB, on GSM8K with a checkable exact-match reward, reporting inference cost and request latency alongside quality. Under transient drift the auto-tuned controller is statistically tied with the best non-stationary bandit at lower cost; under a persistent regime shift it significantly outperforms both (p &lt; 0.03). We further show the integral term helps only under a persistent shift \u2014 a proportional controller suffices for transient drift \u2014 and evaluate robustness to noisy rewards. The result is an interpretable, stability-analyzed, auto-tuned routing controller competitive with or superior to non- stationary bandits at lower cost."
+ },
+ {
+  "paper_id": 9460,
+  "title": "Winning Isn't Reasoning",
+  "year": 2026,
+  "venue": "The International FLAIRS Conference Proceedings",
+  "source": "crossref",
+  "abstract": "Large language models (LLMs) are increasingly deployed in interactive systems such as recommendation, negotiation, and decision support, where agents engage in iterative reasoning by inferring latent preferences and adapting their behavior based on feedback over time. An interesting question is whether LLMs perform iterative reasoning as effectively as classical decision-theoretic strategies explicitly designed to reduce uncertainty or regret. We study this question in a controlled setting using Wordle as a diagnostic testbed. Wordle yields structured, deterministic feedback that progressively constrains the hypothesis space and allows for information acquisition through queries, closely mirroring core processes in preference elicitation and opponent modeling. Across 100 games per configuration (5,400+ total runs), we evaluate LLM-based agents and compare them to a Value of Information (VOI) policy, a minimax-regret policy (CSS), and 2 random baselines. Beyond win rate, we measure convergence efficiency, distance to solution, and sensitivity to feedback across rounds. Our results show that while LLMs can achieve competitive win rates, they are less reliable at systematic uncertainty reduction and typically converge more slowly than classical methods. These findings offer some clarity as to when decision-theoretic policies and when LLMs are best suited for iterative interaction, providing insights for the design of interactive AI systems."
+ },
+ {
+  "paper_id": 9464,
+  "title": "DeepRetro discovers retrosynthetic pathways through iterative large language model reasoning",
+  "year": 2026,
+  "venue": "Scientific Reports",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9484,
+  "title": "Search-on-Graph: Iterative Informed Navigation for Large Language Model Reasoning on Knowledge Graphs",
+  "year": 2026,
+  "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9486,
+  "title": "slimIPL: Language-Model-Free Iterative Pseudo-Labeling",
+  "year": 2021,
+  "venue": "Interspeech 2021",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9515,
+  "title": "IVC-DB: Iterative verification correction method guided by dual-Backward mathematical reasoning in large language models",
+  "year": 2026,
+  "venue": "Knowledge-Based Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9531,
+  "title": "Adaptive Test-Time Reasoning with Uncertainty-Guided Verification: Enhancing Intrinsic Reasoning Capabilities of Large Language Models",
+  "year": 2026,
+  "venue": "2026 International Conference on Computer Intelligence and Software Engineering (CICSE)",
+  "source": "crossref",
+  "abstract": ""
+ }
+]

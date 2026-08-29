@@ -1,0 +1,13 @@
+{
+ "query": "\"critic model\" language model agent feedback",
+ "stored": 47,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 1948552,
+   "truncated": true,
+   "stored": 47
+  }
+ ]
+}

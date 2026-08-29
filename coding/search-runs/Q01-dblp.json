@@ -1,0 +1,13 @@
+{
+ "query": "\"agentic loop\" large language model agent",
+ "stored": 2,
+ "providers": [
+  {
+   "provider": "dblp",
+   "found": 2,
+   "matched": 2,
+   "truncated": false,
+   "stored": 2
+  }
+ ]
+}

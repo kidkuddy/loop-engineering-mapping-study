@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 9855,
+  "title": "Adaptive Orchestration with Cross-Episode Memory for Dynamic LLM-based Agent Pools",
+  "year": 2026,
+  "venue": "WOCHAT2026: Workshop on Chatbots and Agentic Technologies",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9859,
+  "title": "Agentic Data Pipeline Orchestration with Multi-Agent AI",
+  "year": 2026,
+  "venue": "SoutheastCon 2026",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9860,
+  "title": "COLLAB-LLM: A Communication-Centric Role-Based Framework  for Scalable Multi-Agent LLM Collaboration",
+  "year": 2026,
+  "venue": "Asian Journal of Research in Computer Science",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) are increasingly deployed in multi-agent systems; however, existing frameworks continue to suffer from communication ambiguity, coordination failures, and poor scalability as task complexity increases. This paper introduces COLLAB-LLM, a communication-centric, role-based framework designed to enable reliable and scalable collaboration among LLM agents. The framework combines a structured communication protocol, a hierarchical role architecture, and a dynamic distributed task-graph engine to support coordinated planning, efficient negotiation, and adaptive task execution. COLLAB-LLM is evaluated on over 120 complex, multi-step tasks spanning software engineering, business process automation, and scientific research synthesis. Task success is defined using task-specific completion criteria, with a task considered successful when the aggregate completion score exceeds 0.8. Under identical underlying LLM configurations, COLLAB-LLM achieves an 89% overall success rate, representing a 13\u201319% improvement over strong single-agent and multi-agent state-of-the-art baselines, with statistically significant gains in performance, communication efficiency, and robustness. Experimental results demonstrate that structured communication and role specialization substantially reduce ambiguity, improve collaboration quality, and enable scalable coordination for teams of up to eight agents. This work establishes foundational design principles for high-performing collaborative AI systems and provides a practical, reproducible pathway toward scalable, human-aligned multi-agent LLM architectures. All experimental artifacts, task definitions, prompts, and evaluation scripts will be released to support reproducibility."
+ },
+ {
+  "paper_id": 9861,
+  "title": "RepoAI: Automated code refactoring through multi-agent LLM orchestration and retrieval-augmented generation",
+  "year": 2026,
+  "venue": "Science of Computer Programming",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9862,
+  "title": "From Abstract Prompts to Cybersecurity Labs: Automating Virtual Environment Design and Deployment with Multi-Agent Systems and LLM-Driven Orchestration",
+  "year": 2025,
+  "venue": "2025 5th Intelligent Cybersecurity Conference (ICSC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9863,
+  "title": "Road Network Vulnerability Analysis Based on Multi\u2010Agent Collaboration of\n                    <scp>LLM</scp>",
+  "year": 2026,
+  "venue": "Transactions in GIS",
+  "source": "crossref",
+  "abstract": "ABSTRACT Road network vulnerability analysis is crucial for improving the reliability and sustainability of urban transportation systems. However, conventional methods struggle to handle multi\u2010scenario complex reasoning. To address this issue, we propose an automated LLM\u2010based multi\u2010agent pipeline for road network vulnerability analysis. The collaboration pipeline includes three modules: a requirement thinker module for interpreting analysis requirements and formalizing scenario\u2010specific properties; a strategy maker module that leverages a knowledge base to generate scenario\u2010adaptive strategies; and a vulnerability analyst module that performs reasoning and refinement to complete the analysis. Furthermore, the verification and memory summarization mechanisms are integrated to improve the reasoning stability and computational efficiency. Experiments show that our approach outperforms manual and single\u2010LLM methods. Ablation studies indicate that removing verification and memory summarization mechanisms reduces precision by 10.01% and 3.33%. Overall, the proposed LLM\u2010based multi\u2010agent pipeline offers an adaptive and reliable end\u2010to\u2010end solution for road network vulnerability analysis."
+ },
+ {
+  "paper_id": 9867,
+  "title": "Trust-Aware Orchestration Architecture for LLM-Assisted Workflows in Multi-Tenant Enterprise Systems",
+  "year": 2026,
+  "venue": "IEEE Access",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9872,
+  "title": "Cross-Domain Orchestration with Multi-Agent LLM Framework for Enhanced Task Automation",
+  "year": 2025,
+  "venue": "Optical Fiber Communication Conference (OFC) 2025",
+  "source": "crossref",
+  "abstract": "We evaluate the performance of LLMs in multi-agent systems for complex cross-domain network orchestration, interoperability and task automation. We demonstrate the effectiveness of this approach across IP, optical, and robotic domains."
+ },
+ {
+  "paper_id": 9874,
+  "title": "Human\u2013robot collaboration in building disassembly: a multi-agent LLM architecture",
+  "year": 2026,
+  "venue": "Construction Robotics",
+  "source": "crossref",
+  "abstract": "Abstract Building disassembly is critical for circular economy material reuse, yet remains rare due to cost and safety constraints, leading to demolition and material downcycling. Automation could improve both efficiency and safety, but currently available technology does not yet enable full automation. We propose a human\u2013robot collaboration system architecture that uses agentic large language models. We test this approach in building disassembly\u2014an unstructured, safety\u2013critical domain where conventional pre-programmed robotics are inadequate. The agentic architecture combines curated domain knowledge, physics simulation for stability validation, and natural language interfaces, enabling the robot to participate through proactive reasoning rather than follow control commands. We evaluated the architecture through three progressively complex scenarios: collaborative spatial adaptation, collaborative decision-making, and learning. The main contribution is a modular, data-grounded HRC methodology in which specialized LLM agents perform agentic reasoning: the robot assesses situations, retrieves relevant procedural knowledge, validates decisions through simulation, and negotiates solutions with human operators. This proof of concept demonstrates that agentic multi-agent LLM systems can enable adaptive human\u2013robot collaboration under uncertainty, beyond natural language interfaces through integrated domain knowledge, physics validation, and agentic reasoning."
+ },
+ {
+  "paper_id": 9883,
+  "title": "AI-native cloud-edge orchestration for 6G metaverse networks: an LLM-guided multi-agent DRL approach",
+  "year": 2026,
+  "venue": "Complex &amp; Intelligent Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9895,
+  "title": "Multi-Agent Proactive Information Seeking with Adaptive LLM Orchestration for Non-Factoid Question Answering",
+  "year": 2025,
+  "venue": "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9900,
+  "title": "Multi-Agent Social Simulation: Protocolizing LLM-Driven Agent-Based Modeling as a Quantitative Research Method",
+  "year": 2026,
+  "venue": "AI",
+  "source": "crossref",
+  "abstract": "Social and behavioral research often needs to examine policy shocks, information interventions, platform-mediated attention, and governance feedback, but direct experiments on real populations are constrained by ethical risks, intervention costs, and limited repeatability. This study proposes Multi-Agent Social Simulation (MASS), a protocolized form of large language model-driven agent-based modeling (LLM-driven ABM) designed as a low-risk, repeatable, and auditable pre-experimental simulation method for quantitative research. MASS embeds LLMs in an agent-based modeling (ABM) framework and uses role settings, round-based scheduling, information control, background-rule control, structured outputs, harness checks, reason-action logs, and replication manifests to transform open-ended language generation into recordable, checkable, and statistically analyzable agent-round observations. The method is evaluated through the New Jersey\u2013Pennsylvania minimum wage natural experiment, the 2016 UK Brexit digital campaigning context, and the 2023 Zibo barbecue tourism public-opinion event. Results show that protocolized LLM-driven ABM can generate analyzable and empirically assessable outputs across policy-shock, information-intervention, and governance-feedback scenarios. The strongest evidence concerns rule-shock identification, declining undecided share under targeting, and mechanism-chain consistency among governance response, public sentiment, and behavioral intention. MASS is not a substitute for real-world experiments or causal inference; it is a pre-experimental simulation method for mechanism rehearsal, risk identification, counterfactual comparison, and research design preparation."
+ },
+ {
+  "paper_id": 9902,
+  "title": "CLOUD-NATIVE ORCHESTRATION PATTERNS FOR MULTI-AGENT HEALTHCARE LLMS",
+  "year": 2025,
+  "venue": "International Journal of Applied Mathematics",
+  "source": "crossref",
+  "abstract": "Healthcare organizations increasingly deploy multi-agent large language models (LLMs) for clinical triage, diagnostic support, and documentation. However, deployment at scale requires coordination across distributed cloud infrastructure while satisfying HIPAA, GDPR, and HL7 FHIR interoperability requirements. We evaluated three orchestration patterns\u2014Kubernetes-native microservices, serverless Knative, and hybrid edge-cloud\u2014for multi-agent healthcare LLM orchestration using synthetic clinical data (10,000 patients, 45,000 encounters via Synthea). Multi-cloud experiments across AWS, Azure, and GCP (15 repetitions per pattern; n=405 total) demonstrate that edge-local deployment reduces latency 45% (triage: 2.08s vs. 3.81s) and maintains 99.97% compliance adherence (\u00b10.03%) across 1.2 million policy-controlled PHI accesses. Multi-agent diagnostic consensus improved accuracy from 82.8% (single-agent) to 87.1% (ANOVA: F(2,403)=18.4, p&lt;0.001, \u03b7\u00b2=0.20) with greatest benefits for complex multi-system conditions. Clinical documentation ratings by three board-certified physicians (\u03ba=0.72 inter-rater agreement) achieved 4.15/5 mean acceptability on synthetic cases, though generalization to real clinical practice requires prospective validation. We propose a reference architecture integrating Istio service mesh (mTLS, policy enforcement), Knative event-driven activation, and Kubernetes-native microservices, establishing design guidelines for healthcare organizations selecting orchestration patterns based on latency, cost, and compliance constraints. Limitations include reliance on synthetic ground truth, single-timepoint evaluation, and unknown generalization to alternative LLM architectures."
+ },
+ {
+  "paper_id": 9904,
+  "title": "LLM Enabled Multi-Agent System for 6G Networks: Framework and Method of Dual-Loop Edge-Terminal Collaboration",
+  "year": 2026,
+  "venue": "IEEE Communications Magazine",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9906,
+  "title": "Intent-Aware Predictive Orchestration for Softwarized Networks Using LLM-Assisted Policy Translation",
+  "year": 2026,
+  "venue": "Proceedings of the 15th International Conference on Data Science, Technology and Applications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9909,
+  "title": "Multi-LLM Prototype: Open-source software for adaptive orchestration, conflict resolution, and cost-aware routing across heterogeneous large language models",
+  "year": 2026,
+  "venue": "SoftwareX",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9910,
+  "title": "LLM-Driven Voice Agents That Collaboratively Talk to Each Other: Towards Vocal Multi- Agent Systems",
+  "year": 2025,
+  "venue": "Frontiers in Emerging Artificial Intelligence and Machine Learning",
+  "source": "crossref",
+  "abstract": "Voice assistants such as Alexa, Google Assistant, and Siri have become increasingly sophisticated, integrating Large Language Models (LLMs) to deliver personalized responses. However, these platforms are constrained by single-agent paradigms that limit collaboration, transparency, and complex problem solving [1,2]. This paper proposes a novel LLM-driven multi-agent voice architecture in which multiple specialized voice-powered agents converse with one another\u2014 vocally and intelligibly\u2014to collaboratively resolve user requests. Drawing inspiration from cooperative multi-agent systems [3,4] and human-like conversational transparency [5,6], we demonstrate a prototype in a smart kitchen environment involving culinary, nutrition, and inventory agents. Evaluation suggests improvements in explainability, task success, and user trust, though challenges remain in orchestration, privacy, and cognitive load. This research introduces vocal multi-agent systems as a new frontier in interactive AI, advancing beyond single-agent frameworks towards explainable, collaborative, and socially intelligent voice ecosystems."
+ },
+ {
+  "paper_id": 9917,
+  "title": "Large Language Model Framework for Device Orchestration in Low-Code No-Code Solutions",
+  "year": 2025,
+  "venue": "International Journal of Computational and Experimental Science and Engineering",
+  "source": "crossref",
+  "abstract": "In today's digital era, virtually every aspect of life or industry is influenced by digital services. Digital devices have played a critical role in transforming various fields, from education to healthcare, by enhancing availability and access. They have also helped prevent theft, robbery, and even property damage. They have also contributed to crime prevention, including theft, robbery, and property damage. With exponential growth, digital device manufacturers serving similar or different purposes have created a heterogeneous digital ecosystem to offer ease-of-use solutions. However, this heterogeneity poses challenges even for software developers. Beyond software developers, a growing number of professionals from other engineering streams, management, and small to medium-sized business owners are required to interact with digital systems. Low-code and no-code platforms have emerged as viable solutions to support this shift and encourage these users to manage digital services without complex programming. The Low-Code and No-Code platforms have limitations but are not limited to flexibility, usability, and integration, which restrict the development of customized solutions. Large Language Models have recently drawn everyone's attention due to their cognitive ability and capability to bridge gaps. In this paper, we explore how LLMs can enhance Low-Code and No-Code platforms by facilitating the integration of digital devices and improving the management of their usage and services."
+ },
+ {
+  "paper_id": 9922,
+  "title": "Generative AI for interdisciplinary collaborative design: an agent-based workflow orchestration framework guided by R\u00b3 invariants",
+  "year": 2026,
+  "venue": "Journal of Engineering Design",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9923,
+  "title": "AgentHub: A Multi-Source AI Agent Framework for Enterprise Workflow Orchestration",
+  "year": 2025,
+  "venue": "International Journal of Innovative Science and Research Technology",
+  "source": "crossref",
+  "abstract": "Enterprise software development relies on diverse tools and knowledge sources, such as issue trackers (e.g., Jira), version control systems (e.g., GitHub, Bitbucket), and documentation platforms (e.g., Confluence). Developers often encounter context fragmentation, cognitive overload, and operational inefficiencies due to navigating these disparate systems. While retrieval-augmented generation (RAG) has advanced document-based question answering, most existing solutions fail to integrate live operational tools or orchestrate workflows across multiple sources. We introduce AgentHub, an open-source AI agent framework that seamlessly combines semantic knowledge retrieval with tool orchestration. This enables a unified conversational interface for querying, correlating, and acting upon enterprise data. AgentHub continuously synchronizes knowledge sources into a vector database, integrates live APIs from tools like Jira, GitHub, and Confluence, and supports secure action execution (e.g., merging approved pull requests). The framework's document ingestion process is versatile, supporting a wide range of sources including Confluence, web URLs, S3, Google Drive, Azure Blob Storage, and local file systems, with provisions for end-to-end encryption and exclusion of sensitive files. In this paper, we detail the system architecture, implementation, and insights from early deployments, highlighting AgentHub\u2019s ability to minimize context switching, enhance workflow efficiency, preserve institutional knowledge, and facilitate AI-driven enterprise operations."
+ },
+ {
+  "paper_id": 9925,
+  "title": "HCEA: A Multi-Agent Framework for Sustainable Human-Centered Entrepreneurship Based on a Large Language Model",
+  "year": 2026,
+  "venue": "Sustainability",
+  "source": "crossref",
+  "abstract": "Human-centered entrepreneurship considers employee well-being and uses the Sustainable Development Goals as its fundamental pillars. However, existing research predominantly focuses on institutional interventions and fails to provide integrated intelligent solutions for tackling human\u2013machine collaboration issues in the context of digital transformation. Large language models (LLMs) offer potential for affective computing and personalized support, but face critical gaps in ethical governance, privacy protection, and real-time risk intervention in sensitive entrepreneurial contexts. Our proposed Human-Centered Entrepreneurial Intelligent Agent (HCEA) framework achieves the unified optimization of task utility, empathetic expression, and ethical security by integrating a large language model core fine-tuned via a multi-objective hybrid loss function and a cluster of task-specialized intelligent agents. HCEA integrates retrieval-enhanced generation to ensure suggestion accuracy, a hierarchical data governance system for sensitivity-based privacy protection, and an independent risk detection module for real-time intervention and referral. We build the framework by constructing a hybrid entrepreneurial dataset, design the multi-agent architecture of decision support, emotion understanding and ethical risk tracking, and empirically evaluate both comparisons and ablation experiments. The results demonstrate that HCEA outperforms five baseline models across six key metrics, including entrepreneurship guidance relevance, emotion recognition, and high-risk recall. This study contributes to the intersection of digital transformation and sustainable entrepreneurship by providing a technically feasible, ethically grounded intelligent framework that empowers enterprises to reconcile efficiency with human-centric values, advancing SDG 8 (decent work and economic growth) and SDG 9 (industry, innovation, and infrastructure)."
+ },
+ {
+  "paper_id": 9928,
+  "title": "A Large Language Model-Based Agent Framework for Simulating Building Users\u2019 Air-Conditioning Setpoint Adjustment Behavior Under Demand Response",
+  "year": 2026,
+  "venue": "Buildings",
+  "source": "crossref",
+  "abstract": "Agent-based modeling (ABM) is a powerful tool for simulating building users\u2019 dynamic behavior in demand response (DR) programs. However, ABM faces several challenges, particularly in encoding building users\u2019 natural language features and common sense into rules or mathematical equations. To overcome these limitations, this paper proposes an agent framework based on large language models (LLMs) to simulate building users\u2019 air-conditioning setpoint adjustment behavior under DR. This framework leverages LLMs\u2019 natural language processing capabilities to replicate building users\u2019 reasoning and decision-making processes. It consists of five modules: persona, perception, decision, reflection, and memory. Agents are assigned diverse personas through natural language descriptions based on empirical survey data. LLMs drive agents to reason and make decisions based on incentive prices and historical experiences. The results show that the LLM-based agent has common sense derived from natural language-defined personas and exhibits human-like irrational characteristics. This demonstrates the feasibility of replacing rules with natural language in ABM. The LLM-based agent can more effectively model hard-to-parameterize human features and provide decision explanations through LLM outputs. The results show that the inclusion of reflection and memory modules enables the agent to learn from previous decisions and reduce unreasonable choices."
+ },
+ {
+  "paper_id": 9931,
+  "title": "Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9932,
+  "title": "A Model-Controller-Presenter Tri-Layer Control-Theoretic Orchestration Framework for Synergistic Efficiency and Interpretability in Multimodal Large Language Models",
+  "year": 2025,
+  "venue": "International Journal of Complexity in Applied Science and Technology",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9943,
+  "title": "An Autonomous Network Orchestration Framework Integrating Large Language Models with Continual Reinforcement Learning",
+  "year": 2025,
+  "venue": "IEEE Communications Magazine",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9945,
+  "title": "CPU-Only Self Enhancing Authoring Copilot Design-Based Markov Decision Processes Orchestration and Qwen 3 Local Large Language Model",
+  "year": 2025,
+  "venue": "Technologies",
+  "source": "crossref",
+  "abstract": "We introduce a novel, privacy-preserving AI authoring copilot designed for educational content creation, which uniquely combines a Markov Decision Process (MDP) as a reinforcement learning orchestrator with a locally deployed Qwen3-1.7B-ONNX large language model to iteratively refine text for clarity, unity, and engagement\u2014all running on a modest CPU-only system (Intel i7, 16 GB RAM). Unlike cloud-dependent models, our agent treats writing as a sequential decision problem, selecting refinement actions (e.g., simplification, elaboration) based on real-time LLM and sentiment feedback, ensuring pedagogically sound outputs without internet dependency. Evaluated across five diverse topics, our MDP-orchestrated agent achieved an overall average quality score of 4.23 (on a 0\u20135 scale), statistically equivalent to leading cloud-based LLMs like ChatGPT and DeepSeek. This performance was validated through blind evaluations by four independent LLMs and human raters, supported by statistical consistency analysis. Our work demonstrates that lightweight local LLMs, when guided by principled MDP policies, can deliver high-quality, context-aware educational content, bridging the gap between powerful AI generation and ethical, on-device deployment. This advancement empowers educators, researchers, and curriculum designers with a trustworthy, accessible tool for intelligent content augmentation aligning with the Quality Education Sustainable Development Goal through innovations in educational technology, inclusive education, equity in education, and lifelong learning."
+ },
+ {
+  "paper_id": 9948,
+  "title": "Toward Efficient and Generalizable Text Dataset Distillation via a Dual-Agent Large Language Model Framework",
+  "year": 2026,
+  "venue": "International Journal of Neural Systems",
+  "source": "crossref",
+  "abstract": "Large-scale datasets impose substantial training costs on machine learning models. Dataset distillation addresses this issue by synthesizing compact datasets that can achieve performance comparable to that of the original data. However, text dataset distillation remains challenging: the discrete nature of text renders traditional gradient-matching methods ineffective, while embedding optimization approaches are often inefficient and exhibit limited generalization. To address these challenges, this paper proposes an LLM-native distillation framework based on dual-agent collaboration. Our framework decomposes the distillation process into two stages: selection and improvement. The Selector identifies high-quality samples through multi-dimensional scoring, while the Improver enhances data density and clarity under semantic consistency constraints and a candidate generation mechanism. The entire pipeline is automated through a self-iterative cycle of generation and selection, and leverages scoring signals to drive agent self-reward iteration, thereby avoiding differentiable optimization and trajectory matching. Experiments show that starting from a random subsampling, using only 2.5% of original data and only three iterations, the distilled dataset enables Llama-2-7B, Mistral-7B, and Qwen2.5-7B to match full-dataset performance on MMLU and Winogrande. It also improves training stability, convergence efficiency, and cross-model generalization, especially among architecturally similar models, while maintaining a competitive distillation cost of 143 GPU h. Overall, this study provides a practical solution for efficient, automated, and general-purpose text dataset distillation."
+ },
+ {
+  "paper_id": 9949,
+  "title": "Intelligent Disassembly System for PCB Components Integrating Multimodal Large Language Model and Multi-Agent Framework",
+  "year": 2026,
+  "venue": "Processes",
+  "source": "crossref",
+  "abstract": "The escalating volume of waste electrical and electronic equipment (WEEE) poses a significant global environmental challenge. The disassembly of printed circuit boards (PCBs), a critical step for resource recovery, remains inefficient due to limitations in the adaptability and dexterity of existing automated systems. This paper proposes an intelligent disassembly system for PCB components that integrates a multimodal large language model (MLLM) with a multi-agent framework. The MLLM serves as the system\u2019s cognitive core, enabling high-level visual-language understanding and task planning by converting images into semantic descriptions and generating disassembly strategies. A state-of-the-art object detection algorithm (YOLOv13) is incorporated to provide fine-grained component localization. This high-level intelligence is seamlessly connected to low-level execution through a multi-agent framework that orchestrates collaborative dual robotic arms. One arm controls a heater for precise solder melting, while the other performs fine \u201cprobing-grasping\u201d actions guided by real-time force feedback. Experiments were conducted on 30 decommissioned smart electricity meter PCBs, evaluating the system on recognition rate, capture rate, melting rate, and time consumption for seven component types. Results demonstrate that the system achieved a 100% melting rate across all components and high recognition rates (90\u2013100%), validating its strengths in perception and thermal control. However, the capture rate varied significantly, highlighting the grasping of small, low-profile components as the primary bottleneck. This research presents a significant step towards autonomous, non-destructive e-waste recycling by effectively combining high-level cognitive intelligence with low-level robotic control, while also clearly identifying key areas for future improvement."
+ },
+ {
+  "paper_id": 9964,
+  "title": "Artificial intelligence orchestration for text-based ultrasonic simulation via self-review by multi-large language model agents",
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "source": "crossref",
+  "abstract": "Abstract Widely used ultrasonic simulation systems often rely on complex graphical user interfaces (GUIs) or scripting, resulting in substantial time investments and reduced accessibility for new users. In this study, we propose a novel text-based simulation control architecture, which leverages a large language model (LLM) and the ground artificial intelligence (AI) approach to streamline the control of ultrasonic simulation systems. By modularizing the functionalities of the SimNDT program into discrete functions and enabling natural language-based command interpretation, the proposed method reduces the average simulation configuration time by approximately 75%. To further mitigate task failures in scenario generation using the LLM, we introduce the ground AI approach, which employs self-review mechanisms and multi-agent collaboration to improve task completion rates. In particular, when vectorized output lengths deviate from the standard, we regenerate outputs using multiple LLM agents, reducing the scenario generation error rate from 23.89 to 1.48% and enhancing reliability significantly. These advancements underscore the potential of AI-driven methods in reducing operational costs and enhancing reliability in simulation frameworks. By integrating text-based control and Ground AI mechanisms, the proposed approach provides an efficient and scalable alternative to traditional GUI-based control methods, particularly in time-sensitive applications such as digital twin systems."
+ },
+ {
+  "paper_id": 9965,
+  "title": "Agentic AI Framework for Autonomous Multi-Step Workflow Orchestration in Enterprise Cloud-Edge Infrastructure",
+  "year": 2026,
+  "venue": "2026 2nd International Conference on Intelligent Systems and Computational Networks (ICISCN)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9966,
+  "title": "Agentic AI Framework for Adaptive Clinical Workflow Orchestration",
+  "year": 2025,
+  "venue": "2025 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9969,
+  "title": "AGENTIC AI FOR ENTERPRISE WORKFLOW AUTOMATION: IMPACT AND ARCHITECTURAL PRINCIPLES FOR MULTI-AGENT ORCHESTRATION",
+  "year": 2026,
+  "venue": "International Journal of Research in Commerce and Management Studies",
+  "source": "crossref",
+  "abstract": "The article examines the transformation of end-to-end automation in large organizations driven by generative and agentic AI. The aim of the work is to conceptualize the gap between formal regulations and actual process execution and, on this basis, to propose architectural principles for multi-agent orchestration. The relevance of the topic is determined by the limitations of classical robotic automation and workflow management systems when confronted with rich context, high variability, and stringent requirements for decision traceability. The novelty of the article lies in synthesizing research on intelligent automation, BPM, and human-in-the-loop approaches into a foundational multilayer architecture, in which agents function as specialized executors with explicit I/O contracts, decoupled from the orchestrator; policies and knowledge formalize the boundaries of autonomy; and human participation is treated as a regularized risk-management procedure. It is shown that such an architecture shortens process cycle times, reduces errors at role interfaces, supports reuse of agent roles, and shifts process management toward a regime of observable execution. It also provides an industry-grounded illustration of these principles through an enterprise-scale clinical service launch in which a new treatment modality was evaluated, governed, and rolled out across distributed sites under strict evidence discipline, risk controls, and measurable financial outcomes. This case exemplifies how multi-agent orchestration, contractual handoffs, and formalized escalation can translate into accelerated adoption, reduced execution friction at interfaces, and auditable value creation. The article is intended for AI system architects, process owners, and digital transformation leaders."
+ },
+ {
+  "paper_id": 9975,
+  "title": "Large Language Model-Enhanced Intent-Driven Management and Orchestration for 6G Networks",
+  "year": 2025,
+  "venue": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9979,
+  "title": "Elicitron: A Large Language Model Agent-Based Simulation Framework for Design Requirements Elicitation",
+  "year": 2025,
+  "venue": "Journal of Computing and Information Science in Engineering",
+  "source": "crossref",
+  "abstract": "Abstract Requirement elicitation, a critical, yet time-consuming and challenging step in product development, often fails to capture the full spectrum of user needs. This may lead to products that fall short of user expectations. This article introduces a novel framework that leverages large language models (LLMs) to automate and enhance the requirement elicitation process. LLMs are used to generate a vast array of simulated users (LLM agents), enabling the exploration of a much broader range of user needs and unforeseen use cases. These agents engage in product experience scenarios, explaining their actions, observations, and challenges. Subsequent agent interviews and analysis uncover valuable user needs, including latent ones. We validate our framework with three experiments. First, we explore different methodologies for the challenge of diverse agent generation, discussing their advantages and shortcomings. We measure the diversity of identified user needs and demonstrate that context-aware agent generation leads to greater diversity. Second, we show how our framework effectively mimics empathic lead user interviews, identifying a greater number of latent needs than conventional human interviews. Third, we show that LLMs can be used to analyze interviews, capture needs, and classify them as latent or not. Our work highlights the potential of using LLMs to accelerate early-stage product development with minimal costs and increase innovation."
+ },
+ {
+  "paper_id": 9981,
+  "title": "Dynamic Multi-Agent Orchestration and Retrieval for Multi-Source Question-Answer Systems using Large Language Models",
+  "year": 2024,
+  "venue": "International Journal on Cybernetics &amp; Informatics",
+  "source": "crossref",
+  "abstract": "We propose a methodology that combines several advanced techniques in Large Language Model (LLM) retrieval to support the development of robust, multi-source questionanswer systems. This methodology is designed to integrate information from diverse data sources, including unstructured documents (PDFs) and structured databases, through a coordinated multi-agent orchestration and dynamic retrieval approach. Our methodology leverages specialized agents\u2014such as SQL agents, Retrieval-Augmented Generation (RAG) agents, and router agents\u2014that dynamically select the most appropriate retrieval strategy based on the nature of each query. To further improve accuracy and contextual relevance, we employ dynamic prompt engineering, which adapts in real time to query-specific contexts. The methodology\u2019s effectiveness is demonstrated within the domain of Contract Management, where complex queries often require seamless interaction between unstructured and structured data. Our results indicate that this approach enhances response accuracy and relevance, offering a versatile and scalable framework for developing question-answer systems that can operate across various domains and data sources."
+ },
+ {
+  "paper_id": 9989,
+  "title": "Srota AI: A Voice-Controlled Intelligent Web Automation Platform Using Large Language Models and Multi-Agent Orchestration",
+  "year": 2026,
+  "venue": "International Journal of Economic Social Science and Management LAW",
+  "source": "crossref",
+  "abstract": "The rapid proliferation of complex, multi-step webbased applications across government, healthcare, education, and enterprise domains has introduced significant usability barriers for diverse user populations. Traditional web automation tools rely on brittle, static rule-based scripting that is inaccessible to non-technical users and fails to adapt to dynamic web interfaces. This paper presents Srota AI, a voice-controlled intelligent web automation platform that leverages large language models (LLMs), multi-agent orchestration via LangGraph, and real-time voice transcription through the Deepgram API to enable users to complete complex digital workflows using natural language or spoken commands. The system architecture integrates a Planner Agent for goal decomposition, a Navigator Agent for semantic DOM interaction, a Voice Assistant Module for hands-free operation, and a Semantic DOM Processing Module for contextaware UI navigation. The backend, developed in Python with FastAPI, supports asynchronous concurrent session management and integrates with Google Gemini for AI reasoning. A plug-andplay React SDK enables seamless embedding into third-party web applications. Evaluation results demonstrate significant reductions in task completion time and error rates across real-world automation scenarios, including government form submission, healthcare appointment scheduling, and enterprise onboarding. The system establishes a replicable, extensible framework for applying agentic AI and voice recognition to accessible, intelligent web automation."
+ },
+ {
+  "paper_id": 10003,
+  "title": "Explainable Multi-Agent LLM Framework for Phishing Email Detection via Role-Specialized Evidence Decomposition",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Phishing email remains a persistent and operationally critical cybersecurity threat, yet existing detection approaches, including traditional machine learning and single-pass large language model systems, either lack native interpretability or provide explanations that are difficult to standardize and audit. This paper introduces an explainable multi-agent LLM framework that decomposes phishing evidence across three role-specialized agents focused on linguistic patterns, psychological manipulation, and sender identity consistency. The framework then aggregates specialist outputs through schema-governed synthesis, enabling each intermediate and final decision to be structured, comparable, and auditable. The central contribution is the treatment of role-specialized evidence decomposition and explanation structure as first-class design constraints rather than post hoc additions. The framework is evaluated on a fixed 1000-email subset drawn from a unified TREC/Nazario corpus of 56,212 emails under controlled zero-shot conditions. The full multi-agent Meta-Judge system achieves Macro-F1 = 98.28% and phishing recall = 99.45%, improving Macro-F1 by 6.3 percentage points over a zero-shot single-model GPT-4o-mini baseline. Paired statistical testing confirms that this improvement is significant and is driven primarily by reduced false positives on legitimate emails while preserving high phishing recall. Additional evaluation on an independent LLM-attributed email benchmark shows a consistent Macro-F1 improvement of 0.0773 over the zero-shot baseline under distribution shift. Ablation results show that role-specialized decomposition is the primary performance driver, while deterministic voting provides a competitive raw-classification aggregator and Meta-Judge synthesis provides structured, analyst-facing explanations. These results indicate that role-specialized evidence decomposition combined with schema-governed explanation can improve both detection reliability and auditability in phishing classification workflows."
+ },
+ {
+  "paper_id": 10012,
+  "title": "Training Task Reasoning LLM Agents for Multi-Turn Task Planning via Single-Turn Reinforcement Learning",
+  "year": 2025,
+  "venue": "IEEE Control Systems Letters",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10020,
+  "title": "LLM-Based Multi-Agent Support for Strategic Business Planning",
+  "year": 2026,
+  "venue": "Journal of Eastern Europe Research in Business and Economics",
+  "source": "crossref",
+  "abstract": "Strategic business planning has to be initiated to form flourishing businesses out of new ideas. Traditional strategic planning methods are, however, lengthy, disconnected, and subject to human mistakes and hence unsuitable for the dynamically changing environment of markets. This paper suggests a modular AI-powered system on a coordinated multi-agent system to enable strategic decision-making processes to become effective. Our method incorporates veteran autonomous agents, which are committed to activities such as market analysis, financial projections, risk analysis, and plan formulation. The agents use advanced computational methods such as Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) in order to facilitate combined, accurate, and responsive planning. The agents operate autonomously but share contextual information and output via an intelligent orchestration layer to provide coherent and consistent outcomes. The effectiveness of the suggested framework is illustrated by means of a detailed case study on a smart home energy management product. Findings indicate a significant improvement in efficiency, analysis depth, and consistency compared to conventional planning techniques. Most importantly, the system allows human intervention at strategic locations, supporting a productive human-AI collaboration model. The paper highlights the potential vulnerability of AI strategic planning, i.e., biased outcomes and dependence on data quality, and stresses ethical imperatives for leveraging advanced AI tools. The value added of the paper is to illustrate the applied potential and methodological innovation of multi-agent AI coordination for strategic business planning."
+ },
+ {
+  "paper_id": 10024,
+  "title": "Multi-Agent LLM System for Complex Task Solving",
+  "year": 2026,
+  "venue": "INTERNATIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND MANAGEMENT",
+  "source": "crossref",
+  "abstract": "struggles with multi-step problems that call for coordinated planning, execution, and verification. This paper introduces a Multi-Agent LLM System in which specialised agents collaborate to address these short- comings. A Planner Agent decomposes complex queries into subtasks; Executor Agents process each subtask independently; an Evaluator Agent checks output quality and requests rework when needed; and a Coordinator assembles the final response. Built with Python, LangChain, and the OpenAI API, the system achieves measurably higher task accuracy, reduced hallucina- tion, and improved reasoning quality compared to single-model baselines."
+ },
+ {
+  "paper_id": 10026,
+  "title": "A Social Multi-Agent Cooperation System Based on Planning and Distributed Task Allocation",
+  "year": 2020,
+  "venue": "Information",
+  "source": "crossref",
+  "abstract": "Planning and distributed task allocation are considered challenging problems. To address them, autonomous agents called planning agents situated in a multi-agent system should cooperate to achieve planning and complete distributed tasks. We propose a solution for distributed task allocation where agents dynamically allocate the tasks while they are building the plans. We model and verify some properties using computation tree logic (CTL) with the model checker its-ctl. Lastly, simulations are performed to verify the effectiveness of our proposed solution. The result proves that it is very efficient as it requires little message exchange and computational time. A benchmark production system is used as a running example to explain our contribution."
+ },
+ {
+  "paper_id": 10028,
+  "title": "Graph-Based Task Allocation for Multi-Agent Fleet Management: A Genetic Algorithm Approach with LLM Integration",
+  "year": 2026,
+  "venue": "Applied Sciences",
+  "source": "crossref",
+  "abstract": "Efficient task allocation and coordination are critical for heterogeneous multi-agent systems operating in dynamic field environments. This paper presents a closed-loop framework that integrates Large Language Models (LLMs) with graph-based optimisation to enable end-to-end task decomposition, allocation, and adaptive execution. High-level task scripts are initially parsed by an LLM into structured execution flows, which are transformed into Directed Acyclic Graphs (DAGs) capturing action-level dependencies. A Genetic Algorithm (GA) then optimises agent-to-task assignments by minimising makespan under capability and battery constraints. To ensure robustness, the framework incorporates an LLM-driven recovery module that enables localised replanning under execution failures without interrupting unaffected agents. System-level experiments in a high-fidelity agroforestry simulation demonstrate a 37% increase (p&lt;0.001) in harvesting productivity and a 19% reduction in human idle time compared to manual baselines. Under mid-execution failures, the system maintains significantly higher performance, with replanning latencies averaging 24 s. The framework scales to large fleets (up to 1000 agents) and effectively enhances human\u2013robot collaboration through structured, dependency-aware coordination."
+ },
+ {
+  "paper_id": 10029,
+  "title": "STAR: Steelmaking Task-Aware Routing for Multi-Agent LLM Expert Systems",
+  "year": 2026,
+  "venue": "Electronics",
+  "source": "crossref",
+  "abstract": "Steelmaking involves long, tightly coupled process chains and specialized domain knowledge, making it difficult in practice for a single general-purpose LLM to consistently align engineers\u2019 queries with the correct process stage. This paper presents STAR, an industry-oriented multi-stage process-domain router for steel metallurgy, and provides an integration blueprint that maps routing labels to domain-specific prompting and retrieval scopes in a router-plus-agents architecture. We construct a quality-controlled metallurgical corpus from textbooks, manuals, and papers via OCR and multi-dimensional text-quality scoring. Based on this corpus, we build an LLM-assisted pipeline to synthesize query\u2013domain pairs for eight fine-grained process domains under domain definitions/keywords and format constraints, and index all queries in a shared embedding space with FAISS. We design a three-stage router: (1) a lightweight filter using chit-chat rules and a nearest-neighbor distance threshold to separate steel-related queries from general ones, (2) a kNN label-voting router whose confidence is derived from the Top-k neighbor label concentration, and (3) an LLM-based refinement step for low-confidence cases with safe fallback. Experiments on 3136 steel-domain queries and approximately 2000 general queries show that STAR achieves 0.921 Top-1 accuracy and 0.899 macro-F1 on 8-way fine-grained steel-domain routing, and achieves a steel-query recall of 0.999 for steel-versus-general filtering (queries routed to general_llm in deployment). In this work, we primarily evaluate routing quality and efficiency; end-to-end answer quality evaluation of downstream agents is left for future work."
+ },
+ {
+  "paper_id": 10035,
+  "title": "Multilabel Classification of Persuasion Techniques with self-improving LLM agent: SlavicNLP 2025 Shared Task",
+  "year": 2025,
+  "venue": "Proceedings of the 10th Workshop on Slavic Natural Language Processing (Slavic NLP 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10041,
+  "title": "Modeling Self-Awareness in Embodied Task Planning with LLM-Driven Heuristics",
+  "year": 2026,
+  "venue": "Big Data and Cognitive Computing",
+  "source": "crossref",
+  "abstract": "Task planning for robots in real-life settings is inherently complex due to challenges such as identifying grounded sequences of actions to achieve a goal, bridging the gap between high-level planning and low-level execution, and addressing the computational constraints of robotic hardware. Additionally, an essential, but frequently underestimated, aspect is the robot\u2019s ability to recognize its own limitations and effectively delegate tasks beyond its abilities to human collaborators. Recent advancements in integrating Large Language Models (LLMs) into robotics have increased the likelihood of generating unfeasible plans, making this capability even more critical for any robot that needs to interact with a real environment. To address these challenges, this paper presents a framework that integrates open-vocabulary online grounding, planning, and embodiment, emphasizing self-awareness and self-analysis. The proposed self-awareness model enables robots to assess task complexity and map task requirements to their own capabilities. This can be used in several ways, including strategically requesting human assistance when needed. By leveraging pre-trained foundation models, our framework supports a multi-role mechanism that enhances adaptability and ensures effective collaboration between robots and humans in real-world scenarios. The experiments were conducted using a TIAGo robot with the framework\u2019s ability to identify and delegate challenging tasks on a set of nine real-life scenarios, spanning different complexity levels. The results show a significant improvement in task success rate, achieving 89.1% compared to 37.0% of the baseline, demonstrating the effectiveness of incorporating self-awareness into the planning process. The code and the additional materials have been publicly released on the project website."
+ }
+]

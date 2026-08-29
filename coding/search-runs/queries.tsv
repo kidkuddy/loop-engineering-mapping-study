@@ -1,0 +1,23 @@
+Q01	"agentic loop" large language model agent
+Q02	"control loop" autonomous LLM agent architecture
+Q03	ReAct "reasoning and acting" language model agent
+Q04	"iterative refinement" large language model self-feedback
+Q05	"self-correction" large language model reasoning
+Q06	"self-verification" language model agent output
+Q07	"LLM-as-a-judge" evaluation language model
+Q08	"critic model" language model agent feedback
+Q09	"stopping criterion" iterative language model reasoning
+Q10	"test-time compute" adaptive budget reasoning language model
+Q11	"long-horizon" autonomous LLM agent task execution
+Q12	"agent memory" language model persistence episodes
+Q13	"context management" agent trajectory language model
+Q14	"multi-agent" LLM orchestration topology collaboration
+Q15	"agent framework" workflow orchestration large language model
+Q16	"task decomposition" planning replanning LLM agent
+Q17	"error recovery" retry failure autonomous LLM agent
+Q18	"failure modes" reliability LLM multi-agent systems
+Q19	"tool use" iterative language model agent environment feedback
+Q20	"self-improvement" reflection language model agent loop
+Q21	"tree search" language model reasoning agent
+Q22	"human-in-the-loop" LLM agent oversight autonomy
+Q23	"loop engineering"

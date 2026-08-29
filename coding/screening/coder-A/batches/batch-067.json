@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 8951,
+  "title": "Tools in the Loop: Quantifying Uncertainty of LLM Question Answering Systems That Use Tools",
+  "year": 2025,
+  "venue": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "source": "crossref",
+  "abstract": "Modern Large Language Models (LLMs) increasingly rely on external tools-such as classifiers and knowledge retrieval systems-to deliver accurate answers when their pre-trained knowledge falls short. While this integration broadens their utility, it also raises a critical issue: ensuring the trustworthiness of the combined outputs. In high-stakes settings like medical decision-making, it is vital to evaluate uncertainty in both the LLM's response and the external tool's output. In this work we introduce a novel framework that jointly assesses the combined uncertainty of the LLM and its external tools and derive practical and effective approximations to estimate uncertainty. Our approach is validated on two synthetic QA datasets and an experiment with retrieval-augmented generation (RAG) systems, demonstrating enhanced reliability when external information is required for the LLM to produce answers."
+ },
+ {
+  "paper_id": 8955,
+  "title": "Enhancing Neural Architecture Search with LLM-Based Autonomous Agents for Efficient Network Optimisation",
+  "year": 2025,
+  "venue": "2025 5th International Conference on Artificial Intelligence, Automation and High Performance Computing (AIAHPC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8956,
+  "title": "LLM and Deep Learning in the Loop of Disturbed Traffic Control",
+  "year": 2026,
+  "venue": "Algorithms",
+  "source": "crossref",
+  "abstract": "Traffic signal control increasingly faces disturbed operating conditions such as incidents, abrupt demand surges, sensing degradation, and abnormal driving patterns. Under these nonstationary regimes, classical fixed-time and actuated strategies may exhibit slow recovery, while purely data-driven controllers can be brittle when disturbance characteristics shift. This paper proposes an LLM-in-the-loop architecture for disturbed traffic signal control that integrates (i) deep learning for disturbance detection and short-horizon traffic forecasting, (ii) a disturbance-aware candidate generation and scoring layer (template/retrieval-based), and (iii) a constrained large language model (LLM) that selects or minimally repairs signal plans only within constraint-screened action templates. A deterministic validator enforces safety and operational constraints, including minimum/maximum greens, cycle feasibility, and clearance rules, by checking action feasibility before execution. The method is formulated as constrained decision making under uncertainty, where disturbance estimates and predictive confidence shape both retrieval/scoring and LLM supervision. The originally reported SUMO evaluation considered multiple disturbance categories, including capacity drops, demand shocks, and sensing dropouts as well as reported network delay, queue spillback, recovery time, and switching stability. Within the originally reported SUMO scenarios, descriptive results suggest that among the selected baselines, the proposed DL + LLM framework reported lower mean values of delay, spillback frequency, and recovery time than the fixed-time, actuated, and retrieval-only baselines. The reported validator-detected action-feasibility violations were zero; this result concerns timing-action feasibility rather than an absence of traffic-state risks such as spillback."
+ },
+ {
+  "paper_id": 8963,
+  "title": "Closing the Loop: An Integrated Vision-Calibration-Actuation System with LLM-Assisted Diagnostic Interface for Autonomous Topical Therapy of Urticaria",
+  "year": 2026,
+  "venue": "Theoretical and Natural Science",
+  "source": "crossref",
+  "abstract": "Urticaria is common, recurrent, and often managed outside the clinic, where patients must repeatedly localize lesions and apply topical agents themselves. Current AI dermatology systems mainly stop at diagnosis, while dermatologic robots remain procedure-specific and rarely combine reasoning with physical delivery. This paper reports a feasibility study of an integrated topical-therapy pipeline for urticaria. The system combines (i) ResNet-50 U-Net segmentation trained on 98 manually annotated lesion photographs, (ii) 9-point affine hand-eye calibration followed by deterministic boustrophedon coverage planning for a 6-DOF arm, and (iii) a LoRA-adapted Llama-3.2-3B diagnostic interface trained on a 2,752-pair urticaria instruction corpus with per-patient memory for multi-turn allergen-elimination dialogue. The LLM runs in parallel with the actuation chain and does not control the robot's geometric plan. On a benchtop phantom setup, the released artifact achieves held-out Dice 0.810 \u00b1 0.083 on the validation split, sub-millimeter calibration residuals in a representative session, and complete planned coverage of segmented lesion regions. The contribution is not a new segmentation, calibration, planning, or LLM algorithm in isolation, but a reproducible integration of these modules toward autonomous robotic dermatologic care."
+ },
+ {
+  "paper_id": 8965,
+  "title": "Autonomous Operation Trajectory Planning for Maglev Train: A Case Based on LLM-Agent",
+  "year": 2025,
+  "venue": "2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8968,
+  "title": "Dynamic Docker Resource Scaling Architecture: LLM-Driven Urgency Analysis for Multi-Agent Financial Systems",
+  "year": 2025,
+  "venue": "International Journal of Computational and Experimental Science and Engineering",
+  "source": "crossref",
+  "abstract": "This article presents a groundbreaking framework for Dynamic Docker Resource Scaling Based on LLM-Inferred Urgency, specifically designed to address the critical challenges of resource management in financial multi-agent systems. The integration of large language model-driven multi-agent systems has revolutionized financial services, enabling sophisticated workflows for customer support, fraud detection, and regulatory compliance, yet traditional container orchestration frameworks fail to meet the dynamic demands of these applications. The proposed framework leverages the semantic understanding capabilities of LLMs to analyze incoming financial queries and infer their urgency, enabling proactive resource allocation that aligns computational resources with business priorities. Built on the LangGraph platform, the system comprises three core components: an LLM-based Urgency Analyzer that classifies queries based on semantic cues and contextual indicators, a Dynamic Resource Manager that interfaces with Docker Engine to adjust container resources in real-time, and a persistence layer that maintains state across distributed workflows. The framework implements a hierarchical priority model with multiple urgency levels, enabling granular control over resource allocation while maintaining sub-second response times. Through comprehensive evaluation across real-world financial applications, including fraud detection, customer support prioritization, and regulatory compliance reporting, the framework demonstrates significant improvements in latency reduction, resource utilization efficiency, and cost optimization compared to traditional metric-based scaling approaches. The research establishes a new paradigm for AI infrastructure in financial services, where semantic-aware scaling enables intent-driven resource management that fundamentally transforms how institutions deliver customer experiences in an increasingly AI-powered landscape."
+ },
+ {
+  "paper_id": 8971,
+  "title": "Multi-Agent LLM Pipeline for Code Writing: An Experimental Study of Writer-Reviewer Architecture",
+  "year": 2026,
+  "venue": "ADBA Computer Science",
+  "source": "crossref",
+  "abstract": "In this paper, we develop a multi-agent pipeline-based approach for solving competitive programming problems via Large Language Models (LLMs). Specifically, we analyze the Writer-Reviewer pipeline where the Writer Agent produces Python solutions and the Reviewer Agent gives static natural language feedback. Experiments on a 96-problem AtCoder subset of LiveCodeBench involve comparing twelve pipeline setups which employ three different models (GPT-OSS-20B, Qwen3-Coder-30B-A3B-Instruct, and Qwen2.5-Coder-7B-Instruct) in various agent roles. Within this experimental setup, the review process increases the performance of GPT-OSS-20B from 87.5% to 91.7% Pass@1, with the bootstrap 95% confidence intervals overlapping, while the performance of Qwen3-Coder-30B-A3B-Instruct does not improve and the performance of Qwen2.5-Coder-7B-Instruct improves marginally from 0% to 1.0%. This may indicate that the static iterative feedback mechanism helps to further improve the performance of a strong Writer but not the performance of a weak Writer. A diagnostic audit suggests that the very low Qwen2.5-Coder-7B-Instruct scores mainly reflect structured-output compliance failures in our setup rather than standalone coding capability. Moreover, performance varies more when changing the Writer Agent than when changing the Reviewer Agent, with differences of up to 88.6 percentage points across Writers and up to 17.7 percentage points across Reviewers."
+ },
+ {
+  "paper_id": 8972,
+  "title": "An LLM-Based Autonomous Agent for Network Diagnosis and Recovery on a Digital Twin",
+  "year": 2026,
+  "venue": "2026 35th International Conference on Computer Communications and Networks (ICCCN)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8973,
+  "title": "Multi-agent systems for improved information retrieval - leveraging autonomous agents and LLM models",
+  "year": 2025,
+  "venue": "2025 40th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8975,
+  "title": "Context Adaptive Memory-Efficient LLM Inference for Edge Multi-Agent Systems",
+  "year": 2025,
+  "venue": "International Joint Conference on Autonomous Agents and Multiagent Systems",
+  "source": "crossref",
+  "abstract": "Large Language Models (LLMs) excel at multi-document QA, summarization, code generation, and other language-intensive tasks, yet they demand substantial memory resources for storing key-value (KV) caches and processing attention in long-context scenarios. These requirements often prohibit on-device or edge deployments in multi-agent systems (MAS), where multiple agents share or update contextual information and need efficient inference pipelines. We present CASK (Context-Adaptive Sparse Key-value), an inference-time strategy that reduces memory usage while preserving strong performance on extended contexts. CASK addresses this challenge with two complementary mechanisms: a dynamic sparse attention module-a lightweight, meta-learned component-that identifies the most relevant context tokens, and an adaptive KV-cache compression technique that dynamically quantizes and prunes less critical key-value pairs based on usage frequency and recency. These innovations enable near-lossless performance on long-context tasks while cutting memory usage by up to 40% and boosting inference speed by as much as 20%. Evaluations on LongBench [2] and multi-agent benchmarks show that CASK maintains over 95% of baseline accuracy while allowing more agents or extended histories under tight GPU budgets. Integration into a vision-language agent for collaborative, multimodal contexts underscores its practicality for resource-constrained LLM deployments in MAS."
+ },
+ {
+  "paper_id": 8978,
+  "title": "MarketingMind: A Multi-Agent LLM Architecture for Federated Natural Language Querying Across Enterprise Marketing Data Systems",
+  "year": 2025,
+  "venue": "International Journal of Engineering &amp; Extended Technologies Research",
+  "source": "crossref",
+  "abstract": "In enterprise marketing environments, there are diverse data ecosystems that encompass customer relationship management (CRM) applications, marketing automation tools, advertising networks, and enterprise data warehouses. One major remaining challenge is the capability to communicate with such systems using natural language interfaces, which is made difficult by the schema heterogeneities, data governance requirements across systems, and the tendency of large language models (LLMs) to hallucinate. MarketingMind is proposed as a multi-agent LLM architecture to handle federated natural language queries in these systems. The framework combines a ReAct-based orchestrator [14] with six dedicated agents responsible for schema discovery, natural language to SQL (NL-to-SQL) translation, hallucination mitigation, federated query routing, CRM analytics augmentation and response synthesis. Retrieval-augmented generation (RAG) [3] is used at various points in the pipeline to anchor the generation of queries to fact-checked schema information. A validation agent that uses self-reflection mechanisms [5] obtains a hallucination rate of 7.3%, whereas the hallucination rate is 38.4% in unconstrained LLM settings. The execution accuracy of the proposed architecture in the Spider benchmark is 91.3%, which is close to the human expert baseline of 94.5%. Federated queries are distributed across six enterprise data sources secured through OAuth 2.0 authentication [2] and column-level encryption, and cover 97.4% personally identifiable information (PII). The architecture is able to handle 138.2 queries per second (QPS) with 500 concurrent users, with a mean latency of 5.4 seconds. MarketingMind highlights that multi- agent orchestration paired with domain-specific RAG grounding and adaptive hallucination mitigation is a viable route towards enterprise-level natural language business intelligence for marketing analytics."
+ },
+ {
+  "paper_id": 8982,
+  "title": "A Multi-AI Agent System for Autonomous Optimization of Agentic AI Solutions via Iterative Refinement and LLM-Driven Feedback Loops",
+  "year": 2025,
+  "venue": "Proceedings of the 1st Workshop for Research on Agent Language Models (REALM 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8987,
+  "title": "DRC-Coder: Automated DRC Checker Code Generation Using LLM Autonomous Agent",
+  "year": 2025,
+  "venue": "Proceedings of the 2025 International Symposium on Physical Design",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 8990,
+  "title": "Toward Sensor-In-the-Loop LLM Agent: Benchmarks and Implications",
+  "year": 2025,
+  "venue": "Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9004,
+  "title": "Reasoning and Acting (ReAct) With Multimodal LLMs: A Framework for Intent Driven 6G Networks",
+  "year": 2026,
+  "venue": "IEEE Open Journal of the Communications Society",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9005,
+  "title": "A general AI agent framework for smart buildings based on large language models and ReAct strategy",
+  "year": 2025,
+  "venue": "Smart Construction",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9008,
+  "title": "A Multimodal Retrieval-Augmented Generation System with ReAct Agent Logic for Multi-Hop Reasoning",
+  "year": 2025,
+  "venue": "Information, Computing and Intelligent systems",
+  "source": "crossref",
+  "abstract": "The rapid advancement of generative artificial intelligence models significantly influences modern methods of information processing and user interactions with information systems. One of the promising areas in this domain is Retrieval-Augmented Generation (RAG), which combines generative models with information retrieval methods to enhance the accuracy and relevance of responses. However, most existing RAG systems primarily focus on textual data, which does not meet contemporary needs for multimodal information processing (text, images, tables). The research object of this work is a multimodal RAG system based on ReAct agent logic, capable of multi-hop reasoning. The main emphasis is placed on integrating textual, graphical, and tabular information to generate accurate, complete, and relevant responses. The system's implementation utilized the ChromaDB vector storage, the OpenAI embedding generation model (text-embedding-ada-002), and the GPT-4 language model. The purpose of the study is the development, deployment, and empirical evaluation of the proposed multimodal RAG system based on the ReAct agent approach, capable of effectively integrating diverse knowledge sources into a unified informational context. The experimental evaluation utilized the Global Tuberculosis Report 2024 by the World Health Organization, containing various textual, graphical, and tabular data. A specialized test set of 50 queries (30 textual, 10 tabular, 10 graphical) was created for empirical analysis, allowing comprehensive testing of all aspects of multimodal integration. The research employed methods such as semantic vector search, multi-hop agent-based planning with ReAct logic, and evaluations of answer accuracy, answer recall, and response latency. Additionally, an analysis of response speed dependence on query volume was conducted. The obtained results confirmed the high efficiency of the proposed approach. The system demonstrated an answer accuracy of 92%, answer recall of 89%, and ensured complete (100%) coverage of all data types. The average response time was approximately 5 seconds, meeting interactive system requirements. Optimal parameters were experimentally determined"
+ },
+ {
+  "paper_id": 9011,
+  "title": "Automating Head-and-Neck Cancer Intensity Modulated Radiation Therapy Treatment Planning with a ReAct Large Language Model Agent",
+  "year": 2025,
+  "venue": "International Journal of Radiation Oncology*Biology*Physics",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9012,
+  "title": "ReACT_OCRS: An AI-Driven Anonymous Online Reporting System Using Synergized Reasoning and Acting in Language Models",
+  "year": 2025,
+  "venue": "IEEE Access",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9015,
+  "title": "Schema-Guided Scene-Graph Reasoning Based on Multi-Agent Large Language Model System",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": "Scene graphs have emerged as a structured and serializable environment representation for grounded spatial reasoning with Large Language Models (LLMs). In this work, we propose SG2, an iterative Schema-Guided Scene-Graph reasoning framework based on multi-agent LLMs. The agents are grouped into two modules: a (1) Reasoner module for abstract task planning and graph information queries generation, and a (2) Retriever module for extracting corresponding graph information based on code-writing following the queries. Two modules collaborate iteratively, enabling sequential reasoning and adaptive attention to graph information. The scene graph schema, prompted to both modules, serves to not only streamline both reasoning and retrieval process, but also guide the cooperation between two modules. This eliminates the need to prompt LLMs with full graph data, reducing the chance of hallucination due to irrelevant information. Through experiments in multiple simulation environments, we show that our framework surpasses existing LLM-based approaches and baseline single-agent, tool-based Reason-while-Retrieve strategy in numerical Q&amp;A and planning tasks."
+ },
+ {
+  "paper_id": 9020,
+  "title": "FGRPO: Fine-grained reasoning preference optimization with iterative stabilization for mathematical reasoning in large language model",
+  "year": 2026,
+  "venue": "Information Sciences",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9050,
+  "title": "Multi-agent Self-Reflection Framework: Enhancing the Logical Reasoning Ability of Large Language Models through API Interaction",
+  "year": 2025,
+  "venue": "2025 IEEE 5th International Conference on Data Science and Computer Application (ICDSCA)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9051,
+  "title": "ChatCFD: A Large Language Model\u2010Driven Agent for End\u2010to\u2010End Computational Fluid Dynamics Automation with Structured Knowledge and Reasoning",
+  "year": 2026,
+  "venue": "Advanced Intelligent Discovery",
+  "source": "crossref",
+  "abstract": "Computational fluid dynamics (CFD) is essential for advancing scientific and engineering fields, but is hindered by operational complexity, high expertise requirements, and limited accessibility. This article introduces ChatCFD, a large language model (LLM)\u2010driven agent system for end\u2010to\u2010end CFD automation. Powered by DeepSeek\u2010R1/V3, a multiagent architecture, structured OpenFOAM knowledge bases, precise error locator, and iterative reflection, ChatCFD dramatically outperforms prior systems. On 315 benchmark cases, it attains 82.1% execution success (vs. 6.2% MetaOpenFOAM, 42.3% Foam\u2010Agent) and, crucially, 68.12% physical fidelity\u2014the first rigorous metric capturing whether a runnable simulation is scientifically meaningful. A dedicated Physics Interpreter achieves 97.4% summary fidelity, exposing the striking LLM gap between fluent narration and enforcing dozens of tightly coupled physical constraints in executable code. Resource\u2010efficiency analysis highlights ChatCFD's practical advantage, achieving an average of 192.1 k tokens and $0.208 per case\u2014half the tokens of Foam\u2010Agent and 1.5 cheaper than MetaOpenFOAM. Ablation studies confirm that structured domain knowledge and reasoning is indispensable: removing the solver template DB collapses accuracy to 48%, while the error locator module proves the single most critical component. Flexibility experiments show autonomous solver selection across compressible/incompressible and steady/transient regimes (95.23% success) and turbulence\u2010model switching (100% success), even on unseen configurations. By faithfully reproducing complex literature cases NACA0012 airfoil and supersonic nozzle with 60%\u201380% end\u2010to\u2010end success where baselines fail entirely, ChatCFD establishes new benchmarks for artificial intelligence (AI)\u2010driven CFD automation. Physics coupling analyses reveal higher resource demands for multiphysics\u2010coupled cases, while LLM bias toward simpler setups introduces persistent errors. ChatCFD's modular, MCP\u2010compatible design directly enables collaborative multiagent networks and paves the way for scalable AI\u2010driven CFD innovation. The code for ChatCFD is available at: https://github.com/ConMoo/ChatCFD ."
+ },
+ {
+  "paper_id": 9068,
+  "title": "Application of Large Language Models and ReAct Prompting in Policy Evidence Collection",
+  "year": 2025,
+  "venue": "Proceedings of the 17th International Conference on Agents and Artificial Intelligence",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9076,
+  "title": "KnowPath: leveraging large language model prior reasoning paths for dynamic self-reflective reasoning via knowledge graph subgraph exploration",
+  "year": 2026,
+  "venue": "Expert Systems with Applications",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9079,
+  "title": "Continuous Model Calibration: Leveraging Feedback-Driven Fine-Tuning for Self- Correcting Large Language Models",
+  "year": 2025,
+  "venue": "International Journal of Research Publication and Reviews",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9080,
+  "title": "Prompt-Driven Requirements Engineering: Large-Language-Model Agents for Continuous Backlog Refinement",
+  "year": 2025,
+  "venue": "International Journal of Science and Research (IJSR)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9081,
+  "title": "Similar Image Generation via Human-like Iterative Prompt Refinement with Multimodal Large Language Model",
+  "year": 2025,
+  "venue": "2025 IEEE 14th Global Conference on Consumer Electronics (GCCE)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9082,
+  "title": "Sensory-motor control with large language models via iterative policy refinement",
+  "year": 2026,
+  "venue": "Scientific Reports",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9083,
+  "title": "ISR-LLM: Iterative Self-Refined Large Language Model for Long-Horizon Sequential Task Planning",
+  "year": 2024,
+  "venue": "2024 IEEE International Conference on Robotics and Automation (ICRA)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9084,
+  "title": "SIC-Autonomous Ensemble: Large Language Model Hallucination Mitigation Framework using Self Iterative Contradiction and Optimal Ensembling",
+  "year": 2026,
+  "venue": "IEEE Transactions on Artificial Intelligence",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9085,
+  "title": "Evolutionary Expert Model Merging with Task-Adaptive Iterative Self-Improvement Process for Large Language Modeling on Aspect-Based Sentiment Analysis",
+  "year": 2024,
+  "venue": "2024 IEEE International Conference on Internet of Things and Intelligence Systems (IoTaIS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9087,
+  "title": "Customizing Speech Recognition Model with Large Language Model Feedback",
+  "year": 2025,
+  "venue": "2025 IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9088,
+  "title": "Iterative refinement: Using the generative AI chatbot Copilot as a feedback tool \u2013 Evidence from the ELT classroom",
+  "year": 2026,
+  "venue": "ExELL",
+  "source": "crossref",
+  "abstract": "Recent advances in artificial intelligence have opened the door to new applications in the teaching of writing. This article addresses a current research gap by combining automated AI-based feed-back, provided by Microsoft Copilot, with teacher feedback and student self-correction. The present study investigates the effec-tiveness of AI-assisted feedback on EFL students\u2019 writing skills. Data were collected from 41 university students. The feedback from Copilot and the subsequent revisions made by students were analysed using MAXQDA according to categories such as genre conventions, accuracy, lexical scaffolding, and content. Results suggest that considerable improvements in writing skills, espe-cially in the areas of lexical scaffolding and line of argumentation, can be achieved through AI-assisted feedback"
+ },
+ {
+  "paper_id": 9089,
+  "title": "Iterative Semantic Refinement: A Vision Language Model-Driven Approach to Auto-Regressive Image Editing",
+  "year": 2025,
+  "venue": "2025 9th International Symposium on Innovative Approaches in Smart Technologies (ISAS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9090,
+  "title": "Enhancing Ethical Explanations of Large Language Models through Iterative Symbolic Refinement",
+  "year": 2024,
+  "venue": "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9091,
+  "title": "Team ISM at CLPsych 2024: Extracting Evidence of Suicide Risk from Reddit Posts with Knowledge Self-Generation and Output Refinement using A Large Language Model",
+  "year": 2024,
+  "venue": "Proceedings of the 9th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2024)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9093,
+  "title": "Self-Reflection in Large Language Model Agents: Effects on Problem-Solving Performance",
+  "year": 2024,
+  "venue": "2024 2nd International Conference on Foundation and Large Language Models (FLLM)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9095,
+  "title": "Retrieval-augmented and feedback-optimized large language model for recommendation",
+  "year": 2026,
+  "venue": "Neural Networks",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9096,
+  "title": "DyFIRER: A Dynamic Feedback Iterative Multi-Agent Framework for Open Relation Extraction Based on Large Language Models",
+  "year": 2026,
+  "venue": "Applied Sciences",
+  "source": "crossref",
+  "abstract": "With the rapid evolution of Large Language Models (LLMs) in natural language understanding and generation, Relation Extraction (RE) has achieved substantial milestones in low-resource and open-domain scenarios. However, prevailing LLM-based RE methodologies predominantly rely on one-shot prompting or static workflows, which lack autonomous evaluation and iterative optimization mechanisms. Consequently, these approaches are prone to issues such as missing relations, type confusion, and factual hallucinations when navigating complex relational contexts. To address these limitations, this paper proposes DyFIRER (Dynamic Feedback Iterative Relation Extraction Framework), a multi-agent framework characterized by dynamic feedback. By constructing three functionally complementary agents\u2014Extraction, Verification, and Optimization\u2014the framework models the RE task as a closed-loop iterative process consisting of \u201cextraction-verification-feedback-optimization,\u201d thereby enabling dynamic adjustment and continuous refinement of extraction strategies. Experimental results on the DuIE 2.0 open relation extraction extension subset demonstrate that DyFIRER achieves an F1-score of 80.5%, modestly but statistically significantly outperforms GPT-4 (p = 0.014), a result that holds on both the augmented and non-augmented test sets and mainstream static methods (yielding a 10.3% improvement over Qwen-7B). Ablation studies further substantiate the critical role of the dynamic feedback iterative mechanism and the strategy retrieval module in mitigating complex relation omissions and factual hallucinations. The framework requires no additional annotated data or fine-tuning, suggesting potential applicability to low-resource settings, though this was not directly evaluated in the current study."
+ },
+ {
+  "paper_id": 9097,
+  "title": "Knowledge-Enhanced Large Language Model for Intent Refinement Mechanism",
+  "year": 2025,
+  "venue": "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9099,
+  "title": "Pose-aware Large Language Model Interface for Providing Feedback to Sign Language Learners",
+  "year": 2024,
+  "venue": "The 26th International ACM SIGACCESS Conference on Computers and Accessibility",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9100,
+  "title": "Iterative Self-Incentivization Empowers Large Language Models as Agentic Searchers",
+  "year": 2025,
+  "venue": "Advances in Neural Information Processing Systems 38",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9102,
+  "title": "Iterative Search-Based RAG: Using Iterative Retrieval for Efficient Large Language Model Enhancement in Industrial Fault Diagnosis",
+  "year": 2025,
+  "venue": "2025 IEEE 8th International Conference on Industrial Cyber-Physical Systems (ICPS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9105,
+  "title": "Optimizing Prompt Refinement: Algorithmic Strategies for Large Language Model-Based Text Classification",
+  "year": 2026,
+  "venue": "International Journal of Computer Applications",
+  "source": "crossref",
+  "abstract": ""
+ }
+]

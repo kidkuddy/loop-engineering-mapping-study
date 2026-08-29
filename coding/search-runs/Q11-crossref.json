@@ -1,0 +1,13 @@
+{
+ "query": "\"long-horizon\" autonomous LLM agent task execution",
+ "stored": 74,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 793290,
+   "truncated": true,
+   "stored": 74
+  }
+ ]
+}

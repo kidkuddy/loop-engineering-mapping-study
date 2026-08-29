@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 1752,
+  "title": "Benchmarking large language models\u2019 performances for myopia care: a comparative analysis of ChatGPT-3.5, ChatGPT-4.0, and Google Bard",
+  "year": 2023,
+  "venue": "EBioMedicine",
+  "source": "openalex",
+  "abstract": "BACKGROUND: Large language models (LLMs) are garnering wide interest due to their human-like and contextually relevant responses. However, LLMs' accuracy across specific medical domains has yet been thoroughly evaluated. Myopia is a frequent topic which patients and parents commonly seek information online. Our study evaluated the performance of three LLMs namely ChatGPT-3.5, ChatGPT-4.0, and Google Bard, in delivering accurate responses to common myopia-related queries. METHODS: We curated thirty-one commonly asked myopia care-related questions, which were categorised into six domains-pathogenesis, risk factors, clinical presentation, diagnosis, treatment and prevention, and prognosis. Each question was posed to the LLMs, and their responses were independently graded by three consultant-level paediatric ophthalmologists on a three-point accuracy scale (poor, borderline, good). A majority consensus approach was used to determine the final rating for each response. 'Good' rated responses were further evaluated for comprehensiveness on a five-point scale. Conversely, 'poor' rated responses were further prompted for self-correction and then re-evaluated for accuracy. FINDINGS: ChatGPT-4.0 demonstrated superior accuracy, with 80.6% of responses rated as 'good', compared to 61.3% in ChatGPT-3.5 and 54.8% in Google Bard (Pearson's chi-squared test, all p \u2264 0.009). All three LLM-Chatbots showed high mean comprehensiveness scores (Google Bard: 4.35; ChatGPT-4.0: 4.23; ChatGPT-3.5: 4.11, out of a maximum score of 5). All LLM-Chatbots also demonstrated substantial self-correction capabilities: 66.7% (2 in 3) of ChatGPT-4.0's, 40% (2 in 5) of ChatGPT-3.5's, and 60% (3 in 5) of Google Bard's responses improved after self-correction. The LLM-Chatbots performed consistently across domains, except for 'treatment and prevention'. However, ChatGPT-4.0 still performed superiorly in this domain, receiving 70% 'good' ratings, compared to 40% in ChatGPT-3.5 and 45% in Google Bard (Pearson's chi-squared test, all p \u2264 0.001). INTERPRETATION: Our findings underscore the potential of LLMs, particularly ChatGPT-4.0, for delivering accurate and comprehensive responses to myopia-related qu"
+ },
+ {
+  "paper_id": 1755,
+  "title": "Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent advancements in large language models have showcased their remarkable generalizability across various domains. However, their reasoning abilities still have significant room for improvement, especially when confronted with scenarios requiring multi-step reasoning. Although large language models possess extensive knowledge, their reasoning often fails to effectively utilize this knowledge to establish a coherent thinking paradigm. These models sometimes show hallucinations as their reasoning procedures are unconstrained by logical principles. Aiming at improving the zero-shot chain-of-thought reasoning ability of large language models, we propose LoT (Logical Thoughts), a self-improvement prompting framework that leverages principles rooted in symbolic logic, particularly Reductio ad Absurdum, to systematically verify and rectify the reasoning processes step by step. Experimental evaluations conducted on language tasks in diverse domains, including arithmetic, commonsense, symbolic, causal inference, and social problems, demonstrate the efficacy of enhanced reasoning by logic. The implementation code for LoT can be accessed at: https://github.com/xf-zhao/LoT."
+ },
+ {
+  "paper_id": 1760,
+  "title": "A Survey of Mathematical Reasoning in the Era of Multimodal Large Language Model: Benchmark, Method & Challenges",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Mathematical reasoning, a core aspect of human cognition, is vital across many domains, from educational problem-solving to scientific advancements.As artificial general intelligence (AGI) progresses, integrating large language models (LLMs) with mathematical reasoning tasks is becoming increasingly significant.This survey provides the first comprehensive analysis of mathematical reasoning in the era of multimodal large language models (MLLMs).We review over 200 studies published since 2021, and examine the state-of-theart developments in Math-LLMs, with a focus on multimodal settings.We categorize the field into three dimensions: benchmarks, methodologies, and challenges.In particular, we explore multimodal mathematical reasoning pipeline, as well as the role of (M)LLMs and the associated methodologies.Finally, we identify seven major challenges hindering the realization of AGI in this domain, offering insights into the future direction for enhancing multimodal reasoning capabilities.This survey serves as a critical resource for the research community in advancing the capabilities of LLMs to tackle complex multimodal reasoning tasks."
+ },
+ {
+  "paper_id": 1762,
+  "title": "Can ChatGPT Defend its Belief in Truth? Evaluating LLM Reasoning via Debate",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) such as Chat-GPT and GPT-4 have shown impressive performance in complex reasoning tasks. However, it is difficult to know whether the models are reasoning based on deep understandings of truth and logic, or leveraging their memorized patterns in a relatively superficial way. In this work, we explore testing LLMs' reasoning by engaging with them in a debate-like conversation, where given a question, the LLM and the user need to discuss to make the correct decision starting from opposing arguments. Upon mitigating the Clever Hans effect, our task requires the LLM to not only achieve the correct answer on its own, but also be able to hold and defend its belief instead of blindly believing or getting misled by the user's (invalid) arguments and critiques, thus testing in greater depth whether the LLM grasps the essence of the reasoning required to solve the problem. Across a range of complex reasoning benchmarks spanning math, commonsense, logic and BIG-Bench tasks, we find that despite their impressive performance as reported in existing work on generating correct step-by-step solutions in the beginning, LLMs like ChatGPT cannot maintain their beliefs in truth for a significant portion of examples when challenged by oftentimes absurdly invalid arguments. Our work points to danger zones of model alignment, and also suggests more careful treatments and interpretations of the recent findings that LLMs can improve their responses based on feedback. 1"
+ },
+ {
+  "paper_id": 1766,
+  "title": "Exploring Chain of Thought Style Prompting for Text-to-SQL",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In-context learning with large language models (LLMs) has recently caught increasing attention due to its superior few-shot performance on various tasks. However, its performance on text-to-SQL parsing still has much room for improvement. In this paper, we hypothesize that a crucial aspect of LLMs to improve for text-to-SQL parsing is their multi-step reasoning ability. Thus, we systematically study how to enhance LLMs' reasoning ability through chain of thought (CoT) style prompting, including the original chain-of-thought prompting (Wei et al., 2022b) and least-to-most prompting Our experiments demonstrate that iterative prompting as in Zhou et al. ( Based on these findings, we propose a new CoT-style prompting method for text-to-SQL parsing. It brings 5.2 and 6.5 point absolute gains on the Spider development set and the Spider Realistic set, respectively, compared to the standard prompting method without reasoning steps; 2.4 and 1.5 point absolute gains, compared to the least-to-most prompting method 1 ."
+ },
+ {
+  "paper_id": 1767,
+  "title": "LLM+AL: Bridging Large Language Models and Action Languages for Complex Reasoning About Actions",
+  "year": 2025,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have made significant strides in various intelligent tasks but still struggle with complex action reasoning tasks that require systematic search. To address this limitation, we propose a method that bridges the natural language understanding capabilities of LLMs with the symbolic reasoning strengths of action languages. Our approach, termed LLM+AL, leverages the LLM's strengths in semantic parsing and commonsense knowledge generation alongside the action language's proficiency in automated reasoning based on encoded knowledge. We compare LLM+AL against state-of-the-art LLMs, including ChatGPT-4, Claude 3 Opus, Gemini Ultra 1.0, and o1-preview, using benchmarks for complex reasoning about actions. Our findings indicate that, although all methods exhibit errors, LLM+AL, with relatively minimal human corrections, consistently leads to correct answers, whereas standalone LLMs fail to improve even with human feedback. LLM+AL also contributes to automated generation of action languages."
+ },
+ {
+  "paper_id": 1771,
+  "title": "Towards Structured Reasoning: A Comprehensive Survey of Chain-of-Thought Reasoning in Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Chain-of-Thought (CoT) reasoning has emerged as a transformative paradigm for enhancing the reasoning capabilities of Large Language Models (LLMs). This survey provides a comprehensive analysis of CoT reasoning, spanning from foundational prompting techniques to the recent emergence of Large Reasoning Models (LRMs) such as OpenAI o1 and DeepSeek-R1. We present a unified taxonomy that categorizes CoT methods into four dimensions: (1) prompting strategies including zero-shot, few-shot, and self-consistency approaches; (2) structural extensions such as Tree-of-Thought, Graph-of-Thought, and Forestof-Thought; (3) training paradigms encompassing supervised fine-tuning, reinforcement learning, and preference optimization; and (4) emerging paradigms including latent reasoning and multi-modal CoT. Through extensive analysis of over 150 papers, we identify key characteristics that distinguish Long CoT reasoning, including deep multi-step inference, heuristicguided search, and self-verification mechanisms. We systematically compare performance across 25+ benchmarks spanning mathematical, commonsense, symbolic, logical, and multi-modal reasoning tasks. Our analysis reveals critical challenges including reasoning faithfulness, computational efficiency, and the \"illusion of thinking\" phenomenon. We conclude by outlining promising research directions including efficient reasoning, multi-modal integration, and the development of more robust evaluation frameworks. This survey serves as a comprehensive resource for researchers and practitioners seeking to understand and advance the frontier of reasoning in LLMs."
+ },
+ {
+  "paper_id": 1776,
+  "title": "Thought Propagation: An Analogical Approach to Complex Reasoning with Large Language Models",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have achieved remarkable success in reasoning tasks with the development of prompting methods. However, existing prompting approaches cannot reuse insights of solving similar problems and suffer from accumulated errors in multi-step reasoning, since they prompt LLMs to reason \\textit{from scratch}. To address these issues, we propose \\textbf{\\textit{Thought Propagation} (TP)}, which explores the analogous problems and leverages their solutions to enhance the complex reasoning ability of LLMs. These analogous problems are related to the input one, with reusable solutions and problem-solving strategies. Thus, it is promising to propagate insights of solving previous analogous problems to inspire new problem-solving. To achieve this, TP first prompts LLMs to propose and solve a set of analogous problems that are related to the input one. Then, TP reuses the results of analogous problems to directly yield a new solution or derive a knowledge-intensive plan for execution to amend the initial solution obtained from scratch. TP is compatible with existing prompting approaches, allowing plug-and-play generalization and enhancement in a wide range of tasks without much labor in task-specific prompt engineering. Experiments across three challenging tasks demonstrate TP enjoys a substantial improvement over the baselines by an average of 12\\% absolute increase in finding the optimal solutions in Shortest-path Reasoning, 13\\% improvement of human preference in Creative Writing, and 15\\% enhancement in the task completion rate of LLM-Agent Planning."
+ },
+ {
+  "paper_id": 1778,
+  "title": "A Comprehensive Review of Complex Logical Reasoning in Large Vision-Language Models",
+  "year": 2026,
+  "venue": "Computer Modeling in Engineering & Sciences",
+  "source": "openalex",
+  "abstract": "Large Vision-Language Models (LVLMs) have achieved strong performance in multimodal perception, understanding, and generation, but their ability to perform complex logical reasoning remains insufficiently understood. In particular, it is still unclear whether current LVLMs can reliably conduct explicit logical operations, multi-step inference, abstract relational reasoning, and cross-modal evidence integration. Reasoning abilities such as deductive, inductive, abductive, multi-hop, and causal inference are fundamental to robust decision making, trustworthy interaction, and real-world deployment, yet they have not been systematically examined in the LVLM literature. Existing surveys mainly discuss mathematical reasoning, general multimodal intelligence, or benchmark progress, but they do not provide a unified account of complex logical reasoning in LVLMs, including its definition, reasoning types, modeling paradigms, evaluation protocols, and unresolved limitations. To address this gap, this survey develops a unified analytical framework for complex logical reasoning in LVLMs. This survey provides a structured review of this emerging area. We first formalize complex logical reasoning in multimodal settings and organize the literature into five recurrent reasoning families: deductive, inductive, abductive, multi-hop, and causal reasoning. We then review reasoning-oriented LVLM architectures, including unified, modular, and tool-augmented paradigms, and summarize major reasoning mechanisms such as chain-of-thought, program-based reasoning, self-correction, and interpretability-oriented analysis. We further examine representative benchmarks and evaluation protocols, with particular attention to the mismatch between final-answer accuracy and genuine reasoning validity. Based on empirical evidence from representative LVLMs and datasets, we identify common capability trends, recurring failure modes, and key open challenges. Our analysis shows that current LVLMs still struggle with reasoning faithfulness, long-horizon inference, cross-modal grounding, hallucination control, and process-aware evaluation. Finally, we outline future directions in reasoning-oriented data co"
+ },
+ {
+  "paper_id": 1780,
+  "title": "Few-Shot Learning With Manifold-Enhanced LLM for Handling Anomalous Perception Inputs in Autonomous Driving",
+  "year": 2025,
+  "venue": "IEEE Transactions on Intelligent Transportation Systems",
+  "source": "openalex",
+  "abstract": "With the widespread adoption of advanced driving systems (ADS), these systems must cope with increasingly complex driving scenarios. However, data-driven deep learning models heavily rely on large amounts of training data and may perform inadequately when faced with novel situations. Consequently, few-shot learning has become a key topic in the field of autonomous driving. Yet, few-shot learning demands models with strong generalization and extrapolation abilities and tends to be vulnerable to anomalous inputs. The perception modules in current ADS systems are not infallible, and there remains a small chance of inaccurate information being generated, which could potentially affect the decision-making process. To address this issue, we propose an innovative few-shot learning framework based on large language models (LLMs) that can comprehend context and make correct decisions despite the presence of anomalous inputs. This framework decouples the high-dimensional textual space of LLMs into a low-dimensional space tailored for autonomous driving, enabling commonsense reasoning within this space. By integrating this space with the textual space, we create a decision manifold that enables effective reasoning and decision-making processes. The framework also maintains an external self-correction database that continually updates experiences to guide manifold construction, facilitating continual Learning. Experimental results demonstrate our framework reduces collision rates by 14% compared to GPT-Driver when tested with anomalous data. This confirms enhanced safety in complex driving environments with perceptual irregularities."
+ },
+ {
+  "paper_id": 1783,
+  "title": "Performance analysis of large language models Chatgpt-4o, OpenAI O1, and OpenAI O3 mini in clinical treatment of pneumonia: a comparative study",
+  "year": 2025,
+  "venue": "Clinical and Experimental Medicine",
+  "source": "openalex",
+  "abstract": "This study aimed to compare the performance of three large language models (ChatGPT-4o, OpenAI O1, and OpenAI O3 mini) in delivering accurate and guideline compliant recommendations for pneumonia management. By assessing both general and guideline-focused questions, the investigation sought to elucidate each model's strengths, limitations, and capacity to self-correct in response to expert feedback. Fifty pneumonia-related questions (30 general, 20 guideline-based) were posed to the three models. Ten infectious disease specialists independently scored responses for accuracy using a 5-point scale. The two chain-of-thought models (OpenAI O1 and OpenAI O3 mini) were further tested for self-correction when initially rated \"poor,\" with re-evaluations conducted one week later to reduce recall bias. Statistical analyses included nonparametric tests, ANOVA, and Fleiss' Kappa for inter-rater reliability. OpenAI O1 achieved the highest overall accuracy, followed by OpenAI O3 mini; ChatGPT-4o scored lowest. For \"poor\" responses, O1 and O3 mini both significantly improved after targeted prompts, reflecting the advantages of chain-of-thought reasoning. ChatGPT-4o demonstrated limited gains upon re-prompting and provided more concise, but sometimes incomplete, information. OpenAI O1 and O3 mini offered superior guideline-aligned recommendations and benefited from self-correction capabilities, while ChatGPT-4o's direct-answer approach led to moderate or poor outcomes for complex pneumonia queries. Incorporating chain-of-thought mechanisms appears critical for refining clinical guidance. These findings suggest that advanced large language models can support pneumonia management by providing accurate, up-to-date information, particularly when equipped to iteratively refine their outputs in response to expert feedback."
+ },
+ {
+  "paper_id": 1785,
+  "title": "Natural Language based Context Modeling and Reasoning for Ubiquitous Computing with Large Language Models: A Tutorial",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have become phenomenally surging, since 2018--two decades after introducing context-awareness into computing systems. Through taking into account the situations of ubiquitous devices, users and the societies, context-aware computing has enabled a wide spectrum of innovative applications, such as assisted living, location-based social network services and so on. To recognize contexts and make decisions for actions accordingly, various artificial intelligence technologies, such as Ontology and OWL, have been adopted as representations for context modeling and reasoning. Recently, with the rise of LLMs and their improved natural language understanding and reasoning capabilities, it has become feasible to model contexts using natural language and perform context reasoning by interacting with LLMs such as ChatGPT and GPT-4. In this tutorial, we demonstrate the use of texts, prompts, and autonomous agents (AutoAgents) that enable LLMs to perform context modeling and reasoning without requiring fine-tuning of the model. We organize and introduce works in the related field, and name this computing paradigm as the LLM-driven Context-aware Computing (LCaC). In the LCaC paradigm, users' requests, sensors reading data, and the command to actuators are supposed to be represented as texts. Given the text of users' request and sensor data, the AutoAgent models the context by prompting and sends to the LLM for context reasoning. LLM generates a plan of actions and responds to the AutoAgent, which later follows the action plan to foster context-awareness. To prove the concepts, we use two showcases--(1) operating a mobile z-arm in an apartment for assisted living, and (2) planning a trip and scheduling the itinerary in a context-aware and personalized manner."
+ },
+ {
+  "paper_id": 1786,
+  "title": "Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Yingqian Cui, Pengfei He, Jingying Zeng, Hui Liu, Xianfeng Tang, Zhenwei Dai, Yan Han, Chen Luo, Jing Huang, Zhen Li, Suhang Wang, Yue Xing, Jiliang Tang, Qi He. Findings of the Association for Computational Linguistics: ACL 2025. 2025."
+ },
+ {
+  "paper_id": 1787,
+  "title": "ACT-SQL: In-Context Learning for Text-to-SQL with Automatically-Generated Chain-of-Thought",
+  "year": 2023,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recently Large Language Models (LLMs) have been proven to have strong abilities in various domains and tasks. We study the problem of prompt designing in the text-to-SQL task and attempt to improve the LLMs' reasoning ability when generating SQL queries. Besides the trivial few-shot in-context learning setting, we design our chain-of-thought (CoT) prompt with a similar method to schema linking. We provide a method named ACT-SQL 1 to automatically generate auto-CoT exemplars and thus the whole process doesn't need manual labeling. Our approach is cost-saving since we only use the LLMs' API call once when generating one SQL query. Furthermore, we extend our in-context learning method to the multi-turn text-to-SQL task. The experiment results show that the LLMs' performance can benefit from our ACT-SQL approach. Our approach achieves SOTA performance on the Spider dev set among existing in-context learning approaches."
+ },
+ {
+  "paper_id": 1788,
+  "title": "DotaMath: Decomposition of Thought with Code Assistance and Self-correction for Mathematical Reasoning",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have made impressive progress in handling simple math problems, yet they still struggle with more challenging and complex mathematical tasks. In this paper, we introduce a series of LLMs that employs the Decomposition of thought with code assistance and self-correction for mathematical reasoning, dubbed as DotaMath. DotaMath models tackle complex mathematical tasks by decomposing them into simpler logical subtasks, leveraging code to solve these subtasks, obtaining fine-grained feedback from the code interpreter, and engaging in self-reflection and correction. By annotating diverse interactive tool-use trajectories and employing query evolution on GSM8K and MATH datasets, we generate an instruction fine-tuning dataset called DotaMathQA with 574K query-response pairs. We train a series of base LLMs using imitation learning on DotaMathQA, resulting in DotaMath models that achieve remarkable performance compared to open-source LLMs across various in-domain and out-of-domain benchmarks. Notably, DotaMath-deepseek-7B showcases an outstanding performance of 64.8% on the competitive MATH dataset and 86.7% on GSM8K. Besides, DotaMath-deepseek-7B maintains strong competitiveness on a series of in-domain and out-of-domain benchmarks (Avg. 80.1%). Looking forward, we anticipate that the DotaMath paradigm will open new pathways for addressing intricate mathematical problems. Our code is publicly available at https://github.com/ChengpengLi1003/DotaMath."
+ },
+ {
+  "paper_id": 1792,
+  "title": "On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There has been considerable divergence of opinion on the reasoning abilities of Large Language Models (LLMs). While the initial optimism that reasoning might emerge automatically with scale has been tempered thanks to a slew of counterexamples--ranging from multiplication to simple planning--there persists a wide spread belief that LLMs can self-critique and improve their own solutions in an iterative fashion. This belief seemingly rests on the assumption that verification of correctness should be easier than generation--a rather classical argument from computational complexity--which should be irrelevant to LLMs to the extent that what they are doing is approximate retrieval. In this paper, we set out to systematically investigate the effectiveness of iterative prompting in the context of reasoning and planning. We present a principled empirical study of the performance of GPT-4 in three domains: Game of 24, Graph Coloring, and STRIPS planning. We experiment both with the model critiquing its own answers and with an external correct reasoner verifying proposed solutions. In each case, we analyze whether the content of criticisms actually affects bottom line performance, and whether we can ablate elements of the augmented system without losing performance. We observe significant performance collapse with self-critique and significant performance gains with sound external verification. We also note that merely re-prompting with a sound verifier maintains most of the benefits of more involved setups."
+ },
+ {
+  "paper_id": 1793,
+  "title": "Iterative Self-Questioning Supervision with Semantic Calibration for Stable Reasoning Chains in Large Language Models",
+  "year": 2026,
+  "venue": "Preprints.org",
+  "source": "openalex",
+  "abstract": "This study addresses the inconsistency, semantic drift, and logical breaks that large language models often exhibit in complex reasoning tasks and proposes a unified cyclic self-questioning supervision framework that integrates information flow from questioning to reflection and renewed reasoning. The framework includes four core components, namely questioning generation, reflection modeling, semantic calibration, and renewed reasoning, and forms an iterative reasoning chain that allows the model to identify potential uncertainties and adjust its reasoning path based on internal feedback in each round. The method first uses the questioning module to produce structured queries about the initial reasoning result and to extract possible logical weaknesses from the generated content. The reflection module then interprets the questioning content, locates errors, and produces internal feedback signals that guide reasoning improvement. The semantic calibration mechanism converts the reflection output into intermediate states that influence the reasoning space and provide a more stable foundation for renewed reasoning. Through multiple iterations, the framework increases the internal consistency of the reasoning chain. Systematic experiments conducted on open reasoning datasets show significant gains in accuracy, explanation consistency, semantic alignment, and self-consistency, which confirms the importance of internal reflection and semantic calibration in improving reasoning quality. Sensitivity studies on learning rate, reflection length, reasoning temperature, and parallelism further reveal how the cyclic system depends on internal feedback absorption and semantic stability. The unified framework provides an extensible path for enhancing the structural quality of reasoning chains in large models and offers an interpretable foundation for high-reliability reasoning scenarios."
+ },
+ {
+  "paper_id": 1797,
+  "title": "Towards LLM-Powered Verilog RTL Assistant: Self-Verification and Self-Correction",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We explore the use of Large Language Models (LLMs) to generate high-quality Register-Transfer Level (RTL) code with minimal human interference. The traditional RTL design workflow requires human experts to manually write high-quality RTL code, which is time-consuming and error-prone. With the help of emerging LLMs, developers can describe their requirements to LLMs which then generate corresponding code in Python, C, Java, and more. Adopting LLMs to generate RTL design in hardware description languages is not trivial, given the complex nature of hardware design and the generated design has to meet the timing and physical constraints. We propose VeriAssist, an LLM-powered programming assistant for Verilog RTL design workflow. VeriAssist takes RTL design descriptions as input and generates high-quality RTL code with corresponding test benches. VeriAssist enables the LLM to self-correct and self-verify the generated code by adopting an automatic prompting system and integrating RTL simulator in the code generation loop. To generate an RTL design, VeriAssist first generates the initial RTL code and corresponding test benches, followed by a self-verification step that walks through the code with test cases to reason the code behavior at different time steps, and finally it self-corrects the code by reading the compilation and simulation results and generating final RTL code that fixes errors in compilation and simulation. This design fully leverages the LLMs' capabilities on multi-turn interaction and chain-of-thought reasoning to improve the quality of the generated code. We evaluate VeriAssist with various benchmark suites and find it significantly improves both syntax and functionality correctness over existing LLM implementations, thus minimizing human intervention and making RTL design more accessible to novice designers."
+ },
+ {
+  "paper_id": 1799,
+  "title": "ERA-CoT: Improving Chain-of-Thought through Entity Relationship Analysis",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have achieved commendable accomplishments in various natural language processing tasks.However, LLMs still encounter significant challenges when dealing with complex scenarios involving multiple entities.These challenges arise from the presence of implicit relationships that demand multi-step reasoning.In this paper, we propose a novel approach ERA-CoT, which aids LLMs in understanding context by capturing relationships between entities and supports the reasoning of diverse tasks through Chainof-Thoughts (CoT).Experimental results show that ERA-CoT demonstrates the superior performance of our proposed method compared to current CoT prompting methods, achieving a significant improvement of an average of 5.1% on GPT3.5 compared to previous SOTA baselines.Our analysis indicates that ERA-CoT increases the LLM's understanding of entity relationships, significantly improves the accuracy of question answering, and enhances the reasoning ability of LLMs. 1"
+ },
+ {
+  "paper_id": 1802,
+  "title": "Potential benefits of employing large language models in research in moral education and development",
+  "year": 2023,
+  "venue": "Journal of Moral Education",
+  "source": "openalex",
+  "abstract": "Recently, computer scientists have developed large language models (LLMs) by training prediction models with large-scale language corpora and human reinforcements. The LLMs have become one promising way to implement artificial intelligence with accuracy in various fields. Interestingly, recent LLMs possess emergent functional features that emulate sophisticated human cognition, especially in-context learning and the chain of thought, which were unavailable in previous prediction models. In this paper, I will examine how LLMs might contribute to moral education and development research. To achieve this goal, I will review the most recently published conference papers and ArXiv preprints to overview the novel functional features implemented in LLMs. I also intend to conduct brief experiments with ChatGPT to investigate how LLMs behave while addressing ethical dilemmas and external feedback. The results suggest that LLMs might be capable of solving dilemmas based on reasoning and revising their reasoning process with external input. Furthermore, a preliminary experimental result from the moral exemplar test may demonstrate that exemplary stories can elicit moral elevation in LLMs as do they among human participants. I will discuss the potential implications of LLMs on research on moral education and development with the results."
+ },
+ {
+  "paper_id": 1803,
+  "title": "Model confrontation and collaboration: A debate intelligence framework for enhancing medical reasoning in large language models",
+  "year": 2026,
+  "venue": "Cell Reports Medicine",
+  "source": "openalex",
+  "abstract": "Medical reasoning is fundamental to clinical decision-making, underpinning tasks such as patient communication, diagnosis, and treatment planning. Inspired by psychological findings that peer interaction promotes self-correction, we introduce model confrontation and collaboration (MCC), a debate intelligence framework that transcends static ensemble methods by integrating critique and self-reflection to iteratively refine reasoning through structured, multi-round confrontation and collaboration among diverse large language models (LLMs). In multiple-choice benchmarks, MCC achieved mean accuracy on MedQA (92.6%) and PubMedQA (84.8%) and demonstrated strong performance on medical subsets of MMLU. In long-form medical question answering, MCC outperformed all individual LLMs and the domain-specific LLM Med-PaLM 2 in both physician and layperson evaluations. In diagnostic dialog tasks, MCC further excelled in both history-taking and diagnostic accuracy, reaching a top-1 diagnosis rate of 80%. These results position MCC as a scalable, model-agnostic framework that advances medical reasoning through collaborative deliberation."
+ },
+ {
+  "paper_id": 1804,
+  "title": "Physics Reasoner: Knowledge-Augmented Reasoning for Solving Physics Problems with Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Physics problems constitute a significant aspect of reasoning, necessitating complicated reasoning ability and abundant physics knowledge. However, existing large language models (LLMs) frequently fail due to a lack of knowledge or incorrect knowledge application. To mitigate these issues, we propose Physics Reasoner, a knowledge-augmented framework to solve physics problems with LLMs. Specifically, the proposed framework constructs a comprehensive formula set to provide explicit physics knowledge and utilizes checklists containing detailed instructions to guide effective knowledge application. Namely, given a physics problem, Physics Reasoner solves it through three stages: problem analysis, formula retrieval, and guided reasoning. During the process, checklists are employed to enhance LLMs' self-improvement in the analysis and reasoning stages. Empirically, Physics Reasoner mitigates the issues of insufficient knowledge and incorrect application, achieving state-of-the-art performance on SciBench with an average accuracy improvement of 5.8%."
+ },
+ {
+  "paper_id": 1805,
+  "title": "Hierarchical Multi-agent Large Language Model Reasoning for Autonomous Heterogeneous Catalyst Discovery",
+  "year": 2026,
+  "venue": "npj Computational Materials",
+  "source": "openalex",
+  "abstract": "Artificial intelligence is reshaping scientific exploration, but most methods automate procedural tasks without engaging in scientific reasoning, limiting autonomy in discovery. We demonstrate that hierarchical agentic large language model reasoning can efficiently drive simulation and scientific exploration. Across two chemical applications, CO adsorption on Cu surface transition metal adatoms and on M\u2013N\u2013C catalysts, reasoning-guided exploration reduces required atomistic simulations by up to 90% relative to heuristic or random selection. Comparisons across single-agent, multi-agent, and stochastic baselines show that hierarchical strategies yield more coherent and information-efficient search trajectories. Reasoning traces reveal chemically grounded decisions that cannot be explained by semantic bias or stochastic sampling. We realize these agentic reasoning strategies in Materials Agents for Simulation and Theory in Electronic-structure Reasoning (MASTER), a multimodal system that translates natural language into density functional theory workflows. Altogether, multi-agent collaboration accelerates heterogeneous catalyst discovery and marks a step toward more autonomous, reasoning-guided scientific exploration."
+ },
+ {
+  "paper_id": 1807,
+  "title": "CRP-RAG: A Retrieval-Augmented Generation Framework for Supporting Complex Logical Reasoning and Knowledge Planning",
+  "year": 2024,
+  "venue": "Electronics",
+  "source": "openalex",
+  "abstract": "The Retrieval-Augmented Generation (RAG) framework enhances Large Language Models (LLMs) by retrieving relevant knowledge to broaden their knowledge boundaries and mitigate factual hallucinations stemming from knowledge gaps. However, the RAG Framework faces challenges in effective knowledge retrieval and utilization; invalid or misused knowledge will interfere with LLM generation, reducing reasoning efficiency and answer quality. Existing RAG methods address these issues by decomposing and expanding queries, introducing special knowledge structures, and using reasoning process evaluation and feedback. However, the linear reasoning structures limit complex thought transformations and reasoning based on intricate queries. Additionally, knowledge retrieval and utilization are decoupled from reasoning and answer generation, hindering effective knowledge support during answer generation. To address these limitations, we propose the CRP-RAG framework, which employs reasoning graphs to model complex query reasoning processes more comprehensively and accurately. CRP-RAG guides knowledge retrieval, aggregation, and evaluation through reasoning graphs, dynamically adjusting the reasoning path based on evaluation results and selecting knowledge-sufficiency paths for answer generation. CRP-RAG outperforms the best LLM and RAG baselines by 2.46 in open-domain QA, 7.43 in multi-hop reasoning, and 4.2 in factual verification. Experiments also show the superior factual consistency and robustness of CRP-RAG over existing RAG methods. Extensive analyses confirm its accurate and fact-faithful reasoning and answer generation for complex queries."
+ },
+ {
+  "paper_id": 1809,
+  "title": "TreeQA: Enhanced LLM-RAG with logic tree reasoning for reliable and interpretable multi-hop question answering",
+  "year": 2025,
+  "venue": "Knowledge-Based Systems",
+  "source": "openalex",
+  "abstract": "Multi-Hop Question Answering (MHQA), crucial for complex information retrieval, remains challenging for current Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems, which often suffer from hallucination, reliance on incomplete knowledge, and opaque reasoning processes. Existing RAG methods, while beneficial, still struggle with the intricacies of multi-step inference and ensuring verifiable accuracy. This research introduces TreeQA, a novel framework designed to significantly enhance the reliability and interpretability of LLM-RAG systems in MHQA tasks. TreeQA addresses these limitations by decomposing complex multi-hop questions into a hierarchical logic tree of simpler, verifiable sub-questions, integrating evidence from both structured knowledge bases (e.g., Wikidata) and unstructured text (e.g., Wikipedia), and employing an iterative, evidence-based validation and self-correction mechanism at each reasoning step to dynamically rectify errors and prevent their accumulation. Extensive experiments on four benchmark datasets (WebQSP, QALD-en, AdvHotpotQA, and 2WikiMultiHopQA) demonstrate TreeQA\u2019s superior performance, achieving Hit@1 scores of 87%, 57%, 53%, and 59%, respectively, representing improvements of 4%-12% over state-of-the-art LLM-RAG methods. These findings highlight the significant impact of structured, verifiable reasoning pathways in developing more robust, accurate, and interpretable knowledge-intensive AI systems, thereby enhancing the practical utility of LLMs in complex reasoning scenarios. Our code is publicly available at https://github.com/ACMISLab/TreeQA ."
+ },
+ {
+  "paper_id": 1811,
+  "title": "Enhancing large language model reasoning with reward models: an analytical survey",
+  "year": 2026,
+  "venue": "Artificial Intelligence Review",
+  "source": "openalex",
+  "abstract": "Abstract Reward models (RMs) play a critical role in enhancing the reasoning performance of LLMs. For example, they can provide training signals to finetune LLMs during reinforcement learning (RL) and help select the best answer from multiple candidates during inference. In this paper, we provide a systematic introduction to RMs, along with a comprehensive survey of their applications in LLM reasoning. We first review fundamental concepts of RMs, including their architectures, training methodologies, and evaluation techniques. Then, we explore their key applications: (1) guiding generation and selecting optimal outputs during LLM inference, (2) facilitating data synthesis and iterative self-improvement for LLMs, and (3) providing training signals in RL-based finetuning. Finally, we discuss critical open questions regarding the selection, generalization, evaluation, and enhancement of RMs, based on existing research and our own empirical findings. Our analysis aims to provide actionable insights for the effective deployment and advancement of RMs for LLM reasoning."
+ },
+ {
+  "paper_id": 1815,
+  "title": "Igniting Language Intelligence: The Hitchhiker's Guide From Chain-of-Thought Reasoning to Language Agents",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have dramatically enhanced the field of language intelligence, as demonstrably evidenced by their formidable empirical performance across a spectrum of complex reasoning tasks. Additionally, theoretical proofs have illuminated their emergent reasoning capabilities, providing a compelling showcase of their advanced cognitive abilities in linguistic contexts. Critical to their remarkable efficacy in handling complex reasoning tasks, LLMs leverage the intriguing chain-of-thought (CoT) reasoning techniques, obliging them to formulate intermediate steps en route to deriving an answer. The CoT reasoning approach has not only exhibited proficiency in amplifying reasoning performance but also in enhancing interpretability, controllability, and flexibility. In light of these merits, recent research endeavors have extended CoT reasoning methodologies to nurture the development of autonomous language agents, which adeptly adhere to language instructions and execute actions within varied environments. This survey paper orchestrates a thorough discourse, penetrating vital research dimensions, encompassing: (i) the foundational mechanics of CoT techniques, with a focus on elucidating the circumstances and justification behind its efficacy; (ii) the paradigm shift in CoT; and (iii) the burgeoning of language agents fortified by CoT approaches. Prospective research avenues envelop explorations into generalization, efficiency, customization, scaling, and safety. This paper caters to a wide audience, including beginners seeking comprehensive knowledge of CoT reasoning and language agents, as well as experienced researchers interested in foundational mechanics and engaging in cutting-edge discussions on these topics. A repository for the related papers is available at https://github.com/Zoeyyao27/CoT-Igniting-Agent."
+ },
+ {
+  "paper_id": 1816,
+  "title": "Deliberative Alignment: Reasoning Enables Safer Language Models",
+  "year": 2025,
+  "venue": "SuperIntelligence - Robotics - Safety & Alignment",
+  "source": "openalex",
+  "abstract": "As large-scale language models increasingly impact safety-critical domains, ensuring their reliable adherence to well-defined principles remains a fundamental challenge. We introduce Deliberative Alignment, a new paradigm that directly teaches the model safety specifications and trains it to explicitly recall and accurately reason over the specifications before answering. We used this approach to align OpenAI\u2019s o-series models [1], and achieved highly precise adherence to OpenAI\u2019s safety policies, without requiring human-written chain-of-thoughts or answers. Deliberative Alignment pushes the Pareto frontier by simultaneously increasing robustness to jailbreaks while decreasing overrefusal rates, and also improves out-of-distribution generalization. We demonstrate that reasoning over explicitly specified policies enables more scalable, trustworthy, and interpretable alignment."
+ },
+ {
+  "paper_id": 1820,
+  "title": "Enhancing Chain-of-Thoughts Prompting with Iterative Bootstrapping in Large Language Models",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) can achieve impressive performance on various reasoning tasks by incorporating chain-of-thought (CoT) prompting, where step-by-step reasoning is provided to guide LLMs to generate answers to questions, and the question-rationale-answer triplets are utilized as demonstration exemplars.However, the reasoning chains of demonstrations generated by LLMs are observed to be prone to errors, which can subsequently lead to incorrect reasoning during inference.Furthermore, inappropriate exemplars, e.g., overly simplistic or complex exemplars depending on the question's difficulty level, can affect the LLM's performance.To address these issues, we introduce Iter-CoT (Iterative bootstrapping in Chain-of-Thoughts prompting).Iter-CoT has two advantages: (1) it adopts iterative bootstrapping that enables LLMs to rectify errors autonomously, resulting in more precise and comprehensive reasoning chains.(2) it selects exemplars of challenging yet answerable (i.e., the LLM has the potential to answer correctly) questions, enhancing the LLMs' generalizability to answer questions with varying difficulty levels.Experimental results exhibit Iter-CoT superior performance on three distinct reasoning tasks on ten datasets.Our code is publicly available at https://github.com/"
+ },
+ {
+  "paper_id": 1821,
+  "title": "Self-Correction Makes LLMs Better Parsers",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have achieved remarkable success across various natural language processing (NLP) tasks.However, recent studies suggest that they still face challenges in performing fundamental NLP tasks essential for deep language understanding, particularly syntactic parsing.In this paper, we conduct an in-depth analysis of LLM parsing capabilities, delving into the underlying causes of why LLMs struggle with this task and the specific shortcomings they exhibit.We find that LLMs may be limited in their ability to fully leverage grammar rules from existing treebanks, restricting their capability to generate syntactic structures.To help LLMs acquire knowledge without additional training, we propose a selfcorrection method that leverages grammar rules from existing treebanks to guide LLMs in correcting previous errors.Specifically, we automatically detect potential errors and dynamically search for relevant rules, offering hints and examples to guide LLMs in making corrections themselves.Experimental results on three datasets using various LLMs demonstrate that our method significantly improves performance in both in-domain and cross-domain settings."
+ },
+ {
+  "paper_id": 1824,
+  "title": "Efficient Post-Training Refinement of Latent Reasoning in Large Language Models",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Reasoning is a key component of language understanding in Large Language Models. While Chain-of-Thought prompting enhances performance via explicit intermediate steps, it suffers from sufficient token overhead and a fixed reasoning trajectory, preventing step-wise refinement. Recent advances in latent reasoning address these limitations by refining internal reasoning processes directly in the model\u2019s latent space, without producing explicit outputs. However, a key challenge remains: how to effectively update reasoning embeddings during post-training to guide the model toward more accurate solutions. To overcome this challenge, we propose a lightweight post-training framework that refines latent reasoning trajectories using two novel strategies: (1) Contrastive reasoning feedback, which compares reasoning embeddings against strong and weak baselines to infer effective update directions via embedding enhancement; (2) Residual embedding refinement, which stabilizes updates by progressively integrating current and historical gradients, enabling fast yet controlled convergence. Extensive experiments and case studies are conducted on five reasoning benchmarks to demonstrate the effectiveness of the proposed framework. Notably, a +5% accuracy gain on MathQA without additional training."
+ },
+ {
+  "paper_id": 1835,
+  "title": "LR\u00b2Bench: Evaluating Long-chain Reflective Reasoning Capabilities of Large Language Models via Constraint Satisfaction Problems",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent progress in Large Reasoning Models (LRMs) has significantly enhanced the reasoning abilities of Large Language Models (LLMs), empowering them to tackle increasingly complex tasks through reflection capabilities, such as making assumptions, backtracking, and self-refinement.However, effectively evaluating such reflection capabilities remains challenging due to the lack of appropriate benchmarks.To bridge this gap, we introduce LR 2 Bench, a novel benchmark designed to evaluate the Long-chain Reflective Reasoning capabilities of LLMs.LR 2 Bench comprises 850 samples across six Constraint Satisfaction Problems (CSPs) where reflective reasoning is crucial for deriving solutions that meet all given constraints.Each type of task focuses on distinct constraint patterns, such as knowledge-based, logical, and spatial constraints, providing a comprehensive evaluation of diverse problem-solving scenarios.Our extensive evaluation on both conventional LLMs and LRMs reveals that even the most advanced LRMs, such as DeepSeek-R1 and OpenAI o1-preview, struggle with tasks in LR 2 Bench, achieving an average Exact Match score of only 20.0% and 23.6%, respectively.These findings underscore the significant room for improvement in the reflective reasoning capabilities of current LLMs."
+ },
+ {
+  "paper_id": 1836,
+  "title": "Generating Sequences by Learning to Self-Correct",
+  "year": 2022,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Sequence generation applications require satisfying semantic constraints, such as ensuring that programs are correct, using certain keywords, or avoiding undesirable content. Language models, whether fine-tuned or prompted with few-shot demonstrations, frequently violate these constraints, and lack a mechanism to iteratively revise their outputs. Moreover, some powerful language models are of extreme scale or inaccessible, making it inefficient, if not infeasible, to update their parameters for task-specific adaptation. We present Self-Correction, an approach that decouples an imperfect base generator (an off-the-shelf language model or supervised sequence-to-sequence model) from a separate corrector that learns to iteratively correct imperfect generations. To train the corrector, we propose an online training procedure that can use either scalar or natural language feedback on intermediate imperfect generations. We show that Self-Correction improves upon the base generator in three diverse generation tasks - mathematical program synthesis, lexically-constrained generation, and toxicity control - even when the corrector is much smaller than the base generator."
+ },
+ {
+  "paper_id": 1837,
+  "title": "Self-Corrective Task Planning by Inverse Prompting with Large Language Models",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In robot task planning, large language models (LLMs) have shown significant promise in generating complex and long-horizon action sequences. However, it is observed that LLMs often produce responses that sound plausible but are not accurate. To address these problems, existing methods typically employ predefined error sets or external knowledge sources, requiring human efforts and computation resources. Recently, self-correction approaches have emerged, where LLM generates and refines plans, identifying errors by itself. Despite their effectiveness, they are more prone to failures in correction due to insufficient reasoning. In this paper, we introduce InversePrompt, a novel self-corrective task planning approach that leverages inverse prompting to enhance interpretability. Our method incorporates reasoning steps to provide clear, interpretable feedback. It generates inverse actions corresponding to the initially generated actions and verifies whether these inverse actions can restore the system to its original state, explicitly validating the logical coherence of the generated plans. The results on benchmark datasets show an average 16.3% higher success rate over existing LLM-based task planning methods. Our approach offers clearer justifications for feedback in real-world environments, resulting in more successful task completion than existing self-correction approaches across various scenarios."
+ },
+ {
+  "paper_id": 1840,
+  "title": "Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) can correct their self-generated responses, but a decline in accuracy after self-correction is also witnessed.To have a deeper understanding of selfcorrection, we endeavor to decompose, evaluate, and analyze the self-correction behaviors of LLMs.By enumerating and analyzing answer correctness before and after self-correction, we decompose the self-correction capability into confidence (being confident to correct answers) and critique (turning wrong answers to correct) capabilities, and propose two metrics from a probabilistic perspective to measure these 2 capabilities, along with another metric for overall self-correction capability evaluation.Based on our decomposition and evaluation metrics, we conduct extensive experiments and draw some empirical conclusions.For example, we find different models can exhibit distinct behaviors: some models are confident while others are more critical.We also find the trade-off between the two capabilities (i.e.improving one can lead to a decline in the other) when manipulating model self-correction behavior by prompts or in-context learning.Further, we find a simple yet efficient strategy to improve self-correction capability by transforming Supervision Fine-Tuning (SFT) data format, and our strategy outperforms vanilla SFT in both capabilities and achieves much higher accuracy after self-correction.Our code is publicly available on GitHub."
+ },
+ {
+  "paper_id": 1842,
+  "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
+  "year": 2026,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models produce fluent text but struggle with systematic reasoning, often hallucinating confident but unfounded claims. When Apple researchers added irrelevant context to mathematical problems, LLM performance degraded by 65% Apple Machine Learning Research [2024a], exposing brittle pattern-matching beneath apparent reasoning. This epistemic gap-the inability to ground claims in traceable evidence-limits AI reliability in domains requiring justification. We introduce Pramana, a novel approach that teaches LLMs explicit epistemological methodology by fine-tuning on Navya-Nyaya logic, a 2,500-year-old Indian reasoning framework. Unlike generic chain-of-thought prompting, Navya-Nyaya enforces structured 6-phase reasoning: SAMSHAYA (doubt analysis), PRAMANA (evidence source identification), PANCHA AVAYAVA (5-member syllogism with universal rules), TARKA (counterfactual verification), HETVABHASA (fallacy detection), and NIRNAYA (ascertainment distinguishing knowledge from hypothesis). This integration of logic and epistemology provides cognitive scaffolding absent from standard reasoning approaches. We fine-tune Llama 3.2-3B and DeepSeek-R1-Distill-Llama-8B on 55 Nyaya-structured logical problems (constraint satisfaction, Boolean SAT, multi-step deduction). Stage 1 achieves 100% semantic correctness on held-out evaluation despite only 40% strict format adherence-revealing that models internalize reasoning content even when structural enforcement is imperfect. Ablation studies show format prompting and temperature critically affect performance, with optimal configurations differing by stage. We release all models, datasets, and training infrastructure on Hugging Face to enable further research on epistemic frameworks for AI reasoning."
+ },
+ {
+  "paper_id": 1844,
+  "title": "Adaptive In-Context Learning with Large Language Models for Bundle Generation",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Most existing bundle generation approaches fall short in generating fixed-size bundles. Furthermore, they often neglect the underlying user intents reflected by the bundles in the generation process, resulting in less intelligible bundles. This paper addresses these limitations through the exploration of two interrelated tasks, i.e., personalized bundle generation and the underlying intent inference, based on different user sessions. Inspired by the reasoning capabilities of large language models (LLMs), we propose an adaptive in-context learning paradigm, which allows LLMs to draw tailored lessons from related sessions as demonstrations, enhancing the performance on target sessions. Specifically, we first employ retrieval augmented generation to identify nearest neighbor sessions, and then carefully design prompts to guide LLMs in executing both tasks on these neighbor sessions. To tackle reliability and hallucination challenges, we further introduce (1) a self-correction strategy promoting mutual improvements of the two tasks without supervision signals and (2) an auto-feedback mechanism for adaptive supervision based on the distinct mistakes made by LLMs on different neighbor sessions. Thereby, the target session can gain customized lessons for improved performance by observing the demonstrations of its neighbor sessions. Experiments on three real-world datasets demonstrate the effectiveness of our proposed method."
+ },
+ {
+  "paper_id": 1847,
+  "title": "Learning to Check: Unleashing Potentials for Self-Correction in Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Self-correction has achieved impressive results in enhancing the style and security of the generated output from large language models (LLMs). However, recent studies suggest that self-correction might be limited or even counterproductive in reasoning tasks due to LLMs' difficulties in identifying logical mistakes. In this paper, we aim to enhance the self-checking capabilities of LLMs by constructing training data for checking tasks. Specifically, we apply the Chain of Thought (CoT) methodology to self-checking tasks, utilizing fine-grained step-level analyses and explanations to assess the correctness of reasoning paths. We propose a specialized checking format called \"Step CoT Check\". Following this format, we construct a checking-correction dataset that includes detailed step-by-step analysis and checking. Then we fine-tune LLMs to enhance their error detection and correction abilities. Our experiments demonstrate that fine-tuning with the \"Step CoT Check\" format significantly improves the self-checking and self-correction abilities of LLMs across multiple benchmarks. This approach outperforms other formats, especially in locating the incorrect position, with greater benefits observed in larger models. For reproducibility, all the datasets and code are provided in https://github.com/bammt/Learn-to-check."
+ },
+ {
+  "paper_id": 1848,
+  "title": "Converging Paradigms: The Synergy of Symbolic and Connectionist AI in LLM-Empowered Autonomous Agents",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "This article explores the convergence of connectionist and symbolic artificial intelligence (AI), from historical debates to contemporary advancements. Traditionally considered distinct paradigms, connectionist AI focuses on neural networks, while symbolic AI emphasizes symbolic representation and logic. Recent advancements in large language models (LLMs), exemplified by ChatGPT and GPT-4, highlight the potential of connectionist architectures in handling human language as a form of symbols. The study argues that LLM-empowered Autonomous Agents (LAAs) embody this paradigm convergence. By utilizing LLMs for text-based knowledge modeling and representation, LAAs integrate neuro-symbolic AI principles, showcasing enhanced reasoning and decision-making capabilities. Comparing LAAs with Knowledge Graphs within the neuro-symbolic AI theme highlights the unique strengths of LAAs in mimicking human-like reasoning processes, scaling effectively with large datasets, and leveraging in-context samples without explicit re-training. The research underscores promising avenues in neuro-vector-symbolic integration, instructional encoding, and implicit reasoning, aimed at further enhancing LAA capabilities. By exploring the progression of neuro-symbolic AI and proposing future research trajectories, this work advances the understanding and development of AI technologies."
+ },
+ {
+  "paper_id": 1849,
+  "title": "Understanding the Dark Side of LLMs\u2019 Intrinsic Self-Correction",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Qingjie Zhang, Di Wang, Haoting Qian, Yiming Li, Tianwei Zhang, Minlie Huang, Ke Xu, Hewu Li, Liu Yan, Han Qiu. Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025."
+ },
+ {
+  "paper_id": 1852,
+  "title": "Deliberative Alignment: Reasoning Enables Safer Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "As large-scale language models increasingly impact safety-critical domains, ensuring their reliable adherence to well-defined principles remains a fundamental challenge. We introduce Deliberative Alignment, a new paradigm that directly teaches the model safety specifications and trains it to explicitly recall and accurately reason over the specifications before answering. We used this approach to align OpenAI's o-series models, and achieved highly precise adherence to OpenAI's safety policies, without requiring human-written chain-of-thoughts or answers. Deliberative Alignment pushes the Pareto frontier by simultaneously increasing robustness to jailbreaks while decreasing overrefusal rates, and also improves out-of-distribution generalization. We demonstrate that reasoning over explicitly specified policies enables more scalable, trustworthy, and interpretable alignment."
+ },
+ {
+  "paper_id": 1853,
+  "title": "AmadeusGPT: a natural language interface for interactive animal behavioral analysis",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The process of quantifying and analyzing animal behavior involves translating the naturally occurring descriptive language of their actions into machine-readable code. Yet, codifying behavior analysis is often challenging without deep understanding of animal behavior and technical machine learning knowledge. To limit this gap, we introduce AmadeusGPT: a natural language interface that turns natural language descriptions of behaviors into machine-executable code. Large-language models (LLMs) such as GPT3.5 and GPT4 allow for interactive language-based queries that are potentially well suited for making interactive behavior analysis. However, the comprehension capability of these LLMs is limited by the context window size, which prevents it from remembering distant conversations. To overcome the context window limitation, we implement a novel dual-memory mechanism to allow communication between short-term and long-term memory using symbols as context pointers for retrieval and saving. Concretely, users directly use language-based definitions of behavior and our augmented GPT develops code based on the core AmadeusGPT API, which contains machine learning, computer vision, spatio-temporal reasoning, and visualization modules. Users then can interactively refine results, and seamlessly add new behavioral modules as needed. We benchmark AmadeusGPT and show we can produce state-of-the-art performance on the MABE 2022 behavior challenge tasks. Note, an end-user would not need to write any code to achieve this. Thus, collectively AmadeusGPT presents a novel way to merge deep biological knowledge, large-language models, and core computer vision modules into a more naturally intelligent system. Code and demos can be found at: https://github.com/AdaptiveMotorControlLab/AmadeusGPT."
+ },
+ {
+  "paper_id": 1854,
+  "title": "ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have shown remarkable capabilities in reasoning, exemplified by the success of OpenAI-o1 and DeepSeek-R1. However, integrating reasoning with external search processes remains challenging, especially for complex multi-hop questions requiring multiple retrieval steps. We propose ReSearch, a novel framework that trains LLMs to Reason with Search via reinforcement learning without using any supervised data on reasoning steps. Our approach treats search operations as integral components of the reasoning chain, where when and how to perform searches is guided by text-based thinking, and search results subsequently influence further reasoning. We train ReSearch on Qwen2.5-7B(-Instruct) and Qwen2.5-32B(-Instruct) models and conduct extensive experiments. Despite being trained on only one dataset, our models demonstrate strong generalizability across various benchmarks. Analysis reveals that ReSearch naturally elicits advanced reasoning capabilities such as reflection and self-correction during the reinforcement learning process."
+ },
+ {
+  "paper_id": 1855,
+  "title": "Explainable Sentiment Analysis With DeepSeek-R1: Performance, Efficiency, and Few-Shot Learning",
+  "year": 2025,
+  "venue": "IEEE Intelligent Systems",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have transformed sentiment analysis, yet balancing accuracy, efficiency, and explainability remains a critical challenge. This study presents the first comprehensive evaluation of DeepSeek-R1\u2014an open-source reasoning model\u2014against OpenAI\u2019s GPT-4o and GPT-4o-mini. We test the full 671B model and its distilled variants, systematically documenting few-shot learning curves. Our experiments show DeepSeek-R1 achieves a 91.39% F1 score on 5-class sentiment and 99.31% accuracy on binary tasks with just 5 shots, an eightfold improvement in few-shot efficiency over GPT-4o. Architecture-specific distillation effects emerge, where a 32B Qwen2.5-based model outperforms the 70B Llama-based variant by 6.69 percentage points. While its reasoning process reduces throughput, DeepSeek-R1 offers superior explainability via transparent, step-by-step traces, establishing it as a powerful, interpretable open-source alternative."
+ },
+ {
+  "paper_id": 1858,
+  "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+  "year": 2026,
+  "venue": "Research Square",
+  "source": "openalex",
+  "abstract": ""
+ }
+]

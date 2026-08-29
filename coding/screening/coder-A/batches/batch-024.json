@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 2900,
+  "title": "A Critical Evaluation of AI Feedback for Aligning Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Reinforcement learning with AI feedback (RLAIF) is a popular paradigm for improving the instruction-following abilities of powerful pre-trained language models. RLAIF first performs supervised fine-tuning (SFT) using demonstrations from a teacher model and then further fine-tunes the model with reinforcement learning (RL), using feedback from a critic model. While recent popular open-source models have demonstrated substantial improvements in performance from the RL step, in this paper we question whether the complexity of this RL step is truly warranted for AI feedback. We show that the improvements of the RL step are virtually entirely due to the widespread practice of using a weaker teacher model (e.g. GPT-3.5) for SFT data collection than the critic (e.g., GPT-4) used for AI feedback generation. Specifically, we show that simple supervised fine-tuning with GPT-4 as the teacher outperforms existing RLAIF pipelines. More generally, we find that the gains from RLAIF vary substantially across base model families, test-time evaluation protocols, and critic models. Finally, we provide a mechanistic explanation for when SFT may outperform the full two-step RLAIF pipeline as well as suggestions for making RLAIF maximally useful in practice."
+ },
+ {
+  "paper_id": 2907,
+  "title": "Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Many approaches to Natural Language Processing (NLP) tasks often treat them as single-step problems, where an agent receives an instruction, executes it, and is evaluated based on the final outcome. However, human language is inherently interactive, as evidenced by the back-and-forth nature of human conversations. In light of this, we posit that human-AI collaboration should also be interactive, with humans monitoring the work of AI agents and providing feedback that the agent can understand and utilize. Further, the AI agent should be able to detect when it needs additional information and proactively ask for help. Enabling this scenario would lead to more natural, efficient, and engaging human-AI collaborations.   In this work, we explore these directions using the challenging task defined by the IGLU competition, an interactive grounded language understanding task in a MineCraft-like world. We explore multiple types of help players can give to the AI to guide it and analyze the impact of this help in AI behavior, resulting in performance improvements."
+ },
+ {
+  "paper_id": 2910,
+  "title": "Towards Aligning Language Models with Textual Feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We present ALT (ALignment with Textual feedback), an approach that aligns language models with user preferences expressed in text. We argue that text offers greater expressiveness, enabling users to provide richer feedback than simple comparative preferences and this richer feedback can lead to more efficient and effective alignment. ALT aligns the model by conditioning its generation on the textual feedback. Our method relies solely on language modeling techniques and requires minimal hyper-parameter tuning, though it still presents the main benefits of RL-based alignment algorithms and can effectively learn from textual feedback. We explore the efficacy and efficiency of textual feedback across different tasks such as toxicity reduction, summarization, and dialog response generation. We find that ALT outperforms PPO for the task of toxicity reduction while being able to match its performance on summarization with only 20% of the samples. We also explore how ALT can be used with feedback provided by an existing LLM where we explore an LLM providing constrained and unconstrained textual feedback. We also outline future directions to align models with natural language feedback."
+ },
+ {
+  "paper_id": 2911,
+  "title": "Your Code Agent Can Grow Alongside You with Structured Memory",
+  "year": 2026,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "While \"Intent-oriented programming\" (or \"Vibe Coding\") redefines software engineering, existing code agents remain tethered to static code snapshots. Consequently, they struggle to model the critical information embedded in the temporal evolution of projects, failing to leverage the \"reasoning trajectories\" implicit in past successful practices. This limitation results in rigid behavioral logic and a lack of autonomous adaptability, ultimately hindering their ability to tackle complex, repository-level problems. To bridge this static-dynamic mismatch, we propose MemCoder, a framework designed to enable continual human-AI co-evolution. MemCoder first structures historical human experience to distill latent intent-to-code mappings from past commits. It then employs a self-refinement mechanism driven by verification feedback to correct agent behavior in real-time. Crucially, an experience self-internalization mechanism is introduced to crystallize human-validated solutions into long-term knowledge, thereby supporting sustained evolution. Experimental results on SWE-bench Verified demonstrate that MemCoder not only achieves State-of-the-Art (SOTA) performance but also delivers a 9.4% improvement in resolved rate over the general foundation model DeepSeek-V3.2. These findings indicate that equipping agents with the capability to co-evolve with humans via project history and real-time feedback effectively unlocks the potential of general models in complex software engineering tasks."
+ },
+ {
+  "paper_id": 2917,
+  "title": "The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have recently transformed from text-based assistants to autonomous agents capable of planning, reasoning, and iteratively improving their actions. While numerical reward signals and verifiers can effectively rank candidate actions, they often provide limited contextual guidance. In contrast, natural language feedback better aligns with the generative capabilities of LLMs, providing richer and more actionable suggestions. However, parsing and implementing this feedback effectively can be challenging for LLM-based agents. In this work, we introduce Critique-Guided Improvement (CGI), a novel two-player framework, comprising an actor model that explores an environment and a critic model that generates detailed nature language feedback. By training the critic to produce fine-grained assessments and actionable revisions, and the actor to utilize these critiques, our approach promotes more robust exploration of alternative strategies while avoiding local optima. Experiments in three interactive environments show that CGI outperforms existing baselines by a substantial margin. Notably, even a small critic model surpasses GPT-4 in feedback quality. The resulting actor achieves state-of-the-art performance, demonstrating the power of explicit iterative guidance to enhance decision-making in LLM-based agents."
+ },
+ {
+  "paper_id": 2920,
+  "title": "Improving Text-to-Audio Instruction Following via Fine-Grained Feedback from Audio-Aware Large Language Models",
+  "year": 2026,
+  "venue": "arXiv:eess.AS",
+  "source": "arxiv",
+  "abstract": "Recent text-to-audio models generate high-quality audio, but often fail to follow instructions involving multiple sound events and temporal order. This gap arises because existing evaluation and training signals mainly emphasize global similarity or perceptual quality, with limited supervision on instruction-level correctness. We propose an instruction-level framework that uses audio-aware large language models (ALLMs) as fine-grained judges to verify target event presence and temporal relations in generated audio. After validating ALLM judgments on benchmarks and through human verification, we use their feedback to construct preference pairs for direct preference optimization. We further introduce S3Bench, a narrative benchmark for evaluating multi-event temporal instruction following. Experiments show that our method improves event completeness, temporal ordering, and joint instruction-following accuracy across existing benchmarks and S3Bench, while maintaining audio quality."
+ },
+ {
+  "paper_id": 2925,
+  "title": "A New Query Expansion Approach via Agent-Mediated Dialogic Inquiry",
+  "year": 2025,
+  "venue": "arXiv:cs.IR",
+  "source": "arxiv",
+  "abstract": "Query expansion is widely used in Information Retrieval (IR) to improve search outcomes by supplementing initial queries with richer information. While recent Large Language Model (LLM) based methods generate pseudo-relevant content and expanded terms via multiple prompts, they often yield homogeneous, narrow expansions that lack the diverse context needed to retrieve relevant information. In this paper, we propose AMD: a new Agent-Mediated Dialogic Framework that engages in a dialogic inquiry involving three specialized roles: (1) a Socratic Questioning Agent reformulates the initial query into three sub-questions, with each question inspired by a specific Socratic questioning dimension, including clarification, assumption probing, and implication probing, (2) a Dialogic Answering Agent generates pseudo-answers, enriching the query representation with multiple perspectives aligned to the user's intent, and (3) a Reflective Feedback Agent evaluates and refines these pseudo-answers, ensuring that only the most relevant and informative content is retained. By leveraging a multi-agent process, AMD effectively crafts richer query representations through inquiry and feedback refinement. Extensive experiments on benchmarks including BEIR and TREC demonstrate that our framework outperforms previous methods, offering a robust solution for retrieval tasks."
+ },
+ {
+  "paper_id": 2935,
+  "title": "AdaPlanner: Adaptive Planning from Feedback with Language Models",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) have recently demonstrated the potential in acting as autonomous agents for sequential decision-making tasks. However, most existing methods either take actions greedily without planning or rely on static plans that are not adaptable to environmental feedback. Consequently, the sequential decision-making performance of LLM agents degenerates with problem complexity and plan horizons increase. We propose a closed-loop approach, AdaPlanner, which allows the LLM agent to refine its self-generated plan adaptively in response to environmental feedback. In AdaPlanner, the LLM agent adaptively refines its plan from feedback with both in-plan and out-of-plan refinement strategies. To mitigate hallucination, we develop a code-style LLM prompt structure that facilitates plan generation across a variety of tasks, environments, and agent capabilities. Furthermore, we propose a skill discovery mechanism that leverages successful plans as few-shot exemplars, enabling the agent to plan and refine with fewer task demonstrations. Our experiments in the ALFWorld and MiniWoB++ environments demonstrate that AdaPlanner outperforms state-of-the-art baselines by 3.73% and 4.11% while utilizing 2x and 600x fewer samples, respectively."
+ },
+ {
+  "paper_id": 2937,
+  "title": "AI-Press: A Multi-Agent News Generating and Feedback Simulation System Powered by Large Language Models",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The rise of various social platforms has transformed journalism. The growing demand for news content has led to the increased use of large language models (LLMs) in news production due to their speed and cost-effectiveness. However, LLMs still encounter limitations in professionalism and ethical judgment in news generation. Additionally, predicting public feedback is usually difficult before news is released. To tackle these challenges, we introduce AI-Press, an automated news drafting and polishing system based on multi-agent collaboration and Retrieval-Augmented Generation. We develop a feedback simulation system that generates public feedback considering demographic distributions. Through extensive quantitative and qualitative evaluations, our system shows significant improvements in news-generating capabilities and verifies the effectiveness of public feedback simulation."
+ },
+ {
+  "paper_id": 2945,
+  "title": "A Multi-agent Text2SQL Framework using Small Language Models and Execution Feedback",
+  "year": 2025,
+  "venue": "arXiv:cs.DB",
+  "source": "arxiv",
+  "abstract": "Text2SQL, the task of generating SQL queries from natural language text, is a critical challenge in data engineering. Recently, Large Language Models (LLMs) have demonstrated superior performance for this task due to their advanced comprehension and generation capabilities. However, privacy and cost considerations prevent companies from using Text2SQL solutions based on external LLMs offered as a service. Rather, small LLMs (SLMs) that are openly available and can hosted in-house are adopted. These SLMs, in turn, lack the generalization capabilities of larger LLMs, which impairs their effectiveness for complex tasks such as Text2SQL. To address these limitations, we propose MATS, a novel Text2SQL framework designed specifically for SLMs. MATS uses a multi-agent mechanism that assigns specialized roles to auxiliary agents, reducing individual workloads and fostering interaction. A training scheme based on reinforcement learning aligns these agents using feedback obtained during execution, thereby maintaining competitive performance despite a limited LLM size. Evaluation results using on benchmark datasets show that MATS, deployed on a single- GPU server, yields accuracy that are on-par with large-scale LLMs when using significantly fewer parameters. Our source code and data are available at https://github.com/thanhdath/mats-sql."
+ },
+ {
+  "paper_id": 2948,
+  "title": "Policy Improvement using Language Feedback Models",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "We introduce Language Feedback Models (LFMs) that identify desirable behaviour - actions that help achieve tasks specified in the instruction - for imitation learning in instruction following. To train LFMs, we obtain feedback from Large Language Models (LLMs) on visual trajectories verbalized to language descriptions. First, by using LFMs to identify desirable behaviour to imitate, we improve in task-completion rate over strong behavioural cloning baselines on three distinct language grounding environments (Touchdown, ScienceWorld, and ALFWorld). Second, LFMs outperform using LLMs as experts to directly predict actions, when controlling for the number of LLM output tokens. Third, LFMs generalize to unseen environments, improving task-completion rate by 3.5-12.0% through one round of adaptation. Finally, LFM can be modified to provide human-interpretable feedback without performance loss, allowing human verification of desirable behaviour for imitation learning."
+ },
+ {
+  "paper_id": 2952,
+  "title": "Evaluating the role of `Constitutions' for learning from AI feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "The growing capabilities of large language models (LLMs) have led to their use as substitutes for human feedback for training and assessing other LLMs. These methods often rely on `constitutions', written guidelines which a critic model uses to provide feedback and improve generations. We investigate how the choice of constitution affects feedback quality by using four different constitutions to improve patient-centered communication in medical interviews. In pairwise comparisons conducted by 215 human raters, we found that detailed constitutions led to better results regarding emotive qualities. However, none of the constitutions outperformed the baseline in learning more practically-oriented skills related to information gathering and provision. Our findings indicate that while detailed constitutions should be prioritised, there are possible limitations to the effectiveness of AI feedback as a reward signal in certain areas."
+ },
+ {
+  "paper_id": 2953,
+  "title": "Can a Unimodal Language Agent Provide Preferences to Tune a Multimodal Vision-Language Model?",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "To explore a more scalable path for adding multimodal capabilities to existing LLMs, this paper addresses a fundamental question: Can a unimodal LLM, relying solely on text, reason about its own informational needs and provide effective feedback to optimize a multimodal model? To answer this, we propose a method that enables a language agent to give feedback to a vision-language model (VLM) to adapt text generation to the agent's preferences. Our results from different experiments affirm this hypothesis, showing that LLM preference feedback significantly enhances VLM descriptions. Using our proposed method, we find that the VLM can generate multimodal scene descriptions to help the LLM better understand multimodal context, leading to improvements of maximum 13% in absolute accuracy compared to the baseline multimodal approach. Furthermore, a human study validated our AI-driven feedback, showing a 64.6% preference alignment rate between the LLM's choices and human judgments. Extensive experiments provide insights on how and why the method works and its limitations."
+ },
+ {
+  "paper_id": 2958,
+  "title": "Data-Efficient Alignment of Large Language Models with Human Feedback Through Natural Language",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Learning from human feedback is a prominent technique to align the output of large language models (LLMs) with human expectations. Reinforcement learning from human feedback (RLHF) leverages human preference signals that are in the form of ranking of response pairs to perform this alignment. However, human preference on LLM outputs can come in much richer forms including natural language, which may provide detailed feedback on strengths and weaknesses of a given response. In this work we investigate data efficiency of modeling human feedback that is in natural language. Specifically, we fine-tune an open-source LLM, e.g., Falcon-40B-Instruct, on a relatively small amount (1000 records or even less) of human feedback in natural language in the form of critiques and revisions of responses. We show that this model is able to improve the quality of responses from even some of the strongest LLMs such as ChatGPT, BARD, and Vicuna, through critique and revision of those responses. For instance, through one iteration of revision of ChatGPT responses, the revised responses have 56.6% win rate over the original ones, and this win rate can be further improved to 65.9% after applying the revision for five iterations."
+ },
+ {
+  "paper_id": 2971,
+  "title": "RL4F: Generating Natural Language Feedback with Reinforcement Learning for Repairing Model Outputs",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Despite their unprecedented success, even the largest language models make mistakes. Similar to how humans learn and improve using feedback, previous work proposed providing language models with natural language feedback to guide them in repairing their outputs. Because human-generated critiques are expensive to obtain, researchers have devised learned critique generators in lieu of human critics while assuming one can train downstream models to utilize generated feedback. However, this approach does not apply to black-box or limited access models such as ChatGPT, as they cannot be fine-tuned. Moreover, in the era of large general-purpose language agents, fine-tuning is neither computationally nor spatially efficient as it results in multiple copies of the network. In this work, we introduce RL4F (Reinforcement Learning for Feedback), a multi-agent collaborative framework where the critique generator is trained to maximize end-task performance of GPT-3, a fixed model more than 200 times its size. RL4F produces critiques that help GPT-3 revise its outputs. We study three datasets for action planning, summarization and alphabetization and show relative improvements up to 10% in multiple text similarity metrics over other learned, retrieval-augmented or prompting-based critique generators."
+ },
+ {
+  "paper_id": 2973,
+  "title": "InstructPatentGPT: Training patent language models to follow instructions with human feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "In this research, patent prosecution is conceptualized as a system of reinforcement learning from human feedback. The objective of the system is to increase the likelihood for a language model to generate patent claims that have a higher chance of being granted. To showcase the controllability of the language model, the system learns from granted patents and pre-grant applications with different rewards. The status of \"granted\" and \"pre-grant\" are perceived as labeled human feedback implicitly. In addition, specific to patent drafting, the experiments in this research demonstrate the model's capability to learn from adjusting claim length and inclusion of limiting terms for narrowing claim scope. As proof of concept, the experiments focus on claim ones only and the training data originates from a patent dataset tailored specifically for artificial intelligence. Although the available human feedback in patent prosecution are limited and the quality of generated patent text requires improvement, the experiments following the 3-stage reinforcement learning from human feedback have demonstrated that generative language models are capable of reflecting the human feedback or intent in patent prosecution. To enhance the usability of language models, the implementation in this research utilizes modern techniques that enable execution on a single consumer-grade GPU. The demonstrated proof of concept, which reduces hardware requirements, will prove valuable in the future as more human feedback in patent prosecution become available for broader use, either within patent offices or in the public domain."
+ },
+ {
+  "paper_id": 2986,
+  "title": "Online Preference-based Reinforcement Learning with Self-augmented Feedback from Large Language Model",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Preference-based reinforcement learning (PbRL) provides a powerful paradigm to avoid meticulous reward engineering by learning rewards based on human preferences. However, real-time human feedback is hard to obtain in online tasks. Most work suppose there is a \"scripted teacher\" that utilizes privileged predefined reward to provide preference feedback. In this paper, we propose a RL Self-augmented Large Language Model Feedback (RL-SaLLM-F) technique that does not rely on privileged information for online PbRL. RL-SaLLM-F leverages the reflective and discriminative capabilities of LLM to generate self-augmented trajectories and provide preference labels for reward learning. First, we identify an failure issue in LLM-based preference discrimination, specifically \"query ambiguity\", in online PbRL. Then LLM is employed to provide preference labels and generate self-augmented imagined trajectories that better achieve the task goal, thereby enhancing the quality and efficiency of feedback. Additionally, a double-check mechanism is introduced to mitigate randomness in the preference labels, improving the reliability of LLM feedback. The experiment across multiple tasks in the MetaWorld benchmark demonstrates the specific contributions of each proposed module in RL-SaLLM-F, and shows that self-augmented LLM feedback can effectively replace the impractical \"scripted teacher\" feedback. In summary, RL-SaLLM-F introduces a new direction of feedback acquisition in online PbRL that does not rely on any online privileged information, offering an efficient and lightweight solution with LLM-driven feedback."
+ },
+ {
+  "paper_id": 2987,
+  "title": "Agentic Feedback Loop Modeling Improves Recommendation and User Simulation",
+  "year": 2024,
+  "venue": "arXiv:cs.IR",
+  "source": "arxiv",
+  "abstract": "Large language model-based agents are increasingly applied in the recommendation field due to their extensive knowledge and strong planning capabilities. While prior research has primarily focused on enhancing either the recommendation agent or the user agent individually, the collaborative interaction between the two has often been overlooked. Towards this research gap, we propose a novel framework that emphasizes the feedback loop process to facilitate the collaboration between the recommendation agent and the user agent. Specifically, the recommendation agent refines its understanding of user preferences by analyzing the feedback from the user agent on the item recommendation. Conversely, the user agent further identifies potential user interests based on the items and recommendation reasons provided by the recommendation agent. This iterative process enhances the ability of both agents to infer user behaviors, enabling more effective item recommendations and more accurate user simulations. Extensive experiments on three datasets demonstrate the effectiveness of the agentic feedback loop: the agentic feedback loop yields an average improvement of 11.52% over the single recommendation agent and 21.12% over the single user agent. Furthermore, the results show that the agentic feedback loop does not exacerbate popularity or position bias, which are typically amplified by the real-world feedback loop, highlighting its robustness. The source code is available at https://github.com/Lanyu0303/AFL."
+ },
+ {
+  "paper_id": 2989,
+  "title": "Online Intrinsic Rewards for Decision Making Agents from Large Language Model Feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Automatically synthesizing dense rewards from natural language descriptions is a promising paradigm in reinforcement learning (RL), with applications to sparse reward problems, open-ended exploration, and hierarchical skill design. Recent works have made promising steps by exploiting the prior knowledge of large language models (LLMs). However, these approaches suffer from important limitations: they are either not scalable to problems requiring billions of environment samples, due to requiring LLM annotations for each observation, or they require a diverse offline dataset, which may not exist or be impossible to collect. In this work, we address these limitations through a combination of algorithmic and systems-level contributions. We propose ONI, a distributed architecture that simultaneously learns an RL policy and an intrinsic reward function using LLM feedback. Our approach annotates the agent's collected experience via an asynchronous LLM server, which is then distilled into an intrinsic reward model. We explore a range of algorithmic choices for reward modeling with varying complexity, including hashing, classification, and ranking models. Our approach achieves state-of-the-art performance across a range of challenging tasks from the NetHack Learning Environment, while removing the need for large offline datasets required by prior work. We make our code available at https://github.com/facebookresearch/oni."
+ },
+ {
+  "paper_id": 2990,
+  "title": "AdaRefiner: Refining Decisions of Language Models with Adaptive Feedback",
+  "year": 2023,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have demonstrated significant success across various domains. However, their application in complex decision-making tasks frequently necessitates intricate prompt engineering or fine-tuning, leading to challenges in unseen downstream tasks and heavy demands on computational resources. Meanwhile, Reinforcement Learning (RL) has been recognized as effective in decision-making problems but struggles in environments with sparse rewards, such as open-world games. To overcome these challenges, we introduce AdaRefiner, a novel framework designed to enhance the synergy between LLMs and RL feedback. The key component of AdaRefiner is a lightweight Adapter Language Model (LM), which automatically refines task comprehension based on feedback from RL agents. This method mitigates the need for intricate prompt engineering and intensive LLM fine-tuning while maintaining the LLMs' generalization abilities and enhancing their decision-making capabilities in downstream tasks. Empirical evaluations of AdaRefiner on 22 diverse tasks within the open-world game Crafter have demonstrated its superior effectiveness, especially in guiding agents towards higher-level and common-sense skills. Our work makes contributions to the automatic self-refinement of LLMs with RL feedback, offering a more adaptable and efficient solution for complex decision-making problems."
+ },
+ {
+  "paper_id": 3005,
+  "title": "UltraFeedback: Boosting Language Models with Scaled AI Feedback",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Learning from human feedback has become a pivot technique in aligning large language models (LLMs) with human preferences. However, acquiring vast and premium human feedback is bottlenecked by time, labor, and human capability, resulting in small sizes or limited topics of current datasets. This further hinders feedback learning as well as alignment research within the open-source community. To address this issue, we explore how to go beyond human feedback and collect high-quality \\textit{AI feedback} automatically for a scalable alternative. Specifically, we identify \\textbf{scale and diversity} as the key factors for feedback data to take effect. Accordingly, we first broaden instructions and responses in both amount and breadth to encompass a wider range of user-assistant interactions. Then, we meticulously apply a series of techniques to mitigate annotation biases for more reliable AI feedback. We finally present \\textsc{UltraFeedback}, a large-scale, high-quality, and diversified AI feedback dataset, which contains over 1 million GPT-4 feedback for 250k user-assistant conversations from various aspects. Built upon \\textsc{UltraFeedback}, we align a LLaMA-based model by best-of-$n$ sampling and reinforcement learning, demonstrating its exceptional performance on chat benchmarks. Our work validates the effectiveness of scaled AI feedback data in constructing strong open-source chat language models, serving as a solid foundation for future feedback learning research. Our data and models are available at https://github.com/thunlp/UltraFeedback."
+ },
+ {
+  "paper_id": 3011,
+  "title": "Risks of AI scientists: prioritizing safeguarding over autonomy",
+  "year": 2025,
+  "venue": "Nature Communications",
+  "source": "openalex",
+  "abstract": "AI scientists powered by large language models have demonstrated substantial promise in autonomously conducting experiments and facilitating scientific discoveries across various disciplines. While their capabilities are promising, these agents also introduce novel vulnerabilities that require careful consideration for safety. However, there has been limited comprehensive exploration of these vulnerabilities. This perspective examines vulnerabilities in AI scientists, shedding light on potential risks associated with their misuse, and emphasizing the need for safety measures. We begin by providing an overview of the potential risks inherent to AI scientists, taking into account user intent, the specific scientific domain, and their potential impact on the external environment. Then, we explore the underlying causes of these vulnerabilities and provide a scoping review of the limited existing works. Based on our analysis, we propose a triadic framework involving human regulation, agent alignment, and an understanding of environmental feedback (agent regulation) to mitigate these identified risks. Furthermore, we highlight the limitations and challenges associated with safeguarding AI scientists and advocate for the development of improved models, robust benchmarks, and comprehensive regulations."
+ },
+ {
+  "paper_id": 3014,
+  "title": "Secrets of RLHF in Large Language Models Part I: PPO",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have formulated a blueprint for the advancement of artificial general intelligence. Its primary objective is to function as a human-centric (helpful, honest, and harmless) assistant. Alignment with humans assumes paramount significance, and reinforcement learning with human feedback (RLHF) emerges as the pivotal technological paradigm underpinning this pursuit. Current technical routes usually include \\textbf{reward models} to measure human preferences, \\textbf{Proximal Policy Optimization} (PPO) to optimize policy model outputs, and \\textbf{process supervision} to improve step-by-step reasoning capabilities. However, due to the challenges of reward design, environment interaction, and agent training, coupled with huge trial and error cost of large language models, there is a significant barrier for AI researchers to motivate the development of technical alignment and safe landing of LLMs. The stable training of RLHF has still been a puzzle. In the first report, we dissect the framework of RLHF, re-evaluate the inner workings of PPO, and explore how the parts comprising PPO algorithms impact policy agent training. We identify policy constraints being the key factor for the effective implementation of the PPO algorithm. Therefore, we explore the PPO-max, an advanced version of PPO algorithm, to efficiently improve the training stability of the policy model. Based on our main results, we perform a comprehensive analysis of RLHF abilities compared with SFT models and ChatGPT. The absence of open-source implementations has posed significant challenges to the investigation of LLMs alignment. Therefore, we are eager to release technical reports, reward models and PPO codes, aiming to make modest contributions to the advancement of LLMs."
+ },
+ {
+  "paper_id": 3015,
+  "title": "Risks of AI Scientists: Prioritizing Safeguarding Over Autonomy",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "AI scientists powered by large language models have demonstrated substantial promise in autonomously conducting experiments and facilitating scientific discoveries across various disciplines. While their capabilities are promising, these agents also introduce novel vulnerabilities that require careful consideration for safety. However, there has been limited comprehensive exploration of these vulnerabilities. This perspective examines vulnerabilities in AI scientists, shedding light on potential risks associated with their misuse, and emphasizing the need for safety measures. We begin by providing an overview of the potential risks inherent to AI scientists, taking into account user intent, the specific scientific domain, and their potential impact on the external environment. Then, we explore the underlying causes of these vulnerabilities and provide a scoping review of the limited existing works. Based on our analysis, we propose a triadic framework involving human regulation, agent alignment, and an understanding of environmental feedback (agent regulation) to mitigate these identified risks. Furthermore, we highlight the limitations and challenges associated with safeguarding AI scientists and advocate for the development of improved models, robust benchmarks, and comprehensive regulations."
+ },
+ {
+  "paper_id": 3016,
+  "title": "Personalized Abstractive Summarization by Tri-agent Generation Pipeline",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Tailoring outputs from large language models, like ChatGPT, to implicit user preferences remains a challenge despite their impressive generative capabilities. In this paper, we propose a tri-agent generation pipeline comprising a generator, an instructor, and an editor to enhance output personalization. The generator produces an initial output, the instructor automatically generates editing instructions based on user preferences, and the editor refines the output to align with those preferences. The inference-only large language model (ChatGPT) serves as both the generator and editor, with a smaller model acting as the instructor to guide output generation. We train the instructor using editor-steered reinforcement learning, leveraging feedback from a large-scale editor model to optimize instruction generation. Experimental results on two abstractive summarization datasets demonstrate the effectiveness of our approach in generating outputs that better meet user expectations. Code is available at \\url{https://github.com/Wendy-Xiao/chatgpt_editing_summ}"
+ },
+ {
+  "paper_id": 3019,
+  "title": "RAG-Critic: Leveraging Automated Critic-Guided Agentic Workflow for Retrieval Augmented Generation",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Retrieval-augmented generation (RAG) has emerged as a pivotal technology in natural language processing, owing to its efficacy in generating factual content.However, its informative inputs and complex paradigms often lead to a greater variety of errors.Consequently, achieving automated on-policy assessment and error-oriented correction remains an unresolved issue.In this paper, we propose RAG-Critic, a novel framework that leverages a critic-guided agentic workflow to improve RAG capabilities autonomously.Specifically, we initially design a data-driven error mining pipeline to establish a hierarchical RAG error system.Based on this system, we progressively align an errorcritic model using a coarse-to-fine training objective, which automatically provides finegrained error feedback.Finally, we design a critic-guided agentic RAG workflow that customizes executor-based solution flows based on the error-critic model's feedback, facilitating an error-driven self-correction process.Experimental results across seven RAG-related datasets confirm the effectiveness of RAG-Critic, while qualitative analysis offers practical insights for achieving reliable RAG systems.Our dataset and code are available at https: //github.com/RUC-NLPIR/RAG-Critic."
+ },
+ {
+  "paper_id": 3021,
+  "title": "Threats and vulnerabilities in artificial intelligence and agentic AI models",
+  "year": 2026,
+  "venue": "Frontiers in Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Introduction: Adversarial robustness in artificial intelligence is commonly defined in terms of input-level perturbations applied to static models. This study reconceptualises adversarial vulnerability for artificial and agentic AI systems by extending the threat model to autonomy, self-governance, and closed-loop decision-making, where behaviour unfolds dynamically through feedback and control. Methods: We develop a system-level analytical framework that formalises adversarial risk across perceptual, cognitive, and executive layers. The analysis is grounded in a PRISMA-compliant systematic literature review, bibliometric mapping, and targeted empirical validation. Established adversarial results from vision benchmarks and recent large-language-model red-teaming studies are synthesised to contextualise the framework, rather than to introduce new benchmark performance claims. Results: The results demonstrate that no single defence mechanism provides robustness across all layers of agentic AI systems. Adversarial vulnerabilities propagate from perception to policy and actuation, with architectural similarity, domain shift, and feedback dynamics critically shaping transferability and failure modes. These effects have direct implications for safety-critical applications, including autonomous mobility, healthcare imaging, and biometric security. Discussion: By framing higher-order agentic adversarial threats as hypothesis-driven, system-level risks, this work shifts adversarial AI security from benchmark-centric evaluation to behavioural integrity and lifecycle resilience. The proposed framework defines a coherent research agenda for agentic AI security that integrates control-theoretic reasoning and governance-aware defence design, addressing limitations of classical adversarial machine-learning theory."
+ },
+ {
+  "paper_id": 3022,
+  "title": "LLM Critics Help Catch LLM Bugs",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Reinforcement learning from human feedback (RLHF) is fundamentally limited by the capacity of humans to correctly evaluate model output. To improve human evaluation ability and overcome that limitation this work trains \"critic\" models that help humans to more accurately evaluate model-written code. These critics are themselves LLMs trained with RLHF to write natural language feedback highlighting problems in code from real-world assistant tasks. On code containing naturally occurring LLM errors model-written critiques are preferred over human critiques in 63% of cases, and human evaluation finds that models catch more bugs than human contractors paid for code review. We further confirm that our fine-tuned LLM critics can successfully identify hundreds of errors in ChatGPT training data rated as \"flawless\", even though the majority of those tasks are non-code tasks and thus out-of-distribution for the critic model. Critics can have limitations of their own, including hallucinated bugs that could mislead humans into making mistakes they might have otherwise avoided, but human-machine teams of critics and contractors catch similar numbers of bugs to LLM critics while hallucinating less than LLMs alone."
+ },
+ {
+  "paper_id": 3027,
+  "title": "PRefLexOR: Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning and Agentic Thinking",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "PRefLexOR (Preference-based Recursive Language Modeling for Exploratory Optimization of Reasoning) combines preference optimization with concepts from Reinforcement Learning to enable models to self-teach through iterative reasoning improvements. We propose a recursive learning approach that engages the model in multi-step reasoning, revisiting, and refining intermediate steps before producing a final output in training and inference phases. Through multiple training stages, the model first learns to align its reasoning with accurate decision paths by optimizing the log odds between preferred and non-preferred responses. During this process, PRefLexOR builds a dynamic knowledge graph by generating questions from random text chunks and retrieval-augmentation to contextualize relevant details from the entire training corpus. In the second stage, preference optimization enhances model performance by using rejection sampling to fine-tune reasoning quality by continually producing in-situ training data while masking the reasoning steps. Recursive optimization within a thinking token framework introduces iterative feedback loops, where the model refines reasoning, achieving deeper coherence, consistency, and adaptability. Implemented in small language models with only 3 billion parameters, we should that even tiny models can iteratively teach themselves to reason with greater depth and reflectivity. Our implementation is straightforward and can be incorporated into any existing pretrained LLM. We focus our examples on applications in biological materials science and demonstrate the method in a variety of case studies that range from in-domain to cross-domain applications. Using reasoning strategies that include thinking and reflection modalities we build a multi-agent recursive self-improving inference approach to successively improve responses via repeated sampling in inference time."
+ },
+ {
+  "paper_id": 3028,
+  "title": "Enhancing Reinforcement Learning with Dense Rewards from Language Model Critic",
+  "year": 2024,
+  "venue": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+  "source": "openalex",
+  "abstract": "Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences.However, a major challenge arises from the sparsity of these reward signals -typically, there is only a single reward for an entire output.This sparsity of rewards can lead to inefficient and unstable learning.To address this challenge, our paper introduces an novel framework that utilizes the critique capability of Large Language Models (LLMs) to produce intermediate-step rewards during RL training.Our approach pairs a policy model with a critic language model that provides feedback on each part of the policy's output.This feedback is then translated into token or span-level rewards that can be used to guide the RL training process.We investigate this approach under two different settings: one where the policy model is smaller and is paired with a more powerful critic model, and another where a single language model fulfills both roles.We assess our approach on three text generation tasks: sentiment control, language model detoxification, and summarization.Experimental results show that incorporating artificial intrinsic rewards significantly improve both sample efficiency and the overall performance of the policy model, supported by both automatic and human evaluation.The code is available under Google Research github * ."
+ },
+ {
+  "paper_id": 3030,
+  "title": "STACKFEED: Structured Textual Actor-Critic Knowledge Base Editing with FeedBack",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) often generate incorrect or outdated information, especially in low-resource settings or when dealing with private data. To address this, Retrieval-Augmented Generation (RAG) uses external knowledge bases (KBs), but these can also suffer from inaccuracies. We introduce STACKFEED, a novel Structured Textual Actor-Critic Knowledge base editing with FEEDback approach that iteratively refines the KB based on expert feedback using a multi-actor, centralized critic reinforcement learning framework. STACKFEED defines a ReACT actor agent on each document to perform structured edits based on document specific targeted instructions. Experimental results showcase that STACKFEED significantly improves KB quality and performance of the RAG system. We evaluate STACKFEED on low-resource programming problems, modified python packaged and factual question-answering tasks."
+ },
+ {
+  "paper_id": 3031,
+  "title": "REINFORCE++: Stabilizing Critic-Free Policy Optimization with Global Advantage Normalization",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Reinforcement Learning from Human Feedback~(RLHF) plays a crucial role in aligning Large Language Models~(LLMs). The dominant algorithm, Proximal Policy Optimization~(PPO), employs a critic network to estimate advantages, which introduces significant computational and memory overhead. To address this, a family of critic-free algorithms (e.g., GRPO, RLOO) has emerged. However, these methods typically rely on \\textit{prompt-level (local)} advantage normalization, which suffers from inaccurate advantage estimation, a tendency to overfit, and, as we show, is a theoretically biased estimator. To solve these challenges, we introduce REINFORCE++, a critic-free framework centered on \\textbf{Global Advantage Normalization}. By normalizing advantages across the entire global batch rather than small, prompt-specific groups, our method provides a more stable and theoretically sound, \\textit{effectively unbiased} estimate (whose bias vanishes as batch size increases). We introduce two variants: REINFORCE++, a highly efficient and general algorithm ($k \\ge 1$) for general-domain RLHF, and REINFORCE++ /w baseline, a robust group-sampling variant ($k > 1$) for complex reasoning tasks. Our empirical evaluation demonstrates that each variant shows superior stability and performance in its respective domain, outperforming existing methods and even PPO in complex agentic settings."
+ },
+ {
+  "paper_id": 3032,
+  "title": "Hybrid Approaches for Moral Value Alignment in AI Agents: a Manifesto",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Increasing interest in ensuring the safety of next-generation Artificial Intelligence (AI) systems calls for novel approaches to embedding morality into autonomous agents. This goal differs qualitatively from traditional task-specific AI methodologies. In this paper, we provide a systematization of existing approaches to the problem of introducing morality in machines - modelled as a continuum. Our analysis suggests that popular techniques lie at the extremes of this continuum - either being fully hard-coded into top-down, explicit rules, or entirely learned in a bottom-up, implicit fashion with no direct statement of any moral principle (this includes learning from human feedback, as applied to the training and finetuning of large language models, or LLMs). Given the relative strengths and weaknesses of each type of methodology, we argue that more hybrid solutions are needed to create adaptable and robust, yet controllable and interpretable agentic systems. To that end, this paper discusses both the ethical foundations (including deontology, consequentialism and virtue ethics) and implementations of morally aligned AI systems. We present a series of case studies that rely on intrinsic rewards, moral constraints or textual instructions, applied to either pure-Reinforcement Learning or LLM-based agents. By analysing these diverse implementations under one framework, we compare their relative strengths and shortcomings in developing morally aligned AI systems. We then discuss strategies for evaluating the effectiveness of moral learning agents. Finally, we present open research questions and implications for the future of AI safety and ethics which are emerging from this hybrid framework."
+ },
+ {
+  "paper_id": 3040,
+  "title": "GenPRM: Scaling Test-Time Compute of Process Reward Models via Generative Reasoning",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have shown that it is promising to utilize Process Reward Models (PRMs) as verifiers to enhance the performance of LLMs. However, current PRMs face three key challenges: (1) limited process supervision and generalization capabilities, (2) dependence on scalar value prediction without leveraging the generative abilities of LLMs, and (3) inability to scale the test-time compute of PRMs. In this work, we introduce GenPRM, a generative process reward model that performs explicit Chain-of-Thought (CoT) reasoning with code verification before providing judgment for each reasoning step. To obtain high-quality process supervision labels and rationale data, we propose Relative Progress Estimation (RPE) and a rationale synthesis framework that incorporates code verification. Experimental results on ProcessBench and several mathematical reasoning tasks show that GenPRM significantly outperforms prior PRMs with only 23K training data from MATH dataset. Through test-time scaling, a 1.5B GenPRM outperforms GPT-4o, and a 7B GenPRM surpasses Qwen2.5-Math-PRM-72B on ProcessBench. Additionally, GenPRM demonstrates strong abilities to serve as a critic model for policy model refinement. This work establishes a new paradigm for process supervision that bridges the gap between PRMs and critic models in LLMs."
+ },
+ {
+  "paper_id": 3043,
+  "title": "Foundation metrics for evaluating effectiveness of healthcare conversations powered by generative AI",
+  "year": 2024,
+  "venue": "npj Digital Medicine",
+  "source": "openalex",
+  "abstract": "Generative Artificial Intelligence is set to revolutionize healthcare delivery by transforming traditional patient care into a more personalized, efficient, and proactive process. Chatbots, serving as interactive conversational models, will probably drive this patient-centered transformation in healthcare. Through the provision of various services, including diagnosis, personalized lifestyle recommendations, dynamic scheduling of follow-ups, and mental health support, the objective is to substantially augment patient health outcomes, all the while mitigating the workload burden on healthcare providers. The life-critical nature of healthcare applications necessitates establishing a unified and comprehensive set of evaluation metrics for conversational models. Existing evaluation metrics proposed for various generic large language models (LLMs) demonstrate a lack of comprehension regarding medical and health concepts and their significance in promoting patients' well-being. Moreover, these metrics neglect pivotal user-centered aspects, including trust-building, ethics, personalization, empathy, user comprehension, and emotional support. The purpose of this paper is to explore state-of-the-art LLM-based evaluation metrics that are specifically applicable to the assessment of interactive conversational models in healthcare. Subsequently, we present a comprehensive set of evaluation metrics designed to thoroughly assess the performance of healthcare chatbots from an end-user perspective. These metrics encompass an evaluation of language processing abilities, impact on real-world clinical tasks, and effectiveness in user-interactive conversations. Finally, we engage in a discussion concerning the challenges associated with defining and implementing these metrics, with particular emphasis on confounding factors such as the target audience, evaluation methods, and prompt techniques involved in the evaluation process."
+ },
+ {
+  "paper_id": 3050,
+  "title": "DeepSeek-V3 Technical Report",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models. Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training. In addition, its training process is remarkably stable. Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks. The model checkpoints are available at https://github.com/deepseek-ai/DeepSeek-V3."
+ },
+ {
+  "paper_id": 3057,
+  "title": "SIaM: Self-Improving Code-Assisted Mathematical Reasoning of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "There is a growing trend of teaching large language models (LLMs) to solve mathematical problems through coding. Existing studies primarily focus on prompting powerful, closed-source models to generate seed training data followed by in-domain data augmentation, equipping LLMs with considerable capabilities for code-aided mathematical reasoning. However, continually training these models on augmented data derived from a few datasets such as GSM8K may impair their generalization abilities and restrict their effectiveness to a narrow range of question types. Conversely, the potential of improving such LLMs by leveraging large-scale, expert-written, diverse math question-answer pairs remains unexplored. To utilize these resources and tackle unique challenges such as code response assessment, we propose a novel paradigm that uses a code-based critic model to guide steps including question-code data construction, quality control, and complementary evaluation. We also explore different alignment algorithms with self-generated instruction/preference data to foster continuous improvement. Experiments across both in-domain (up to +5.7%) and out-of-domain (+4.4%) benchmarks in English and Chinese demonstrate the effectiveness of the proposed paradigm."
+ },
+ {
+  "paper_id": 3058,
+  "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models excel at problemsolving but often struggle with complex reasoning and factual accuracy.While chainof-thought and retrieval-augmented generation help break down problems and retrieve knowledge, they still falter on challenging tasks like competitive programming due to frequent reasoning errors and irrelevant retrieval.To address this, we introduce Critic-guided planning with Retrieval-augmentation, CR-Planner, a novel framework that leverages fine-tuned critic models to guide both reasoning and retrieval processes through planning.CR-Planner iteratively selects and executes sub-goals, guided by critic models.A sub-goal critic identifies promising sub-goals from reasoning, query generation, and retrieval, while an execution critic evaluates outputs of sub-goal executions.We employ Monte Carlo Tree Search to collect data for critic training, allowing systematic exploration of action sequences and effective navigation toward the final answer.We evaluate CR-Planner on challenging domain-knowledgeintensive and reasoning-heavy tasks, including competitive programming, theorem-driven math reasoning, and complex domain retrieval problems.It significantly outperforms baselines, demonstrating effectiveness in both reasoning and retrieval.Our code is available at https://github.com/xingxuanli/CR-Planner."
+ },
+ {
+  "paper_id": 3070,
+  "title": "PhyCritic: Multimodal Critic Models for Physical AI",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "With the rapid development of large multimodal models, reliable judge and critic models have become essential for open-ended evaluation and preference alignment, providing pairwise preferences, numerical scores, and explanatory justifications for assessing model-generated responses. However, existing critics are primarily trained in general visual domains such as captioning or image question answering, leaving physical AI tasks involving perception, causal reasoning, and planning largely underexplored. We introduce PhyCritic, a multimodal critic model optimized for physical AI through a two-stage RLVR pipeline: a physical skill warmup stage that enhances physically oriented perception and reasoning, followed by self-referential critic finetuning, where the critic generates its own prediction as an internal reference before judging candidate responses, improving judgment stability and physical correctness. Across both physical and general-purpose multimodal judge benchmarks, PhyCritic achieves strong performance gains over open-source baselines and, when applied as a policy model, further improves perception and reasoning in physically grounded tasks."
+ },
+ {
+  "paper_id": 3076,
+  "title": "Critic-Guided Heterogeneous Multi-Agent Reasoning for Reliable Mathematical Problem Solving",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent Large Language Models (LLMs) have shown impressive reasoning abilities; but they are still susceptible to hallucinations, intermediate reasoning mistakes, and unreliable reasoning results in complex mathematical reasoning problems. In this study, we introduce a critic-based heterogeneous multi-agent approach to improve the dependability of mathematical reasoning. This framework incorporates several LLM agents of different specialties and employs a critic-driven adaptive learning system to assess and guide the reasoning process based on intermediate feedback. The system adopts a generator-validator framework, with the validator not only determining correctness but also offering critiques to guide regeneration of solutions. This allows for adaptive error correction and prevents error cascading. Our experiments on the GSM8K benchmark show that the proposed method achieves up to 13% accuracy improvement over single-shot and non-critic models. Additionally, findings suggest that heterogeneity and critique reduce the need for large models, allowing smaller models to perform on par. Ablation studies reveal the main performance gains are due to the critic-based feedback loop and not model size. In summary, the proposed approach showcases the benefits of combining heterogeneous multi-agent collaboration and critique to obtain reliable and interpretable reasoning systems."
+ },
+ {
+  "paper_id": 3084,
+  "title": "A Survey on Knowledge Distillation of Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In the era of Large Language Models (LLMs), Knowledge Distillation (KD) emerges as a pivotal methodology for transferring advanced capabilities from leading proprietary LLMs, such as GPT-4, to their open-source counterparts like LLaMA and Mistral. Additionally, as open-source LLMs flourish, KD plays a crucial role in both compressing these models, and facilitating their self-improvement by employing themselves as teachers. This paper presents a comprehensive survey of KD's role within the realm of LLM, highlighting its critical function in imparting advanced knowledge to smaller models and its utility in model compression and self-improvement. Our survey is meticulously structured around three foundational pillars: \\textit{algorithm}, \\textit{skill}, and \\textit{verticalization} -- providing a comprehensive examination of KD mechanisms, the enhancement of specific cognitive abilities, and their practical implications across diverse fields. Crucially, the survey navigates the intricate interplay between data augmentation (DA) and KD, illustrating how DA emerges as a powerful paradigm within the KD framework to bolster LLMs' performance. By leveraging DA to generate context-rich, skill-specific training data, KD transcends traditional boundaries, enabling open-source models to approximate the contextual adeptness, ethical alignment, and deep semantic insights characteristic of their proprietary counterparts. This work aims to provide an insightful guide for researchers and practitioners, offering a detailed overview of current methodologies in KD and proposing future research directions. Importantly, we firmly advocate for compliance with the legal terms that regulate the use of LLMs, ensuring ethical and lawful application of KD of LLMs. An associated Github repository is available at https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs."
+ },
+ {
+  "paper_id": 3085,
+  "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Reinforcement Learning from Human Feedback (RLHF) is widely used in Large Language Model (LLM) alignment. Traditional RL can be modeled as a dataflow, where each node represents computation of a neural network (NN) and each edge denotes data dependencies between the NNs. RLHF complicates the dataflow by expanding each node into a distributed LLM training or generation program, and each edge into a many-to-many multicast. Traditional RL frameworks execute the dataflow using a single controller to instruct both intra-node computation and inter-node communication, which can be inefficient in RLHF due to large control dispatch overhead for distributed intra-node computation. Existing RLHF systems adopt a multi-controller paradigm, which can be inflexible due to nesting distributed computation and data communication. We propose HybridFlow, which combines single-controller and multi-controller paradigms in a hybrid manner to enable flexible representation and efficient execution of the RLHF data flow. We carefully design a set of hierarchical APIs that decouple and encapsulate computation and data dependencies in the complex RLHF dataflow, allowing efficient operation orchestration to implement RLHF algorithms and flexible mapping of the computation onto various devices. We further design a 3D-HybridEngine for efficient actor model resharding between training and generation phases, with zero memory redundancy and significantly reduced communication overhead. Our experimental results demonstrate 1.53x~20.57\u00d7 throughput improvement when running various RLHF algorithms using HybridFlow, as compared with state-of-the-art baselines. HybridFlow source code is available at https://github.com/volcengine/verl"
+ },
+ {
+  "paper_id": 3090,
+  "title": "Scaling hermeneutics: a guide to qualitative coding with LLMs for reflexive content analysis",
+  "year": 2025,
+  "venue": "EPJ Data Science",
+  "source": "openalex",
+  "abstract": "Abstract Qualitative coding, or content analysis, is more than just labeling text: it is a reflexive interpretive practice that shapes research questions, refines theoretical insights, and illuminates subtle social dynamics. As large language models (LLMs) become increasingly adept at nuanced language tasks, questions arise about whether\u2014and how\u2014they can assist in large-scale coding without eroding the interpretive depth that distinguishes qualitative analysis from traditional machine learning and other quantitative approaches to natural language processing. In this paper, we present a hybrid approach that preserves hermeneutic value while incorporating LLMs to scale the application of codes to large data sets that are impractical for manual coding. Our workflow retains the traditional cycle of codebook development and refinement, adding an iterative step to adapt definitions for machine comprehension, before ultimately replacing manual with automated text categorization. We demonstrate how to rewrite code descriptions for LLM-interpretation, as well as how structured prompts and prompting the model to explain its coding decisions (chain-of-thought) can substantially improve fidelity. Empirically, our case study of socio-historical codes highlights the promise of frontier AI language models to reliably interpret paragraph-long passages representative of a humanistic study. Throughout, we emphasize ethical and practical considerations, preserving space for critical reflection, and the ongoing need for human researchers\u2019 interpretive leadership. These strategies can guide both traditional and computational scholars aiming to harness automation effectively and responsibly\u2014maintaining the creative, reflexive rigor of qualitative coding while capitalizing on the efficiency afforded by LLMs."
+ },
+ {
+  "paper_id": 3091,
+  "title": "GAIA: A Data Flywheel System for Training GUI Test-Time Scaling Critic Models",
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "While Large Vision-Language Models (LVLMs) have significantly advanced GUI agents' capabilities in parsing textual instructions, interpreting screen content, and executing tasks, a critical challenge persists: the irreversibility of agent operations-where a single erroneous action can trigger catastrophic deviations. To address this, we propose the \\textbf{G}UI \\textbf{A}ction Cr\\textbf{i}tic's Dat\\textbf{a} Flywheel System (GAIA), a training framework that enables the models to have iterative critic capabilities, which are used to improve the Test-Time Scaling (TTS) of basic GUI agents' performance. Specifically, we train an \\textbf{Intuitive Critic Model} (ICM) using positive and negative action examples from a base agent first. This critic evaluates the immediate correctness of the agent's intended actions, thereby selecting operations with higher success probability. Then, the initial critic guides agent actions to collect refined positive/negative samples, initiating the self-improving cycle. The augmented data then trains a second-round critic with enhanced discernment capability. We conduct experiments on various datasets and demonstrate that the proposed ICM can improve the test-time performance of various closed-source and open-source models, and the performance can be gradually improved as the data is recycled. The code, dataset, and accompanying datasheet will be publicly released at https://github.com/SeerRay-Lab/GAIA."
+ },
+ {
+  "paper_id": 3096,
+  "title": "No More Stale Feedback: Co-Evolving Critics for Open-World Agent Learning",
+  "year": 2026,
+  "venue": "Underline Science Inc.",
+  "source": "openalex",
+  "abstract": "Critique-guided reinforcement learning (RL) has emerged as a powerful paradigm for training LLM agents by augmenting sparse outcome rewards with natural-language feedback. However, current methods often rely on static or offline critic models, which fail to adapt as the policy evolves. In on-policy RL, the agent's trajectory distribution and error patterns shift over time, causing stationary critics to become stale and providing feedback of diminishing utility. To address this, we introduce ECHO (Evolving Critic for Hindsight-Guided Optimization), a framework that jointly optimizes the policy and critic through a synchronized co-evolutionary loop. ECHO utilizes a cascaded rollout mechanism where the critic generates multiple diagnoses for an initial trajectory, followed by policy refinement to enable group-structured advantage estimation. We address the challenge of learning plateaus via a saturation-aware gain shaping objective, which rewards the critic for inducing incremental improvements in high-performing trajectories. By employing synchronized dual-track GRPO updates, ECHO ensures the critic's feedback stays synchronized with the evolving policy. Experimental results show that ECHO yields more stable training and higher long-horizon task success across open-world environments."
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "query": "\"control loop\" autonomous LLM agent architecture",
+ "stored": 93,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 1394469,
+   "truncated": true,
+   "stored": 93
+  }
+ ]
+}

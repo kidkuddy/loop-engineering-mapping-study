@@ -1,0 +1,362 @@
+[
+ {
+  "paper_id": 1076,
+  "title": "You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary Projects",
+  "year": 2025,
+  "venue": "Proceedings of the ACM on software engineering.",
+  "source": "openalex",
+  "abstract": "The ability to execute the test suite of a project is essential in many scenarios, e.g., to assess code quality and code coverage, to validate code changes made by developers or automated tools, and to ensure compatibility with dependencies. Despite its importance, executing the test suite of a project can be challenging in practice because different projects use different programming languages, software ecosystems, build systems, testing frameworks, and other tools. These challenges make it difficult to create a reliable, universal test execution method that works across different projects. This paper presents Execution Agent, an automated technique that prepares scripts for building an arbitrary project from source code and running its test cases. Inspired by the way a human developer would address this task, our approach is a large language model (LLM)-based agent that autonomously executes commands and interacts with the host system. The agent uses meta-prompting to gather guidelines on the latest technologies related to the given project, and it iteratively refines its process based on feedback from the previous steps. Our evaluation applies ExecutionAgent to 50 open-source projects that use 14 different programming languages and many different build and testing tools. The approach successfully executes the test suites of 33/50 projects, while matching the test results of ground truth test suite executions with a deviation of only 7.5%. These results improve over the best previously available technique by 6.6x. The costs imposed by the approach are reasonable, with an execution time of 74 minutes and LLM costs of USD 0.16, on average per project. We envision ExecutionAgent to serve as a valuable tool for developers, automated programming tools, and researchers that need to execute tests across a wide variety of projects."
+ },
+ {
+  "paper_id": 1077,
+  "title": "Large Language Model Guided Tree-of-Thought",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In this paper, we introduce the Tree-of-Thought (ToT) framework, a novel approach aimed at improving the problem-solving capabilities of auto-regressive large language models (LLMs). The ToT technique is inspired by the human mind's approach for solving complex reasoning tasks through trial and error. In this process, the human mind explores the solution space through a tree-like thought process, allowing for backtracking when necessary. To implement ToT as a software system, we augment an LLM with additional modules including a prompter agent, a checker module, a memory module, and a ToT controller. In order to solve a given problem, these modules engage in a multi-round conversation with the LLM. The memory module records the conversation and state history of the problem solving process, which allows the system to backtrack to the previous steps of the thought-process and explore other directions from there. To verify the effectiveness of the proposed technique, we implemented a ToT-based solver for the Sudoku Puzzle. Experimental results show that the ToT framework can significantly increase the success rate of Sudoku puzzle solving. Our implementation of the ToT-based Sudoku solver is available on GitHub: \\url{https://github.com/jieyilong/tree-of-thought-puzzle-solver}."
+ },
+ {
+  "paper_id": 1082,
+  "title": "Suppressing echo cascades in language-model agents with multi-critic plan selection",
+  "year": 2026,
+  "venue": "Research Square",
+  "source": "openalex",
+  "abstract": ""
+ },
+ {
+  "paper_id": 1083,
+  "title": "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a promising foundation to build such agents due to their generalized capabilities. Current approaches either have LLM-based agents imitate expert-provided trajectories step-by-step, requiring human supervision, which is hard to scale and limits environmental exploration; or they let agents explore and learn in isolated environments, resulting in specialist agents with limited generalization. In this paper, we take the first step towards building generally-capable LLM-based agents with self-evolution ability. We identify a trinity of ingredients: 1) diverse environments for agent exploration and learning, 2) a trajectory set to equip agents with basic capabilities and prior knowledge, and 3) an effective and scalable evolution method. We propose AgentGym, a new framework featuring a variety of environments and tasks for broad, real-time, uni-format, and concurrent agent exploration. AgentGym also includes a database with expanded instructions, a benchmark suite, and high-quality trajectories across environments. Next, we propose a novel method, AgentEvol, to investigate the potential of agent self-evolution beyond previously seen data across tasks and environments. Experimental results show that the evolved agents can achieve results comparable to SOTA models. We release the AgentGym suite, including the platform, dataset, benchmark, checkpoints, and algorithm implementations. The AgentGym suite is available on https://github.com/WooooDyy/AgentGym."
+ },
+ {
+  "paper_id": 1084,
+  "title": "AI Agents in Clinical Medicine: A Systematic Review",
+  "year": 2025,
+  "venue": "medRxiv",
+  "source": "openalex",
+  "abstract": "Background: AI agents built on large language models (LLMs) can plan tasks, use external tools, and coordinate with other agents. Unlike standard LLMs, agents can execute multi-step processes, access real-time clinical information, and integrate multiple data sources. There has been interest in using such agents for clinical and administrative tasks, however, there is limited knowledge on their performance and whether multi-agent systems function better than a single agent for healthcare tasks. Purpose: To evaluate the performance of AI agents in healthcare, compare AI agent systems vs. standard LLMs and catalog the tools used for task completion. Data Sources: PubMed, Web of Science, and Scopus from October 1, 2022, through August 5, 2025. Study Selection: Peer-reviewed studies implementing AI agents for clinical tasks with quantitative performance comparisons. Data Extraction: Two reviewers (A.G., M.O.) independently extracted data on architectures, performance metrics, and clinical applications. Discrepancies were resolved by discussion, with a third reviewer (E.K.) consulted when consensus could not be reached. Data Synthesis: Twenty studies met inclusion criteria. Across studies, all agent systems outperformed their baseline LLMs in accuracy performance. Improvements ranged from small gains to increases of over 60 percentage points, with a median improvement of 53 percentage points in single-agent tool-calling studies. These systems were particularly effective for discrete tasks such as medication dosing and evidence retrieval. Multi-agent systems showed optimal performance with up to 5 agents, and their effectiveness was particularly pronounced when dealing with highly complex tasks. The highest performance boost occurred when the complexity of the AI agent framework aligned with that of the task. Limitations: Heterogeneous outcomes precluded quantitative meta-analysis. Several studies relied on synthetic data, limiting generalizability. Conclusions: AI agents consistently improve clinical task performance of Base-LLMs when architecture matches task complexity. Our analysis indicates a step-change over base-LLMs, with AI agents opening previously inaccessi"
+ },
+ {
+  "paper_id": 1085,
+  "title": "TopoMAS: Large Language Model Driven Topological Materials Multi\u2010Agent System",
+  "year": 2026,
+  "venue": "Materials Genome Engineering Advances",
+  "source": "openalex",
+  "abstract": "ABTRACT The discovery of topological materials is severely hampered by fragmented research workflows that cause information loss, inconsistent reasoning, and frequent computational failures. To overcome these barriers, we present TopoMAS, an interactive multi\u2010agent framework that unifies the entire discovery pipeline through human\u2013AI collaborative intelligence. TopoMAS seamlessly integrates natural language processing, knowledge retrieval from literature and databases, crystal structure generation, and automated first\u2010principles validation. At its core, is a multi\u2010level reasoning and coordination mechanism coupled with a self\u2010refining knowledge graph. This architecture enhances query understanding and ensures computational robustness by adaptively allocating tasks, monitoring execution, and recovering from failures. In collaboration with human experts, TopoMAS has accelerated the identification of candidate topological phases and successfully guided the discovery of new materials. Benchmark evaluations show that TopoMAS's coordinated intelligence enables smaller, more efficient models to rival or even surpass the performance of substantially larger counterparts at a fraction of the computational cost. Ultimately, TopoMAS offers not only a powerful accelerator for materials research but also a transferable blueprint for building next\u2010generation, AI\u2010augmented discovery platforms across scientific disciplines."
+ },
+ {
+  "paper_id": 1088,
+  "title": "Agent-based multimodal information extraction for nanomaterials",
+  "year": 2025,
+  "venue": "npj Computational Materials",
+  "source": "openalex",
+  "abstract": "Abstract Automating structured data extraction from scientific literature is a critical challenge with broad implications across domains. We introduce nanoMINER, a multi-agent system combining large language models and multimodal analysis to extract essential information from scientific research articles on nanomaterials. This system processes documents end-to-end, utilizing tools such as YOLO for visual data extraction and GPT-4o for linking textual and visual information. At its core, the ReAct agent orchestrates specialized agents to ensure comprehensive data extraction. We demonstrate the efficacy of the system by automating the assembly of nanomaterial and nanozyme datasets previously manually curated by domain experts. NanoMINER achieves high precision in extracting nanomaterial properties like chemical formulas, crystal systems, and surface characteristics. For nanozymes, we obtain near-perfect precision (0.98) for kinetic parameters and essential features such as Cmin and Cmax. To benchmark the system performance, we also compare nanoMINER to several baseline LLMs, including the most recent multimodal GPT-4.1, and show consistently higher extraction precision and recall. Our approach is extensible to other domains of materials science and fields like biomedicine, advancing data-driven research methodologies and automated knowledge extraction."
+ },
+ {
+  "paper_id": 1095,
+  "title": "ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models have made significant progress in various language tasks, yet they still struggle with complex mathematics. In this paper, we propose ToRA a series of Tool-integrated Reasoning Agents designed to solve challenging mathematical problems by seamlessly integrating natural language reasoning with the utilization of external tools (e.g., computation libraries and symbolic solvers), thereby amalgamating the analytical prowess of language and the computational efficiency of tools. To train ToRA, we curate interactive tool-use trajectories on mathematical datasets, apply imitation learning on the annotations, and propose output space shaping to further refine models' reasoning behavior. As a result, ToRA models significantly outperform open-source models on 10 mathematical reasoning datasets across all scales with 13%-19% absolute improvements on average. Notably, ToRA-7B reaches 44.6% on the competition-level dataset MATH, surpassing the best open-source model WizardMath-70B by 22% absolute. ToRA-Code-34B is also the first open-source model that achieves an accuracy exceeding 50% on MATH, which significantly outperforms GPT-4's CoT result, and is competitive with GPT-4 solving problems with programs. Additionally, we conduct a comprehensive analysis of the benefits and remaining challenges of tool interaction for mathematical reasoning, providing valuable insights for future research."
+ },
+ {
+  "paper_id": 1097,
+  "title": "Privacy Leakage Overshadowed by Views of AI: A Study on Human Oversight of Privacy in Language Model Agent",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language model (LM) agents that act on users' behalf for personal tasks (e.g., replying emails) can boost productivity, but are also susceptible to unintended privacy leakage risks. We present the first study on people's capacity to oversee the privacy implications of the LM agents. By conducting a task-based survey ($N=300$), we investigate how people react to and assess the response generated by LM agents for asynchronous interpersonal communication tasks, compared with a response they wrote. We found that people may favor the agent response with more privacy leakage over the response they drafted or consider both good, leading to an increased harmful disclosure from 15.7% to 55.0%. We further identified six privacy behavior patterns reflecting varying concerns, trust levels, and privacy preferences underlying people's oversight of LM agents' actions. Our findings shed light on designing agentic systems that enable privacy-preserving interactions and achieve bidirectional alignment on privacy preferences to help users calibrate trust."
+ },
+ {
+  "paper_id": 1099,
+  "title": "From Language Models to Practical Self-Improving Computer Agents",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "We develop a simple and straightforward methodology to create AI computer agents that can carry out diverse computer tasks and self-improve by developing tools and augmentations to enable themselves to solve increasingly complex tasks. As large language models (LLMs) have been shown to benefit from non-parametric augmentations, a significant body of recent work has focused on developing software that augments LLMs with various capabilities. Rather than manually developing static software to augment LLMs through human engineering effort, we propose that an LLM agent can systematically generate software to augment itself. We show, through a few case studies, that a minimal querying loop with appropriate prompt engineering allows an LLM to generate and use various augmentations, freely extending its own capabilities to carry out real-world computer tasks. Starting with only terminal access, we prompt an LLM agent to augment itself with retrieval, internet search, web navigation, and text editor capabilities. The agent effectively uses these various tools to solve problems including automated software development and web-based tasks."
+ },
+ {
+  "paper_id": 1101,
+  "title": "Agentic Large Language Models for Conceptual Systems Engineering and Design",
+  "year": 2025,
+  "venue": "Journal of Mechanical Design",
+  "source": "openalex",
+  "abstract": "Abstract Early-stage engineering design involves complex, iterative reasoning, yet existing large language model (LLM) workflows struggle to maintain task continuity and generate executable models. We evaluate whether a structured multi-agent system (MAS) can more effectively manage requirements extraction, functional decomposition, and simulator code generation than a simpler two-agent system (2AS). The target application is a solar-powered water filtration system as described in a cahier des charges. We introduce the design-state graph (DSG), a JSON-serializable representation that bundles requirements, physical embodiments, and python-based physics models into graph nodes. A nine-role MAS iteratively builds and refines the DSG, while the 2AS collapses the process to a generator\u2013reflector loop. Both systems run a total of 60 experiments (2 LLMs\u2014Llama 3.3 70B versus reasoning-distilled deepseek R1 70B \u00d7 2 agent configurations \u00d7 3 temperatures \u00d7 5 seeds). We report a JSON validity, requirement coverage, embodiment presence, code compatibility, workflow completion, runtime, and graph size. Across all runs, both MAS and 2AS maintained perfect JSON integrity and embodiment tagging. Requirement coverage remained minimal (less than 20%). Code compatibility peaked at 100% under specific 2AS settings but averaged below 50% for MAS. Only the reasoning-distilled model reliably flagged workflow completion. Powered by deepseek R1 70B, the MAS generated more granular DSGs (average 5\u20136 nodes) whereas 2AS mode collapsed. Structured multi-agent orchestration enhanced design detail. Reasoning-distilled LLM improved completion rates, yet low requirements and fidelity gaps in coding persisted."
+ },
+ {
+  "paper_id": 1103,
+  "title": "Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Multi-agent reinforcement learning (MARL) methods struggle with the non-stationarity of multi-agent systems and fail to adaptively learn online when tested with novel agents. Here, we leverage large language models (LLMs) to create an autonomous agent that can handle these challenges. Our agent, Hypothetical Minds, consists of a cognitively-inspired architecture, featuring modular components for perception, memory, and hierarchical planning over two levels of abstraction. We introduce the Theory of Mind module that scaffolds the high-level planning process by generating hypotheses about other agents' strategies in natural language. It then evaluates and iteratively refines these hypotheses by reinforcing hypotheses that make correct predictions about the other agents' behavior. Hypothetical Minds significantly improves performance over previous LLM-agent and RL baselines on a range of competitive, mixed motive, and collaborative domains in the Melting Pot benchmark, including both dyadic and population-based environments. Additionally, comparisons against LLM-agent baselines and ablations reveal the importance of hypothesis evaluation and refinement for succeeding on complex scenarios."
+ },
+ {
+  "paper_id": 1104,
+  "title": "Decision-Oriented Dialogue for Human-AI Collaboration",
+  "year": 2024,
+  "venue": "Transactions of the Association for Computational Linguistics",
+  "source": "openalex",
+  "abstract": "Abstract We describe a class of tasks called decision-oriented dialogues, in which AI assistants such as large language models (LMs) must collaborate with one or more humans via natural language to help them make complex decisions. We formalize three domains in which users face everyday decisions: (1) choosing an assignment of reviewers to conference papers, (2) planning a multi-step itinerary in a city, and (3) negotiating travel plans for a group of friends. In each of these settings, AI assistants and users have disparate abilities that they must combine to arrive at the best decision: Assistants can access and process large amounts of information, while users have preferences and constraints external to the system. For each task, we build a dialogue environment where agents receive a reward based on the quality of the final decision they reach. We evaluate LMs in self-play and in collaboration with humans and find that they fall short compared to human assistants, achieving much lower rewards despite engaging in longer dialogues. We highlight a number of challenges models face in decision-oriented dialogues, ranging from goal-directed behavior to reasoning and optimization, and release our environments as a testbed for future work."
+ },
+ {
+  "paper_id": 1110,
+  "title": "KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In this paper, we aim to improve the reasoning ability of large language models (LLMs) over knowledge graphs (KGs) to answer complex questions.Inspired by existing methods that design the interaction strategy between LLMs and KG, we propose an autonomous LLM-based agent framework, called KG-Agent, which enables a small LLM to actively make decisions until finishing the reasoning process over KGs.In KG-Agent, we integrate the LLM, multifunctional toolbox, KG-based executor, and knowledge memory, and develop an iteration mechanism that autonomously selects the tool and then updates the memory for reasoning over KG.To guarantee the effectiveness, we leverage program language to formulate the multi-hop reasoning process over the KG and synthesize a code-based instruction dataset to fine-tune the base LLM.Extensive experiments demonstrate that only using 10K samples for tuning LLaMA2-7B can outperform competitive methods using larger LLMs or more data, on both in-domain and out-domain datasets.Our code and data will be publicly released."
+ },
+ {
+  "paper_id": 1111,
+  "title": "Transforming Data Annotation with AI Agents: A Review of Architectures, Reasoning, Applications, and Impact",
+  "year": 2025,
+  "venue": "Future Internet",
+  "source": "openalex",
+  "abstract": "Data annotation serves as a critical foundation for artificial intelligence (AI) and machine learning (ML). Recently, AI agents powered by large language models (LLMs) have emerged as effective solutions to longstanding challenges in data annotation, such as scalability, consistency, cost, and limitations in domain expertise. These agents facilitate intelligent automation and adaptive decision-making, thereby enhancing the efficiency and reliability of annotation workflows across various fields. Despite the growing interest in this area, a systematic understanding of the role and capabilities of AI agents in annotation is still underexplored. This paper seeks to fill that gap by providing a comprehensive review of how LLM-driven agents support advanced reasoning strategies, adaptive learning, and collaborative annotation efforts. We analyze agent architectures, integration patterns within workflows, and evaluation methods, along with real-world applications in sectors such as healthcare, finance, technology, and media. Furthermore, we evaluate current tools and platforms that support agent-based annotation, addressing key challenges such as quality assurance, bias mitigation, transparency, and scalability. Lastly, we outline future research directions, highlighting the importance of federated learning, cross-modal reasoning, and responsible system design to advance the development of next-generation annotation ecosystems."
+ },
+ {
+  "paper_id": 1112,
+  "title": "Reasoning and Tools for Human-Level Forecasting",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Language models (LMs) trained on web-scale datasets are largely successful due to their ability to memorize large amounts of training data, even if only present in a few examples.These capabilities are often desirable in evaluation on tasks such as question answering but raise questions about whether these models can exhibit genuine reasoning or succeed only at mimicking patterns from the training data.This distinction is particularly salient in forecasting tasks, where the answer is not present in the training data, and the model must reason to make logical deductions.We present Reasoning and Tools for Forecasting (RTF), a framework of reasoning-and-acting (ReAct) agents that can dynamically retrieve updated information and run numerical simulation with equipped tools.We evaluate our model with questions from competitive forecasting platforms and demonstrate that our method is competitive with and can outperform human predictions.This suggests that LMs, with the right tools, can indeed think and adapt like humans, offering valuable insights for real-world decision-making."
+ },
+ {
+  "paper_id": 1113,
+  "title": "Tree Search for Language Model Agents",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Autonomous agents powered by language models (LMs) have demonstrated promise in their ability to perform decision-making tasks such as web automation. However, a key limitation remains: LMs, primarily optimized for natural language understanding and generation, struggle with multi-step reasoning, planning, and using environmental feedback when attempting to solve realistic computer tasks. Towards addressing this, we propose an inference-time search algorithm for LM agents to explicitly perform exploration and multi-step planning in interactive web environments. Our approach is a form of best-first tree search that operates within the actual environment space, and is complementary with most existing state-of-the-art agents. It is the first tree search algorithm for LM agents that shows effectiveness on realistic web tasks. On the challenging VisualWebArena benchmark, applying our search algorithm on top of a GPT-4o agent yields a 39.7% relative increase in success rate compared to the same baseline without search, setting a state-of-the-art success rate of 26.4%. On WebArena, search also yields a 28.0% relative improvement over a baseline agent, setting a competitive success rate of 19.2%. Our experiments highlight the effectiveness of search for web agents, and we demonstrate that performance scales with increased test-time compute. We conduct a thorough analysis of our results to highlight improvements from search, limitations, and promising directions for future work. Our code and models are publicly released at https://jykoh.com/search-agents."
+ },
+ {
+  "paper_id": 1114,
+  "title": "ManuSearch: Democratizing Deep Search in Large Language Models with a Transparent and Open Multi-Agent Framework",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent advances in web-augmented large language models (LLMs) have exhibited strong performance in complex reasoning tasks, yet these capabilities are mostly locked in proprietary systems with opaque architectures.In this work, we propose ManuSearch, a transparent and modular multi-agent framework designed to democratize deep search for LLMs.ManuSearch decomposes the search and reasoning process into three collaborative agents:(1) a solution planning agent that iteratively formulates sub-queries, ( 2) an Internet search agent that retrieves relevant documents via real-time web search, and (3) a structured webpage reading agent that extracts key evidence from raw web content.To rigorously evaluate deep reasoning abilities, we introduce ORION, a challenging benchmark focused on open-web reasoning over long-tail entities, covering both English and Chinese.Experimental results show that ManuSearch substantially outperforms prior open-source baselines and even surpasses leading closedsource systems.Our work paves the way for reproducible, extensible research in open deep search systems.We release the data and code in https://github.com/RUCAIBox/ManuSearch."
+ },
+ {
+  "paper_id": 1115,
+  "title": "Self-Challenging Language Model Agents",
+  "year": 2025,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models are quickly becoming the foundation for intelligent agents that are capable of using tools. However, training such agents is challenging because it requires human creation and annotation of a diverse set of tasks, tools, and evaluation criteria. In this paper, we propose the Self-Challenging framework for training an agent on high-quality tasks that are generated by itself. The agent first plays the role of challenger and generates a task after interacting with the given tools. The tasks take the form of a novel general class of problems termed Code-as-Task, which are defined by an instruction, a verification function and solution and failure cases which serve as tests, allowing to filter only for high-quality tasks. The agent then takes an executor role and trains on those tasks with reinforcement learning using the evaluation feedback as a reward. Evaluation on two existing multi-turn tool-use agent benchmarks, M3ToolEval and TauBench, shows the Self-Challenging framework achieves over a two-fold improvement in Llama-3.1-8B-Instruct, despite using only self-generated training data."
+ },
+ {
+  "paper_id": 1116,
+  "title": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+  "year": 2025,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language model (LLM) applications such as agents and domain-specific reasoning increasingly rely on context adaptation: modifying inputs with instructions, strategies, or evidence, rather than weight updates. Prior approaches improve usability but often suffer from brevity bias, which drops domain insights for concise summaries, and from context collapse, where iterative rewriting erodes details over time. We introduce ACE (Agentic Context Engineering), a framework that treats contexts as evolving playbooks that accumulate, refine, and organize strategies through a modular process of generation, reflection, and curation. ACE prevents collapse with structured, incremental updates that preserve detailed knowledge and scale with long-context models. Across agent and domain-specific benchmarks, ACE optimizes contexts both offline (e.g., system prompts) and online (e.g., agent memory), consistently outperforming strong baselines: +10.6% on agents and +8.6% on finance, while significantly reducing adaptation latency and rollout cost. Notably, ACE could adapt effectively without labeled supervision and instead by leveraging natural execution feedback. On the AppWorld leaderboard, ACE matches the top-ranked production-level agent on the overall average and surpasses it on the harder test-challenge split, despite using a smaller open-source model. These results show that comprehensive, evolving contexts enable scalable, efficient, and self-improving LLM systems with low overhead."
+ },
+ {
+  "paper_id": 1117,
+  "title": "Large Language Model as a Policy Teacher for Training Reinforcement Learning Agents",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent studies have uncovered the potential of Large Language Models (LLMs) in addressing complex sequential decision-making tasks through the provision of high-level instructions. However, LLM-based agents lack specialization in tackling specific target problems, particularly in real-time dynamic environments. Additionally, deploying an LLM-based agent in practical scenarios can be both costly and time-consuming. On the other hand, reinforcement learning (RL) approaches train agents that specialize in the target task but often suffer from low sampling efficiency and high exploration costs. In this paper, we introduce a novel framework that addresses these challenges by training a smaller, specialized student RL agent using instructions from an LLM-based teacher agent. By incorporating the guidance from the teacher agent, the student agent can distill the prior knowledge of the LLM into its own model. Consequently, the student agent can be trained with significantly less data. Moreover, through further training with environment feedback, the student agent surpasses the capabilities of its teacher for completing the target task. We conducted experiments on challenging MiniGrid and Habitat environments, specifically designed for embodied AI research, to evaluate the effectiveness of our framework. The results clearly demonstrate that our approach achieves superior performance compared to strong baseline methods. Our code is available at https://github.com/ZJLAB-AMMI/LLM4Teach."
+ },
+ {
+  "paper_id": 1118,
+  "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "A central aspect of machine learning research is experimentation, the process of designing and running experiments, analyzing the results, and iterating towards some positive outcome (e.g., improving accuracy). Could agents driven by powerful language models perform machine learning experimentation effectively? To answer this question, we introduce MLAgentBench, a suite of 13 tasks ranging from improving model performance on CIFAR-10 to recent research problems like BabyLM. For each task, an agent can perform actions like reading/writing files, executing code, and inspecting outputs. We then construct an agent that can perform ML experimentation based on ReAct framework. We benchmark agents based on Claude v1.0, Claude v2.1, Claude v3 Opus, GPT-4, GPT-4-turbo, Gemini-Pro, and Mixtral and find that a Claude v3 Opus agent is the best in terms of success rate. It can build compelling ML models over many tasks in MLAgentBench with 37.5% average success rate. Our agents also display highly interpretable plans and actions. However, the success rates vary considerably; they span from 100% on well-established older datasets to as low as 0% on recent Kaggle challenges created potentially after the underlying LM was trained. Finally, we identify several key challenges for LM-based agents such as long-term planning and reducing hallucination. Our code is released at https://github.com/snap-stanford/MLAgentBench."
+ },
+ {
+  "paper_id": 1119,
+  "title": "Generative agents in the streets: Exploring the use of Large Language Models (LLMs) in collecting urban perceptions",
+  "year": 2026,
+  "venue": "Computers in Human Behavior Artificial Humans",
+  "source": "openalex",
+  "abstract": "Evaluating the surroundings to gain understanding, frame perspectives, and anticipate behavioral reactions is an inherent human trait. However, these continuous encounters are diverse and complex, posing challenges to their study and experimentation. Researchers have been able to isolate environmental features and study their effect on human perception and behavior. However, research attempts to replicate and study human behaviors with proxies, such as by integrating virtual mediums and interviews, have been inconsistent. Large language models (LLMs) have recently been unveiled as capable of contextual understanding and semantic reasoning. These models have been trained on large amounts of text and have evolved to mimic believable human behavior. This study explores the current advancements in Generative agents powered by LLMs with the help of perceptual experiments. The experiment employs Generative agents to interact with the urban environments using street view images to plan their journey toward specific goals. The agents are given virtual personalities, which make them distinguishable. They are also provided a memory database to store their thoughts and essential visual information and retrieve it when needed to plan their movement. Since LLMs do not possess embodiment, nor have access to the visual realm, and lack a sense of motion or direction, we designed movement and visual modules that help agents gain an overall understanding of surroundings. The agents are further employed to rate the surroundings they encounter based on their perceived sense of safety and liveliness. As these agents store details in their memory, we query the findings to get details regarding their thought processes. Overall, this study experiments with current AI developments and their potential in simulated human behavior in urban environments."
+ },
+ {
+  "paper_id": 1120,
+  "title": "Towards Autonomous Testing Agents via Conversational Large Language Models",
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Software testing is an important part of the development cycle, yet it requires specialized expertise and substantial developer effort to adequately test software. Recent discoveries of the capabilities of large language models (LLMs) suggest that they can be used as automated testing assistants, and thus provide helpful information and even drive the testing process. To highlight the potential of this technology, we present a taxonomy of LLM-based testing agents based on their level of autonomy, and describe how a greater level of autonomy can benefit developers in practice. An example use of LLMs as a testing assistant is provided to demonstrate how a conversational framework for testing can help developers. This also highlights how the often criticized hallucination of LLMs can be beneficial for testing. We identify other tangible benefits that LLM-driven testing agents can bestow, and also discuss potential limitations."
+ },
+ {
+  "paper_id": 1121,
+  "title": "A Survey on Large Language Model-based Agents for Statistics and Data Science",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In recent years, data science agents powered by Large Language Models (LLMs), known as \"data agents,\" have shown significant potential to transform the traditional data analysis paradigm. This survey provides an overview of the evolution, capabilities, and applications of LLM-based data agents, highlighting their role in simplifying complex data tasks and lowering the entry barrier for users without related expertise. We explore current trends in the design of LLM-based frameworks, detailing essential features such as planning, reasoning, reflection, multi-agent collaboration, user interface, knowledge integration, and system design, which enable agents to address data-centric problems with minimal human intervention. Furthermore, we analyze several case studies to demonstrate the practical applications of various data agents in real-world scenarios. Finally, we identify key challenges and propose future research directions to advance the development of data agents into intelligent statistical analysis software."
+ },
+ {
+  "paper_id": 1124,
+  "title": "Large language model agent for user-friendly chemical process simulations",
+  "year": 2026,
+  "venue": "Digital Chemical Engineering",
+  "source": "openalex",
+  "abstract": "Modern process simulators enable detailed process design, simulation, and optimization; however, constructing and interpreting simulations is time-consuming and requires expert knowledge. This limits early exploration by inexperienced users. To address this, a large language model (LLM) agent is integrated with AVEVA Process Simulation (APS) via Model Context Protocol (MCP), allowing natural language interaction with rigorous process simulations. An MCP server toolset enables the LLM to communicate programmatically with APS using Python, allowing it to execute complex simulation tasks from plain-language instructions. Three case studies assess the framework across different task complexities and interaction modes. The first shows the agent autonomously analyzing flowsheets, finding improvement opportunities, and iteratively optimizing, extracting data, and presenting results clearly. The framework benefits both novice users (for educational purposes), by translating technical concepts and demonstrating workflows, and experienced practitioners, by automating data extraction, speeding routine tasks, and supporting brainstorming. The next case study assesses autonomous flowsheet synthesis through both a step-by-step dialogue and a single prompt, demonstrating its potential for novices and experts alike. The step-by-step mode gives reliable, guided construction suitable for educational contexts; the single-prompt mode constructs fast baseline flowsheets for later refinement. Further, the agent\u2019s answers proved stable across variations in LLM versions, prompting types, and process flowsheet complexities. While current limitations mainly involve the accurate interpretation of the physical results seen in minor reasoning mistakes, such as oversimplification or misleading suggestions, mean expert oversight is still needed. However, the framework\u2019s capabilities in analysis, optimization, and guided construction suggest LLM-based agents can become valuable collaborators for process simulation tasks in future. \u2022 Enabling a large language model agent to interact with a rigorous process simulator programmatically. \u2022 Process flowsheet analysis and synthesis from natural langu"
+ },
+ {
+  "paper_id": 1125,
+  "title": "Ask-before-Plan: Proactive Language Agents for Real-World Planning",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "The evolution of large language models (LLMs) has enhanced the planning capabilities of language agents in diverse real-world scenarios.Despite these advancements, the potential of LLM-powered agents to comprehend ambiguous user instructions for reasoning and decision-making is still under exploration.In this work, we introduce a new task, Proactive Agent Planning, which requires language agents to predict clarification needs based on user-agent conversation and agentenvironment interaction, invoke external tools to collect valid information, and generate a plan to fulfill the user's demands.To study this practical problem, we establish a new benchmark dataset, Ask-before-Plan.To tackle the deficiency of LLMs in proactive planning, we propose a novel multi-agent framework, Clarification-Execution-Planning (CEP), which consists of three agents specialized in clarification, execution, and planning.We introduce the trajectory tuning scheme for the clarification agent and static execution agent, as well as the memory recollection mechanism for the dynamic execution agent.Extensive evaluations and comprehensive analyses conducted on the Ask-before-Plan dataset validate the effectiveness of our proposed framework.1"
+ },
+ {
+  "paper_id": 1126,
+  "title": "AutoTool: Efficient Tool Selection for Large Language Model Agents",
+  "year": 2026,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Large Language Model (LLM) agents have emerged as powerful tools for automating complex tasks by leveraging the reasoning and decision-making abilities of LLMs. However, a major bottleneck in current agent frameworks lies in the high inference cost of tool selection, especially in approaches like ReAct that repeatedly invoke the LLM to determine which tool to use at each step. In this work, we propose AutoTool, a novel graph-based framework that bypasses repeated LLM inference by exploiting a key empirical observation: tool usage inertia\u2014the tendency of tool invocations to follow predictable sequential patterns. AutoTool constructs a directed graph from historical agent trajectories, where nodes represent tools and edges capture transition probabilities, effectively modeling the inertia in tool selection. It further integrates parameter-level information to refine tool input generation. By traversing this structured representation, AutoTool efficiently selects tools and their parameters with minimal reliance on LLM inference. Extensive experiments across diverse agent tasks demonstrate that AutoTool reduces inference costs by up to 30% while maintaining competitive task completion rates, offering a practical and scalable enhancement for inference-heavy frameworks. Our work highlights the promise of integrating statistical structure into LLM agent design for greater efficiency without sacrificing performance."
+ },
+ {
+  "paper_id": 1128,
+  "title": "Retrieval-Augmented Generation to Generate Knowledge Assets and Creation of Action Drivers",
+  "year": 2025,
+  "venue": "Applied Sciences",
+  "source": "openalex",
+  "abstract": "This article explores the application of Retrieval-Augmented Generation (RAG) to enhance the creation of knowledge assets and develop actionable insights from complex datasets. It begins by contextualising the limitations of large language models (LLMs), notably their knowledge cut-offs and hallucination tendencies, and it will present RAG as a promising solution that integrates external knowledge retrieval to improve factual accuracy and relevance. This study reviews current RAG architectures, including na\u00efve and advanced models, emphasising techniques such as optimised indexing, query refinement, metadata utilisation, and the incorporation of autonomous AI agents in agentic RAG systems. Methodologies for effective data preprocessing, semantic-aware chunking, and retrieval strategies\u2014such as multihop retrieval and reranking\u2014are also discussed to address challenges such as irrelevant retrieval and semantic fragmentation. This work further examines embedding models, notably the use of state-of-the-art vector representations, to facilitate precise similarity searches within knowledge bases. A case study demonstrates the deployment of an RAG pipeline for analysing multisheet datasets, highlighting challenges in data structuring, prompt engineering, and ensuring output consistency."
+ },
+ {
+  "paper_id": 1130,
+  "title": "A Survey on Vision--Language--Action Models for Embodied AI",
+  "year": 2026,
+  "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+  "source": "openalex",
+  "abstract": "Embodied AI is widely recognized as a cornerstone of artificial general intelligence (AGI) because it involves controlling embodied agents to perform tasks in the physical world. Building on the success of large language models (LLMs) and vision-language models (VLMs), a new category of multimodal models-referred to as vision-language-action (VLA) models-has emerged to address language-conditioned robotic tasks in embodied AI by leveraging their distinct ability to generate actions. The recent proliferation of VLAs necessitates a comprehensive survey to capture the rapidly evolving landscape. To this end, we present the first survey on VLAs for embodied AI. This work provides a detailed taxonomy of VLAs, organized into three major lines of research. The first line focuses on individual components of VLAs. The second line is dedicated to developing VLA-based control policies adept at predicting low-level actions. The third line comprises high-level task planners capable of decomposing long-horizon tasks into a sequence of subtasks, thereby guiding VLAs to follow more general user instructions. Furthermore, we provide an extensive summary of relevant resources, including datasets, simulators, and benchmarks. Finally, we discuss the challenges facing VLAs and outline promising future directions in embodied AI. A curated repository associated with this survey is available at: https://github.com/yueen-ma/Awesome-VLA."
+ },
+ {
+  "paper_id": 1133,
+  "title": "Frontier AI Ethics: Anticipating and Evaluating the Societal Impacts of Language Model Agents",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Some have criticised Generative AI Systems for replicating the familiar pathologies of already widely-deployed AI systems. Other critics highlight how they foreshadow vastly more powerful future systems, which might threaten humanity's survival. The first group says there is nothing new here; the other looks through the present to a perhaps distant horizon. In this paper, I instead pay attention to what makes these particular systems distinctive: both their remarkable scientific achievement, and the most likely and consequential ways in which they will change society over the next five to ten years. In particular, I explore the potential societal impacts and normative questions raised by the looming prospect of 'Language Model Agents', in which multimodal large language models (LLMs) form the executive centre of complex, tool-using AI systems that can take unsupervised sequences of actions towards some goal."
+ },
+ {
+  "paper_id": 1134,
+  "title": "Automating structure\u2013activity analysis for electrochemical nitrogen reduction catalyst design through multi-agent collaborations",
+  "year": 2025,
+  "venue": "National Science Review",
+  "source": "openalex",
+  "abstract": "The electrochemical nitrogen reduction reaction (eNRR) offers sustainable ammonia production, yet elucidating structure-activity relationships (SARs) is challenging. We introduce eNRRCrew, a novel multi-agent framework integrating large language models (LLMs), machine learning and automated tools to advance eNRR research. By analyzing 2321 papers, eNRRCrew constructed a comprehensive database of electrocatalyst properties, conditions and performance. The framework employs a random forest classifier for eNRR yield prediction, with model interpretability analysis revealing key factors like space group number and elemental electronegativity difference. Additionally, clustering analysis identifies distinct Faradaic efficiency patterns. eNRRCrew's five LLM agents enable natural language interaction for novel catalyst recommendation, performance prediction, data analysis and literature insights. This approach surpasses traditional methods in extracting SARs and guiding rational catalyst design, offering a scalable platform for various electrocatalysis domains and a new paradigm for LLM-driven scientific discovery."
+ },
+ {
+  "paper_id": 1136,
+  "title": "Trial and Error: Exploration-Based Trajectory Optimization of LLM Agents",
+  "year": 2024,
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have become integral components in various autonomous agent systems.In this study, we present an exploration-based trajectory optimization approach, referred to as ETO.This learning method is designed to enhance the performance of open LLM agents.Contrary to previous studies that exclusively train on successful expert trajectories, our method allows agents to learn from their exploration failures.This leads to improved performance through an iterative optimization framework.During the exploration phase, the agent interacts with the environment while completing given tasks, gathering failure trajectories to create contrastive trajectory pairs.In the subsequent training phase, the agent utilizes these trajectory preference pairs to update its policy using contrastive learning methods like DPO (Rafailov et al., 2023).This iterative cycle of exploration and training fosters continued improvement in the agents.Our experiments on three complex tasks demonstrate that ETO consistently surpasses baseline performance by a large margin.Furthermore, an examination of task-solving efficiency and potential in scenarios lacking expert trajectory underscores the effectiveness of our approach.1"
+ },
+ {
+  "paper_id": 1137,
+  "title": "CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Open large language models (LLMs) have significantly advanced the field of natural language processing, showcasing impressive performance across various tasks.Despite the significant advancements in LLMs, their effective operation still relies heavily on human input to accurately guide the dialogue flow, with agent tuning being a crucial optimization technique that involves human adjustments to the model for better response to such guidance.Addressing this dependency, our work introduces the TinyAgent model, trained on a meticulously curated high-quality dataset. We also present the Collaborative Multi-Agent Tuning (CMAT) framework, an innovative system designed to augment language agent capabilities through adaptive weight updates based on environmental feedback. This framework fosters collaborative learning and real-time adaptation among multiple intelligent agents, enhancing their context-awareness and long-term memory. In this research, we propose a new communication agent framework that integrates multi-agent systems with environmental feedback mechanisms, offering a scalable method to explore cooperative behaviors. Notably, our TinyAgent-7B model exhibits performance on par with GPT-3.5, despite having fewer parameters, signifying a substantial improvement in the efficiency and effectiveness of LLMs."
+ },
+ {
+  "paper_id": 1138,
+  "title": "ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL",
+  "year": 2024,
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "A broad use case of large language models (LLMs) is in goal-directed decision-making tasks (or \"agent\" tasks), where an LLM needs to not just generate completions for a given prompt, but rather make intelligent decisions over a multi-turn interaction to accomplish a task (e.g., when interacting with the web, using tools, or providing customer support). Reinforcement learning (RL) provides a general paradigm to address such agent tasks, but current RL methods for LLMs largely focus on optimizing single-turn rewards. By construction, most single-turn RL methods cannot endow LLMs with the ability to intelligently seek information over multiple turns, perform credit assignment, or reason about their past actions -- all of which are critical in agent tasks. This raises the question: how can we design effective and efficient multi-turn RL algorithms for LLMs? In this paper, we develop a framework for building multi-turn RL algorithms for fine-tuning LLMs, that preserves the flexibility of existing single-turn RL methods for LLMs (e.g., proximal policy optimization), while accommodating multiple turns, long horizons, and delayed rewards effectively. To do this, our framework adopts a hierarchical RL approach and runs two RL algorithms in parallel: a high-level off-policy value-based RL algorithm to aggregate reward over utterances, and a low-level RL algorithm that utilizes this high-level value function to train a token policy within each utterance or turn. Our hierarchical framework, Actor-Critic Framework with a Hierarchical Structure (ArCHer), can also give rise to other RL methods. Empirically, we find that ArCHer significantly improves efficiency and performance on agent tasks, attaining a sample efficiency of about 100x over existing methods, while also improving with larger model capacity (upto the 7 billion scale that we tested on)."
+ },
+ {
+  "paper_id": 1144,
+  "title": "COrAL: Order-Agnostic Language Modeling for Efficient Iterative Refinement",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Iterative refinement has emerged as an effective paradigm for enhancing the capabilities of large language models (LLMs) on complex tasks. However, existing approaches typically implement iterative refinement at the application or prompting level, relying on autoregressive (AR) modeling. The sequential token generation in AR models can lead to high inference latency. To overcome these challenges, we propose Context-Wise Order-Agnostic Language Modeling (COrAL), which incorporates iterative refinement directly into the LLM architecture while maintaining computational efficiency. Our approach models multiple token dependencies within manageable context windows, enabling the model to perform iterative refinement internally during the generation process. Leveraging the order-agnostic nature of COrAL, we introduce sliding blockwise order-agnostic decoding, which performs multi-token forward prediction and backward reconstruction within context windows. This allows the model to iteratively refine its outputs in parallel in the sliding block, effectively capturing diverse dependencies without the high inference cost of sequential generation. Empirical evaluations on reasoning tasks demonstrate that COrAL improves performance and inference speed, respectively, achieving absolute accuracy gains of $4.6\\%$ on GSM8K and $4.0\\%$ on LogiQA, along with inference speedups of up to $3.9\\times$ over next-token baselines. Preliminary results on code generation indicate a drop in pass rates due to inconsistencies in order-agnostic outputs, highlighting the inherent quality--speed trade-off. Our code is publicly available at https://github.com/YuxiXie/COrAL."
+ },
+ {
+  "paper_id": 1169,
+  "title": "Internal Consistency and Self-Feedback in Large Language Models: A Survey",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) often exhibit deficient reasoning or generate hallucinations. To address these, studies prefixed with \"Self-\" such as Self-Consistency, Self-Improve, and Self-Refine have been initiated. They share a commonality: involving LLMs evaluating and updating themselves. Nonetheless, these efforts lack a unified perspective on summarization, as existing surveys predominantly focus on categorization.   In this paper, we use a unified perspective of internal consistency, offering explanations for reasoning deficiencies and hallucinations. Internal consistency refers to the consistency in expressions among LLMs' latent, decoding, or response layers based on sampling methodologies. Then, we introduce an effective theoretical framework capable of mining internal consistency, named Self-Feedback. This framework consists of two modules: Self-Evaluation and Self-Update. The former captures internal consistency signals, while the latter leverages the signals to enhance either the model's response or the model itself. This framework has been employed in numerous studies.   We systematically classify these studies by tasks and lines of work; summarize relevant evaluation methods and benchmarks; and delve into the concern, \"Does Self-Feedback Really Work?\" We also propose several critical viewpoints, including the \"Hourglass Evolution of Internal Consistency\", \"Consistency Is (Almost) Correctness\" hypothesis, and \"The Paradox of Latent and Explicit Reasoning\". The relevant resources are open-sourced at https://github.com/IAAR-Shanghai/ICSFSurvey."
+ },
+ {
+  "paper_id": 1182,
+  "title": "SELF: Self-Evolution with Language Feedback",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable versatility across various domains. To further advance LLMs, we propose 'SELF' (Self-Evolution with Language Feedback), a novel approach that enables LLMs to self-improve through self-reflection, akin to human learning processes. SELF initiates with a meta-skill learning process that equips the LLMs with capabilities for self-feedback and self-refinement. Subsequently, the model undergoes an iterative process of self-evolution. In each iteration, it utilizes an unlabeled dataset of instructions to generate initial responses. These responses are enhanced through self-feedback and self-refinement. The model is then fine-tuned using this enhanced data. The model undergoes progressive improvement through this iterative self-evolution process. Moreover, the SELF framework enables the model to apply self-refinement during inference, which further improves response quality. Our experiments in mathematics and general tasks demonstrate that SELF can enhance the capabilities of LLMs without human intervention. The SELF framework indicates a promising direction for the autonomous evolution of LLMs, transitioning them from passive information receivers to active participants in their development."
+ },
+ {
+  "paper_id": 1184,
+  "title": "Post-Training Large Language Models via Reinforcement Learning from Self-Feedback",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) often produce plausible but poorly-calibrated answers, limiting their reliability on reasoning-intensive tasks. We present Reinforcement Learning from Self-Feedback (RLSF), a post-training stage that uses the model's own confidence as an intrinsic reward, mimicking how humans learn in the absence of external feedback. After a frozen LLM generates several chain-of-thought solutions, we define and compute the confidence of each final answer span and rank the traces accordingly. These synthetic preferences are then used to fine-tune the policy with standard preference optimization, similar to RLHF yet requiring no human labels, gold answers, or externally curated rewards.   RLSF simultaneously (i) refines the model's probability estimates -- restoring well-behaved calibration -- and (ii) strengthens step-by-step reasoning, yielding improved performance on arithmetic reasoning and multiple-choice question answering.   By turning a model's own uncertainty into useful self-feedback, RLSF affirms reinforcement learning on intrinsic model behaviour as a principled and data-efficient component of the LLM post-training pipeline and warrents further research in intrinsic rewards for LLM post-training."
+ },
+ {
+  "paper_id": 1203,
+  "title": "Can Language Models Critique Themselves? Investigating Self-Feedback for Retrieval Augmented Generation at BioASQ 2025",
+  "year": 2025,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Agentic Retrieval Augmented Generation (RAG) and 'deep research' systems aim to enable autonomous search processes where Large Language Models (LLMs) iteratively refine outputs. However, applying these systems to domain-specific professional search, such as biomedical research, presents challenges, as automated systems may reduce user involvement and misalign with expert information needs. Professional search tasks often demand high levels of user expertise and transparency. The BioASQ CLEF 2025 challenge, using expert-formulated questions, can serve as a platform to study these issues. We explored the performance of current reasoning and nonreasoning LLMs like Gemini-Flash 2.0, o3-mini, o4-mini and DeepSeek-R1. A key aspect of our methodology was a self-feedback mechanism where LLMs generated, evaluated, and then refined their outputs for query expansion and for multiple answer types (yes/no, factoid, list, ideal). We investigated whether this iterative self-correction improves performance and if reasoning models are more capable of generating useful feedback. Preliminary results indicate varied performance for the self-feedback strategy across models and tasks. This work offers insights into LLM self-correction and informs future work on comparing the effectiveness of LLM-generated feedback with direct human expert input in these search systems."
+ },
+ {
+  "paper_id": 1209,
+  "title": "Self-Correcting Decoding with Generative Feedback for Mitigating Hallucinations in Large Vision-Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.CV",
+  "source": "arxiv",
+  "abstract": "While recent Large Vision-Language Models (LVLMs) have shown remarkable performance in multi-modal tasks, they are prone to generating hallucinatory text responses that do not align with the given visual input, which restricts their practical applicability in real-world scenarios. In this work, inspired by the observation that the text-to-image generation process is the inverse of image-conditioned response generation in LVLMs, we explore the potential of leveraging text-to-image generative models to assist in mitigating hallucinations in LVLMs. We discover that generative models can offer valuable self-feedback for mitigating hallucinations at both the response and token levels. Building on this insight, we introduce self-correcting Decoding with Generative Feedback (DeGF), a novel training-free algorithm that incorporates feedback from text-to-image generative models into the decoding process to effectively mitigate hallucinations in LVLMs. Specifically, DeGF generates an image from the initial response produced by LVLMs, which acts as an auxiliary visual reference and provides self-feedback to verify and correct the initial response through complementary or contrastive decoding. Extensive experimental results validate the effectiveness of our approach in mitigating diverse types of hallucinations, consistently surpassing state-of-the-art methods across six benchmarks. Code is available at https://github.com/zhangce01/DeGF."
+ },
+ {
+  "paper_id": 1212,
+  "title": "Self-Improvement of Large Language Models: A Technical Overview and Future Outlook",
+  "year": 2026,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "As large language models (LLMs) continue to advance, improving them solely through human supervision is becoming increasingly costly and limited in scalability. As models approach human-level capabilities in certain domains, human feedback may no longer provide sufficiently informative signals for further improvement. At the same time, the growing ability of models to make autonomous decisions and execute complex actions naturally enables abstractions in which components of the model development process can be progressively automated. Together, these challenges and opportunities have driven increasing interest in self-improvement, where models autonomously generate data, evaluate outputs, and iteratively refine their own capabilities. In this paper, we present a system-level perspective on self-improving language models and introduce a unified framework that organizes existing techniques. We conceptualize the self-improvement system as a closed-loop lifecycle, consisting of four tightly coupled processes: data acquisition, data selection, model optimization, and inference refinement, along with an autonomous evaluation layer. Within this framework, the model itself plays a central role in driving each stage: collecting or generating data, selecting informative signals, updating its parameters, and refining outputs, while the autonomous evaluation layer continuously monitors progress and guides the improvement cycle across stages. Following this lifecycle perspective, we systematically review and analyze representative methods for each component from a technical standpoint. We further discuss current limitations and outline our vision for future research toward fully self-improving LLMs."
+ },
+ {
+  "paper_id": 1234,
+  "title": "Teaching Language Models to Self-Improve by Learning from Language Feedback",
+  "year": 2024,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Aligning Large Language Models (LLMs) with human intentions and values is crucial yet challenging. Current methods primarily rely on human preferences, which are costly and insufficient in capturing nuanced feedback expressed in natural language. In this paper, we present Self-Refinement Tuning (SRT), a method that leverages model feedback for alignment, thereby reducing reliance on human annotations. SRT uses a base language model (e.g., Tulu2) to generate initial responses, which are critiqued and refined by a more advanced model (e.g., GPT-4-Turbo). This process enables the base model to self-evaluate and improve its outputs, facilitating continuous learning. SRT further optimizes the model by learning from its self-generated feedback and refinements, creating a feedback loop that promotes model improvement. Our empirical evaluations demonstrate that SRT significantly outperforms strong baselines across diverse tasks and model sizes. When applied to a 70B parameter model, SRT increases the win rate from 9.6\\% to 25.8\\% on the AlpacaEval 2.0 benchmark, surpassing well-established systems such as GPT-4-0314, Claude 2, and Gemini. Our analysis highlights the crucial role of language feedback in the success of SRT, suggesting potential for further exploration in this direction."
+ },
+ {
+  "paper_id": 1240,
+  "title": "RLIE: Rule Generation with Logistic Regression, Iterative Refinement, and Evaluation for Large Language Models",
+  "year": 2025,
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Large Language Models (LLMs) can propose rules in natural language, sidestepping the need for a predefined predicate space in traditional rule learning. Yet many LLM-based approaches ignore interactions among rules, and the opportunity to couple LLMs with probabilistic rule learning for robust inference remains underexplored. We present RLIE, a unified framework that integrates LLMs with probabilistic modeling to learn a set of weighted rules. RLIE has four stages: (1) Rule generation, where an LLM proposes and filters candidates; (2) Logistic regression, which learns probabilistic weights for global selection and calibration; (3) Iterative refinement, which updates the rule set using prediction errors; and (4) Evaluation, which compares the weighted rule set as a direct classifier with methods that inject rules into an LLM. We evaluate multiple inference strategies on real-world datasets. Applying rules directly with their learned weights yields superior performance, whereas prompting LLMs with the rules, weights, and logistic-model outputs surprisingly degrades accuracy. This supports the view that LLMs excel at semantic generation and interpretation but are less reliable for precise probabilistic integration. RLIE clarifies the potential and limitations of LLMs for inductive reasoning and couples them with classic probabilistic rule combination methods to enable more reliable neuro-symbolic reasoning."
+ },
+ {
+  "paper_id": 1241,
+  "title": "Self-Refine: Iterative Refinement with Self-Feedback",
+  "year": 2023,
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "Like humans, large language models (LLMs) do not always generate the best output on their first try. Motivated by how humans refine their written text, we introduce Self-Refine, an approach for improving initial outputs from LLMs through iterative feedback and refinement. The main idea is to generate an initial output using an LLMs; then, the same LLMs provides feedback for its output and uses it to refine itself, iteratively. Self-Refine does not require any supervised training data, additional training, or reinforcement learning, and instead uses a single LLM as the generator, refiner, and feedback provider. We evaluate Self-Refine across 7 diverse tasks, ranging from dialog response generation to mathematical reasoning, using state-of-the-art (GPT-3.5, ChatGPT, and GPT-4) LLMs. Across all evaluated tasks, outputs generated with Self-Refine are preferred by humans and automatic metrics over those generated with the same LLM using conventional one-step generation, improving by ~20% absolute on average in task performance. Our work demonstrates that even state-of-the-art LLMs like GPT-4 can be further improved at test time using our simple, standalone approach."
+ }
+]

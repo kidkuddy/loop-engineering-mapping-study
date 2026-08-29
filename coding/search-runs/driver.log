@@ -1,0 +1,47 @@
+skip Q01/arxiv
+skip Q01/openalex
+  Q02/arxiv found=200 matched=269785 stored=200 trunc=True
+  Q02/openalex found=200 matched=1243 stored=193 trunc=True
+  Q03/arxiv found=200 matched=862413 stored=200 trunc=True
+  Q03/openalex found=200 matched=9111 stored=196 trunc=True
+  Q04/arxiv found=200 matched=977063 stored=200 trunc=True
+  Q04/openalex found=200 matched=14216 stored=194 trunc=True
+  Q05/arxiv found=200 matched=991893 stored=200 trunc=True
+  Q05/openalex found=200 matched=8675 stored=195 trunc=True
+  Q06/arxiv found=200 matched=886409 stored=200 trunc=True
+  Q06/openalex found=200 matched=2263 stored=188 trunc=True
+  Q07/arxiv found=200 matched=922693 stored=200 trunc=True
+  Q07/openalex found=200 matched=17798 stored=195 trunc=True
+  Q08/arxiv found=200 matched=876586 stored=200 trunc=True
+  Q08/openalex found=200 matched=1287 stored=193 trunc=True
+  Q09/arxiv found=200 matched=886070 stored=200 trunc=True
+  Q09/openalex found=200 matched=1998 stored=195 trunc=True
+  Q10/arxiv found=200 matched=910081 stored=200 trunc=True
+  Q10/openalex found=200 matched=1654 stored=191 trunc=True
+  Q11/arxiv found=200 matched=362187 stored=200 trunc=True
+  Q11/openalex found=200 matched=5458 stored=176 trunc=True
+  Q12/arxiv found=200 matched=852897 stored=200 trunc=True
+  Q12/openalex found=178 matched=178 stored=167 trunc=None
+  Q13/arxiv found=200 matched=879265 stored=200 trunc=True
+  Q13/openalex found=200 matched=1089 stored=184 trunc=True
+  Q14/arxiv found=200 matched=214151 stored=199 trunc=True
+  Q14/openalex found=200 matched=1447 stored=184 trunc=True
+  Q15/arxiv found=200 matched=981233 stored=200 trunc=True
+  Q15/openalex found=200 matched=4639 stored=183 trunc=True
+  Q16/arxiv found=200 matched=160531 stored=200 trunc=True
+  Q16/openalex found=200 matched=313 stored=195 trunc=True
+  Q17/arxiv found=200 matched=175986 stored=200 trunc=True
+  Q17/openalex found=200 matched=265 stored=192 trunc=True
+  Q18/arxiv found=200 matched=661916 stored=200 trunc=True
+  Q18/openalex found=200 matched=8495 stored=182 trunc=True
+  Q19/arxiv found=200 matched=945349 stored=200 trunc=True
+  Q19/openalex found=200 matched=14885 stored=197 trunc=True
+  Q20/arxiv found=200 matched=904337 stored=200 trunc=True
+  Q20/openalex found=200 matched=1864 stored=191 trunc=True
+  Q21/arxiv found=200 matched=879494 stored=200 trunc=True
+  Q21/openalex found=200 matched=7319 stored=196 trunc=True
+  Q22/arxiv found=200 matched=135265 stored=200 trunc=True
+  Q22/openalex found=200 matched=2360 stored=192 trunc=True
+  Q23/arxiv found=15 matched=15 stored=15 trunc=None
+  Q23/openalex found=200 matched=629 stored=169 trunc=True
+ALL QUERIES DONE

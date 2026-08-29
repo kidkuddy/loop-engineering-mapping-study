@@ -1,0 +1,13 @@
+{
+ "query": "\"context management\" agent trajectory language model",
+ "stored": 77,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 3840471,
+   "truncated": true,
+   "stored": 77
+  }
+ ]
+}

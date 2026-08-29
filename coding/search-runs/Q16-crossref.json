@@ -1,0 +1,13 @@
+{
+ "query": "\"task decomposition\" planning replanning LLM agent",
+ "stored": 71,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 475849,
+   "truncated": true,
+   "stored": 71
+  }
+ ]
+}

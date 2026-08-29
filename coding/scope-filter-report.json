@@ -1,0 +1,114 @@
+{
+ "identified": 7417,
+ "retained": 3323,
+ "removed": 4094,
+ "rule": {
+  "technology_terms": [
+   "llm",
+   "large language model",
+   "language model",
+   "foundation model",
+   "gpt-3",
+   "gpt-4",
+   "gpt4",
+   "chatgpt",
+   "agentic",
+   "ai agent",
+   "autonomous agent",
+   "llm-based",
+   "language-model",
+   "generative ai",
+   "claude",
+   "gemini",
+   "llama",
+   "vision-language model",
+   "multimodal model",
+   "instruction-tuned"
+  ],
+  "control_terms": [
+   "loop",
+   "iterat",
+   "refine",
+   "refinement",
+   "self-correct",
+   "self-verif",
+   "self-improv",
+   "self-refl",
+   "critic",
+   "verifier",
+   "verification",
+   "reflexion",
+   "reflection",
+   "retry",
+   "re-attempt",
+   "replan",
+   "re-plan",
+   "multi-turn",
+   "multi-step",
+   "trajector",
+   "orchestrat",
+   "stopping criteri",
+   "termination",
+   "feedback",
+   "revise",
+   "revision",
+   "react",
+   "plan-and-execute",
+   "scaffold",
+   "controller",
+   "agentic workflow",
+   "tool-use loop",
+   "closed-loop",
+   "human-in-the-loop",
+   "episodic memory",
+   "long-horizon",
+   "autonomous agent",
+   "error recovery",
+   "failure recovery",
+   "rollback",
+   "backtrack"
+  ]
+ },
+ "validation": [
+  {
+   "paper": "ReAct",
+   "status": "retained"
+  },
+  {
+   "paper": "Reflexion",
+   "status": "retained"
+  },
+  {
+   "paper": "Self-Refine",
+   "status": "retained"
+  },
+  {
+   "paper": "Tree of Thoughts",
+   "status": "retained"
+  },
+  {
+   "paper": "LATS",
+   "status": "retained"
+  },
+  {
+   "paper": "Voyager",
+   "status": "not_retrieved"
+  },
+  {
+   "paper": "AutoGen",
+   "status": "not_retrieved"
+  },
+  {
+   "paper": "CRITIC",
+   "status": "retained"
+  },
+  {
+   "paper": "Generative Agents",
+   "status": "not_retrieved"
+  },
+  {
+   "paper": "Cannot Self-Correct",
+   "status": "retained"
+  }
+ ]
+}

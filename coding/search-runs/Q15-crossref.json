@@ -1,0 +1,13 @@
+{
+ "query": "\"agent framework\" workflow orchestration large language model",
+ "stored": 76,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 2517741,
+   "truncated": true,
+   "stored": 76
+  }
+ ]
+}

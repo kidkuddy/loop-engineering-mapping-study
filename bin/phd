@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Wrapper so every command -- including one run inside a subagent's fresh shell --
+# resolves this study's local database and never the shared remote.
+R="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+export PHD_ENV="$R/phd.env"
+export EPT_DATA="$R/data"
+exec /Users/niemand/.local/bin/phd "$@"

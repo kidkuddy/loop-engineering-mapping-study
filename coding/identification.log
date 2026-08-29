@@ -1,0 +1,50 @@
+=== database search finished; adding Crossref + DBLP ===
+  Q01/crossref found=100 matched=2191490 new=89
+  Q01/dblp found=2 matched=2 new=2
+  Q02/crossref found=100 matched=1394469 new=93
+  Q02/dblp found=0 matched=0 new=0
+  Q03/crossref found=100 matched=1929276 new=87
+  Q03/dblp found=0 matched=0 new=0
+  Q04/crossref found=100 matched=2619258 new=90
+  Q04/dblp found=0 matched=0 new=0
+  Q05/crossref found=100 matched=2732307 new=78
+  Q05/dblp found=4 matched=4 new=0
+  Q06/crossref found=100 matched=2438932 new=74
+  Q06/dblp found=0 matched=0 new=0
+  Q07/crossref found=100 matched=2613190 new=84
+  Q07/dblp found=6 matched=6 new=5
+  Q08/crossref found=100 matched=1948552 new=47
+  Q08/dblp found=0 matched=0 new=0
+  Q09/crossref found=100 matched=1853105 new=74
+  Q09/dblp found=0 matched=0 new=0
+  Q10/crossref found=100 matched=2818478 new=80
+  Q10/dblp found=0 matched=0 new=0
+  Q11/crossref found=100 matched=793290 new=74
+  Q11/dblp found=0 matched=0 new=0
+  Q12/crossref found=100 matched=2051691 new=77
+  Q12/dblp found=0 matched=0 new=0
+  Q13/crossref found=100 matched=3840471 new=77
+  Q13/dblp found=0 matched=0 new=0
+  Q14/crossref found=100 matched=867128 new=77
+  Q14/dblp found=0 matched=0 new=0
+  Q15/crossref found=100 matched=2517741 new=76
+  Q15/dblp found=0 matched=0 new=0
+  Q16/crossref found=100 matched=475849 new=71
+  Q16/dblp found=0 matched=0 new=0
+  Q17/crossref found=100 matched=650602 new=48
+  Q17/dblp found=0 matched=0 new=0
+  Q18/crossref found=100 matched=2507175 new=72
+  Q18/dblp found=0 matched=0 new=0
+  Q19/crossref found=100 matched=3212230 new=66
+  Q19/dblp found=0 matched=0 new=0
+  Q20/crossref found=100 matched=2598957 new=62
+  Q20/dblp found=0 matched=0 new=0
+  Q21/crossref found=100 matched=2059013 new=59
+  Q21/dblp found=3 matched=3 new=1
+  Q22/crossref found=100 matched=999572 new=71
+  Q22/dblp found=0 matched=0 new=0
+  Q23/crossref found=100 matched=2451750 new=100
+  Q23/dblp found=60 matched=104 new=54
+=== manual venue search (strategy 3) ===
+protocol/11-extra-sources.sh: line 9: 51811 Terminated: 15          python3 scripts/venue_search.py
+IDENTIFICATION COMPLETE

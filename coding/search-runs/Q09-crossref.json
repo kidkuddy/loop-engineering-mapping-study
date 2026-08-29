@@ -1,0 +1,13 @@
+{
+ "query": "\"stopping criterion\" iterative language model reasoning",
+ "stored": 74,
+ "providers": [
+  {
+   "provider": "crossref",
+   "found": 100,
+   "matched": 1853105,
+   "truncated": true,
+   "stored": 74
+  }
+ ]
+}
