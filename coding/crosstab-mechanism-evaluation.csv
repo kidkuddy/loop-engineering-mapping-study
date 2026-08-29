@@ -1,7 +1,7 @@
 loop_mechanism,benchmark,controlled_experiment,ablation,case_study,human_study,illustrative_example,none
 verification_and_gating,97,36,3,10,8,8,14
 critique_and_revision,92,25,2,2,5,2,3
-loop_evaluation_and_diagnosis,65,32,4,13,0,5,3
+loop_evaluation_and_diagnosis,65,32,4,12,0,5,3
 multi_agent_coordination,70,39,3,3,0,8,6
 planning_and_control_flow,68,18,0,8,2,5,7
 deliberative_search,55,10,0,1,1,1,3

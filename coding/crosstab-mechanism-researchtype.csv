@@ -1,7 +1,7 @@
 loop_mechanism,validation_research,evaluation_research,solution_proposal,philosophical_paper,opinion_paper,experience_paper
 verification_and_gating,146,2,22,4,2,0
 critique_and_revision,126,1,4,0,0,0
-loop_evaluation_and_diagnosis,100,8,3,10,0,1
+loop_evaluation_and_diagnosis,100,7,3,10,0,1
 multi_agent_coordination,109,2,11,5,0,2
 planning_and_control_flow,95,3,4,5,1,0
 deliberative_search,67,0,3,1,0,0

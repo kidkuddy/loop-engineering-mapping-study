@@ -27,6 +27,7 @@ def put(name, value, note=""):
 
 # ---------------------------------------------------------------- identification
 put("NumProviders", 5, "arxiv, openalex, crossref, dblp, dblp-venue")
+put("NumRetrievalDepth", 200, "records requested per query per provider")
 put("NumLibraries", 4, "arxiv, openalex, crossref, dblp")
 put("NumSearchStrategies", 3, "database search, snowballing, manual venue search")
 put("NumMappingFacets", 3, "topic, contribution, research type")

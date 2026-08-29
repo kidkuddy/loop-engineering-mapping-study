@@ -1,8 +1,8 @@
 evaluation_strategy,n,pct
-benchmark,626,64.3
+benchmark,626,64.4
 controlled_experiment,187,19.2
 ablation,14,1.4
-case_study,44,4.5
+case_study,43,4.4
 human_study,16,1.6
 illustrative_example,34,3.5
 none,52,5.3

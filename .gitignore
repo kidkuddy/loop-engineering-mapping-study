@@ -1,13 +1,13 @@
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.fls
-paper/*.fdb_latexmk
-paper/*.bbl
-paper/*.blg
-paper/*.synctex.gz
-data/pdfs/
-__pycache__/
-*.pyc
+# This repository is the pipeline, not the paper.
+# It holds what is needed to re-run the study and inspect every decision.
+# Manuscript sources, figures, compiled PDFs, the drafting prompt and extracted
+# full texts are outputs; they live outside version control.
+paper/
+paper-v2/
+figures/
 data/pdfs/
 data/text/
+coding/codex.log
+__pycache__/
+*.pyc
+.DS_Store

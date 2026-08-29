@@ -1,7 +1,7 @@
 loop_mechanism,metric,tool,model,method,process
 verification_and_gating,12,24,33,91,16
 critique_and_revision,4,6,22,98,1
-loop_evaluation_and_diagnosis,39,49,24,7,3
+loop_evaluation_and_diagnosis,39,49,23,7,3
 multi_agent_coordination,2,10,40,69,8
 planning_and_control_flow,3,19,28,55,3
 deliberative_search,0,2,4,65,0
