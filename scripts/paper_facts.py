@@ -142,6 +142,15 @@ for ax in axes:
               "".join(w.capitalize() for w in val.replace("-", "_").split("_"))
         put(key, n)
 
+vs = os.path.join(ROOT, "coding", "validation", "summary.json")
+if os.path.exists(vs):
+    v = json.load(open(vs))
+    if v.get("excluded_on_criteria") is not None:
+        put("NumValidationExcludedCriteria", v["excluded_on_criteria"])
+        put("PctValidationCriteriaExclusion", f"{100*v['criteria_exclusion_rate']:.1f}")
+        put("PctValidationCriteriaLo", f"{100*v['criteria_exclusion_ci95'][0]:.1f}")
+        put("PctValidationCriteriaHi", f"{100*v['criteria_exclusion_ci95'][1]:.1f}")
+
 kp = os.path.join(ROOT, "coding", "agreement.csv")
 if os.path.exists(kp):
     ks = list(csv.DictReader(open(kp)))

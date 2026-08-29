@@ -1,0 +1,95 @@
+[1/93] FOUND  Self-Corrective Task Planning by Inverse Prompting with Larg
+[2/93]   -    LLaVA-SCo: Teach Vision Language Models to Self-Correct
+[3/93] FOUND  Fight Fire With Fire: How Much Can We Trust ChatGPT on Sourc
+[4/93]   -    Reconciling Divergent Views Through a Critical Analysis of I
+[5/93] FOUND  ReAcTree: Hierarchical LLM Agent Trees with Control Flow for
+[6/93] FOUND  Generative AI in Embodied Systems: System-Level Analysis of 
+[7/93]   -    Trust-Aware Runtime Verification for Autonomous LLM Agent Sy
+[8/93]   -    Agentic Framework for Intelligent Surrogate Modeling of Simu
+[9/93]   -    CART: A traceable zero-shot planning framework for large lan
+[10/93]   -    Continually Learning Planning Agent for Large Environments g
+[11/93]   -    Loop Engineering of Agentic, Developer, and External Feedbac
+[12/93]   -    Agentic AI Automation for Data Science in Large-Scale Projec
+[13/93]   -    Agentic Workflows for Improving Large Language Model Reasoni
+[14/93]   -    Hierarchical Agentic AI Framework for Autonomous Task Planni
+[15/93]   -    Self-Contrastive Loop of Thought Method for Text-to-SQL Base
+[16/93]   -    Dynamics of Agentic Loops in Large Language Models: A Geomet
+[17/93]   -    Trust-Aware Runtime Verification for Autonomous LLM Agent Sy
+[18/93]   -    Formal Model of a Controllable LLM Agent Based on a Cognitiv
+[19/93]   -    OpenAI single-agent LLM architecture reduces computational o
+[20/93]   -    Beyond Content Filtering: A “Circuit Breaker” Architecture f
+[21/93]   -    Multi-Agent LLM Pipeline for Code Writing: An Experimental S
+[22/93]   -    Multi-agent Self-Reflection Framework: Enhancing the Logical
+[23/93]   -    KnowPath: leveraging large language model prior reasoning pa
+[24/93] FOUND  ISR-LLM: Iterative Self-Refined Large Language Model for Lon
+[25/93]   -    Iterative Semantic Refinement: A Vision Language Model-Drive
+[26/93]   -    Self-Reflection in Large Language Model Agents: Effects on P
+[27/93]   -    DyFIRER: A Dynamic Feedback Iterative Multi-Agent Framework 
+[28/93]   -    A closed-loop feedback framework based on large language mod
+[29/93]   -    Iterative Self-Correction for Text-Driven Person Re-Identifi
+[30/93]   -    Multi-Criteria Evaluation of Hierarchical Reasoning, Self-Co
+[31/93]   -    LLMSR@XLLM25: SWRV: Empowering Self-Verification of Small La
+[32/93]   -    Not an Illusion but a Manifestation: Understanding Large Lan
+[33/93]   -    Refining Reasoning Chains through Self Correcting Reinforcem
+[34/93] FOUND  GraphReason: Enhancing Reasoning Capabilities of Large Langu
+[35/93]   -    A cost-effective approach for knowledge graph reasoning path
+[36/93]   -    A Closed-Loop Modular Language Agent with Step Verification 
+[37/93] FOUND  Knowledge-Augmented Language Model Verification
+[38/93] FOUND  Critic-CoT: Boosting the Reasoning Abilities of Large Langua
+[39/93]   -    CriticEval: Evaluating Large-scale Language Model as Critic
+[40/93] FOUND  Search-on-Graph: Iterative Informed Navigation for Large Lan
+[41/93]   -    IVC-DB: Iterative verification correction method guided by d
+[42/93]   -    Adaptive Test-Time Reasoning with Uncertainty-Guided Verific
+[43/93] FOUND  Derailer-Rerailer: Adaptive Verification for Efficient and R
+[44/93]   -    A Modular Multi-Agent Coordination Framework for Persistent 
+[45/93]   -    Toward Scalable LLM-Based Multi-Agent Collaboration: A Dynam
+[46/93]   -    ReflectiChain: Mitigating Semantic-Execution Drift in Long-H
+[47/93] FOUND  VerifyLLM: LLM-Based Pre-Execution Task Plan Verification fo
+[48/93]   -    Thought Management System for long-horizon, goal-driven LLM 
+[49/93] FOUND  AgentInit: Initializing LLM-based Multi-Agent Systems via Di
+[50/93]   -    EDAgent: A Concurrent Orchestration Method for Collaborative
+[51/93]   -    Autonomous Evaluation Architectures: Multi-Agent LLM Pipelin
+[52/93]   -    Adaptive Orchestration with Cross-Episode Memory for Dynamic
+[53/93] FOUND  LLM Enabled Multi-Agent System for 6G Networks: Framework an
+[54/93] FOUND  Generator-Assistant Stepwise Rollback Framework for Large La
+[55/93]   -    Artificial intelligence orchestration for text-based ultraso
+[56/93]   -    AGENTIC AI FOR ENTERPRISE WORKFLOW AUTOMATION: IMPACT AND AR
+[57/93]   -    Emergent Autonomous Sub-Agent Spawning in LLM-Based Multi-Ag
+[58/93] FOUND  LLM-Powered Hierarchical Language Agent for Real-time Human-
+[59/93]   -    Ethical Coordination of LLM Multi-Agent Systems
+[60/93]   -    Are Agents Listening to Each Other? Measuring What Drives Ag
+[61/93]   -    Self-reflection enhances large language models towards subst
+[62/93] FOUND  Self-ReS: Self-Reflection in Large Vision-Language Models fo
+[63/93]   -    Self-Referential Introspection in Large Language Models: The
+[64/93] FOUND  Iterative Self-Improvement of Vision Language Models for Ima
+[65/93]   -    Enhancing Logical Reasoning Depth via Monte Carlo Tree Searc
+[66/93]   -    Improving Exploration Efficiency in Complex Reasoning Tasks 
+[67/93]   -    A Tree-Based Search Algorithm with Global Pheromone and Loca
+[68/93]   -    Trustworthy Agentic AI: Balancing Autonomy with Human Oversi
+[69/93]   -    Rationality Meets Irrationality: Incentivizing Dual Cognitiv
+[70/93] FOUND  Feedback Loops and Code Perturbations in LLM-Based Software 
+[71/93] FOUND  Fail Fast, or Ask: Mitigating the Deficiencies of Reasoning 
+[72/93] FOUND  Feedback Loops and Code Perturbations in LLM-based Software 
+[73/93] FOUND  Towards Self-Refinement of Vision-Language Models with Trian
+[74/93] FOUND  Can LLMs Correct Themselves? A Benchmark of Self-Correction 
+[75/93] FOUND  Flow: Modularized Agentic Workflow Automation.
+[76/93] FOUND  AFlow: Automating Agentic Workflow Generation.
+[77/93] FOUND  Scaling Autonomous Agents via Automatic Reward Modeling And 
+[78/93] FOUND  AgenticRAGTracer: A Hop-Aware Benchmark for Diagnosing Multi
+[79/93] FOUND  Learning to Refine: Self-Refinement of Parallel Reasoning in
+[80/93]   -    Entrospect: Information-Theoretic Self-Reflection Elicits Be
+[81/93] FOUND  Divide-Verify-Refine: Can LLMs Self-align with Complex Instr
+[82/93] FOUND  LLMs as ASP Programmers: Self-Correction Enables Task-Agnost
+[83/93]   -    Meeseeks: A Feedback-Driven, Iterative Self-Correction Bench
+[84/93]   -    Confidence v.s. Critique: A Decomposition of Self-Correction
+[85/93]   -    Understanding the Dark Side of LLMs&apos; Intrinsic Self-Cor
+[86/93] FOUND  Two-Pronged Human Evaluation of ChatGPT Self-Correction in R
+[87/93] FOUND  PROTEA: Offline Evaluation and Iterative Refinement for Mult
+[88/93] FOUND  Evolutionary Guided Decoding: Iterative Value Refinement for
+[89/93] FOUND  Memory as Action: Autonomous Context Curation for Long-Horiz
+[90/93] FOUND  Towards Enforcing Company Policy Adherence in Agentic Workfl
+[91/93] FOUND  Democratizing LLMs: An Exploration of Cost-Performance Trade
+[92/93] FOUND  A Probabilistic Inference Scaling Theory for LLM Self-Correc
+[93/93]   -    A²Flow: Automating Agentic Workflow Generation via Self-Adap
+
+RECOVERABLE FROM ARXIV: 36 of 93   still unobtainable: 57

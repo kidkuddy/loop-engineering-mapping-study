@@ -53,7 +53,19 @@ for a in AXES:
     agree[a] = {"n": len(pairs),
                 "agreement": round(sum(x == y for x, y in pairs) / len(pairs), 3) if pairs else None}
 
+# Two distinct quantities live inside "excluded at full text", and reporting them
+# as one overstates the screening error. Records excluded under F2 left because
+# their text could not be obtained -- a declared criterion, and a property of
+# access, not of the screening judgement. Records excluded under any other code
+# were judged against criteria that were already declared: the abstract simply
+# did not show the disqualifying evidence, which is what a full-text stage is for.
+n_crit = n_exc - len(f2)
+lo_c, hi_c = wilson(n_crit, n_ass)
+
 out = {"drawn": len(drawn), "assessed": n_ass,
+       "excluded_on_criteria": n_crit,
+       "criteria_exclusion_rate": round(n_crit / n_ass, 3) if n_ass else None,
+       "criteria_exclusion_ci95": [round(lo_c, 3), round(hi_c, 3)],
        "eligible_at_full_text": len(inc), "excluded_at_full_text": n_exc,
        "excluded_because_text_unobtainable": len(f2),
        "false_inclusion_rate": round(n_exc / n_ass, 3) if n_ass else None,

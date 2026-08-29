@@ -1,38 +1,44 @@
 {
  "drawn": 60,
- "assessed": 56,
- "eligible_at_full_text": 50,
- "excluded_at_full_text": 6,
+ "assessed": 58,
+ "excluded_on_criteria": 5,
+ "criteria_exclusion_rate": 0.086,
+ "criteria_exclusion_ci95": [
+  0.037,
+  0.186
+ ],
+ "eligible_at_full_text": 51,
+ "excluded_at_full_text": 7,
  "excluded_because_text_unobtainable": 2,
- "false_inclusion_rate": 0.107,
+ "false_inclusion_rate": 0.121,
  "false_inclusion_ci95": [
-  0.05,
-  0.215
+  0.06,
+  0.229
  ],
  "abstract_vs_fulltext_agreement": {
   "loop_mechanism": {
-   "n": 54,
-   "agreement": 0.833
+   "n": 56,
+   "agreement": 0.839
   },
   "contribution_type": {
-   "n": 54,
-   "agreement": 0.833
+   "n": 56,
+   "agreement": 0.839
   },
   "research_type": {
-   "n": 54,
-   "agreement": 0.963
+   "n": 56,
+   "agreement": 0.964
   },
   "evaluation_strategy": {
-   "n": 54,
-   "agreement": 0.722
+   "n": 56,
+   "agreement": 0.696
   },
   "human_role": {
-   "n": 54,
-   "agreement": 0.889
+   "n": 56,
+   "agreement": 0.893
   },
   "venue_type": {
-   "n": 55,
-   "agreement": 0.836
+   "n": 57,
+   "agreement": 0.842
   }
  }
 }
