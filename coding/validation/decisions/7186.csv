@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+7186,include,I2,1;2;3;4;5;6;7;8;9;10,self_evolution,method,validation_research,benchmark,fully_autonomous,conference,"p.6 PPO-tunes the reflection LM on trial-to-trial return delta; p.8 Table 2 varies LoRA r=0/1/4 vs Reflexion's frozen reflector. p.1 ICLR 2024."

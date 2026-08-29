@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+8739,include,I2,1;2;3;4;5;6;7;8;9;10;11;12;13,verification_and_gating,process,solution_proposal,illustrative_example,human_on_the_loop,preprint,"p.9 argues QA must first try to reject, not edit; p.7 GO/RESEARCH/NO-GO gate. Only evidence is the p.8 worked SSRF case; p.10 admits no controlled study. PDF from Zenodo DOI (pdf_url was a repo)."

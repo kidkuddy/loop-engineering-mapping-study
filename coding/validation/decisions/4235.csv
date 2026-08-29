@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+4235,include,I2,1;2;3;4;5;6;7;8;9;10,planning_and_control_flow,method,validation_research,benchmark,fully_autonomous,preprint,"p.7 Table 1 vs the ungrounded-decoding baseline isolates the grounding term in action selection; p.9 Fig.6 splits planner from policy failure and Table 4 gives 113.7x fewer tokens than SayCan."

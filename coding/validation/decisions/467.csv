@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+467,include,I2,1;2;3;4;5;6;7;8;9;10,multi_agent_coordination,model,validation_research,benchmark,fully_autonomous,preprint,"p.5 BOLAA controller selects and messages specialist labor agents; p.7-9 compare 6 loop architectures x 15 LLMs, crediting orchestration and plan flow as such"

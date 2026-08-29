@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+8885,include,I2,1;2;3;4;5;6;7;8;9;10;11;12;13,multi_agent_coordination,tool,validation_research,ablation,fully_autonomous,journal,"p.7 collapses the 9-role MAS to a 2-agent Generator-Reflector loop as an ablation; p.9 s3.2 reports the topology effect (M4/M5/M7). DB had no pdf_url; read arXiv 2507.08619v2."

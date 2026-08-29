@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+9460,include,I2,1;2;3;4;5;6;7,loop_evaluation_and_diagnosis,metric,validation_research,controlled_experiment,fully_autonomous,conference,"p.2 contribution 1 frames Wordle as a benchmark for iterative reasoning; p.5-6 measure loop process (convergence rate, search-space reduction, violations) not win rate. PDF via OJS galley."

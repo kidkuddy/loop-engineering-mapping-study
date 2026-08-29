@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+5868,include,I2,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25;26;27;28;29;30;31;32;36;37;38;39;40,critique_and_revision,tool,validation_research,ablation,human_in_the_loop,preprint,"p.25 three-tier UAI ablation credits State Locking: same check, 0% vs 100% at commodity cost; p.21 no-locking reflection oscillates 0/20. PDF fetched by hand from arXiv 2604.17025v3."

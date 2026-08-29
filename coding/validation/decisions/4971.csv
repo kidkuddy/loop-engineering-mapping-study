@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+4971,exclude,E7,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20,loop_evaluation_and_diagnosis,tool,validation_research,benchmark,human_in_the_loop,preprint,"p.10 tasks score recall F1 and pass@1 only; p.15 ranks memory systems by task accuracy, not by any loop-control property; turn count is fixed by the query outline (p.9)."

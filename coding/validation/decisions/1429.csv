@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+1429,include,I2,1;2;3;4;5;6;7;8,deliberative_search,method,validation_research,benchmark,fully_autonomous,preprint,"p.7 Table 4 ablates the search itself: iterative Self-Refine 78.9 -> SR-MCTS 82.0 -> +PPRM 95.0 on GSM8K@8, so the search/selection mechanism is the measured variable."

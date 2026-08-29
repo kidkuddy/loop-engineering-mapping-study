@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+1531,include,I2,1;2;3;4;5;6;7;8;9;10,critique_and_revision,method,validation_research,benchmark,fully_autonomous,conference,"p.9 Sec 4.7 measures 5 revision iterations by ELO and argues stop conditions are needed; p.7 Table 1 beats Self-Refine; p.8 Table 2 ablates curriculum RL. p.1 ICLR 2024."

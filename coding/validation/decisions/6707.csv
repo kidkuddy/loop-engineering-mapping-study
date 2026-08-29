@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+6707,include,I2,1;2;3;4;5;6;7;8;9;10;11;12,memory_and_context_management,method,validation_research,benchmark,fully_autonomous,preprint,"p.8 ablates the peer-relationship state G (Sigma w/ vs w/o G); p.10 Table 4 + Fig.3 feedback-ratio ablation beat majority voting and best fixed peer. Cross-episode loop, not within-task."

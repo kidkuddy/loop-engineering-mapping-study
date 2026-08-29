@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+3949,include,I2,1;2;3;4;5;6;7;8,deliberative_search,method,validation_research,benchmark,fully_autonomous,conference,"p.7 Table 4 ablates all three loop components; consensus verification alone lifts GSM8K 69.14->74.98, quota allocation beats MC on every task"

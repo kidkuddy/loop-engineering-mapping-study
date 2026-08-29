@@ -1,0 +1,7 @@
+axis,n,observed_agreement,expected_agreement,cohens_kappa,interpretation
+contribution_type,973,0.917,0.394,0.863,almost perfect
+evaluation_strategy,973,0.957,0.451,0.921,almost perfect
+human_role,973,0.908,0.575,0.783,substantial
+loop_mechanism,973,0.948,0.122,0.94,almost perfect
+research_type,973,0.985,0.767,0.934,almost perfect
+venue_type,973,0.972,0.663,0.918,almost perfect

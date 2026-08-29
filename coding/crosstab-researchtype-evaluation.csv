@@ -1,0 +1,7 @@
+research_type,benchmark,controlled_experiment,ablation,case_study,human_study,illustrative_example,none
+validation_research,625,179,14,16,15,4,0
+evaluation_research,0,4,0,14,1,0,0
+solution_proposal,1,1,0,5,0,22,31
+philosophical_paper,0,3,0,4,0,8,17
+opinion_paper,0,0,0,1,0,0,4
+experience_paper,0,0,0,4,0,0,0

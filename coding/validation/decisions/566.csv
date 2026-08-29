@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+566,include,I2,1;2;3;4;5;6;7;8;9;10,verification_and_gating,model,validation_research,controlled_experiment,fully_autonomous,preprint,"p.4 catalog membership enforced at tool-output interface, off-catalog actions become no-ops; p.8 measures the gate: 420/420 on-catalog, Sonnet sigma=0 vs Haiku sigma=0.249."

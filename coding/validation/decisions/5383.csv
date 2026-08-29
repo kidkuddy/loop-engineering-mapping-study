@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+5383,include,I2,1;2;3;4;5;6;7;8;9;10;11;12;13;18;19;21;22;23;24,planning_and_control_flow,tool,validation_research,ablation,fully_autonomous,preprint,"p.13 Table 4 ablates the dynamic-update mechanism under injected subtask-output masking: 87 vs 46 website / 93 vs 0 gobang; p.24 Table 9 prices update on/off."

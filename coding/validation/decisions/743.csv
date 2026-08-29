@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+743,include,I2,1;2;3;4;5;6;7;8;9;10;11,planning_and_control_flow,method,validation_research,benchmark,fully_autonomous,conference,"p.8 ablates the interleaving itself (ReAct-IM dense-feedback thoughts, 71 vs 53 SR); p.5 Act-only baseline removes thoughts"

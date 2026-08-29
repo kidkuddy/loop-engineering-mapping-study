@@ -1,0 +1,61 @@
+paper_id,title,year,venue,has_pdf_url
+271,Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems,2026,arXiv (Cornell University),True
+304,SafeAgent: A Runtime Protection Architecture for Agentic Systems,2026,arXiv (Cornell University),True
+305,Beyond Executable Models: The Pufibara Agent Harness and the Modelica Agent Workflow Benchmark for Physical System Modeling,2026,arXiv (Cornell University),True
+321,LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks,2026,arXiv (Cornell University),True
+341,Agreement Is Not Truth: How LLM Juries Converge Confidently on Legally False Answers,2026,Zenodo (CERN European Organization for Nuclear Research),True
+467,BOLAA: Benchmarking and Orchestrating LLM-augmented Autonomous Agents,2023,arXiv:cs.AI,True
+512,The Observability Gap: Why Output-Level Human Feedback Fails for LLM Coding Agents,2026,arXiv:cs.HC,True
+566,Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense,2026,arXiv (Cornell University),True
+743,ReAct: Synergizing Reasoning and Acting in Language Models,2022,arXiv:cs.CL,True
+1331,MAF: Multi-Aspect Feedback for Improving Reasoning in Large Language Models,2023,arXiv:cs.CL,True
+1350,Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback,2023,arXiv (Cornell University),True
+1406,RCOT: Detecting and Rectifying Factual Inconsistency in Reasoning by Reversing Chain-of-Thought,2023,arXiv (Cornell University),True
+1429,LLaMA-Berry: Pairwise Optimization for O1-like Olympiad-Level Mathematical Reasoning,2024,arXiv (Cornell University),True
+1433,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,2023,arXiv (Cornell University),True
+1531,Enabling Language Models to Implicitly Learn Self-Improvement,2023,arXiv (Cornell University),True
+2228,A Closer Look at the Self-Verification Abilities of Large Language Models in Logical Reasoning,2024,,True
+2262,Can Large Language Models Solve Robot Routing?,2024,arXiv (Cornell University),True
+2316,Chain-of-Verification Reduces Hallucination in Large Language Models,2023,arXiv (Cornell University),True
+3686,Divergent-Convergent Reasoning: Scaling Test-Time Compute through Structured Solution Synthesis,2026,arXiv:cs.AI,True
+3744,Not All Turns Are Equally Hard: Adaptive Thinking Budgets For Efficient Multi-Turn Reasoning in Agents,2026,arXiv:cs.LG,True
+3783,Latency and Token-Aware Test-Time Compute,2025,arXiv:cs.LG,True
+3857,Think Hard Only When Needed: A Hybrid Best-of-N and Beam Search for Efficient Test-Time Compute,2026,,True
+3886,PAC-MCTS: Bias-Aware Pruning for Robust LLM-Guided Search and Planning,2026,arXiv (Cornell University),True
+3949,Collaborative Beam Search: Enhancing LLM Reasoning via Collective Consensus,2025,Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing,True
+4172,SWE-Marathon: Can Agents Autonomously Complete Ultra-Long-Horizon Software Work?,2026,arXiv:cs.SE,True
+4180,ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration,2025,arXiv:cs.AI,True
+4235,Grounded Decoding: Guiding Text Generation with Grounded Models for Embodied Agents,2023,arXiv (Cornell University),True
+4347,SOP-Agent: Empower General Purpose AI Agent with Domain-Specific SOPs,2025,arXiv (Cornell University),True
+4360,WebUncertainty: Dual-Level Uncertainty Driven Planning and Reasoning For Autonomous Web Agent,2026,arXiv (Cornell University),True
+4971,A Scalable Benchmark for Repository-Oriented Long-Horizon Conversational Context Management,2026,arXiv (Cornell University),True
+5064,ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory,2025,arXiv (Cornell University),True
+5304,Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework,2026,arXiv:cs.MA,True
+5383,Flow: Modularized Agentic Workflow Automation,2025,arXiv (Cornell University),True
+5845,EngiAI: A Multi-Agent Framework and Benchmark Suite for LLM-Driven Engineering Design,2026,arXiv (Cornell University),True
+5868,Harness as an Asset: Enforcing Determinism via the Convergent AI Agent Framework (CAAF),2026,arXiv (Cornell University),True
+5904,When Replanning Becomes the Bottleneck: Budgeted Replanning for Embodied Agents,2026,arXiv:cs.RO,True
+5913,When Tools Fail: Benchmarking Dynamic Replanning and Anomaly Recovery in LLM Agents,2026,arXiv:cs.AI,True
+5962,Coarse-to-Fine Grounded Memory for LLM Agent Planning,2025,arXiv:cs.AI,True
+6140,Recover: A Neuro-Symbolic Framework for Failure Detection and Recovery,2024,arXiv (Cornell University),True
+6242,Position: Beyond Model-Centric Prediction -- Agentic Time Series Forecasting,2026,arXiv (Cornell University),True
+6270,RAMP: Risk-Aware Multi-Turn Planning for Jailbreak Red-Teaming,2026,,True
+6646,AssetOpsBench: Benchmarking AI Agents for Task Automation in Industrial Asset Operations and Maintenance,2025,arXiv (Cornell University),True
+6656,A Formal Hierarchical Architecture for Agentic Orchestration with Stack-Based Execution and Lazy Discovery,2026,arXiv (Cornell University),True
+6707,$Σ$-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems,2026,arXiv:cs.MA,True
+6790,An Adversary-Resistant Multi-Agent LLM System via Credibility Scoring,2025,arXiv:cs.MA,True
+6992,Agentic AI for Commercial Insurance Underwriting with Adversarial Self-Critique,2026,,True
+7029,Structural Limitations of LLM Multi-Agent Systems as of December 2025,2025,OSF Preprints (OSF Preprints),True
+7181,Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training,2025,arXiv:cs.AI,True
+7186,Retroformer: Retrospective Large Language Agents with Policy Gradient Optimization,2023,arXiv:cs.CL,True
+7239,Benchmarking Large Language Models for ABAP Code Generation: An Empirical Study on Iterative Improvement by Compiler Feedback,2026,arXiv:cs.SE,True
+7535,Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement,2024,arXiv:cs.AI,True
+7954,Autonomous Tree-search Ability of Large Language Models,2023,arXiv:cs.CL,True
+8407,Improving Knowledge Extraction from LLMs for Task Learning through Agent Analysis,2023,arXiv:cs.AI,True
+8739,"The Evidence Closure Loop: Engineering a Bounded-Autonomous, Multi-Agent Security Staff for Evidence-Grounded Assessments and Bug Bounty",2026,Open MIND,True
+8885,Agentic Large Language Models for Conceptual Systems Engineering and Design,2026,Journal of Mechanical Design,False
+9050,Multi-agent Self-Reflection Framework: Enhancing the Logical Reasoning Ability of Large Language Models through API Interaction,2025,2025 IEEE 5th International Conference on Data Science and Computer Application (ICDSCA),False
+9460,Winning Isn't Reasoning,2026,The International FLAIRS Conference Proceedings,False
+10029,STAR: Steelmaking Task-Aware Routing for Multi-Agent LLM Expert Systems,2026,Electronics,False
+10775,"Meeseeks: A Feedback-Driven, Iterative Self-Correction Benchmark evaluating LLMs&apos; Instruction Following Capability.",2026,ACL,False
+10779,Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs.,2025,ACL,False

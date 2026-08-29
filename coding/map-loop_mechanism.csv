@@ -1,0 +1,10 @@
+loop_mechanism,n,pct
+verification_and_gating,176,18.1
+critique_and_revision,131,13.5
+loop_evaluation_and_diagnosis,122,12.5
+multi_agent_coordination,129,13.3
+planning_and_control_flow,108,11.1
+deliberative_search,71,7.3
+self_evolution,81,8.3
+memory_and_context_management,93,9.6
+budget_and_termination_control,62,6.4

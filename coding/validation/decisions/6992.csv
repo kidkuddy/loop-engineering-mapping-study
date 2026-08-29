@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+6992,include,I2,1;2;3;4;5;6;7;8;9,verification_and_gating,method,validation_research,ablation,human_in_the_loop,preprint,"p.5 Table II ablates the critic (92->96% acc, halluc 11.3->3.8%, McNemar p=0.003); p.6 Table IV scores the critic itself (87% catch, 12% FP). p.1 arXiv, no venue."

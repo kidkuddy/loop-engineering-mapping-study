@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+5304,exclude,E7,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24,critique_and_revision,tool,validation_research,benchmark,human_on_the_loop,preprint,"p.13 sole evidence is domain success rate (10->80% L-shaped) vs a whole-system single-pass GPT-5.4 baseline; p.15-17 the three loops are worked examples only, never ablated"

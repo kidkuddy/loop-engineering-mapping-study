@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+7029,exclude,F2,,,,,,,preprint,"No pages read. DOI resolves to OSF landing page osf.io/ksdej; OSF API returns 410 'no longer available' (flagged_content), /download 500, title absent from preprint search. venue_type from sample.csv"

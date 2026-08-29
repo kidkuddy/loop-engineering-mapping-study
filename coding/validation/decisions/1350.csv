@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+1350,include,I2,1;2;3;4;5;6;7;8;9;10,self_evolution,method,validation_research,controlled_experiment,fully_autonomous,preprint,"p.8 unrolls the AI-feedback loop to 5 rounds and measures per-round improvement plus the price/deal-rate tradeoff; p.6 Table 1 compares AI vs human feedback."

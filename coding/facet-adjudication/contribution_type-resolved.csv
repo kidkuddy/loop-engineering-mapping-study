@@ -1,0 +1,82 @@
+paper_id,axis,coder_1,coder_2,adjudicated,rationale
+2,contribution_type,tool,method,tool,Watchdog execution-monitoring layer and event interface shipped as a running loop on a mobile manipulator with released code; the artefact is the claim.
+225,contribution_type,tool,model,model,"Novelty is the FSM representation of app navigation (screens as states, actions as transitions); the closing claim credits structured state modeling."
+281,contribution_type,metric,tool,metric,Leaves an evaluation setting and protocol: replicated 32-game timed championship plus planner bakeoff and trace analysis of live agents.
+304,contribution_type,model,tool,model,"Titled a runtime protection architecture; its core is formalized through operators for risk encoding, consequence modeling and policy arbitration."
+346,contribution_type,method,model,model,"Represents an AI request as a complete execution path with a Path State Database and specified control plane; empirical results deferred, so the framing is the contribution."
+470,contribution_type,tool,method,tool,The artefact left behind is the Einstein Puzzles table-top environment (released on GitHub) in which communication strategies and verifier signals are studied.
+517,contribution_type,tool,method,tool,"Proposes TME, a structured memory module with a reference implementation tracking task state in a Task Memory Tree; the running module carries the claim."
+523,contribution_type,method,tool,tool,States outright that the contribution is the framework itself: a continuous-improvement reward loop and a substrate for parallel autonomous agents.
+1382,contribution_type,tool,method,method,"Novelty is delta-view feedback for fault localisation and repair; the technique, not the LATTE implementation, produces the 7.07% exact-match gain."
+1452,contribution_type,tool,method,method,Foregrounds a novel approach that leverages self-feedback as visual cues; the revise-on-feedback technique outlives the released weights.
+1461,contribution_type,model,method,model,"The key idea and primary advantage of GoT is modeling LLM thoughts as an arbitrary graph with dependency edges: a representation, extensible to new schemes."
+1564,contribution_type,model,method,model,"Theoretical analysis plus experiments explaining when intrinsic self-correction holds (zero temperature, fair prompts); offers insights into the underlying theories, no artefact."
+1574,contribution_type,model,method,model,"Empirically explains why small models can self-correct (safety-alignment fine-tuning, not scale); uses existing prompting, so what is left is the account."
+1581,contribution_type,tool,metric,metric,"Self-Correction Bench is a controlled measurement procedure: the same error injected as external vs internal, yielding the 64.5% blind-spot rate."
+1610,contribution_type,model,method,model,Systematic comparison of self-correction under open-ended generation vs multiple choice; leaves an account of how task structure and output space shape correction.
+1792,contribution_type,model,method,model,Empirical study of iterative prompting in three domains; contributes the account that self-critique collapses while sound external verification gains hold.
+1805,contribution_type,tool,method,method,Claim is that hierarchical agentic reasoning cuts required simulations by up to 90%; MASTER is named late as the realisation of that strategy.
+1835,contribution_type,tool,metric,metric,LR2Bench is 850 CSP samples scored by Exact Match to measure long-chain reflective reasoning; the instrument is the contribution.
+1865,contribution_type,tool,method,method,Claim is that coupling a theorem prover to the LLM yields formal validity guarantees and feedback for refinement; the technique outlives the implementation.
+1885,contribution_type,tool,metric,metric,Leaves the BIG-Bench Mistake dataset and a mistake-finding measurement; correction ability is isolated by feeding ground-truth error locations.
+1948,contribution_type,tool,metric,metric,"Introduces FALLACIES, 232 fallacy types in a hierarchy, and measures self-verification ability on it; the dataset and measurement are the artefact."
+2352,contribution_type,method,tool,method,"Verification-aware planning, the planner encoding passing criteria as subtask verification functions, is reusable outside the VeriMAP implementation."
+2365,contribution_type,method,tool,method,Second record of the VeriMAP paper; verification-aware planning with planner-defined verification functions is the reusable technique.
+2560,contribution_type,method,metric,metric,"Quantifies anchoring bias in judge scoring (Cohen's d up to 0.71, 48% of error corrections blocked) via a three-condition probe; it is about a measuring instrument."
+3165,contribution_type,method,model,model,"Names and explains a failure mode, structure snowballing, and an alignment tax of constrained decoding; the account is the leave-behind, the decoding is borrowed."
+3784,contribution_type,method,tool,method,Contribution is the dual-level planning algorithm plus self-play-induced collaboration modules for budgeted multi-agent compute; no artefact released.
+3799,contribution_type,method,tool,method,Headline claim is that budget-aware methods shift the cost-performance frontier; Budget Tracker and BATS are techniques reusable in any tool-calling agent.
+3815,contribution_type,metric,model,metric,"AgentPRM is a step-wise scorer of promise and progress, trained by TD estimation, used to evaluate each agent decision: a way of measuring."
+3836,contribution_type,method,tool,method,Second record of FutureWeaver; dual-level planning of test-time compute under fixed budgets is the technique.
+3932,contribution_type,metric,method,metric,Introduces novel outcome- and process-side efficiency metrics for overthinking first; the self-training mitigation follows from that measurement.
+3935,contribution_type,tool,model,tool,"Contribution is two runnable harnesses, the Explorer-Definer pipeline and the Reflective Orchestrator, reported with pass@2 and per-task dollar cost."
+4053,contribution_type,metric,tool,metric,FSM Execution is a controlled measurement framework reporting Turn Accuracy and Task Accuracy to separate computation from cumulative state maintenance.
+4311,contribution_type,method,model,model,"Contributes a learned world model of web transition dynamics plus a transition-focused observation abstraction; both are representations, used to score actions."
+4318,contribution_type,model,metric,model,"Leaves a three-layer hierarchical lens (high-level planning, low-level execution, replanning) offered as a principled foundation for diagnosing web agents."
+4320,contribution_type,metric,model,metric,"Web-Shepherd is a process reward model scoring navigation trajectories step by step, trained on 40K preference pairs: a scorer, not a system."
+4660,contribution_type,model,process,model,"MMP specifies a protocol layer through four primitives: the CAT7 seven-field schema, SVAF field-level evaluation, lineage and remix; a formalism."
+5024,contribution_type,model,method,metric,"Third value: leaves epistemic indicators over 25,000 runs (evidence ignored in 68%, refutation-driven revision in 26%) and argues outcome-based evaluation cannot detect these failures."
+5069,contribution_type,tool,method,method,"The contribution is the programmable cache policy (Distiller, Cartographer, Evictor), shown to transfer across LMs and agent architectures including Codex."
+5103,contribution_type,method,metric,metric,Leads with diagnosis: names premature termination and correlates its rate with context length across four models; the filtering strategy adds only 2.6-4.9%.
+5214,contribution_type,process,method,method,"MARS is an author/reviewer/meta-reviewer collaboration scheme judged on accuracy at ~50% fewer tokens; its stages are inference steps, not organised work."
+5225,contribution_type,method,model,method,Foregrounds integrating structural causal reasoning into the planning loop: causal scores reweight LLM action proposals without fine-tuning the LLM.
+5237,contribution_type,metric,process,metric,"Contributes internal-state indicators (dissociation, ETR) showing output at ceiling while distortion stays invisible to output-based evaluation."
+5246,contribution_type,model,method,model,"Novelty is the supernode architecture, intra-node LLM mixtures with a propose-synthesis structure plus inter-node topology; the two-stage optimiser configures it."
+5465,contribution_type,method,model,model,"Vision paper: frames agentic pipelines as a distinct query-optimisation problem and sketches an integrated optimisation loop as a research agenda, no system."
+5489,contribution_type,model,process,process,"Proposes a lifecycle-based framework of four mechanisms (representation, identification, evolution, adaptation) governing uncertainty across layers and execution phases."
+5682,contribution_type,tool,method,method,"Verifier-in-the-loop solver orchestration, routing among trusted solvers and accepting only verified candidates, is the claim; the prototype benchmark demonstrates it."
+5860,contribution_type,tool,method,method,"Novelty is conditional evidence acquisition, deciding when agentic tool use beats the frontend's holistic judgment, not the pluggable implementation."
+5899,contribution_type,tool,method,method,Claim is that principled modularisation plus history-aware local compensation avoids global replanning; that technique carries the job-shop scheduling results.
+5965,contribution_type,method,tool,method,Contribution is VLM-grounded online replanning when the initial plan fails; the RC benchmark is a vehicle and the approach transfers to real robots.
+5971,contribution_type,model,tool,model,"Foregrounds a structured multi-agent architecture applying the Saga transactional pattern with compensation, checkpointing and validation agents: a formal pattern."
+5975,contribution_type,method,tool,method,Ablation credits the bidirectional coupling of phase planner and episodic memory over either component alone; the coupling is the reusable mechanism.
+5990,contribution_type,tool,method,metric,"Third value: leaves two novel evaluation metrics (Achievement Rate, Solved-Task Consistency) plus automatic difficulty grading; PlanAhead is the measurement harness."
+6093,contribution_type,method,tool,method,"Contribution is LLM-generated recovery plans reasoned over task graphs and agent state, validated on 120 plans and a field demo; the approach is portable."
+6172,contribution_type,method,tool,method,"Dual-system loop where a VLM planner does decomposition, outcome verification and error-driven correction over a VLA executor; ablations credit closed-loop recovery."
+6200,contribution_type,tool,method,method,"Claim is the compile-to-typed-DAG, node-level verification and locality-bounded repair procedure, cutting replanning from O(N) to O(d^h)."
+6242,contribution_type,model,process,process,"Position paper that emphasizes organizing forecasting as an agentic workflow of perception, planning, action, reflection and memory, with three implementation paradigms."
+6497,contribution_type,tool,metric,metric,Introduces a benchmark of programmatically verifiable Python task chains with unit tests triggering one self-correction; billed as a reproducible method for evaluating.
+6532,contribution_type,tool,model,metric,Third value: contributes benchmarked assessment of LM agents on lateral-movement scenarios formalised as task chains with validation predicates and judge-based verification.
+6816,contribution_type,model,metric,model,Headline is Theorem 1's DPI bound on closed-system multi-step reasoning with three companion results; the SFS metric and EGSR are parts of that theory.
+6930,contribution_type,model,process,model,"Contribution is a taxonomy of architect-level failures in five severity-ordered groups: goal substitution, incomplete refactors, context loss, prompt gaps, process violations."
+6937,contribution_type,model,process,model,"Second record of quantum_bench; same five-group taxonomy of architect errors, with 21 documented Claude errors against zero for the coder agent."
+6986,contribution_type,method,model,method,"Foregrounds delegating causal evaluation to an external inference model and ranking plan steps by estimated effect, with three strategies for multi-step plans."
+6988,contribution_type,model,tool,model,Compares four patching architectures on one benchmark and concludes architectural design and iteration depth dominate; the four-paradigm structuring is the leave-behind.
+7029,contribution_type,model,process,process,External cooling is explicitly framed not as an optimization technique but as a structural governance requirement for observability in multi-agent systems.
+7239,contribution_type,metric,tool,metric,"A 180-task ABAP benchmark of adapted HumanEval tasks and SAP scenarios, measuring success rates across models and compiler-feedback iterations."
+7535,contribution_type,method,tool,method,"Claim is recursive self-modification of the agent's own logic guided only by high-level objectives, not the released framework code."
+7608,contribution_type,model,tool,model,"Presents a complete system architecture, threat model and security analysis for skill-graph self-improvement; the runnable reference implementation demonstrates it."
+7649,contribution_type,method,tool,method,"ACL version of Godel Agent; the recursive self-modification mechanism, free of predefined routines, is the claim."
+7985,contribution_type,method,tool,method,"Two-level verification, meta-verification plus autonomous selection of verification tools by reasoning type, is reusable beyond the released agent."
+8034,contribution_type,method,metric,metric,"Leads with a trajectory-level decomposition into pre-evidence and post-gold-read failures over 12,000 trajectories, arguing evidence-gathering be evaluated separately."
+8344,contribution_type,process,method,process,"States it establishes a standard workflow for monitor red teaming across awareness levels, evasion strategies, environments and human escalation."
+8726,contribution_type,process,model,process,"Reads the migration as four controls: an unreachable independent verifier, blind adversarial review, phased canary rollout, standards documented in advance."
+9096,contribution_type,method,tool,method,"Ablations credit the extraction-verification-feedback-optimization closed loop and the strategy retrieval module, not the DyFIRER implementation."
+9117,contribution_type,tool,method,method,Title-only record: a closed-loop feedback procedure for iterative optimization of generated medical records; no evidence of an artefact as the claim.
+9429,contribution_type,metric,tool,metric,CriticEval is a benchmark for evaluating LLMs as critics; what it leaves behind is the measurement instrument.
+10096,contribution_type,method,model,method,Contribution is the hierarchical Slow Mind / Fast Mind / Executor decomposition that buys real-time response; human studies measure it against ablated agents.
+10432,contribution_type,model,method,model,"Title-only record: a dual cognitive loop pairing rationality and irrationality, i.e. a cognitive architecture for social-simulation agents."
+10564,contribution_type,method,process,process,"Title-only record: mitigating reasoning-LLM deficiencies by human-in-the-loop systems engineering, a fail-fast-or-ask arrangement of work across human and model roles."
+10565,contribution_type,model,method,model,"Title-only record: a case study of feedback loops and code perturbations in a C-to-Rust translation system; leaves an account, not a named artefact."
+10696,contribution_type,tool,method,method,"Title-only record: modularised agentic workflow automation; the contribution is how workflows are composed and updated, portable beyond the Flow implementation."
+10782,contribution_type,method,metric,metric,Title-only record: a two-pronged human evaluation of ChatGPT self-correction; the contribution is the evaluation procedure.

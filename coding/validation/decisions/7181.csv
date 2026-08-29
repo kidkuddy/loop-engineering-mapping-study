@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+7181,include,I2,1;2;3;4;5;6;7;8;9;10;11;12;13;14,self_evolution,method,validation_research,benchmark,fully_autonomous,preprint,"p.7 outer loop re-collects trajectories and re-fits the actor each iteration; p.11 Table 3 scores revision ability itself; p.12 Fig.5 revision length; p.13 Fig.4 repeat-action loops."

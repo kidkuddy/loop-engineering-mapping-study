@@ -1,0 +1,38 @@
+{
+ "drawn": 60,
+ "assessed": 56,
+ "eligible_at_full_text": 50,
+ "excluded_at_full_text": 6,
+ "excluded_because_text_unobtainable": 2,
+ "false_inclusion_rate": 0.107,
+ "false_inclusion_ci95": [
+  0.05,
+  0.215
+ ],
+ "abstract_vs_fulltext_agreement": {
+  "loop_mechanism": {
+   "n": 54,
+   "agreement": 0.833
+  },
+  "contribution_type": {
+   "n": 54,
+   "agreement": 0.833
+  },
+  "research_type": {
+   "n": 54,
+   "agreement": 0.963
+  },
+  "evaluation_strategy": {
+   "n": 54,
+   "agreement": 0.722
+  },
+  "human_role": {
+   "n": 54,
+   "agreement": 0.889
+  },
+  "venue_type": {
+   "n": 55,
+   "agreement": 0.836
+  }
+ }
+}

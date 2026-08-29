@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+7954,exclude,E2,1;2;3;4;5;6;7;8;9;10;11,deliberative_search,method,validation_research,controlled_experiment,fully_autonomous,preprint,"p.4 'both CoT and ATS require only a single message call'; the tree search is emitted inside one generation with no runtime loop, and p.7-9 distils it into LLaMA by SFT."

@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+5845,exclude,F1,1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21,loop_evaluation_and_diagnosis,metric,validation_research,benchmark,human_in_the_loop,preprint,"p.4 says the study does not compare the supervisor loop against a single agent; p.19 confirms no matched single-agent baseline. Loop described, never varied; scores are engineering outcomes."

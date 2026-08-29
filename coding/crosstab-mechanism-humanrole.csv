@@ -1,0 +1,10 @@
+loop_mechanism,fully_autonomous,human_on_the_loop,human_in_the_loop,not_specified
+verification_and_gating,117,12,30,17
+critique_and_revision,121,0,5,5
+loop_evaluation_and_diagnosis,80,8,11,23
+multi_agent_coordination,102,3,10,14
+planning_and_control_flow,77,4,11,16
+deliberative_search,64,0,3,4
+self_evolution,71,4,2,4
+memory_and_context_management,68,1,6,18
+budget_and_termination_control,54,0,1,7

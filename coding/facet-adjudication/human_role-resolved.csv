@@ -1,0 +1,91 @@
+paper_id,axis,coder_1,coder_2,adjudicated,rationale
+14,human_role,fully_autonomous,not_specified,fully_autonomous,"Agent framework runs end-to-end in ScienceWorld, ALFWorld and WebShop; the RL critic rescores its own actions, no human step."
+215,human_role,not_specified,fully_autonomous,fully_autonomous,The guard is deterministic checks plus scoped LLM judgment and a judge agent auditing provenance; hundreds of workflow steps run unaided.
+279,human_role,human_in_the_loop,not_specified,human_in_the_loop,The loop is replay around an externally supplied change: 'intermediate-artifact edit' and memo update tasks whose new constraint a person supplies.
+517,human_role,fully_autonomous,not_specified,fully_autonomous,'LLMs used as autonomous agents for multi-step tasks'; the memory tree and prompt synthesis run across steps with no human input.
+608,human_role,human_in_the_loop,not_specified,not_specified,"Closed-loop regulation by internal state vectors; the 'interlocutors' it couples with are never said to be human or agent, so the human's place is unstated."
+660,human_role,human_in_the_loop,human_on_the_loop,human_in_the_loop,"The third recovery tier is 'human escalation': when context refinement and informed backtracking fail, the loop waits on a human decision."
+666,human_role,not_specified,fully_autonomous,fully_autonomous,"'Autonomous AI agents capable of proactive adaptation, collaboration, and continuous learning' replace MAPE-K; adaptations execute with no human step."
+690,human_role,human_in_the_loop,fully_autonomous,fully_autonomous,A human states the intent; the orchestration loop then self-improves to convergence (94% fewer iterations) with no human acting inside the cycle.
+865,human_role,not_specified,fully_autonomous,fully_autonomous,Dual-loop latent updates driven by environmental rewards and reflection on the agent's own text; the counterparts are other agents.
+1044,human_role,human_on_the_loop,fully_autonomous,fully_autonomous,"The loop is the LLM agent iteratively running beam search on the KG and returning results; expert feedback is offered for KG correction, not a step in it."
+1458,human_role,human_in_the_loop,fully_autonomous,human_in_the_loop,"Proactive multi-turn dialogue: the policy planner chooses the next strategy conditioned on the interlocutor's reply, evaluated in the interactive setting."
+1723,human_role,not_specified,fully_autonomous,fully_autonomous,"Monitoring, generation and verification are all model-side stages, with monitoring refined by verification feedback; no human step is described."
+1849,human_role,fully_autonomous,not_specified,fully_autonomous,'Intrinsic' self-correction is correction without external feedback; the record carries the title only.
+1923,human_role,fully_autonomous,not_specified,fully_autonomous,Decompose-critique-refine self-correction: the critic and refiner are the model itself; the record carries the title only.
+2249,human_role,not_specified,fully_autonomous,fully_autonomous,LLMs 'run system commands as autonomous agents'; output-refinement and policy-refinement close through the world at test time with no human step.
+2354,human_role,human_in_the_loop,human_on_the_loop,human_on_the_loop,"Nine months of production use: the agent runs and reports completion, the author audits afterwards and builds external verification because self-verification fails."
+3744,human_role,not_specified,fully_autonomous,fully_autonomous,Turn budgets are allocated over the agent's own reasoning turns in agentic benchmark rollouts; no human acts between turns.
+3863,human_role,fully_autonomous,not_specified,fully_autonomous,The verifier iteratively queries medical corpora during evaluation and is trained by RL on trace-level supervision; no human judge.
+3969,human_role,fully_autonomous,not_specified,fully_autonomous,"The When, How and Which modules intervene automatically during inference; human expertise is encoded in the intervention policy, not applied live."
+3987,human_role,fully_autonomous,not_specified,fully_autonomous,The loop studied is single-path autoregressive execution to task completion in synthetic and TextWorld tasks; no human step.
+4067,human_role,fully_autonomous,not_specified,fully_autonomous,Agent flows run unattended on HotpotQA and LoCoMo; the operator only sets summary volume in advance and does not act in the loop.
+4077,human_role,fully_autonomous,not_specified,fully_autonomous,The memory policy is trained on a self-supervised belief-entropy proxy and runs to 1.75M-token contexts with no human supervision.
+4079,human_role,fully_autonomous,not_specified,fully_autonomous,"The serving system speculatively executes predicted tool calls during the generation-tool loop on research, coding and science workloads."
+4109,human_role,not_specified,human_on_the_loop,human_on_the_loop,"IGX authorises tools on scope, intent, impact and 'clearance (external approval)': a person approves actions but does not act each turn."
+4203,human_role,fully_autonomous,not_specified,fully_autonomous,"It benchmarks 'generative autonomous agents' perceiving, planning and acting; the profiled loops contain no human step."
+4213,human_role,fully_autonomous,not_specified,fully_autonomous,Models are given the plan and knowledge and execute the turns alone; the measure is how far they get before self-conditioned errors.
+4286,human_role,human_in_the_loop,human_on_the_loop,human_on_the_loop,Scientists set the research objectives and validate hypotheses in vitro; the generate-critique-refine tournament runs on automated evaluations in between.
+4318,human_role,fully_autonomous,not_specified,fully_autonomous,"Web agents are scored on end-to-end task success across planning, execution and replanning; recovery is the agent's own."
+4347,human_role,fully_autonomous,not_specified,fully_autonomous,The SOP is written in advance as a decision graph; the agent traverses it to completion across benchmark tasks with no human step.
+4615,human_role,human_in_the_loop,human_on_the_loop,human_on_the_loop,"The learning signal is deployment 'outcome verdicts and after-the-fact corrections': the human judges finished episodes, not steps inside one."
+4714,human_role,not_specified,human_in_the_loop,human_in_the_loop,The loop closes through the user: demand detection infers latent needs from the user's streaming context and grounds actions in evolving user memory.
+4746,human_role,not_specified,fully_autonomous,fully_autonomous,The SWE agent calls context maintenance as a tool inside its own decision loop; measured by SWE-Bench-Verified solve rate.
+4822,human_role,not_specified,fully_autonomous,fully_autonomous,The GUI agent manages its own context and belief state over AndroidWorld long-horizon automation; no human step.
+4830,human_role,not_specified,human_in_the_loop,human_in_the_loop,The assistant's loop advances on user turns: conversational history is distilled per interaction and context growth scales with interaction verbosity.
+4833,human_role,not_specified,fully_autonomous,fully_autonomous,"The agent reads the runtime dashboard and makes its own keep-or-archive decisions on LOCA-Bench, BrowseComp-Plus and GAIA."
+4836,human_role,not_specified,fully_autonomous,fully_autonomous,Model-written code searches and transforms session state through exec; eviction and recovery are the agent's decisions.
+4861,human_role,not_specified,fully_autonomous,fully_autonomous,"SWE-agent and OpenHands run on SWE-bench Verified; masking versus summarization is decided by the scaffold, not by a person."
+4886,human_role,not_specified,fully_autonomous,fully_autonomous,"The agent assesses its remaining budget and decides when to compress, trained by RL and measured on QA and web-browsing benchmarks."
+4916,human_role,not_specified,fully_autonomous,fully_autonomous,The diagnostic replays agent trajectories with and without the plan on HotpotQA; the trajectories are agent-generated with no human step.
+4944,human_role,not_specified,fully_autonomous,fully_autonomous,The SWE agent calls context maintenance as a tool inside its own decision loop; measured by SWE-Bench-Verified solve rate.
+4957,human_role,not_specified,fully_autonomous,fully_autonomous,The memory model summarizes asynchronously alongside the agent's own inference on SWE-Bench-Verified; no human step.
+4960,human_role,not_specified,fully_autonomous,fully_autonomous,"Process verification is by LLM-as-judge, reward models and PRMs across six MAS frameworks; the measuring instrument is a model, not a person."
+4963,human_role,not_specified,fully_autonomous,fully_autonomous,"Agents issue COMMIT, BRANCH, MERGE and CONTEXT themselves on SWE-Bench and BrowseComp; the version control is agent-driven."
+4970,human_role,not_specified,fully_autonomous,fully_autonomous,"'LLM-in-the-loop' evolutionary search: agents sample, backtrack and cross over on LLM-SR and KernelBench without a human step."
+4971,human_role,not_specified,human_in_the_loop,human_in_the_loop,"The benchmark models a code assistant in long-horizon developer conversations, with iterative requirements, noisy input and retrospective questions driving turns."
+4974,human_role,not_specified,fully_autonomous,fully_autonomous,Lean4 verification of workflows and LeanEvolve's revision run automatically over SWE-Bench-Verified and ELAIP-Bench trajectories.
+4975,human_role,not_specified,fully_autonomous,fully_autonomous,"ACE assigns raw, abstract or drop at every decision step inside ReAct, DeepAgent, WebThinker and MiroFlow rollouts; no human step."
+4977,human_role,not_specified,fully_autonomous,fully_autonomous,The agent's own isolated reasoning and memory modules manage the context layers across GAIA and BrowseComp-plus runs.
+4978,human_role,not_specified,fully_autonomous,fully_autonomous,The GUI agent manages its own context and belief state over AndroidWorld long-horizon automation; no human step.
+4979,human_role,not_specified,fully_autonomous,fully_autonomous,"The symbolic action protocol and context register govern the agent's own planning, task-solving and retrospection on multi-hop QA."
+5036,human_role,not_specified,fully_autonomous,fully_autonomous,"CLI agents invoke tools, maintain history and recover from failures on their own; the benchmark scores success and cost automatically."
+5081,human_role,human_in_the_loop,not_specified,human_in_the_loop,"The controller's action set includes 'ask for feedback' and abstention, and its state encodes feedback history: the loop can stop and wait on a person."
+5465,human_role,not_specified,fully_autonomous,fully_autonomous,"The optimization loop of plan generation, cost estimation, runtime refinement and caching runs across executions; plans 'no user would construct manually'."
+5843,human_role,human_on_the_loop,fully_autonomous,human_on_the_loop,"The agent iterates sampling, simulation and retraining itself but to 'user-specified accuracy' with 'minimal SME intervention' and 'minimal human guidance'."
+6407,human_role,fully_autonomous,not_specified,fully_autonomous,Failed traces are turned into counterfactual repairs automatically and validated by outcome flips across four benchmarks.
+6432,human_role,not_specified,fully_autonomous,fully_autonomous,"Agents self-assess completion across tau2-bench and AppWorld trajectories; the monitors proposed are LLM judges and TF-IDF detectors, not people."
+6459,human_role,not_specified,fully_autonomous,fully_autonomous,"MAS execution is replayed and regenerated from recorded logs; human annotation only builds the SymFail dataset, outside the loop."
+6527,human_role,not_specified,fully_autonomous,fully_autonomous,The Dispatcher is a deterministic control-plane gatekeeper enforcing retry budgets on LLM output before the execution engine; no human arbiter.
+6533,human_role,not_specified,fully_autonomous,fully_autonomous,"Reflective agent variants run tool execution, retries, reflection and failure recovery under one harness; extraction from PDFs is automatic."
+6547,human_role,not_specified,fully_autonomous,fully_autonomous,The suite traces agentic services over MCP and A2A across 21 variants; the self-healing mechanisms it measures run without a human.
+6562,human_role,fully_autonomous,not_specified,fully_autonomous,"22 frameworks run BBH, GSM8K and ARC unattended; the failures are runaway retries and context growth, not missing human input."
+6707,human_role,fully_autonomous,not_specified,fully_autonomous,Reliability memory is updated from post-decision correctness feedback about peer agents; the peers are models.
+6790,human_role,fully_autonomous,not_specified,fully_autonomous,"An iterative query-answering game among agents, with learned credibility scores aggregating the team output; no human arbiter."
+6809,human_role,fully_autonomous,not_specified,fully_autonomous,The controller delegates recursively via Thompson sampling and re-routes on a calibrated LLM or programmatic judge; no human step.
+6826,human_role,fully_autonomous,not_specified,fully_autonomous,The correctors are verifier and critic agents on the agent network; stability is analysed over agent-to-agent delayed consensus.
+6830,human_role,fully_autonomous,not_specified,fully_autonomous,LLM orchestrators and planners assign tasks to worker agents and are scored on allocation validity; no human allocator.
+6835,human_role,fully_autonomous,not_specified,fully_autonomous,"The cascaded controller picks collaboration mode, roles and LLMs per query automatically, measured on MBPP and HumanEval."
+6853,human_role,fully_autonomous,not_specified,fully_autonomous,Conformity is measured among interacting LLM agents pooling each other's confidence on a misinformation task; the peers are agents.
+6859,human_role,fully_autonomous,not_specified,fully_autonomous,Group-size effects are measured in a coordination game played among LLM agents; no human participants.
+6863,human_role,fully_autonomous,not_specified,fully_autonomous,Herd behaviour is measured between LLM peers whose confidence gap and message format are manipulated; the peers are models.
+6865,human_role,fully_autonomous,not_specified,fully_autonomous,Memory units are allocated to orchestrators and task agents for OfficeBench workflow automation; the workflow runs unattended.
+6920,human_role,not_specified,human_in_the_loop,human_in_the_loop,Each iteration compares evaluations against human-annotated data and folds the deviations back in; the stated aim is 'reducing reliance on human annotators'.
+6925,human_role,fully_autonomous,not_specified,fully_autonomous,"The Reliability Control Layer monitors in real time, detects failures and triggers automatic fault recovery; the supervision is architectural."
+6988,human_role,fully_autonomous,not_specified,fully_autonomous,Four patching architectures are compared on real vulnerability tasks by patch correctness; iteration depth is the agent's own.
+7615,human_role,not_specified,fully_autonomous,fully_autonomous,"Self-improvement is formalised as a recursive Generator-Verifier-Updater flow instantiating STaR, SPIN, Reflexion and AlphaZero; no human operator."
+7616,human_role,not_specified,fully_autonomous,fully_autonomous,The loop studied is recursive self-improvement: the system simulates its own operations and targets its own modifications.
+7834,human_role,not_specified,fully_autonomous,fully_autonomous,"The title states the model self-improves its reasoning via reflection, so the corrective signal is its own; the record carries the title only."
+8847,human_role,fully_autonomous,not_specified,fully_autonomous,A self-contrastive loop of thought: the model contrasts and revises its own SQL candidates; the record carries the title only.
+8916,human_role,not_specified,fully_autonomous,fully_autonomous,The title scopes it to 'autonomous LLM agent systems' checked by runtime verification; the record carries the title only.
+8932,human_role,not_specified,fully_autonomous,fully_autonomous,100 synthetic rover scenarios are answered end to end by the model and scored against reserved evaluator labels; no operator acts in the run.
+9050,human_role,fully_autonomous,not_specified,fully_autonomous,Multi-agent self-reflection over API interaction: the critique comes from the agents themselves; the record carries the title only.
+9089,human_role,not_specified,fully_autonomous,fully_autonomous,VLM-driven iterative semantic refinement: the model re-edits its own output each round; the record carries the title only.
+9170,human_role,not_specified,fully_autonomous,fully_autonomous,Self-correction is evaluated as 'unsupervised revision protocols': the model detects errors and revises its internal state alone.
+9197,human_role,not_specified,fully_autonomous,fully_autonomous,Refiner policies and solver hierarchies close on verifiable reward signals; the paper's own term is 'autonomous corrective feedback'.
+10271,human_role,not_specified,fully_autonomous,fully_autonomous,Self-reflection is the named mechanism and the model revises its own answers; the record carries the title only.
+10274,human_role,not_specified,fully_autonomous,fully_autonomous,Self-reflection inside the vision-language model selects and revisits its own video evidence; the record carries the title only.
+10277,human_role,not_specified,fully_autonomous,fully_autonomous,Iterative self-improvement: the model scores images and rewrites its own explanations across rounds; the record carries the title only.
+10432,human_role,not_specified,fully_autonomous,fully_autonomous,"A dual cognitive loop drives LLM agents inside a social simulation, so the counterparts are simulated agents; the record carries the title only."
+10720,human_role,not_specified,fully_autonomous,fully_autonomous,"The benchmark diagnoses an agentic RAG loop's own multi-step retrieval hops, scored automatically; the record carries the title only."
+10848,human_role,not_specified,fully_autonomous,not_specified,Title only: enforcing company policy adherence in agentic workflows does not say whether enforcement is automatic or an approval a person gives.

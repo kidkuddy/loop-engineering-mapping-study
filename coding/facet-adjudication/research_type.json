@@ -1,0 +1,152 @@
+[
+ {
+  "paper_id": 567,
+  "axis": "research_type",
+  "coder_1": "solution_proposal",
+  "coder_2": "validation_research",
+  "title": "AICL: A Control-Loop Architecture for Stable Long-Horizon LLM Agents",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Abstract Large language models (LLMs) exhibit impressive reasoning abilities but remain fragile when operating over long horizons: they drift, accumulate inconsistency, and produce outcomes that are difficult to monitor or reproduce. This work introduces the Artificial Intelligence Control Loop (AICL)\u2014a general-purpose control-loop architecture designed to stabilize and regulate long-horizon LLM agent workflows. AICL formalizes agentic reasoning as a closed-loop process consisting of:(1) structured planning,(2) probe-driven monitoring,(3) event-based orchestration, and(4) quantitative stability budgets that bound drift and behavior variance. We present the theoretical motivation, architectural components, stability probes, and mechanisms for runtime regulation. We also release CyberLoop, an open-source reference implementation that demonstrates AICL\u2019s practical applicability to multi-step investigations, iterative reasoning loops, and resource-bounded agent workflows. Experiments and qualitative evaluations show that AICL improves reproducibility, reduces drift, and enables more stable long-horizon decisions across diverse LLM settings.As AI systems become increasingly autonomous and persistent, AICL provides a foundation for building reliable, interpretable, and operationally scalable intelligent agents."
+ },
+ {
+  "paper_id": 714,
+  "axis": "research_type",
+  "coder_1": "solution_proposal",
+  "coder_2": "philosophical_paper",
+  "title": "Evaluation-Driven Development and Operations of LLM Agents: A Process Model and Reference Architecture",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have enabled the emergence of LLM agents, systems capable of pursuing under-specified goals and adapting after deployment. Evaluating such agents is challenging because their behavior is open ended, probabilistic, and shaped by system-level interactions over time. Traditional evaluation methods, built around fixed benchmarks and static test suites, fail to capture emergent behaviors or support continuous adaptation across the lifecycle. To ground a more systematic approach, we conduct a multivocal literature review (MLR) synthesizing academic and industrial evaluation practices. The findings directly inform two empirically derived artifacts: a process model and a reference architecture that embed evaluation as a continuous, governing function rather than a terminal checkpoint. Together they constitute the evaluation-driven development and operations (EDDOps) approach, which unifies offline (development-time) and online (runtime) evaluation within a closed feedback loop. By making evaluation evidence drive both runtime adaptation and governed redevelopment, EDDOps supports safer, more traceable evolution of LLM agents aligned with changing objectives, user needs, and governance constraints."
+ },
+ {
+  "paper_id": 6081,
+  "axis": "research_type",
+  "coder_1": "validation_research",
+  "coder_2": "solution_proposal",
+  "title": "CART: A traceable zero-shot planning framework for large language models with adaptive replanning",
+  "venue": "Knowledge-Based Systems",
+  "source": "openalex",
+  "abstract": ""
+ },
+ {
+  "paper_id": 6520,
+  "axis": "research_type",
+  "coder_1": "experience_paper",
+  "coder_2": "solution_proposal",
+  "title": "Bridging Protocol and Production: Design Patterns for Deploying AI Agents with Model Context Protocol",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The Model Context Protocol (MCP) standardizes how AI agents discover and invoke external tools, with over 10,000 active servers and 97 million monthly SDK downloads as of early 2026. Yet MCP does not yet standardize how agents safely operate those tools at production scale. Three protocol-level primitives remain missing: identity propagation, adaptive tool budgeting, and structured error semantics. This paper identifies these gaps through field lessons from an enterprise deployment of an AI agent platform integrated with a major cloud provider's MCP servers (client name redacted). We propose three mechanisms to fill them: (1) the Context-Aware Broker Protocol (CABP), which extends JSON-RPC with identity-scoped request routing via a six-stage broker pipeline; (2) Adaptive Timeout Budget Allocation (ATBA), which frames sequential tool invocation as a budget allocation problem over heterogeneous latency distributions; and (3) the Structured Error Recovery Framework (SERF), which provides machine-readable failure semantics that enable deterministic agent self-correction. We organize production failure modes into five design dimensions (server contracts, user context, timeouts, errors, and observability), document concrete failure vignettes, and present a production readiness checklist. All three algorithms are formalized as testable hypotheses with reproducible experimental methodology. Field observations demonstrate that while MCP provides a solid protocol foundation, reliable agent tool integration requires infrastructure-level mechanisms that the specification does not yet address."
+ },
+ {
+  "paper_id": 6603,
+  "axis": "research_type",
+  "coder_1": "solution_proposal",
+  "coder_2": "validation_research",
+  "title": "Self-Programmed Execution for Language-Model Agents",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "At the heart of existing language model agents is a fixed orchestrator program responsible for the state transition between consecutive turns. This paper introduces self-programmed execution (SPE), an agent architecture in which the model completion is itself the orchestrator program, and the harness evaluates this program but does not impose its own orchestration policy. I formalize this idea using agentic machines: an SPE state is one from which a model completion can load any state of an embedded copy of the machine, meaning that it is subject to no fixed turn-to-turn orchestration policy. Realizing SPE in practice is nontrivial because the same data is both model context and executable program. I therefore introduce Spell, a Lisp-based language in which programs can edit and re-evaluate themselves, and effectful expressions like model invocations are structured such that re-evaluating an edited program does not replay its side effects. Experiments with existing models, not trained for SPE or Spell, show that frontier models can operate in this regime and accomplish challenging agentic tasks. These results demonstrate how an LM can act as an agent without any fixed orchestration policy, and they raise the question of what self-orchestration strategies might be learned by a model trained for self-programmed execution. Code is available at https://github.com/lukejoconnor/spell ."
+ },
+ {
+  "paper_id": 6612,
+  "axis": "research_type",
+  "coder_1": "opinion_paper",
+  "coder_2": "philosophical_paper",
+  "title": "AGI Requires a Coordination Layer on Top of Pattern Repositories",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "In this paper we argue that influential critiques dismissing Large Language Models (LLMs) as a dead end for AGI misidentify the bottleneck: they confuse the ocean with the net. Pattern repositories are the necessary System-1 substrate; the missing component is a System-2 coordination layer that recruits relevant patterns, verifies their use, preserves state, and governs convergence. We separate two uses of control that are often conflated. Semantic anchoring, formalized by UCCT (Unified Contextual Control Theory), binds labels and task intent to learned pattern regions through a phase transition governed by effective support (rho_d), representational mismatch (d_r), and an adaptive anchoring budget (gamma log k). Trace-answer verification, implemented by Recursive Causal Audit (RCA), tests whether a final causal judgment is warranted by its own reasoning trace under pressure. We translate these ideas into MACI, a multi-agent coordination stack that integrates diversity and control via baiting (PID-modulated debate), filtering (Socratic and causal audit), and persistence (transactional memory). Empirical validation on causal judgment and the sycophancy-paranoia trade-off demonstrates that static prompting fails where adaptive control succeeds. By reframing common objections as testable coordination failures, we argue that the path to AGI runs through LLMs, not around them. Capability is not coordination."
+ },
+ {
+  "paper_id": 6634,
+  "axis": "research_type",
+  "coder_1": "evaluation_research",
+  "coder_2": "validation_research",
+  "title": "Comparative Evaluation of Agentic Workflow Capabilities in AI IDE Agents for Web-Based Learning Media Development",
+  "venue": "Journal of Applied Informatics and Computing",
+  "source": "openalex",
+  "abstract": "The rapid development of agentic IDEs calls for evaluation approaches that assess not only final outputs but also the agentic workflow enacted during software development. This study comparatively evaluates the workflow capabilities of four AI IDE agents, namely Cursor, Windsurf, Trae, and Antigravity, within the five-stage benchmark of developing a web-based learning media application, Next-Gen SPLDV. A descriptive comparative evaluation was conducted using five agentic maturity metrics: task decomposition (DC), tool-use effectiveness (TSR), autonomous recovery capability (ARC), human intervention cost (HIC), and time completion efficiency (TCT), complemented by interaction logs and internal artifacts. The findings indicate distinct performance trade-off profiles across systems. Antigravity appeared relatively more stable descriptively (TSR 96.0%; HIC 3; ARC 8), whereas the other systems exhibited context-dependent strengths: Cursor showed more selective tool use, Trae was efficient in several stages but more vulnerable during database integration, and Windsurf was more exploratory but required higher intervention and recovery effort. Qualitative evidence further suggests that these differences were associated with variations in plan-execute-verify strategies and error-response behavior. Overall, the evaluation of AI IDE agents is better interpreted as a contextual map of workflow trade-offs rather than the identification of a single winner across all settings."
+ },
+ {
+  "paper_id": 6776,
+  "axis": "research_type",
+  "coder_1": "validation_research",
+  "coder_2": "solution_proposal",
+  "title": "Insider Attacks in Multi-Agent LLM Consensus Systems",
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Large language models (LLMs) are increasingly deployed in multi-agent systems where agents communicate in natural language to solve tasks jointly. A key capability in such systems is consensus formation, where agents iteratively exchange messages and update decisions to reach a shared outcome. However, most existing multi-agent LLM frameworks assume that all participating agents are aligned with the system objective. In practice, a malicious insider may participate as a legitimate member of the group while pursuing a hidden adversarial goal. In this work, we study insider manipulation in multi-agent LLM consensus systems. We formalize the problem as a sequential decision-making task in which a malicious agent seeks to delay or prevent agreement among benign agents. To make attack optimization tractable, we propose a world-model-based framework that learns surrogate dynamics over the latent behavioral states of benign agents and then trains an attacker using reinforcement learning based on this learned model. Preliminary results show that the trained attacker reduces the benign consensus rate and prolongs disagreement more effectively than the direct malicious-prompt baseline. These results suggest that combining latent world models with reinforcement learning is a promising direction for adaptive insider attacks in language-based multi-agent systems."
+ },
+ {
+  "paper_id": 6993,
+  "axis": "research_type",
+  "coder_1": "solution_proposal",
+  "coder_2": "philosophical_paper",
+  "title": "Local Green, Global Red I - Evaluated Path Kernels for Composed Agent Reliability",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Local Green, Global Red: Evaluated Path Kernels for Composed Agent Reliability introduces a finite calculus for measuring non-compositional verification in composed AI agent systems. The paper formalizes a central reliability failure mode in modern multi-stage agents: The paper formalizes the failure mode E(\u03b3\u2081)=1, E(\u03b3\u2082)=1 \u21cf E(\u03b3\u2082\u22c6\u03b3\u2081)=1: locally validated steps do not necessarily compose into globally correct behavior. That is, locally validated steps do not necessarily compose into globally correct behavior. The work defines Evaluated Path Kernels (EPK), proves a conditional finite kernel composition theorem under explicit factorization assumptions, and derives measurable residual defect terms when evaluator composition fails. The framework introduces quantitative diagnostics including: Evaluator Gluing Defect (\u0394\u2091) Negative Gluing Defect Rate (NGD) Residual Kernel Error (RKE) Proposal-weighted hidden failure mass (wNGD) The manuscript connects finite path-space reliability, proposal-weighted trajectory modeling, Product-of-Experts vs. Mixture-of-Experts verification tradeoffs, and boundary sufficiency in multi-agent systems. It further develops a Proposal\u2013Projection Representation (PPR) framework describing structural limits of systems whose outputs require external evaluator authorization. Primary application targets include: LLM agents repository-scale software repair hardware verification agents tool-augmented autonomous systems multi-agent orchestration The repository includes: theorem-consistent finite calculus formulations benchmark protocols synthetic diagnostics reproducibility fixtures LaTeX source and compiled manuscript This work is presented as a finite obstruction and compositional reliability framework rather than a claim of benchmark-complete empirical validation."
+ },
+ {
+  "paper_id": 7029,
+  "axis": "research_type",
+  "coder_1": "philosophical_paper",
+  "coder_2": "opinion_paper",
+  "title": "Structural Limitations of LLM Multi-Agent Systems as of December 2025",
+  "venue": "OSF Preprints (OSF Preprints)",
+  "source": "openalex",
+  "abstract": "This project examines structural limitations of LLM-based multi-agent systems (MAS) that rely on internal role differentiation, such as critic or auditor agents. While such architectures are commonly assumed to improve robustness, this work identifies a failure mode in which repeated interactions within a shared context lead to cognitive fixation and self-reinforcing alignment. To address this issue, the project introduces the concept of external cooling: the non-continuous introduction of a context-isolated and heterogeneous external AI to disrupt closed reasoning loops. External cooling is framed not as an optimization technique, but as a structural governance requirement for maintaining human-centered observability and long-term decision reliability in autonomous or semi-autonomous MAS. For internal reference, this line of reasoning has been informally referred to as a \u201ccold water\u201d (cooling) perspective; this label is descriptive rather than theoretical. For academic or research-related inquiries only: dual.tick.owlo@mask.me"
+ },
+ {
+  "paper_id": 8712,
+  "axis": "research_type",
+  "coder_1": "validation_research",
+  "coder_2": "experience_paper",
+  "title": "Inverted Orchestration in Software Development: A Deterministic Harness and Looping Engineering under Enterprise Constraints",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "This report repositions Inverted Orchestration around an IDE-agent development experiment. It treats the harness not as backlog refinement, but as a control plane for a long-running implementation loop. The central technique, Inverted Agentic Orchestration, delegates execution to the agent while keeping workflow policy, selection, validation, budget, state, and telemetry in code and files. In the reference implementation, Flows.Development built a .NET TodoApp WebAPI with Postgres through the cycle start \u2192 plan \u2192 [bearings \u2192 smoke \u2192 pick \u2192 implement \u2192 verify \u2192 handoff]*. The cost-measured run ended with 8 passing features, 56 harness turns, 48min45s of observed duration, and a reported total cost of US\\$ 12.58. A later recovery run, on July 20, 2026, completed the final three features in 19 steps after a fresh start, using the persisted state in .harness/; the current target-project verification passes 17 automated tests. A third run, on July 21, 2026, tested portability directly: Codex CLI implemented the first four features of a new target project, was interrupted mid-cycle, and Claude Code resumed from the same persisted state and completed the remaining four, with cost and tokens measured per step and per session for each driver (US$ 11.68 for Codex CLI, US\\$ 4.41 for Claude Code) and a final verification of 45 of 45 automated tests. The result rejects automatic token savings but supports governance: the harness adds operational overhead \u2013 including 16% of attributed cost consumed by rework after protocol errors, a direct measure of the flow\u2019s cost of control \u2013, while making agentic development auditable, interruptible, evidence-producing, and portable across agents sharing only the terminal.Repository: https://github.com/cooperacode/IAO"
+ },
+ {
+  "paper_id": 8739,
+  "axis": "research_type",
+  "coder_1": "solution_proposal",
+  "coder_2": "experience_paper",
+  "title": "The Evidence Closure Loop: Engineering a Bounded-Autonomous, Multi-Agent Security Staff for Evidence-Grounded Assessments and Bug Bounty",
+  "venue": "Open MIND",
+  "source": "openalex",
+  "abstract": "Security teams are increasingly experimenting with large-language-model agents, yet most implementations optimize for generation speed rather than decision integrity. A system that can produce a polished report faster can also produce a polished mistake faster. This practitioner whitepaper presents an architecture for a scalable security staff built around role separation, explicit evidence models, mandatory adversarial quality assurance, and bounded autonomy. The implementation uses a central chief-of-staff, specialized security SMEs, a shared evidence workspace, and an independent Security QA gate. It applies Knowledge Augmented Generation (KAG) in two distinct planes: a retrieval plane that produces provenance-preserving evidence packs, and a decision plane that links scope, vulnerability semantics, evidence strength, trust boundaries, and qualification criteria. The paper contributes a transferable operating model, a dual-plane KAG pattern, an evidence-closure discipline, a triage-first bug bounty gate, and an evaluation framework that measures decision quality in addition to cost. The MiniCISO implementation is used as a reproducible case study, not as a product pitch."
+ },
+ {
+  "paper_id": 8746,
+  "axis": "research_type",
+  "coder_1": "solution_proposal",
+  "coder_2": "experience_paper",
+  "title": "\u8bed\u4e49\u5757:Loop Engineering \u5728\u5355 Agent \u7cfb\u7edf\u4e2d\u7684\u4e0a\u4e0b\u6587\u9694\u79bb\u5b9e\u8df5",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Loop Engineering \u63d0\u51fa\u4e86\u4e00\u79cd\u8d85\u8d8a Prompt Engineering \u7684\u65b0\u8303\u5f0f:\u4eba\u4e0d\u518d\u662f\u9010\u53e5\u6307\u6325 AI \u7684\u64cd\u4f5c\u5458,\u800c\u662f\u8bbe\u8ba1\u4e00\u5957\"\u611f\u77e5\u2192\u51b3\u7b56\u2192\u884c\u52a8\u2192\u9a8c\u8bc1\u2192\u6301\u4e45\u5316\u2192\u8c03\u5ea6\"\u95ed\u73af\u7cfb\u7edf\u7684\u67b6\u6784\u5e08\u3002\u7136\u800c,Loop Engineering \u539f\u6559\u65e8\u65b9\u6848\u4f9d\u8d56\u591a Agent \u534f\u4f5c(\u751f\u6210\u8005\u4e0e\u8bc4\u5224\u8005\u5206\u79bb)\u6765\u5b9e\u73b0\u4e0a\u4e0b\u6587\u9694\u79bb\u4e0e\u8d28\u91cf\u4fdd\u969c,\u8fd9\u5728\u5b9e\u9645\u5de5\u7a0b\u4e2d\u9762\u4e34\u8c03\u5ea6\u590d\u6742\u5ea6\u548c\u6210\u672c\u7684\u53cc\u91cd\u538b\u529b\u3002\u672c\u6587\u63d0\u51fa\u8bed\u4e49\u5757(Semantic Blocks)\u2014\u2014\u4e00\u79cd\u5728\u5355 Agent \u7cfb\u7edf\u5185\u5b9e\u73b0\u4e0a\u4e0b\u6587\u9694\u79bb\u7684\u8f7b\u91cf\u7ea7\u673a\u5236\u3002\u8bed\u4e49\u5757\u5c06\u539f\u59cb\u6570\u636e\u7684\u63a8\u7406\u8fc7\u7a0b\u4e0e\u5224\u65ad\u7ed3\u8bba\u89e3\u8026,\u4ee5\u7ed3\u6784\u5316\u6807\u7b7e\u683c\u5f0f\u4f20\u9012\u7eaf\u7ed3\u8bba,\u4f7f\u540c\u4e00 Agent \u5728\u8fde\u7eed\u6267\u884c\u4e0d\u540c\u9636\u6bb5\u65f6\u4e0d\u88ab\u524d\u5e8f\u63a8\u7406\u6c61\u67d3\u3002\u6211\u4eec\u5c06\u8bed\u4e49\u5757\u5e94\u7528\u4e8e\u5e94\u9f99\u91cf\u5316\u5206\u6790\u7cfb\u7edf,\u5728\u50ac\u5316\u5242\u771f\u4f2a\u5224\u65ad\u2192\u5151\u73b0\u6df1\u6316\u2192\u7efc\u5408\u8bc4\u5206\u7684\u4e09\u9636\u6bb5\u6d41\u6c34\u7ebf\u4e2d,\u5b9e\u73b0\u4e86\u4e0e\u591a Agent \u65b9\u6848\u7b49\u6548\u7684\u4e0a\u4e0b\u6587\u9694\u79bb\u6548\u679c,\u540c\u65f6\u4fdd\u6301\u5355 Agent \u7684\u7b80\u6d01\u67b6\u6784\u3002\u672c\u6587\u5b8c\u6574\u5448\u73b0\u8bed\u4e49\u5757\u7684\u8bbe\u8ba1\u539f\u7406\u3001\u5b9e\u73b0\u7ec6\u8282\u3001\u5de5\u7a0b\u7ea6\u675f\u548c\u7ecf\u9a8c\u6559\u8bad\u3002 Loop Engineering introduces a paradigm beyond Prompt Engineering: humans are no longer operators issuing commands sentence by sentence, but architects designing closed-loop systems of \"Perceive \u2192 Decide \u2192 Act \u2192 Verify \u2192 Persist \u2192 Orchestrate.\" However, the orthodox Loop Engineering approach depends on multi-agent collaboration \u2014 separating generators from evaluators \u2014 to achieve context isolation and quality assurance, which imposes dual pressures of orchestration complexity and cost in practical engineering. This paper proposes Semantic Blocks, a lightweight mechanism for achieving context isolation within a single-agent system. Semantic Blocks decouple the reasoning process from judgment conclusions in raw data, transmitting only pure conclusions in a structured tag format, thereby preventing the same agent from being contaminated by prior reasoning when executing different stages sequentially. We apply Semantic Blocks to the Yingloong quantitative analysis system, achieving context isolation equivalent to a multi-agent architecture across a three-stage pipeline of catalyst authenticity verification \u2192 fulfillment deep-dive \u2192 composite scoring, while maintaining the simplicity of a single-agent architecture. This paper presents the complete design principles, implementation details, engineering constraints, and lessons learned from Semantic Blocks."
+ },
+ {
+  "paper_id": 9089,
+  "axis": "research_type",
+  "coder_1": "validation_research",
+  "coder_2": "solution_proposal",
+  "title": "Iterative Semantic Refinement: A Vision Language Model-Driven Approach to Auto-Regressive Image Editing",
+  "venue": "2025 9th International Symposium on Innovative Approaches in Smart Technologies (ISAS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9117,
+  "axis": "research_type",
+  "coder_1": "validation_research",
+  "coder_2": "solution_proposal",
+  "title": "A closed-loop feedback framework based on large language models for iterative optimization in medical record generation",
+  "venue": "International Symposium on Robotics and Artificial Intelligence (ISRAI 2025)",
+  "source": "crossref",
+  "abstract": ""
+ }
+]

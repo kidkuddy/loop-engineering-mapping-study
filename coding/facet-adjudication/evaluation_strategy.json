@@ -1,0 +1,422 @@
+[
+ {
+  "paper_id": 156,
+  "axis": "evaluation_strategy",
+  "coder_1": "case_study",
+  "coder_2": "benchmark",
+  "title": "When Agents Do Not Stop: Uncovering Infinite Agentic Loops in LLM Agents",
+  "venue": "arXiv:cs.SE",
+  "source": "arxiv",
+  "abstract": "LLM agents increasingly rely on iterative execution to solve tasks through planning, tool use, state updates, and agent collaboration. While this design enables flexible automation, it also creates a new class of failures: an agent may repeatedly execute model calls, tools, workflow transitions, or agent handoffs when the feedback path is not effectively bounded. We call this problem Infinite Agentic Loops (IALs). IALs are not ordinary programming loops; they arise from the interaction between agent logic, framework semantics, runtime observations, and termination mechanisms. Such failures can amplify a single request into long running model and tool execution, causing cost exhaustion, model denial of service, context growth, and repeated external side effects. We propose IAL-Scan, a static analysis tool for detecting IAL failures in real-world LLM agent projects. IAL-Scan abstracts heterogeneous agent code into a framework independent Agent IR, builds an Agentic Loop Dependence Graph (ALDG) to recover explicit and framework induced feedback paths, and checks whether these paths can repeatedly reach costly or state growing operations without an effective bound. We evaluate IAL-Scan on 6,549 LLM agent repositories. It reports 74 potential findings, among which manual review confirms 68 IAL failures across 47 projects, achieving 91.9% precision."
+ },
+ {
+  "paper_id": 271,
+  "axis": "evaluation_strategy",
+  "coder_1": "case_study",
+  "coder_2": "benchmark",
+  "title": "Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language model (LLM) agents increasingly issue API calls that mutate real systems, yet many current architectures pass stochastic model outputs directly to execution layers. We argue that this coupling creates a safety risk because model correctness, context awareness, and alignment cannot be assumed at execution time. We introduce Sovereign Agentic Loops (SAL), a control-plane architecture in which models emit structured intents with justifications, and the control plane validates those intents against true system state and policy before execution. SAL combines an obfuscation membrane, which limits model access to identity-sensitive state, with a cryptographically linked Evidence Chain for auditability and replay. We formalize SAL and show that, under the stated assumptions, it provides policy-bounded execution, identity isolation, and deterministic replay. In an OpenKedge prototype for cloud infrastructure, SAL blocks 93% of unsafe intents at the policy layer, rejects the remaining 7% via consistency checks, prevents unsafe executions in our benchmark, and adds 12.4 ms median latency."
+ },
+ {
+  "paper_id": 441,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Understanding Multi-Agent LLM Frameworks: A Unified Benchmark and Experimental Analysis",
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Multi-agent LLM frameworks are widely used to accelerate the development of agent systems powered by large language models (LLMs). These frameworks impose distinct architectural structures that govern how agents interact, store information, and coordinate tasks. However, their impact on system performance remains poorly understood. This gap is critical, as architectural choices alone can induce order-of-magnitude differences in latency and throughput, as well as substantial variation in accuracy and scalability. Addressing this challenge requires (i) jointly evaluating multiple capabilities, such as orchestration overhead, memory behavior, planning, specialization, and coordination, and (ii) conducting these evaluations under controlled, framework-level conditions to isolate architectural effects. Existing benchmarks focus on individual capabilities and lack standardized framework-level evaluation. We address these limitations by (i) introducing an architectural taxonomy for systematically comparing multi-agent LLM frameworks along fundamental dimensions, and (ii) developing MAFBench, a unified evaluation suite that integrates existing benchmarks under a standardized execution pipeline. Using MAFBench, we conduct a controlled empirical study across several widely used frameworks. Our results show that framework-level design choices alone can increase latency by over 100x, reduce planning accuracy by up to 30%, and lower coordination success from above 90% to below 30%. Finally, we translate our findings into concrete architectural design principles and framework selection guidance, and outline promising future research directions."
+ },
+ {
+  "paper_id": 567,
+  "axis": "evaluation_strategy",
+  "coder_1": "illustrative_example",
+  "coder_2": "case_study",
+  "title": "AICL: A Control-Loop Architecture for Stable Long-Horizon LLM Agents",
+  "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "source": "openalex",
+  "abstract": "Abstract Large language models (LLMs) exhibit impressive reasoning abilities but remain fragile when operating over long horizons: they drift, accumulate inconsistency, and produce outcomes that are difficult to monitor or reproduce. This work introduces the Artificial Intelligence Control Loop (AICL)\u2014a general-purpose control-loop architecture designed to stabilize and regulate long-horizon LLM agent workflows. AICL formalizes agentic reasoning as a closed-loop process consisting of:(1) structured planning,(2) probe-driven monitoring,(3) event-based orchestration, and(4) quantitative stability budgets that bound drift and behavior variance. We present the theoretical motivation, architectural components, stability probes, and mechanisms for runtime regulation. We also release CyberLoop, an open-source reference implementation that demonstrates AICL\u2019s practical applicability to multi-step investigations, iterative reasoning loops, and resource-bounded agent workflows. Experiments and qualitative evaluations show that AICL improves reproducibility, reduces drift, and enables more stable long-horizon decisions across diverse LLM settings.As AI systems become increasingly autonomous and persistent, AICL provides a foundation for building reliable, interpretable, and operationally scalable intelligent agents."
+ },
+ {
+  "paper_id": 690,
+  "axis": "evaluation_strategy",
+  "coder_1": "case_study",
+  "coder_2": "controlled_experiment",
+  "title": "Future Factories With 6G: Agentic AI and Cyber\u2013Physical Digital Twins",
+  "venue": "IEEE Internet of Things Journal",
+  "source": "openalex",
+  "abstract": "Industry 5.0 envisions a cyber-physical future where humans and robots collaborate harmoniously, empowered by 6G connectivity and intelligent automation. Central to this vision is the ability to autonomously configure complex production pipelines based on diverse and evolving human intents. Existing orchestration technologies exhibit critical shortcomings in terms of self-learning, validation, error diagnosis, and rectification capabilities. To this end, we propose an Agentic AI orchestration framework that interprets human intents and dynamically assembles optimal technology pipelines using a self-improving, retrieval-augmented Large Language Model (LLM) and a Bayesian contextual-bandit selector. This enables dynamic adaptation in unpredictable factory environments. Our solution is validated in a cyber-physical testbed integrating Digital Twins (DTs), distributed AI, robotics, and real-world network infrastructure. Compared to baseline LLMs, our system reduces orchestration iterations by over 94% for a given intent and by around 90% for an unseen intent, showing rapid convergence and strong generalization. Real-world deployments mirror DT results, confirming both the fidelity of the simulation and the practical value of intent-driven orchestration for human-centric manufacturing."
+ },
+ {
+  "paper_id": 691,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "A self-correcting multi-agent LLM framework for language-based physics simulation and explanation",
+  "venue": "npj Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Physics-based simulations are essential in science and engineering, yet creating them typically requires expert knowledge of numerical solvers and governing equations. Large language models (LLMs) offer new possibilities for natural language-based simulation, but they often fail when prompts are vague, incomplete, or multilingual. We present MCP-SIM ( M emory- C oordinated P hysics-Aware Sim ulation), a self-correcting multi-agent framework that transforms underspecified prompts into validated simulations and explanatory reports. The system integrates input clarification, code generation, error diagnosis, and multilingual explanation through structured agent collaboration and persistent memory. Rather than relying on one-shot code generation, MCP-SIM emulates expert-like reasoning via iterative plan\u2013act\u2013reflect\u2013revise cycles. Across twelve tasks of increasing complexity, the framework solved all benchmark cases and improved convergence efficiency relative to GPT-based and human-in-the-loop baselines, under the specific metrics defined in this study. In addition to numerical accuracy, the system produces interpretable, language-localized reports that explain each simulation\u2019s physical logic. MCP-SIM represents a step toward general-purpose autonomous scientific assistants that simulate, adapt, and teach through natural language. While these results indicate strong robustness on the tested suite, performance in specialized domains and under distributions beyond our benchmark remains an area for future validation."
+ },
+ {
+  "paper_id": 797,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Towards Autonomous Agents: Adaptive-planning, Reasoning, and Acting in Language Models",
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "We propose a novel in-context learning algorithm for building autonomous decision-making language agents. The language agent continuously attempts to solve the same task by self-correcting each time the task fails. Our selected language agent demonstrates the ability to solve tasks in a text-based game environment. Our results show that the gemma-2-9b-it language model, using our proposed method, can successfully complete two of six tasks that failed in the first attempt. This highlights the effectiveness of our approach in enhancing the problem-solving capabilities of a single language model through self-correction, paving the way for more advanced autonomous agents. The code is publicly available at https://github.com/YenCheHsiao/AutonomousLLMAgentwithAdaptingPlanning."
+ },
+ {
+  "paper_id": 1021,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "AutoFlow: Automated Workflow Generation for Large Language Model Agents",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Recent advancements in Large Language Models (LLMs) have shown significant progress in understanding complex natural language. One important application of LLM is LLM-based AI Agent, which leverages the ability of LLM as well as external tools for complex-task solving. To make sure LLM Agents follow an effective and reliable procedure to solve the given task, manually designed workflows are usually used to guide the working mechanism of agents. However, manually designing the workflows requires considerable efforts and domain knowledge, making it difficult to develop and deploy agents on massive scales. To address these issues, we propose AutoFlow, a framework designed to automatically generate workflows for agents to solve complex tasks. AutoFlow takes natural language program as the format of agent workflow and employs a workflow optimization procedure to iteratively optimize the workflow quality. Besides, this work offers two workflow generation methods: fine-tuning-based and in-context-based methods, making the AutoFlow framework applicable to both open-source and closed-source LLMs. Experimental results show that our framework can produce robust and reliable agent workflows. We believe that the automatic generation and interpretation of workflows in natural language represent a promising paradigm for solving complex tasks, particularly with the rapid development of LLMs. The source code of this work is available at https://github.com/agiresearch/AutoFlow."
+ },
+ {
+  "paper_id": 1038,
+  "axis": "evaluation_strategy",
+  "coder_1": "case_study",
+  "coder_2": "controlled_experiment",
+  "title": "Testing Language Model Agents Safely in the Wild",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "A prerequisite for safe autonomy-in-the-wild is safe testing-in-the-wild. Yet real-world autonomous tests face several unique safety challenges, both due to the possibility of causing harm during a test, as well as the risk of encountering new unsafe agent behavior through interactions with real-world and potentially malicious actors. We propose a framework for conducting safe autonomous agent tests on the open internet: agent actions are audited by a context-sensitive monitor that enforces a stringent safety boundary to stop an unsafe test, with suspect behavior ranked and logged to be examined by humans. We design a basic safety monitor (AgentMonitor) that is flexible enough to monitor existing LLM agents, and, using an adversarial simulated agent, we measure its ability to identify and stop unsafe situations. Then we apply the AgentMonitor on a battery of real-world tests of AutoGPT, and we identify several limitations and challenges that will face the creation of safe in-the-wild tests as autonomous agents grow more capable."
+ },
+ {
+  "paper_id": 1070,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Autonomous agents empowered by Large Language Models (LLMs) have undergone significant improvements, enabling them to generalize across a broad spectrum of tasks. However, in real-world scenarios, cooperation among individuals is often required to enhance the efficiency and effectiveness of task accomplishment. Hence, inspired by human group dynamics, we propose a multi-agent framework \\framework that can collaboratively and dynamically adjust its composition as a greater-than-the-sum-of-its-parts system. Our experiments demonstrate that \\framework framework can effectively deploy multi-agent groups that outperform a single agent. Furthermore, we delve into the emergence of social behaviors among individual agents within a group during collaborative task accomplishment. In view of these behaviors, we discuss some possible strategies to leverage positive ones and mitigate negative ones for improving the collaborative potential of multi-agent groups. Our codes for \\framework will soon be released at \\url{https://github.com/OpenBMB/AgentVerse}."
+ },
+ {
+  "paper_id": 1349,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Large Language Models Cannot Self-Correct Reasoning Yet",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have emerged as a groundbreaking technology with their unparalleled text generation capabilities across various applications. Nevertheless, concerns persist regarding the accuracy and appropriateness of their generated content. A contemporary methodology, self-correction, has been proposed as a remedy to these issues. Building upon this premise, this paper critically examines the role and efficacy of self-correction within LLMs, shedding light on its true potential and limitations. Central to our investigation is the notion of intrinsic self-correction, whereby an LLM attempts to correct its initial responses based solely on its inherent capabilities, without the crutch of external feedback. In the context of reasoning, our research indicates that LLMs struggle to self-correct their responses without external feedback, and at times, their performance even degrades after self-correction. Drawing from these insights, we offer suggestions for future research and practical applications in this field."
+ },
+ {
+  "paper_id": 1615,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Confidence Matters: Revisiting Intrinsic Self-Correction Capabilities of Large Language Models",
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "The recent success of Large Language Models (LLMs) has catalyzed an increasing interest in their self-correction capabilities. This paper presents a comprehensive investigation into the intrinsic self-correction of LLMs, attempting to address the ongoing debate about its feasibility. Our research has identified an important latent factor - the \"confidence\" of LLMs - during the self-correction process. Overlooking this factor may cause the models to over-criticize themselves, resulting in unreliable conclusions regarding the efficacy of self-correction. We have experimentally observed that LLMs possess the capability to understand the \"confidence\" in their own responses. It motivates us to develop an \"If-or-Else\" (IoE) prompting framework, designed to guide LLMs in assessing their own \"confidence\", facilitating intrinsic self-corrections. We conduct extensive experiments and demonstrate that our IoE-based Prompt can achieve a consistent improvement regarding the accuracy of self-corrected responses over the initial answers. Our study not only sheds light on the underlying factors affecting self-correction in LLMs, but also introduces a practical framework that utilizes the IoE prompting principle to efficiently improve self-correction capabilities with \"confidence\". The code is available at https://github.com/MBZUAI-CLeaR/IoE-Prompting.git."
+ },
+ {
+  "paper_id": 2249,
+  "axis": "evaluation_strategy",
+  "coder_1": "illustrative_example",
+  "coder_2": "controlled_experiment",
+  "title": "Feedback Loops With Language Models Drive In-Context Reward Hacking",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language models influence the external world: they query APIs that read and write to web pages, generate content that shapes human behavior, and run system commands as autonomous agents. These interactions form feedback loops: LLM outputs affect the world, which in turn affect subsequent LLM outputs. In this work, we show that feedback loops can cause in-context reward hacking (ICRH), where the LLM at test-time optimizes a (potentially implicit) objective but creates negative side effects in the process. For example, consider an LLM agent deployed to increase Twitter engagement; the LLM may retrieve its previous tweets into the context window and make them more controversial, increasing engagement but also toxicity. We identify and study two processes that lead to ICRH: output-refinement and policy-refinement. For these processes, evaluations on static datasets are insufficient -- they miss the feedback effects and thus cannot capture the most harmful behavior. In response, we provide three recommendations for evaluation to capture more instances of ICRH. As AI development accelerates, the effects of feedback loops will proliferate, increasing the need to understand their role in shaping LLM behavior."
+ },
+ {
+  "paper_id": 3673,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Adaptive Parallel Monte Carlo Tree Search for Efficient Test-time Compute Scaling",
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Monte Carlo Tree Search (MCTS) is an effective test-time compute scaling (TTCS) method for improving the reasoning performance of large language models, but its highly variable execution time leads to severe long-tail latency in practice. Existing optimizations such as positive early exit, reduce latency in favorable cases but are less effective when search continues without meaningful progress. We introduce {\\it negative early exit}, which prunes unproductive MCTS trajectories, and an {\\it adaptive boosting mechanism} that reallocates reclaimed computation to reduce resource contention among concurrent searches. Integrated into vLLM, these techniques substantially reduce p99 end-to-end latency while improving throughput and maintaining reasoning accuracy."
+ },
+ {
+  "paper_id": 3742,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "Enabling LLMs to improve their outputs by using more test-time computation is a critical step towards building generally self-improving agents that can operate on open-ended natural language. In this paper, we study the scaling of inference-time computation in LLMs, with a focus on answering the question: if an LLM is allowed to use a fixed but non-trivial amount of inference-time compute, how much can it improve its performance on a challenging prompt? Answering this question has implications not only on the achievable performance of LLMs, but also on the future of LLM pretraining and how one should tradeoff inference-time and pre-training compute. Despite its importance, little research attempted to understand the scaling behaviors of various test-time inference methods. Moreover, current work largely provides negative results for a number of these strategies. In this work, we analyze two primary mechanisms to scale test-time computation: (1) searching against dense, process-based verifier reward models; and (2) updating the model's distribution over a response adaptively, given the prompt at test time. We find that in both cases, the effectiveness of different approaches to scaling test-time compute critically varies depending on the difficulty of the prompt. This observation motivates applying a \"compute-optimal\" scaling strategy, which acts to most effectively allocate test-time compute adaptively per prompt. Using this compute-optimal strategy, we can improve the efficiency of test-time compute scaling by more than 4x compared to a best-of-N baseline. Additionally, in a FLOPs-matched evaluation, we find that on problems where a smaller base model attains somewhat non-trivial success rates, test-time compute can be used to outperform a 14x larger model."
+ },
+ {
+  "paper_id": 3879,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Breaking the Reward Barrier: Accelerating Tree-of-Thought Reasoning via Speculative Exploration",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Tree-of-Thought (ToT) reasoning structures Large Language Model (LLM) inference as a tree-based search, demonstrating strong potential for solving complex mathematical and programming tasks. However, its efficiency is constrained by the reward dependency barrier -- a synchronization bottleneck caused by sequential reward-guided exploration that limits search parallelism and introduces substantial latency. Prior system optimizations, mainly designed for linear Chain-of-Thought (CoT) reasoning, cannot address these challenges, leaving the efficiency of ToT underexplored. To enhance ToT reasoning efficiency, we observe that the reasoning paths can be explored speculatively to break the reward synchronization barrier. Therefore, in this paper, we propose SPEX and introduce three key techniques: (i) intra-query speculative path selection to predict and expand high-potential branches of ToT, (ii) inter-query budget allocation to balance speculative resource allocation across queries dynamically, and (iii) adaptive early termination to prune deep and redundant branches for a skewed search tree. We implement SPEX on top of the SGLang framework and evaluate it across diverse ToT algorithms and LLMs. Extensive experiments show that SPEX achieves $1.2 \\sim 3 \\times$ speedup for different ToT reasoning algorithms. Moreover, SPEX synergizes with token-level speculative decoding, achieving cumulative speedups of up to $4.1\\times$. Ablation studies further confirm the contributions of each technique. Overall, SPEX represents a significant step toward efficient and scalable ToT reasoning, unlocking the parallelism required for high-performance inference-time scaling for LLMs."
+ },
+ {
+  "paper_id": 3880,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Small RL Controller, Large Language Model: RL-Guided Adaptive Sampling for Test-Time Scaling",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Test-time scaling improves the reasoning performance of large language models but incurs substantial cost in both total computation and latency. Existing adaptive sampling methods partially mitigate this issue by dynamically deciding when to stop sampling, yet they typically rely on heuristic rules or rely on distribution assumptions. In this work, we formulate adaptive sampling as a Markov decision process (MDP). We train a lightweight sampling controller with reinforcement learning (RL) to jointly balance answer correctness, latency, and computation cost. At each round, the controller decides to stop sampling or to acquire additional samples. Our method is lightweight which only relies on statistics of final answers, and can be trained and deployed on CPU. We further show that the resulting framework admits an interpretation as the Lagrangian relaxation of a constrained optimization problem with explicit budget constraints. Experiments against strong baselines such as ASC and ESC show that our method achieves improved trade-offs among answer correctness, sampling rounds, and total samples required."
+ },
+ {
+  "paper_id": 3976,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Limited Reasoning Space: The cage of long-horizon reasoning in LLMs",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "The test-time compute strategy, such as Chain-of-Thought (CoT), has significantly enhanced the ability of large language models to solve complex tasks like logical reasoning. However, empirical studies indicate that simply increasing the compute budget can sometimes lead to a collapse in test-time performance when employing typical task decomposition strategies such as CoT. This work hypothesizes that reasoning failures with larger compute budgets stem from static planning methods, which hardly perceive the intrinsic boundaries of LLM reasoning. We term it as the Limited Reasoning Space hypothesis and perform theoretical analysis through the lens of a non-autonomous stochastic dynamical system. This insight suggests that there is an optimal range for compute budgets; over-planning can lead to redundant feedback and may even impair reasoning capabilities. To exploit the compute-scaling benefits and suppress over-planning, this work proposes Halo, a model predictive control framework for LLM planning. Halo is designed for long-horizon tasks with reason-based planning and crafts an entropy-driven dual controller, which adopts a Measure-then-Plan strategy to achieve controllable reasoning. Experimental results demonstrate that Halo outperforms static baselines on complex long-horizon tasks by dynamically regulating planning at the reasoning boundary."
+ },
+ {
+  "paper_id": 4324,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Drift No More? Context Equilibria in Multi-Turn LLM Interactions",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) excel at single-turn tasks such as instruction following and summarization, yet real-world deployments require sustained multi-turn interactions where user goals and conversational context persist and evolve. A recurring challenge in this setting is context drift: the gradual divergence of a model's outputs from goal-consistent behavior across turns. Unlike single-turn errors, drift unfolds temporally and is poorly captured by static evaluation metrics. In this work, we present a study of context drift in multi-turn interactions and propose a simple dynamical framework to interpret its behavior. We formalize drift as the turn-wise KL divergence between the token-level predictive distributions of the test model and a goal-consistent reference model, and propose a recurrence model that interprets its evolution as a bounded stochastic process with restoring forces and controllable interventions. We instantiate this framework in both synthetic long-horizon rewriting tasks and realistic user-agent simulations such as in $\u03c4$-Bench, measuring drift for several open-weight LLMs that are used as user simulators. Our experiments consistently reveal stable, noise-limited equilibria rather than runaway degradation, and demonstrate that simple reminder interventions reliably reduce divergence in line with theoretical predictions. Together, these results suggest that multi-turn drift can be understood as a controllable equilibrium phenomenon rather than as inevitable decay, providing a foundation for studying and mitigating context drift in extended interactions."
+ },
+ {
+  "paper_id": 4624,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Calibrating Criterion Revision in LLM Agents: Failure Modes and a Trace-Anchored Protocol",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Language-model agents can improve after failure or carry text across episodes without revising what counts as success. We study the narrower attribution problem of criterion revision: when criterion K0 accepts an outcome violating a broader commitment B, what observations justify saying that the system formed and persistently used K1? We require five non-compensatory conditions: criterion-failure detection, a model-emitted proposal, new-episode transfer, intervention sensitivity on the claimed carrier, and preservation. We evaluate CMB-0.1 on twelve cross-domain cases and four arms: stateless inference, append-only history, model-generated but harness-committed state, and evaluator-written oracle state. Seven mechanism fixtures yield 84 deterministic scorer trials; four local quantized artifacts yield 96 calls and 192 model-case-arm trials. No model trial satisfies all five conditions, but this zero does not establish general capability absence. Eleven calls remain invalid after one retry; several commitments disclose the target distinction; the harness performs commits; deletion reuses a stateless call; and conflict changes multiple factors. Qwen2.5-7B answers every transfer and preservation item without revision state, exposing zero-state reconstruction. These failures make CMB-0.1 an instrument-calibration result rather than a model ranking. We derive a prospective, trace-anchored CMB-0.4 protocol requiring concealed transfer, explicit WRITE/NO-WRITE/ESCALATE actions, a separately logged policy-selected commit, matched interventions, repeated hidden items, and a frozen executable oracle. It is a successor design, not a completed confirmatory result. The paper contributes a measurement chain, an empirical diagnosis of its first implementation, and a more discriminating protocol for future tests of criterion revision."
+ },
+ {
+  "paper_id": 5024,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "AI scientists produce results without reasoning scientifically",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language model (LLM)-based systems are increasingly deployed to conduct scientific research autonomously, yet whether their reasoning adheres to the epistemic norms that make scientific inquiry self-correcting is poorly understood. Here, we evaluate LLM-based scientific agents across eight domains, spanning workflow execution to hypothesis-driven inquiry, through more than 25,000 agent runs and two complementary lenses: (i) a systematic performance analysis that decomposes the contributions of the base model and the agent scaffold, and (ii) a behavioral analysis of the epistemological structure of agent reasoning. We observe that the base model is the primary determinant of both performance and behavior, accounting for 41.4% of explained variance versus 1.5% for the scaffold. Across all configurations, evidence is ignored in 68% of traces, refutation-driven belief revision occurs in 26%, and convergent multi-test evidence is rare. The same reasoning pattern appears whether the agent executes a computational workflow or conducts hypothesis-driven inquiry. They persist even when agents receive near-complete successful reasoning trajectories as context, and the resulting unreliability compounds across repeated trials in epistemically demanding domains. Thus, current LLM-based agents execute scientific workflows but do not exhibit the epistemic patterns that characterize scientific reasoning. Outcome-based evaluation cannot detect these failures, and scaffold engineering alone cannot repair them. Until reasoning itself becomes a training target, the scientific knowledge produced by such agents cannot be justified by the process that generated it."
+ },
+ {
+  "paper_id": 5275,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Retrieval-Conditioned Topology Selection with Provable Budget Conservation for Multi-Agent Code Generation",
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Multi-agent LLM systems for code generation face a fundamental routing problem: the optimal orchestration topology depends on the structural complexity of the code under modification, yet existing systems select topologies without consulting the codebase. We present Retrieval-Guided Adaptive Orchestration (RGAO), an architecture that closes this loop by extracting a structural complexity vector from a hierarchical code index before selecting the orchestration topology. RGAO operates within Code-Agent, a multi-agent framework whose sub-agents are governed by formal contracts with six-dimensional budget vectors. Our headline contribution is the composition of two previously separate lines of work -- complexity-conditioned LLM routing and formal resource algebras -- yielding a property neither admits alone: provable budget conservation under retrieval-conditioned dynamic topology selection. Concretely we contribute: (1) a complexity-conditioned topology router that reduces proxy-measured misrouting from 30.1% to 8.2%; (2) a budget algebra with a structural-induction conservation theorem; and (3) a hierarchical code retrieval engine. Empirical evaluation demonstrates sub-millisecond DAG construction and linear tree-index scalability."
+ },
+ {
+  "paper_id": 5282,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "human_study",
+  "title": "Structure Matters: Evaluating Multi-Agents Orchestration in Generative Therapeutic Chatbots",
+  "venue": "arXiv:cs.HC",
+  "source": "arxiv",
+  "abstract": "While large language models (LLMs) excel at open-ended dialogue, effective psychotherapy requires structured progression and adherence to clinical protocols, making the design of psychotherapist chatbots challenging. We investigate how different LLM-based designs shape perceived therapeutic dialogue in a chatbot grounded in the Self-Attachment Technique (SAT), a novel self-administered psychotherapy rooted in attachment theory. We compare three architectural variants: (1) a multi-agent system utilizing finite state machine aligned with therapeutic stages and a shared long-term memory, (2) a single-agent using identical knowledge-base and the same prompts, and (3) an unguided LLM. In an eight-day randomized controlled trial (RCT) with N=66 Farsi-speaking participants, balanced across the three chatbots, the multi-agent system is perceived as significantly more natural and human-like than the other variants and achieves higher ratings across most other metrics. These findings demonstrate that for therapeutic AI, architectural orchestration is as critical as prompt engineering in fostering natural, engaging dialogue."
+ },
+ {
+  "paper_id": 5304,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "case_study",
+  "title": "Self-Refining Topology Optimization via an LLM-Based Multi-Agent Framework",
+  "venue": "arXiv:cs.MA",
+  "source": "arxiv",
+  "abstract": "Topology optimization is a widely used design method that produces optimized material distributions for prescribed objectives and constraints through well-established numerical algorithms. Throughout the workflow, engineers make a series of decisions ranging from setting and adjusting numerical parameters to assessing whether the converged design meets considerations beyond those explicitly included in the optimization problem, such as physical feasibility. These decisions, which draw on domain expertise, interfere with the autonomous design process. To address this difficulty, this study presents TopOptAgents, a multi-agent system for automating not only the design process but also decision-making during the key stages of the topology optimization process. TopOptAgents consists of six LLM-based agents collaborating through iterative self-refinement cycles spanning problem formulation, validation, code generation and execution, and quality assessment of the optimized structure. This process enables error correction and progressive improvement of both the optimization setup and resulting design. The framework is demonstrated on optimization problems selected to cover a range of settings that differ in their literature coverage and numerical characteristics The benefits of iterative self-refinement are found to be particularly pronounced for problem classes where the pretrained language model has limited prior exposure, such as formulations whose literature and open-source implementations are comparatively sparse. In such cases, the proposed framework reliably produces converged designs where a single state-of-the-art LLM struggles, suggesting that self-refinement broadens the range of topology optimization problems that LLM-based automation can reliably address."
+ },
+ {
+  "paper_id": 5324,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "DynTaskMAS: A Dynamic Task Graph-driven Framework for Asynchronous and Parallel LLM-based Multi-Agent Systems",
+  "venue": "Proceedings of the International Conference on Automated Planning and Scheduling",
+  "source": "openalex",
+  "abstract": "The emergence of Large Language Models (LLMs) in Multi-Agent Systems (MAS) has opened new possibilities for artificial intelligence, yet current implementations face significant challenges in resource management, task coordination, and system efficiency. While existing frameworks demonstrate the potential of LLM-based agents in collaborative problem-solving, they often lack sophisticated mechanisms for parallel execution and dynamic task management. This paper introduces DynTaskMAS, a novel framework that orchestrates asynchronous and parallel operations in LLM-based MAS through dynamic task graphs. The framework features four key innovations: (1) a Dynamic Task Graph Generator that intelligently decomposes complex tasks while maintaining logical dependencies, (2) an Asynchronous Parallel Execution Engine that optimizes resource utilization through efficient task scheduling, (3) a Semantic-Aware Context Management System that enables efficient information sharing among agents, and (4) an Adaptive Workflow Manager that dynamically optimizes system performance. Experimental evaluations demonstrate that DynTaskMAS achieves significant improvements over traditional approaches: a 21-33% reduction in execution time across task complexities (with higher gains for more complex tasks), a 35.4% improvement in resource utilization (from 65% to 88%), and near-linear throughput scaling up to 16 concurrent agents (3.47\u00d7 improvement for 4\u00d7 agents). Our framework establishes a foundation for building scalable, high-performance LLM-based multi-agent systems capable of handling complex, dynamic tasks efficiently."
+ },
+ {
+  "paper_id": 5483,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Response-Conditioned Parallel-to-Sequential Orchestration for Multi-Agent Systems",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Multi-agent systems can solve complex tasks through collaboration between multiple Large Language Model agents. Existing collaboration frameworks typically operate in either a parallel or a sequential mode. In the parallel mode, agents respond independently to queries followed by aggregation of responses. In contrast, sequential systems allow agents to communicate via a directed topology and refine one another step by step. However, both modes are inadequate for achieving the desired objectives of minimizing communication and latency while simultaneously maximizing the accuracy of the final response. In this work, we introduce a hybrid paradigm called Nexa, a trainable response-conditioned policy that bridges the gap between the two modes. Nexa begins with a parallel execution stage, embeds the resulting responses into a shared semantic space, and then predicts a sparse directed acyclic communication graph. If the graph is empty, the system remains purely parallel; if it is non-empty, the system performs one sequential message propagation. The policy is a lightweight transformer model, and the method avoids the need for external LLM judges or reward models, as well as hand-crafted test-time topology search. We formalize this hybrid execution problem, show that the resulting graph is acyclic by construction, and that the framework strictly subsumes pure parallel execution, and present a training procedure based on policy-gradient optimization. Results demonstrate that the response-conditioned policy learned by Nexa under one setting can be reused when the number of agents, the task, or the underlying agent changes, thus emphasizing the generalizability of the learned communication policy."
+ },
+ {
+  "paper_id": 5682,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Agentic Verifier-in-the-Loop Solver Orchestration for Cell-Free Massive MIMO Downlink Power Control",
+  "venue": "arXiv:cs.IT",
+  "source": "arxiv",
+  "abstract": "Cell-free massive multiple-input multiple-output (MIMO) systems can provide uniformly strong service through distributed access points, but performance still depends critically on downlink power control. Existing methods are typically selected offline and then applied uniformly across channel and load regimes, even though no single solver is uniformly best. We therefore propose VISO-PC, a verifier-in-the-loop solver-orchestration framework in which an agent routes among trusted solvers rather than generating power coefficients directly. Given a structured instance descriptor, the router selects an initial solver and fallback order, and an independent verifier accepts only candidates that satisfy the constraints and produce a valid verified common rate. For fairness-oriented downlink cell-free power control under per-AP constraints, verification-aware orchestration improves accepted rate over all fixed single-solver baselines on a reproducible prototype benchmark. Moreover, a lightweight memory-based router matches the accepted rate of a strong rule-based router while reducing average runtime and fallback rate. These results show that solver orchestration is a practical agentic layer for cell-free massive MIMO downlink power control."
+ },
+ {
+  "paper_id": 5843,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "case_study",
+  "title": "Agentic Framework for Intelligent Surrogate Modeling of Simulator-Driven Workflows",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Abstract We introduce a novel large-language-model (LLM) driven agentic framework to automate end-to-end surrogate modeling of simulator-driven workflows in the oil and gas domain. The autonomous agent orchestrates critical steps\u2014initial sampling, simulator execution, adaptive retraining, and strategy switching\u2014to minimize expensive simulator calls while meeting accuracy targets with minimal subject matter expert (SME) intervention. Applied to well-network flow and gas processing simulations, the agent dynamically switches sampling strategies to achieve user-specified accuracy efficiently. In each iteration, the LLM agent generates candidate input sets, evaluates them via the simulator, and fine-tunes the surrogate model on the expanded dataset. Uncertainty estimates from Monte Carlo (MC) dropout guide an acquisition function that scores candidates (e.g., by residual error or predicted variance) to prioritize informative samples. The agent monitors the surrogate model\u2019s error on a validation set and triggers early stopping to prevent overfitting. Initial results demonstrate that the agent-driven approach can autonomously produce high-fidelity surrogates with intelligent sampling and model updates. The adaptive strategy switching yielded roughly a 6% lower Symmetric Mean Absolute Percentage Error (SMAPE) versus using any single sampling method, and the pipeline converged to the target error threshold with minimal human guidance. This framework is among the first to employ an LLM as an autonomous orchestrator for surrogate modeling workflows, significantly reducing computational cost and SME effort while providing a plug-and-play solution for complex simulator-driven engineering problems."
+ },
+ {
+  "paper_id": 5928,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "case_study",
+  "title": "Testing and Understanding Erroneous Planning in LLM Agents through Synthesized User Inputs",
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "Agents based on large language models (LLMs) have demonstrated effectiveness in solving a wide range of tasks by integrating LLMs with key modules such as planning, memory, and tool usage. Increasingly, customers are adopting LLM agents across a variety of commercial applications critical to reliability, including support for mental well-being, chemical synthesis, and software development. Nevertheless, our observations and daily use of LLM agents indicate that they are prone to making erroneous plans, especially when the tasks are complex and require long-term planning.   In this paper, we propose PDoctor, a novel and automated approach to testing LLM agents and understanding their erroneous planning. As the first work in this direction, we formulate the detection of erroneous planning as a constraint satisfiability problem: an LLM agent's plan is considered erroneous if its execution violates the constraints derived from the user inputs. To this end, PDoctor first defines a domain-specific language (DSL) for user queries and synthesizes varying inputs with the assistance of the Z3 constraint solver. These synthesized inputs are natural language paragraphs that specify the requirements for completing a series of tasks. Then, PDoctor derives constraints from these requirements to form a testing oracle. We evaluate PDoctor with three mainstream agent frameworks and two powerful LLMs (GPT-3.5 and GPT-4). The results show that PDoctor can effectively detect diverse errors in agent planning and provide insights and error characteristics that are valuable to both agent developers and users. We conclude by discussing potential alternative designs and directions to extend PDoctor."
+ },
+ {
+  "paper_id": 6060,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "benchmark",
+  "title": "Encouraging Good Processes Without the Need for Good Answers: Reinforcement Learning for LLM Agent Planning",
+  "venue": "arXiv:cs.LG",
+  "source": "arxiv",
+  "abstract": "The functionality of Large Language Model (LLM) agents is primarily determined by two capabilities: action planning and answer summarization. The former, action planning, is the core capability that dictates an agent's performance. However, prevailing training paradigms employ end-to-end, multi-objective optimization that jointly trains both capabilities. This paradigm faces two critical challenges: imbalanced optimization objective allocation and scarcity of verifiable data, making it difficult to enhance the agent's planning capability. To address these challenges, we propose Reinforcement Learning with Tool-use Rewards (RLTR), a novel framework that decouples the training process to enable a focused, single-objective optimization of the planning module. Crucially, RLTR introduces a reward signal based on tool-use completeness to directly evaluate the quality of tool invocation sequences. This method offers a more direct and reliable training signal than assessing the final response content, thereby obviating the need for verifiable data. Our experiments demonstrate that RLTR achieves an 8%-12% improvement in planning performance compared to end-to-end baselines. Moreover, this enhanced planning capability, in turn, translates to a 5%-6% increase in the final response quality of the overall agent system."
+ },
+ {
+  "paper_id": 6081,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "none",
+  "title": "CART: A traceable zero-shot planning framework for large language models with adaptive replanning",
+  "venue": "Knowledge-Based Systems",
+  "source": "openalex",
+  "abstract": ""
+ },
+ {
+  "paper_id": 6498,
+  "axis": "evaluation_strategy",
+  "coder_1": "controlled_experiment",
+  "coder_2": "ablation",
+  "title": "From Capabilities to Performance: Evaluating Key Functional Properties of LLM Architectures in Penetration Testing",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have been explored for automating or enhancing penetration testing tasks, but their effectiveness and reliability across diverse attack phases remain open questions.This study presents a comprehensive evaluation of multiple LLM-based agents, ranging from singular to modular designs, across realistic penetration testing scenarios, analyzing their empirical performance and recurring failure patterns.We further investigate the impact of core functional capabilities on agent success, operationalized through five targeted augmentations: Global Context Memory (GCM), Inter-Agent Messaging (IAM), Context-Conditioned Invocation (CCI), Adaptive Planning (AP), and Real-Time Monitoring (RTM).These interventions respectively support the capabilities of Context Coherence & Retention, Inter-Component Coordination & State Management, Tool Usage Accuracy & Selective Execution, Multi-Step Strategic Planning & Error Detection & Recovery, and Real-Time Dynamic Responsiveness.Our findings reveal that while some architectures natively exhibit select properties, targeted augmentations significantly enhance modular agent performance-particularly in complex, multi-step, and real-time penetration testing scenarios."
+ },
+ {
+  "paper_id": 6559,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Context Rot: Why MCP is Breaking in Production and How the Skills Architecture Fixes It",
+  "venue": "European Journal of Electrical Engineering and Computer Science",
+  "source": "openalex",
+  "abstract": "As large language model (LLM) agents are deployed at production scale, a class of system-level failure has emerged that we formally designate context rot-the progressive degradation of reasoning quality, task coherence, and decision fidelity arising from uncontrolled accumulation, misalignment, and entropic decay of context across extended agentic sessions. Although the Model Context Protocol (MCP) provides a standardized interface for tool invocation and external state retrieval, practitioner-reported evidence and our controlled simulation benchmarks reveal systematic breakdown patterns under conditions of scale, multi-agent coordination, and long-horizon task execution. This paper presents: (a) a formal taxonomy of context rot failure modes, (b) an information-theoretic framing of context as a bandwidth-limited computational resource, and (c) a comparative evaluation of MCP-based versus Skills Architecture systems across five benchmark domains. In controlled experiments using calibrated simulation over the Agentic Context Benchmark (ACB-2026), Skills Architecture reduces normalized context entropy by 42% (95% CI: [37%, 46%]) relative to baseline MCP, improves task completion rates by 26 percentage points on average (95% CI: [20pp, 31pp]) across five domains, and reduces error recurrence rates from 0.34 to 0.09. Results are consistent across three model families, supporting the position that context rot is architectural in character to a degree that survives cross-model comparison, though we do not claim to have isolated architecture as the sole cause. The full benchmark suite, reference implementations, and analysis code are publicly available for independent replication."
+ },
+ {
+  "paper_id": 6661,
+  "axis": "evaluation_strategy",
+  "coder_1": "illustrative_example",
+  "coder_2": "none",
+  "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in building these applications, however, effectively leveraging and orchestrating them remains a formidable challenge. Conventional approaches to enterprise application integration, encompassing middleware architectures such as Enterprise Service Bus (ESB), API gateway infrastructures, and Robotic Process Automation (RPA), suffer from inherent limitations like high architectural coupling, escalating operation and maintenance costs, and limited intelligence capabilities. This paper proposes Agentic Nesting, a multi-agent collaboration framework in which existing enterprise applications are encapsulated as autonomous AI agents within a hierarchically nested structure. Rather than flat interconnection, agents are organized into layered stewardship topologies that mirror the compositional complexity of enterprise ecosystems. The framework extracts a digital agent proxy from each legacy application to enable natural-language interaction and autonomous manipulation, coordinates multiple agents through a central orchestrator for task decomposition and dynamic dispatching, and exposes a unified conversational interface for cross-application querying and process orchestration. The main contributions of this paper are the proposition of the \"Application-as-Agent\" integration paradigm and the \"Conversation-as-Integration\" interaction philosophy, together with an exploration of the generalization potential of this methodology in scenarios encompassing heterogeneous system coordination, and large-scale data applications."
+ },
+ {
+  "paper_id": 6988,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "A Systematic Study of LLM-Based Architectures for Automated Patching",
+  "venue": "arXiv (Cornell University)",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have shown promise for automated patching, but their effectiveness depends strongly on how they are integrated into patching systems. While prior work explores prompting strategies and individual agent designs, the field lacks a systematic comparison of patching architectures. In this paper, we present a controlled evaluation of four LLM-based patching paradigms -- fixed workflow, single-agent system, multi-agent system, and general-purpose code agents -- using a unified benchmark and evaluation framework. We analyze patch correctness, failure modes, token usage, and execution time across real-world vulnerability tasks. Our results reveal clear architectural trade-offs: fixed workflows are efficient but brittle, single-agent systems balance flexibility and cost, and multi-agent designs improve generalization at the expense of substantially higher overhead and increased risk of reasoning drift on complex tasks. Surprisingly, general-purpose code agents achieve the strongest overall patching performance, benefiting from general-purpose tool interfaces that support effective adaptation across vulnerability types. Overall, we show that architectural design and iteration depth, rather than model capability alone, dominate the reliability and cost of LLM-based automated patching."
+ },
+ {
+  "paper_id": 7995,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "ablation",
+  "title": "Interpretable Contrastive Monte Carlo Tree Search Reasoning",
+  "venue": "arXiv:cs.CL",
+  "source": "arxiv",
+  "abstract": "We propose SC-MCTS*: a novel Monte Carlo Tree Search (MCTS) reasoning algorithm for Large Language Models (LLMs), significantly improves both reasoning accuracy and speed. Our motivation comes from: 1. Previous MCTS LLM reasoning works often overlooked its biggest drawback--slower speed compared to CoT; 2. Previous research mainly used MCTS as a tool for LLM reasoning on various tasks with limited quantitative analysis or ablation studies of its components from reasoning interpretability perspective. 3. The reward model is the most crucial component in MCTS, however previous work has rarely conducted in-depth study or improvement of MCTS's reward models. Thus, we conducted extensive ablation studies and quantitative analysis on components of MCTS, revealing the impact of each component on the MCTS reasoning performance of LLMs. Building on this, (i) we designed a highly interpretable reward model based on the principle of contrastive decoding and (ii) achieved an average speed improvement of 51.9% per node using speculative decoding. Additionally, (iii) we improved UCT node selection strategy and backpropagation used in previous works, resulting in significant performance improvement. We outperformed o1-mini by an average of 17.4% on the Blocksworld multi-step reasoning dataset using Llama-3.1-70B with SC-MCTS*. Our code is available at https://github.com/zitian-gao/SC-MCTS."
+ },
+ {
+  "paper_id": 8302,
+  "axis": "evaluation_strategy",
+  "coder_1": "human_study",
+  "coder_2": "controlled_experiment",
+  "title": "Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human",
+  "venue": "arXiv:cs.AI",
+  "source": "arxiv",
+  "abstract": "As LLM agents begin to take real, irreversible actions (shell commands, file edits, deploys), the standard safety pattern is a human-in-the-loop approval gate: risky actions pause and wait for a person. We argue the gate is the easy part; the hard part is the judgment - which actions to stop - which the field evaluates against two false assumptions: that there is a ground-truth notion of \"risky,\" and that the human reviewer is a perfect, infinitely-available oracle. On a hand-labeled set of 125 adversarially-weighted agent actions we show that (i) reviewers only moderately agree on what is risky (Fleiss' kappa = 0.52), so there is no single correct label; (ii) framing the guard as selective classification under asymmetric cost makes its operating limits measurable, and on hard inputs the guard cannot safely auto-decide; and (iii) when the reviewer is modeled as endogenous (fatiguing as escalation load grows), realized safety becomes an inverted-U in the escalation rate: more human oversight can make a system less safe, and the safety-optimal guard escalates below full escalation - a setting a load-aware policy also uses to resist a flooding attack that slips a malicious action past a fatigued reviewer. Agent oversight, framed this way, is not only a classification problem but a resource-allocation one: human attention is finite, and the guard's escalation policy spends it. We claim none of these mechanisms as novel - fatigue-aware learning-to-defer (FALCON), cost-sensitive deferral under workload constraints (DeCCaF), trajectory-level guarding, and reviewer-fatigue/flooding attacks are all prior art we cite. Our contribution is an open-source agent-oversight system that operationalizes and measures them in the LLM-agent action-gating setting, turning \"is my guard good?\" from a guess into a curve. The inverted-U and the flooding attack are modeling results that motivate a human study."
+ },
+ {
+  "paper_id": 9089,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "illustrative_example",
+  "title": "Iterative Semantic Refinement: A Vision Language Model-Driven Approach to Auto-Regressive Image Editing",
+  "venue": "2025 9th International Symposium on Innovative Approaches in Smart Technologies (ISAS)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 9117,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "illustrative_example",
+  "title": "A closed-loop feedback framework based on large language models for iterative optimization in medical record generation",
+  "venue": "International Symposium on Robotics and Artificial Intelligence (ISRAI 2025)",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10271,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Self-reflection enhances large language models towards substantial academic response",
+  "venue": "npj Artificial Intelligence",
+  "source": "crossref",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10564,
+  "axis": "evaluation_strategy",
+  "coder_1": "none",
+  "coder_2": "illustrative_example",
+  "title": "Fail Fast, or Ask: Mitigating the Deficiencies of Reasoning LLMs with Human-in-the-Loop Systems Engineering.",
+  "venue": "CoRR",
+  "source": "dblp",
+  "abstract": ""
+ },
+ {
+  "paper_id": 10781,
+  "axis": "evaluation_strategy",
+  "coder_1": "benchmark",
+  "coder_2": "controlled_experiment",
+  "title": "Understanding the Dark Side of LLMs&apos; Intrinsic Self-Correction.",
+  "venue": "ACL",
+  "source": "dblp-venue",
+  "abstract": ""
+ }
+]

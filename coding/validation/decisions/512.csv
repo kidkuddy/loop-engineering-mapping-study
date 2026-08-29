@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+512,include,I2,1;2;3;4,critique_and_revision,model,validation_research,controlled_experiment,human_in_the_loop,preprint,"p.3 Groups A-C 0/10 full-scene success with output-only feedback vs Group D converging in 3 cycles after code-level hint; feedback channel is the varied factor"

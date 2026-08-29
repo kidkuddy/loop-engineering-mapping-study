@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+5904,include,I2,1;2;3;4;5;6;7;8;9,budget_and_termination_control,tool,validation_research,benchmark,fully_autonomous,conference,"p.3 controller gates whether to replan and sets per-call token budget/SLO; p.7-8 No-BRACE ablation cuts SLO violations 85.5->4.7%. Venue: p.1 front matter says ICML 2026 (PMLR 306)."

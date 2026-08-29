@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+6656,include,I2,1;2;3;4;5;6;7;8,planning_and_control_flow,model,validation_research,controlled_experiment,fully_autonomous,preprint,"p.7 Sec 9 varies only the control structure (flat vs LIFO-stack hierarchical loop) with LLM, protocol and scoring held constant; p.8 Tables 1-3 report per-decision routing errors and calls/task."

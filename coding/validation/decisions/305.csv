@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+305,include,I2,1;2;3;4;5;6;7;8;9;10;11;12;13,memory_and_context_management,tool,validation_research,benchmark,fully_autonomous,preprint,"p.6-7 persistent state and candidate-bound evidence reopen obligations on revision; p.10 matched-backend design varies only the harness; p.12 Sec 6.4 21 vs 4 executable-but-wrong submissions."

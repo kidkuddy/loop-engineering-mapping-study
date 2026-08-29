@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+4180,include,I2,1;2;3;4;5;6;7;8,planning_and_control_flow,method,validation_research,benchmark,fully_autonomous,preprint,"p.7 ablation removes Action Chain / chain-level refinement / intention binding / proactive replan: SS +62.9%, +13.0%, +18.5%, +44.4%; loop mechanism itself measured"

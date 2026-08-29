@@ -1,0 +1,272 @@
+[
+ {
+  "paper_id": 571,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Resilience in Ambient Multi-Agent LLMs via Decentralized Bio-Autonomic Control and Immune-Inspired Anomaly Detection",
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "source": "openalex",
+  "abstract": "Large Language Model (LLM) agents are now widely deployed in Ambient Intelligence (AmI) environments, where autonomous agents must sense, act, and coordinate at scale. As agent capabilities and interdependence increase, traditional reliability strategies such as isolated adaptive control, anomaly detection, or trust modeling have proven inadequate due to their fragmented and scenario-specific nature. Comprehensive architectures that enable integrated self-management, collective anomaly response, robust information dissemination, and privacy-preserving adaptation remain scarce. We propose a bio-autonomic framework for decentralized resilience in multi-agent LLM systems where a unified architecture systematically applies principles from biological autonomic systems to LLM-based multi-agent environments. Specifically, each agent implements an autonomic control loop, formally structured as Monitor-Analyze-Plan-Execute over a shared Knowledge base (MAPE-K), for self-regulation. At the system level, the framework integrates immune-inspired anomaly detection using the Dendritic Cell Algorithm, probabilistic computational trust, decentralized gossip for robust information sharing, and federated learning with homomorphic encryption for collaborative, privacy-preserving adaptation. This holistic approach enables LLM agent ecosystems to self-organize, detect and isolate faults, and collectively adapt as system complexity increases. Empirical evaluations show that our framework achieves substantially improved resilience and recovery compared to state-of-the-art multi-agent baselines."
+ },
+ {
+  "paper_id": 971,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Large Language Model-based Human-Agent Collaboration for Complex Task Solving",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "In recent developments within the research community, the integration of Large Language Models (LLMs) in creating fully autonomous agents has garnered significant interest.Despite this, LLM-based agents frequently demonstrate notable shortcomings in adjusting to dynamic environments and fully grasping human needs.In this work, we introduce the problem of LLM-based human-agent collaboration for complex task-solving, exploring their synergistic potential.To tackle the problem, we propose a Reinforcement Learning-based Human-Agent Collaboration method, ReHAC, which trains a policy model designed to determine the most opportune stages for human intervention within the task-solving process.We conduct experiments under real and simulated human-agent collaboration scenarios.Experimental results demonstrate that the synergistic efforts of humans and LLM-based agents significantly improve performance in complex tasks, primarily through well-planned, limited human intervention.Datasets and code are available at: https://github.com/ XueyangFeng/ReHAC/."
+ },
+ {
+  "paper_id": 973,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Understanding the Weakness of Large Language Model Agents within a Complex Android Environment",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) have empowered intelligent agents to execute intricate tasks within domain-specific software such as browsers and games. However, when applied to general-purpose software systems like operating systems, LLM agents face three primary challenges. Firstly, the action space is vast and dynamic, posing difficulties for LLM agents to maintain an up-to-date understanding and deliver accurate responses. Secondly, real-world tasks often require inter-application cooperation, demanding farsighted planning from LLM agents. Thirdly, agents need to identify optimal solutions aligning with user constraints, such as security concerns and preferences. These challenges motivate AndroidArena, an environment and benchmark designed to evaluate LLM agents on a modern operating system. To address high-cost of manpower, we design a scalable and semi-automated method to construct the benchmark. In the task evaluation, AndroidArena incorporates accurate and adaptive metrics to address the issue of non-unique solutions. Our findings reveal that even state-of-the-art LLM agents struggle in cross-APP scenarios and adhering to specific constraints. Additionally, we identify a lack of four key capabilities, i.e. understanding, reasoning, exploration, and reflection, as primary reasons for the failure of LLM agents. Furthermore, we provide empirical analysis on the failure of reflection, and improve the success rate by 27% with our proposed exploration strategy. This work is the first to present valuable insights in understanding fine-grained weakness of LLM agents, and offers a path forward for future research in this area. Environment, benchmark, prompt, and evaluation code for AndroidArena are released at https://github.com/AndroidArenaAgent/AndroidArena."
+ },
+ {
+  "paper_id": 988,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "ReConcile: Round-Table Conference Improves Reasoning via Consensus among Diverse LLMs",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) still struggle with natural language reasoning tasks.Motivated by the society of minds (Minsky, 1988), we propose RECONCILE, a multi-model multiagent framework designed as a round table conference among diverse LLM agents.RECON-CILE enhances collaborative reasoning between LLM agents via multiple rounds of discussion, learning to convince other agents to improve their answers, and employing a confidenceweighted voting mechanism that leads to a better consensus.In each round, RECONCILE initiates discussion between agents via a 'discussion prompt' that consists of (a) grouped answers and explanations generated by each agent in the previous round, (b) their confidence scores, and (c) demonstrations of answerrectifying human explanations, used for convincing other agents.Experiments on seven benchmarks demonstrate that RECONCILE significantly improves LLMs' reasoning -both individually and as a team -surpassing prior single-agent and multi-agent baselines by up to 11.4% and even outperforming GPT-4 on three datasets.RECONCILE also flexibly incorporates different combinations of agents, including API-based, open-source, and domainspecific models, leading to an 8% improvement on MATH.Finally, we analyze the individual components of RECONCILE, demonstrating that the diversity originating from different models is critical to its superior performance.1 Self-Refine MAD+Judge Multi-Agent Debate (MAD) ReConcile (Group-Discuss-and-Convince) Yes, with 95% confidence No, with 50% confidence No, with 40% confidence yes no no yes no no yes no no Question (Q): Is an ammonia fighting cleaner good for pet owners?Human Explanation (Exp): Ammonia is a component in pet urine.It has an unpleasant odor."
+ },
+ {
+  "paper_id": 1004,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model",
+  "venue": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "source": "openalex",
+  "abstract": "Large Language Model (LLM)-based agents exhibit significant potential across various domains, operating as interactive systems that process environmental observations to generate executable actions for target tasks.The effectiveness of these agents is significantly influenced by their memory mechanism, which records historical experiences as sequences of actionobservation pairs.We categorize memory into two types: cross-trial memory, accumulated across multiple attempts, and in-trial memory (working memory), accumulated within a single attempt.While considerable research has optimized performance through cross-trial memory, the enhancement of agent performance through improved working memory utilization remains underexplored.Instead, existing approaches often involve directly inputting entire historical action-observation pairs into LLMs, leading to redundancy in long-horizon tasks.Inspired by human problem-solving strategies, this paper introduces HIAGENT, a framework that leverages subgoals as memory chunks to manage the working memory of LLM-based agents hierarchically.Specifically, HIAGENT prompts LLMs to formulate subgoals before generating executable actions and enables LLMs to decide proactively to replace previous subgoals with summarized observations, retaining only the action-observation pairs relevant to the current subgoal.Experimental results across five long-horizon tasks demonstrate that HIAGENT achieves a twofold increase in success rate and reduces the average number of steps required by 3.8.Additionally, our analysis shows that HIAGENT consistently improves performance across various steps, highlighting its robustness and generalizability."
+ },
+ {
+  "paper_id": 1043,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Breaking ReAct Agents: Foot-in-the-Door Attack Will Get You In",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Following the advancement of large language models (LLMs), the development of LLMbased autonomous agents has become prevalent.As a result, the need to understand the security vulnerabilities of these agents has become a critical task.We examine how ReAct agents can be exploited using a straightforward yet effective method we refer to as the foot-inthe-door attack.Our experiments show that indirect prompt injection attacks, prompted by harmless and unrelated requests (such as basic calculations) can significantly increase the likelihood of the agent performing subsequent malicious actions.Our results show that once a ReAct agent's thought includes a specific tool or action, the likelihood of executing this tool in the subsequent steps increases significantly, as the agent seldom re-evaluates its actions.Consequently, even random, harmless requests can establish a 'foot-in-the-door', allowing an attacker to embed malicious instructions into the agent's thought process, making it more susceptible to harmful directives.To mitigate this vulnerability, we propose implementing a simple reflection mechanism that prompts the agent to reassess the safety of its actions during execution, which can help reduce the success of such attacks. 1"
+ },
+ {
+  "paper_id": 1054,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated great potential in complex reasoning tasks, yet they fall short when tackling more sophisticated challenges, especially when interacting with environments through generating executable actions.This inadequacy primarily stems from the lack of built-in action knowledge in language agents, which fails to effectively guide the planning trajectories during task solving and results in planning hallucination.To address this issue, we introduce KNOWAGENT, a novel approach designed to enhance the planning capabilities of LLMs by incorporating explicit action knowledge.Specifically, KNOWAGENT employs an action knowledge base and a knowledgeable self-learning strategy to constrain the action path during planning, enabling more reasonable trajectory synthesis, and thereby enhancing the planning performance of language agents.Experimental results on HotpotQA and ALFWorld based on various backbone models demonstrate that KNOWAGENT can achieve comparable or superior performance to existing baselines.Further analysis indicates the effectiveness of KNOWAGENT in terms of planning hallucinations mitigation."
+ },
+ {
+  "paper_id": 1341,
+  "axis": "venue_type",
+  "coder_1": "conference",
+  "coder_2": "preprint",
+  "title": "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Modern large language models (LLMs) like ChatGPT have shown remarkable performance on general language tasks but still struggle on complex reasoning tasks, which drives the research on cognitive behaviors of LLMs to explore human-like problem-solving strategies.Along this direction, one representative strategy is self-reflection, which asks an LLM to refine the solution with the feedback generated by itself iteratively.However, our study shows that such reflection-style methods suffer from the Degeneration-of-Thought (DoT) problem: once the LLM has established confidence in its solutions, it is unable to generate novel thoughts later through reflection even if its initial stance is incorrect.To address the DoT problem, we propose a Multi-Agent Debate (MAD) framework, in which multiple agents express their arguments in the state of \"tit for tat\" and a judge manages the debate process to obtain a final solution.Clearly, our MAD framework encourages divergent thinking in LLMs which would be helpful for tasks that require deep levels of contemplation.Experiment results on two challenging datasets, commonsense machine translation and counterintuitive arithmetic reasoning, demonstrate the effectiveness of our MAD framework.Extensive analyses suggest that the adaptive break of debate and the modest level of \"tit for tat\" state are required for MAD to obtain good performance.Moreover, we find that LLMs might not be a fair judge if different LLMs are used for agents.Code is available at https://github. com/Skytliang/Multi-Agents-Debate."
+ },
+ {
+  "paper_id": 1343,
+  "axis": "venue_type",
+  "coder_1": "conference",
+  "coder_2": "preprint",
+  "title": "SummIt: Iterative Text Summarization via ChatGPT",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Text summarization systems have made significant progress in recent years, but typically generate summaries in one single step. However, the one-shot summarization setting is sometimes inadequate, as the generated summary may contain hallucinations or overlook essential details related to the reader's interests. This paper addresses this limitation by proposing SummIt, an iterative text summarization framework based on large language models like Chat-GPT. Our framework enables the model to refine the generated summary iteratively through self-evaluation and feedback, resembling humans' iterative process when drafting and revising summaries. Furthermore, we explore the potential benefits of integrating knowledge and topic extractors into the framework to enhance summary faithfulness and controllability. We automatically evaluate the performance of our framework on three benchmark summarization datasets. We also conduct a human evaluation to validate the effectiveness of the iterative refinements and identify a potential issue of overcorrection. 1"
+ },
+ {
+  "paper_id": 1351,
+  "axis": "venue_type",
+  "coder_1": "conference",
+  "coder_2": "preprint",
+  "title": "TEaR: Improving LLM-based Machine Translation with Systematic Self-Refinement",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have achieved impressive results in Machine Translation (MT).However, human evaluations reveal that LLM-generated translations still contain various errors.Notably, feeding the error information back into the LLMs can facilitate selfrefinement, leading to enhanced translation quality.Motivated by these findings, we introduce TEaR (Translate, Estimate, and Refine), a systematic LLM-based self-refinement framework aimed at bootstrapping translation performance.Our key results show that: 1) TEaR framework enables LLMs to improve their translation quality relying solely on selffeedback, measured by both automatic metrics and Multidimensional Quality Metrics (MQM) scores; 2) TEaR autonomously selects improvements, ensuring a robust translation quality baseline while outperforming both internal refinement and external feedback methods.Error analysis and iterative refinement experiments show its ability to continuously reduce translation errors and enhance overall translation quality.Our code and data are publicly available at https://github.com/fzp0424/self_correct_mt."
+ },
+ {
+  "paper_id": 1762,
+  "axis": "venue_type",
+  "coder_1": "conference",
+  "coder_2": "preprint",
+  "title": "Can ChatGPT Defend its Belief in Truth? Evaluating LLM Reasoning via Debate",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models (LLMs) such as Chat-GPT and GPT-4 have shown impressive performance in complex reasoning tasks. However, it is difficult to know whether the models are reasoning based on deep understandings of truth and logic, or leveraging their memorized patterns in a relatively superficial way. In this work, we explore testing LLMs' reasoning by engaging with them in a debate-like conversation, where given a question, the LLM and the user need to discuss to make the correct decision starting from opposing arguments. Upon mitigating the Clever Hans effect, our task requires the LLM to not only achieve the correct answer on its own, but also be able to hold and defend its belief instead of blindly believing or getting misled by the user's (invalid) arguments and critiques, thus testing in greater depth whether the LLM grasps the essence of the reasoning required to solve the problem. Across a range of complex reasoning benchmarks spanning math, commonsense, logic and BIG-Bench tasks, we find that despite their impressive performance as reported in existing work on generating correct step-by-step solutions in the beginning, LLMs like ChatGPT cannot maintain their beliefs in truth for a significant portion of examples when challenged by oftentimes absurdly invalid arguments. Our work points to danger zones of model alignment, and also suggests more careful treatments and interpretations of the recent findings that LLMs can improve their responses based on feedback. 1"
+ },
+ {
+  "paper_id": 1835,
+  "axis": "venue_type",
+  "coder_1": "conference",
+  "coder_2": "preprint",
+  "title": "LR\u00b2Bench: Evaluating Long-chain Reflective Reasoning Capabilities of Large Language Models via Constraint Satisfaction Problems",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent progress in Large Reasoning Models (LRMs) has significantly enhanced the reasoning abilities of Large Language Models (LLMs), empowering them to tackle increasingly complex tasks through reflection capabilities, such as making assumptions, backtracking, and self-refinement.However, effectively evaluating such reflection capabilities remains challenging due to the lack of appropriate benchmarks.To bridge this gap, we introduce LR 2 Bench, a novel benchmark designed to evaluate the Long-chain Reflective Reasoning capabilities of LLMs.LR 2 Bench comprises 850 samples across six Constraint Satisfaction Problems (CSPs) where reflective reasoning is crucial for deriving solutions that meet all given constraints.Each type of task focuses on distinct constraint patterns, such as knowledge-based, logical, and spatial constraints, providing a comprehensive evaluation of diverse problem-solving scenarios.Our extensive evaluation on both conventional LLMs and LRMs reveals that even the most advanced LRMs, such as DeepSeek-R1 and OpenAI o1-preview, struggle with tasks in LR 2 Bench, achieving an average Exact Match score of only 20.0% and 23.6%, respectively.These findings underscore the significant room for improvement in the reflective reasoning capabilities of current LLMs."
+ },
+ {
+  "paper_id": 1840,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Confidence v.s. Critique: A Decomposition of Self-Correction Capability for LLMs",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) can correct their self-generated responses, but a decline in accuracy after self-correction is also witnessed.To have a deeper understanding of selfcorrection, we endeavor to decompose, evaluate, and analyze the self-correction behaviors of LLMs.By enumerating and analyzing answer correctness before and after self-correction, we decompose the self-correction capability into confidence (being confident to correct answers) and critique (turning wrong answers to correct) capabilities, and propose two metrics from a probabilistic perspective to measure these 2 capabilities, along with another metric for overall self-correction capability evaluation.Based on our decomposition and evaluation metrics, we conduct extensive experiments and draw some empirical conclusions.For example, we find different models can exhibit distinct behaviors: some models are confident while others are more critical.We also find the trade-off between the two capabilities (i.e.improving one can lead to a decline in the other) when manipulating model self-correction behavior by prompts or in-context learning.Further, we find a simple yet efficient strategy to improve self-correction capability by transforming Supervision Fine-Tuning (SFT) data format, and our strategy outperforms vanilla SFT in both capabilities and achieves much higher accuracy after self-correction.Our code is publicly available on GitHub."
+ },
+ {
+  "paper_id": 1865,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Verification and Refinement of Natural Language Explanations through LLM-Symbolic Theorem Proving",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Natural language explanations represent a proxy for evaluating explanation-based and multi-step Natural Language Inference (NLI) models.However, assessing the validity of explanations for NLI is challenging as it typically involves the crowd-sourcing of apposite datasets, a process that is time-consuming and prone to logical errors.To address existing limitations, this paper investigates the verification and refinement of natural language explanations through the integration of Large Language Models (LLMs) and Theorem Provers (TPs).Specifically, we present a neuro-symbolic framework, named Explanation-Refiner, that integrates TPs with LLMs to generate and formalise explanatory sentences and suggest potential inference strategies for NLI.In turn, the TP is employed to provide formal guarantees on the logical validity of the explanations and to generate feedback for subsequent improvements.We demonstrate how Explanation-Refiner can be jointly used to evaluate explanatory reasoning, autoformalisation, and error correction mechanisms of state-of-the-art LLMs as well as to automatically enhance the quality of explanations of variable complexity in different domains. 1"
+ },
+ {
+  "paper_id": 1870,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "LLaVA-SCo: Teach Vision Language Models to Self-Correct",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable progress in self-correction, as seen in models like DeepSeek-R1. However, the current Vision-Language Models (VLMs) often struggle with self-correction in complex question-answering tasks. Furthermore, reinforcement learning (RL)-based approaches, while effective, incur substantial computational costs. In this work, we propose LLaVA-SCo, a novel VLM designed for efficient self-correction without relying on RL. Instead, we introduce a self-correction stage following the sequential reasoning steps of LLaVA-CoT, refining model outputs through a two-turn self-correction mechanism trained with supervised fine-tuning. To support this, we construct a largescale dataset enriched with refined reasoning annotations to enhance correction capabilities. Experiments on multimodal reasoning benchmarks demonstrate that LLaVASCo outperforms its base model by 2.7 %, exhibiting improvements in reasoning capabilities. Additionally, evaluations using GPT-4o indicate that responses after self-correction exhibit clearer structure, improved comprehension, and are preferred by GPT-4o. Furthermore, self-correction performance metrics validate that LLaVA-SCo effectively refines its reasoning, achieving consistent accuracy gains while minimizing reversal errors, confirming its ability to systematically improve responses through self-correction. The code is available at https://github.com/ZixuanLiu4869/LLaVA-Sco."
+ },
+ {
+  "paper_id": 1885,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "LLMs cannot find reasoning errors, but can correct them given the error location",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "While self-correction has shown promise in improving LLM outputs in terms of style and quality (e.g.Chen et al., 2023b;Madaan et al., 2023), recent attempts to self-correct logical or reasoning errors often cause correct answers to become incorrect, resulting in worse performances overall (Huang et al., 2023).In this paper, we show that poor self-correction performance stems from LLMs' inability to find logical mistakes, rather than their ability to correct a known mistake.Firstly, we benchmark several state-of-the-art LLMs on their mistake-finding ability and demonstrate that they generally struggle with the task, even in highly objective, unambiguous cases.Secondly, we test the correction abilities of LLMs -separately from mistake finding -using a backtracking setup that feeds ground truth mistake location information to the model.We show that this boosts downstream task performance across our 5 reasoning tasks, indicating that LLMs' correction abilities are robust.Finally, we show that it is possible to obtain mistake location information without ground truth labels or in-domain training data.We train a small classifier with out-of-domain data, which exhibits stronger mistake-finding performance than prompting a large model.We release our dataset of LLM-generated logical mistakes, BIG-Bench Mistake, to enable further research into locating LLM reasoning mistakes."
+ },
+ {
+  "paper_id": 1894,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Entropy-based Exploration Conduction for Multi-step Reasoning",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Multi-step processes via large language models (LLMs) have proven effective for solving complex reasoning tasks.However, the depth of exploration of the reasoning procedure can significantly affect the task performance.Existing methods to automatically decide the depth often lead to high cost and a lack of flexibility.To address these issues, we propose Entropybased Exploration Depth Conduction (Entroduction), a novel method that dynamically adjusts the exploration depth during multi-step reasoning by monitoring LLM's output entropy and variance entropy.We employ these two features to capture the model's uncertainty of the current step and the fluctuation of uncertainty across consecutive reasoning steps.Based on the observed entropy changes, the LLM selects whether to deepen, expand, or stop exploration according to the probability, which facilitates the trade-off between the reasoning accuracy and exploration effectiveness.Experimental results across four benchmark datasets demonstrate the efficacy of Entro-duction."
+ },
+ {
+  "paper_id": 1902,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Mirror: Multiple-perspective Self-Reflection Method for Knowledge-rich Reasoning",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "While Large language models (LLMs) have the capability to iteratively reflect on their own outputs, recent studies have observed their struggles with knowledge-rich problems without access to external resources.In addition to the inefficiency of LLMs in self-assessment, we also observe that LLMs struggle to revisit their predictions despite receiving explicit negative feedback.Therefore, We propose Mirror, a Multiple-perspective self-reflection method for knowledge-rich reasoning, to avoid getting stuck at a particular reflection iteration.Mirror enables LLMs to reflect from multipleperspective clues, achieved through a heuristic interaction between a Navigator and a Reasoner.It guides agents toward diverse yet plausibly reliable reasoning trajectory without access to ground truth by encouraging (1) diversity of directions generated by Navigator and (2) agreement among strategically induced perturbations in responses generated by the Reasoner.The experiments on five reasoning datasets demonstrate that Mirror's superiority over several contemporary self-reflection approaches.Additionally, the ablation study studies clearly indicate that our strategies alleviate the aforementioned challenges.The code is released at https://github.com/hanqi-qi/Mirror.git."
+ },
+ {
+  "paper_id": 1918,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Table-Critic: A Multi-Agent Framework for Collaborative Criticism and Refinement in Table Reasoning",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Despite the remarkable capabilities of large language models (LLMs) in various reasoning tasks, they still struggle with table reasoning tasks, particularly in maintaining consistency throughout multi-step reasoning processes.While existing approaches have explored various decomposition strategies, they often lack effective mechanisms to identify and correct errors in intermediate reasoning steps, leading to cascading error propagation.To address these issues, we propose Table-Critic, a novel multi-agent framework that facilitates collaborative criticism and iterative refinement of the reasoning process until convergence to correct solutions.Our framework consists of four specialized agents: a Judge for error identification, a Critic for comprehensive critiques, a Refiner for process improvement, and a Curator for pattern distillation.To effectively deal with diverse and unpredictable error types, we introduce a self-evolving template tree that systematically accumulates critique knowledge through experience-driven learning and guides future reflections.Extensive experiments have demonstrated that Table-Critic achieves substantial improvements over existing methods, achieving superior accuracy and error correction rates while maintaining computational efficiency and lower solution degradation rate.The code is available at https: //github.com/"
+ },
+ {
+  "paper_id": 2289,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Incentivizing LLMs to Self-Verify Their Answers",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable progress in complex reasoning tasks through both post-training and test-time scaling laws. While prevalent test-time scaling approaches are often realized by using external reward models to guide the model generation process, we find that only marginal gains can be acquired when scaling a model post-trained on specific reasoning tasks. We identify that the limited improvement stems from distribution discrepancies between the specific post-trained generator and the general reward model. To address this, we propose a framework that incentivizes LLMs to self-verify their own answers. By unifying answer generation and verification within a single reinforcement learning (RL) process, we train models that can effectively assess the correctness of their own solutions. The trained model can further scale its performance at inference time by verifying its generations, without the need for external verifiers. We train our self-verification models based on Qwen2.5-Math-7B and DeepSeek-R1-Distill-Qwen-1.5B, demonstrating their capabilities across varying reasoning context lengths. Experiments on multiple mathematical reasoning benchmarks show that our models can not only improve post-training performance but also enable effective test-time scaling."
+ },
+ {
+  "paper_id": 2295,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Auditing Meta-Cognitive Hallucinations in Reasoning Large Language Models",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "The development of Reasoning Large Language Models (RLLMs) has significantly improved multi-step reasoning capabilities, but it has also made hallucination problems more frequent and harder to eliminate. While existing approaches mitigate hallucinations through external knowledge integration, model parameter analysis, or self-verification, they often fail to capture how hallucinations emerge and evolve across the reasoning chain. In this work, we study the causality of hallucinations under constrained knowledge domains by auditing the Chain-of-Thought (CoT) trajectory and assessing the model's cognitive confidence in potentially erroneous or biased claims. Our analysis reveals that in long-CoT settings, RLLMs can iteratively reinforce biases and errors through flawed reflective reasoning, eventually leading to hallucinated reasoning paths. Surprisingly, even direct interventions at the origin of hallucinations often fail to reverse their effects, as reasoning chains exhibit 'chain disloyalty' -- a resistance to correction and a tendency to preserve flawed logic. Furthermore, we show that existing hallucination detection methods are less reliable and interpretable than previously assumed in complex reasoning scenarios. Unlike methods such as circuit tracing that require access to model internals, our black-box auditing approach supports interpretable long-chain hallucination attribution, offering better generalizability and practical utility. Our code is available at: https://github.com/Winnie-Lian/AHa_Meta_Cognitive"
+ },
+ {
+  "paper_id": 2300,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Self-Verifying Reflection Helps Transformers with CoT Reasoning",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Advanced large language models (LLMs) frequently reflect in reasoning chain-of-thoughts (CoTs), where they self-verify the correctness of current solutions and explore alternatives. However, given recent findings that LLMs detect limited errors in CoTs, how reflection contributes to empirical improvements remains unclear. To analyze this issue, in this paper, we present a minimalistic reasoning framework to support basic self-verifying reflection for small transformers without natural language, which ensures analytic clarity and reduces the cost of comprehensive experiments. Theoretically, we prove that self-verifying reflection guarantees improvements if verification errors are properly bounded. Experimentally, we show that tiny transformers, with only a few million parameters, benefit from self-verification in both training and reflective execution, reaching remarkable LLM-level performance in integer multiplication and Sudoku. Similar to LLM results, we find that reinforcement learning (RL) improves in-distribution performance and incentivizes frequent reflection for tiny transformers, yet RL mainly optimizes shallow statistical patterns without faithfully reducing verification errors. In conclusion, integrating generative transformers with discriminative verification inherently facilitates CoT reasoning, regardless of scaling and natural language."
+ },
+ {
+  "paper_id": 2365,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Verification-Aware Planning for Multi-Agent Systems",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language model (LLM) agents are increasingly deployed to tackle complex tasks, often necessitating collaboration among multiple specialized agents.However, multi-agent collaboration introduces new challenges in planning, coordination, and verification.Execution failures frequently arise not from flawed reasoning alone, but from subtle misalignments in task interpretation, output format, or inter-agent handoffs.To address these challenges, we present VERIMAP 1 , a framework for multi-agent collaboration with verificationaware planning.The VERIMAP planner decomposes tasks, models subtask dependencies, and encodes planner-defined passing criteria as subtask verification functions (VFs) in Python and natural language.We evaluate VERIMAP on diverse datasets, demonstrating that it outperforms both single-and multi-agent baselines while enhancing system robustness and interpretability.Our analysis highlights how verification-aware planning enables reliable coordination and iterative refinement in multiagent systems, without relying on external labels or annotations."
+ },
+ {
+  "paper_id": 3019,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "RAG-Critic: Leveraging Automated Critic-Guided Agentic Workflow for Retrieval Augmented Generation",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Retrieval-augmented generation (RAG) has emerged as a pivotal technology in natural language processing, owing to its efficacy in generating factual content.However, its informative inputs and complex paradigms often lead to a greater variety of errors.Consequently, achieving automated on-policy assessment and error-oriented correction remains an unresolved issue.In this paper, we propose RAG-Critic, a novel framework that leverages a critic-guided agentic workflow to improve RAG capabilities autonomously.Specifically, we initially design a data-driven error mining pipeline to establish a hierarchical RAG error system.Based on this system, we progressively align an errorcritic model using a coarse-to-fine training objective, which automatically provides finegrained error feedback.Finally, we design a critic-guided agentic RAG workflow that customizes executor-based solution flows based on the error-critic model's feedback, facilitating an error-driven self-correction process.Experimental results across seven RAG-related datasets confirm the effectiveness of RAG-Critic, while qualitative analysis offers practical insights for achieving reliable RAG systems.Our dataset and code are available at https: //github.com/RUC-NLPIR/RAG-Critic."
+ },
+ {
+  "paper_id": 3058,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Can We Further Elicit Reasoning in LLMs? Critic-Guided Planning with Retrieval-Augmentation for Solving Challenging Tasks",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Large language models excel at problemsolving but often struggle with complex reasoning and factual accuracy.While chainof-thought and retrieval-augmented generation help break down problems and retrieve knowledge, they still falter on challenging tasks like competitive programming due to frequent reasoning errors and irrelevant retrieval.To address this, we introduce Critic-guided planning with Retrieval-augmentation, CR-Planner, a novel framework that leverages fine-tuned critic models to guide both reasoning and retrieval processes through planning.CR-Planner iteratively selects and executes sub-goals, guided by critic models.A sub-goal critic identifies promising sub-goals from reasoning, query generation, and retrieval, while an execution critic evaluates outputs of sub-goal executions.We employ Monte Carlo Tree Search to collect data for critic training, allowing systematic exploration of action sequences and effective navigation toward the final answer.We evaluate CR-Planner on challenging domain-knowledgeintensive and reasoning-heavy tasks, including competitive programming, theorem-driven math reasoning, and complex domain retrieval problems.It significantly outperforms baselines, demonstrating effectiveness in both reasoning and retrieval.Our code is available at https://github.com/xingxuanli/CR-Planner."
+ },
+ {
+  "paper_id": 3157,
+  "axis": "venue_type",
+  "coder_1": "preprint",
+  "coder_2": "conference",
+  "title": "Seeing Isn\u2019t Believing: Mitigating Belief Inertia via Active Intervention in Embodied Agents",
+  "venue": "",
+  "source": "openalex",
+  "abstract": "Recent advancements in large language models (LLMs) have enabled agents to tackle complex embodied tasks through environmental interaction.However, these agents still make suboptimal decisions and perform ineffective actions, as they often overlook critical environmental feedback that differs from their internal beliefs.Through a formal probing analysis, we characterize this as belief inertia, a phenomenon where agents stubbornly adhere to prior beliefs despite explicit observations.To address this, we advocate active belief intervention, moving from passive understanding to active management.We introduce the Estimate-Verify-Update (EVU) mechanism, which empowers agents to predict expected outcomes, verify them against observations through explicit reasoning, and actively update prior beliefs based on the verification evidence.EVU is designed as a unified intervention mechanism that generates textual belief states explicitly, and can be integrated into both promptingbased and training-based agent reasoning methods.Extensive experiments across three embodied benchmarks demonstrate that EVU consistently yields substantial gains in task success rates.Further analyses validate that our approach effectively mitigates belief inertia, advancing the development of more robust embodied agents."
+ },
+ {
+  "paper_id": 7430,
+  "axis": "venue_type",
+  "coder_1": "journal",
+  "coder_2": "preprint",
+  "title": "Darwin G\u00f6del Machine: Open-Ended Evolution of Self-Improving Agents",
+  "venue": "SuperIntelligence - Robotics - Safety & Alignment",
+  "source": "openalex",
+  "abstract": "Most of today\u2019s AI systems are constrained by human-designed, fixed architectures and cannot autonomously and continuously improve themselves. The scientific method, on the other hand, provides a cumulative and open-ended system, where each innovation builds upon previous artifacts, enabling future discoveries. There is growing hope that the current manual process of advancing AI could itself be automated. If done safely, such automation would accelerate AI development and allow us to reap its benefits much sooner. This prospect raises the question of how AI systems can endlessly improve themselves while getting better at solving relevant problems. Previous approaches, such as meta-learning, provide a toolset for automating the discovery of novel algorithms but are limited by the human design of a suitable search space and first-order improvements. The Godel machine [116], on the other hand, introduced a theoretical approach to a self-improving AI, capable of modifying itself in a provably beneficial manner. Unfortunately, this original formulation is in practice impossible to create due to the inability to prove the impact of most self-modifications. To address this limitation, we propose the Darwin Godel Machine (DGM), a novel self-improving system that iteratively modifies its own code (thereby also improving its ability to modify its own codebase) and empirically validates each change using coding benchmarks. In this paper, the DGM aims to optimize the design of coding agents, powered by frozen foundation models, which enable the ability to read, write, and execute code via tool use. Inspired by biological evolution and open-endedness research, the DGM maintains an archive of generated coding agents. It then samples from this archive and tries to create a new, interesting, improved version of the sampled agent. This open-ended exploration forms a growing tree of diverse, high-quality agents and allows the parallel exploration of many different paths through the "
+ }
+]

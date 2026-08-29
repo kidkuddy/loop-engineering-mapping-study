@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+5913,include,I2,1;2;3;4;5;6;7;8;9,loop_evaluation_and_diagnosis,tool,validation_research,controlled_experiment,fully_autonomous,preprint,"p.6 PRR/RC score retry, path-switch and graceful abort as the measured object; p.8 fits PRR vs scale (3.66x slower than TSR), so the recovery loop itself is the claim."

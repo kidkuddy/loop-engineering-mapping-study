@@ -1,0 +1,2 @@
+paper_id,eligible,elig_criteria,pages_read,loop_mechanism,contribution_type,research_type,evaluation_strategy,human_role,venue_type,note
+6270,include,I2,1;2;3;4;5;6;7;8;9,planning_and_control_flow,method,validation_research,benchmark,fully_autonomous,conference,"p.8 ablation swaps the Planner for a Random Controller over the same states/actions, ASR 89%->51%; p.5 Alg.1 replans each turn under risk and turn budgets. Venue: Findings of ACL 2026 (p.1)."
