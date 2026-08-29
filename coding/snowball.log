@@ -71,3 +71,39 @@ start set (seed 20260829)   : 100
   [69/100] refs=  0 cites=  0  Logic-Based Verification of Task Allocation for LLM-
   [70/100] refs=  0 cites=  0  REFLEX: Metacognitive Reasoning for Reflective Zero-
   [71/100] refs=  0 cites=  0  RAMP: Risk-Aware Multi-Turn Planning for Jailbreak R
+  [72/100] refs=  0 cites=  0  Autonomous adversary: red-teaming in the age of LLM
+  [73/100] refs=  0 cites=  0  A Reliability Control Framework for Robust Multi-Age
+  [74/100] refs=  0 cites=  0  Local Green, Global Red Evaluated Path Kernels for C
+  [75/100] refs= 63 cites= 47  Improving Steering and Verification in AI-Assisted D
+  [76/100] refs=  2 cites=  6  A Zero-Shot Language Agent for Computer Control with
+  [77/100] refs=  0 cites=  0  SPIRAL: Symbolic LLM Planning via Grounded and Refle
+  [78/100] refs=  0 cites=  3  Automated Design of Agentic Systems
+  [79/100] refs=  0 cites=  6  Vision-Language Models Can Self-Improve Reasoning vi
+  [80/100] refs= 12 cites=  0  VerifiAgent: a Unified Verification Agent in Languag
+  [81/100] refs=  0 cites=182  Reasoning with Language Model is Planning with World
+  [82/100] refs=  0 cites=  0  Reason for Future, Act for Now: A Principled Framewo
+  [83/100] refs=  0 cites=  9  WebPilot: A Versatile and Autonomous Multi-Agent Sys
+  [84/100] refs=  0 cites=  0  Mulberry: Empowering MLLM with o1-like Reasoning and
+  [85/100] refs=  0 cites=  0  CoPS: Empowering LLM Agents with Provable Cross-Task
+  [86/100] refs=  0 cites=  1  PreAct: Prediction Enhances Agent's Planning Ability
+  [87/100] refs=  0 cites=  0  HiLSVA: Design and Evaluation of a Human-in-the-Loop
+  [88/100] refs=  0 cites=  0  Inverted Orchestration in Software Development: A De
+  [89/100] refs=  0 cites=  0  语义块:Loop Engineering 在单 Agent 系统中的上下文隔离实践
+  [90/100] refs=  0 cites=  0  Dynamics of Agentic Loops in Large Language Models: 
+  [91/100] refs=  0 cites=  0  OpenAI single-agent LLM architecture reduces computa
+  [92/100] refs=  0 cites=  0  Beyond Content Filtering: A “Circuit Breaker” Archit
+  [93/100] refs= 27 cites= 51  ISR-LLM: Iterative Self-Refined Large Language Model
+  [94/100] refs=  0 cites=  0  ReflectiChain: Mitigating Semantic-Execution Drift i
+  [95/100] refs= 13 cites=  0  Iterative Self-Improvement of Vision Language Models
+  [96/100] refs=  0 cites=  0  Enhancing Logical Reasoning Depth via Monte Carlo Tr
+  [97/100] refs=  0 cites=  0  Learning to Refine: Self-Refinement of Parallel Reas
+  [98/100] refs=  0 cites=  0  Entrospect: Information-Theoretic Self-Reflection El
+  [99/100] refs=  0 cites=  0  LLMs as ASP Programmers: Self-Correction Enables Tas
+  [100/100] refs=  0 cites=  0  PROTEA: Offline Evaluation and Iterative Refinement 
+
+seeds with citation data : 29/100
+distinct candidate DOIs  : 675
+touched by >= 2 seeds    : 18  (these are hydrated)
+
+new candidate papers not already in the corpus: 17
+wrote /Users/niemand/Desktop/loop-engineering-mapping-study/coding/snowball/candidates.json

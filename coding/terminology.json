@@ -1,0 +1,90 @@
+{
+ "identified_total": 7757,
+ "included_total": 988,
+ "phrases": {
+  "loop engineering": {
+   "records_in_identified_set": 120,
+   "of_which_about_language_models": 20,
+   "of_which_included_primary_studies": 11,
+   "earliest_year_any_sense": 2018,
+   "earliest_year_language_model_sense": 2025,
+   "examples": [
+    "LOGOS: A Living Logic for AI Agent Teams That Evolve With Humans",
+    "LoopsBench: From Harness Engineering to Loop Engineering in Coding Agent Evaluation",
+    "Loop Engineering: Building Blocks, Adoption, and Impact",
+    "Stop Hand-Holding Your Coding Agent: Engineering the Loops that Replace Step-by-Step Prompting",
+    "Loop Engineering: Building Blocks, Adoption, and Impact (Supplementary Material)"
+   ]
+  },
+  "agentic loop": {
+   "records_in_identified_set": 40,
+   "of_which_about_language_models": 40,
+   "of_which_included_primary_studies": 14,
+   "earliest_year_any_sense": 2025,
+   "earliest_year_language_model_sense": 2025,
+   "examples": [
+    "A Physical Agentic Loop for Language-Guided Grasping with Execution-State Monitoring",
+    "BALAR : A Bayesian Agentic Loop for Active Reasoning",
+    "When Agents Do Not Stop: Uncovering Infinite Agentic Loops in LLM Agents",
+    "AGENTSAFE: A Unified Framework for Ethical Assurance and Governance in Agentic AI",
+    "Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems"
+   ]
+  },
+  "agent loop": {
+   "records_in_identified_set": 52,
+   "of_which_about_language_models": 47,
+   "of_which_included_primary_studies": 22,
+   "earliest_year_any_sense": 2021,
+   "earliest_year_language_model_sense": 2023,
+   "examples": [
+    "MAgICoRe: Multi-Agent, Iterative, Coarse-to-Fine Refinement for Reasoning",
+    "Semantic Early-Stopping for Iterative LLM Agent Loops",
+    "From Agent Loops to Deterministic Graphs: Execution Lineage for Reproducible AI-Native Work",
+    "Structured Feedback Improves Repair in an LLM Agent Loop",
+    "When Do Agent Loops Mistake Stagnation for Progress? Self-Evaluation Bias and Externally Grounded Verification"
+   ]
+  },
+  "control loop": {
+   "records_in_identified_set": 40,
+   "of_which_about_language_models": 27,
+   "of_which_included_primary_studies": 11,
+   "earliest_year_any_sense": 2018,
+   "earliest_year_language_model_sense": 2024,
+   "examples": [
+    "Adaptive Data Flywheel: Applying MAPE Control Loops to AI Agent Improvement",
+    "AICL: A Control-Loop Architecture for Stable Long-Horizon LLM Agents",
+    "Resilience in Ambient Multi-Agent LLMs via Decentralized Bio-Autonomic Control and Immune-Inspired Anomaly Det",
+    "Resilience in Ambient Multi-Agent LLMs via Decentralized Bio-Autonomic Control and Immune-Inspired Anomaly Det",
+    "The Brain Needs a Body: Stabilizing Long-Horizon Reasoning with Kinematic Control"
+   ]
+  },
+  "context engineering": {
+   "records_in_identified_set": 15,
+   "of_which_about_language_models": 13,
+   "of_which_included_primary_studies": 5,
+   "earliest_year_any_sense": 2025,
+   "earliest_year_language_model_sense": 2025,
+   "examples": [
+    "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+    "Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence",
+    "KACE: Knowledge-Adaptive Context Engineering for Mathematical Reasoning",
+    "United Minds or Isolated Agents? Exploring Coordination of LLMs under Cognitive Load Theory",
+    "From Prompt Engineering to Loop Engineering: A Five-Layer Taxonomy for Evaluating AI Systems Engineering Pract"
+   ]
+  },
+  "prompt engineering": {
+   "records_in_identified_set": 96,
+   "of_which_about_language_models": 80,
+   "of_which_included_primary_studies": 12,
+   "earliest_year_any_sense": 2022,
+   "earliest_year_language_model_sense": 2022,
+   "examples": [
+    "The Brain Needs a Body: Stabilizing Long-Horizon Reasoning with Kinematic Control",
+    "PromptWizard: Optimizing Prompts via Task-Aware, Feedback-Driven Self-Evolution",
+    "AgentPRM: Process Reward Models for LLM Agents via Step-Wise Promise and Progress",
+    "Parallel Context Compaction for Long-Horizon LLM Agent Serving",
+    "Trust-Aware Runtime Verification for Autonomous LLM Agent Systems"
+   ]
+  }
+ }
+}
