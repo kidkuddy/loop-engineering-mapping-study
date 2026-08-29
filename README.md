@@ -3,8 +3,12 @@
 Replication package. Everything the manuscript states is produced from what is in
 this repository, by the scripts in this repository.
 
-> **`make verify` recomputes every number in the paper from `data/phd.sqlite`.**
-> If the paper and the data disagree, the build fails.
+> **`make facts` recomputes every number the paper reports, from `data/phd.sqlite`.**
+> **`make agreement` recomputes both inter-rater analyses from the raw coder files.**
+>
+> This repository is the **pipeline**, not the manuscript. It contains everything
+> needed to re-run the study and inspect every decision. The paper, its figures and
+> the compiled PDF are outputs and are distributed with the submission, not here.
 
 ## What the study is
 
@@ -62,17 +66,18 @@ coding/       every decision, and the evidence each coder saw
 
 scripts/      everything that turns data into numbers
 data/         phd.sqlite -- the whole study
-paper/        main.tex, sections/, facts.tex (generated), OUTLINE.md
-figures/      flow.pdf, bubble.pdf, evidence.pdf (generated)
+              (the manuscript and figures are outputs and are not in this repo)
 ```
 
 ## Reproducing
 
 ```bash
-make facts        # recompute every manuscript number from the database
+make facts        # recompute every number the manuscript reports, from the database
 make agreement    # recompute both inter-rater analyses from the raw coder files
-make paper        # rebuild the PDF
 make identification   # re-run the search itself (slow; hits four live APIs)
+
+# make verify and make paper need the manuscript sources placed in paper/;
+# they are not shipped here.
 ```
 
 `bin/phd` wraps the `phd` CLI so it always resolves this repository's local

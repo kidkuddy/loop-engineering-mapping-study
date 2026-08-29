@@ -12,13 +12,17 @@ PY    := python3
 help:
 	@grep -E '^[a-z-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN{FS=":.*?## "}{printf "  %-22s %s\n",$$1,$$2}'
 
-all: facts paper ## regenerate the numbers and build the PDF
+all: facts ## regenerate every number the manuscript cites
 
 facts: ## recompute every manuscript number from data/phd.sqlite
 	$(PY) scripts/paper_facts.py
 
-verify: ## fail if the manuscript quotes a number the data does not support
-	$(PY) scripts/paper_facts.py > /tmp/facts.now
+verify: ## check the manuscript against the data (needs the manuscript sources)
+	@test -d paper/sections || { \
+	  echo "paper/ is not in this repository -- it holds the pipeline, not the manuscript."; \
+	  echo "Place the manuscript sources in paper/ to run this check, or use 'make facts'"; \
+	  echo "to regenerate the numbers the manuscript cites."; exit 1; }
+	$(PY) scripts/paper_facts.py > /dev/null
 	$(PY) scripts/verify_manuscript.py
 
 agreement: ## recompute inter-rater agreement from the raw coder files
@@ -28,7 +32,8 @@ agreement: ## recompute inter-rater agreement from the raw coder files
 flow: ## regenerate the PRISMA flow counts
 	./bin/phd export prisma -topic-id 1 -format markdown
 
-paper: facts ## build paper/main.pdf
+paper: facts ## build paper/main.pdf (needs the manuscript sources; not shipped here)
+	@test -d paper/sections || { echo "paper/ is not in this repository."; exit 1; }
 	cd paper && latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
 
 identification: ## re-run the whole search from scratch (slow, hits four APIs)
