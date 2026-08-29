@@ -14,7 +14,10 @@ help:
 
 all: facts ## regenerate every number the manuscript cites
 
-facts: ## recompute every manuscript number from data/phd.sqlite
+facts: ## recompute every number AND figure the manuscript reports
+	$(PY) scripts/validation_summary.py > /dev/null
+	$(PY) scripts/build_map.py > /dev/null
+	$(PY) scripts/flow.py > /dev/null
 	$(PY) scripts/paper_facts.py
 
 verify: ## check the manuscript against the data (needs the manuscript sources)
